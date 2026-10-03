@@ -1,9 +1,18 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, type ReactNode } from 'react';
+import { BanIcon, PlaneIcon, SearchIcon, ShieldAlertIcon, Trash2Icon, XIcon } from 'lucide-react';
 import { COUNTRIES, DRUGS, entryFor, getCountry, getDrug, type CountryCode, type Drug } from '@/data';
 import { useMyDestination, useMyMeds } from '@/lib/my-meds';
+import { Button } from '@/components/ui/button';
+import { Checkbox } from '@/components/ui/checkbox';
+import { Input } from '@/components/ui/input';
+import { ScrollArea } from '@/components/ui/scroll-area';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { cn } from '@/lib/utils';
+import { tilt } from './DrugEntry';
+import { Flag } from './Flag';
 import { StatusPill } from './StatusPill';
 import { PrintButton } from './Toolbar';
 
@@ -16,9 +25,17 @@ function matchesFilter(drug: Drug, q: string) {
   return hay.includes(q.toLowerCase());
 }
 
-const CAUTION: Partial<Record<string, string>> = {
-  BANNED: 'Banned here — do not bring it. Ask a doctor about an alternative before you travel.',
-  CONTROLLED: 'Controlled here — carry your prescription and a doctor’s letter, in original packaging. Some countries need advance permission.',
+const CAUTION: Partial<Record<string, { icon: typeof BanIcon; ink: string; text: string }>> = {
+  BANNED: {
+    icon: BanIcon,
+    ink: 'text-ink-banned bg-ink-banned/8 border-ink-banned/30',
+    text: 'Banned here — do not bring it. Ask your doctor about an alternative before you travel.',
+  },
+  CONTROLLED: {
+    icon: ShieldAlertIcon,
+    ink: 'text-ink-controlled bg-ink-controlled/8 border-ink-controlled/30',
+    text: 'Controlled here — carry your prescription and a doctor’s letter, in original packaging. Some countries require advance permission.',
+  },
 };
 
 export function MyMedsCard() {
@@ -30,113 +47,179 @@ export function MyMedsCard() {
   const savedDrugs = meds.map(getDrug).filter((d): d is Drug => !!d);
 
   return (
-    <div className="meds-layout">
-      <section className="no-print" aria-labelledby="pick-heading">
-        <h2 id="pick-heading" className="visually-hidden">Build your card</h2>
-        <label className="field-label" htmlFor="dest">Destination</label>
-        <select
-          id="dest"
-          className="select"
-          value={dest ?? ''}
-          onChange={(e) => setDest((e.target.value || null) as CountryCode | null)}
-        >
-          <option value="">Choose a country…</option>
-          {COUNTRIES.map((c) => (
-            <option key={c.code} value={c.code}>{c.name}</option>
-          ))}
-        </select>
+    <div className="grid grid-cols-[minmax(0,1fr)] items-start gap-6 lg:grid-cols-[20rem_minmax(0,1fr)] print:block">
+      {/* Builder */}
+      <section aria-labelledby="pick-heading" className="no-print bg-card rounded-2xl border p-5 shadow-sm lg:sticky lg:top-4">
+        <h2 id="pick-heading" className="font-heading text-lg font-bold">Build your card</h2>
 
-        <label className="field-label" htmlFor="meds-filter" style={{ marginTop: '1.1rem' }}>
-          Your medicines {meds.length > 0 && `(${meds.length} selected)`}
+        <label htmlFor="dest" className="text-muted-foreground mt-4 mb-1.5 block font-mono text-[0.65rem] tracking-[0.2em] uppercase">
+          Destination
         </label>
-        <input
-          id="meds-filter"
-          className="meds-filter"
-          type="text"
-          value={filter}
-          onChange={(e) => setFilter(e.target.value)}
-          placeholder="Filter by brand or generic name, e.g. “Zoloft”"
-          autoComplete="off"
-          spellCheck={false}
-        />
-        <div className="meds-picker" role="group" aria-label="Medicines">
-          {options.length === 0 && <div className="meds-empty">No medicines match “{filter}”.</div>}
-          {options.map((d) => (
-            <label key={d.id} className="meds-option">
-              <input type="checkbox" checked={meds.includes(d.id)} onChange={() => toggle(d.id)} />
-              <span>{d.generic}</span>
-              {d.usAlt && <span className="meds-option__alt">{d.usAlt}</span>}
-            </label>
-          ))}
-        </div>
-      </section>
+        <Select value={dest ?? ''} onValueChange={(v) => setDest(v as CountryCode)}>
+          <SelectTrigger id="dest" className="w-full">
+            <SelectValue placeholder="Choose a country…" />
+          </SelectTrigger>
+          <SelectContent>
+            {COUNTRIES.map((c) => (
+              <SelectItem key={c.code} value={c.code}>
+                <Flag code={c.code} /> {c.name}
+              </SelectItem>
+            ))}
+          </SelectContent>
+        </Select>
 
-      <section className="travel-card" aria-labelledby="card-heading">
-        <div className="travel-card__head">
-          <h2 id="card-heading" className="travel-card__title">My travel meds</h2>
-          {country && <span className="travel-card__dest">{country.code} · {country.name}</span>}
+        <label htmlFor="meds-filter" className="text-muted-foreground mt-5 mb-1.5 block font-mono text-[0.65rem] tracking-[0.2em] uppercase">
+          Your medicines {meds.length > 0 && `· ${meds.length} selected`}
+        </label>
+        <div className="relative">
+          <SearchIcon className="text-muted-foreground pointer-events-none absolute top-1/2 left-2.5 size-4 -translate-y-1/2" />
+          <Input
+            id="meds-filter"
+            type="text"
+            value={filter}
+            onChange={(e) => setFilter(e.target.value)}
+            placeholder="Brand or generic, e.g. Zoloft"
+            autoComplete="off"
+            spellCheck={false}
+            className="pl-8"
+          />
         </div>
-
-        {!country || savedDrugs.length === 0 ? (
-          <p className="travel-card__lead">
-            {!country && savedDrugs.length === 0
-              ? 'Pick a destination and the medicines you take — your card appears here, ready to print.'
-              : !country
-                ? 'Now choose a destination to see what to ask for there.'
-                : 'Add the medicines you take to see what to ask for in ' + country.name + '.'}
-          </p>
-        ) : (
-          <>
-            <p className="travel-card__lead">
-              Show this at a pharmacy in {country.name}. The <em>italic</em> name is the international generic
-              name every pharmacist knows.
-            </p>
-            {savedDrugs.map((drug) => {
-              const entry = entryFor(drug, country.code);
-              const caution = CAUTION[entry.status];
+        <ScrollArea className="mt-2 h-72 rounded-lg border">
+          <div role="group" aria-label="Medicines" className="p-1">
+            {options.length === 0 && <p className="text-muted-foreground p-3 text-sm italic">No medicines match “{filter}”.</p>}
+            {options.map((d) => {
+              const checked = meds.includes(d.id);
               return (
-                <div key={drug.id} className="travel-card__row">
-                  <span className="travel-card__generic">
-                    <Link className="plain-link" href={`/drug/${drug.id}`}>{drug.generic}</Link>
+                <label
+                  key={d.id}
+                  className={cn('hover:bg-muted flex cursor-pointer items-center gap-2.5 rounded-md px-2.5 py-2 text-sm', checked && 'bg-secondary')}
+                >
+                  <Checkbox checked={checked} onCheckedChange={() => toggle(d.id)} />
+                  <span className="min-w-0">
+                    <span className="block font-medium">{d.generic}</span>
+                    {d.usAlt && <span className="text-muted-foreground block truncate text-xs">{d.usAlt}</span>}
                   </span>
-                  <StatusPill status={entry.status} />
-                  <span className="travel-card__ask">
-                    <span className="travel-card__ask-label">Ask for</span>
-                    {entry.brand}
-                  </span>
-                  {entry.note && <span className="travel-card__note">{entry.note}</span>}
-                  {caution && <span className="travel-card__warn">{caution}</span>}
-                  {entry.confidence !== 'high' && (
-                    <span className="travel-card__warn" style={{ color: 'var(--amber)' }}>
-                      {entry.confidence === 'low'
-                        ? '? Unconfirmed — verify with a local pharmacist.'
-                        : '† General market knowledge, not brand-verified.'}
-                    </span>
-                  )}
-                  <button
-                    type="button"
-                    className="print-btn travel-card__remove"
-                    style={{ gridColumn: '1 / -1' }}
-                    onClick={() => toggle(drug.id)}
-                  >
-                    Remove
-                  </button>
-                </div>
+                </label>
               );
             })}
-          </>
+          </div>
+        </ScrollArea>
+        {meds.length > 0 && (
+          <Button variant="ghost" size="sm" className="text-muted-foreground mt-3" onClick={clear}>
+            <Trash2Icon /> Clear all
+          </Button>
         )}
-        <p className="travel-card__foot">
-          Pill Trotter seed data — not medical or legal advice. Confirm with a local pharmacist or physician.
-        </p>
       </section>
 
-      <div className="toolbar no-print" style={{ justifyContent: 'space-between' }}>
-        {meds.length > 0 ? (
-          <button type="button" className="print-btn" onClick={clear}>Clear my meds</button>
-        ) : <span />}
-        <PrintButton label="Print card / Save as PDF" />
+      {/* Boarding pass */}
+      <div>
+        <section aria-labelledby="card-heading" className="travel-card ticket bg-card overflow-hidden rounded-2xl border shadow-md">
+          <header className="guilloche text-navy-foreground flex items-center justify-between gap-3 px-5 py-3">
+            <span className="text-gold font-heading flex items-center gap-2 text-sm font-bold tracking-[0.2em] uppercase">
+              <PlaneIcon className="size-4 -rotate-45" /> Pill Trotter
+            </span>
+            <h2 id="card-heading" className="font-mono text-[0.65rem] tracking-[0.25em] uppercase">Travel meds card</h2>
+          </header>
+
+          <div className="flex">
+            <div className="min-w-0 flex-1">
+              <dl className="grid grid-cols-2 gap-4 border-b px-5 py-4 sm:grid-cols-3">
+                <Field label="Destination">
+                  {country ? (
+                    <span className="flex items-center gap-2"><Flag code={country.code} /> {country.name}</span>
+                  ) : '—'}
+                </Field>
+                <Field label="Medicines">{savedDrugs.length || '—'}</Field>
+                <Field label="Show to" className="hidden sm:block">Pharmacist</Field>
+              </dl>
+
+              {!country || savedDrugs.length === 0 ? (
+                <p className="text-muted-foreground px-5 py-10 text-center text-sm">
+                  {!country && savedDrugs.length === 0
+                    ? 'Pick a destination and the medicines you take. Your card appears here, ready to print.'
+                    : !country
+                      ? 'Now choose a destination to see what to ask for there.'
+                      : `Add the medicines you take to see what to ask for in ${country.name}.`}
+                </p>
+              ) : (
+                <ol>
+                  {savedDrugs.map((drug, i) => {
+                    const entry = entryFor(drug, country.code);
+                    const caution = CAUTION[entry.status];
+                    return (
+                      <li key={drug.id} className="travel-card__row border-t px-5 py-4 first:border-t-0">
+                        <div className="flex flex-wrap items-start justify-between gap-x-3 gap-y-2">
+                          <div className="min-w-0 flex-1 basis-48">
+                            <Link href={`/drug/${drug.id}`} className="font-heading text-lg font-bold underline-offset-4 hover:underline">
+                              {drug.generic}
+                            </Link>
+                            {drug.usAlt && <p className="text-muted-foreground text-xs">{drug.usAlt}</p>}
+                          </div>
+                          <span style={tilt(i)} className="shrink-0"><StatusPill status={entry.status} /></span>
+                        </div>
+                        <p className="mt-2 text-base">
+                          <span className="text-muted-foreground mr-2 font-mono text-[0.6rem] tracking-[0.16em] uppercase">Ask for</span>
+                          <span className="font-semibold">{entry.brand}</span>
+                        </p>
+                        {entry.note && <p className="text-muted-foreground mt-1 text-[0.82rem] leading-relaxed">{entry.note}</p>}
+                        {caution && (
+                          <p className={cn('mt-2 flex gap-2 rounded-lg border px-3 py-2 text-[0.8rem] leading-snug', caution.ink)}>
+                            <caution.icon className="mt-0.5 size-4 shrink-0" />
+                            {caution.text}
+                          </p>
+                        )}
+                        {entry.confidence !== 'high' && (
+                          <p className="text-ink-mixed mt-1.5 text-xs">
+                            {entry.confidence === 'low'
+                              ? 'Unconfirmed — verify with a local pharmacist.'
+                              : 'General market knowledge, not brand-verified.'}
+                          </p>
+                        )}
+                        <Button
+                          variant="ghost"
+                          size="xs"
+                          className="travel-card__remove no-print text-muted-foreground mt-1 -ml-2"
+                          onClick={() => toggle(drug.id)}
+                        >
+                          <XIcon /> Remove
+                        </Button>
+                      </li>
+                    );
+                  })}
+                </ol>
+              )}
+            </div>
+
+            {/* Stub */}
+            <div className="perforation hidden w-44 shrink-0 flex-col items-center gap-3 px-4 py-5 text-center sm:flex">
+              <span className="text-muted-foreground font-mono text-[0.6rem] tracking-[0.2em] uppercase">To</span>
+              <span className="font-heading text-5xl leading-none font-extrabold tracking-tight">{country?.code ?? '—'}</span>
+              {country && <Flag code={country.code} className="h-6" />}
+              <span className="text-muted-foreground font-mono text-[0.6rem] tracking-[0.2em] uppercase">
+                {savedDrugs.length} med{savedDrugs.length === 1 ? '' : 's'}
+              </span>
+              <span aria-hidden="true" className="barcode text-foreground/80 mt-auto h-12 w-full" />
+            </div>
+          </div>
+
+          <p className="text-muted-foreground border-t border-dashed px-5 py-3 text-[0.72rem]">
+            Pill Trotter seed data — not medical or legal advice. Confirm with a local pharmacist or physician.
+          </p>
+        </section>
+
+        <div className="no-print mt-3 flex justify-end">
+          <PrintButton label="Print card / Save as PDF" />
+        </div>
       </div>
+    </div>
+  );
+}
+
+function Field({ label, children, className }: { label: string; children: ReactNode; className?: string }) {
+  return (
+    <div className={className}>
+      <dt className="text-muted-foreground font-mono text-[0.6rem] tracking-[0.2em] uppercase">{label}</dt>
+      <dd className="font-heading mt-0.5 text-base font-semibold">{children}</dd>
     </div>
   );
 }

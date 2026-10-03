@@ -1,13 +1,16 @@
 'use client';
 
 import { useEffect } from 'react';
+import { Link2Icon, PrinterIcon } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 import { applySources, SOURCES_KEY } from '@/lib/theme';
 import { useHydrated, useStoredString } from '@/lib/storage';
+import { cn } from '@/lib/utils';
 
-export function SourcesToggle() {
+export function SourcesToggle({ className }: { className?: string }) {
   const hydrated = useHydrated();
   const [raw, setRaw] = useStoredString(SOURCES_KEY);
-  const on = raw === '1';
+  const on = hydrated && raw === '1';
 
   // Skip the hydration pass, where storage reads as null; the head script already applied it.
   useEffect(() => {
@@ -15,22 +18,25 @@ export function SourcesToggle() {
   }, [hydrated, on]);
 
   return (
-    <button
+    <Button
       type="button"
-      className="print-btn sources-btn"
-      aria-pressed={hydrated ? on : false}
+      variant="ghost"
+      size="sm"
+      aria-pressed={on}
+      className={cn('aria-pressed:bg-secondary aria-pressed:text-foreground text-muted-foreground', className)}
       onClick={() => setRaw(on ? '0' : '1')}
     >
-      {hydrated && on ? 'Hide sources' : 'Show sources'}
-    </button>
+      <Link2Icon />
+      {on ? 'Hide sources' : 'Show sources'}
+    </Button>
   );
 }
 
 /** Opens every <details> entry for printing, then restores what was open. */
-export function PrintButton({ label = 'Print / Save as PDF' }: { label?: string }) {
+export function PrintButton({ label = 'Print', className }: { label?: string; className?: string }) {
   useEffect(() => {
     let openBefore: boolean[] | null = null;
-    const entries = () => Array.from(document.querySelectorAll<HTMLDetailsElement>('details.entry'));
+    const entries = () => Array.from(document.querySelectorAll<HTMLDetailsElement>('details.ticket'));
     const before = () => {
       openBefore = entries().map((d) => d.open);
       entries().forEach((d) => (d.open = true));
@@ -50,8 +56,9 @@ export function PrintButton({ label = 'Print / Save as PDF' }: { label?: string 
   }, []);
 
   return (
-    <button type="button" className="print-btn" onClick={() => window.print()}>
+    <Button type="button" variant="ghost" size="sm" className={cn('text-muted-foreground', className)} onClick={() => window.print()}>
+      <PrinterIcon />
       {label}
-    </button>
+    </Button>
   );
 }

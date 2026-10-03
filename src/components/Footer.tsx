@@ -1,31 +1,65 @@
+import type { CSSProperties } from 'react';
+import { CONTAINER } from './Masthead';
+import { StatusPill } from './StatusPill';
+import { CircleHelpIcon, InfoIcon, TriangleAlertIcon } from 'lucide-react';
+
+const LEGEND: { status: string; text: string }[] = [
+  { status: 'OTC', text: 'Over the counter — take it off the shelf.' },
+  { status: 'RX', text: 'Needs a local doctor’s prescription.' },
+  { status: 'MIXED', text: 'OTC or Rx depending on dose or form (e.g. nasal spray vs. inhaler).' },
+  { status: 'PHARMACY', text: 'No prescription, but a pharmacist has to hand it over.' },
+  { status: 'CONTROLLED', text: 'A prescription works, but expect scrutiny, paperwork, and harder refills.' },
+  { status: 'BANNED', text: 'No legal personal-use pathway. Do not bring it in.' },
+  { status: 'ASK_GENERIC', text: 'Local brand unknown — ask by the generic name.' },
+  { status: 'UNCONFIRMED', text: 'No reliable information yet.' },
+];
+
 export function Footer() {
   return (
-    <footer className="foot">
-      <div className="foot__key">
-        <span><span className="pill pill--otc">OTC</span> over the counter</span>
-        <span><span className="pill pill--rx">Rx</span> prescription only</span>
-        <span>
-          <span className="pill pill--pharmacy">No Rx — Ask Pharmacist</span> no doctor&apos;s prescription
-          needed, but only a pharmacist can hand it to you (not off the shelf)
-        </span>
-        <span>
-          <span className="pill pill--controlled">Controlled (Rx)</span> a prescription works, but expect
-          scrutiny — schedule drug, extra paperwork, harder refills
-        </span>
-        <span>
-          <span className="pill pill--banned">Banned — Do Not Bring</span> no legal personal-use pathway — do
-          not attempt to bring this in
-        </span>
-        <span><span className="pill pill--generic">Ask by generic name</span> brand unknown, generic name given</span>
-        <span><span className="conf conf-med">†</span> general knowledge, not brand-verified</span>
-        <span><span className="conf conf-low">?</span> unconfirmed — verify locally</span>
+    <footer className="border-border mt-16 border-t">
+      <div className={`${CONTAINER} grid gap-10 py-10 md:grid-cols-[1.4fr_1fr]`}>
+        <section aria-labelledby="legend-heading">
+          <h2 id="legend-heading" className="text-muted-foreground mb-4 font-mono text-[0.68rem] tracking-[0.2em] uppercase">
+            Reading the stamps
+          </h2>
+          <dl className="grid gap-x-6 gap-y-3 sm:grid-cols-2">
+            {LEGEND.map(({ status, text }, i) => (
+              <div key={status} className="flex items-start gap-3">
+                <dt className="w-[8.5rem] shrink-0" style={{ '--stamp-tilt': `${i % 2 ? 1.5 : -2}deg` } as CSSProperties}>
+                  <StatusPill status={status} size="sm" />
+                </dt>
+                <dd className="text-muted-foreground text-sm leading-snug">{text}</dd>
+              </div>
+            ))}
+            <div className="flex items-start gap-3">
+              <dt className="text-ink-mixed flex w-[8.5rem] shrink-0 items-center gap-1.5 text-sm font-medium">
+                <InfoIcon className="size-4" /> Not verified
+              </dt>
+              <dd className="text-muted-foreground text-sm leading-snug">General market knowledge, not brand-verified.</dd>
+            </div>
+            <div className="flex items-start gap-3">
+              <dt className="text-ink-banned flex w-[8.5rem] shrink-0 items-center gap-1.5 text-sm font-medium">
+                <CircleHelpIcon className="size-4" /> Unconfirmed
+              </dt>
+              <dd className="text-muted-foreground text-sm leading-snug">Verify locally before relying on it.</dd>
+            </div>
+          </dl>
+        </section>
+        <aside className="bg-card self-start rounded-xl border p-5 text-sm">
+          <p className="font-heading mb-2 flex items-center gap-2 font-semibold">
+            <TriangleAlertIcon className="text-ink-controlled size-4" />
+            Seed data for a prototype
+          </p>
+          <p className="text-muted-foreground leading-relaxed">
+            Compiled from general pharmacology knowledge, not a live regulatory feed. Brand names, availability, and
+            prescription status change and vary by region and even by pharmacy. Confirm with a local pharmacist or
+            physician before relying on this while traveling.
+          </p>
+        </aside>
       </div>
-      <p className="foot__disclaimer">
-        <strong>This is seed data for a prototype</strong>, compiled from general pharmacology knowledge — not
-        a live regulatory feed. Brand names, availability, and prescription status change and vary by region
-        and even by individual pharmacy. Confirm with a local pharmacist or physician before relying on this
-        while traveling.
-      </p>
+      <div className="guilloche text-navy-foreground/70 py-4 text-center font-mono text-[0.65rem] tracking-[0.25em] uppercase">
+        Pill Trotter · Know what to ask for, wherever you land
+      </div>
     </footer>
   );
 }

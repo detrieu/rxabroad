@@ -33,8 +33,10 @@ npm run build      # all 67 pages are statically generated
 npm run lint
 ```
 
-Built with Next.js 16 (App Router) and React 19, using plain CSS (`src/app/globals.css`) with color
-tokens for both themes. There's no backend.
+Built with Next.js 16 (App Router), React 19, Tailwind CSS v4 and [shadcn/ui](https://ui.shadcn.com)
+(Radix base, Nova preset). The "passport" theme lives in `src/app/globals.css`: color tokens for light
+(passport paper) and dark (night flight), rubber-stamp status styles, and print rules. Add more shadcn
+components with `npx shadcn@latest add <name>`. There's no backend.
 
 ### Project layout
 
@@ -43,7 +45,7 @@ tokens for both themes. There's no backend.
 | `src/data/drugs.json` | The formulary: 50 drugs × 14 countries. **Edit this to change the data.** |
 | `src/data/countries.ts`, `status.ts`, `types.ts` | Countries (with URL slugs), status labels, types |
 | `src/lib/search.ts` | Search matching and country narrowing |
-| `src/components/` | UI components |
+| `src/components/` | App components (`ui/` holds the shadcn components) |
 | `src/app/` | Routes: `/`, `/drug/[id]`, `/country/[slug]`, `/my-meds`, sitemap, robots |
 | `scripts/extract-data.mjs` | One-time import from the original single-file prototype |
 | `research/` | Scripts and reports from the original data research (Health Canada DPD, French BDPM, …) |

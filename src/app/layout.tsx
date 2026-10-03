@@ -1,28 +1,15 @@
 import type { Metadata, Viewport } from 'next';
-import { IBM_Plex_Mono, Public_Sans, Spectral } from 'next/font/google';
+import { Bricolage_Grotesque, Geist, IBM_Plex_Mono } from 'next/font/google';
 import { Masthead } from '@/components/Masthead';
 import { Footer } from '@/components/Footer';
 import { headInitScript } from '@/lib/theme';
 import { SITE_NAME, SITE_TAGLINE, SITE_URL } from '@/lib/site';
+import { cn } from '@/lib/utils';
 import './globals.css';
 
-const spectral = Spectral({
-  variable: '--font-spectral',
-  subsets: ['latin'],
-  weight: ['400', '500', '600'],
-  style: ['normal', 'italic'],
-});
-
-const publicSans = Public_Sans({
-  variable: '--font-public-sans',
-  subsets: ['latin'],
-});
-
-const plexMono = IBM_Plex_Mono({
-  variable: '--font-plex-mono',
-  subsets: ['latin'],
-  weight: ['400', '500'],
-});
+const bricolage = Bricolage_Grotesque({ variable: '--font-bricolage', subsets: ['latin'] });
+const geist = Geist({ variable: '--font-geist', subsets: ['latin'] });
+const plexMono = IBM_Plex_Mono({ variable: '--font-plex-mono', subsets: ['latin'], weight: ['400', '500', '600'] });
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -34,29 +21,23 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
+  // Matches the navy passport-cover header in each theme.
   themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#f1efe2' },
-    { media: '(prefers-color-scheme: dark)', color: '#141d17' },
+    { media: '(prefers-color-scheme: light)', color: '#1b2a57' },
+    { media: '(prefers-color-scheme: dark)', color: '#070d1c' },
   ],
 };
 
 export default function RootLayout({ children }: LayoutProps<'/'>) {
   return (
-    <html
-      lang="en"
-      className={`${spectral.variable} ${publicSans.variable} ${plexMono.variable}`}
-      suppressHydrationWarning
-    >
+    <html lang="en" className={cn(bricolage.variable, geist.variable, plexMono.variable)} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: headInitScript }} />
       </head>
-      <body>
-        <div className="ribbon" />
-        <div className="page">
-          <Masthead />
-          {children}
-          <Footer />
-        </div>
+      <body className="flex min-h-dvh flex-col">
+        <Masthead />
+        <div className="flex-1">{children}</div>
+        <Footer />
       </body>
     </html>
   );
