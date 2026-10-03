@@ -6,7 +6,7 @@ import { COUNTRIES, DRUGS, entryFor, getCountryBySlug, type Status } from '@/dat
 import { Button } from '@/components/ui/button';
 import { StatusPill } from '@/components/StatusPill';
 import { ConfBadge } from '@/components/ConfBadge';
-import { SourceLink, tilt } from '@/components/DrugEntry';
+import { SourceLink } from '@/components/DrugEntry';
 import { Flag } from '@/components/Flag';
 import { CONTAINER } from '@/components/Masthead';
 import { PageHero } from '@/components/PageHero';
@@ -63,8 +63,8 @@ export default async function CountryPage({ params }: PageProps<'/country/[slug]
         <div className="bg-card -mt-5 rounded-2xl border p-5 shadow-sm">
           <p className="text-muted-foreground mb-4 font-mono text-[0.65rem] tracking-[0.2em] uppercase">Entry summary</p>
           <ul className="flex flex-wrap gap-x-6 gap-y-4">
-            {SUMMARY_ORDER.filter((s) => counts[s]).map((s, i) => (
-              <li key={s} className="flex items-center gap-2.5" style={tilt(i)}>
+            {SUMMARY_ORDER.filter((s) => counts[s]).map((s) => (
+              <li key={s} className="flex items-center gap-2.5">
                 <StatusPill status={s} size="sm" />
                 <span className="font-heading text-xl font-bold tabular-nums">{counts[s]}</span>
               </li>
@@ -88,7 +88,7 @@ export default async function CountryPage({ params }: PageProps<'/country/[slug]
             <span role="columnheader">Ask for</span>
             <span role="columnheader">Status</span>
           </div>
-          {rows.map(({ drug, entry }, i) => (
+          {rows.map(({ drug, entry }) => (
             <div
               key={drug.id}
               role="row"
@@ -105,7 +105,7 @@ export default async function CountryPage({ params }: PageProps<'/country/[slug]
                 <span className="font-semibold">{entry.brand}</span>
                 <ConfBadge confidence={entry.confidence} />
               </span>
-              <span role="cell" className="col-start-2 row-start-1 justify-self-end sm:col-start-auto sm:row-start-auto" style={tilt(i)}>
+              <span role="cell" className="col-start-2 row-start-1 justify-self-end sm:col-start-auto sm:row-start-auto">
                 <StatusPill status={entry.status} />
               </span>
               {entry.note && <p className="text-muted-foreground col-span-full text-[0.82rem] leading-relaxed">{entry.note}</p>}

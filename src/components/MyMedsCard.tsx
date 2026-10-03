@@ -11,7 +11,6 @@ import { Input } from '@/components/ui/input';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { cn } from '@/lib/utils';
-import { tilt } from './DrugEntry';
 import { Flag } from './Flag';
 import { StatusPill } from './StatusPill';
 import { PrintButton } from './Toolbar';
@@ -143,7 +142,7 @@ export function MyMedsCard() {
                 </p>
               ) : (
                 <ol>
-                  {savedDrugs.map((drug, i) => {
+                  {savedDrugs.map((drug) => {
                     const entry = entryFor(drug, country.code);
                     const caution = CAUTION[entry.status];
                     return (
@@ -155,7 +154,7 @@ export function MyMedsCard() {
                             </Link>
                             {drug.usAlt && <p className="text-muted-foreground text-xs">{drug.usAlt}</p>}
                           </div>
-                          <span style={tilt(i)} className="shrink-0"><StatusPill status={entry.status} /></span>
+                          <span className="shrink-0"><StatusPill status={entry.status} /></span>
                         </div>
                         <p className="mt-2 text-base">
                           <span className="text-muted-foreground mr-2 font-mono text-[0.6rem] tracking-[0.16em] uppercase">Ask for</span>

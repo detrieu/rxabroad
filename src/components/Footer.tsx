@@ -1,4 +1,3 @@
-import type { CSSProperties } from 'react';
 import { CONTAINER } from './Masthead';
 import { StatusPill } from './StatusPill';
 import { CircleHelpIcon, InfoIcon, TriangleAlertIcon } from 'lucide-react';
@@ -22,26 +21,28 @@ export function Footer() {
           <h2 id="legend-heading" className="text-muted-foreground mb-4 font-mono text-[0.68rem] tracking-[0.2em] uppercase">
             Reading the stamps
           </h2>
-          <dl className="grid gap-x-6 gap-y-3 sm:grid-cols-2">
-            {LEGEND.map(({ status, text }, i) => (
-              <div key={status} className="flex items-start gap-3">
-                <dt className="w-[8.5rem] shrink-0" style={{ '--stamp-tilt': `${i % 2 ? 1.5 : -2}deg` } as CSSProperties}>
+          {/* Stamp column sizes to the widest stamp, so explanations never sit underneath one.
+              On phones each stamp stacks above its explanation. */}
+          <dl className="grid grid-cols-1 gap-y-4 sm:grid-cols-[max-content_minmax(0,1fr)] sm:items-center sm:gap-x-5 sm:gap-y-3">
+            {LEGEND.map(({ status, text }) => (
+              <div key={status} className="contents">
+                <dt>
                   <StatusPill status={status} size="sm" />
                 </dt>
-                <dd className="text-muted-foreground text-sm leading-snug">{text}</dd>
+                <dd className="text-muted-foreground -mt-2.5 text-sm leading-snug sm:mt-0">{text}</dd>
               </div>
             ))}
-            <div className="flex items-start gap-3">
-              <dt className="text-ink-mixed flex w-[8.5rem] shrink-0 items-center gap-1.5 text-sm font-medium">
+            <div className="contents">
+              <dt className="text-ink-mixed flex items-center gap-1.5 text-sm font-medium">
                 <InfoIcon className="size-4" /> Not verified
               </dt>
-              <dd className="text-muted-foreground text-sm leading-snug">General market knowledge, not brand-verified.</dd>
+              <dd className="text-muted-foreground -mt-2.5 text-sm leading-snug sm:mt-0">General market knowledge, not brand-verified.</dd>
             </div>
-            <div className="flex items-start gap-3">
-              <dt className="text-ink-banned flex w-[8.5rem] shrink-0 items-center gap-1.5 text-sm font-medium">
+            <div className="contents">
+              <dt className="text-ink-banned flex items-center gap-1.5 text-sm font-medium">
                 <CircleHelpIcon className="size-4" /> Unconfirmed
               </dt>
-              <dd className="text-muted-foreground text-sm leading-snug">Verify locally before relying on it.</dd>
+              <dd className="text-muted-foreground -mt-2.5 text-sm leading-snug sm:mt-0">Verify locally before relying on it.</dd>
             </div>
           </dl>
         </section>

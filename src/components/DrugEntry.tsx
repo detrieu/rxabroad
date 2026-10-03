@@ -1,4 +1,3 @@
-import type { CSSProperties } from 'react';
 import Link from 'next/link';
 import { ChevronDownIcon } from 'lucide-react';
 import { entryFor, isSafeSource, statusMeta, type Country, type CountryCode, type Drug } from '@/data';
@@ -10,10 +9,6 @@ import { ConfBadge } from './ConfBadge';
 import { AddMedButton } from './AddMedButton';
 
 type CountryHits = Partial<Record<CountryCode, true>>;
-
-// Hand-stamped look: each stamp lands at a slightly different angle.
-const TILTS = [-2.5, 1.5, -1, 2, -3, 0.5, -1.5];
-export const tilt = (i: number) => ({ '--stamp-tilt': `${TILTS[i % TILTS.length]}deg` }) as CSSProperties;
 
 interface DrugEntryProps {
   drug: Drug;
@@ -120,16 +115,16 @@ export function DrugTable({ drug, countries, query, countryHits = {} }: DrugTabl
         <span role="columnheader">Ask for</span>
         <span role="columnheader">Status</span>
       </div>
-      {countries.map((co, i) => (
-        <CountryRow key={co.code} index={i} drug={drug} country={co} query={query} isMatch={!!countryHits[co.code]} />
+      {countries.map((co) => (
+        <CountryRow key={co.code} drug={drug} country={co} query={query} isMatch={!!countryHits[co.code]} />
       ))}
     </div>
   );
 }
 
 function CountryRow({
-  drug, country, query, isMatch, index,
-}: { drug: Drug; country: Country; query?: string; isMatch: boolean; index: number }) {
+  drug, country, query, isMatch,
+}: { drug: Drug; country: Country; query?: string; isMatch: boolean }) {
   const entry = entryFor(drug, country.code);
   return (
     <div
@@ -150,7 +145,7 @@ function CountryRow({
         <span className="font-semibold"><Highlight text={entry.brand} query={query} /></span>
         <ConfBadge confidence={entry.confidence} />
       </span>
-      <span role="cell" className="col-start-2 row-start-1 justify-self-end sm:col-start-auto sm:row-start-auto" style={tilt(index)}>
+      <span role="cell" className="col-start-2 row-start-1 justify-self-end sm:col-start-auto sm:row-start-auto">
         <StatusPill status={entry.status} />
       </span>
       {entry.note && <p className="text-muted-foreground col-span-full text-[0.82rem] leading-relaxed">{entry.note}</p>}

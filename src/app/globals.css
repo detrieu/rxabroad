@@ -183,7 +183,6 @@
     outline: 1px solid color-mix(in oklch, var(--ink) 55%, transparent);
     outline-offset: -5px;
     background: color-mix(in oklch, var(--ink) 7%, transparent);
-    transform: rotate(var(--stamp-tilt, -2deg));
     /* worn-ink texture */
     mask-image: radial-gradient(circle at 30% 40%, #000 60%, rgb(0 0 0 / 0.82) 100%);
   }
