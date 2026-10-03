@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useState, type ReactNode } from 'react';
-import { BanIcon, PlaneIcon, SearchIcon, ShieldAlertIcon, Trash2Icon, XIcon } from 'lucide-react';
+import { BanIcon, PlaneIcon, SearchIcon, ShieldAlertIcon, Trash2Icon } from 'lucide-react';
 import { COUNTRIES, DRUGS, entryFor, getCountry, getDrug, type CountryCode, type Drug } from '@/data';
 import { useMyDestination, useMyMeds } from '@/lib/my-meds';
 import { Button } from '@/components/ui/button';
@@ -175,12 +175,12 @@ export function MyMedsCard() {
                           </p>
                         )}
                         <Button
-                          variant="ghost"
-                          size="xs"
-                          className="travel-card__remove no-print text-muted-foreground mt-1 -ml-2"
+                          variant="outline"
+                          className="travel-card__remove no-print hover:border-destructive/40 hover:bg-destructive/10 hover:text-destructive dark:hover:bg-destructive/20 mt-3"
                           onClick={() => toggle(drug.id)}
+                          aria-label={`Remove ${drug.generic} from my travel card`}
                         >
-                          <XIcon /> Remove
+                          <Trash2Icon /> Remove
                         </Button>
                       </li>
                     );
