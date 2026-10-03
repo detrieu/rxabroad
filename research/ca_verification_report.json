@@ -1,0 +1,2398 @@
+[
+  {
+    "id": "paracetamol",
+    "generic": "Paracetamol",
+    "search_term_used": "acetaminophen",
+    "num_products_marketed": 5,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "HOT LEMON RELIEF FOR SYMPTOMS OF COLD AND FLU REGULAR STRENGTH",
+        "count": 1,
+        "companies": [
+          "CELLCHEM PHARMACEUTICALS INC."
+        ]
+      },
+      {
+        "brand": "ACETAMINOPHEN 325MG TABLETS REGULAR STRENGTH",
+        "count": 1,
+        "companies": [
+          "CELLCHEM PHARMACEUTICALS INC."
+        ]
+      },
+      {
+        "brand": "ACETAMINOPHEN 500MG TABLETS EXTRA STRENGTH",
+        "count": 1,
+        "companies": [
+          "CELLCHEM PHARMACEUTICALS INC."
+        ]
+      },
+      {
+        "brand": "BUCKLEY'S COLD & SINUS 24 HOUR PACK",
+        "count": 1,
+        "companies": [
+          "HALEON CANADA ULC"
+        ]
+      },
+      {
+        "brand": "BUCKLEY'S COMPLETE 24 HOUR PACK",
+        "count": 1,
+        "companies": [
+          "HALEON CANADA ULC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "NON-PRESCRIPTION DRUGS"
+    ]
+  },
+  {
+    "id": "ibuprofen",
+    "generic": "Ibuprofen",
+    "search_term_used": "ibuprofen",
+    "num_products_marketed": 13,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "ADVIL MIGRAINE & HEADACHE",
+        "count": 1,
+        "companies": [
+          "HALEON CANADA ULC"
+        ]
+      },
+      {
+        "brand": "ADVIL FLU",
+        "count": 1,
+        "companies": [
+          "HALEON CANADA ULC"
+        ]
+      },
+      {
+        "brand": "IBUPROFEN MINI LIQUID CAPSULES",
+        "count": 1,
+        "companies": [
+          "JUNO OTC INC"
+        ]
+      },
+      {
+        "brand": "CHILDREN'S MOTRIN",
+        "count": 1,
+        "companies": [
+          "KENVUE CANADA INC."
+        ]
+      },
+      {
+        "brand": "CHILDREN'S ADVIL",
+        "count": 1,
+        "companies": [
+          "HALEON CANADA ULC"
+        ]
+      },
+      {
+        "brand": "ADVIL COLD AND SINUS DAYTIME",
+        "count": 1,
+        "companies": [
+          "HALEON CANADA ULC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "NON-PRESCRIPTION DRUGS"
+    ]
+  },
+  {
+    "id": "loratadine",
+    "generic": "Loratadine",
+    "search_term_used": "loratadine",
+    "num_products_marketed": 18,
+    "num_products_total": 35,
+    "top_brands": [
+      {
+        "brand": "ALLERGY REMEDY",
+        "count": 1,
+        "companies": [
+          "APOTEX INC"
+        ]
+      },
+      {
+        "brand": "AERIUS SINUS + ALLERGY",
+        "count": 1,
+        "companies": [
+          "BAYER INC"
+        ]
+      },
+      {
+        "brand": "LORATADINE",
+        "count": 1,
+        "companies": [
+          "APOTEX INC"
+        ]
+      },
+      {
+        "brand": "AERIUS KIDS",
+        "count": 1,
+        "companies": [
+          "BAYER INC"
+        ]
+      },
+      {
+        "brand": "DESLORATADINE ALLERGY CONTROL",
+        "count": 1,
+        "companies": [
+          "PHARMASCIENCE INC"
+        ]
+      },
+      {
+        "brand": "LORATADINE SOFT GEL CAPSULES",
+        "count": 1,
+        "companies": [
+          "APOTEX INC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "NON-PRESCRIPTION DRUGS"
+    ]
+  },
+  {
+    "id": "cetirizine",
+    "generic": "Cetirizine",
+    "search_term_used": "cetirizine",
+    "num_products_marketed": 16,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "EXTRA STRENGTH ALLERGY RELIEF",
+        "count": 2,
+        "companies": [
+          "PHARMASCIENCE INC",
+          "VITA HEALTH PRODUCTS INC"
+        ]
+      },
+      {
+        "brand": "CETIRIZINE",
+        "count": 2,
+        "companies": [
+          "SIVEM PHARMACEUTICALS ULC",
+          "SANIS HEALTH INC"
+        ]
+      },
+      {
+        "brand": "APO-CETIRIZINE",
+        "count": 2,
+        "companies": [
+          "APOTEX INC"
+        ]
+      },
+      {
+        "brand": "PMS-CETIRIZINE",
+        "count": 1,
+        "companies": [
+          "PHARMASCIENCE INC"
+        ]
+      },
+      {
+        "brand": "M-CETIRIZINE",
+        "count": 1,
+        "companies": [
+          "MANTRA PHARMA INC"
+        ]
+      },
+      {
+        "brand": "MAR-CETIRIZINE",
+        "count": 1,
+        "companies": [
+          "MARCAN PHARMACEUTICALS INC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "NON-PRESCRIPTION DRUGS",
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "diphenhydramine",
+    "generic": "Diphenhydramine",
+    "search_term_used": "diphenhydramine",
+    "num_products_marketed": 5,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "DAMYLIN WITH CODEINE SYRUP",
+        "count": 1,
+        "companies": [
+          "LABORATOIRE RIVA INC."
+        ]
+      },
+      {
+        "brand": "ANTI-ITCH CREAM",
+        "count": 1,
+        "companies": [
+          "TARO PHARMACEUTICALS INC"
+        ]
+      },
+      {
+        "brand": "ACETAMINOPHEN WITH ANTIHISTAMINE NIGHTTIME",
+        "count": 1,
+        "companies": [
+          "LABORATOIRES TRIANON INC."
+        ]
+      },
+      {
+        "brand": "ADVIL NIGHTTIME",
+        "count": 1,
+        "companies": [
+          "HALEON CANADA ULC"
+        ]
+      },
+      {
+        "brand": "EXTRA STRENGTH SINUTAB SINUS NIGHTTIME",
+        "count": 1,
+        "companies": [
+          "KENVUE CANADA INC."
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "NARCOTICS (CDSA I)",
+      "NON-PRESCRIPTION DRUGS"
+    ]
+  },
+  {
+    "id": "loperamide",
+    "generic": "Loperamide",
+    "search_term_used": "loperamide",
+    "num_products_marketed": 15,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "DIARRHEA RELIEF LIQUID GELS",
+        "count": 2,
+        "companies": [
+          "ANGITA PHARMA INC.",
+          "LABORATOIRE RIVA INC."
+        ]
+      },
+      {
+        "brand": "DIARRHEA RELIEF",
+        "count": 2,
+        "companies": [
+          "PHARMASCIENCE INC",
+          "VITA HEALTH PRODUCTS INC"
+        ]
+      },
+      {
+        "brand": "IMODIUM LIQUI-GELS",
+        "count": 1,
+        "companies": [
+          "KENVUE CANADA INC."
+        ]
+      },
+      {
+        "brand": "IMODIUM CALMING LIQUID",
+        "count": 1,
+        "companies": [
+          "KENVUE CANADA INC."
+        ]
+      },
+      {
+        "brand": "TEVA-LOPERAMIDE",
+        "count": 1,
+        "companies": [
+          "TEVA CANADA LIMITED"
+        ]
+      },
+      {
+        "brand": "LOPERAMIDE-2",
+        "count": 1,
+        "companies": [
+          "PRO DOC LIMITEE"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "NON-PRESCRIPTION DRUGS"
+    ]
+  },
+  {
+    "id": "omeprazole",
+    "generic": "Omeprazole",
+    "search_term_used": "omeprazole",
+    "num_products_marketed": 18,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "ESOMEPRAZOLE",
+        "count": 4,
+        "companies": [
+          "SIVEM PHARMACEUTICALS ULC",
+          "JAMP PHARMA CORPORATION"
+        ]
+      },
+      {
+        "brand": "APO-ESOMEPRAZOLE",
+        "count": 2,
+        "companies": [
+          "APOTEX INC"
+        ]
+      },
+      {
+        "brand": "M-ESOMEPRAZOLE",
+        "count": 2,
+        "companies": [
+          "MANTRA PHARMA INC"
+        ]
+      },
+      {
+        "brand": "RIVA-ESOMEPRAZOLE",
+        "count": 2,
+        "companies": [
+          "LABORATOIRE RIVA INC."
+        ]
+      },
+      {
+        "brand": "SANDOZ ESOMEPRAZOLE",
+        "count": 2,
+        "companies": [
+          "SANDOZ CANADA INCORPORATED"
+        ]
+      },
+      {
+        "brand": "ACH-OMEPRAZOLE",
+        "count": 1,
+        "companies": [
+          "ACCORD HEALTHCARE INC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "pseudoephedrine",
+    "generic": "Pseudoephedrine",
+    "search_term_used": "pseudoephedrine",
+    "num_products_marketed": 3,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "NEOCITRAN ULTRA STRENGTH COMPLETE COLD",
+        "count": 1,
+        "companies": [
+          "HALEON CANADA ULC"
+        ]
+      },
+      {
+        "brand": "BUCKLEY'S COLD & SINUS 24 HOUR PACK",
+        "count": 1,
+        "companies": [
+          "HALEON CANADA ULC"
+        ]
+      },
+      {
+        "brand": "BUCKLEY'S COMPLETE 24 HOUR PACK",
+        "count": 1,
+        "companies": [
+          "HALEON CANADA ULC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "NON-PRESCRIPTION DRUGS"
+    ]
+  },
+  {
+    "id": "melatonin",
+    "generic": "Melatonin",
+    "search_term_used": "melatonin",
+    "num_products_marketed": 3,
+    "num_products_total": 3,
+    "top_brands": [
+      {
+        "brand": "SLENYTO",
+        "count": 2,
+        "companies": [
+          "NEURIM PHARMACEUTICALS LTD."
+        ]
+      },
+      {
+        "brand": "PRIME-X MELATONIN IMPLANTS",
+        "count": 1,
+        "companies": [
+          "NEO-DYNAMICS"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "NON-PRESCRIPTION DRUGS",
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "dimenhydrinate",
+    "generic": "Dimenhydrinate",
+    "search_term_used": "dimenhydrinate",
+    "num_products_marketed": 8,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "DIMENHYDRINATE INJECTION USP",
+        "count": 4,
+        "companies": [
+          "SANDOZ CANADA INCORPORATED",
+          "HIKMA CANADA LIMITED"
+        ]
+      },
+      {
+        "brand": "GAVISCON NAUSEA",
+        "count": 1,
+        "companies": [
+          "MEDTECH PRODUCTS INC"
+        ]
+      },
+      {
+        "brand": "ANTI-NAUSEANT",
+        "count": 1,
+        "companies": [
+          "VITA HEALTH PRODUCTS INC"
+        ]
+      },
+      {
+        "brand": "GRAVOL SUPPOSITORIES",
+        "count": 1,
+        "companies": [
+          "CHURCH & DWIGHT CANADA CORP"
+        ]
+      },
+      {
+        "brand": "TRAVEL TABS 50 MG",
+        "count": 1,
+        "companies": [
+          "VITA HEALTH PRODUCTS INC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "ETHICAL",
+      "NON-PRESCRIPTION DRUGS"
+    ]
+  },
+  {
+    "id": "amoxicillin",
+    "generic": "Amoxicillin",
+    "search_term_used": "amoxicillin",
+    "num_products_marketed": 10,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "SANDOZ AMOXI-CLAV TABLET",
+        "count": 2,
+        "companies": [
+          "SANDOZ CANADA INCORPORATED"
+        ]
+      },
+      {
+        "brand": "AMOXICILLIN CAPSULES BP",
+        "count": 2,
+        "companies": [
+          "SANIS HEALTH INC"
+        ]
+      },
+      {
+        "brand": "JAMP-AMOXICILLIN",
+        "count": 2,
+        "companies": [
+          "JAMP PHARMA CORPORATION"
+        ]
+      },
+      {
+        "brand": "AMOXICILLIN",
+        "count": 2,
+        "companies": [
+          "SIVEM PHARMACEUTICALS ULC"
+        ]
+      },
+      {
+        "brand": "CLAVAMOX DROPS",
+        "count": 1,
+        "companies": [
+          "ZOETIS CANADA INC"
+        ]
+      },
+      {
+        "brand": "NOVAMOXIN",
+        "count": 1,
+        "companies": [
+          "TEVA CANADA LIMITED"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "metformin",
+    "generic": "Metformin",
+    "search_term_used": "metformin",
+    "num_products_marketed": 20,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "APO-SITAGLIPTIN MALATE / METFORMIN HYDROCHLORIDE",
+        "count": 3,
+        "companies": [
+          "APOTEX INC"
+        ]
+      },
+      {
+        "brand": "JAMP SITAGLIPTIN HYDROCHLORIDE / METFORMIN",
+        "count": 3,
+        "companies": [
+          "JAMP PHARMA CORPORATION"
+        ]
+      },
+      {
+        "brand": "METFORMIN TABLETS",
+        "count": 2,
+        "companies": [
+          "GRANULES INDIA LIMITED"
+        ]
+      },
+      {
+        "brand": "INVOKAMET",
+        "count": 2,
+        "companies": [
+          "JANSSEN INC"
+        ]
+      },
+      {
+        "brand": "JANUMET XR",
+        "count": 2,
+        "companies": [
+          "MERCK CANADA INC"
+        ]
+      },
+      {
+        "brand": "JANUMET",
+        "count": 2,
+        "companies": [
+          "MERCK CANADA INC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "sertraline",
+    "generic": "Sertraline",
+    "search_term_used": "sertraline",
+    "num_products_marketed": 25,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "SERTRALINE",
+        "count": 5,
+        "companies": [
+          "SIVEM PHARMACEUTICALS ULC",
+          "JAMP PHARMA CORPORATION"
+        ]
+      },
+      {
+        "brand": "AG-SERTRALINE",
+        "count": 3,
+        "companies": [
+          "ANGITA PHARMA INC."
+        ]
+      },
+      {
+        "brand": "NB-SERTRALINE",
+        "count": 3,
+        "companies": [
+          "NB PHARMA INC."
+        ]
+      },
+      {
+        "brand": "TEVA-SERTRALINE",
+        "count": 3,
+        "companies": [
+          "TEVA CANADA LIMITED"
+        ]
+      },
+      {
+        "brand": "NRA-SERTRALINE",
+        "count": 3,
+        "companies": [
+          "NORA PHARMA INC"
+        ]
+      },
+      {
+        "brand": "AURO-SERTRALINE",
+        "count": 3,
+        "companies": [
+          "AURO PHARMA INC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "albuterol",
+    "generic": "Salbutamol",
+    "search_term_used": "salbutamol",
+    "num_products_marketed": 7,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "TEVA-COMBO STERINEBS",
+        "count": 1,
+        "companies": [
+          "TEVA CANADA LIMITED"
+        ]
+      },
+      {
+        "brand": "VENTOLIN I.V. INFUSION SOLUTION 5.0MG SALBUTAMOL IN 5ML (1000MCG/ML)",
+        "count": 1,
+        "companies": [
+          "GLAXOSMITHKLINE INC"
+        ]
+      },
+      {
+        "brand": "VENTOLIN RESPIRATOR SOLUTION",
+        "count": 1,
+        "companies": [
+          "GLAXOSMITHKLINE INC"
+        ]
+      },
+      {
+        "brand": "IPRATROPIUM BROMIDE AND SALBUTAMOL SULPHATE INHALATION SOLUTION",
+        "count": 1,
+        "companies": [
+          "JUNO PHARMACEUTICALS CORP."
+        ]
+      },
+      {
+        "brand": "VENTOLIN HFA",
+        "count": 1,
+        "companies": [
+          "GLAXOSMITHKLINE INC"
+        ]
+      },
+      {
+        "brand": "TEVA-SALBUTAMOL STERINEBS P.F.",
+        "count": 1,
+        "companies": [
+          "TEVA CANADA LIMITED"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "atorvastatin",
+    "generic": "Atorvastatin",
+    "search_term_used": "atorvastatin",
+    "num_products_marketed": 10,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "JAMP ATORVASTATIN TABLETS",
+        "count": 4,
+        "companies": [
+          "JAMP PHARMA CORPORATION"
+        ]
+      },
+      {
+        "brand": "SPC-ATORVASTATIN",
+        "count": 4,
+        "companies": [
+          "SUN PHARMA CANADA INC"
+        ]
+      },
+      {
+        "brand": "ATORVASTATIN",
+        "count": 2,
+        "companies": [
+          "TEVA CANADA LIMITED"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "levothyroxine",
+    "generic": "Levothyroxine",
+    "search_term_used": "levothyroxine",
+    "num_products_marketed": 17,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "APO-LEVOTHYROXINE",
+        "count": 10,
+        "companies": [
+          "APOTEX INC"
+        ]
+      },
+      {
+        "brand": "ELTROXIN",
+        "count": 4,
+        "companies": [
+          "ASPEN PHARMACARE CANADA INC."
+        ]
+      },
+      {
+        "brand": "LEVOTHYROXINE SODIUM FOR INJECTION",
+        "count": 1,
+        "companies": [
+          "AVIR PHARMA INC."
+        ]
+      },
+      {
+        "brand": "THYCONVI",
+        "count": 1,
+        "companies": [
+          "BIOSYENT PHARMA INC"
+        ]
+      },
+      {
+        "brand": "SYNTHROID",
+        "count": 1,
+        "companies": [
+          "BGP PHARMA ULC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "lisinopril",
+    "generic": "Lisinopril",
+    "search_term_used": "lisinopril",
+    "num_products_marketed": 4,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "LISINOPRIL (TYPE Z)",
+        "count": 3,
+        "companies": [
+          "SANIS HEALTH INC"
+        ]
+      },
+      {
+        "brand": "ZESTORETIC",
+        "count": 1,
+        "companies": [
+          "SEARCHLIGHT PHARMA INC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "amlodipine",
+    "generic": "Amlodipine",
+    "search_term_used": "amlodipine",
+    "num_products_marketed": 19,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "CADUET",
+        "count": 8,
+        "companies": [
+          "BGP PHARMA ULC"
+        ]
+      },
+      {
+        "brand": "NB-AMLODIPINE",
+        "count": 3,
+        "companies": [
+          "NB PHARMA INC."
+        ]
+      },
+      {
+        "brand": "VIACORAM",
+        "count": 3,
+        "companies": [
+          "SERVIER CANADA INC"
+        ]
+      },
+      {
+        "brand": "PRZ-AMLODIPINE",
+        "count": 2,
+        "companies": [
+          "PHARMARIS CANADA INC"
+        ]
+      },
+      {
+        "brand": "AMLODIPINE",
+        "count": 2,
+        "companies": [
+          "SIVEM PHARMACEUTICALS ULC"
+        ]
+      },
+      {
+        "brand": "MYLAN-AMLODIPINE/ATORVASTATIN",
+        "count": 1,
+        "companies": [
+          "MYLAN PHARMACEUTICALS ULC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "metoprolol",
+    "generic": "Metoprolol",
+    "search_term_used": "metoprolol",
+    "num_products_marketed": 12,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "RIVA-METOPROLOL-L",
+        "count": 3,
+        "companies": [
+          "LABORATOIRE RIVA INC."
+        ]
+      },
+      {
+        "brand": "METOPROLOL TARTRATE INJECTION USP",
+        "count": 2,
+        "companies": [
+          "SANDOZ CANADA INCORPORATED",
+          "JUNO PHARMA CANADA INC."
+        ]
+      },
+      {
+        "brand": "METOPROLOL",
+        "count": 2,
+        "companies": [
+          "SANIS HEALTH INC"
+        ]
+      },
+      {
+        "brand": "TEVA-METOPROLOL",
+        "count": 2,
+        "companies": [
+          "TEVA CANADA LIMITED"
+        ]
+      },
+      {
+        "brand": "APO-METOPROLOL",
+        "count": 2,
+        "companies": [
+          "APOTEX INC"
+        ]
+      },
+      {
+        "brand": "PMS-METOPROLOL-L",
+        "count": 1,
+        "companies": [
+          "PHARMASCIENCE INC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "losartan",
+    "generic": "Losartan",
+    "search_term_used": "losartan",
+    "num_products_marketed": 11,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "SANDOZ LOSARTAN",
+        "count": 3,
+        "companies": [
+          "SANDOZ CANADA INCORPORATED"
+        ]
+      },
+      {
+        "brand": "LOSARTAN/HCTZ",
+        "count": 3,
+        "companies": [
+          "SANIS HEALTH INC"
+        ]
+      },
+      {
+        "brand": "SANDOZ LOSARTAN HCT",
+        "count": 1,
+        "companies": [
+          "SANDOZ CANADA INCORPORATED"
+        ]
+      },
+      {
+        "brand": "SANDOZ LOSARTAN HCT DS",
+        "count": 1,
+        "companies": [
+          "SANDOZ CANADA INCORPORATED"
+        ]
+      },
+      {
+        "brand": "HYZAAR DS",
+        "count": 1,
+        "companies": [
+          "ORGANON CANADA INC."
+        ]
+      },
+      {
+        "brand": "TEVA-LOSARTAN",
+        "count": 1,
+        "companies": [
+          "TEVA CANADA LIMITED"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "gabapentin",
+    "generic": "Gabapentin",
+    "search_term_used": "gabapentin",
+    "num_products_marketed": 13,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "JAMP GABAPENTIN CAPSULES",
+        "count": 3,
+        "companies": [
+          "JAMP PHARMA CORPORATION"
+        ]
+      },
+      {
+        "brand": "ACH-GABAPENTIN",
+        "count": 3,
+        "companies": [
+          "ACCORD HEALTHCARE INC"
+        ]
+      },
+      {
+        "brand": "GABAPENTIN",
+        "count": 2,
+        "companies": [
+          "JAMP PHARMA CORPORATION"
+        ]
+      },
+      {
+        "brand": "APO-GABAPENTIN",
+        "count": 2,
+        "companies": [
+          "APOTEX INC"
+        ]
+      },
+      {
+        "brand": "NEURONTIN",
+        "count": 2,
+        "companies": [
+          "BGP PHARMA ULC"
+        ]
+      },
+      {
+        "brand": "MINT-GABAPENTIN",
+        "count": 1,
+        "companies": [
+          "MINT PHARMACEUTICALS INC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "rosuvastatin",
+    "generic": "Rosuvastatin",
+    "search_term_used": "rosuvastatin",
+    "num_products_marketed": 24,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "ROSUVASTATIN",
+        "count": 8,
+        "companies": [
+          "SIVEM PHARMACEUTICALS ULC",
+          "10445517 CANADA INC / NORTH PHARMACEUTICALS / DAC PHARMACEUTICALS"
+        ]
+      },
+      {
+        "brand": "SANDOZ ROSUVASTATIN",
+        "count": 4,
+        "companies": [
+          "SANDOZ CANADA INCORPORATED"
+        ]
+      },
+      {
+        "brand": "TEVA-ROSUVASTATIN",
+        "count": 4,
+        "companies": [
+          "TEVA CANADA LIMITED"
+        ]
+      },
+      {
+        "brand": "AURO-ROSUVASTATIN",
+        "count": 4,
+        "companies": [
+          "AURO PHARMA INC"
+        ]
+      },
+      {
+        "brand": "RIVA-ROSUVASTATIN",
+        "count": 4,
+        "companies": [
+          "LABORATOIRE RIVA INC."
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "pantoprazole",
+    "generic": "Pantoprazole",
+    "search_term_used": "pantoprazole",
+    "num_products_marketed": 14,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "PANTOPRAZOLE",
+        "count": 6,
+        "companies": [
+          "SIVEM PHARMACEUTICALS ULC",
+          "SANIS HEALTH INC",
+          "PRO DOC LIMITEE"
+        ]
+      },
+      {
+        "brand": "APO-PANTOPRAZOLE",
+        "count": 2,
+        "companies": [
+          "APOTEX INC"
+        ]
+      },
+      {
+        "brand": "MAR-PANTOPRAZOLE",
+        "count": 1,
+        "companies": [
+          "MARCAN PHARMACEUTICALS INC"
+        ]
+      },
+      {
+        "brand": "PANTOPRAZOLE MAGNESIUM",
+        "count": 1,
+        "companies": [
+          "SIVEM PHARMACEUTICALS ULC"
+        ]
+      },
+      {
+        "brand": "ALTA-PANTOPRAZOLE",
+        "count": 1,
+        "companies": [
+          "ALTAMED PHARMA"
+        ]
+      },
+      {
+        "brand": "NB-PANTOPRAZOLE",
+        "count": 1,
+        "companies": [
+          "NB PHARMA INC."
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "escitalopram",
+    "generic": "Escitalopram",
+    "search_term_used": "escitalopram",
+    "num_products_marketed": 13,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "PMS-ESCITALOPRAM",
+        "count": 2,
+        "companies": [
+          "PHARMASCIENCE INC"
+        ]
+      },
+      {
+        "brand": "AG-ESCITALOPRAM",
+        "count": 2,
+        "companies": [
+          "ANGITA PHARMA INC."
+        ]
+      },
+      {
+        "brand": "SPC-ESCITALOPRAM",
+        "count": 2,
+        "companies": [
+          "SUN PHARMA CANADA INC"
+        ]
+      },
+      {
+        "brand": "MINT-ESCITALOPRAM",
+        "count": 2,
+        "companies": [
+          "MINT PHARMACEUTICALS INC"
+        ]
+      },
+      {
+        "brand": "MYLAN-ESCITALOPRAM",
+        "count": 2,
+        "companies": [
+          "MYLAN PHARMACEUTICALS ULC"
+        ]
+      },
+      {
+        "brand": "CIPRALEX   -10MG",
+        "count": 1,
+        "companies": [
+          "LUNDBECK CANADA INC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "amphetamine",
+    "generic": "Amphetamine / Dextroamphetamine",
+    "search_term_used": "dextroamphetamine",
+    "num_products_marketed": 10,
+    "num_products_total": 15,
+    "top_brands": [
+      {
+        "brand": "DYANAVEL XR",
+        "count": 4,
+        "companies": [
+          "KYE PHARMACEUTICALS INC."
+        ]
+      },
+      {
+        "brand": "TEVA-DEXTROAMPHETAMINE SR",
+        "count": 2,
+        "companies": [
+          "TEVA CANADA LIMITED"
+        ]
+      },
+      {
+        "brand": "DEXEDRINE SPANSULE",
+        "count": 2,
+        "companies": [
+          "KNIGHT THERAPEUTICS INC."
+        ]
+      },
+      {
+        "brand": "DEXTROAMPHETAMINE",
+        "count": 1,
+        "companies": [
+          "AA PHARMA INC"
+        ]
+      },
+      {
+        "brand": "DEXEDRINE",
+        "count": 1,
+        "companies": [
+          "KNIGHT THERAPEUTICS INC."
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "CONTROLLED DRUGS (CDSA I)"
+    ]
+  },
+  {
+    "id": "hydrochlorothiazide",
+    "generic": "Hydrochlorothiazide",
+    "search_term_used": "hydrochlorothiazide",
+    "num_products_marketed": 14,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "JAMP CANDESARTAN-HCT",
+        "count": 3,
+        "companies": [
+          "JAMP PHARMA CORPORATION"
+        ]
+      },
+      {
+        "brand": "AURO-QUINAPRIL HCTZ",
+        "count": 3,
+        "companies": [
+          "AURO PHARMA INC"
+        ]
+      },
+      {
+        "brand": "DIOVAN-HCT",
+        "count": 2,
+        "companies": [
+          "NOVARTIS PHARMACEUTICALS CANADA INC"
+        ]
+      },
+      {
+        "brand": "AURO-TELMISARTAN HCTZ",
+        "count": 2,
+        "companies": [
+          "AURO PHARMA INC"
+        ]
+      },
+      {
+        "brand": "TEVA-CANDESARTAN/HCTZ",
+        "count": 1,
+        "companies": [
+          "TEVA CANADA LIMITED"
+        ]
+      },
+      {
+        "brand": "SANDOZ LOSARTAN HCT",
+        "count": 1,
+        "companies": [
+          "SANDOZ CANADA INCORPORATED"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "bupropion",
+    "generic": "Bupropion",
+    "search_term_used": "bupropion",
+    "num_products_marketed": 12,
+    "num_products_total": 37,
+    "top_brands": [
+      {
+        "brand": "TARO-BUPROPION XL",
+        "count": 2,
+        "companies": [
+          "SUN PHARMA CANADA INC"
+        ]
+      },
+      {
+        "brand": "ODAN BUPROPION SR",
+        "count": 2,
+        "companies": [
+          "ODAN LABORATORIESLTD"
+        ]
+      },
+      {
+        "brand": "WELLBUTRIN XL",
+        "count": 2,
+        "companies": [
+          "BAUSCH HEALTH, CANADA INC."
+        ]
+      },
+      {
+        "brand": "ODAN-BUPROPION XL",
+        "count": 2,
+        "companies": [
+          "ODAN LABORATORIESLTD"
+        ]
+      },
+      {
+        "brand": "TEVA-BUPROPION XL",
+        "count": 2,
+        "companies": [
+          "TEVA CANADA LIMITED"
+        ]
+      },
+      {
+        "brand": "ZYBAN",
+        "count": 1,
+        "companies": [
+          "BAUSCH HEALTH, CANADA INC."
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "fluoxetine",
+    "generic": "Fluoxetine",
+    "search_term_used": "fluoxetine",
+    "num_products_marketed": 20,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "RECONCILE",
+        "count": 4,
+        "companies": [
+          "PEGASUS LABORATORIES INC"
+        ]
+      },
+      {
+        "brand": "PMS-FLUOXETINE",
+        "count": 4,
+        "companies": [
+          "PHARMASCIENCE INC"
+        ]
+      },
+      {
+        "brand": "NRA-FLUOXETINE",
+        "count": 2,
+        "companies": [
+          "NORA PHARMA INC"
+        ]
+      },
+      {
+        "brand": "AURO-FLUOXETINE",
+        "count": 2,
+        "companies": [
+          "AURO PHARMA INC"
+        ]
+      },
+      {
+        "brand": "JAMP-FLUOXETINE",
+        "count": 2,
+        "companies": [
+          "JAMP PHARMA CORPORATION"
+        ]
+      },
+      {
+        "brand": "MINT-FLUOXETINE",
+        "count": 2,
+        "companies": [
+          "MINT PHARMACEUTICALS INC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "semaglutide",
+    "generic": "Semaglutide",
+    "search_term_used": "semaglutide",
+    "num_products_marketed": 16,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "RYBELSUS",
+        "count": 6,
+        "companies": [
+          "NOVO NORDISK CANADA INC"
+        ]
+      },
+      {
+        "brand": "WEGOVY",
+        "count": 5,
+        "companies": [
+          "NOVO NORDISK CANADA INC"
+        ]
+      },
+      {
+        "brand": "SEMAGLUTIDE INJECTION",
+        "count": 2,
+        "companies": [
+          "DR REDDY'S LABORATORIES LTD"
+        ]
+      },
+      {
+        "brand": "APO-SEMAGLUTIDE INJECTION",
+        "count": 2,
+        "companies": [
+          "APOTEX INC"
+        ]
+      },
+      {
+        "brand": "OZEMPIC",
+        "count": 1,
+        "companies": [
+          "NOVO NORDISK CANADA INC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION",
+      "SCHEDULE D"
+    ]
+  },
+  {
+    "id": "montelukast",
+    "generic": "Montelukast",
+    "search_term_used": "montelukast",
+    "num_products_marketed": 18,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "MONTELUKAST",
+        "count": 3,
+        "companies": [
+          "PRO DOC LIMITEE"
+        ]
+      },
+      {
+        "brand": "TEVA-MONTELUKAST",
+        "count": 3,
+        "companies": [
+          "TEVA CANADA LIMITED"
+        ]
+      },
+      {
+        "brand": "PMS-MONTELUKAST",
+        "count": 2,
+        "companies": [
+          "PHARMASCIENCE INC"
+        ]
+      },
+      {
+        "brand": "JAMP MONTELUKAST CHEWABLE TABLETS",
+        "count": 2,
+        "companies": [
+          "JAMP PHARMA CORPORATION"
+        ]
+      },
+      {
+        "brand": "AURO-MONTELUKAST CHEWABLE TABLET",
+        "count": 2,
+        "companies": [
+          "AURO PHARMA INC"
+        ]
+      },
+      {
+        "brand": "SANDOZ MONTELUKAST",
+        "count": 1,
+        "companies": [
+          "SANDOZ CANADA INCORPORATED"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "trazodone",
+    "generic": "Trazodone",
+    "search_term_used": "trazodone",
+    "num_products_marketed": 10,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "AG-TRAZODONE",
+        "count": 3,
+        "companies": [
+          "ANGITA PHARMA INC."
+        ]
+      },
+      {
+        "brand": "TEVA-TRAZODONE",
+        "count": 3,
+        "companies": [
+          "TEVA CANADA LIMITED"
+        ]
+      },
+      {
+        "brand": "JAMP TRAZODONE",
+        "count": 3,
+        "companies": [
+          "JAMP PHARMA CORPORATION"
+        ]
+      },
+      {
+        "brand": "PMS TRAZODONE HCL TAB 50MG",
+        "count": 1,
+        "companies": [
+          "PHARMASCIENCE INC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "simvastatin",
+    "generic": "Simvastatin",
+    "search_term_used": "simvastatin",
+    "num_products_marketed": 19,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "TARO-SIMVASTATIN",
+        "count": 5,
+        "companies": [
+          "SUN PHARMA CANADA INC"
+        ]
+      },
+      {
+        "brand": "APO-SIMVASTATIN",
+        "count": 5,
+        "companies": [
+          "APOTEX INC"
+        ]
+      },
+      {
+        "brand": "JAMP-SIMVASTATIN",
+        "count": 5,
+        "companies": [
+          "JAMP PHARMA CORPORATION"
+        ]
+      },
+      {
+        "brand": "MAR-SIMVASTATIN",
+        "count": 3,
+        "companies": [
+          "MARCAN PHARMACEUTICALS INC"
+        ]
+      },
+      {
+        "brand": "ZOCOR",
+        "count": 1,
+        "companies": [
+          "ORGANON CANADA INC."
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "tamsulosin",
+    "generic": "Tamsulosin",
+    "search_term_used": "tamsulosin",
+    "num_products_marketed": 10,
+    "num_products_total": 20,
+    "top_brands": [
+      {
+        "brand": "TAMSULOSIN CR",
+        "count": 3,
+        "companies": [
+          "SIVEM PHARMACEUTICALS ULC",
+          "SANIS HEALTH INC",
+          "PRO DOC LIMITEE"
+        ]
+      },
+      {
+        "brand": "APO-TAMSULOSIN CR",
+        "count": 1,
+        "companies": [
+          "APOTEX INC"
+        ]
+      },
+      {
+        "brand": "SANDOZ TAMSULOSIN CR",
+        "count": 1,
+        "companies": [
+          "SANDOZ CANADA INCORPORATED"
+        ]
+      },
+      {
+        "brand": "JAMP TAMSULOSIN",
+        "count": 1,
+        "companies": [
+          "JAMP PHARMA CORPORATION"
+        ]
+      },
+      {
+        "brand": "TEVA-TAMSULOSIN CR",
+        "count": 1,
+        "companies": [
+          "TEVA CANADA LIMITED"
+        ]
+      },
+      {
+        "brand": "JALYN",
+        "count": 1,
+        "companies": [
+          "GLAXOSMITHKLINE INC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "hydrocodone",
+    "generic": "Hydrocodone / Paracetamol combination",
+    "search_term_used": "hydrocodone",
+    "num_products_marketed": 1,
+    "num_products_total": 30,
+    "top_brands": [
+      {
+        "brand": "PDP-HYDROCODONE",
+        "count": 1,
+        "companies": [
+          "PENDOPHARM DIVISION OF PHARMASCIENCE INC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "NARCOTICS (CDSA I)"
+    ]
+  },
+  {
+    "id": "fluticasone",
+    "generic": "Fluticasone",
+    "search_term_used": "fluticasone",
+    "num_products_marketed": 28,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "APO-FLUTICASONE HFA",
+        "count": 3,
+        "companies": [
+          "APOTEX INC"
+        ]
+      },
+      {
+        "brand": "FLOVENT DISKUS",
+        "count": 3,
+        "companies": [
+          "GLAXOSMITHKLINE INC"
+        ]
+      },
+      {
+        "brand": "PMS-FLUTICASONE PROPIONATE/SALMETEROL DPI",
+        "count": 3,
+        "companies": [
+          "PHARMASCIENCE INC"
+        ]
+      },
+      {
+        "brand": "FLOVENT HFA",
+        "count": 3,
+        "companies": [
+          "GLAXOSMITHKLINE INC"
+        ]
+      },
+      {
+        "brand": "PMS-FLUTICASONE HFA",
+        "count": 3,
+        "companies": [
+          "PHARMASCIENCE INC"
+        ]
+      },
+      {
+        "brand": "ADVAIR",
+        "count": 2,
+        "companies": [
+          "GLAXOSMITHKLINE INC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "meloxicam",
+    "generic": "Meloxicam",
+    "search_term_used": "meloxicam",
+    "num_products_marketed": 14,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "APO-MELOXICAM",
+        "count": 2,
+        "companies": [
+          "APOTEX INC"
+        ]
+      },
+      {
+        "brand": "PMS-MELOXICAM",
+        "count": 2,
+        "companies": [
+          "PHARMASCIENCE INC"
+        ]
+      },
+      {
+        "brand": "METACAM ORAL SUSPENSION",
+        "count": 1,
+        "companies": [
+          "BOEHRINGER INGELHEIM ANIMAL HEALTH CANADA INC."
+        ]
+      },
+      {
+        "brand": "MELOXICAM ORAL SUSPENSION",
+        "count": 1,
+        "companies": [
+          "ALBERTA VETERINARY LABORATORIES LTD"
+        ]
+      },
+      {
+        "brand": "INFLACAM INJECTION",
+        "count": 1,
+        "companies": [
+          "CHANELLE PHARMACEUTICALS MANUFACTURING LIMITED"
+        ]
+      },
+      {
+        "brand": "METACAM 0.5% INJECTION",
+        "count": 1,
+        "companies": [
+          "BOEHRINGER INGELHEIM ANIMAL HEALTH CANADA INC."
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "apixaban",
+    "generic": "Apixaban",
+    "search_term_used": "apixaban",
+    "num_products_marketed": 37,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "APIXABAN",
+        "count": 4,
+        "companies": [
+          "SIVEM PHARMACEUTICALS ULC",
+          "SANIS HEALTH INC"
+        ]
+      },
+      {
+        "brand": "TARO-APIXABAN",
+        "count": 2,
+        "companies": [
+          "SUN PHARMA CANADA INC"
+        ]
+      },
+      {
+        "brand": "NRA-APIXABAN TABLETS",
+        "count": 2,
+        "companies": [
+          "NORA PHARMA INC"
+        ]
+      },
+      {
+        "brand": "SANDOZ APIXABAN SDZ",
+        "count": 2,
+        "companies": [
+          "SANDOZ CANADA INCORPORATED"
+        ]
+      },
+      {
+        "brand": "ELIQUIS",
+        "count": 2,
+        "companies": [
+          "BRISTOL-MYERS SQUIBB CANADA"
+        ]
+      },
+      {
+        "brand": "AG-APIXABAN",
+        "count": 2,
+        "companies": [
+          "ANGITA PHARMA INC."
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "furosemide",
+    "generic": "Furosemide",
+    "search_term_used": "furosemide",
+    "num_products_marketed": 13,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "TEVA-FUROSEMIDE",
+        "count": 3,
+        "companies": [
+          "TEVA CANADA LIMITED"
+        ]
+      },
+      {
+        "brand": "MINT-FUROSEMIDE",
+        "count": 3,
+        "companies": [
+          "MINT PHARMACEUTICALS INC"
+        ]
+      },
+      {
+        "brand": "FUROSEMIDE INJECTION USP",
+        "count": 2,
+        "companies": [
+          "STERIMAX INC",
+          "JAMP PHARMA CORPORATION"
+        ]
+      },
+      {
+        "brand": "APO-FUROSEMIDE",
+        "count": 2,
+        "companies": [
+          "APOTEX INC"
+        ]
+      },
+      {
+        "brand": "FUROSEMIDE SPECIAL INJECTION",
+        "count": 1,
+        "companies": [
+          "JAMP PHARMA CORPORATION"
+        ]
+      },
+      {
+        "brand": "PRO-FUROSEMIDE",
+        "count": 1,
+        "companies": [
+          "PRO DOC LIMITEE"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "insulin_glargine",
+    "generic": "Insulin Glargine",
+    "search_term_used": "insulin glargine",
+    "num_products_marketed": 9,
+    "num_products_total": 12,
+    "top_brands": [
+      {
+        "brand": "LANTUS",
+        "count": 3,
+        "companies": [
+          "SANOFI-AVENTIS CANADA INC"
+        ]
+      },
+      {
+        "brand": "BASAGLAR",
+        "count": 2,
+        "companies": [
+          "ELI LILLY CANADA INC"
+        ]
+      },
+      {
+        "brand": "TOUJEO DOUBLESTAR",
+        "count": 1,
+        "companies": [
+          "SANOFI-AVENTIS CANADA INC"
+        ]
+      },
+      {
+        "brand": "SOLIQUA",
+        "count": 1,
+        "companies": [
+          "SANOFI-AVENTIS CANADA INC"
+        ]
+      },
+      {
+        "brand": "TOUJEO SOLOSTAR",
+        "count": 1,
+        "companies": [
+          "SANOFI-AVENTIS CANADA INC"
+        ]
+      },
+      {
+        "brand": "SEMGLEE",
+        "count": 1,
+        "companies": [
+          "BIOCON SDN.BHD"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION",
+      "SCHEDULE D"
+    ]
+  },
+  {
+    "id": "duloxetine",
+    "generic": "Duloxetine",
+    "search_term_used": "duloxetine",
+    "num_products_marketed": 26,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "DULOXETINE",
+        "count": 4,
+        "companies": [
+          "SIVEM PHARMACEUTICALS ULC",
+          "LABORATOIRE RIVA INC."
+        ]
+      },
+      {
+        "brand": "BIO-DULOXETINE",
+        "count": 2,
+        "companies": [
+          "BIOMED PHARMA"
+        ]
+      },
+      {
+        "brand": "JAMP-DULOXETINE",
+        "count": 2,
+        "companies": [
+          "JAMP PHARMA CORPORATION"
+        ]
+      },
+      {
+        "brand": "SANDOZ DULOXETINE",
+        "count": 2,
+        "companies": [
+          "SANDOZ CANADA INCORPORATED"
+        ]
+      },
+      {
+        "brand": "TEVA-DULOXETINE",
+        "count": 2,
+        "companies": [
+          "TEVA CANADA LIMITED"
+        ]
+      },
+      {
+        "brand": "MINT-DULOXETINE",
+        "count": 2,
+        "companies": [
+          "MINT PHARMACEUTICALS INC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "famotidine",
+    "generic": "Famotidine",
+    "search_term_used": "famotidine",
+    "num_products_marketed": 7,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "JAMP FAMOTIDINE",
+        "count": 2,
+        "companies": [
+          "JAMP PHARMA CORPORATION"
+        ]
+      },
+      {
+        "brand": "RIVA-FAMOTIDINE",
+        "count": 2,
+        "companies": [
+          "LABORATOIRE RIVA INC."
+        ]
+      },
+      {
+        "brand": "FAMOTIDINE",
+        "count": 2,
+        "companies": [
+          "SANIS HEALTH INC"
+        ]
+      },
+      {
+        "brand": "ACID CONTROLLER MAXIMUM STRENGTH",
+        "count": 1,
+        "companies": [
+          "ANGITA PHARMA INC."
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "NON-PRESCRIPTION DRUGS",
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "empagliflozin",
+    "generic": "Empagliflozin",
+    "search_term_used": "empagliflozin",
+    "num_products_marketed": 8,
+    "num_products_total": 10,
+    "top_brands": [
+      {
+        "brand": "SYNJARDY",
+        "count": 6,
+        "companies": [
+          "BOEHRINGER INGELHEIM (CANADA) LTD LTEE"
+        ]
+      },
+      {
+        "brand": "JARDIANCE",
+        "count": 2,
+        "companies": [
+          "BOEHRINGER INGELHEIM (CANADA) LTD LTEE"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "carvedilol",
+    "generic": "Carvedilol",
+    "search_term_used": "carvedilol",
+    "num_products_marketed": 9,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "CARVEDILOL",
+        "count": 4,
+        "companies": [
+          "PRO DOC LIMITEE"
+        ]
+      },
+      {
+        "brand": "AURO-CARVEDILOL",
+        "count": 4,
+        "companies": [
+          "AURO PHARMA INC"
+        ]
+      },
+      {
+        "brand": "TEVA-CARVEDILOL",
+        "count": 1,
+        "companies": [
+          "TEVA CANADA LIMITED"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "tramadol",
+    "generic": "Tramadol",
+    "search_term_used": "tramadol",
+    "num_products_marketed": 25,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "ZYTRAM XL",
+        "count": 6,
+        "companies": [
+          "PURDUE PHARMA"
+        ]
+      },
+      {
+        "brand": "DURELA",
+        "count": 3,
+        "companies": [
+          "CIPHER PHARMACEUTICALS INC"
+        ]
+      },
+      {
+        "brand": "TARO-TRAMADOL ER",
+        "count": 3,
+        "companies": [
+          "TARO PHARMACEUTICALS INC"
+        ]
+      },
+      {
+        "brand": "TRIDURAL",
+        "count": 3,
+        "companies": [
+          "KNIGHT THERAPEUTICS INC."
+        ]
+      },
+      {
+        "brand": "AURO-TRAMADOL",
+        "count": 1,
+        "companies": [
+          "AURO PHARMA INC"
+        ]
+      },
+      {
+        "brand": "TEVA-TRAMADOL/ACETAMINOPHEN",
+        "count": 1,
+        "companies": [
+          "TEVA CANADA LIMITED"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "NARCOTICS (CDSA I)"
+    ]
+  },
+  {
+    "id": "alprazolam",
+    "generic": "Alprazolam",
+    "search_term_used": "alprazolam",
+    "num_products_marketed": 9,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "APO-ALPRAZ",
+        "count": 3,
+        "companies": [
+          "APOTEX INC"
+        ]
+      },
+      {
+        "brand": "PRO-ALPRAZOLAM",
+        "count": 3,
+        "companies": [
+          "PRO DOC LIMITEE"
+        ]
+      },
+      {
+        "brand": "TEVA-ALPRAZOLAM",
+        "count": 2,
+        "companies": [
+          "TEVA CANADA LIMITED"
+        ]
+      },
+      {
+        "brand": "APO-ALPRAZ TS",
+        "count": 1,
+        "companies": [
+          "APOTEX INC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "TARGETED SUBSTANCES (CDSA IV)"
+    ]
+  },
+  {
+    "id": "prednisone",
+    "generic": "Prednisone",
+    "search_term_used": "prednisone",
+    "num_products_marketed": 5,
+    "num_products_total": 27,
+    "top_brands": [
+      {
+        "brand": "TEVA-PREDNISONE",
+        "count": 2,
+        "companies": [
+          "TEVA CANADA LIMITED"
+        ]
+      },
+      {
+        "brand": "APO PREDNISONE TAB 50MG",
+        "count": 1,
+        "companies": [
+          "APOTEX INC"
+        ]
+      },
+      {
+        "brand": "WINPRED",
+        "count": 1,
+        "companies": [
+          "AA PHARMA INC"
+        ]
+      },
+      {
+        "brand": "APO PREDNISONE TAB 5MG",
+        "count": 1,
+        "companies": [
+          "APOTEX INC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "clopidogrel",
+    "generic": "Clopidogrel",
+    "search_term_used": "clopidogrel",
+    "num_products_marketed": 19,
+    "num_products_total": 39,
+    "top_brands": [
+      {
+        "brand": "CLOPIDOGREL",
+        "count": 3,
+        "companies": [
+          "SIVEM PHARMACEUTICALS ULC",
+          "SANIS HEALTH INC",
+          "PRO DOC LIMITEE"
+        ]
+      },
+      {
+        "brand": "TEVA-CLOPIDOGREL",
+        "count": 2,
+        "companies": [
+          "TEVA CANADA LIMITED"
+        ]
+      },
+      {
+        "brand": "APO-CLOPIDOGREL",
+        "count": 2,
+        "companies": [
+          "APOTEX INC"
+        ]
+      },
+      {
+        "brand": "PMS-CLOPIDOGREL",
+        "count": 1,
+        "companies": [
+          "PHARMASCIENCE INC"
+        ]
+      },
+      {
+        "brand": "MINT-CLOPIDOGREL",
+        "count": 1,
+        "companies": [
+          "MINT PHARMACEUTICALS INC"
+        ]
+      },
+      {
+        "brand": "JAMP-CLOPIDOGREL",
+        "count": 1,
+        "companies": [
+          "JAMP PHARMA CORPORATION"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "PRESCRIPTION"
+    ]
+  },
+  {
+    "id": "aspirin",
+    "generic": "Acetylsalicylic acid (Aspirin)",
+    "search_term_used": "acetylsalicylic acid",
+    "num_products_marketed": 1,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "ASA BOLUS",
+        "count": 1,
+        "companies": [
+          "CAN-VET ANIMAL HEALTH SUPPLIES LTD."
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "NON-PRESCRIPTION DRUGS"
+    ]
+  },
+  {
+    "id": "oxycodone",
+    "generic": "Oxycodone",
+    "search_term_used": "oxycodone",
+    "num_products_marketed": 23,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "APO-OXYCODONE CR",
+        "count": 4,
+        "companies": [
+          "APOTEX INC"
+        ]
+      },
+      {
+        "brand": "PMS-OXYCODONE CR",
+        "count": 4,
+        "companies": [
+          "PHARMASCIENCE INC"
+        ]
+      },
+      {
+        "brand": "TARGIN",
+        "count": 3,
+        "companies": [
+          "PURDUE PHARMA"
+        ]
+      },
+      {
+        "brand": "OXY.IR",
+        "count": 3,
+        "companies": [
+          "PURDUE PHARMA"
+        ]
+      },
+      {
+        "brand": "PMS-OXYCODONE",
+        "count": 3,
+        "companies": [
+          "PHARMASCIENCE INC"
+        ]
+      },
+      {
+        "brand": "SUPEUDOL 20",
+        "count": 1,
+        "companies": [
+          "SANDOZ CANADA INCORPORATED"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "NARCOTICS (CDSA I)"
+    ]
+  },
+  {
+    "id": "methylphenidate",
+    "generic": "Methylphenidate",
+    "search_term_used": "methylphenidate",
+    "num_products_marketed": 27,
+    "num_products_total": 40,
+    "top_brands": [
+      {
+        "brand": "PMS-METHYLPHENIDATE CR",
+        "count": 8,
+        "companies": [
+          "PHARMASCIENCE INC"
+        ]
+      },
+      {
+        "brand": "FOQUEST",
+        "count": 7,
+        "companies": [
+          "ELVIUM LIFE SCIENCES"
+        ]
+      },
+      {
+        "brand": "PMS-METHYLPHENIDATE",
+        "count": 3,
+        "companies": [
+          "PHARMASCIENCE INC"
+        ]
+      },
+      {
+        "brand": "QUILLIVANT ER CHEWABLE TABLETS",
+        "count": 3,
+        "companies": [
+          "KYE PHARMACEUTICALS INC."
+        ]
+      },
+      {
+        "brand": "APO-METHYLPHENIDATE",
+        "count": 3,
+        "companies": [
+          "APOTEX INC"
+        ]
+      },
+      {
+        "brand": "APO-METHYLPHENIDATE ER",
+        "count": 2,
+        "companies": [
+          "APOTEX INC"
+        ]
+      }
+    ],
+    "schedules_seen": [
+      "CONTROLLED DRUGS (CDSA III)"
+    ]
+  }
+]

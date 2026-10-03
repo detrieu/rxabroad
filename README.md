@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pill Trotter
 
-## Getting Started
+**Know what to ask for, wherever you land.**
 
-First, run the development server:
+Every drug has one international name (its INN) and a different local brand name almost everywhere you go.
+Pill Trotter covers 50 common medicines across 14 destinations. Search a brand, a generic name, or a
+country to see what to ask for at the pharmacy counter and whether it's OTC, prescription-only,
+pharmacist-only, controlled, or banned.
+
+Destinations: US, UK, Canada, Germany, France, Mexico, India, Ethiopia, Japan, Vietnam, Singapore,
+Morocco, Portugal, Türkiye.
+
+## Features
+
+- **Search and filter.** Search by brand ("Claritin"), generic ("paracetamol"), or country ("Ethiopia"),
+  and narrow results with the country chips. Matches are highlighted.
+- **Shareable links.** The search and selected countries are kept in the URL (`/?q=claritin&c=JP,FR`).
+- **Drug and country pages.** Each drug and each country has its own statically generated page
+  (`/drug/paracetamol`, `/country/japan`), with its own title and description for search engines.
+  There is also a sitemap.
+- **My meds travel card** (`/my-meds`). Pick your medicines and a destination to get a printable one-page
+  card with the local name to ask for and any cautions. Your list is saved only in your browser.
+- **Confidence markers and sources.** † means general knowledge that isn't brand-verified, and ? means
+  unconfirmed. Use "Show sources" to see the citation links.
+- **Light, dark, or automatic theme**, and a print / save-as-PDF option.
+
+## Development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev        # http://localhost:3000
+npm run build      # all 67 pages are statically generated
+npm run lint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Built with Next.js 16 (App Router) and React 19, using plain CSS (`src/app/globals.css`) with color
+tokens for both themes. There's no backend.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Project layout
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Path | What |
+| --- | --- |
+| `src/data/drugs.json` | The formulary: 50 drugs × 14 countries. **Edit this to change the data.** |
+| `src/data/countries.ts`, `status.ts`, `types.ts` | Countries (with URL slugs), status labels, types |
+| `src/lib/search.ts` | Search matching and country narrowing |
+| `src/components/` | UI components |
+| `src/app/` | Routes: `/`, `/drug/[id]`, `/country/[slug]`, `/my-meds`, sitemap, robots |
+| `scripts/extract-data.mjs` | One-time import from the original single-file prototype |
+| `research/` | Scripts and reports from the original data research (Health Canada DPD, French BDPM, …) |
 
-## Learn More
+### Data entry format
 
-To learn more about Next.js, take a look at the following resources:
+Each drug in `drugs.json` looks like this:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```json
+{
+  "id": "paracetamol", "generic": "Paracetamol", "usAlt": "Acetaminophen (APAP) in the US",
+  "cls": "Analgesic / antipyretic", "atc": "N02BE01",
+  "countries": {
+    "FR": { "brand": "Doliprane", "status": "OTC", "confidence": "high", "note": null, "source": null }
+  }
+}
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `status` is one of `OTC`, `RX`, `MIXED`, `PHARMACY`, `CONTROLLED`, `BANNED`, `UNCONFIRMED`, `ASK_GENERIC`.
+- `confidence` is `high`, `medium` (shows †), or `low` (shows ?).
 
-## Deploy on Vercel
+The data was imported from the prototype `pill-trotter-aug27.html`, which has the verified India
+research. To check that the import still matches the prototype, run
+`node scripts/extract-data.mjs --check ~/pill-trotter/pill-trotter-aug27.html`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Disclaimer
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This is seed data for a prototype, compiled from general pharmacology knowledge. It is not a live
+regulatory feed. Brand names, availability, and prescription status change, and they vary by region and
+even by pharmacy. Confirm with a local pharmacist or physician before relying on this while traveling.
+
+## Roadmap
+
+- **Authorization and exemption forms.** For controlled medicines that a country allows with advance
+  permission, link to or help prepare the official paperwork. One example is Japan's *Yunyu Kakunin-sho*
+  import certificate, which is needed for narcotics and for amounts above the personal-supply limits.
+  The day-supply limits, the forms, and where to submit them need to be verified per country first.
+- More destinations and medicines.

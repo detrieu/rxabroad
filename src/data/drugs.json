@@ -1,0 +1,5352 @@
+[
+  {
+    "id": "paracetamol",
+    "generic": "Paracetamol",
+    "usAlt": "Acetaminophen (APAP) in the US",
+    "cls": "Analgesic / antipyretic",
+    "atc": "N02BE01",
+    "countries": {
+      "US": {
+        "brand": "Tylenol",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Panadol",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Tylenol",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "ben-u-ron / Paracetamol-ratiopharm",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Doliprane",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Tempra / Tylenol",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Crocin / Dolo",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Cadimol (Cadila Pharmaceuticals Ethiopia) or generic \"Paracetamol\"",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": "Cadimol is confirmed EFDA-registered, but branded imports are inconsistent overall — the generic name still works and is the safer ask.",
+        "source": "https://www.efda.gov.et/wp-content/uploads/2023/08/Cadimol_Paracetamol_Cadila-Pharmaceuticals-Ethiopia-PLC.pdf"
+      },
+      "JP": {
+        "brand": "Tylenol A — often called \"Calonal\" instead, an equally common Japanese name for the same ingredient",
+        "status": "OTC",
+        "confidence": "high",
+        "note": "Japanese Tylenol is dosed lower (300mg/tablet) than the 500mg standard elsewhere — don’t assume a 1:1 tablet swap.",
+        "source": "https://otcguidejapan.com/guides/acetaminophen-in-japan/"
+      },
+      "VN": {
+        "brand": "Panadol",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Panadol",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Doliprane",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Ben-u-ron",
+        "status": "OTC",
+        "confidence": "high",
+        "note": "Non-prescription medicine (MNSRM) under Portuguese law (Decree-Law 176/2006) — confirmed sold there, not just a German import assumption.",
+        "source": "https://ben-u-ron.pt/"
+      },
+      "TR": {
+        "brand": "Parol",
+        "status": "OTC",
+        "confidence": "high",
+        "note": "Turkey’s best-selling paracetamol brand by volume (Atabay, since 1973) — this is about as safe a brand claim as they come.",
+        "source": "https://www.atabay.com/en/ilac/parol-500-mg-tablet-30-tablet-blister-2-2/"
+      }
+    }
+  },
+  {
+    "id": "ibuprofen",
+    "generic": "Ibuprofen",
+    "usAlt": null,
+    "cls": "NSAID",
+    "atc": "M01AE01",
+    "countries": {
+      "US": {
+        "brand": "Advil / Motrin",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Nurofen",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Advil",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Nurofen / Ibu-ratiopharm",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Nurofen / Advil",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Motrin",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Brufen",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Sold under the generic name \"Ibuprofen\"",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "EVE A (150mg ibuprofen per tablet)",
+        "status": "OTC",
+        "confidence": "high",
+        "note": "Japan more commonly reaches for loxoprofen (brand \"Loxonin S\") as its go-to OTC pain reliever instead of ibuprofen.",
+        "source": "https://www.ssp.co.jp/eve/en/"
+      },
+      "VN": {
+        "brand": "Advil / generic ibuprofen",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Advil / Nurofen",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Nurofen / Advil",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Brufen",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Nurofen / generic ibuprofen",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "loratadine",
+    "generic": "Loratadine",
+    "usAlt": "Claritin in the US",
+    "cls": "Antihistamine, non-sedating",
+    "atc": "R06AX13",
+    "countries": {
+      "US": {
+        "brand": "Claritin",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Clarityn",
+        "status": "OTC",
+        "confidence": "high",
+        "note": "Note the UK spelling — \"Clarityn\", not \"Claritin\".",
+        "source": null
+      },
+      "CA": {
+        "brand": "Claritin",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Lorano (akut) — or generic \"Loratadin STADA / AL\"",
+        "status": "OTC",
+        "confidence": "high",
+        "note": "Pharmacy-only (apothekenpflichtig) but no prescription needed — confirmed retail brand, not a guess.",
+        "source": "https://www.loranopro.de/loranoakut-produktinformationen.html"
+      },
+      "FR": {
+        "brand": "Sold generic",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": "The Clarityne brand was discontinued in France (marketing stopped 2020-2021) — it does not appear in the current government drug registry at all; loratadine is still sold generically, pharmacist-side without a prescription.",
+        "source": "https://www.vidal.fr/medicaments/clarityne-10-mg-cp-4037.html"
+      },
+      "MX": {
+        "brand": "Clarityne",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Loratin / Lorfast",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Loratadine\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": "Cetirizine tablets are more reliably found than loratadine specifically.",
+        "source": null
+      },
+      "JP": {
+        "brand": "Claritin EX",
+        "status": "OTC",
+        "confidence": "high",
+        "note": "Confirmed as a real Class 2 OTC product; the specific year it switched from Rx-only isn’t confirmed, so treat \"2017\" as unverified.",
+        "source": "https://www.catalog-taisho.com/content/dam/selfmedication/jp/ja/claritin/images/04839/pdf/04839_ProductPDF_en.pdf"
+      },
+      "VN": {
+        "brand": "Clarityne",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Clarityn",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Clarityne",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": "Brand confirmed sold in Morocco (unlike France, where it was discontinued in 2020-2021).",
+        "source": "https://www.med.ma/medicament/clarityne-10-mg-comprime-7737"
+      },
+      "PT": {
+        "brand": "Clarityne",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Ask for it by the generic name: \"Loratadin\"",
+        "status": "ASK_GENERIC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "cetirizine",
+    "generic": "Cetirizine",
+    "usAlt": "Zyrtec in the US",
+    "cls": "Antihistamine, non-sedating",
+    "atc": "R06AE07",
+    "countries": {
+      "US": {
+        "brand": "Zyrtec",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Piriteze / Zirtek",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Reactine",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Zyrtec",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Zyrtec / Actifed Allergie",
+        "status": "PHARMACY",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Zyrtec",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Cetrizine / Alerid / Okacet",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Sold under the generic name \"Cetirizine\"",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Cetirizine is prescription-only; the common OTC antihistamine is fexofenadine (brand \"Allegra FX\")",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "VN": {
+        "brand": "Zyrtec",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Zyrtec",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Zyrtec",
+        "status": "PHARMACY",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Zyrtec",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Zyrtec",
+        "status": "PHARMACY",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "diphenhydramine",
+    "generic": "Diphenhydramine",
+    "usAlt": "Benadryl in the US",
+    "cls": "Antihistamine, sedating",
+    "atc": "R06AA02",
+    "countries": {
+      "US": {
+        "brand": "Benadryl",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Not sold as \"Benadryl\" — the UK brand uses acrivastine or cetirizine, never diphenhydramine",
+        "status": "ASK_GENERIC",
+        "confidence": "high",
+        "note": "For diphenhydramine itself, ask for \"Nytol\" — confirmed as the UK’s #1 sleep-aid brand and diphenhydramine-based (Nytol Original / One-A-Night). Nytol’s herbal line is a different, non-diphenhydramine product — check the label.",
+        "source": "https://medxdrg.com/is-diphenhydramine-available-in-the-uk-your-guide-to-uk-brands-and-uses"
+      },
+      "CA": {
+        "brand": "Benadryl",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Generic name: \"Diphenhydramin\" — not a common first-line antihistamine; limited OTC presence",
+        "status": "UNCONFIRMED",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Generic name: \"Diphénhydramine\" — limited OTC presence",
+        "status": "UNCONFIRMED",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Benadryl",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "\"Benadryl\" in India is a cough syrup, not a tablet",
+        "status": "UNCONFIRMED",
+        "confidence": "medium",
+        "note": "Same brand name, different formulation — check the label.",
+        "source": null
+      },
+      "ET": {
+        "brand": "Generic/INN name \"Diphenhydramine\" is typically what pharmacy staff use",
+        "status": "ASK_GENERIC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Drewell (50mg diphenhydramine, Class 2 OTC sleep aid) — not an allergy product",
+        "status": "OTC",
+        "confidence": "high",
+        "note": "Sold as a sleep aid, not an antihistamine — look in the sleep-improvement section, not allergy.",
+        "source": "https://otcguidejapan.com/guides/sleeping-pills-in-japan/"
+      },
+      "VN": {
+        "brand": "Ask for it by the generic name: \"Diphenhydramine\"",
+        "status": "ASK_GENERIC",
+        "confidence": "medium",
+        "note": "Vietnamese pharmaceutical nomenclature keeps the international (INN) spelling essentially unchanged — no tonal diacritics are added to scientific loanwords like this.",
+        "source": null
+      },
+      "SG": {
+        "brand": "Benadryl",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Ask for it by the French pharmacy name: \"Diphénhydramine\"",
+        "status": "ASK_GENERIC",
+        "confidence": "high",
+        "note": "French is the working pharmacy language in Morocco; spoken Darija normally borrows this same French term rather than using a separate word.",
+        "source": null
+      },
+      "PT": {
+        "brand": "Ask for it by the generic name: \"Difenidramina\"",
+        "status": "ASK_GENERIC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Ask for it by the generic name: \"Difenhidramin\"",
+        "status": "ASK_GENERIC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "loperamide",
+    "generic": "Loperamide",
+    "usAlt": "Imodium in the US",
+    "cls": "Antidiarrheal",
+    "atc": "A07DA03",
+    "countries": {
+      "US": {
+        "brand": "Imodium",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Imodium",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Imodium",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Imodium akut",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Imodium",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Imodium",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Eldoper / Lopamide",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Sold under the generic name \"Loperamide\"",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Imodium — historically dispensed rather than shelf-OTC",
+        "status": "RX",
+        "confidence": "medium",
+        "note": "Standalone loperamide has traditionally required a pharmacist/prescription route in Japan more than in the US or EU.",
+        "source": null
+      },
+      "VN": {
+        "brand": "Imodium",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Imodium",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Imodium",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Imodium",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Imodium",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "omeprazole",
+    "generic": "Omeprazole",
+    "usAlt": "Prilosec in the US",
+    "cls": "Proton pump inhibitor",
+    "atc": "A02BC01",
+    "countries": {
+      "US": {
+        "brand": "Prilosec",
+        "status": "MIXED",
+        "confidence": "medium",
+        "note": "OTC only at the 14-day short-course dose; higher/longer-term doses need a prescription.",
+        "source": null
+      },
+      "GB": {
+        "brand": "Pyrocalm Control (OTC) / Losec (Rx)",
+        "status": "MIXED",
+        "confidence": "high",
+        "note": "Losec itself has never held a UK OTC licence and remains prescription-only; the branded OTC product is Pyrocalm Control 20mg, sold in pharmacies and supermarkets for a maximum 14-day course.",
+        "source": "https://www.pyrocalmcontrol.co.uk/"
+      },
+      "CA": {
+        "brand": "Losec",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Omep / Antra",
+        "status": "MIXED",
+        "confidence": "medium",
+        "note": "Sold OTC (pharmacy-only) at 20mg for a maximum 14-day course, with at least a 4-month gap before repeating; 40mg and longer-term use require a prescription.",
+        "source": "https://curistrelief.com/blogs/curist/omeprazole-faq-what-to-know"
+      },
+      "FR": {
+        "brand": "Mopral",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Losec",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Omez",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Generic/INN name \"Omeprazole\" is typically what pharmacy staff use",
+        "status": "ASK_GENERIC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Prescription-only; OTC PPIs are uncommon in Japan",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "VN": {
+        "brand": "Losec / generic omeprazole",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Confirmed widely sold, prescription-required.",
+        "source": "https://nhathuoclongchau.com.vn/thuoc/losec-mups-20-1314.html"
+      },
+      "SG": {
+        "brand": "Omesec (pharmacy-only) / Losec (Rx)",
+        "status": "MIXED",
+        "confidence": "high",
+        "note": "Losec itself is Prescription Only (POM) in Singapore; Omesec is the generic omeprazole product classified Pharmacy-Only (P), dispensable without a prescription.",
+        "source": "https://www.ndf.gov.sg/about-drugs/active-ingredient/m00910/"
+      },
+      "MA": {
+        "brand": "Mopral",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Losec",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Losec",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Brand confirmed (AstraZeneca Turkey); Antra and Omez are also real alternate brand names there.",
+        "source": "https://www.ilacabak.com/etkengoster.php?Id=525"
+      }
+    }
+  },
+  {
+    "id": "pseudoephedrine",
+    "generic": "Pseudoephedrine",
+    "usAlt": "Sudafed in the US",
+    "cls": "Decongestant",
+    "atc": "R01BA02",
+    "countries": {
+      "US": {
+        "brand": "Sudafed",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": "Kept behind the pharmacy counter; photo ID and purchase limits apply (meth-precursor tracking).",
+        "source": null
+      },
+      "GB": {
+        "brand": "Sudafed",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": "Pharmacy-only, with purchase limits.",
+        "source": null
+      },
+      "CA": {
+        "brand": "Sudafed",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Similar Sudafed-branded products",
+        "status": "PHARMACY",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Prescription required for any pseudoephedrine-containing product",
+        "status": "RX",
+        "confidence": "high",
+        "note": "ANSM made a prescription mandatory nationwide for all pseudoephedrine-based medicines effective 11 December 2024, citing documented stroke, heart attack, and death cases; the Actifed Rhume combination products have themselves been withdrawn from the market.",
+        "source": "https://ansm.sante.fr/actualites/rhume-ordonnance-obligatoire-pour-toute-dispensation-de-medicament-a-base-de-pseudoephedrine"
+      },
+      "MX": {
+        "brand": "Not sold",
+        "status": "BANNED",
+        "confidence": "high",
+        "note": "Banned since 2008 — Mexico was the first North American country to prohibit pseudoephedrine outright.",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/20707864/"
+      },
+      "IN": {
+        "brand": "Ask by generic name",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "Controlled as a precursor chemical under the NDPS Act since 2013; several fixed-dose combinations (e.g. with cetirizine or dextromethorphan) have been banned outright for marketing.",
+        "source": "https://en.wikipedia.org/wiki/Misuse_of_Drugs_(Pseudoephedrine)_Amendment_Act_2024"
+      },
+      "ET": {
+        "brand": "Generic/INN name \"Pseudoephedrine\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": "Regulatory status locally unconfirmed — treat as restricted until you can check.",
+        "source": null
+      },
+      "JP": {
+        "brand": "Ask by generic name",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": "Pseudoephedrine is a Stimulants Raw Material under Japanese law — products at 10% concentration or less are exempt up to a 2-month personal supply, but higher concentrations or larger quantities require advance Ministry of Health permission. Since most travelers cannot easily verify their product’s exact concentration, Sudafed PE (phenylephrine) remains the simpler, safer choice to bring instead.",
+        "source": "https://is-this-legal.com/is-pseudoephedrine-legal-in-japan/"
+      },
+      "VN": {
+        "brand": "Ask by generic name",
+        "status": "CONTROLLED",
+        "confidence": "low",
+        "note": "Controlled precursor.",
+        "source": null
+      },
+      "SG": {
+        "brand": "Pharmacy-only with purchase limits",
+        "status": "PHARMACY",
+        "confidence": "medium",
+        "note": "Singapore enforces strict controlled-substance rules generally.",
+        "source": null
+      },
+      "MA": {
+        "brand": "French name: \"Pseudoéphédrine\"",
+        "status": "ASK_GENERIC",
+        "confidence": "medium",
+        "note": "Regulatory status locally unconfirmed — many countries have tightened rules on this ingredient as a meth precursor, so don’t assume it’s freely sold.",
+        "source": null
+      },
+      "PT": {
+        "brand": "Pharmacy-only",
+        "status": "PHARMACY",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Ask by generic name",
+        "status": "CONTROLLED",
+        "confidence": "low",
+        "note": "Controlled precursor.",
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "melatonin",
+    "generic": "Melatonin",
+    "usAlt": null,
+    "cls": "Sleep aid / hormone",
+    "atc": "N05CH01",
+    "countries": {
+      "US": {
+        "brand": "Sold as a plain supplement — no brand needed",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Circadin",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Regulated as a medicine, not a supplement, even at low doses — bringing your own is often more reliable than buying it locally.",
+        "source": "https://www.ukmeds.co.uk/blog/circadin-prescription-requirements-uk"
+      },
+      "CA": {
+        "brand": "Sold as a \"natural health product\"",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Prescription-only in most cases",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "OTC as a food supplement under 2mg per dose; 2mg and above is a prescription medicine",
+        "status": "MIXED",
+        "confidence": "high",
+        "note": "The 2mg line is a real, confirmed regulatory threshold, not an estimate.",
+        "source": "https://scienceinsights.org/is-melatonin-legal-in-europe-country-by-country-rules/"
+      },
+      "MX": {
+        "brand": "Sold as a supplement",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Sold as a supplement",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Generic/INN name \"Melatonin\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Not sold as an OTC supplement; melatonin receptor drugs like ramelteon require a prescription",
+        "status": "RX",
+        "confidence": "medium",
+        "note": "Bringing your own supply is usually more reliable than trying to buy it locally.",
+        "source": null
+      },
+      "VN": {
+        "brand": "Generic/INN name \"Melatonin\"",
+        "status": "ASK_GENERIC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Prescription-only medicine (POM) — Circadin is the only HSA-registered brand",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Possession without a prescription isn’t a criminal offence, but importing/distributing without approval can carry fines up to S$10,000 and possible imprisonment.",
+        "source": "https://qnwellness.com/blogs/article/is-melatonin-legal-in-singapore-understanding-the-current-regulations"
+      },
+      "MA": {
+        "brand": "French name: \"Mélatonine\"",
+        "status": "ASK_GENERIC",
+        "confidence": "medium",
+        "note": "Sold as a supplement in some pharmacies but regulatory status locally unconfirmed — France-style pharmacy rules (see FR row) are a reasonable starting assumption given the shared pharmacy language.",
+        "source": null
+      },
+      "PT": {
+        "brand": "Pharmacy / Rx depending on dose",
+        "status": "MIXED",
+        "confidence": "medium",
+        "note": "Sold OTC as a food supplement up to roughly 2mg/day (recent guidance pushes suppliers toward ≤1mg); products at 2–3mg are regulated as INFARMED prescription medicines.",
+        "source": "https://www.infarmed.pt/web/infarmed/entidades/medicamentos-uso-humano/fronteira_sup_alimentares"
+      },
+      "TR": {
+        "brand": "Generic/INN name \"Melatonin\" (spelling is nearly identical in Turkish)",
+        "status": "ASK_GENERIC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "dimenhydrinate",
+    "generic": "Dimenhydrinate",
+    "usAlt": "Dramamine in the US",
+    "cls": "Antiemetic / motion sickness",
+    "atc": "R06AA02",
+    "countries": {
+      "US": {
+        "brand": "Dramamine",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Uncommon — \"Kwells\" (hyoscine) or \"Sea-Legs\" cover this use instead",
+        "status": "UNCONFIRMED",
+        "confidence": "medium",
+        "note": "Different active ingredient; describe \"motion sickness tablets\" to a pharmacist.",
+        "source": null
+      },
+      "CA": {
+        "brand": "Gravol",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Vomex A",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Generic name: \"Diménhydrinate\" — specific product name unconfirmed",
+        "status": "UNCONFIRMED",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Dramamine",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Dramamine (or Draminate / Gravol)",
+        "status": "OTC",
+        "confidence": "high",
+        "note": "Dimenhydrinate itself is directly available under these brands — no need to substitute with promethazine (\"Avomine\").",
+        "source": "https://www.medindia.net/drugs/trade-names/dimenhydrinate.htm"
+      },
+      "ET": {
+        "brand": "Generic/INN name \"Dimenhydrinate\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "No confirmed dimenhydrinate-specific brand — \"Travelmin\" (a well-known Japanese motion-sickness brand) is actually diphenhydramine + diprophylline, not dimenhydrinate",
+        "status": "UNCONFIRMED",
+        "confidence": "medium",
+        "note": "Confirmed via Eisai’s own product page.",
+        "source": "https://www.eisai.com/news/news201034.html"
+      },
+      "VN": {
+        "brand": "Generic/INN name \"Dimenhydrinate\" (spelling unchanged from the international name)",
+        "status": "ASK_GENERIC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Dramamine / Gravol",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "French name: \"Diménhydrinate\"",
+        "status": "ASK_GENERIC",
+        "confidence": "high",
+        "note": "French is the working pharmacy language in Morocco.",
+        "source": null
+      },
+      "PT": {
+        "brand": "Generic name: \"Dimenidrinato\"",
+        "status": "ASK_GENERIC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Generic name: \"Dimenhidrinat\"",
+        "status": "ASK_GENERIC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "amoxicillin",
+    "generic": "Amoxicillin",
+    "usAlt": null,
+    "cls": "Antibiotic, penicillin",
+    "atc": "J01CA04",
+    "countries": {
+      "US": {
+        "brand": "Amoxil (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Amoxil (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Amoxi / Amoxicillin-ratiopharm",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Clamoxyl",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Amoxicilina",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Formally Rx-only nationwide since August 25, 2010, though enforcement varies by pharmacy, especially near the border.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3606934/"
+      },
+      "IN": {
+        "brand": "Novamox / Mox",
+        "status": "RX",
+        "confidence": "medium",
+        "note": "Enforcement of the prescription requirement is inconsistent.",
+        "source": null
+      },
+      "ET": {
+        "brand": "Sold under the generic name \"Amoxicillin\"",
+        "status": "RX",
+        "confidence": "medium",
+        "note": "Formally Rx, but dispensing without one is common in practice.",
+        "source": null
+      },
+      "JP": {
+        "brand": "Sold generic (\"Amoxicillin\")",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "VN": {
+        "brand": "Sold generic — enforcement of the Rx requirement has historically been loose",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Sold generic as \"Amoksisilin\"",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "metformin",
+    "generic": "Metformin",
+    "usAlt": null,
+    "cls": "Antidiabetic, biguanide",
+    "atc": "A10BA02",
+    "countries": {
+      "US": {
+        "brand": "Glucophage (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Glucophage (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Glucophage / Metformin-ratiopharm",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Glucophage",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Glucophage",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Glyciphage / Glycomet",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Generic/INN name \"Metformin\" (spelling is essentially unchanged worldwide)",
+        "status": "ASK_GENERIC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Metgluco",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Licensed into Japan from Glucophage’s maker (Merck Sante, France) in 2003; approved by Japan’s health ministry in 2010.",
+        "source": "https://www.sumitomo-pharma.com/news/20100120-01.html"
+      },
+      "VN": {
+        "brand": "Glucophage",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Glucophage",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Glucophage",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Glucophage",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Glucophage",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "sertraline",
+    "generic": "Sertraline",
+    "usAlt": "Zoloft in the US",
+    "cls": "SSRI antidepressant",
+    "atc": "N06AB06",
+    "countries": {
+      "US": {
+        "brand": "Zoloft",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Lustral",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Sold as \"Lustral\", not \"Zoloft\", in the UK.",
+        "source": "https://www.drugs.com/uk/lustral-50mg-tablets-leaflet.html"
+      },
+      "CA": {
+        "brand": "Zoloft",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Zoloft / Gladem",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Gladem (Boehringer Ingelheim) is confirmed sold in Germany and Austria.",
+        "source": "https://myhealthbox.eu/en/gladem-50mg/272519"
+      },
+      "FR": {
+        "brand": "Zoloft",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Altruline / Zoloft",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Serlift / Daxid",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Generic/INN name \"Sertraline\" (spelling is essentially unchanged worldwide)",
+        "status": "ASK_GENERIC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Jzoloft",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Branded \"Jzoloft\" in Japan — not \"Zoloft\".",
+        "source": "https://clinicaltrials.gov/study/NCT01699724"
+      },
+      "VN": {
+        "brand": "Zoloft",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Brand confirmed sold by Pfizer; local generics also circulate under other names (Inosert, Clealine, Asentra).",
+        "source": "https://nhathuoclongchau.com.vn/thuoc/zoloft-50mg-pfizer-3x10-21685.html"
+      },
+      "SG": {
+        "brand": "Zoloft",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Zoloft",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Zoloft",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Lustral",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Confirmed as the best-known sertraline brand in Turkey — the UK branding pattern does hold here.",
+        "source": "https://www.medikalakademi.com.tr/lustral-sertralin-nedir-ne-icin-kullanilir-yan-etkileri-nelerdir/"
+      }
+    }
+  },
+  {
+    "id": "albuterol",
+    "generic": "Salbutamol",
+    "usAlt": "called \"albuterol\" only in the US",
+    "cls": "Bronchodilator, inhaled",
+    "atc": "R03AC02",
+    "countries": {
+      "US": {
+        "brand": "Ventolin / ProAir — labeled \"albuterol\"",
+        "status": "RX",
+        "confidence": "high",
+        "note": "The US uses the name \"albuterol\"; nearly everywhere else uses the INN \"salbutamol\" — same drug, different name entirely.",
+        "source": null
+      },
+      "GB": {
+        "brand": "Ventolin",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": "Small pack sizes can be sold OTC at a pharmacist’s discretion.",
+        "source": null
+      },
+      "CA": {
+        "brand": "Ventolin",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Sultanol / Salbulair",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Ventoline",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Ventolin",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": "Commonly sold without a prescription in practice.",
+        "source": null
+      },
+      "IN": {
+        "brand": "Asthalin / Ventorlin",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Sold under the generic name \"Salbutamol\"",
+        "status": "OTC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Sultanol",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": "https://www.rad-ar.or.jp/siori/english/search/result?n=38384"
+      },
+      "VN": {
+        "brand": "Ventolin",
+        "status": "PHARMACY",
+        "confidence": "medium",
+        "note": "Commonly available without strict prescription enforcement.",
+        "source": null
+      },
+      "SG": {
+        "brand": "Ventolin",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Ventoline",
+        "status": "PHARMACY",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Ventolin — \"Ventilan\" is a lower-confidence alternate name, provenance unclear",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Ventolin",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "atorvastatin",
+    "generic": "Atorvastatin",
+    "usAlt": "Lipitor in the US",
+    "cls": "Statin (cholesterol)",
+    "atc": "C10AA05",
+    "countries": {
+      "US": {
+        "brand": "Lipitor (mostly sold generic now)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Lipitor (mostly sold generic now)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Lipitor (mostly sold generic now)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Sortis",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": "https://www.ema.europa.eu/en/documents/referral/sortis-emeaha-29-pad1255-article-29-paediatrics-referral-annex-i-ii-iii_en.pdf"
+      },
+      "FR": {
+        "brand": "Tahor",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": "https://www.has-sante.fr/jcms/pprd_2984182/en/tahor-atorvastatine"
+      },
+      "MX": {
+        "brand": "Lipitor",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Atorva / Storvas — India’s generic market is fragmented, with several other brands (e.g. Atocor, Atorlip) also in circulation",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": "https://www.drugs.com/ingredient/atorvastatin.html"
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Atorvastatin\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Lipitor",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "VN": {
+        "brand": "Lipitor",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Lipitor",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Tahor",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Zarator",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Confirmed as Pfizer Portugal’s branded atorvastatin.",
+        "source": "https://www.pfizer.pt/pt-pt/zarator"
+      },
+      "TR": {
+        "brand": "Lipitor",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "levothyroxine",
+    "generic": "Levothyroxine",
+    "usAlt": "Synthroid in the US",
+    "cls": "Thyroid hormone (hypothyroidism)",
+    "atc": "H03AA01",
+    "countries": {
+      "US": {
+        "brand": "Synthroid",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Sold generic; also historically \"Eltroxin\"",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Synthroid",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Euthyrox / L-Thyroxin Henning",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Levothyrox",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Eutirox / Synthroid",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Eltroxin / Thyronorm",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Levothyroxine\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Thyradin S",
+        "status": "RX",
+        "confidence": "high",
+        "note": "\"Chironin\" could not be confirmed as sold in Japan; Thyradin S (Asuka Pharmaceutical, distributed by Takeda) is confirmed as the dominant brand there.",
+        "source": "https://medical.nikkeibp.co.jp/inc/all/drugdic/prd/24/2431004F1056.html"
+      },
+      "VN": {
+        "brand": "Ask for it by the generic name: \"Levothyroxine\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Eltroxin",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Levothyrox",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Eutirox",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Euthyrox",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "lisinopril",
+    "generic": "Lisinopril",
+    "usAlt": null,
+    "cls": "ACE inhibitor (blood pressure)",
+    "atc": "C09AA03",
+    "countries": {
+      "US": {
+        "brand": "Zestril / Prinivil (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Zestril (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Less commonly prescribed — Germany favors ramipril; sold generic where used",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Zestril",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Zestril",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Lisoril",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Lisinopril\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Sold generic (e.g. Mylan)",
+        "status": "RX",
+        "confidence": "medium",
+        "note": "Japan leans toward ARBs over ACE inhibitors as a class for blood-pressure prescribing generally, so lisinopril may be less commonly prescribed in practice even though it is available.",
+        "source": "https://www.drugs.com/international/lisinopril.html"
+      },
+      "VN": {
+        "brand": "Ask for it by the generic name: \"Lisinopril\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Zestril",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Zestril",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Sold generic as \"Lisinopril\"",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "amlodipine",
+    "generic": "Amlodipine",
+    "usAlt": null,
+    "cls": "Calcium channel blocker (blood pressure)",
+    "atc": "C08CA01",
+    "countries": {
+      "US": {
+        "brand": "Norvasc (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Istin (mostly sold generic)",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Norvasc (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Norvasc",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Amlor",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Norvasc",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Stamlo — India’s most recognized amlodipine brand (Dr. Reddy’s); Amlopres / Amlodac are also real alternatives",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": "https://www.drugs.com/international/amlodipine.html"
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Amlodipine\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Norvasc / Amlodin",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "VN": {
+        "brand": "Norvasc",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Norvasc",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Amlor",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Norvasc",
+        "status": "RX",
+        "confidence": "medium",
+        "note": "Confirmed sold in Portugal, though the market also leans heavily generic (\"amlodipina\").",
+        "source": "https://www.indice.eu/pt/medicamentos/medicamentos/norvasc/informacao-geral"
+      },
+      "TR": {
+        "brand": "Norvasc",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "metoprolol",
+    "generic": "Metoprolol",
+    "usAlt": null,
+    "cls": "Beta blocker (blood pressure/heart)",
+    "atc": "C07AB02",
+    "countries": {
+      "US": {
+        "brand": "Lopressor / Toprol-XL (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Betaloc (mostly sold generic)",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Lopressor (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Beloc",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Seloken / Lopressor",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Lopressor",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Betaloc / Metolar",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Metoprolol\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Seloken / Lopresor",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "VN": {
+        "brand": "Betaloc",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Betaloc",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Seloken",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Lopresor",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Beloc",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "losartan",
+    "generic": "Losartan",
+    "usAlt": null,
+    "cls": "ARB (blood pressure)",
+    "atc": "C09CA01",
+    "countries": {
+      "US": {
+        "brand": "Cozaar (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Cozaar (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Cozaar brand confirmed still marketed in Canada.",
+        "source": "https://health-products.canada.ca/dpd-bdpp/info.do?code=19167&lang=en"
+      },
+      "DE": {
+        "brand": "Lorzaar",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Cozaar",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Cozaar",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Losar / Repace",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Losartan\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Nu-Lotan",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Brand confirmed (MSD/Organon), approved in Japan since July 1998.",
+        "source": "https://organonpro.com/ja-jp/wp-content/uploads/sites/10/2025/09/if_nulotan_tab.pdf"
+      },
+      "VN": {
+        "brand": "Cozaar",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Cozaar",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Cozaar",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Cozaar",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Sold generic as \"Losartan\"",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "gabapentin",
+    "generic": "Gabapentin",
+    "usAlt": null,
+    "cls": "Nerve pain / anticonvulsant",
+    "atc": "N03AX12",
+    "countries": {
+      "US": {
+        "brand": "Neurontin (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Neurontin (mostly sold generic)",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "Reclassified as a Class C controlled substance in the UK in 2019 due to rising misuse — expect controlled-drug handling (harder refills, stricter pharmacy rules), not just a normal Rx.",
+        "source": "https://www.singlecare.com/blog/is-gabapentin-a-controlled-substance/"
+      },
+      "CA": {
+        "brand": "Neurontin (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Neurontin",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Neurontin",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Neurontin",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Gabapin",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Gabapentin\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Gabapen",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Brand confirmed via Japan’s PMDA patient guide; listed since 2006.",
+        "source": "https://www.info.pmda.go.jp/downfiles/guide/ph/670109_1139007F1022_3_00G.pdf"
+      },
+      "VN": {
+        "brand": "Neurontin",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Neurontin",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Confirmed HSA-registered (SIN08303P/SIN08302P), Prescription Only. Unlike the UK's 2019 reclassification (see GB row), gabapentin is not classified under Singapore's Misuse of Drugs Act — a plain prescription, not a controlled one.",
+        "source": "https://www.ndf.gov.sg/about-drugs/product-information/sin08303p/"
+      },
+      "MA": {
+        "brand": "Neurontin",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Neurontin",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Neurontin",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "rosuvastatin",
+    "generic": "Rosuvastatin",
+    "usAlt": "Crestor in the US",
+    "cls": "Statin (cholesterol)",
+    "atc": "C10AA07",
+    "countries": {
+      "US": {
+        "brand": "Crestor (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Crestor (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Crestor",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Crestor",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Crestor",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Crestor",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Rosuvas / Rozat",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Rosuvastatin\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Crestor",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "VN": {
+        "brand": "Crestor",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Crestor",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Crestor",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Crestor",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Crestor",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "pantoprazole",
+    "generic": "Pantoprazole",
+    "usAlt": "Protonix in the US",
+    "cls": "Proton pump inhibitor",
+    "atc": "A02BC02",
+    "countries": {
+      "US": {
+        "brand": "Protonix (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Pantoloc",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Brand confirmed still marketed in Canada.",
+        "source": "https://health-products.canada.ca/dpd-bdpp/info.do?code=47339&lang=en"
+      },
+      "DE": {
+        "brand": "Pantozol",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Eupantol / Inipomp",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Pantoprazol",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Pan / Pantocid",
+        "status": "OTC",
+        "confidence": "high",
+        "note": "Widely used and often available without strict prescription enforcement in India.",
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Pantoprazole\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Not a common PPI choice — Japan's standard lineup is lansoprazole (Takepron), vonoprazan (Takecab), rabeprazole (Pariet), esomeprazole (Nexium), and omeprazole; pantoprazole is notably absent from consumer-facing brand lists",
+        "status": "UNCONFIRMED",
+        "confidence": "medium",
+        "note": "Its exact registration status wasn't confirmable, but it doesn't appear on any standard Japanese PPI brand list — expect a substitution with one of the drugs above.",
+        "source": "https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AD%E3%83%88%E3%83%B3%E3%83%9D%E3%83%B3%E3%83%97%E9%98%BB%E5%AE%B3%E8%96%AC"
+      },
+      "VN": {
+        "brand": "Pantoloc",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Pantoloc",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Eupantol",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Pantoloc",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Sold generic as \"Pantoprazol\"",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "escitalopram",
+    "generic": "Escitalopram",
+    "usAlt": "Lexapro in the US",
+    "cls": "SSRI antidepressant",
+    "atc": "N06AB10",
+    "countries": {
+      "US": {
+        "brand": "Lexapro (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Cipralex",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Brand confirmed still marketed by Lundbeck in the UK.",
+        "source": "https://www.medicines.org.uk/emc/product/7716/smpc"
+      },
+      "CA": {
+        "brand": "Cipralex",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Cipralex",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Seroplex",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Lexapro",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Nexito",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Escitalopram\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Lexapro",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "VN": {
+        "brand": "Lexapro / Cipralex",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Cipralex",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Seroplex",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Cipralex",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Cipralex",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": "https://www.drugs.com/international/escitalopram.html"
+      }
+    }
+  },
+  {
+    "id": "amphetamine",
+    "generic": "Amphetamine / Dextroamphetamine",
+    "usAlt": "Adderall in the US",
+    "cls": "Stimulant (ADHD) — controlled substance",
+    "atc": "N06BA02",
+    "countries": {
+      "US": {
+        "brand": "Adderall",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "Schedule II controlled substance in the US — carry the original labeled bottle and a doctor’s letter even domestically.",
+        "source": null
+      },
+      "GB": {
+        "brand": "Not commonly prescribed",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": "UK ADHD stimulant therapy favors lisdexamfetamine (Elvanse) or methylphenidate instead.",
+        "source": null
+      },
+      "CA": {
+        "brand": "Adderall XR",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Attentin",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "Attentin (dextroamphetamine, MEDICE) has been sold in Germany since 2011; tightly controlled under the Betäubungsmittelgesetz (German narcotics law).",
+        "source": "https://medice.com/de-de/produkte/adhs-kinder-und-jugendliche/attentin-r"
+      },
+      "FR": {
+        "brand": "Not commonly prescribed",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": "Amphetamine-based ADHD medication is not routinely prescribed in France.",
+        "source": null
+      },
+      "MX": {
+        "brand": "No COFEPRIS-registered product — Adderall specifically has been flagged by COFEPRIS as sold without health registration",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "Group II psychotropic requiring a special barcoded prescription from a COFEPRIS-registered physician; anything sold as \"Adderall\" in Mexico is doing so without official registration.",
+        "source": "https://www.gob.mx/cms/uploads/attachment/file/1000110/Aviso_de_Riesgo_Adderall_04062025.pdf"
+      },
+      "IN": {
+        "brand": "Not available — Adderall has never been approved by CDSCO; amphetamine is notified-prohibited under the NDPS Act. Methylphenidate (Ritalin, Addwize, Instalert — Schedule X) or atomoxetine (Strattera) are what Indian doctors substitute instead",
+        "status": "BANNED",
+        "confidence": "high",
+        "note": "A genuine unavailability, not a naming issue — lisdexamfetamine (Vyvanse) is illegal to import too.",
+        "source": "https://nomedic.co/travel/india/medication/adderall"
+      },
+      "ET": {
+        "brand": "Availability and import rules unconfirmed — treat as tightly controlled",
+        "status": "UNCONFIRMED",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Not sold",
+        "status": "BANNED",
+        "confidence": "high",
+        "note": "Effectively banned — amphetamine is a prohibited stimulant under Japan’s Stimulants Control Act. This is not a documentation issue — a foreign prescription carries no legal weight, and importing it is a criminal offence (up to 10 years) even in original packaging. Methylphenidate (Concerta) and Vyvanse have separate, more permissive rules — see those entries instead.",
+        "source": "https://www.fodors.com/world/asia/japan/experiences/news/my-prescription-for-adderall-for-adhd-is-banned-in-japan-what-to-know"
+      },
+      "VN": {
+        "brand": "Not commonly available",
+        "status": "CONTROLLED",
+        "confidence": "low",
+        "note": "Controlled substance — import without authorization is risky.",
+        "source": null
+      },
+      "SG": {
+        "brand": "Not commonly available",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": "Controlled substance under the Misuse of Drugs Act — Singapore enforces this very strictly.",
+        "source": null
+      },
+      "MA": {
+        "brand": "Not commonly available",
+        "status": "CONTROLLED",
+        "confidence": "low",
+        "note": "Controlled substance — import without authorization is risky.",
+        "source": null
+      },
+      "PT": {
+        "brand": "Not commonly available — Elvanse (lisdexamfetamine) is the actual stimulant Portugal reaches for in ADHD treatment",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "Confirmed via INFARMED reimbursement approval for Elvanse; plain amphetamine/dextroamphetamine combination products (the Adderall formulation) aren't the local standard.",
+        "source": "https://www.infarmed.pt/web/infarmed/profissionais-de-saude/-/journal_content/56/15786/3063240"
+      },
+      "TR": {
+        "brand": "Not commonly available",
+        "status": "CONTROLLED",
+        "confidence": "low",
+        "note": "Controlled substance — import without authorization is risky.",
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "hydrochlorothiazide",
+    "generic": "Hydrochlorothiazide",
+    "usAlt": null,
+    "cls": "Diuretic (blood pressure)",
+    "atc": "C03AA03",
+    "countries": {
+      "US": {
+        "brand": "Microzide (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Sold generic, often combined with other agents",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Esidrix / HCT",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Esidrex",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Hidroclorotiazida",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Aquazide (Aquazide H)",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Confirmed Sun Pharma brand.",
+        "source": "https://www.medindia.net/drug-price/hydrochlorothiazide.htm"
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Hydrochlorothiazide\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Almost never sold standalone — found inside combination pills like Ecard (candesartan/HCTZ) or Micombi (telmisartan/HCTZ)",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Confirmed pattern: Japanese prescribing leans on fixed-dose combination tablets for HCTZ rather than a single-ingredient product.",
+        "source": "https://clinicaltrials.gov/study/NCT03205137"
+      },
+      "VN": {
+        "brand": "Ask for it by the generic name: \"Hydrochlorothiazide\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Esidrex",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Sold generic as \"hidroclorotiazida\"",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Sold generic as \"Hidroklorotiyazid\"",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "bupropion",
+    "generic": "Bupropion",
+    "usAlt": "Wellbutrin in the US",
+    "cls": "Atypical antidepressant / smoking cessation",
+    "atc": "N06AX12",
+    "countries": {
+      "US": {
+        "brand": "Wellbutrin (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Zyban — marketed there mainly as a smoking-cessation aid, not an antidepressant",
+        "status": "RX",
+        "confidence": "medium",
+        "note": "Don’t expect a pharmacist to recognize \"Wellbutrin\" — ask for Zyban and describe the actual use case (depression) if that’s why you take it.",
+        "source": null
+      },
+      "CA": {
+        "brand": "Wellbutrin",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Elontril",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Marketed mainly as Zyban for smoking cessation, not routinely used as an antidepressant",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Wellbutrin",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Bupron SR / Bupron XL",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Confirmed Cipla brand.",
+        "source": "https://www.bigmountaindrugs.com/Generic_Wellbutrin+XL_150+mg"
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Bupropion\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Not approved for any use by Japan’s Ministry of Health, Labour and Welfare",
+        "status": "UNCONFIRMED",
+        "confidence": "high",
+        "note": "A real availability gap, not just a naming difference — it cannot be prescribed or dispensed within Japan’s healthcare system at all. Japan uses varenicline (Champix) and nicotine replacement for smoking cessation instead of Zyban.",
+        "source": "https://legalclarity.org/is-bupropion-legal-in-japan-rules-for-personal-use/"
+      },
+      "VN": {
+        "brand": "Availability unconfirmed",
+        "status": "UNCONFIRMED",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Wellbutrin",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Zyban",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Wellbutrin XR",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Wellbutrin",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "fluoxetine",
+    "generic": "Fluoxetine",
+    "usAlt": "Prozac in the US",
+    "cls": "SSRI antidepressant",
+    "atc": "N06AB03",
+    "countries": {
+      "US": {
+        "brand": "Prozac (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Prozac (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Prozac brand was fully discontinued in Canada — all DINs cancelled, most recently 2024.",
+        "source": "https://health-products.canada.ca/dpd-bdpp/info.do?code=9703&lang=en"
+      },
+      "DE": {
+        "brand": "Fluctin",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Prozac is listed as not currently marketed in the French government drug registry (BDPM); generic fluoxetine remains available.",
+        "source": "https://base-donnees-publique.medicaments.gouv.fr/"
+      },
+      "MX": {
+        "brand": "Prozac",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Fludac / Flunil",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Fluoxetine\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Not approved for use in Japan — the manufacturer withdrew it after disappointing local trials",
+        "status": "UNCONFIRMED",
+        "confidence": "high",
+        "note": "A genuine availability gap, not just a different brand name. Fluvoxamine, paroxetine, sertraline, and escitalopram are the SSRIs actually used in Japan instead.",
+        "source": "https://interacnetwork.com/antidepressants-availablity-in-japan-2/"
+      },
+      "VN": {
+        "brand": "Prozac",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Prozac",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Fluoxet (Sothema) / Prozac",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Fluoxet is the Moroccan-marketed, Ministry of Health-referenced product widely stocked nationwide; original Prozac also appears registered.",
+        "source": "https://sahha.ma/medicaments/fluoxet-20mg-gelule-2"
+      },
+      "PT": {
+        "brand": "Prozac",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Prozac",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "semaglutide",
+    "generic": "Semaglutide",
+    "usAlt": "Ozempic / Wegovy in the US",
+    "cls": "GLP-1 agonist (diabetes/weight)",
+    "atc": "A10BJ06",
+    "countries": {
+      "US": {
+        "brand": "Ozempic (diabetes) / Wegovy (weight management)",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Avoid compounded \"semaglutide\" from telehealth sites or compounding pharmacies — the FDA-confirmed shortage that legally permitted mass compounding ended in 2025, and compounded versions aren’t FDA-approved: dosing, purity, and salt-form (e.g. semaglutide sodium/acetate instead of the approved base) have all been documented as inconsistent, with associated adverse events.",
+        "source": "https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/medications-containing-semaglutide-marketed-type-2-diabetes-or-weight-loss"
+      },
+      "GB": {
+        "brand": "Ozempic / Wegovy",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Ozempic / Wegovy",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Ozempic / Wegovy",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Ozempic — Wegovy availability may lag behind other markets",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Ozempic",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Ozempic; Rybelsus (oral form) also available",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Semaglutide\" — likely limited availability",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Ozempic",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "VN": {
+        "brand": "Ozempic",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Ozempic",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Ozempic",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Ozempic",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Ozempic",
+        "status": "RX",
+        "confidence": "medium",
+        "note": "There was a genuine global semaglutide shortage (2022–2025, driven by weight-loss demand), but the FDA has since confirmed it fully resolved; there is no Turkey-specific shortage reporting.",
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "montelukast",
+    "generic": "Montelukast",
+    "usAlt": "Singulair in the US",
+    "cls": "Leukotriene modifier (asthma/allergy)",
+    "atc": "R03DC03",
+    "countries": {
+      "US": {
+        "brand": "Singulair (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Singulair (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Singulair",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Singulair",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Singulair",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Singulair",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Montair",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Montelukast\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Kipres / Singulair",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "VN": {
+        "brand": "Singulair",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Singulair",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Singulair",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Singulair",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Singulair",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "trazodone",
+    "generic": "Trazodone",
+    "usAlt": null,
+    "cls": "Antidepressant (commonly used off-label for sleep)",
+    "atc": "N06AX05",
+    "countries": {
+      "US": {
+        "brand": "Desyrel (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Molipaxin brand was discontinued in the UK.",
+        "source": "https://www.medicines.org.uk/emc/product/4194/smpc"
+      },
+      "CA": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Desyrel brand was discontinued in Canada (cancelled 2010).",
+        "source": "https://health-products.canada.ca/dpd-bdpp/info.do?code=5119&lang=en"
+      },
+      "DE": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "medium",
+        "note": "Thombran brand does not appear in the Gelbe Liste’s current trazodone listing, which shows only generic products — the brand appears to have been discontinued.",
+        "source": "https://www.gelbe-liste.de/wirkstoffe/Trazodon_3145"
+      },
+      "FR": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Sideril",
+        "status": "RX",
+        "confidence": "medium",
+        "note": "Trittico could not be confirmed as sold in Mexico; Sideril is the trazodone brand actually confirmed there.",
+        "source": "https://www.vademecum.es/mexico/medicamento/1278046/sideril-capsula-50-mg"
+      },
+      "IN": {
+        "brand": "Trazalon",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Confirmed Sun Pharmaceutical brand, Schedule H.",
+        "source": "https://www.medindia.net/drug-price/trazodone/trazalon-50-mg.htm"
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Trazodone\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Desyrel / Reslin (トラゾドン塩酸塩)",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Prescribed as an antidepressant (SARI class) but, as elsewhere, increasingly used off-label for its sedative effect as a sleep aid.",
+        "source": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A9%E3%82%BE%E3%83%89%E3%83%B3"
+      },
+      "VN": {
+        "brand": "Availability unconfirmed",
+        "status": "UNCONFIRMED",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Deprestat",
+        "status": "RX",
+        "confidence": "medium",
+        "note": "Trittico could not be confirmed as sold in Morocco; Deprestat is a real, confirmed Moroccan trazodone brand.",
+        "source": "https://medicament.ma/medicament/deprestat-50-mg-comprime/"
+      },
+      "PT": {
+        "brand": "Triticum (or Triticum OD / Trazone OD for extended-release)",
+        "status": "RX",
+        "confidence": "high",
+        "note": "INFARMED-registered brands, made by Angelini Pharma and Tecnifar — note both extended-release versions had a temporary supply shortage reported to INFARMED through Sept 2026, so confirm current stock.",
+        "source": "https://www.infarmed.pt/documents/15786/12277909/Indisponibilidade+de+medicamentos+contendo+Trazodona+de+liberta%C3%A7%C3%A3o+prolongada/cea23032-f5c8-86e8-60ac-841421c21922?version=1.0"
+      },
+      "TR": {
+        "brand": "Trittico",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Brand confirmed sold in Turkey (including Trittico retard and Trittico Uno formulations); generics have also been marketed there since 2018.",
+        "source": "https://www.ilactr.com/atc/N06AX05.html"
+      }
+    }
+  },
+  {
+    "id": "simvastatin",
+    "generic": "Simvastatin",
+    "usAlt": "Zocor in the US",
+    "cls": "Statin (cholesterol)",
+    "atc": "C10AA01",
+    "countries": {
+      "US": {
+        "brand": "Zocor (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Zocor (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Zocor",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Zocor",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Zocor",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Zocor",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Simvotin",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Simvastatin\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Lipovas",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "VN": {
+        "brand": "Zocor",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Zocor",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Zocor",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Zocor",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Zocor",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "tamsulosin",
+    "generic": "Tamsulosin",
+    "usAlt": "Flomax in the US",
+    "cls": "Alpha blocker (enlarged prostate)",
+    "atc": "G04CA02",
+    "countries": {
+      "US": {
+        "brand": "Flomax (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Flomaxtra XL",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Brand confirmed still marketed by Astellas Pharma in the UK.",
+        "source": "https://www.medicines.org.uk/emc/product/97/smpc"
+      },
+      "CA": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Flomax brand was discontinued in Canada — last DIN (Flomax CR) cancelled 2024.",
+        "source": "https://health-products.canada.ca/dpd-bdpp/info.do?code=75550&lang=en"
+      },
+      "DE": {
+        "brand": "Alna / Tamsulosin-ratiopharm",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Omix",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Josir (the other originator brand) was discontinued; Omix is confirmed still marketed and generics are widely available too.",
+        "source": "https://www.has-sante.fr/jcms/pprd_2983584/fr/josir-mecir-tamsulosine-chlorhydrate-de"
+      },
+      "MX": {
+        "brand": "Secotex",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Brand confirmed actively sold by Boehringer Ingelheim through major Mexican pharmacy chains.",
+        "source": "https://farmalisto.com.mx/medicamentos-con-receta-medica/1699-secotex-ocas-04-mg-tamsulosina-30-tabletas-boehringer-7501037901580.html"
+      },
+      "IN": {
+        "brand": "Urimax",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Tamsulosin\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Harnal",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "VN": {
+        "brand": "Flomax",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Flomax",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Omix",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Omnic",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Omnic",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "hydrocodone",
+    "generic": "Hydrocodone / Paracetamol combination",
+    "usAlt": "Vicodin / Norco in the US",
+    "cls": "Opioid analgesic combination — controlled substance",
+    "atc": "N02AA59",
+    "countries": {
+      "US": {
+        "brand": "Vicodin / Norco",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "Schedule II controlled substance — carry the original labeled bottle and a doctor’s letter even domestically.",
+        "source": null
+      },
+      "GB": {
+        "brand": "Not licensed for prescription in the UK at all — it isn’t on the NHS medicine list",
+        "status": "UNCONFIRMED",
+        "confidence": "high",
+        "note": "British doctors reach for codeine, tramadol, or oxycodone instead when an opioid is needed.",
+        "source": "https://www.castlecraig.co.uk/rehab-treatment/drug-rehab/prescription/hydrocodone/"
+      },
+      "CA": {
+        "brand": "Sold generic",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": "Tightly controlled.",
+        "source": null
+      },
+      "DE": {
+        "brand": "Dicodid (the German brand) was discontinued years ago — no hydrocodone product is currently marketed",
+        "status": "UNCONFIRMED",
+        "confidence": "high",
+        "note": "Falls under the BtMG (German Narcotics Act, Annex III) as a controlled narcotic; expect substitution with dihydrocodeine or another opioid instead.",
+        "source": "https://flexikon.doccheck.com/de/Hydrocodon"
+      },
+      "FR": {
+        "brand": "Dafalgan Codéiné (codeine/paracetamol) — closest equivalent to Norco",
+        "status": "UNCONFIRMED",
+        "confidence": "medium",
+        "note": "Hydrocodone is not marketed in France (nor in most of Europe) — no ANSM/French drug registry listing exists for it, so there's no direct Norco equivalent. Other codeine/paracetamol brands: Codoliprane, Klipal Codéine. Also available at the same step-2 tier: Ixprim / Zaldiar (tramadol/paracetamol) — France does not market a fixed oxycodone/paracetamol combination, so oxycodone (Oxynorm) is only available as a standalone product, not paired with paracetamol.",
+        "source": null
+      },
+      "MX": {
+        "brand": "Doloff (hidrocodona/acetaminofén)",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "Confirmed sold at major Mexican pharmacy chains under the Doloff brand — requires the special barcoded Group II prescription, not a plain script.",
+        "source": "https://www.fahorro.com/catalogsearch/result/?q=DOLOFF%C2%B0+5-325+BITARTRATO+DE+HIDROCODONA+5+mg+ACETAMINOFEN+325+mg+30+TABLETAS+RECUBIERTAS"
+      },
+      "IN": {
+        "brand": "On India's Essential Narcotic Drugs list and manufactured domestically (Government Opium & Alkaloids Works), but no confirmed retail brand name and real-world pharmacy stocking is inconsistent",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": "Similar to oxycodone in India: officially recognized and produced, but only codeine is reliably stocked at the retail level.",
+        "source": "https://palliumindia.org/wp-content/uploads/2020/05/Guidelines-for-stocking-and-Dispensing-ENDs-in-Medical-Institutions.pdf"
+      },
+      "ET": {
+        "brand": "Availability and import rules unconfirmed — treat as tightly controlled",
+        "status": "UNCONFIRMED",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Available via import permit",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": "Opioid painkillers face strict import controls in Japan. As a narcotic, hydrocodone requires advance permission (a Yunyu Kakunin-sho import certificate) from a Regional Bureau of Health and Welfare for any quantity — apply at least 2 weeks ahead with a prescription copy and doctor’s letter. There is no small-quantity exemption like there is for psychotropics such as methylphenidate.",
+        "source": "https://www.us.emb-japan.go.jp/itpr_en/bringing-medications-to-japan.html"
+      },
+      "VN": {
+        "brand": "Not commonly available",
+        "status": "CONTROLLED",
+        "confidence": "low",
+        "note": "Controlled substance — import without authorization is risky.",
+        "source": null
+      },
+      "SG": {
+        "brand": "Not commonly available",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "Singapore is flagged repeatedly as one of the strictest destinations globally for opioid painkillers — confirm import rules before travel without exception.",
+        "source": "https://www.ncbi.nlm.nih.gov/books/NBK620937/"
+      },
+      "MA": {
+        "brand": "Not commonly available",
+        "status": "CONTROLLED",
+        "confidence": "low",
+        "note": "Controlled substance — import without authorization is risky.",
+        "source": null
+      },
+      "PT": {
+        "brand": "Not marketed in Portugal — no registered hydrocodone product found in INFARMED's database",
+        "status": "UNCONFIRMED",
+        "confidence": "high",
+        "note": "Same pattern as France and Germany: tramadol and codeine are the opioids actually stocked, not hydrocodone.",
+        "source": "https://www.indice.eu/pt/medicamentos/DCI/hidrocodona/informacao-geral"
+      },
+      "TR": {
+        "brand": "Not commonly available",
+        "status": "CONTROLLED",
+        "confidence": "low",
+        "note": "Controlled substance — import without authorization is risky.",
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "fluticasone",
+    "generic": "Fluticasone",
+    "usAlt": "Flonase in the US",
+    "cls": "Corticosteroid (nasal spray / inhaler)",
+    "atc": "R01AD08",
+    "countries": {
+      "US": {
+        "brand": "Flonase (nasal spray, OTC) / Flovent (inhaler, Rx)",
+        "status": "MIXED",
+        "confidence": "high",
+        "note": "Flonase nasal spray switched from prescription to OTC in the US in 2014; Flovent for asthma remains prescription-only.",
+        "source": null
+      },
+      "GB": {
+        "brand": "Flixonase (nasal) / Flixotide (inhaler)",
+        "status": "MIXED",
+        "confidence": "high",
+        "note": "The hay fever nasal spray was reclassified to OTC (Pharmacy/P medicine) in 2002 and is now sold as Pirinase Allergy; Flixotide for asthma remains prescription-only.",
+        "source": "https://www.thepharmaletter.com/article/flixonase-goes-otc-in-uk"
+      },
+      "CA": {
+        "brand": "Flonase",
+        "status": "MIXED",
+        "confidence": "high",
+        "note": "Flonase Allergy Relief nasal spray is OTC (confirmed Marketed, Non-Prescription Drugs in the Health Canada Drug Product Database); fluticasone HFA inhalers and fluticasone/salmeterol combo inhalers for asthma remain prescription-only.",
+        "source": "https://health-products.canada.ca/dpd-bdpp/info.do?code=72648&lang=en"
+      },
+      "DE": {
+        "brand": "Flutide (nasal spray, OTC) / Flutide inhaler (Rx)",
+        "status": "MIXED",
+        "confidence": "high",
+        "note": "Fluticasone nasal spray was switched to prescription-free, pharmacy-only (apothekenpflichtig) status in Germany in 2016; inhalers for asthma remain prescription-only.",
+        "source": "https://www.deutsche-apotheker-zeitung.de/news/artikel/2016/09/23/nasensprays-mit-mometason-und-fluticason-rezeptfrei"
+      },
+      "FR": {
+        "brand": "Flixonase",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Unlike the US, UK, Canada, and Germany, fluticasone nasal spray has not been switched to OTC/pharmacy status in France and remains prescription-only; azelastine and levocabastine nasal sprays are the non-prescription options there instead.",
+        "source": "https://base-donnees-publique.medicaments.gouv.fr/"
+      },
+      "MX": {
+        "brand": "Flonase",
+        "status": "OTC",
+        "confidence": "high",
+        "note": "Brand confirmed sold as a free-sale (libre venta) product through Mexican pharmacies.",
+        "source": "https://farmalisto.com.mx/2056-medicamentos-de-libre-venta"
+      },
+      "IN": {
+        "brand": "Nazomac-F or Flutiflo (nasal spray)",
+        "status": "RX",
+        "confidence": "medium",
+        "note": "Correction: \"Flutivate\" is actually GSK's fluticasone *skin cream* brand in India, not a nasal spray — don't ask for it if you need the nasal form. \"Nasocort\" doesn't appear to be sold in India at all. No single dominant nasal-spray brand was confirmable among the many options (Nazomac-F, Flutiflo, WellAir-F, Combinase AQ, RespiCare NS).",
+        "source": "https://www.nutrarespiro.com/Nasal-Spray-Lists-In-India"
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Fluticasone\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Flunase (nasal spray, OTC for seasonal allergies) / other fluticasone forms (Rx)",
+        "status": "MIXED",
+        "confidence": "high",
+        "note": "Flunase nasal spray has a dedicated OTC version sold specifically for seasonal allergies (hay fever) in Japan, alongside the prescription version — the same pattern seen in the US, UK, Canada, Germany, and Portugal.",
+        "source": "https://www.flunase.jp/"
+      },
+      "VN": {
+        "brand": "Flixonase",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Brand confirmed sold at multiple Vietnamese pharmacy chains, prescription-required.",
+        "source": "https://nhathuocankhang.com/thuoc-xit-nho-mui/flixonase"
+      },
+      "SG": {
+        "brand": "Flixonase",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": "Classified Pharmacy Only (not full prescription-only) — a pharmacist can dispense it without a doctor’s prescription.",
+        "source": "https://www.ndf.gov.sg/about-drugs/product-information/sin07090p/"
+      },
+      "MA": {
+        "brand": "Flixonase",
+        "status": "RX",
+        "confidence": "medium",
+        "note": "Brand confirmed sold in Morocco; exact prescription classification there could not be pinned down as precisely as in other countries checked.",
+        "source": "https://medicament.ma/medicament/flixonase-suspension-pour-instillation-nasale-50-mcg/"
+      },
+      "PT": {
+        "brand": "Flixonase (nasal spray, OTC) / other fluticasone forms (Rx)",
+        "status": "MIXED",
+        "confidence": "medium",
+        "note": "INFARMED has a pharmacy-exclusive-dispensing (Dispensa Exclusiva em Farmácia) protocol for fluticasone nasal spray, and it appears listed among non-prescription (MNSRM) allergy products at Portuguese pharmacies — similar to the US, UK, Canada, and Germany.",
+        "source": "https://www.infarmed.pt/documents/15786/79990/Fluticasona_2015_07_17.pdf"
+      },
+      "TR": {
+        "brand": "Flixonase",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "meloxicam",
+    "generic": "Meloxicam",
+    "usAlt": "Mobic in the US",
+    "cls": "NSAID (arthritis)",
+    "atc": "M01AC06",
+    "countries": {
+      "US": {
+        "brand": "Mobic (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "medium",
+        "note": "The Mobic brand does not appear in the UK electronic Medicines Compendium’s current meloxicam listing, which shows only generic products — the brand appears to have been discontinued.",
+        "source": "https://www.medicines.org.uk/emc/ingredient/754"
+      },
+      "CA": {
+        "brand": "Mobicox",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Mobec",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Brand confirmed still marketed by Boehringer Ingelheim in Germany (unlike the UK, where the equivalent Mobic brand appears discontinued).",
+        "source": "https://www.gelbe-liste.de/wirkstoffe/Meloxicam_22498"
+      },
+      "FR": {
+        "brand": "Mobic",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Mobic",
+        "status": "OTC",
+        "confidence": "high",
+        "note": "Confirmed routinely purchased without a prescription at major Mexican pharmacy chains, despite carrying prescription warnings elsewhere.",
+        "source": "https://www.internationaldrugmart.com/meloxicam-15mg-tablets.shtml/"
+      },
+      "IN": {
+        "brand": "Melflam",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Correction: \"Melonex\" is actually a veterinary meloxicam brand in India (dogs) — Melflam (Cipla) is the confirmed human product.",
+        "source": "https://www.drugsupdate.com/brand/showavailablebrands/288"
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Meloxicam\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Mobic",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Brand confirmed (Boehringer Ingelheim Japan), on sale since January 2005.",
+        "source": "https://www.qlife.jp/meds/rx18262.html"
+      },
+      "VN": {
+        "brand": "Mobic",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Brand confirmed sold by Boehringer Ingelheim, strictly prescription-required.",
+        "source": "https://nhathuoclongchau.com.vn/thuoc/mobic-75mg-2985.html"
+      },
+      "SG": {
+        "brand": "Mobic",
+        "status": "RX",
+        "confidence": "high",
+        "note": "HSA-approved since 2004.",
+        "source": "https://www.mims.com/singapore/drug/info/mobic?type=full"
+      },
+      "MA": {
+        "brand": "Mobic",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Brand confirmed widely stocked nationwide, multiple formulations including suppository and injectable.",
+        "source": "https://sahha.ma/medicaments/mobic-7-5-mg-comprime"
+      },
+      "PT": {
+        "brand": "Mobic",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Melcam / Melox",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Mobic itself was confirmed discontinued in Turkey by the Turkish Pharmacists’ Association (stock cleared as of May 15, 2008); Melcam and Melox are the real, current meloxicam brands there.",
+        "source": "https://www.antalyaeo.org.tr/tr/m/turk-eczacilari-birligi/mobic-7-5-mg-tb-mobic-15-mg-tb-ve-mobic-15-mg-supp-isimli-mustahzarlar-hk-.html"
+      }
+    }
+  },
+  {
+    "id": "apixaban",
+    "generic": "Apixaban",
+    "usAlt": "Eliquis in the US",
+    "cls": "Anticoagulant (blood thinner)",
+    "atc": "B01AF02",
+    "countries": {
+      "US": {
+        "brand": "Eliquis",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Eliquis",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Eliquis",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Eliquis",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Eliquis",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Eliquis",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Eliquis",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Apixaban\" — likely limited availability",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Eliquis",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "VN": {
+        "brand": "Eliquis",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Eliquis",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Eliquis",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Eliquis",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Eliquis",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "furosemide",
+    "generic": "Furosemide",
+    "usAlt": "Lasix in the US",
+    "cls": "Loop diuretic",
+    "atc": "C03CA01",
+    "countries": {
+      "US": {
+        "brand": "Lasix (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Lasix (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Lasix brand was discontinued in Canada decades ago (cancelled 1997).",
+        "source": "https://health-products.canada.ca/dpd-bdpp/info.do?code=1083&lang=en"
+      },
+      "DE": {
+        "brand": "Lasix",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Brand confirmed still marketed in Germany (unlike Canada, where Lasix was discontinued in the 1990s).",
+        "source": "https://www.gelbe-liste.de/wirkstoffe/Furosemid_283"
+      },
+      "FR": {
+        "brand": "Lasilix",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Lasix",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Lasix",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Furosemide\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Lasix",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "VN": {
+        "brand": "Lasix",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Lasix",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Lasilix",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Lasix",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Lasix",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "insulin-glargine",
+    "generic": "Insulin Glargine",
+    "usAlt": "Lantus in the US",
+    "cls": "Long-acting insulin",
+    "atc": "A10AE04",
+    "countries": {
+      "US": {
+        "brand": "Lantus",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Lantus",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Lantus",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Lantus",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Lantus",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Lantus",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Lantus / Basalog",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Insulin glargine\" — cold-chain availability is a bigger practical concern than naming",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Lantus",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "VN": {
+        "brand": "Lantus",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Lantus",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Lantus",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Lantus",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Lantus",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "duloxetine",
+    "generic": "Duloxetine",
+    "usAlt": "Cymbalta in the US",
+    "cls": "SNRI antidepressant",
+    "atc": "N06AX21",
+    "countries": {
+      "US": {
+        "brand": "Cymbalta (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Cymbalta brand was discontinued in the UK (listed discontinued on the electronic Medicines Compendium, last updated July 2024); generic duloxetine remains available.",
+        "source": "https://www.medicines.org.uk/emc/ingredient/2206"
+      },
+      "CA": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Cymbalta brand was discontinued in Canada recently (cancelled 2024).",
+        "source": "https://health-products.canada.ca/dpd-bdpp/info.do?code=78681&lang=en"
+      },
+      "DE": {
+        "brand": "Cymbalta",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Brand confirmed still listed in Germany (unlike Canada and the UK, where Cymbalta was discontinued).",
+        "source": "https://www.gelbe-liste.de/wirkstoffe/Duloxetin-hydrochlorid_48490"
+      },
+      "FR": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Cymbalta is listed as not currently marketed in the French government drug registry (BDPM) — same pattern as Canada and the UK, unlike Germany where it remains listed; generic duloxetine remains available.",
+        "source": "https://base-donnees-publique.medicaments.gouv.fr/"
+      },
+      "MX": {
+        "brand": "Cymbalta",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Brand confirmed with an active COFEPRIS sanitary registration (211M2004 SSA IV) and sold through major Mexican pharmacy chains.",
+        "source": "https://www.fahorro.com/cymbalta-60-mg-oral-28-capsulas.html"
+      },
+      "IN": {
+        "brand": "Duzela",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Duloxetine\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Cymbalta",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "VN": {
+        "brand": "Cymbalta",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Confirmed with an active Vietnamese Ministry of Health registration number (VN2-608-17).",
+        "source": "https://thuocbietduoc.com.vn/thuoc-60316/cymbalta.aspx"
+      },
+      "SG": {
+        "brand": "Cymbalta",
+        "status": "RX",
+        "confidence": "high",
+        "note": "HSA-registered (SIN13189P / SIN13190P).",
+        "source": "https://www.ndf.gov.sg/about-drugs/product-information/sin13190p/"
+      },
+      "MA": {
+        "brand": "Cymbalta",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Brand confirmed sold in Morocco (unlike Canada, the UK, and France, where it has been discontinued); a generic (Dulophi) is also available.",
+        "source": "https://www.med.ma/medicament/cymbalta-30-mg--gelule-5523"
+      },
+      "PT": {
+        "brand": "Cymbalta",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Cymbalta",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Brand confirmed sold in Turkey (unlike Canada, the UK, and France, where it has been discontinued).",
+        "source": "https://www.ilacabak.com/cymbalta-30-mg-28-kapsul-7375"
+      }
+    }
+  },
+  {
+    "id": "famotidine",
+    "generic": "Famotidine",
+    "usAlt": "Pepcid in the US",
+    "cls": "H2 blocker (acid reflux)",
+    "atc": "A02BA03",
+    "countries": {
+      "US": {
+        "brand": "Pepcid",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Pepcid AC",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Pepcid",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Pepdul",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Pepdine (originator) or generic \"Famotidine\"",
+        "status": "RX",
+        "confidence": "high",
+        "note": "List II prescription drug, confirmed in the government drug registry (BDPM) — PPIs are more commonly reached for first, but famotidine is genuinely registered and available.",
+        "source": "https://base-donnees-publique.medicaments.gouv.fr/"
+      },
+      "MX": {
+        "brand": "Pepcid",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Famocid",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Famotidine\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Gaster",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "VN": {
+        "brand": "Pepcid",
+        "status": "OTC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Pepcid",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Pepcid",
+        "status": "PHARMACY",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Pepcid",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Famodin",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "empagliflozin",
+    "generic": "Empagliflozin",
+    "usAlt": "Jardiance in the US",
+    "cls": "SGLT2 inhibitor (diabetes)",
+    "atc": "A10BK03",
+    "countries": {
+      "US": {
+        "brand": "Jardiance",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Jardiance",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Jardiance",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Jardiance",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Jardiance",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Jardiance",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Jardiance",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Empagliflozin\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Jardiance",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "VN": {
+        "brand": "Jardiance",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Jardiance",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Jardiance",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Jardiance",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Jardiance",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "carvedilol",
+    "generic": "Carvedilol",
+    "usAlt": "Coreg in the US",
+    "cls": "Beta blocker (heart failure / blood pressure)",
+    "atc": "C07AG02",
+    "countries": {
+      "US": {
+        "brand": "Coreg (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "medium",
+        "note": "The Eucardic brand does not appear in the UK electronic Medicines Compendium’s current carvedilol listing, which shows only generic products — the brand appears to have been discontinued.",
+        "source": "https://www.medicines.org.uk/emc/ingredient/450"
+      },
+      "CA": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Coreg brand was discontinued in Canada (cancelled 2006).",
+        "source": "https://health-products.canada.ca/dpd-bdpp/info.do?code=47624&lang=en"
+      },
+      "DE": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Dilatrend brand was discontinued in Germany.",
+        "source": "https://www.fitundgesund.at/dilatrend-artikel-2125"
+      },
+      "FR": {
+        "brand": "Kredex",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Dilatrend",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Brand confirmed actively sold by Roche through major Mexican pharmacy chains (unlike Germany, where the same brand has been discontinued).",
+        "source": "https://www.benavides.com.mx/dilatrend-6-25-mg-carvedilol-14-tabletas"
+      },
+      "IN": {
+        "brand": "Carvipress",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Confirmed Micro Labs (Cardicare) brand.",
+        "source": "https://www.medindia.net/drug-price/carvedilol/carvipress-12-5-mg.htm"
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Carvedilol\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Artist",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Brand confirmed, sold in 1.25/2.5/10/20mg tablets.",
+        "source": "https://medical.nikkeibp.co.jp/inc/all/drugdic/prd/21/2149032F2028.html"
+      },
+      "VN": {
+        "brand": "Dilatrend",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Brand confirmed sold nationwide (unlike Germany, where it has been discontinued); local generics like SaVi Carvedilol also circulate.",
+        "source": "https://bvnguyentriphuong.com.vn/kien-thuc-duoc-cho-cong-dong/dilatrend"
+      },
+      "SG": {
+        "brand": "Dilatrend",
+        "status": "RX",
+        "confidence": "high",
+        "note": "HSA-registered (SIN07421P) — unlike Germany, where the same brand has been discontinued.",
+        "source": "https://www.ndf.gov.sg/about-drugs/product-information/sin07421p/"
+      },
+      "MA": {
+        "brand": "Kredex",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Dilatrend",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Dilatrend",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Brand confirmed sold in Turkey (manufactured/distributed there by Deva Holding).",
+        "source": "https://www.ilacabak.com/dilatrend-12-5-mg-30-tablet-24026"
+      }
+    }
+  },
+  {
+    "id": "tramadol",
+    "generic": "Tramadol",
+    "usAlt": null,
+    "cls": "Opioid analgesic — controlled substance",
+    "atc": "N02AX02",
+    "countries": {
+      "US": {
+        "brand": "Ultram",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "Schedule IV controlled substance — carry original labeling and a doctor’s letter even domestically.",
+        "source": null
+      },
+      "GB": {
+        "brand": "Sold generic",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "Reclassified as a Schedule 3 controlled drug in the UK in 2014 — prescription-only, subject to controlled-drug handling rules.",
+        "source": "https://theconversation.com/what-is-tramadol-how-dangerous-is-it-and-where-is-it-illegal-86982"
+      },
+      "CA": {
+        "brand": "Sold generic",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Tramal",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Topalgic",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Tradol (or generic tramadol)",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "As of 14 July 2026, Mexico reclassified tramadol under Article 245 Section III — roughly equivalent to a US Schedule IV drug: an ordinary prescription from any licensed physician suffices (no special barcode pad needed), but pharmacies must retain the prescription after 3 fills.",
+        "source": "https://www.gob.mx/cofepris/articulos/cofepris-informa-sobre-las-nuevas-disposiciones-para-la-dispensacion-del-tramadol?idiom=es"
+      },
+      "IN": {
+        "brand": "Ultracet (tramadol/paracetamol) or Tramazac (Zydus Cadila)",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "Both confirmed brands. Notified as a Psychotropic Substance under the NDPS Act in 2018 — not just a plain prescription drug.",
+        "source": "https://worldtradescanner.com/73-JNCH%20PN-08.05.2018.htm"
+      },
+      "ET": {
+        "brand": "Availability and import rules unconfirmed — treat as tightly controlled",
+        "status": "UNCONFIRMED",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Sold generic",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": "Tramadol is classified as a general (non-scheduled) medicine in Japan — up to a one-month personal supply needs no certificate at all; above that, a standard Yunyu Kakunin-sho (import certificate) applies, the same process used for many ordinary prescription medicines.",
+        "source": "https://medx.it.com/is-tramadol-banned-in-japan-navigating-medication-import-rules"
+      },
+      "VN": {
+        "brand": "Availability and import rules unconfirmed — treat as tightly controlled",
+        "status": "UNCONFIRMED",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Sold generic",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": "Controlled substance — Singapore enforces opioid rules strictly.",
+        "source": null
+      },
+      "MA": {
+        "brand": "Availability and import rules unconfirmed — treat as tightly controlled",
+        "status": "UNCONFIRMED",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Sold generic, prescription-only",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Availability and import rules unconfirmed — treat as tightly controlled",
+        "status": "UNCONFIRMED",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "alprazolam",
+    "generic": "Alprazolam",
+    "usAlt": "Xanax in the US",
+    "cls": "Benzodiazepine (anxiety) — controlled substance",
+    "atc": "N05BA12",
+    "countries": {
+      "US": {
+        "brand": "Xanax",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "Schedule IV controlled substance — carry original labeling and a doctor’s letter even domestically.",
+        "source": null
+      },
+      "GB": {
+        "brand": "Not licensed for prescription in the UK at all",
+        "status": "UNCONFIRMED",
+        "confidence": "medium",
+        "note": "Alprazolam is not a standard UK prescription — diazepam or lorazepam are the more likely equivalents a UK doctor would use.",
+        "source": null
+      },
+      "CA": {
+        "brand": "Xanax",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "Brand confirmed still marketed in Canada; scheduled as a Targeted Substance (CDSA IV).",
+        "source": "https://health-products.canada.ca/dpd-bdpp/info.do?code=4471&lang=en"
+      },
+      "DE": {
+        "brand": "Xanor / Tafil",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": "Tightly controlled (Betäubungsmittelgesetz).",
+        "source": null
+      },
+      "FR": {
+        "brand": "Xanax",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Tafil",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Alprax",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "A prescription is required for alprazolam in India, same as most places; it is not sold over-the-counter.",
+        "source": "https://www.yashodahospitals.com/medicine-faqs/alprazolam/"
+      },
+      "ET": {
+        "brand": "Availability and import rules unconfirmed — treat as tightly controlled",
+        "status": "UNCONFIRMED",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Solanax / Constan",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "Regulated as a psychotropic; the personal-supply exemption threshold is drug-specific and unusually low — 72mg total (not the general 30-day rule) — above which a Yunyu Kakunin-sho import certificate is required in advance.",
+        "source": "https://www.us.emb-japan.go.jp/itpr_en/bringing-medications-to-japan.html"
+      },
+      "VN": {
+        "brand": "Availability and import rules unconfirmed — treat as tightly controlled",
+        "status": "UNCONFIRMED",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Xanax",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "HSA-registered (SIN01985P); controlled substance under the Misuse of Drugs Act.",
+        "source": "https://www.ndf.gov.sg/about-drugs/product-information/sin01985p/"
+      },
+      "MA": {
+        "brand": "Availability and import rules unconfirmed — treat as tightly controlled",
+        "status": "UNCONFIRMED",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Xanax",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Xanax",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": "Controlled substance.",
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "prednisone",
+    "generic": "Prednisone",
+    "usAlt": null,
+    "cls": "Corticosteroid (anti-inflammatory)",
+    "atc": "H02AB07",
+    "countries": {
+      "US": {
+        "brand": "Deltasone (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Prednisolone, not prednisone — prednisone is rarely available in the UK at all",
+        "status": "UNCONFIRMED",
+        "confidence": "high",
+        "note": "Prednisone must be converted to prednisolone by the liver to work; the UK (like most of the world outside the US) just prescribes prednisolone directly. Don’t assume a 1:1 substitution without checking with a pharmacist.",
+        "source": "https://www.hweclinicalguidance.nhs.uk/prescribing-guidance/prednisolone/"
+      },
+      "CA": {
+        "brand": "Winpred",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Decortin",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Cortancyl — prednisolone is also commonly used instead",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Meticorten",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Wysolone — note this is actually prednisolone, a common substitution",
+        "status": "UNCONFIRMED",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Prednisone\" (or \"prednisolone\", more commonly used internationally)",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Ask for プレドニン (Predonine) — prednisolone, not prednisone, is what's actually stocked",
+        "status": "UNCONFIRMED",
+        "confidence": "high",
+        "note": "The liver converts prednisone to prednisolone anyway, so Japan (like several other markets) just prescribes prednisolone directly rather than carrying prednisone itself.",
+        "source": "https://sugamo-sengoku-hifu.jp/medicines/predonin.html"
+      },
+      "VN": {
+        "brand": "Prednisolone is the more commonly used equivalent",
+        "status": "UNCONFIRMED",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Cortancyl",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Meticorten (or Lodotra for extended-release) — Cortiol and Nocasio are other registered names",
+        "status": "RX",
+        "confidence": "high",
+        "note": "All four confirmed as registered prednisona brand names in Portugal's drug reference (ÍNDICE).",
+        "source": "https://www.indice.eu/pt/medicamentos/DCI/prednisona/informacao-cientifica"
+      },
+      "TR": {
+        "brand": "Deltacortril (prednisolone) is the more commonly used equivalent",
+        "status": "UNCONFIRMED",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "clopidogrel",
+    "generic": "Clopidogrel",
+    "usAlt": "Plavix in the US",
+    "cls": "Antiplatelet (blood thinner)",
+    "atc": "B01AC04",
+    "countries": {
+      "US": {
+        "brand": "Plavix (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Plavix (mostly sold generic)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Plavix",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Brand confirmed still marketed in Canada.",
+        "source": "https://health-products.canada.ca/dpd-bdpp/info.do?code=62114&lang=en"
+      },
+      "DE": {
+        "brand": "Plavix",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Plavix",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Plavix",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Clopilet",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Clopidogrel\"",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Plavix",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "VN": {
+        "brand": "Plavix",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Plavix",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Plavix",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Plavix",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Plavix",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "aspirin",
+    "generic": "Acetylsalicylic acid (Aspirin)",
+    "usAlt": null,
+    "cls": "NSAID / antiplatelet",
+    "atc": "N02BA01",
+    "countries": {
+      "US": {
+        "brand": "Bayer Aspirin",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "GB": {
+        "brand": "Aspirin / Disprin",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Aspirin",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Aspirin — the brand originated here (Bayer)",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "Aspégic / Aspirine UPSA",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Aspirina",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Disprin / Ecosprin",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Sold under the generic name \"Aspirin\"",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Bayer Aspirin",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "VN": {
+        "brand": "Aspirin (spelling unchanged)",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Aspirin",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "MA": {
+        "brand": "Aspégic",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Aspirina",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Aspirin / Ecopirin",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "oxycodone",
+    "generic": "Oxycodone",
+    "usAlt": "OxyContin / Percocet / Xtampza ER in the US",
+    "cls": "Opioid analgesic — controlled substance",
+    "atc": "N02AA05",
+    "countries": {
+      "US": {
+        "brand": "OxyContin / Percocet / Xtampza ER",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "Schedule II controlled substance — one of the most heavily scrutinized medications to travel with, even domestically. Xtampza ER (Collegium Pharmaceutical) is an abuse-deterrent extended-release capsule alternative to OxyContin.",
+        "source": null
+      },
+      "GB": {
+        "brand": "OxyContin — tightly controlled",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "Brand confirmed still marketed by Napp Pharmaceuticals in the UK (unlike Canada, where the original OxyContin was withdrawn and replaced by OxyNEO).",
+        "source": "https://www.medicines.org.uk/emc/product/7675/smpc"
+      },
+      "CA": {
+        "brand": "OxyNEO / Percocet",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "Original OxyContin was withdrawn from the Canadian market in 2012 and replaced by tamper-resistant OxyNEO; Percocet (oxycodone/acetaminophen) remains available.",
+        "source": "https://health-products.canada.ca/dpd-bdpp/info.do?code=85760&lang=en"
+      },
+      "DE": {
+        "brand": "Oxygesic",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "FR": {
+        "brand": "OxyContin",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "OxyContin",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": "Brand confirmed sold by Purdue in Mexico; controlled substance requiring special prescription forms.",
+        "source": null
+      },
+      "IN": {
+        "brand": "OXYCONTEX II (oxycodone/paracetamol combo) exists on paper, but real-world retail stocking is patchy",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": "On India's Essential Narcotic Drugs list and NDPS-controlled; oxycodone specifically is rarely stocked — codeine and tramadol are the opioids more consistently available in India.",
+        "source": "https://www.annalsofoncology.org/article/S0923-7534(19)37455-1/pdf"
+      },
+      "ET": {
+        "brand": "Availability and import rules unconfirmed — treat as tightly controlled",
+        "status": "UNCONFIRMED",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Available via import permit",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": "Opioid painkillers face strict import controls in Japan. As a narcotic, oxycodone requires advance permission (a Yunyu Kakunin-sho import certificate) from a Regional Bureau of Health and Welfare for any quantity — apply at least 2 weeks ahead with a prescription copy and doctor’s letter. There is no small-quantity exemption like there is for psychotropics such as methylphenidate.",
+        "source": "https://www.us.emb-japan.go.jp/itpr_en/bringing-medications-to-japan.html"
+      },
+      "VN": {
+        "brand": "Availability and import rules unconfirmed — treat as tightly controlled",
+        "status": "UNCONFIRMED",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "OxyContin Neo / OxyNorm",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "HSA-registered brands confirmed (National Drug Formulary); Singapore is flagged repeatedly as one of the strictest destinations globally for opioid painkillers — confirm import rules before travel without exception.",
+        "source": "https://www.ndf.gov.sg/about-drugs/product-information/sin13079p/"
+      },
+      "MA": {
+        "brand": "Availability and import rules unconfirmed — treat as tightly controlled",
+        "status": "UNCONFIRMED",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Oxygesic / Olbete",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": "Original OxyContin was withdrawn from the Portuguese market around 2019 due to commercial unviability — the same pattern seen in Canada — but oxycodone remains available under other brand names.",
+        "source": "https://observador.pt/2019/03/28/porque-e-que-os-museus-abriram-guerra-contra-os-sacklers-a-familia-que-e-dona-do-oxycontin/"
+      },
+      "TR": {
+        "brand": "Availability and import rules unconfirmed — treat as tightly controlled",
+        "status": "UNCONFIRMED",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "methylphenidate",
+    "generic": "Methylphenidate",
+    "usAlt": "Ritalin / Concerta in the US",
+    "cls": "Stimulant (ADHD) — controlled substance",
+    "atc": "N06BA04",
+    "countries": {
+      "US": {
+        "brand": "Ritalin / Concerta",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "Schedule II controlled substance — carry original labeling and a doctor’s letter even domestically.",
+        "source": null
+      },
+      "GB": {
+        "brand": "Concerta / Ritalin",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "CA": {
+        "brand": "Concerta / Ritalin",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": null,
+        "source": null
+      },
+      "DE": {
+        "brand": "Ritalin / Medikinet",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": "Controlled (Betäubungsmittelgesetz).",
+        "source": null
+      },
+      "FR": {
+        "brand": "Ritaline",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "MX": {
+        "brand": "Concerta / Ritalina",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": "Controlled substance requiring special prescription forms; Tradea LP is a real local extended-release alternative too.",
+        "source": null
+      },
+      "IN": {
+        "brand": "Concerta / Addwize",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": "Controlled substance under the NDPS Act; Addwize (Lupin) is a real, confirmed Indian brand.",
+        "source": null
+      },
+      "ET": {
+        "brand": "Availability and import rules unconfirmed — treat as tightly controlled",
+        "status": "UNCONFIRMED",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Concerta",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "Permitted in limited quantity with an import certificate (Yakkan Shoumei) above a one-month supply. Up to a one-month supply (roughly 2,160mg total) can be brought with just a doctor’s letter; above that, you need the Yakkan Shoumei import certificate in advance — apply well before travel. Note Japan has also reported periodic Concerta shortages, so don’t assume local purchase is an option even with paperwork in order.",
+        "source": "https://interacnetwork.com/navigating-stimulant-therapy-for-adult-adhd-in-japan-regulations-and-considerations/"
+      },
+      "VN": {
+        "brand": "Availability and import rules unconfirmed — treat as tightly controlled",
+        "status": "UNCONFIRMED",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Concerta / Ritalin",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": "Controlled substance under the Misuse of Drugs Act.",
+        "source": null
+      },
+      "MA": {
+        "brand": "Availability and import rules unconfirmed — treat as tightly controlled",
+        "status": "UNCONFIRMED",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Concerta / Ritalina",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Concerta / Ritalin — controlled",
+        "status": "CONTROLLED",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      }
+    }
+  }
+]
