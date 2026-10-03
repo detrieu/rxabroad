@@ -1,6 +1,6 @@
 # Pill Trotter
 
-**Know what to ask for, wherever you land.**
+**Know what to ask for, wherever you land.** — live at https://pill-trotter.vercel.app
 
 Every drug has one international name (its INN) and a different local brand name almost everywhere you go.
 Pill Trotter covers 50 common medicines across 14 destinations. Search a brand, a generic name, or a
