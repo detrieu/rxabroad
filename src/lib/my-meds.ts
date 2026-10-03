@@ -24,9 +24,16 @@ export function useMyMeds() {
   return { meds, toggle, clear };
 }
 
-/** The destination for the travel card. */
-export function useMyDestination(): [CountryCode | null, (code: CountryCode | null) => void] {
+/**
+ * The trip's destinations, in the order the traveler picked them (one travel card per leg).
+ * Stored comma-separated; a value saved by the old single-destination version still parses.
+ */
+export function useMyDestinations(): [CountryCode[], (codes: CountryCode[]) => void] {
   const [raw, setRaw] = useStoredString(DEST_KEY);
-  const dest = raw && getCountry(raw) ? (raw as CountryCode) : null;
-  return [dest, setRaw];
+  const dests = useMemo(
+    () => [...new Set(raw ? raw.split(',') : [])].filter((c): c is CountryCode => !!getCountry(c)),
+    [raw],
+  );
+  const save = useCallback((codes: CountryCode[]) => setRaw(codes.length ? codes.join(',') : null), [setRaw]);
+  return [dests, save];
 }

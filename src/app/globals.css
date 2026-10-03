@@ -315,6 +315,10 @@
   .travel-card__row {
     break-inside: avoid;
   }
+  /* Multi-destination trips: each leg's card starts on its own sheet. */
+  .travel-card + .travel-card {
+    break-before: page;
+  }
   /* Tailwind sizes are rem-based, so a smaller root compacts the whole card onto one sheet. */
   html:has(.travel-card) {
     font-size: 13px;
