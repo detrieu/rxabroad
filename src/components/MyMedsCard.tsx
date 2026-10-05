@@ -15,6 +15,7 @@ import { Flag } from './Flag';
 import { StatusPill } from './StatusPill';
 import { PrintButton } from './Toolbar';
 import { TripsPanel } from './TripsPanel';
+import { PassportStamp } from './PassportStamp';
 import { SaveExportGuide } from './SaveExportGuide';
 
 function matchesFilter(drug: Drug, q: string) {
@@ -266,9 +267,7 @@ function TravelPass({ country, leg, legs, drugs, onRemove }: TravelPassProps) {
           <span className="text-muted-foreground font-mono text-[0.6rem] tracking-[0.2em] uppercase">
             {drugs.length} med{drugs.length === 1 ? '' : 's'}
           </span>
-          <span className="ink-unconfirmed text-(--ink) mt-auto grid size-24 place-items-center rounded-full border-2 border-dashed border-current p-2 text-center font-mono text-[0.55rem] leading-tight font-semibold tracking-[0.12em] uppercase">
-            Information only · Not a prescription
-          </span>
+          {country && <PassportStamp country={country} leg={leg} legs={legs} className="mt-auto" />}
         </div>
       </div>
 

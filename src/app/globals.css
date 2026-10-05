@@ -197,6 +197,11 @@
     background: var(--ink);
     outline-color: color-mix(in oklch, var(--card) 70%, transparent);
   }
+  /* Decorative destination stamp on the travel card: same worn-ink look as status stamps. */
+  .passport-stamp {
+    opacity: 0.9;
+    mask-image: radial-gradient(circle at 35% 30%, #000 55%, rgb(0 0 0 / 0.75) 100%);
+  }
   .stamp--sm {
     font-size: 0.6rem;
     padding: 0.3rem 0.45rem 0.28rem;
@@ -307,6 +312,11 @@
   }
   .travel-card__row {
     break-inside: avoid;
+  }
+  /* Dark mode's gold primary is too faint on paper: print the destination stamp in navy ink. */
+  .passport-stamp {
+    color: oklch(0.31 0.1 263) !important;
+    opacity: 1;
   }
   /* Multi-destination trips: each leg's card starts on its own sheet. */
   .travel-card + .travel-card {
