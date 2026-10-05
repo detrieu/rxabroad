@@ -4,8 +4,8 @@ import { useCallback, useMemo } from 'react';
 import { DRUGS, getCountry, type CountryCode } from '@/data';
 import { useStoredString } from './storage';
 
-const MEDS_KEY = 'pt-my-meds';
-const DEST_KEY = 'pt-my-dest';
+const MEDS_KEY = 'rxabroad-my-meds';
+const DEST_KEY = 'rxabroad-my-dest';
 const KNOWN_IDS = new Set(DRUGS.map((d) => d.id));
 
 /** The traveler's saved med list (drug ids, in the order they were added). */
@@ -38,7 +38,7 @@ export function useMyDestinations(): [CountryCode[], (codes: CountryCode[]) => v
   return [dests, save];
 }
 
-const ACTIVE_TRIP_KEY = 'pt-active-trip';
+const ACTIVE_TRIP_KEY = 'rxabroad-active-trip';
 
 /** Which saved trip (if any) the travel card is currently editing; changes autosave to it. */
 export function useActiveTripId(): [string | null, (id: string | null) => void] {

@@ -1,7 +1,7 @@
 export type ThemePref = 'system' | 'light' | 'dark';
 
-export const THEME_KEY = 'pt-theme';
-export const SOURCES_KEY = 'pt-show-sources';
+export const THEME_KEY = 'rxabroad-theme';
+export const SOURCES_KEY = 'rxabroad-show-sources';
 
 /**
  * Runs inline in <head> before first paint so a saved theme or "show sources"
