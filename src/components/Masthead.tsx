@@ -19,7 +19,7 @@ export function Masthead() {
             <span className="border-gold/50 absolute inset-[3px] rounded-full border" />
             <PlaneIcon className="size-4 -rotate-45" />
           </span>
-          <span className="text-gold font-heading truncate text-base font-bold tracking-[0.1em] uppercase min-[400px]:tracking-[0.16em] sm:text-lg sm:tracking-[0.18em]">
+          <span className="text-gold font-heading truncate text-base font-bold tracking-[0.1em] uppercase max-[359px]:text-sm max-[359px]:tracking-[0.04em] min-[400px]:tracking-[0.16em] sm:text-lg sm:tracking-[0.18em]">
             Rx Abroad
           </span>
         </Link>

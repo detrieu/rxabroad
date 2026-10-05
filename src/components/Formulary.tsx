@@ -12,6 +12,8 @@ import { CONTAINER } from './Masthead';
 import { DrugEntry } from './DrugEntry';
 import { Flag } from './Flag';
 import { PrintButton, SourcesToggle } from './Toolbar';
+import { StepNumber, StepStrip, stepStates } from './Steps';
+import { useMyMeds } from '@/lib/my-meds';
 
 /** Reads ?q= and ?c=JP,FR so a shared link restores the same view. */
 export function Formulary() {
@@ -77,6 +79,9 @@ export function FormularyView({ initialQuery = '', initialCountries = [], syncUr
     [query, activeSet],
   );
 
+  const { meds } = useMyMeds();
+  const [s1, s2, s3] = stepStates([!!query, active.length > 0, meds.length > 0]);
+
   const shouldOpen = !!query || active.length > 0;
   const filtering = !!query || active.length > 0;
 
@@ -84,6 +89,8 @@ export function FormularyView({ initialQuery = '', initialCountries = [], syncUr
     <>
       <section className="guilloche text-navy-foreground no-print relative overflow-hidden pb-10">
         <div className={`${CONTAINER} pt-8 sm:pt-12`}>
+          <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_17rem] lg:items-start lg:gap-10">
+          <div>
           <p className="text-gold mb-3 font-mono text-[0.68rem] tracking-[0.3em] uppercase">
             {DRUGS.length} medicines · {COUNTRIES.length} destinations
           </p>
@@ -91,11 +98,29 @@ export function FormularyView({ initialQuery = '', initialCountries = [], syncUr
             Know what to ask for, <span className="text-gold">wherever you land.</span>
           </h1>
           <p className="text-navy-foreground/75 mt-4 max-w-xl text-[0.95rem] leading-relaxed text-pretty">
-            Every medicine has one international generic name and a different brand almost everywhere you go. Search a
-            brand, a generic, or a country to see what to ask for at the pharmacy counter.
+            Every medicine has one international generic name and a different brand almost everywhere you go. Find the
+            name a local pharmacist will recognize.
           </p>
 
-          <div className="relative mt-7 max-w-2xl">
+          </div>
+          {/* Overview beside the headline on wide screens; on smaller screens the numbered labels carry the steps. */}
+          <StepStrip
+            tone="navy"
+            vertical
+            className="mt-2 hidden rounded-xl border border-white/12 bg-white/5 p-4 backdrop-blur-[1px] lg:block"
+            steps={[
+              { title: 'Search a medicine', hint: 'A brand or generic you take, e.g. Zoloft', state: s1 },
+              { title: 'Pick where you’re going', hint: 'One or more destinations', state: s2 },
+              { title: 'Ask for the local name', hint: 'Show it at the pharmacy, or add it to your travel card', state: s3 },
+            ]}
+          />
+          </div>
+
+          <label htmlFor="search" className="text-navy-foreground mt-7 mb-2.5 flex items-center gap-2 text-sm font-semibold">
+            <StepNumber n={1} state={s1} tone="navy" />
+            Search a medicine you take
+          </label>
+          <div className="relative max-w-2xl">
             <SearchIcon className="text-muted-foreground pointer-events-none absolute top-1/2 left-4 size-5 -translate-y-1/2" />
             <Input
               ref={searchRef}
@@ -106,7 +131,7 @@ export function FormularyView({ initialQuery = '', initialCountries = [], syncUr
               placeholder="Try “Claritin”, “paracetamol”, or “Japan”"
               autoComplete="off"
               spellCheck={false}
-              aria-label="Search medicines by brand, generic name, or country"
+              aria-describedby="search-hint"
               className="bg-card text-card-foreground dark:bg-card h-14 rounded-xl border-0 pr-12 pl-12 text-base shadow-lg md:text-base"
             />
             {rawQuery ? (
@@ -129,9 +154,16 @@ export function FormularyView({ initialQuery = '', initialCountries = [], syncUr
             )}
           </div>
 
+          <p id="search-hint" className="text-navy-foreground/60 mt-2 text-xs">
+            Brand (Claritin), generic (loratadine), or a country name all work.
+          </p>
+
           <div className="mt-6">
             <div className="mb-2.5 flex items-center justify-between gap-3">
-              <p className="text-navy-foreground/70 font-mono text-[0.65rem] tracking-[0.2em] uppercase">Where are you headed?</p>
+              <p id="dest-label" className="text-navy-foreground flex items-center gap-2 text-sm font-semibold">
+                <StepNumber n={2} state={s2} tone="navy" />
+                Where are you headed?
+              </p>
               {active.length > 0 && (
                 <button
                   type="button"
@@ -148,7 +180,7 @@ export function FormularyView({ initialQuery = '', initialCountries = [], syncUr
               onValueChange={(v) => setActive(v as CountryCode[])}
               spacing={2}
               className="-mx-4 w-[calc(100%+2rem)] flex-nowrap overflow-x-auto px-4 pb-1 [scrollbar-width:none] sm:mx-0 sm:w-full sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0 [&::-webkit-scrollbar]:hidden"
-              aria-label="Filter by destination"
+              aria-labelledby="dest-label"
             >
               {COUNTRIES.map((co) => (
                 <ToggleGroupItem
@@ -167,6 +199,22 @@ export function FormularyView({ initialQuery = '', initialCountries = [], syncUr
       </section>
 
       <section className={`${CONTAINER} pt-6`} aria-label="Results">
+        <div className="no-print bg-card mb-5 flex items-start gap-3 rounded-xl border px-4 py-3 shadow-sm">
+          <StepNumber n={3} state={s3} />
+          <p className="text-sm leading-snug">
+            <span className="font-semibold">Ask for the local name. </span>
+            <span className="text-muted-foreground">
+              {filtering ? (
+                <>
+                  Show the pharmacist the name after <span className="text-foreground font-mono text-[0.7rem] tracking-[0.12em] uppercase">Ask for</span>.
+                  Taking it on your trip? Tap <span className="text-foreground font-medium">Add to travel card</span> to build a printable card.
+                </>
+              ) : (
+                <>Open any medicine below to see what it&apos;s called in each country, or use steps 1 and 2 to narrow the list.</>
+              )}
+            </span>
+          </p>
+        </div>
         <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
           <p className="text-muted-foreground font-mono text-xs tracking-wide" aria-live="polite">
             {filtering

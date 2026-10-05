@@ -136,7 +136,7 @@ export function TripsPanel({ meds, dests, setMeds, setDests }: TripsPanelProps) 
       <section className="no-print bg-card rounded-2xl border p-5 shadow-sm">
         {heading}
         <p className="text-muted-foreground mt-1.5 text-sm">
-          Sign in to save this trip and open it on any device. Without an account, your card stays in this browser only.
+          Without an account, your card stays in this browser only.
         </p>
         <SignInButton mode="redirect" forceRedirectUrl="/my-meds">
           <Button className="mt-3 w-full"><LogInIcon /> Sign in to save trips</Button>

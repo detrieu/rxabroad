@@ -13,14 +13,13 @@ export function MyMedsLink() {
       variant="outline"
       className="border-gold/40 text-gold hover:bg-gold/10 hover:text-gold dark:border-gold/40 dark:hover:bg-gold/10 bg-transparent dark:bg-transparent"
     >
-      <Link href="/my-meds">
+      <Link href="/my-meds" aria-label={meds.length ? `My travel card, ${meds.length} saved` : 'My travel card'}>
         <BriefcaseMedicalIcon />
         <span className="hidden sm:inline">My travel card</span>
-        <span className="sm:hidden">My meds</span>
         {meds.length > 0 && (
           <span
             className="bg-gold text-navy ml-0.5 grid h-5 min-w-5 place-items-center rounded-full px-1 font-mono text-[0.7rem] font-semibold tabular-nums"
-            aria-label={`${meds.length} saved`}
+            aria-hidden="true"
           >
             {meds.length}
           </span>

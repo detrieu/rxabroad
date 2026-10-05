@@ -15,6 +15,7 @@ import { Flag } from './Flag';
 import { StatusPill } from './StatusPill';
 import { PrintButton } from './Toolbar';
 import { TripsPanel } from './TripsPanel';
+import { SaveExportGuide } from './SaveExportGuide';
 
 function matchesFilter(drug: Drug, q: string) {
   if (!q) return true;
@@ -47,6 +48,8 @@ export function MyMedsCard() {
   const savedDrugs = meds.map(getDrug).filter((d): d is Drug => !!d);
 
   return (
+    <>
+    <SaveExportGuide hasCard={legs.length > 0 && savedDrugs.length > 0} cardCount={legs.length} />
     <div className="grid grid-cols-[minmax(0,1fr)] items-start gap-6 lg:grid-cols-[20rem_minmax(0,1fr)] print:block">
       {/* Saved trips + builder */}
       <div className="no-print grid gap-4 lg:sticky lg:top-4">
@@ -158,6 +161,7 @@ export function MyMedsCard() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
