@@ -46,6 +46,7 @@ export function DrugEntry({ drug, countries, query, open, countryHits }: DrugEnt
             </p>
           )}
           <VisaStrip drug={drug} countries={countries} />
+          <AddMedButton drugId={drug.id} generic={drug.generic} className="mt-4" />
         </div>
 
         <div className="perforation hidden w-40 shrink-0 flex-col items-center justify-center gap-2 px-4 py-5 text-center sm:flex">
@@ -68,9 +69,6 @@ export function DrugEntry({ drug, countries, query, open, countryHits }: DrugEnt
       </summary>
 
       <div className="perforation-h">
-        <div className="flex justify-end px-4 pt-3 sm:px-5">
-          <AddMedButton drugId={drug.id} generic={drug.generic} />
-        </div>
         <DrugTable drug={drug} countries={countries} query={query} countryHits={countryHits} />
       </div>
     </details>

@@ -266,7 +266,9 @@ function TravelPass({ country, leg, legs, drugs, onRemove }: TravelPassProps) {
           <span className="text-muted-foreground font-mono text-[0.6rem] tracking-[0.2em] uppercase">
             {drugs.length} med{drugs.length === 1 ? '' : 's'}
           </span>
-          <span aria-hidden="true" className="barcode text-foreground/80 mt-auto h-12 w-full" />
+          <span className="ink-unconfirmed text-(--ink) mt-auto grid size-24 place-items-center rounded-full border-2 border-dashed border-current p-2 text-center font-mono text-[0.55rem] leading-tight font-semibold tracking-[0.12em] uppercase">
+            Information only · Not a prescription
+          </span>
         </div>
       </div>
 
