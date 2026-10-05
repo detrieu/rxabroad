@@ -10,8 +10,8 @@
     "db:migrate": "node --env-file=.env.local scripts/migrate.mjs"
   },
   "dependencies": {
-    "@neondatabase/auth": "0.5.0-beta",
-    "@neondatabase/auth-ui": "0.3.0-beta",
+    "@clerk/nextjs": "^7.9.11",
+    "@clerk/ui": "^1.39.0",
     "@neondatabase/serverless": "1.2.0",
     "class-variance-authority": "^0.7.1",
     "cn": "^0.4.0",

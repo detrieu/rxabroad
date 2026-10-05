@@ -1,8 +1,10 @@
 import type { Metadata, Viewport } from 'next';
+import { ClerkProvider } from '@clerk/nextjs';
+import { shadcn } from '@clerk/ui/themes';
 import { Bricolage_Grotesque, Geist, IBM_Plex_Mono } from 'next/font/google';
 import { Masthead } from '@/components/Masthead';
 import { Footer } from '@/components/Footer';
-import { AuthProvider } from '@/components/AuthProvider';
+import { Toaster } from 'sonner';
 import { headInitScript } from '@/lib/theme';
 import { SITE_NAME, SITE_TAGLINE, SITE_URL } from '@/lib/site';
 import { cn } from '@/lib/utils';
@@ -36,11 +38,12 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
         <script dangerouslySetInnerHTML={{ __html: headInitScript }} />
       </head>
       <body className="flex min-h-dvh flex-col">
-        <AuthProvider>
+        <ClerkProvider appearance={{ theme: shadcn }} signInUrl="/sign-in" signUpUrl="/sign-up">
           <Masthead />
           <div className="flex-1">{children}</div>
           <Footer />
-        </AuthProvider>
+          <Toaster position="top-center" richColors closeButton />
+        </ClerkProvider>
       </body>
     </html>
   );

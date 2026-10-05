@@ -1,12 +1,11 @@
 'use client';
 
-import Link from 'next/link';
 import { useCallback, useEffect, useState } from 'react';
 import { CheckIcon, CloudIcon, LoaderCircleIcon, LogInIcon, PlusIcon, Trash2Icon } from 'lucide-react';
 import { toast } from 'sonner';
+import { SignInButton, useAuth } from '@clerk/nextjs';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { authClient } from '@/lib/auth/client';
 import { useActiveTripId } from '@/lib/my-meds';
 import { defaultTripName, type Trip } from '@/lib/trips';
 import { createTrip, deleteTrip, listTrips, updateTrip } from '@/app/my-meds/actions';
@@ -26,8 +25,9 @@ const same = (a: readonly string[], b: readonly string[]) => a.length === b.leng
 
 /** Saved trips for signed-in travelers; the open trip autosaves as the card changes. */
 export function TripsPanel({ meds, dests, setMeds, setDests }: TripsPanelProps) {
-  const { data: session, isPending } = authClient.useSession();
-  const userId = session?.user?.id ?? null;
+  const { isLoaded, userId: clerkUserId } = useAuth();
+  const userId = clerkUserId ?? null;
+  const isPending = !isLoaded;
   // Trips are stored with the user they belong to, so switching accounts never shows stale trips.
   const [loaded, setLoaded] = useState<{ userId: string; trips: Trip[] } | null>(null);
   const trips = userId && loaded?.userId === userId ? loaded.trips : null;
@@ -138,9 +138,9 @@ export function TripsPanel({ meds, dests, setMeds, setDests }: TripsPanelProps) 
         <p className="text-muted-foreground mt-1.5 text-sm">
           Sign in to save this trip and open it on any device. Without an account, your card stays in this browser only.
         </p>
-        <Button asChild className="mt-3 w-full">
-          <Link href="/auth/sign-in"><LogInIcon /> Sign in to save trips</Link>
-        </Button>
+        <SignInButton mode="redirect" forceRedirectUrl="/my-meds">
+          <Button className="mt-3 w-full"><LogInIcon /> Sign in to save trips</Button>
+        </SignInButton>
       </section>
     );
   }

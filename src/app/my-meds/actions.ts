@@ -1,6 +1,6 @@
 'use server';
 
-import { currentUserId } from '@/lib/auth/server';
+import { currentUserId } from '@/lib/auth';
 import { sql } from '@/lib/db';
 import { cleanTripInput, isTripId, MAX_TRIPS_PER_USER, type Trip, type TripInput } from '@/lib/trips';
 

@@ -38,19 +38,22 @@ Built with Next.js 16 (App Router), React 19, Tailwind CSS v4 and [shadcn/ui](ht
 (passport paper) and dark (night flight), rubber-stamp status styles, and print rules. Add more shadcn
 components with `npx shadcn@latest add <name>`. There's no backend.
 
-### Accounts and saved trips (Neon)
+### Accounts and saved trips (Clerk + Neon)
 
-Sign-in uses **Neon Auth** (managed Better Auth): email/password and Google. Signed-in travelers can save
-trips (medicines + ordered destinations) to a Neon Postgres database and open them on any device; while a
-trip is open, changes autosave. Without an account the travel card still works, stored in the browser only.
+Sign-in uses **Clerk** (`@clerk/nextjs`, themed with `@clerk/ui`'s shadcn theme). Signed-in travelers can
+save trips (medicines + ordered destinations) to a **Neon Postgres** database and open them on any device;
+while a trip is open, changes autosave. Without an account the travel card still works, stored in the
+browser only.
 
-- Environment variables come from the Vercel ↔ Neon integration (`vercel env pull .env.local`), plus
-  `NEON_AUTH_COOKIE_SECRET` (32+ random characters, same value in every environment).
+- Clerk keys (`NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`, `CLERK_SECRET_KEY`) and the Neon `DATABASE_URL` come from
+  `.env.local` locally and from Vercel environment variables when deployed. Never expose `CLERK_SECRET_KEY`
+  to client code.
+- `src/proxy.ts` runs `clerkMiddleware()`; routes are public, and the trip server actions check the user.
 - Schema lives in `db/migrations/*.sql`; apply with `npm run db:migrate` (runs each file once).
+  `trips.user_id` is the Clerk user id (`user_...`). User profiles stay in Clerk (not copied to Neon).
 - Trip reads/writes are server actions in `src/app/my-meds/actions.ts`; every query is scoped to the
   signed-in user's id, and input is validated against the real country codes and drug ids.
-- Sign-in only redirects back to domains listed under **Trusted domains** in the Neon console (Auth →
-  Configuration). `localhost` is allowed for development.
+- Clerk CLI: `npx clerk doctor` checks the setup; `npx clerk config pull` shows sign-in settings.
 
 ### Project layout
 
@@ -60,8 +63,8 @@ trip is open, changes autosave. Without an account the travel card still works, 
 | `src/data/countries.ts`, `status.ts`, `types.ts` | Countries (with URL slugs), status labels, types |
 | `src/lib/search.ts` | Search matching and country narrowing |
 | `src/components/` | App components (`ui/` holds the shadcn components) |
-| `src/app/` | Routes: `/`, `/drug/[id]`, `/country/[slug]`, `/my-meds`, `/auth/*`, `/account/*`, sitemap, robots |
-| `src/lib/auth/`, `src/lib/db.ts`, `db/migrations/` | Neon Auth setup, database client, schema |
+| `src/app/` | Routes: `/`, `/drug/[id]`, `/country/[slug]`, `/my-meds`, `/sign-in`, `/sign-up`, sitemap, robots |
+| `src/lib/auth.ts`, `src/lib/db.ts`, `db/migrations/` | Clerk user helper, Neon database client, schema |
 | `scripts/extract-data.mjs` | One-time import from the original single-file prototype |
 | `research/` | Scripts and reports from the original data research (Health Canada DPD, French BDPM, …) |
 
