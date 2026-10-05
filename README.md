@@ -53,6 +53,10 @@ browser only.
   `trips.user_id` is the Clerk user id (`user_...`). User profiles stay in Clerk (not copied to Neon).
 - Trip reads/writes are server actions in `src/app/my-meds/actions.ts`; every query is scoped to the
   signed-in user's id, and input is validated against the real country codes and drug ids.
+- **Account deletion:** `src/app/api/webhooks/clerk/route.ts` receives Clerk's `user.deleted` webhook and
+  deletes that user's trips (trips have no foreign key to Clerk). Requests are signature-verified with
+  `CLERK_WEBHOOK_SIGNING_SECRET`; register the endpoint `https://<site>/api/webhooks/clerk` (event
+  `user.deleted`) in the Clerk Dashboard → Webhooks, and set the secret in Vercel.
 - Clerk CLI: `npx clerk doctor` checks the setup; `npx clerk config pull` shows sign-in settings.
 
 ### Project layout
