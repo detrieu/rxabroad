@@ -5,31 +5,36 @@ import { PlaneIcon } from 'lucide-react';
 import type { Country, CountryCode } from '@/data';
 import { cn } from '@/lib/utils';
 
-/** "Welcome" in each destination's main local language (Canada shows both official languages). */
-const WELCOME: Record<CountryCode, { text: string; lang: string }> = {
-  US: { text: 'Welcome', lang: 'en' },
-  GB: { text: 'Welcome', lang: 'en' },
-  CA: { text: 'Welcome\nBienvenue', lang: 'en' },
-  DE: { text: 'Willkommen', lang: 'de' },
-  FR: { text: 'Bienvenue', lang: 'fr' },
-  MX: { text: 'Bienvenidos', lang: 'es' },
-  IN: { text: 'स्वागत है', lang: 'hi' },
-  ET: { text: 'እንኳን ደህና መጡ', lang: 'am' },
-  JP: { text: 'ようこそ', lang: 'ja' },
-  VN: { text: 'Chào mừng', lang: 'vi' },
-  SG: { text: 'Selamat datang', lang: 'ms' },
-  MA: { text: 'مرحبا', lang: 'ar' },
-  PT: { text: 'Bem-vindo', lang: 'pt' },
-  TR: { text: 'Hoş geldiniz', lang: 'tr' },
+/**
+ * Each destination's name for itself (endonym), in its main language and script. Where it's spelled the same
+ * as the English name already on the ring (United States, United Kingdom, Canada, France, Portugal, Türkiye),
+ * the stamp shows just the plane instead of repeating it.
+ */
+const ENDONYM: Record<CountryCode, { text: string; lang: string }> = {
+  US: { text: 'United States', lang: 'en' },
+  GB: { text: 'United Kingdom', lang: 'en' },
+  CA: { text: 'Canada', lang: 'en' },
+  DE: { text: 'Deutschland', lang: 'de' },
+  FR: { text: 'France', lang: 'fr' },
+  MX: { text: 'México', lang: 'es' },
+  IN: { text: 'भारत', lang: 'hi' },
+  ET: { text: 'ኢትዮጵያ', lang: 'am' },
+  JP: { text: '日本', lang: 'ja' },
+  VN: { text: 'Việt Nam', lang: 'vi' },
+  SG: { text: 'Singapura', lang: 'ms' },
+  MA: { text: 'المغرب', lang: 'ar' },
+  PT: { text: 'Portugal', lang: 'pt' },
+  TR: { text: 'Türkiye', lang: 'tr' },
 };
 
 /**
  * Decorative passport arrival stamp for a destination: country name around the top, "Arrival"
- * (and the trip leg) around the bottom, a plane and "welcome" in the local language in the middle.
+ * (and the trip leg) around the bottom, a plane and the country's own name for itself in the middle.
  */
 export function PassportStamp({ country, leg, legs, className }: { country: Country; leg?: number; legs?: number; className?: string }) {
   const id = useId().replace(/:/g, '');
-  const welcome = WELCOME[country.code];
+  const endonym = ENDONYM[country.code];
+  const showEndonym = endonym.text.toLocaleLowerCase() !== country.name.toLocaleLowerCase();
   const bottom = legs && legs > 1 && leg ? `Arrival · Leg ${leg}` : '★ Arrival ★';
 
   return (
@@ -57,10 +62,12 @@ export function PassportStamp({ country, leg, legs, className }: { country: Coun
         </text>
       </svg>
       <div className="absolute inset-[24%] flex flex-col items-center justify-center gap-0.5 text-center">
-        <PlaneIcon className="size-4 -rotate-45" strokeWidth={2.25} />
-        <span lang={welcome.lang} className="font-heading text-[0.68rem] leading-[1.1] font-bold whitespace-pre-line text-balance">
-          {welcome.text}
-        </span>
+        <PlaneIcon className={cn('-rotate-45', showEndonym ? 'size-4' : 'size-7')} strokeWidth={2.25} />
+        {showEndonym && (
+          <span lang={endonym.lang} className="font-heading text-[0.78rem] leading-[1.1] font-bold text-balance">
+            {endonym.text}
+          </span>
+        )}
       </div>
     </div>
   );
