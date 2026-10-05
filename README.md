@@ -1,9 +1,9 @@
-# Pill Trotter
+# Rx Abroad
 
-**Know what to ask for, wherever you land.** — live at https://pill-trotter.vercel.app
+**Know what to ask for, wherever you land.** — live at https://rxabroad.vercel.app
 
 Every drug has one international name (its INN) and a different local brand name almost everywhere you go.
-Pill Trotter covers 50 common medicines across 14 destinations. Search a brand, a generic name, or a
+Rx Abroad covers 50 common medicines across 14 destinations. Search a brand, a generic name, or a
 country to see what to ask for at the pharmacy counter and whether it's OTC, prescription-only,
 pharmacist-only, controlled, or banned.
 
@@ -85,7 +85,7 @@ Each drug in `drugs.json` looks like this:
 - `status` is one of `OTC`, `RX`, `MIXED`, `PHARMACY`, `CONTROLLED`, `BANNED`, `UNCONFIRMED`, `ASK_GENERIC`.
 - `confidence` is `high`, `medium` (shows †), or `low` (shows ?).
 
-The data was imported from the prototype `pill-trotter-aug27.html`, which has the verified India
+The data was imported from the original prototype (then called *Pill Trotter*), `pill-trotter-aug27.html`, which has the verified India
 research. To check that the import still matches the prototype, run
 `node scripts/extract-data.mjs --check ~/pill-trotter/pill-trotter-aug27.html`.
 

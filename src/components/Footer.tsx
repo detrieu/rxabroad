@@ -59,7 +59,7 @@ export function Footer() {
         </aside>
       </div>
       <div className="guilloche text-navy-foreground/70 py-4 text-center font-mono text-[0.65rem] tracking-[0.25em] uppercase">
-        Pill Trotter · Know what to ask for, wherever you land
+        Rx Abroad · Know what to ask for, wherever you land
       </div>
     </footer>
   );

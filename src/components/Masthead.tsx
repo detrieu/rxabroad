@@ -20,7 +20,7 @@ export function Masthead() {
             <PlaneIcon className="size-4 -rotate-45" />
           </span>
           <span className="text-gold font-heading truncate text-base font-bold tracking-[0.1em] uppercase min-[400px]:tracking-[0.16em] sm:text-lg sm:tracking-[0.18em]">
-            Pill Trotter
+            Rx Abroad
           </span>
         </Link>
         <nav aria-label="Site" className="ml-auto flex items-center gap-1 sm:gap-2">

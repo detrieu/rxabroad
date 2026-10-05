@@ -175,7 +175,7 @@ function TravelPass({ country, leg, legs, drugs, onRemove }: TravelPassProps) {
     <section aria-labelledby={headingId} className="travel-card ticket bg-card overflow-hidden rounded-2xl border shadow-md">
       <header className="guilloche text-navy-foreground flex flex-wrap items-center justify-between gap-x-3 gap-y-1 px-5 py-3">
         <span className="text-gold font-heading flex items-center gap-2 text-sm font-bold tracking-[0.2em] whitespace-nowrap uppercase">
-          <PlaneIcon className="size-4 -rotate-45" /> Pill Trotter
+          <PlaneIcon className="size-4 -rotate-45" /> Rx Abroad
         </span>
         <h2 id={headingId} className="font-mono text-[0.65rem] tracking-[0.25em] whitespace-nowrap uppercase">
           {country ? `${country.name} card` : 'Travel meds card'}
@@ -267,7 +267,7 @@ function TravelPass({ country, leg, legs, drugs, onRemove }: TravelPassProps) {
       </div>
 
       <p className="text-muted-foreground border-t border-dashed px-5 py-3 text-[0.72rem]">
-        Pill Trotter seed data — not medical or legal advice. Confirm with a local pharmacist or physician.
+        Rx Abroad seed data — not medical or legal advice. Confirm with a local pharmacist or physician.
       </p>
     </section>
   );

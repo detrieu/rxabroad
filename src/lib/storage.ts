@@ -6,6 +6,7 @@ import { useCallback, useSyncExternalStore } from 'react';
 // Every access is wrapped in try/catch: storage can throw in private windows
 // or when site data is blocked, and the app must still work without it.
 
+// Storage keys keep the original 'pt-' prefix (from the app's first name) so saved cards survive the rename.
 const EVENT = 'pt-storage';
 
 function read(key: string): string | null {
