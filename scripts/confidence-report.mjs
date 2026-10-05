@@ -33,7 +33,6 @@ export const TIER_2 = [
   'eisai.com', 'sumitomo-pharma.com', 'organonpro.com', 'medice.com', 'ssp.co.jp', 'catalog-taisho.com',
   'flunase.jp', 'pfizer.pt', 'ben-u-ron.pt', 'loranopro.de', 'pyrocalmcontrol.co.uk',
 ];
-const TIER_LABEL = { 1: 'official', 2: 'professional', 3: 'secondary', 0: 'none' };
 
 export function sourceTier(source) {
   if (!source) return 0;

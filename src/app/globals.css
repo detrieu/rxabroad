@@ -2,6 +2,11 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
+/* Generate the Tailwind classes used by the Neon Auth UI components (sign-in, account pages)
+   against OUR theme tokens. We deliberately don't import @neondatabase/auth-ui/tailwind:
+   it remaps every shadcn color to its own --neon-* palette. */
+@source "../../node_modules/@neondatabase/auth-ui/dist/.safelist.html";
+
 @custom-variant dark (&:is(.dark *));
 
 /*

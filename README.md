@@ -38,6 +38,20 @@ Built with Next.js 16 (App Router), React 19, Tailwind CSS v4 and [shadcn/ui](ht
 (passport paper) and dark (night flight), rubber-stamp status styles, and print rules. Add more shadcn
 components with `npx shadcn@latest add <name>`. There's no backend.
 
+### Accounts and saved trips (Neon)
+
+Sign-in uses **Neon Auth** (managed Better Auth): email/password and Google. Signed-in travelers can save
+trips (medicines + ordered destinations) to a Neon Postgres database and open them on any device; while a
+trip is open, changes autosave. Without an account the travel card still works, stored in the browser only.
+
+- Environment variables come from the Vercel ↔ Neon integration (`vercel env pull .env.local`), plus
+  `NEON_AUTH_COOKIE_SECRET` (32+ random characters, same value in every environment).
+- Schema lives in `db/migrations/*.sql`; apply with `npm run db:migrate` (runs each file once).
+- Trip reads/writes are server actions in `src/app/my-meds/actions.ts`; every query is scoped to the
+  signed-in user's id, and input is validated against the real country codes and drug ids.
+- Sign-in only redirects back to domains listed under **Trusted domains** in the Neon console (Auth →
+  Configuration). `localhost` is allowed for development.
+
 ### Project layout
 
 | Path | What |
@@ -46,7 +60,8 @@ components with `npx shadcn@latest add <name>`. There's no backend.
 | `src/data/countries.ts`, `status.ts`, `types.ts` | Countries (with URL slugs), status labels, types |
 | `src/lib/search.ts` | Search matching and country narrowing |
 | `src/components/` | App components (`ui/` holds the shadcn components) |
-| `src/app/` | Routes: `/`, `/drug/[id]`, `/country/[slug]`, `/my-meds`, sitemap, robots |
+| `src/app/` | Routes: `/`, `/drug/[id]`, `/country/[slug]`, `/my-meds`, `/auth/*`, `/account/*`, sitemap, robots |
+| `src/lib/auth/`, `src/lib/db.ts`, `db/migrations/` | Neon Auth setup, database client, schema |
 | `scripts/extract-data.mjs` | One-time import from the original single-file prototype |
 | `research/` | Scripts and reports from the original data research (Health Canada DPD, French BDPM, …) |
 

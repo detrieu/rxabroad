@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { PlaneIcon } from 'lucide-react';
 import { ThemeToggle } from './ThemeToggle';
 import { MyMedsLink } from './MyMedsLink';
+import { AccountMenu } from './AccountMenu';
 
 export const CONTAINER = 'mx-auto w-full max-w-5xl px-4 sm:px-6';
 
@@ -25,6 +26,7 @@ export function Masthead() {
         <nav aria-label="Site" className="ml-auto flex items-center gap-1 sm:gap-2">
           <MyMedsLink />
           <ThemeToggle className="text-navy-foreground hover:bg-white/10 hover:text-gold dark:hover:bg-white/10" />
+          <AccountMenu />
         </nav>
       </div>
     </header>

@@ -21,7 +21,7 @@ export function useMyMeds() {
     [meds, save],
   );
   const clear = useCallback(() => save([]), [save]);
-  return { meds, toggle, clear };
+  return { meds, toggle, clear, setMeds: save };
 }
 
 /**
@@ -36,4 +36,11 @@ export function useMyDestinations(): [CountryCode[], (codes: CountryCode[]) => v
   );
   const save = useCallback((codes: CountryCode[]) => setRaw(codes.length ? codes.join(',') : null), [setRaw]);
   return [dests, save];
+}
+
+const ACTIVE_TRIP_KEY = 'pt-active-trip';
+
+/** Which saved trip (if any) the travel card is currently editing; changes autosave to it. */
+export function useActiveTripId(): [string | null, (id: string | null) => void] {
+  return useStoredString(ACTIVE_TRIP_KEY);
 }

@@ -14,6 +14,7 @@ import { cn } from '@/lib/utils';
 import { Flag } from './Flag';
 import { StatusPill } from './StatusPill';
 import { PrintButton } from './Toolbar';
+import { TripsPanel } from './TripsPanel';
 
 function matchesFilter(drug: Drug, q: string) {
   if (!q) return true;
@@ -38,7 +39,7 @@ const CAUTION: Partial<Record<string, { icon: typeof BanIcon; ink: string; text:
 };
 
 export function MyMedsCard() {
-  const { meds, toggle, clear } = useMyMeds();
+  const { meds, toggle, clear, setMeds } = useMyMeds();
   const [dests, setDests] = useMyDestinations();
   const [filter, setFilter] = useState('');
   const legs = dests.map(getCountry).filter((c): c is Country => !!c);
@@ -47,8 +48,10 @@ export function MyMedsCard() {
 
   return (
     <div className="grid grid-cols-[minmax(0,1fr)] items-start gap-6 lg:grid-cols-[20rem_minmax(0,1fr)] print:block">
-      {/* Builder */}
-      <section aria-labelledby="pick-heading" className="no-print bg-card rounded-2xl border p-5 shadow-sm lg:sticky lg:top-4">
+      {/* Saved trips + builder */}
+      <div className="no-print grid gap-4 lg:sticky lg:top-4">
+      <TripsPanel meds={meds} dests={dests} setMeds={setMeds} setDests={setDests} />
+      <section aria-labelledby="pick-heading" className="bg-card rounded-2xl border p-5 shadow-sm">
         <h2 id="pick-heading" className="font-heading text-lg font-bold">Build your card</h2>
 
         <div className="mt-4 mb-1.5 flex items-baseline justify-between gap-2">
@@ -138,6 +141,7 @@ export function MyMedsCard() {
           </Button>
         )}
       </section>
+      </div>
 
       {/* One boarding pass per leg of the trip */}
       <div className="grid gap-6">
