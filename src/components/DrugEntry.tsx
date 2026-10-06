@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils';
 import { Flag } from './Flag';
 import { Highlight } from './Highlight';
 import { inkClass, StatusPill } from './StatusPill';
-import { ConfBadge } from './ConfBadge';
+import { EntryBadges } from './ConfBadge';
 import { AddMedButton } from './AddMedButton';
 
 type CountryHits = Partial<Record<CountryCode, true>>;
@@ -141,13 +141,13 @@ function CountryRow({
       <span role="cell" className="col-span-2 row-start-2 min-w-0 sm:col-span-1 sm:row-start-auto">
         <span className="text-muted-foreground mr-2 font-mono text-[0.6rem] tracking-[0.16em] uppercase">Ask for</span>
         <span className="font-semibold"><Highlight text={entry.brand} query={query} /></span>
-        <ConfBadge confidence={entry.confidence} />
+        <EntryBadges entry={entry} />
       </span>
       <span role="cell" className="col-start-2 row-start-1 justify-self-end sm:col-start-auto sm:row-start-auto">
         <StatusPill status={entry.status} />
       </span>
       {entry.note && <p className="text-muted-foreground col-span-full text-[0.82rem] leading-relaxed">{entry.note}</p>}
-      <SourceLink source={entry.source} />
+      <SourceLink source={entry.source ?? entry.verified?.url ?? null} />
     </div>
   );
 }

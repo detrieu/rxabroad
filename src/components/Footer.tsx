@@ -1,6 +1,6 @@
 import { CONTAINER } from './Masthead';
 import { StatusPill } from './StatusPill';
-import { CircleHelpIcon, InfoIcon, TriangleAlertIcon } from 'lucide-react';
+import { BadgeCheckIcon, CircleHelpIcon, InfoIcon, TriangleAlertIcon } from 'lucide-react';
 
 const LEGEND: { status: string; text: string }[] = [
   { status: 'OTC', text: 'Over the counter — take it off the shelf.' },
@@ -9,6 +9,7 @@ const LEGEND: { status: string; text: string }[] = [
   { status: 'PHARMACY', text: 'No prescription, but a pharmacist has to hand it over.' },
   { status: 'CONTROLLED', text: 'A prescription works, but expect scrutiny, paperwork, and harder refills.' },
   { status: 'BANNED', text: 'No legal personal-use pathway. Do not bring it in.' },
+  { status: 'UNAVAILABLE', text: 'Not sold in this country. Bring it from home.' },
   { status: 'ASK_GENERIC', text: 'Local brand unknown — ask by the generic name.' },
   { status: 'UNCONFIRMED', text: 'No reliable information yet.' },
 ];
@@ -44,6 +45,14 @@ export function Footer() {
               </dt>
               <dd className="text-muted-foreground -mt-2.5 text-sm leading-snug sm:mt-0">Verify locally before relying on it.</dd>
             </div>
+            <div className="contents">
+              <dt className="text-ink-otc flex items-center gap-1.5 text-sm font-medium">
+                <BadgeCheckIcon className="size-4" /> Registry-verified
+              </dt>
+              <dd className="text-muted-foreground -mt-2.5 text-sm leading-snug sm:mt-0">
+                Registered with that country&apos;s official medicines registry. Stock still varies by pharmacy.
+              </dd>
+            </div>
           </dl>
         </section>
         <aside className="bg-card self-start rounded-xl border p-5 text-sm">
@@ -55,6 +64,11 @@ export function Footer() {
             Compiled from general pharmacology knowledge, not a live regulatory feed. Brand names, availability, and
             prescription status change and vary by region and even by pharmacy. Confirm with a local pharmacist or
             physician before relying on this while traveling.
+          </p>
+          <p className="text-muted-foreground mt-3 text-xs leading-relaxed">
+            This product uses publicly available data from the U.S. National Library of Medicine (NLM), National
+            Institutes of Health, Department of Health and Human Services; NLM is not responsible for the product and
+            does not endorse or recommend this or any other product.
           </p>
         </aside>
       </div>

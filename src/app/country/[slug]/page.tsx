@@ -5,7 +5,7 @@ import { SearchIcon } from 'lucide-react';
 import { COUNTRIES, DRUGS, entryFor, getCountryBySlug, type Status } from '@/data';
 import { Button } from '@/components/ui/button';
 import { StatusPill } from '@/components/StatusPill';
-import { ConfBadge } from '@/components/ConfBadge';
+import { EntryBadges } from '@/components/ConfBadge';
 import { SourceLink } from '@/components/DrugEntry';
 import { Flag } from '@/components/Flag';
 import { CONTAINER } from '@/components/Masthead';
@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: PageProps<'/country/[slug]'>)
 }
 
 // Most restrictive first, so the risky ones lead the summary.
-const SUMMARY_ORDER: Status[] = ['BANNED', 'CONTROLLED', 'RX', 'MIXED', 'PHARMACY', 'OTC', 'ASK_GENERIC', 'UNCONFIRMED'];
+const SUMMARY_ORDER: Status[] = ['BANNED', 'CONTROLLED', 'RX', 'MIXED', 'PHARMACY', 'OTC', 'ASK_GENERIC', 'UNAVAILABLE', 'UNCONFIRMED'];
 
 export default async function CountryPage({ params }: PageProps<'/country/[slug]'>) {
   const country = getCountryBySlug((await params).slug);
@@ -103,13 +103,13 @@ export default async function CountryPage({ params }: PageProps<'/country/[slug]
               <span role="cell" className="col-span-2 row-start-2 min-w-0 sm:col-span-1 sm:row-start-auto">
                 <span className="text-muted-foreground mr-2 font-mono text-[0.6rem] tracking-[0.16em] uppercase">Ask for</span>
                 <span className="font-semibold">{entry.brand}</span>
-                <ConfBadge confidence={entry.confidence} />
+                <EntryBadges entry={entry} />
               </span>
               <span role="cell" className="col-start-2 row-start-1 justify-self-end sm:col-start-auto sm:row-start-auto">
                 <StatusPill status={entry.status} />
               </span>
               {entry.note && <p className="text-muted-foreground col-span-full text-[0.82rem] leading-relaxed">{entry.note}</p>}
-              <SourceLink source={entry.source} />
+              <SourceLink source={entry.source ?? entry.verified?.url ?? null} />
             </div>
           ))}
         </div>

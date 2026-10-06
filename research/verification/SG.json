@@ -1,0 +1,4388 @@
+{
+  "country": "SG",
+  "registry": "HSA Register of Therapeutic Products (Singapore)",
+  "registryVersion": "5511 registered products",
+  "checked": "2026-10-06",
+  "summary": {
+    "entries": 76,
+    "brandEntries": 56,
+    "brandEntriesConfirmed": 55,
+    "brandNames": 63,
+    "brandNamesConfirmed": 62,
+    "verified": 67,
+    "statusAgree": 65,
+    "statusDiffer": 0,
+    "statusNotComparable": 11,
+    "confidenceRaised": 0,
+    "flagged": 5
+  },
+  "entries": [
+    {
+      "id": "paracetamol",
+      "generic": "Paracetamol",
+      "brand": "Panadol",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Panadol",
+          "id": "SIN14833P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "PANADOL EXTRA EFFERVESCENT TABLET 500MG/65MG",
+          "products": [
+            {
+              "licence": "SIN14833P",
+              "product": "PANADOL EXTRA EFFERVESCENT TABLET 500MG/65MG",
+              "legal": "OTC"
+            },
+            {
+              "licence": "SIN14182P",
+              "product": "Panadol Cough & Cold Caplet",
+              "legal": "OTC"
+            },
+            {
+              "licence": "SIN09110P",
+              "product": "PANADOL EXTRA CAPLET",
+              "legal": "OTC"
+            },
+            {
+              "licence": "SIN07404P",
+              "product": "PANADOL SOLUBLE TABLET 500 mg",
+              "legal": "OTC"
+            },
+            {
+              "licence": "SIN13878P",
+              "product": "Panadol Cold Relief PE Caplet",
+              "legal": "OTC"
+            },
+            {
+              "licence": "SIN16142P",
+              "product": "PANADOL CHILDREN SUSPENSION 250MG/5ML",
+              "legal": "OTC"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN13754P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 101
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "General Sale List": 9
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN14833P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "ibuprofen",
+      "generic": "Ibuprofen",
+      "brand": "Nurofen",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Nurofen",
+          "id": "SIN14587P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "NUROFEN TABLET 400MG",
+          "products": [
+            {
+              "licence": "SIN14587P",
+              "product": "NUROFEN TABLET 400MG",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN14958P",
+              "product": "NUROFEN FOR CHILDREN 200MG/5ML",
+              "legal": "PHARMACY"
+            },
+            {
+              "licence": "SIN14366P",
+              "product": "NUROFEN EXPRESS CAPLETS 342MG",
+              "legal": "OTC"
+            },
+            {
+              "licence": "SIN14367P",
+              "product": "NUROFEN EXPRESS CAPLETS 684MG",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN14562P",
+              "product": "NUROFEN EXPRESS LIQUID CAPSULE 200MG",
+              "legal": "OTC"
+            },
+            {
+              "licence": "SIN09488P",
+              "product": "NUROFEN TABLET 200MG (OTC)",
+              "legal": "OTC"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN15828P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 28
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 3,
+            "Pharmacy Only": 2,
+            "General Sale List": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN14587P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "loratadine",
+      "generic": "Loratadine",
+      "brand": "Clarityn",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Clarityn",
+          "id": "SIN16091P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "CLARITYNE SYRUP 5 MG/5 ML (GRAPE FLAVOR)",
+          "products": [
+            {
+              "licence": "SIN16091P",
+              "product": "CLARITYNE SYRUP 5 MG/5 ML (GRAPE FLAVOR)",
+              "legal": "OTC"
+            },
+            {
+              "licence": "SIN12246P",
+              "product": "CLARITYN-D 24HOUR EXTENDED RELEASE TABLET",
+              "legal": "PHARMACY"
+            },
+            {
+              "licence": "SIN14077P",
+              "product": "CLARITYNE TABLET 10mg",
+              "legal": "OTC"
+            },
+            {
+              "licence": "SIN07282P",
+              "product": "CLARITYN-D 12HOUR REPETABS",
+              "legal": "PHARMACY"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN10351P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 17
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "General Sale List": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN16091P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "cetirizine",
+      "generic": "Cetirizine",
+      "brand": "Zyrtec",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zyrtec",
+          "id": "SIN15437P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZYRTEC-R ORAL SOLUTION 1 MG/ML",
+          "products": [
+            {
+              "licence": "SIN15437P",
+              "product": "ZYRTEC-R ORAL SOLUTION 1 MG/ML",
+              "legal": "OTC"
+            },
+            {
+              "licence": "SIN14890P",
+              "product": "ZYRTEC-R FILM-COATED TABLET 10 MG",
+              "legal": "OTC"
+            },
+            {
+              "licence": "SIN08945P",
+              "product": "ZYRTEC ORAL DROPS 10 mg/ml",
+              "legal": "PHARMACY"
+            },
+            {
+              "licence": "SIN10796P",
+              "product": "ZYRTEC ORAL SOLUTION 1 mg/ml",
+              "legal": "PHARMACY"
+            },
+            {
+              "licence": "SIN03022P",
+              "product": "ZYRTEC TABLET 10 mg",
+              "legal": "PHARMACY"
+            },
+            {
+              "licence": "SIN13139P",
+              "product": "ZYRTEC-D",
+              "legal": "PHARMACY"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN08756P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 25
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "General Sale List": 2,
+            "Pharmacy Only": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN15437P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "diphenhydramine",
+      "generic": "Diphenhydramine",
+      "brand": "Paxidorm",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Paxidorm",
+          "id": "SIN10851P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "PAXIDORM TABLETS 25 mg",
+          "products": [
+            {
+              "licence": "SIN10851P",
+              "product": "PAXIDORM TABLETS 25 mg",
+              "legal": "PHARMACY"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN10851P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 10
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "PHARMACY",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Pharmacy Only": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN10851P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "loperamide",
+      "generic": "Loperamide",
+      "brand": "Imodium",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Imodium",
+          "id": "SIN06212P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "IMODIUM CAPSULE 2 mg",
+          "products": [
+            {
+              "licence": "SIN06212P",
+              "product": "IMODIUM CAPSULE 2 mg",
+              "legal": "PHARMACY"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN09601P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 7
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "PHARMACY",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Pharmacy Only": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN06212P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "omeprazole",
+      "generic": "Omeprazole",
+      "brand": "Promesec (pharmacy-only) / Losec (Rx)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Promesec",
+          "id": "SIN16251P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "PROMESEC GASTRO-RESISTANT CAPSULES 20 MG (PHARMACY ONLY)",
+          "products": [
+            {
+              "licence": "SIN16251P",
+              "product": "PROMESEC GASTRO-RESISTANT CAPSULES 20 MG (PHARMACY ONLY)",
+              "legal": "PHARMACY"
+            },
+            {
+              "licence": "SIN15522P",
+              "product": "PROMESEC GASTRO-RESISTANT CAPSULES 20 MG",
+              "legal": "RX"
+            }
+          ]
+        },
+        {
+          "name": "Losec",
+          "id": "SIN10700P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "LOSEC MUPS TABLET 20 mg",
+          "products": [
+            {
+              "licence": "SIN10700P",
+              "product": "LOSEC MUPS TABLET 20 mg",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN09987P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 20
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Pharmacy Only": 1,
+            "Prescription Only": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN16251P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "pseudoephedrine",
+      "generic": "Pseudoephedrine",
+      "brand": "Pharmacy-only with purchase limits",
+      "kind": "other",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN11488P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 26
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "PHARMACY",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Pharmacy Only": 25,
+            "Prescription Only": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN11488P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "melatonin",
+      "generic": "Melatonin",
+      "brand": "Prescription-only medicine (POM) — Circadin is the only HSA-registered brand",
+      "kind": "other",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN13954P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 1
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN13954P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "dimenhydrinate",
+      "generic": "Dimenhydrinate",
+      "brand": "Novomin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Novomin",
+          "id": "SIN03550P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "NOVOMIN SYRUP 15 mg/5 ml",
+          "products": [
+            {
+              "licence": "SIN03550P",
+              "product": "NOVOMIN SYRUP 15 mg/5 ml",
+              "legal": "PHARMACY"
+            },
+            {
+              "licence": "SIN03403P",
+              "product": "NOVOMIN TABLET 50 mg",
+              "legal": "PHARMACY"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN02519P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 6
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "PHARMACY",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Pharmacy Only": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN03550P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "ATC differs: entry R06AA11, HSA lists R06AA02"
+      ]
+    },
+    {
+      "id": "amoxicillin",
+      "generic": "Amoxicillin",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN11417P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 22
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN11417P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "metformin",
+      "generic": "Metformin",
+      "brand": "Glucophage",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Glucophage",
+          "id": "SIN13994P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "Glucophage XR 1000mg Extended Release Tablet",
+          "products": [
+            {
+              "licence": "SIN13994P",
+              "product": "Glucophage XR 1000mg Extended Release Tablet",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN13249P",
+              "product": "Glucophage XR 500 mg Extended Release Tablet",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN13751P",
+              "product": "Glucophage XR 750mg Extended Release Tablet",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN11945P",
+              "product": "GLUCOPHAGE TABLET 1000 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN06988P",
+              "product": "GLUCOPHAGE TABLET 850 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN04249P",
+              "product": "GLUCOPHAGE TABLET 500 mg",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN13924P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 65
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN13994P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "sertraline",
+      "generic": "Sertraline",
+      "brand": "Zoloft",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zoloft",
+          "id": "SIN07301P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZOLOFT TABLET 50 mg",
+          "products": [
+            {
+              "licence": "SIN07301P",
+              "product": "ZOLOFT TABLET 50 mg",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN16385P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 7
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN07301P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "albuterol",
+      "generic": "Salbutamol",
+      "brand": "Ventolin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ventolin",
+          "id": "SIN02988P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "VENTOLIN RESPIRATOR SOLUTION 0.5% w/v",
+          "products": [
+            {
+              "licence": "SIN02988P",
+              "product": "VENTOLIN RESPIRATOR SOLUTION 0.5% w/v",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN11359P",
+              "product": "VENTOLIN EVOHALER 100 mcg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN02539P",
+              "product": "VENTOLIN SOLUTION FOR INTRAVENOUS INFUSION 5 mg/5 ml",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN08240P",
+              "product": "VENTOLIN ORAL LIQUID 2 mg/5 ml (Sugar-Free)",
+              "legal": "PHARMACY"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN10339P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 14
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 3,
+            "Pharmacy Only": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN02988P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "atorvastatin",
+      "generic": "Atorvastatin",
+      "brand": "Lipitor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lipitor",
+          "id": "SIN09550P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "LIPITOR TABLET 20 mg",
+          "products": [
+            {
+              "licence": "SIN09550P",
+              "product": "LIPITOR TABLET 20 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN09551P",
+              "product": "LIPITOR TABLET 40 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN09552P",
+              "product": "LIPITOR TABLET 10 mg",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN15795P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 58
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN09550P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "levothyroxine",
+      "generic": "Levothyroxine",
+      "brand": "Eltroxin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Eltroxin",
+          "id": "SIN13252P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "Eltroxin Tablet 50mcg",
+          "products": [
+            {
+              "licence": "SIN13252P",
+              "product": "Eltroxin Tablet 50mcg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN13251P",
+              "product": "Eltroxin Tablet 100mcg",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN16694P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 15
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN13252P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "lisinopril",
+      "generic": "Lisinopril",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN12037P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 14
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 14
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN12037P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "amlodipine",
+      "generic": "Amlodipine",
+      "brand": "Norvasc",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Norvasc",
+          "id": "SIN05277P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "NORVASC TABLET 5 mg",
+          "products": [
+            {
+              "licence": "SIN05277P",
+              "product": "NORVASC TABLET 5 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN05278P",
+              "product": "NORVASC TABLET 10 mg",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN14005P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 84
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN05277P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "metoprolol",
+      "generic": "Metoprolol",
+      "brand": "Denex (or generic metoprolol)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Denex",
+          "id": "SIN01331P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "DENEX TABLET 100 mg",
+          "products": [
+            {
+              "licence": "SIN01331P",
+              "product": "DENEX TABLET 100 mg",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN00440P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 3
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN01331P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "losartan",
+      "generic": "Losartan",
+      "brand": "Cozaar",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Cozaar",
+          "id": "SIN14192P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "Cozaar®XQ® Tablet 5mg/50mg",
+          "products": [
+            {
+              "licence": "SIN14192P",
+              "product": "Cozaar®XQ® Tablet 5mg/50mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN14193P",
+              "product": "Cozaar®XQ® Tablet 5mg/100mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN08588P",
+              "product": "COZAAR TABLET 50 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN11614P",
+              "product": "COZAAR TABLET 100 mg",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN13720P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 35
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN14192P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "gabapentin",
+      "generic": "Gabapentin",
+      "brand": "Neurontin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Neurontin",
+          "id": "SIN08303P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "NEURONTIN CAPSULE 300 mg",
+          "products": [
+            {
+              "licence": "SIN08303P",
+              "product": "NEURONTIN CAPSULE 300 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN08302P",
+              "product": "NEURONTIN CAPSULE 400 mg",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN15230P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 12
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN08303P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "rosuvastatin",
+      "generic": "Rosuvastatin",
+      "brand": "Crestor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Crestor",
+          "id": "SIN12157P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "CRESTOR TABLET 20 mg",
+          "products": [
+            {
+              "licence": "SIN12157P",
+              "product": "CRESTOR TABLET 20 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN12158P",
+              "product": "CRESTOR TABLET 10 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN13154P",
+              "product": "Crestor Tablet 5 mg",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN16836P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 52
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN12157P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "pantoprazole",
+      "generic": "Pantoprazole",
+      "brand": "Controloc",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Controloc",
+          "id": "SIN08843P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "CONTROLOC TABLET 40 mg",
+          "products": [
+            {
+              "licence": "SIN08843P",
+              "product": "CONTROLOC TABLET 40 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN11170P",
+              "product": "CONTROLOC TABLET 20 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN11165P",
+              "product": "CONTROLOC IV INJECTION 40 mg/vial",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN15863P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 20
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN08843P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "escitalopram",
+      "generic": "Escitalopram",
+      "brand": "Lexapro",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lexapro",
+          "id": "SIN12365P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "LEXAPRO TABLET 5 mg",
+          "products": [
+            {
+              "licence": "SIN12365P",
+              "product": "LEXAPRO TABLET 5 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN12362P",
+              "product": "LEXAPRO TABLET 20 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN12363P",
+              "product": "LEXAPRO TABLET 10 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN12364P",
+              "product": "LEXAPRO TABLET 15 mg",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN16777P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 8
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN12365P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amphetamine",
+      "generic": "Amphetamine / Dextroamphetamine",
+      "brand": "Not sold in Singapore",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 0
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrochlorothiazide",
+      "generic": "Hydrochlorothiazide",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN06552P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 30
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN06552P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "bupropion",
+      "generic": "Bupropion",
+      "brand": "Wellbutrin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Wellbutrin",
+          "id": "SIN10983P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "WELLBUTRIN SR TABLETS 150 mg",
+          "products": [
+            {
+              "licence": "SIN10983P",
+              "product": "WELLBUTRIN SR TABLETS 150 mg",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN16411P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 2
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN10983P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "fluoxetine",
+      "generic": "Fluoxetine",
+      "brand": "Sold generic (e.g. Proctin, Fluxil)",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN09317P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 6
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN09317P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "semaglutide",
+      "generic": "Semaglutide",
+      "brand": "Ozempic",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ozempic",
+          "id": "SIN16165P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "OZEMPIC 0.25MG, 0.5MG/DOSE SOLUTION FOR INJECTION IN PRE-FILLED PEN 1.34MG/ML",
+          "products": [
+            {
+              "licence": "SIN16165P",
+              "product": "OZEMPIC 0.25MG, 0.5MG/DOSE SOLUTION FOR INJECTION IN PRE-FILLED PEN 1.34MG/ML",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN16164P",
+              "product": "OZEMPIC 1MG/DOSE SOLUTION FOR INJECTION IN PRE-FILLED PEN 1.34MG/ML",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN16705P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 15
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN16165P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "montelukast",
+      "generic": "Montelukast",
+      "brand": "Singulair",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Singulair",
+          "id": "SIN12460P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "SINGULAIR ORAL GRANULES 4 mg/sachet",
+          "products": [
+            {
+              "licence": "SIN12460P",
+              "product": "SINGULAIR ORAL GRANULES 4 mg/sachet",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN09769P",
+              "product": "SINGULAIR TABLET 10 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN11641P",
+              "product": "SINGULAIR CHEWABLE TABLET 4 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN09768P",
+              "product": "SINGULAIR CHEWABLE TABLET 5 mg",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN14954P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 26
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN12460P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "trazodone",
+      "generic": "Trazodone",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN10777P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 1
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN10777P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "simvastatin",
+      "generic": "Simvastatin",
+      "brand": "Zocor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zocor",
+          "id": "SIN03789P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZOCOR TABLET 10 mg",
+          "products": [
+            {
+              "licence": "SIN03789P",
+              "product": "ZOCOR TABLET 10 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN08893P",
+              "product": "ZOCOR TABLET 20 mg",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN11815P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 27
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN03789P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "tamsulosin",
+      "generic": "Tamsulosin",
+      "brand": "Harnal OCAS",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Harnal OCAS",
+          "id": "SIN13696P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "Harnal OCAS Prolonged Release Film-coated Tablet 400mcg",
+          "products": [
+            {
+              "licence": "SIN13696P",
+              "product": "Harnal OCAS Prolonged Release Film-coated Tablet 400mcg",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN15476P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 8
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN13696P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrocodone",
+      "generic": "Hydrocodone / Paracetamol combination",
+      "brand": "Not sold in Singapore",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 0
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "fluticasone",
+      "generic": "Fluticasone",
+      "brand": "Flixonase",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Flixonase",
+          "id": "SIN07090P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "FLIXONASE AQUEOUS NASAL SPRAY 0.05% w/w",
+          "products": [
+            {
+              "licence": "SIN07090P",
+              "product": "FLIXONASE AQUEOUS NASAL SPRAY 0.05% w/w",
+              "legal": "PHARMACY"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN11529P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 24
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "PHARMACY",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Pharmacy Only": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN07090P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "meloxicam",
+      "generic": "Meloxicam",
+      "brand": "Mobic",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Mobic",
+          "id": "SIN09554P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "MOBIC TABLET 7.5 mg",
+          "products": [
+            {
+              "licence": "SIN09554P",
+              "product": "MOBIC TABLET 7.5 mg",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN14305P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 3
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN09554P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "apixaban",
+      "generic": "Apixaban",
+      "brand": "Eliquis",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Eliquis",
+          "id": "SIN14407P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "ELIQUIS TABLET 5MG",
+          "products": [
+            {
+              "licence": "SIN14407P",
+              "product": "ELIQUIS TABLET 5MG",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN14279P",
+              "product": "Eliquis Tablet 2.5mg",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN17320P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 6
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN14407P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "furosemide",
+      "generic": "Furosemide",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN00064P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 6
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN00064P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-glargine",
+      "generic": "Insulin Glargine",
+      "brand": "Lantus",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lantus",
+          "id": "SIN11934P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "LANTUS 100 Units/ml Solution for injection in a vial",
+          "products": [
+            {
+              "licence": "SIN11934P",
+              "product": "LANTUS 100 Units/ml Solution for injection in a vial",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN13426P",
+              "product": "Lantus SoloStar 100 Units/ml Solution for injection in a pre-filled pen",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN15138P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 6
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN11934P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "duloxetine",
+      "generic": "Duloxetine",
+      "brand": "Cymbalta (mostly sold as generic duloxetine)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Cymbalta",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "not in the HSA register",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 0
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "Brand \"Cymbalta\" not confirmed: not in the HSA register"
+      ]
+    },
+    {
+      "id": "famotidine",
+      "generic": "Famotidine",
+      "brand": "Famotin / Famopsin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Famotin",
+          "id": "SIN07569P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "FAMOTIN TABLET 20 mg",
+          "products": [
+            {
+              "licence": "SIN07569P",
+              "product": "FAMOTIN TABLET 20 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN07568P",
+              "product": "FAMOTIN TABLET 40 mg",
+              "legal": "RX"
+            }
+          ]
+        },
+        {
+          "name": "Famopsin",
+          "id": "SIN05640P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "FAMOPSIN 40 TABLET 40 mg",
+          "products": [
+            {
+              "licence": "SIN05640P",
+              "product": "FAMOPSIN 40 TABLET 40 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN05641P",
+              "product": "FAMOPSIN 20 TABLET 20 mg",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN12039P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 9
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN07569P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "empagliflozin",
+      "generic": "Empagliflozin",
+      "brand": "Jardiance",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Jardiance",
+          "id": "SIN15061P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "JARDIANCE DUO FILM COATED TABLET 12.5MG/1000MG",
+          "products": [
+            {
+              "licence": "SIN15061P",
+              "product": "JARDIANCE DUO FILM COATED TABLET 12.5MG/1000MG",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN15062P",
+              "product": "JARDIANCE DUO FILM COATED TABLET 12.5MG/850MG",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN15063P",
+              "product": "JARDIANCE DUO FILM COATED TABLET 12.5MG/500MG",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN15064P",
+              "product": "JARDIANCE DUO FILM COATED TABLET 5MG/500MG",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN14686P",
+              "product": "JARDIANCE FILM-COATED TABLETS 10MG",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN14687P",
+              "product": "JARDIANCE FILM-COATED TABLET 25MG",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN15272P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 10
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN15061P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "carvedilol",
+      "generic": "Carvedilol",
+      "brand": "Dilatrend",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Dilatrend",
+          "id": "SIN10335P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "DILATREND TABLET 12.5 mg",
+          "products": [
+            {
+              "licence": "SIN10335P",
+              "product": "DILATREND TABLET 12.5 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN07421P",
+              "product": "DILATREND TABLET 25 mg",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN14642P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 7
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN10335P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "tramadol",
+      "generic": "Tramadol",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN08953P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 13
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 9
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN08953P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "alprazolam",
+      "generic": "Alprazolam",
+      "brand": "Xanax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Xanax",
+          "id": "SIN01984P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "XANAX TABLET 0.25 mg",
+          "products": [
+            {
+              "licence": "SIN01984P",
+              "product": "XANAX TABLET 0.25 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN01985P",
+              "product": "XANAX TABLET 0.5 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN09173P",
+              "product": "XANAX XR EXTENDED-RELEASE TABLET 0.5 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN09175P",
+              "product": "XANAX XR EXTENDED-RELEASE TABLET 1mg",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN07871P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 7
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN01984P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "prednisone",
+      "generic": "Prednisone",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN04379P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 1
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN04379P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "clopidogrel",
+      "generic": "Clopidogrel",
+      "brand": "Plavix",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Plavix",
+          "id": "SIN09828P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "PLAVIX TABLET 75 mg",
+          "products": [
+            {
+              "licence": "SIN09828P",
+              "product": "PLAVIX TABLET 75 mg",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN14037P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 17
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN09828P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "aspirin",
+      "generic": "Acetylsalicylic acid (Aspirin)",
+      "brand": "Aspirin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Aspirin",
+          "id": "SIN05373P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "ASPIRIN (E.C.) TABLETS 100 mg",
+          "products": [
+            {
+              "licence": "SIN05373P",
+              "product": "ASPIRIN (E.C.) TABLETS 100 mg",
+              "legal": "OTC"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN05362P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 10
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "General Sale List": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN05373P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oxycodone",
+      "generic": "Oxycodone",
+      "brand": "OxyContin Neo / OxyNorm",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "OxyContin Neo",
+          "id": "SIN14885P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "OXYCONTIN® NEO CONTROLLED-RELEASE TABLETS 20 MG",
+          "products": [
+            {
+              "licence": "SIN14885P",
+              "product": "OXYCONTIN® NEO CONTROLLED-RELEASE TABLETS 20 MG",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN14884P",
+              "product": "OXYCONTIN® NEO CONTROLLED-RELEASE TABLET 10 mg",
+              "legal": "RX"
+            }
+          ]
+        },
+        {
+          "name": "OxyNorm",
+          "id": "SIN13733P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "OxyNorm® Sterile Solution for Injection or Infusion 10mg/ml",
+          "products": [
+            {
+              "licence": "SIN13733P",
+              "product": "OxyNorm® Sterile Solution for Injection or Infusion 10mg/ml",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN13083P",
+              "product": "OXYNORM 5MG CAPSULE",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN13079P",
+              "product": "OXYNORM 10MG CAPSULE",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN15996P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 9
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN14885P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "methylphenidate",
+      "generic": "Methylphenidate",
+      "brand": "Concerta / Ritalin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Concerta",
+          "id": "SIN12098P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "CONCERTA EXTENDED-RELEASE TABLET 36 mg",
+          "products": [
+            {
+              "licence": "SIN12098P",
+              "product": "CONCERTA EXTENDED-RELEASE TABLET 36 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN12431P",
+              "product": "CONCERTA EXTENDED-RELEASE TABLET 27 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN12100P",
+              "product": "CONCERTA EXTENDED-RELEASE TABLET 54 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN12099P",
+              "product": "CONCERTA EXTENDED-RELEASE TABLET 18 mg",
+              "legal": "RX"
+            }
+          ]
+        },
+        {
+          "name": "Ritalin",
+          "id": "SIN12351P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "RITALIN LA CAPSULE 20 mg",
+          "products": [
+            {
+              "licence": "SIN12351P",
+              "product": "RITALIN LA CAPSULE 20 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN03542P",
+              "product": "RITALIN TABLET 10 mg",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN12351P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 15
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN12098P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "naproxen",
+      "generic": "Naproxen",
+      "brand": "Aleve",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Aleve",
+          "id": "SIN12440P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "ALEVE TABLET 220 mg (OTC Pack)",
+          "products": [
+            {
+              "licence": "SIN12440P",
+              "product": "ALEVE TABLET 220 mg (OTC Pack)",
+              "legal": "OTC"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN09804P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 13
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "General Sale List": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN12440P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "diclofenac-gel",
+      "generic": "Diclofenac (topical gel)",
+      "brand": "Voltaren Emulgel",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Voltaren Emulgel",
+          "id": "SIN03962P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "VOLTAREN EMULGEL 1%",
+          "products": [
+            {
+              "licence": "SIN03962P",
+              "product": "VOLTAREN EMULGEL 1%",
+              "legal": "OTC"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN08561P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 52
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "General Sale List": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN03962P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "fexofenadine",
+      "generic": "Fexofenadine",
+      "brand": "Telfast",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Telfast",
+          "id": "SIN11699P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "TELFAST TABLET 180 mg",
+          "products": [
+            {
+              "licence": "SIN11699P",
+              "product": "TELFAST TABLET 180 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN11704P",
+              "product": "TELFAST TABLET 120 mg",
+              "legal": "OTC"
+            },
+            {
+              "licence": "SIN12071P",
+              "product": "TELFAST D TABLET",
+              "legal": "PHARMACY"
+            },
+            {
+              "licence": "SIN14199P",
+              "product": "Telfast Oral Suspension 6 mg/ml",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN15714P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 7
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 2,
+            "General Sale List": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN11699P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "guaifenesin",
+      "generic": "Guaifenesin",
+      "brand": "Mucinex / Robitussin EX",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Mucinex",
+          "id": "SIN14588P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "MUCINEX EXTENDED RELEASE TABLETS 600MG",
+          "products": [
+            {
+              "licence": "SIN14588P",
+              "product": "MUCINEX EXTENDED RELEASE TABLETS 600MG",
+              "legal": "OTC"
+            },
+            {
+              "licence": "SIN14659P",
+              "product": "MUCINEX EXTENDED RELEASE TABLETS 1200MG",
+              "legal": "OTC"
+            }
+          ]
+        },
+        {
+          "name": "Robitussin EX",
+          "id": "SIN12140P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "ROBITUSSIN EX SYRUP 200 mg/10 ml",
+          "products": [
+            {
+              "licence": "SIN12140P",
+              "product": "ROBITUSSIN EX SYRUP 200 mg/10 ml",
+              "legal": "OTC"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN09666P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 18
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "General Sale List": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN14588P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "dextromethorphan",
+      "generic": "Dextromethorphan",
+      "brand": "Dexcophan / Beathorphan",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Dexcophan",
+          "id": "SIN02657P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "DEXCOPHAN TABLET 15 mg",
+          "products": [
+            {
+              "licence": "SIN02657P",
+              "product": "DEXCOPHAN TABLET 15 mg",
+              "legal": "PHARMACY"
+            },
+            {
+              "licence": "SIN03252P",
+              "product": "DEXCOPHAN PAEDIATRIC LINCTUS 5.5 mg/5 ml",
+              "legal": "PHARMACY"
+            },
+            {
+              "licence": "SIN07643P",
+              "product": "DEXCOPHAN COUGH LINCTUS PLUS",
+              "legal": "PHARMACY"
+            }
+          ]
+        },
+        {
+          "name": "Beathorphan",
+          "id": "SIN02810P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "BEATHORPHAN ELIXIR 15 mg/5 ml",
+          "products": [
+            {
+              "licence": "SIN02810P",
+              "product": "BEATHORPHAN ELIXIR 15 mg/5 ml",
+              "legal": "PHARMACY"
+            },
+            {
+              "licence": "SIN02653P",
+              "product": "BEATHORPHAN TABLETS 15 mg",
+              "legal": "PHARMACY"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN13992P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 17
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "PHARMACY",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Pharmacy Only": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN02657P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oxymetazoline",
+      "generic": "Oxymetazoline (nasal spray)",
+      "brand": "Iliadin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Iliadin",
+          "id": "SIN03163P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "ILIADIN SOLUTION 0.05%",
+          "products": [
+            {
+              "licence": "SIN03163P",
+              "product": "ILIADIN SOLUTION 0.05%",
+              "legal": "OTC"
+            },
+            {
+              "licence": "SIN06533P",
+              "product": "ILIADIN SOLUTION FOR NOSE 0.01%",
+              "legal": "OTC"
+            },
+            {
+              "licence": "SIN03162P",
+              "product": "ILIADIN SOLUTION 0.025%",
+              "legal": "OTC"
+            },
+            {
+              "licence": "SIN02674P",
+              "product": "ILIADIN SPRAY 0.05%",
+              "legal": "OTC"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN03163P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 10
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "General Sale List": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN03163P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "bismuth-subsalicylate",
+      "generic": "Bismuth subsalicylate",
+      "brand": "Not registered in Singapore",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "calcium-carbonate",
+      "generic": "Calcium carbonate (antacid)",
+      "brand": "Rennie",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Rennie",
+          "id": "SIN08733P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "RENNIE TABLET",
+          "products": [
+            {
+              "licence": "SIN08733P",
+              "product": "RENNIE TABLET",
+              "legal": "OTC"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN05820P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 8
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "General Sale List": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN08733P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "simeticone",
+      "generic": "Simeticone",
+      "brand": "Simcone",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Simcone",
+          "id": "SIN11621P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "SIMCONE CHEWABLE TABLET 80 mg",
+          "products": [
+            {
+              "licence": "SIN11621P",
+              "product": "SIMCONE CHEWABLE TABLET 80 mg",
+              "legal": "OTC"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN11621P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 14
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "General Sale List": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN11621P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oral-rehydration-salts",
+      "generic": "Oral rehydration salts",
+      "brand": "Ask for oral rehydration salts",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 0
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": [
+        "Ingredient not found in this registry"
+      ]
+    },
+    {
+      "id": "bisacodyl",
+      "generic": "Bisacodyl",
+      "brand": "Dulcolax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Dulcolax",
+          "id": "SIN02663P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "DULCOLAX SUPPOSITORY 10 mg",
+          "products": [
+            {
+              "licence": "SIN02663P",
+              "product": "DULCOLAX SUPPOSITORY 10 mg",
+              "legal": "OTC"
+            },
+            {
+              "licence": "SIN02669P",
+              "product": "DULCOLAX TABLET 5 mg",
+              "legal": "OTC"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN10948P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 9
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "General Sale List": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN02663P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "polyethylene-glycol",
+      "generic": "Polyethylene glycol 3350 (macrogol)",
+      "brand": "Forlax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Forlax",
+          "id": "SIN12419P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "FORLAX POWDER FOR ORAL SOLUTION 10 g/sachet",
+          "products": [
+            {
+              "licence": "SIN12419P",
+              "product": "FORLAX POWDER FOR ORAL SOLUTION 10 g/sachet",
+              "legal": "OTC"
+            },
+            {
+              "licence": "SIN17210P",
+              "product": "FORLAX POWDER FOR ORAL SOLUTION 4G/SACHET",
+              "legal": "OTC"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN13529P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 7
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "General Sale List": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN12419P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "meclozine",
+      "generic": "Meclozine",
+      "brand": "Not registered — \"Novomin\" (dimenhydrinate) covers this use",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrocortisone-cream",
+      "generic": "Hydrocortisone (cream)",
+      "brand": "Hydroderm / H-Cort",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Hydroderm",
+          "id": "SIN08804P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "HYDRODERM CREAM 1%",
+          "products": [
+            {
+              "licence": "SIN08804P",
+              "product": "HYDRODERM CREAM 1%",
+              "legal": "PHARMACY"
+            },
+            {
+              "licence": "SIN08790P",
+              "product": "HYDRODERM-C CREAM 1%",
+              "legal": "RX"
+            }
+          ]
+        },
+        {
+          "name": "H-Cort",
+          "id": "SIN12212P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "H-CORT OINTMENT 1% w/w",
+          "products": [
+            {
+              "licence": "SIN12212P",
+              "product": "H-CORT OINTMENT 1% w/w",
+              "legal": "PHARMACY"
+            },
+            {
+              "licence": "SIN12211P",
+              "product": "H-CORT CREAM 1% w/w",
+              "legal": "PHARMACY"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN03840P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 29
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "PHARMACY",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Pharmacy Only": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN08804P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "clotrimazole",
+      "generic": "Clotrimazole",
+      "brand": "Canesten",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Canesten",
+          "id": "SIN03585P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "CANESTEN GYN 6 DAY THERAPY VAGINAL TABLET 0.1g",
+          "products": [
+            {
+              "licence": "SIN03585P",
+              "product": "CANESTEN GYN 6 DAY THERAPY VAGINAL TABLET 0.1g",
+              "legal": "PHARMACY"
+            },
+            {
+              "licence": "SIN04743P",
+              "product": "CANESTEN CREAM 1%",
+              "legal": "OTC"
+            },
+            {
+              "licence": "SIN03584P",
+              "product": "CANESTEN GYN 1 DAY THERAPY VAGINAL TABLET 0.5 g",
+              "legal": "PHARMACY"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN03396P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 23
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Pharmacy Only": 2,
+            "General Sale List": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN03585P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "antibiotic-ointment",
+      "generic": "Bacitracin / Neomycin / Polymyxin B (antibiotic ointment)",
+      "brand": "Not sold without a prescription",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN04413P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 2
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 2
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "Entry says \"Not sold without a prescription\" but the registry lists products with this ingredient"
+      ]
+    },
+    {
+      "id": "doxylamine",
+      "generic": "Doxylamine",
+      "brand": "Not registered on its own",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN16865P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 1
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 1
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "Entry says \"Not registered on its own\" but the registry lists products with this ingredient"
+      ]
+    },
+    {
+      "id": "levonorgestrel",
+      "generic": "Levonorgestrel (emergency contraception)",
+      "brand": "Postinor-2",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Postinor-2",
+          "id": "SIN11836P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "POSTINOR 2 TABLET 0.75 mg",
+          "products": [
+            {
+              "licence": "SIN11836P",
+              "product": "POSTINOR 2 TABLET 0.75 mg",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN07915P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 3
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN11836P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "atovaquone-proguanil",
+      "generic": "Atovaquone / Proguanil",
+      "brand": "Malarone",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Malarone",
+          "id": "SIN09761P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "MALARONE TABLET",
+          "products": [
+            {
+              "licence": "SIN09761P",
+              "product": "MALARONE TABLET",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN09761P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 1
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN09761P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "doxycycline",
+      "generic": "Doxycycline",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN08536P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 7
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 7
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN08536P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "azithromycin",
+      "generic": "Azithromycin",
+      "brand": "Zithromax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zithromax",
+          "id": "SIN10911P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZITHROMAX TABLET 250 mg",
+          "products": [
+            {
+              "licence": "SIN10911P",
+              "product": "ZITHROMAX TABLET 250 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN12057P",
+              "product": "ZITHROMAX IV POWDER FOR SOLUTION FOR INFUSION 500 mg/vial",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN07863P",
+              "product": "ZITHROMAX POWDER FOR ORAL SUSPENSION 200 mg/5 ml",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN14281P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 16
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN10911P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "ciprofloxacin",
+      "generic": "Ciprofloxacin",
+      "brand": "Ciprobay",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ciprobay",
+          "id": "SIN03028P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "CIPROBAY 250 TABLET 250 mg",
+          "products": [
+            {
+              "licence": "SIN03028P",
+              "product": "CIPROBAY 250 TABLET 250 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN05085P",
+              "product": "CIPROBAY 500 TABLET 500 mg",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN03617P",
+              "product": "CIPROBAY 200 INFUSION SOLUTION 200 mg/100 ml",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN11287P",
+              "product": "CIPROBAY HC OTIC SUSPENSION",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN08940P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 25
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN03028P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "acetazolamide",
+      "generic": "Acetazolamide",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN01140P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 2
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN01140P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "scopolamine",
+      "generic": "Scopolamine (motion-sickness patch)",
+      "brand": "Not registered as a patch",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "ondansetron",
+      "generic": "Ondansetron",
+      "brand": "Zofran",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zofran",
+          "id": "SIN05135P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZOFRAN INJECTION 2 mg/ml",
+          "products": [
+            {
+              "licence": "SIN05135P",
+              "product": "ZOFRAN INJECTION 2 mg/ml",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN05133P",
+              "product": "ZOFRAN TABLET 8 mg",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN15946P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 17
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN05135P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "epinephrine",
+      "generic": "Epinephrine (adrenaline auto-injector)",
+      "brand": "EpiPen",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "EpiPen",
+          "id": "SIN13288P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "EpiPen (Epinephrine) Auto-Injector 0.3mg/dose (1mg/ml)",
+          "products": [
+            {
+              "licence": "SIN13288P",
+              "product": "EpiPen (Epinephrine) Auto-Injector 0.3mg/dose (1mg/ml)",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN13290P",
+              "product": "EpiPen Junior (Epinephrine) Auto-Injector 0.15mg/dose (0.5mg/ml)",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN10017P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 14
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN13288P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    }
+  ]
+}

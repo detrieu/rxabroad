@@ -31,6 +31,10 @@ export const STATUS = {
     "label": "Unconfirmed",
     "cls": "unconfirmed"
   },
+  "UNAVAILABLE": {
+    "label": "Unavailable",
+    "cls": "unavailable"
+  },
   "ASK_GENERIC": {
     "label": "Ask by generic name",
     "cls": "generic"

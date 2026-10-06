@@ -1,0 +1,5618 @@
+{
+  "country": "FR",
+  "registry": "Base de données publique des médicaments (France)",
+  "registryVersion": "15883 specialities",
+  "checked": "2026-10-06",
+  "summary": {
+    "entries": 76,
+    "brandEntries": 65,
+    "brandEntriesConfirmed": 64,
+    "brandNames": 79,
+    "brandNamesConfirmed": 78,
+    "verified": 69,
+    "statusAgree": 70,
+    "statusDiffer": 1,
+    "statusNotComparable": 5,
+    "confidenceRaised": 1,
+    "flagged": 4
+  },
+  "entries": [
+    {
+      "id": "paracetamol",
+      "generic": "Paracetamol",
+      "brand": "Doliprane",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Doliprane",
+          "id": "66057393",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66057393/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "DOLIPRANE 100 mg, suppositoire sécable",
+          "products": [
+            {
+              "cis": "66057393",
+              "product": "DOLIPRANE 100 mg, suppositoire sécable",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "60234100",
+              "product": "DOLIPRANE 1000 mg, comprimé",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "66567738",
+              "product": "DOLIPRANE 1000 mg, comprimé effervescent sécable",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "69309629",
+              "product": "DOLIPRANE 1000 mg, gélule",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "61681702",
+              "product": "DOLIPRANE 1000 mg, poudre pour solution buvable en sachet-dose",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "60310861",
+              "product": "DOLIPRANE 150 mg, suppositoire",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "62040674",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62040674/extrait",
+        "marketedProducts": 163
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "NO_RX": 22
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "66057393",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66057393/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "ibuprofen",
+      "generic": "Ibuprofen",
+      "brand": "Nurofen / Advil",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Nurofen",
+          "id": "60305960",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60305960/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "NUROFEN 200 mg, comprimé enrobé",
+          "products": [
+            {
+              "cis": "60305960",
+              "product": "NUROFEN 200 mg, comprimé enrobé",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "63005402",
+              "product": "NUROFEN 200 mg, comprimé orodispersible",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "64911902",
+              "product": "NUROFEN 400 mg, comprimé enrobé",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "65477024",
+              "product": "NUROFEN 400 mg, comprimé enrobé",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "61471853",
+              "product": "NUROFENCAPS 400 mg, capsule molle",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "69457752",
+              "product": "NUROFENFLASH 200 mg, comprimé pelliculé",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "name": "Advil",
+          "id": "68634000",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68634000/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "ADVIL 200 mg, comprimé enrobé",
+          "products": [
+            {
+              "cis": "68634000",
+              "product": "ADVIL 200 mg, comprimé enrobé",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "63646874",
+              "product": "ADVIL 400 mg, comprimé enrobé",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "67848097",
+              "product": "ADVILCAPS 200 mg, capsule molle",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "61959735",
+              "product": "ADVILCAPS 400 mg, capsule molle",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "63040606",
+              "product": "ADVILMED 400 mg, comprimé enrobé",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "61902232",
+              "product": "ADVILMED ENFANTS ET NOURRISSONS 20 mg/1 ml, suspension buvable en flacon",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "68634000",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68634000/extrait",
+        "marketedProducts": 79
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "NO_RX": 13,
+            "RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "60305960",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60305960/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "loratadine",
+      "generic": "Loratadine",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "68728738",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68728738/extrait",
+        "marketedProducts": 17
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "NO_RX": 7,
+            "RX": 10
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "68728738",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68728738/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "cetirizine",
+      "generic": "Cetirizine",
+      "brand": "Zyrtecset (no prescription) / Zyrtec (Rx)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zyrtecset",
+          "id": "62636293",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62636293/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZYRTECSET 10 mg, comprimé pelliculé sécable",
+          "products": [
+            {
+              "cis": "62636293",
+              "product": "ZYRTECSET 10 mg, comprimé pelliculé sécable",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "64949486",
+              "product": "ZYRTECSET 10 mg, comprimé pelliculé sécable",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "name": "Zyrtec",
+          "id": "65016707",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65016707/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZYRTEC 10 mg/ml, solution buvable en gouttes",
+          "products": [
+            {
+              "cis": "65016707",
+              "product": "ZYRTEC 10 mg/ml, solution buvable en gouttes",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "62636293",
+              "product": "ZYRTECSET 10 mg, comprimé pelliculé sécable",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "64949486",
+              "product": "ZYRTECSET 10 mg, comprimé pelliculé sécable",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "64367347",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64367347/extrait",
+        "marketedProducts": 25
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "NO_RX": 4,
+            "RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "62636293",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62636293/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "diphenhydramine",
+      "generic": "Diphenhydramine",
+      "brand": "Nautamine",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Nautamine",
+          "id": "62444574",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62444574/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "NAUTAMINE, comprimé sécable",
+          "products": [
+            {
+              "cis": "62444574",
+              "product": "NAUTAMINE, comprimé sécable",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "62444574",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62444574/extrait",
+        "marketedProducts": 1
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "NO_RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "62444574",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62444574/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "loperamide",
+      "generic": "Loperamide",
+      "brand": "Imodium",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Imodium",
+          "id": "61203061",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61203061/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "IMODIUMCAPS 2 mg, gélule",
+          "products": [
+            {
+              "cis": "61203061",
+              "product": "IMODIUMCAPS 2 mg, gélule",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "67275135",
+              "product": "IMODIUMDUO, comprimé",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "65272215",
+              "product": "IMODIUMLINGUAL 2 mg, lyophilisat oral",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "65619769",
+              "product": "IMODIUMLINGUAL 2 mg, lyophilisat oral",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "60095095",
+              "product": "IMODIUMLIQUICAPS 2 mg, capsule molle",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "66146187",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66146187/extrait",
+        "marketedProducts": 29
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "NO_RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "61203061",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61203061/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "omeprazole",
+      "generic": "Omeprazole",
+      "brand": "Mopral (Rx) / Mopralpro (no prescription)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Mopral",
+          "id": "69606819",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69606819/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "MOPRAL 10 mg, gélule gastro-résistante",
+          "products": [
+            {
+              "cis": "69606819",
+              "product": "MOPRAL 10 mg, gélule gastro-résistante",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "64103828",
+              "product": "MOPRAL 20 mg, gélule gastro-résistante",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "62044256",
+              "product": "MOPRALPRO 20 mg, comprimé gastro-résistant",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "name": "Mopralpro",
+          "id": "62044256",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62044256/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "MOPRALPRO 20 mg, comprimé gastro-résistant",
+          "products": [
+            {
+              "cis": "62044256",
+              "product": "MOPRALPRO 20 mg, comprimé gastro-résistant",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "69606819",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69606819/extrait",
+        "marketedProducts": 39
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 2,
+            "NO_RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "69606819",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69606819/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "pseudoephedrine",
+      "generic": "Pseudoephedrine",
+      "brand": "Prescription required for any pseudoephedrine-containing product",
+      "kind": "other",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": null,
+        "marketedProducts": 0
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "melatonin",
+      "generic": "Melatonin",
+      "brand": "OTC as a food supplement under 2mg per dose; 2mg and above is a prescription medicine",
+      "kind": "other",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "67474429",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67474429/extrait",
+        "marketedProducts": 11
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "RX",
+        "result": "differ",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 11
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "Status differs: entry MIXED, registry RX"
+      ]
+    },
+    {
+      "id": "dimenhydrinate",
+      "generic": "Dimenhydrinate",
+      "brand": "Nausicalm",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Nausicalm",
+          "id": "69806008",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69806008/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "NAUSICALM 15,7 mg ENFANTS, sirop en sachet",
+          "products": [
+            {
+              "cis": "69806008",
+              "product": "NAUSICALM 15,7 mg ENFANTS, sirop en sachet",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "60173964",
+              "product": "NAUSICALM ADULTES 50 mg, gélule",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "63137902",
+              "product": "NAUSICALM, sirop",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "68461541",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68461541/extrait",
+        "marketedProducts": 4
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "NO_RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "69806008",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69806008/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amoxicillin",
+      "generic": "Amoxicillin",
+      "brand": "Clamoxyl",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Clamoxyl",
+          "id": "64539416",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64539416/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "CLAMOXYL 1 g, comprimé dispersible",
+          "products": [
+            {
+              "cis": "64539416",
+              "product": "CLAMOXYL 1 g, comprimé dispersible",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "61155773",
+              "product": "CLAMOXYL 125 mg/5 ml, poudre pour suspension buvable",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "67140810",
+              "product": "CLAMOXYL 250 mg/5 ml, poudre pour suspension buvable",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "67707794",
+              "product": "CLAMOXYL 500 mg, gélule",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "62607530",
+              "product": "CLAMOXYL 500 mg/5 ml, poudre pour suspension buvable",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "64550843",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64550843/extrait",
+        "marketedProducts": 113
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "64539416",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64539416/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "metformin",
+      "generic": "Metformin",
+      "brand": "Glucophage",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Glucophage",
+          "id": "61052830",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61052830/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "GLUCOPHAGE 1000 mg, comprimé pelliculé sécable",
+          "products": [
+            {
+              "cis": "61052830",
+              "product": "GLUCOPHAGE 1000 mg, comprimé pelliculé sécable",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "68915976",
+              "product": "GLUCOPHAGE 1000 mg, comprimé pelliculé sécable",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "68583940",
+              "product": "GLUCOPHAGE 500 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "67547090",
+              "product": "GLUCOPHAGE 850 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "60892792",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60892792/extrait",
+        "marketedProducts": 69
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "61052830",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61052830/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "sertraline",
+      "generic": "Sertraline",
+      "brand": "Zoloft",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zoloft",
+          "id": "60155788",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60155788/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZOLOFT 25 mg, gélule",
+          "products": [
+            {
+              "cis": "60155788",
+              "product": "ZOLOFT 25 mg, gélule",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "60683198",
+              "product": "ZOLOFT 50 mg, gélule",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "68728154",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68728154/extrait",
+        "marketedProducts": 19
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "60155788",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60155788/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "albuterol",
+      "generic": "Salbutamol",
+      "brand": "Ventoline",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ventoline",
+          "id": "69077942",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69077942/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "VENTOLINE 0,5 mg/1 ml, solution injectable par voie sous-cutanée en ampoule",
+          "products": [
+            {
+              "cis": "69077942",
+              "product": "VENTOLINE 0,5 mg/1 ml, solution injectable par voie sous-cutanée en ampoule",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "60928110",
+              "product": "VENTOLINE 100 microgrammes/dose, suspension pour inhalation en flacon pressurisé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "61187493",
+              "product": "VENTOLINE 100 microgrammes/dose, suspension pour inhalation en flacon pressurisé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "61754100",
+              "product": "VENTOLINE 100 microgrammes/dose, suspension pour inhalation en flacon pressurisé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "64532012",
+              "product": "VENTOLINE 100 microgrammes/dose, suspension pour inhalation en flacon pressurisé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "64720167",
+              "product": "VENTOLINE 100 microgrammes/dose, suspension pour inhalation en flacon pressurisé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "66086181",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66086181/extrait",
+        "marketedProducts": 24
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 12
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "69077942",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69077942/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "atorvastatin",
+      "generic": "Atorvastatin",
+      "brand": "Tahor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tahor",
+          "id": "67143532",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67143532/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "TAHOR 10 mg, comprimé pelliculé",
+          "products": [
+            {
+              "cis": "67143532",
+              "product": "TAHOR 10 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "68294626",
+              "product": "TAHOR 10 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "69902323",
+              "product": "TAHOR 20 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "69466146",
+              "product": "TAHOR 40 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "60703487",
+              "product": "TAHOR 80 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "60519117",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60519117/extrait",
+        "marketedProducts": 110
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "67143532",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67143532/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "levothyroxine",
+      "generic": "Levothyroxine",
+      "brand": "Levothyrox",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Levothyrox",
+          "id": "68416845",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68416845/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "LEVOTHYROX 100 microgrammes, comprimé sécable",
+          "products": [
+            {
+              "cis": "68416845",
+              "product": "LEVOTHYROX 100 microgrammes, comprimé sécable",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "66426100",
+              "product": "LEVOTHYROX 112 microgrammes, comprimé sécable",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "65379402",
+              "product": "LEVOTHYROX 125 microgrammes, comprimé sécable",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "65915316",
+              "product": "LEVOTHYROX 137 microgrammes, comprimé sécable",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "64067524",
+              "product": "LEVOTHYROX 150 microgrammes, comprimé sécable",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "68283252",
+              "product": "LEVOTHYROX 175 microgrammes, comprimé sécable",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "69081937",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69081937/extrait",
+        "marketedProducts": 55
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 13
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "68416845",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68416845/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "lisinopril",
+      "generic": "Lisinopril",
+      "brand": "Zestril",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zestril",
+          "id": "66729161",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66729161/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZESTRIL 20 mg, comprimé",
+          "products": [
+            {
+              "cis": "66729161",
+              "product": "ZESTRIL 20 mg, comprimé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "67284159",
+              "product": "ZESTRIL 5 mg, comprimé sécable",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "68748491",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68748491/extrait",
+        "marketedProducts": 18
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "66729161",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66729161/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amlodipine",
+      "generic": "Amlodipine",
+      "brand": "Amlor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Amlor",
+          "id": "61939921",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61939921/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "AMLOR 10 mg, gélule",
+          "products": [
+            {
+              "cis": "61939921",
+              "product": "AMLOR 10 mg, gélule",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "63458349",
+              "product": "AMLOR 5 mg, gélule",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "69622809",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69622809/extrait",
+        "marketedProducts": 142
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "61939921",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61939921/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "metoprolol",
+      "generic": "Metoprolol",
+      "brand": "Seloken / Lopressor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Seloken",
+          "id": "68179830",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68179830/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "SELOKEN 100 mg, comprimé sécable",
+          "products": [
+            {
+              "cis": "68179830",
+              "product": "SELOKEN 100 mg, comprimé sécable",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "68679426",
+              "product": "SELOKEN LP 200 mg, comprimé à libération prolongée",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lopressor",
+          "id": "67211976",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67211976/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "LOPRESSOR 100 mg, comprimé pelliculé sécable",
+          "products": [
+            {
+              "cis": "67211976",
+              "product": "LOPRESSOR 100 mg, comprimé pelliculé sécable",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "69376930",
+              "product": "LOPRESSOR LP 200 mg, comprimé sécable à libération prolongée",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "61950444",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61950444/extrait",
+        "marketedProducts": 14
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "68179830",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68179830/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "losartan",
+      "generic": "Losartan",
+      "brand": "Cozaar",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Cozaar",
+          "id": "66928996",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66928996/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "COZAAR 100 mg, comprimé pelliculé",
+          "products": [
+            {
+              "cis": "66928996",
+              "product": "COZAAR 100 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "69197614",
+              "product": "COZAAR 50 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "66928996",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66928996/extrait",
+        "marketedProducts": 54
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "66928996",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66928996/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "gabapentin",
+      "generic": "Gabapentin",
+      "brand": "Neurontin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Neurontin",
+          "id": "62678755",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62678755/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "NEURONTIN 100 mg, gélule",
+          "products": [
+            {
+              "cis": "62678755",
+              "product": "NEURONTIN 100 mg, gélule",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "64191283",
+              "product": "NEURONTIN 300 mg, gélule",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "67298504",
+              "product": "NEURONTIN 300 mg, gélule",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "61022591",
+              "product": "NEURONTIN 400 mg, gélule",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "61401189",
+              "product": "NEURONTIN 400 mg, gélule",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "62283270",
+              "product": "NEURONTIN 600 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "65629489",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65629489/extrait",
+        "marketedProducts": 59
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 7
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "62678755",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62678755/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "rosuvastatin",
+      "generic": "Rosuvastatin",
+      "brand": "Crestor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Crestor",
+          "id": "68479386",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68479386/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "CRESTOR 10 mg, comprimé pelliculé",
+          "products": [
+            {
+              "cis": "68479386",
+              "product": "CRESTOR 10 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "67273757",
+              "product": "CRESTOR 20 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "63191743",
+              "product": "CRESTOR 5 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "68479386",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68479386/extrait",
+        "marketedProducts": 72
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "68479386",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68479386/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "pantoprazole",
+      "generic": "Pantoprazole",
+      "brand": "Eupantol / Inipomp",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Eupantol",
+          "id": "60550568",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60550568/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "EUPANTOL 40 mg, poudre pour solution injectable (IV)",
+          "products": [
+            {
+              "cis": "60550568",
+              "product": "EUPANTOL 40 mg, poudre pour solution injectable (IV)",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Inipomp",
+          "id": "61406866",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61406866/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "INIPOMP 20 mg, comprimé gastro-résistant",
+          "products": [
+            {
+              "cis": "61406866",
+              "product": "INIPOMP 20 mg, comprimé gastro-résistant",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "65220275",
+              "product": "INIPOMP 20 mg, comprimé gastro-résistant",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "67560860",
+              "product": "INIPOMP 40 mg, comprimé gastro-résistant",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "60550568",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60550568/extrait",
+        "marketedProducts": 44
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "60550568",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60550568/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "escitalopram",
+      "generic": "Escitalopram",
+      "brand": "Seroplex",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Seroplex",
+          "id": "67219535",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67219535/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "SEROPLEX 10 mg, comprimé pelliculé sécable",
+          "products": [
+            {
+              "cis": "67219535",
+              "product": "SEROPLEX 10 mg, comprimé pelliculé sécable",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "60474889",
+              "product": "SEROPLEX 15 mg, comprimé pelliculé sécable",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "65503782",
+              "product": "SEROPLEX 20 mg, comprimé pelliculé sécable",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "62111790",
+              "product": "SEROPLEX 20 mg/ml, solution buvable en gouttes",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "60958897",
+              "product": "SEROPLEX 5 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "65988086",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65988086/extrait",
+        "marketedProducts": 53
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "67219535",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67219535/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amphetamine",
+      "generic": "Amphetamine / Dextroamphetamine",
+      "brand": "Tentin (dexamfetamine)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tentin",
+          "id": "61746712",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61746712/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "TENTIN 10 mg, comprimé",
+          "products": [
+            {
+              "cis": "61746712",
+              "product": "TENTIN 10 mg, comprimé",
+              "legal": "CONTROLLED",
+              "conditions": [
+                "prescription réservée aux spécialistes et services NEUROLOGIE",
+                "prescription réservée aux spécialistes et services PEDIATRIE",
+                "prescription réservée aux spécialistes et services PSYCHIATRIE",
+                "prescription limitée à 4 semaines",
+                "prescription initiale annuelle réservée à certains spécialistes",
+                "prescription en toutes lettres sur ordonnance sécurisée",
+                "stupéfiants",
+                "renouvellement non restreint"
+              ]
+            },
+            {
+              "cis": "69054203",
+              "product": "TENTIN 20 mg, comprimé",
+              "legal": "CONTROLLED",
+              "conditions": [
+                "prescription réservée aux spécialistes et services NEUROLOGIE",
+                "prescription réservée aux spécialistes et services PEDIATRIE",
+                "prescription réservée aux spécialistes et services PSYCHIATRIE",
+                "prescription limitée à 4 semaines",
+                "prescription initiale annuelle réservée à certains spécialistes",
+                "prescription en toutes lettres sur ordonnance sécurisée",
+                "stupéfiants",
+                "renouvellement non restreint"
+              ]
+            },
+            {
+              "cis": "61899925",
+              "product": "TENTIN 5 mg, comprimé",
+              "legal": "CONTROLLED",
+              "conditions": [
+                "prescription réservée aux spécialistes et services NEUROLOGIE",
+                "prescription réservée aux spécialistes et services PEDIATRIE",
+                "prescription réservée aux spécialistes et services PSYCHIATRIE",
+                "prescription limitée à 4 semaines",
+                "prescription initiale annuelle réservée à certains spécialistes",
+                "prescription en toutes lettres sur ordonnance sécurisée",
+                "stupéfiants",
+                "renouvellement non restreint"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "61746712",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61746712/extrait",
+        "marketedProducts": 3
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "CONTROLLED": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "61746712",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61746712/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrochlorothiazide",
+      "generic": "Hydrochlorothiazide",
+      "brand": "Esidrex",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Esidrex",
+          "id": "66153192",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66153192/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "ESIDREX 25 mg, comprimé sécable",
+          "products": [
+            {
+              "cis": "66153192",
+              "product": "ESIDREX 25 mg, comprimé sécable",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "63791663",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63791663/extrait",
+        "marketedProducts": 233
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "66153192",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66153192/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "bupropion",
+      "generic": "Bupropion",
+      "brand": "Marketed mainly as Zyban for smoking cessation, not routinely used as an antidepressant",
+      "kind": "other",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "64556383",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64556383/extrait",
+        "marketedProducts": 1
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "64556383",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64556383/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "fluoxetine",
+      "generic": "Fluoxetine",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "63686057",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63686057/extrait",
+        "marketedProducts": 21
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 21
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "63686057",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63686057/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "semaglutide",
+      "generic": "Semaglutide",
+      "brand": "Ozempic — Wegovy availability may lag behind other markets",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ozempic",
+          "id": "65766192",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65766192/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "OZEMPIC 0,25 mg, solution injectable en stylo prérempli",
+          "products": [
+            {
+              "cis": "65766192",
+              "product": "OZEMPIC 0,25 mg, solution injectable en stylo prérempli",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "61400703",
+              "product": "OZEMPIC 0,5 mg, solution injectable en stylo prérempli",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "63210923",
+              "product": "OZEMPIC 1 mg, solution injectable en stylo prérempli",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "65766192",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65766192/extrait",
+        "marketedProducts": 8
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "65766192",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65766192/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "montelukast",
+      "generic": "Montelukast",
+      "brand": "Singulair",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Singulair",
+          "id": "69863646",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69863646/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "SINGULAIR 10 mg, comprimé pelliculé",
+          "products": [
+            {
+              "cis": "69863646",
+              "product": "SINGULAIR 10 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "64561462",
+              "product": "SINGULAIR 4 mg, comprimé à croquer",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "65324797",
+              "product": "SINGULAIR 5 mg, comprimé à croquer",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "69265638",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69265638/extrait",
+        "marketedProducts": 33
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "69863646",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69863646/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "trazodone",
+      "generic": "Trazodone",
+      "brand": "Not sold in France",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": null,
+        "marketedProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "simvastatin",
+      "generic": "Simvastatin",
+      "brand": "Zocor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zocor",
+          "id": "67037301",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67037301/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZOCOR 20 mg, comprimé pelliculé",
+          "products": [
+            {
+              "cis": "67037301",
+              "product": "ZOCOR 20 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "64607301",
+              "product": "ZOCOR 40 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "69366854",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69366854/extrait",
+        "marketedProducts": 59
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "67037301",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67037301/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "tamsulosin",
+      "generic": "Tamsulosin",
+      "brand": "Omix",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Omix",
+          "id": "63729537",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63729537/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "OMIX L.P. 0,4 mg, microgranules à libération prolongée en gélule",
+          "products": [
+            {
+              "cis": "63729537",
+              "product": "OMIX L.P. 0,4 mg, microgranules à libération prolongée en gélule",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "65913639",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65913639/extrait",
+        "marketedProducts": 32
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "63729537",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63729537/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrocodone",
+      "generic": "Hydrocodone / Paracetamol combination",
+      "brand": "Dafalgan Codéiné (codeine/paracetamol) — closest equivalent to Norco",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Dafalgan Codéiné",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "registered under this name with PARACÉTAMOL + CODÉINE (PHOSPHATE DE), not this ingredient",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": null,
+        "marketedProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Brand \"Dafalgan Codéiné\" not confirmed: registered under this name with PARACÉTAMOL + CODÉINE (PHOSPHATE DE), not this ingredient"
+      ]
+    },
+    {
+      "id": "fluticasone",
+      "generic": "Fluticasone",
+      "brand": "Flixonase",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Flixonase",
+          "id": "61748649",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61748649/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "FLIXONASE 50 microgrammes/dose, suspension nasale en flacon pulvérisateur avec pompe doseuse",
+          "products": [
+            {
+              "cis": "61748649",
+              "product": "FLIXONASE 50 microgrammes/dose, suspension nasale en flacon pulvérisateur avec pompe doseuse",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "66921927",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66921927/extrait",
+        "marketedProducts": 69
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "61748649",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61748649/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "meloxicam",
+      "generic": "Meloxicam",
+      "brand": "Mobic",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Mobic",
+          "id": "65217119",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65217119/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "MOBIC 15 mg, comprimé sécable",
+          "products": [
+            {
+              "cis": "65217119",
+              "product": "MOBIC 15 mg, comprimé sécable",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "67044235",
+              "product": "MOBIC 7,5 mg, comprimé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "60330522",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60330522/extrait",
+        "marketedProducts": 10
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "65217119",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65217119/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "apixaban",
+      "generic": "Apixaban",
+      "brand": "Eliquis",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Eliquis",
+          "id": "62111096",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62111096/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "ELIQUIS 0,15 mg, granulés en gélule à ouvrir",
+          "products": [
+            {
+              "cis": "62111096",
+              "product": "ELIQUIS 0,15 mg, granulés en gélule à ouvrir",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "63078845",
+              "product": "ELIQUIS 0,5 mg, granulés enrobés en sachet",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "69815128",
+              "product": "ELIQUIS 1,5 mg, granulés enrobés en sachet",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "61425336",
+              "product": "ELIQUIS 2 mg, granulés enrobés en sachet",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "69340279",
+              "product": "ELIQUIS 2,5 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "61902218",
+              "product": "ELIQUIS 5 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "62111096",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62111096/extrait",
+        "marketedProducts": 6
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "62111096",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62111096/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "furosemide",
+      "generic": "Furosemide",
+      "brand": "Lasilix",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lasilix",
+          "id": "63736250",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63736250/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "LASILIX 10 mg/ml, solution buvable",
+          "products": [
+            {
+              "cis": "63736250",
+              "product": "LASILIX 10 mg/ml, solution buvable",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "66441419",
+              "product": "LASILIX 20 mg/2 ml, solution injectable en ampoule",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "65606743",
+              "product": "LASILIX 40 mg, comprimé sécable",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "67537203",
+              "product": "LASILIX SPECIAL 250 mg/25 ml, solution injectable en ampoule",
+              "legal": "RX",
+              "conditions": [
+                "réservé à l'usage HOSPITALIER",
+                "réservé à l'usage en situation d'urgence selon l'article R5121-96 du code de la santé publique",
+                "liste II"
+              ]
+            },
+            {
+              "cis": "61547571",
+              "product": "LASILIX SPECIAL 500 mg, comprimé sécable",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "65449480",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65449480/extrait",
+        "marketedProducts": 28
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "63736250",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63736250/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-glargine",
+      "generic": "Insulin Glargine",
+      "brand": "Lantus",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lantus",
+          "id": "64745003",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64745003/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "LANTUS 100 Unités/ml, solution injectable en flacon",
+          "products": [
+            {
+              "cis": "64745003",
+              "product": "LANTUS 100 Unités/ml, solution injectable en flacon",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "61404477",
+              "product": "LANTUS 100 unités/ ml, solution injectable en cartouche",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "65979151",
+              "product": "LANTUS SOLOSTAR 100 unités/ ml, solution injectable en stylo prérempli",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "64332894",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64332894/extrait",
+        "marketedProducts": 7
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "64745003",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64745003/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "duloxetine",
+      "generic": "Duloxetine",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "60457719",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60457719/extrait",
+        "marketedProducts": 22
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 22
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "60457719",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60457719/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "famotidine",
+      "generic": "Famotidine",
+      "brand": "Sold generic as \"Famotidine\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "60005856",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60005856/extrait",
+        "marketedProducts": 2
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "60005856",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60005856/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "empagliflozin",
+      "generic": "Empagliflozin",
+      "brand": "Jardiance",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Jardiance",
+          "id": "67947145",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67947145/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "JARDIANCE 10 mg, comprimé pelliculé",
+          "products": [
+            {
+              "cis": "67947145",
+              "product": "JARDIANCE 10 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "69963066",
+              "product": "JARDIANCE 25 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "67947145",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67947145/extrait",
+        "marketedProducts": 4
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "67947145",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67947145/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "carvedilol",
+      "generic": "Carvedilol",
+      "brand": "Kredex",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Kredex",
+          "id": "61271735",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61271735/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "KREDEX 12,5 mg, comprimé sécable",
+          "products": [
+            {
+              "cis": "61271735",
+              "product": "KREDEX 12,5 mg, comprimé sécable",
+              "legal": "RX",
+              "conditions": [
+                "médicament nécessitant une surveillance particulière pendant le traitement",
+                "prescription réservée aux spécialistes et services MEDECINE INTERNE",
+                "prescription réservée aux spécialistes et services CARDIOLOGIE",
+                "prescription initiale réservée à certains spécialistes",
+                "liste I"
+              ]
+            },
+            {
+              "cis": "68296050",
+              "product": "KREDEX 25 mg, comprimé sécable",
+              "legal": "RX",
+              "conditions": [
+                "médicament nécessitant une surveillance particulière pendant le traitement",
+                "prescription réservée aux spécialistes et services MEDECINE INTERNE",
+                "prescription réservée aux spécialistes et services CARDIOLOGIE",
+                "prescription initiale réservée à certains spécialistes",
+                "liste I"
+              ]
+            },
+            {
+              "cis": "64233832",
+              "product": "KREDEX 6,25 mg, comprimé sécable",
+              "legal": "RX",
+              "conditions": [
+                "médicament nécessitant une surveillance particulière pendant le traitement",
+                "prescription réservée aux spécialistes et services MEDECINE INTERNE",
+                "prescription réservée aux spécialistes et services CARDIOLOGIE",
+                "prescription initiale réservée à certains spécialistes",
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "61639048",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61639048/extrait",
+        "marketedProducts": 15
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "61271735",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61271735/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "tramadol",
+      "generic": "Tramadol",
+      "brand": "Topalgic",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Topalgic",
+          "id": "62355702",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62355702/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "TOPALGIC 100 mg/2 ml, solution injectable en ampoule",
+          "products": [
+            {
+              "cis": "62355702",
+              "product": "TOPALGIC 100 mg/2 ml, solution injectable en ampoule",
+              "legal": "CONTROLLED",
+              "conditions": [
+                "prescription initiale hospitalière semestrielle",
+                "réservé à l'usage en situation d'urgence selon l'article R5121-96 du code de la santé publique",
+                "liste I",
+                "prescription en toutes lettres sur ordonnance sécurisée",
+                "réservé à une structure d'assistance médicale mobile ou de rapatriement sanitaire",
+                "renouvellement non restreint"
+              ]
+            },
+            {
+              "cis": "66125684",
+              "product": "TOPALGIC 100 mg/ml, solution buvable",
+              "legal": "CONTROLLED",
+              "conditions": [
+                "prescription limitée à 12 semaines",
+                "liste I",
+                "prescription en toutes lettres sur ordonnance sécurisée"
+              ]
+            },
+            {
+              "cis": "63435884",
+              "product": "TOPALGIC 50 mg, gélule",
+              "legal": "CONTROLLED",
+              "conditions": [
+                "prescription limitée à 12 semaines",
+                "liste I",
+                "prescription en toutes lettres sur ordonnance sécurisée"
+              ]
+            },
+            {
+              "cis": "68303979",
+              "product": "TOPALGIC LP 100 mg, comprimé à libération prolongée",
+              "legal": "CONTROLLED",
+              "conditions": [
+                "prescription limitée à 12 semaines",
+                "liste I",
+                "prescription en toutes lettres sur ordonnance sécurisée"
+              ]
+            },
+            {
+              "cis": "66219621",
+              "product": "TOPALGIC LP 150 mg, comprimé à libération prolongée",
+              "legal": "CONTROLLED",
+              "conditions": [
+                "prescription limitée à 12 semaines",
+                "liste I",
+                "prescription en toutes lettres sur ordonnance sécurisée"
+              ]
+            },
+            {
+              "cis": "64395332",
+              "product": "TOPALGIC LP 200 mg, comprimé à libération prolongée",
+              "legal": "CONTROLLED",
+              "conditions": [
+                "prescription limitée à 12 semaines",
+                "liste I",
+                "prescription en toutes lettres sur ordonnance sécurisée"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "68106394",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68106394/extrait",
+        "marketedProducts": 87
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "CONTROLLED": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "62355702",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62355702/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "alprazolam",
+      "generic": "Alprazolam",
+      "brand": "Xanax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Xanax",
+          "id": "69847791",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69847791/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "XANAX 0,25 mg, comprimé sécable",
+          "products": [
+            {
+              "cis": "69847791",
+              "product": "XANAX 0,25 mg, comprimé sécable",
+              "legal": "RX",
+              "conditions": [
+                "prescription limitée à 12 semaines",
+                "liste I"
+              ]
+            },
+            {
+              "cis": "60647049",
+              "product": "XANAX 0,50 mg, comprimé sécable",
+              "legal": "RX",
+              "conditions": [
+                "prescription limitée à 12 semaines",
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "63372551",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63372551/extrait",
+        "marketedProducts": 25
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "69847791",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69847791/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "prednisone",
+      "generic": "Prednisone",
+      "brand": "Cortancyl — prednisolone is also commonly used instead",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Cortancyl",
+          "id": "60118715",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60118715/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "CORTANCYL 1 mg, comprimé",
+          "products": [
+            {
+              "cis": "60118715",
+              "product": "CORTANCYL 1 mg, comprimé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "62390849",
+              "product": "CORTANCYL 20 mg, comprimé sécable",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "60492702",
+              "product": "CORTANCYL 5 mg, comprimé sécable",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "60118715",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60118715/extrait",
+        "marketedProducts": 17
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "60118715",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60118715/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "clopidogrel",
+      "generic": "Clopidogrel",
+      "brand": "Plavix",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Plavix",
+          "id": "60562855",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60562855/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "PLAVIX 300 mg, comprimé pelliculé",
+          "products": [
+            {
+              "cis": "60562855",
+              "product": "PLAVIX 300 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "63564053",
+              "product": "PLAVIX 75 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "67971897",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67971897/extrait",
+        "marketedProducts": 20
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "60562855",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60562855/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "aspirin",
+      "generic": "Acetylsalicylic acid (Aspirin)",
+      "brand": "Aspégic / Aspirine UPSA",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Aspégic",
+          "id": "61162942",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61162942/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "ASPEGIC 500 mg, poudre pour solution buvable en sachet-dose",
+          "products": [
+            {
+              "cis": "61162942",
+              "product": "ASPEGIC 500 mg, poudre pour solution buvable en sachet-dose",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "63936571",
+              "product": "ASPEGIC ADULTES 1000 mg, poudre pour solution buvable en sachet-dose",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "66311831",
+              "product": "ASPEGIC ENFANTS 250 mg, poudre pour solution buvable en sachet-dose",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "66769394",
+              "product": "ASPEGIC NOURRISSONS 100 mg, poudre pour solution buvable en sachet-dose",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "name": "Aspirine UPSA",
+          "id": "65265765",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65265765/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "ASPIRINE UPSA 500 mg, comprimé effervescent",
+          "products": [
+            {
+              "cis": "65265765",
+              "product": "ASPIRINE UPSA 500 mg, comprimé effervescent",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "61172160",
+              "product": "ASPIRINE UPSA TAMPONNEE EFFERVESCENTE 1000 mg, comprimé effervescent",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "67831952",
+              "product": "ASPIRINE UPSA VITAMINEE C TAMPONNEE EFFERVESCENTE, comprimé effervescent",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "66313736",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66313736/extrait",
+        "marketedProducts": 36
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "NO_RX": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "61162942",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61162942/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oxycodone",
+      "generic": "Oxycodone",
+      "brand": "OxyContin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "OxyContin",
+          "id": "61200108",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61200108/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "OXYCONTIN LP 10 mg, comprimé pelliculé à libération prolongée",
+          "products": [
+            {
+              "cis": "61200108",
+              "product": "OXYCONTIN LP 10 mg, comprimé pelliculé à libération prolongée",
+              "legal": "CONTROLLED",
+              "conditions": [
+                "prescription limitée à 4 semaines",
+                "stupéfiants",
+                "prescription sur ordonnance sécurisée"
+              ]
+            },
+            {
+              "cis": "61287223",
+              "product": "OXYCONTIN LP 120 mg, comprimé pelliculé à libération prolongée",
+              "legal": "CONTROLLED",
+              "conditions": [
+                "prescription limitée à 4 semaines",
+                "stupéfiants",
+                "prescription sur ordonnance sécurisée"
+              ]
+            },
+            {
+              "cis": "62557732",
+              "product": "OXYCONTIN LP 15 mg, comprimé pelliculé à libération prolongée",
+              "legal": "CONTROLLED",
+              "conditions": [
+                "prescription limitée à 4 semaines",
+                "stupéfiants",
+                "prescription sur ordonnance sécurisée"
+              ]
+            },
+            {
+              "cis": "67467071",
+              "product": "OXYCONTIN LP 20 mg, comprimé pelliculé à libération prolongée",
+              "legal": "CONTROLLED",
+              "conditions": [
+                "prescription limitée à 4 semaines",
+                "stupéfiants",
+                "prescription sur ordonnance sécurisée"
+              ]
+            },
+            {
+              "cis": "64681077",
+              "product": "OXYCONTIN LP 30 mg, comprimé pelliculé à libération prolongée",
+              "legal": "CONTROLLED",
+              "conditions": [
+                "prescription limitée à 4 semaines",
+                "stupéfiants",
+                "prescription sur ordonnance sécurisée"
+              ]
+            },
+            {
+              "cis": "67619878",
+              "product": "OXYCONTIN LP 40 mg, comprimé pelliculé à libération prolongée",
+              "legal": "CONTROLLED",
+              "conditions": [
+                "prescription limitée à 4 semaines",
+                "stupéfiants",
+                "prescription sur ordonnance sécurisée"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "68243717",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68243717/extrait",
+        "marketedProducts": 61
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "CONTROLLED": 9
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "61200108",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61200108/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "methylphenidate",
+      "generic": "Methylphenidate",
+      "brand": "Ritaline",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ritaline",
+          "id": "60059081",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60059081/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "RITALINE 10 mg, comprimé sécable",
+          "products": [
+            {
+              "cis": "60059081",
+              "product": "RITALINE 10 mg, comprimé sécable",
+              "legal": "CONTROLLED",
+              "conditions": [
+                "prescription réservée aux spécialistes et services NEUROLOGIE",
+                "prescription réservée aux spécialistes et services PEDIATRIE",
+                "prescription réservée aux spécialistes et services PSYCHIATRIE",
+                "prescription limitée à 4 semaines",
+                "prescription initiale annuelle réservée à certains spécialistes",
+                "prescription réservée aux médecins exerçant dans les centres du sommeil",
+                "prescription en toutes lettres sur ordonnance sécurisée",
+                "stupéfiants",
+                "renouvellement non restreint"
+              ]
+            },
+            {
+              "cis": "61810983",
+              "product": "RITALINE L.P. 10 mg, gélule à libération prolongée",
+              "legal": "CONTROLLED",
+              "conditions": [
+                "prescription réservée aux spécialistes et services NEUROLOGIE",
+                "prescription réservée aux spécialistes et services PEDIATRIE",
+                "prescription réservée aux spécialistes et services PSYCHIATRIE",
+                "prescription limitée à 4 semaines",
+                "prescription initiale annuelle réservée à certains spécialistes",
+                "prescription en toutes lettres sur ordonnance sécurisée",
+                "stupéfiants",
+                "renouvellement non restreint"
+              ]
+            },
+            {
+              "cis": "64348400",
+              "product": "RITALINE L.P. 20 mg, gélule à libération prolongée",
+              "legal": "CONTROLLED",
+              "conditions": [
+                "prescription réservée aux spécialistes et services NEUROLOGIE",
+                "prescription réservée aux spécialistes et services PEDIATRIE",
+                "prescription réservée aux spécialistes et services PSYCHIATRIE",
+                "prescription limitée à 4 semaines",
+                "prescription initiale annuelle réservée à certains spécialistes",
+                "stupéfiants",
+                "renouvellement non restreint",
+                "prescription sur ordonnance sécurisée"
+              ]
+            },
+            {
+              "cis": "68808796",
+              "product": "RITALINE L.P. 30 mg, gélule à libération prolongée",
+              "legal": "CONTROLLED",
+              "conditions": [
+                "prescription réservée aux spécialistes et services NEUROLOGIE",
+                "prescription réservée aux spécialistes et services PEDIATRIE",
+                "prescription réservée aux spécialistes et services PSYCHIATRIE",
+                "prescription limitée à 4 semaines",
+                "prescription initiale annuelle réservée à certains spécialistes",
+                "stupéfiants",
+                "renouvellement non restreint",
+                "prescription sur ordonnance sécurisée"
+              ]
+            },
+            {
+              "cis": "69348361",
+              "product": "RITALINE L.P. 40 mg, gélule à libération prolongée",
+              "legal": "CONTROLLED",
+              "conditions": [
+                "prescription réservée aux spécialistes et services NEUROLOGIE",
+                "prescription réservée aux spécialistes et services PEDIATRIE",
+                "prescription réservée aux spécialistes et services PSYCHIATRIE",
+                "prescription limitée à 4 semaines",
+                "prescription initiale annuelle réservée à certains spécialistes",
+                "stupéfiants",
+                "renouvellement non restreint",
+                "prescription sur ordonnance sécurisée"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "60756917",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60756917/extrait",
+        "marketedProducts": 29
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "CONTROLLED": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "60059081",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60059081/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "naproxen",
+      "generic": "Naproxen",
+      "brand": "Apranax / Naprosyne",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Apranax",
+          "id": "67849644",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67849644/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "APRANAX 275 mg, comprimé pelliculé",
+          "products": [
+            {
+              "cis": "67849644",
+              "product": "APRANAX 275 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "63738842",
+              "product": "APRANAX 550 mg, comprimé pelliculé sécable",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "67565882",
+              "product": "APRANAX 750 mg, comprimé",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Naprosyne",
+          "id": "60752908",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60752908/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "NAPROSYNE 1000 mg, comprimé",
+          "products": [
+            {
+              "cis": "60752908",
+              "product": "NAPROSYNE 1000 mg, comprimé",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "69378155",
+              "product": "NAPROSYNE 250 mg, comprimé",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "67183480",
+              "product": "NAPROSYNE 500 mg, comprimé",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "62237910",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62237910/extrait",
+        "marketedProducts": 12
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "67849644",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67849644/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "diclofenac-gel",
+      "generic": "Diclofenac (topical gel)",
+      "brand": "VoltarenActigo",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "VoltarenActigo",
+          "id": "60851678",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60851678/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "VOLTARENACTIGO 1 POUR CENT, gel",
+          "products": [
+            {
+              "cis": "60851678",
+              "product": "VOLTARENACTIGO 1 POUR CENT, gel",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "68584939",
+              "product": "VOLTARENACTIGO 140 mg, emplâtre médicamenteux",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "61609959",
+              "product": "VOLTARENACTIGO 2 % INTENSE, gel",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "68266388",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68266388/extrait",
+        "marketedProducts": 57
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "NO_RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "60851678",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60851678/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "fexofenadine",
+      "generic": "Fexofenadine",
+      "brand": "Allervi (no prescription) / Telfast (Rx)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Allervi",
+          "id": "68712285",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68712285/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "ALLERVI 120 mg, comprimé pelliculé",
+          "products": [
+            {
+              "cis": "68712285",
+              "product": "ALLERVI 120 mg, comprimé pelliculé",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "name": "Telfast",
+          "id": "63361640",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63361640/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "TELFAST 180 mg, comprimé pelliculé",
+          "products": [
+            {
+              "cis": "63361640",
+              "product": "TELFAST 180 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "68712285",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68712285/extrait",
+        "marketedProducts": 10
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "NO_RX": 1,
+            "RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "68712285",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68712285/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "guaifenesin",
+      "generic": "Guaifenesin",
+      "brand": "Vicks Expectorant",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Vicks Expectorant",
+          "id": "63320939",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63320939/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "VICKS EXPECTORANT GUAIFENESINE 1,33 % ADULTES MIEL, sirop",
+          "products": [
+            {
+              "cis": "63320939",
+              "product": "VICKS EXPECTORANT GUAIFENESINE 1,33 % ADULTES MIEL, sirop",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "64378475",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64378475/extrait",
+        "marketedProducts": 3
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "NO_RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "63320939",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63320939/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "dextromethorphan",
+      "generic": "Dextromethorphan",
+      "brand": "Tussidane / Pulmodexane",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tussidane",
+          "id": "66819541",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66819541/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "TUSSIDANE 1,5 mg/ml SANS SUCRE, solution buvable édulcorée au maltitol liquide et à la saccharine sodique",
+          "products": [
+            {
+              "cis": "66819541",
+              "product": "TUSSIDANE 1,5 mg/ml SANS SUCRE, solution buvable édulcorée au maltitol liquide et à la saccharine sodique",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "60940109",
+              "product": "TUSSIDANE 1,5 mg/ml, sirop",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "60133432",
+              "product": "TUSSIDANE 30 mg, comprimé pelliculé sécable",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pulmodexane",
+          "id": "66078868",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66078868/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "PULMODEXANE 30 mg, comprimé pelliculé",
+          "products": [
+            {
+              "cis": "66078868",
+              "product": "PULMODEXANE 30 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "66367100",
+              "product": "PULMODEXANE 300 mg/100 ml SANS SUCRE, solution buvable édulcorée au maltitol liquide et à la saccharine sodique",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "65799705",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65799705/extrait",
+        "marketedProducts": 6
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "66819541",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66819541/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oxymetazoline",
+      "generic": "Oxymetazoline (nasal spray)",
+      "brand": "Pernazène",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Pernazène",
+          "id": "65639939",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65639939/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "PERNAZENE 0,05 POUR CENT, solution pour pulvérisation nasale",
+          "products": [
+            {
+              "cis": "65639939",
+              "product": "PERNAZENE 0,05 POUR CENT, solution pour pulvérisation nasale",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "65639939",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65639939/extrait",
+        "marketedProducts": 1
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "65639939",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65639939/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "bismuth-subsalicylate",
+      "generic": "Bismuth subsalicylate",
+      "brand": "Not sold in France",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": null,
+        "marketedProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "calcium-carbonate",
+      "generic": "Calcium carbonate (antacid)",
+      "brand": "Rennie",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Rennie",
+          "id": "63674254",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63674254/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "RENNIE DEFLATINE SANS SUCRE, comprimé à croquer édulcoré au sorbitol",
+          "products": [
+            {
+              "cis": "63674254",
+              "product": "RENNIE DEFLATINE SANS SUCRE, comprimé à croquer édulcoré au sorbitol",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "67897322",
+              "product": "RENNIE SANS SUCRE, comprimé à croquer",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "60332103",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60332103/extrait",
+        "marketedProducts": 9
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "NO_RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "63674254",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63674254/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "simeticone",
+      "generic": "Simeticone",
+      "brand": "Siligaz",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Siligaz",
+          "id": "63660735",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63660735/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "SILIGAZ, capsule",
+          "products": [
+            {
+              "cis": "63660735",
+              "product": "SILIGAZ, capsule",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "67885195",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67885195/extrait",
+        "marketedProducts": 8
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "NO_RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "63660735",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63660735/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oral-rehydration-salts",
+      "generic": "Oral rehydration salts",
+      "brand": "Ask for \"soluté de réhydratation orale\" (SRO), e.g. Adiaril",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": null,
+        "marketedProducts": 0
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Ingredient not found in this registry"
+      ]
+    },
+    {
+      "id": "bisacodyl",
+      "generic": "Bisacodyl",
+      "brand": "Dulcolax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Dulcolax",
+          "id": "64835956",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64835956/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "DULCOLAX 10 mg, suppositoire",
+          "products": [
+            {
+              "cis": "64835956",
+              "product": "DULCOLAX 10 mg, suppositoire",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "63476404",
+              "product": "DULCOLAX 5 mg, comprimé enrobé gastro-résistant",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "64240652",
+              "product": "DULCOLAX 5 mg, comprimé enrobé gastro-résistant",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "65323898",
+              "product": "DULCOLAX 5 mg, comprimé enrobé gastro-résistant",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "62128430",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62128430/extrait",
+        "marketedProducts": 11
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "NO_RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "64835956",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64835956/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "polyethylene-glycol",
+      "generic": "Polyethylene glycol 3350 (macrogol)",
+      "brand": "Forlax / Transipeg",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Forlax",
+          "id": "69298346",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69298346/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "FORLAX 10 g, poudre pour solution buvable en sachet",
+          "products": [
+            {
+              "cis": "69298346",
+              "product": "FORLAX 10 g, poudre pour solution buvable en sachet",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "69198794",
+              "product": "FORLAX 4 g, poudre pour solution buvable en sachet",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "name": "Transipeg",
+          "id": "64925955",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64925955/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "TRANSIPEG 2,95 g, poudre pour solution buvable en sachet",
+          "products": [
+            {
+              "cis": "64925955",
+              "product": "TRANSIPEG 2,95 g, poudre pour solution buvable en sachet",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "66948867",
+              "product": "TRANSIPEG 5,9 g, poudre pour solution buvable en sachet",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "61408707",
+              "product": "TRANSIPEGLIB 5,9 g, poudre pour solution buvable en sachet",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "64700855",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64700855/extrait",
+        "marketedProducts": 38
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "NO_RX": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "69298346",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69298346/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "meclozine",
+      "generic": "Meclozine",
+      "brand": "Agyrax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Agyrax",
+          "id": "60456535",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60456535/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "AGYRAX, comprimé sécable",
+          "products": [
+            {
+              "cis": "60456535",
+              "product": "AGYRAX, comprimé sécable",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "60456535",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60456535/extrait",
+        "marketedProducts": 2
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "NO_RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "60456535",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60456535/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrocortisone-cream",
+      "generic": "Hydrocortisone (cream)",
+      "brand": "Cortapaisyl / CortiSédermyl",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Cortapaisyl",
+          "id": "67981927",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67981927/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "CORTAPAISYL 0,5 %, crème",
+          "products": [
+            {
+              "cis": "67981927",
+              "product": "CORTAPAISYL 0,5 %, crème",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "name": "CortiSédermyl",
+          "id": "67240376",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67240376/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "CORTISEDERMYL 0,5 %, crème",
+          "products": [
+            {
+              "cis": "67240376",
+              "product": "CORTISEDERMYL 0,5 %, crème",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "65008233",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65008233/extrait",
+        "marketedProducts": 20
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "NO_RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "67981927",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67981927/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "clotrimazole",
+      "generic": "Clotrimazole",
+      "brand": "MycoHydralin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "MycoHydralin",
+          "id": "67301480",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67301480/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "MYCOHYDRALIN 200 mg, comprimé vaginal",
+          "products": [
+            {
+              "cis": "67301480",
+              "product": "MYCOHYDRALIN 200 mg, comprimé vaginal",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "60070359",
+              "product": "MYCOHYDRALIN 500 mg, capsule vaginale",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "67933494",
+              "product": "MYCOHYDRALIN 500 mg, comprimé vaginal",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "68001621",
+              "product": "MYCOHYDRALIN 500 mg, comprimé vaginal",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "67777579",
+              "product": "MYCOHYDRALIN, crème",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "62633525",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62633525/extrait",
+        "marketedProducts": 6
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "NO_RX": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "67301480",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67301480/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "antibiotic-ointment",
+      "generic": "Bacitracin / Neomycin / Polymyxin B (antibiotic ointment)",
+      "brand": "Not sold without a prescription — ask for an antiseptic such as \"Biseptine\"",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "64835493",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64835493/extrait",
+        "marketedProducts": 1
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 1
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "Entry says \"Not sold without a prescription — ask for an antiseptic such as \"Biseptine\"\" but the registry lists products with this ingredient"
+      ]
+    },
+    {
+      "id": "doxylamine",
+      "generic": "Doxylamine",
+      "brand": "Donormyl",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Donormyl",
+          "id": "67103299",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67103299/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "DONORMYL 15 mg, comprimé effervescent sécable",
+          "products": [
+            {
+              "cis": "67103299",
+              "product": "DONORMYL 15 mg, comprimé effervescent sécable",
+              "legal": "NO_RX",
+              "conditions": []
+            },
+            {
+              "cis": "62382724",
+              "product": "DONORMYL 15 mg, comprimé pelliculé sécable",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "61447165",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61447165/extrait",
+        "marketedProducts": 15
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "NO_RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "67103299",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67103299/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "levonorgestrel",
+      "generic": "Levonorgestrel (emergency contraception)",
+      "brand": "Norlevo",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Norlevo",
+          "id": "60812935",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60812935/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "NORLEVO 1,5 mg, comprimé",
+          "products": [
+            {
+              "cis": "60812935",
+              "product": "NORLEVO 1,5 mg, comprimé",
+              "legal": "NO_RX",
+              "conditions": []
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "60928936",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60928936/extrait",
+        "marketedProducts": 30
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "NO_RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "60812935",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60812935/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "atovaquone-proguanil",
+      "generic": "Atovaquone / Proguanil",
+      "brand": "Malarone",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Malarone",
+          "id": "61638010",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61638010/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "MALARONE 250 mg/100 mg, comprimé pelliculé",
+          "products": [
+            {
+              "cis": "61638010",
+              "product": "MALARONE 250 mg/100 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "60981593",
+              "product": "MALARONE 62,5 mg/25 mg ENFANTS, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "67392754",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67392754/extrait",
+        "marketedProducts": 12
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "61638010",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61638010/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "doxycycline",
+      "generic": "Doxycycline",
+      "brand": "Doxypalu / Doxy",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Doxypalu",
+          "id": "63307856",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63307856/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "DOXYPALU 100 mg, comprimé",
+          "products": [
+            {
+              "cis": "63307856",
+              "product": "DOXYPALU 100 mg, comprimé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Doxy",
+          "id": "61722191",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61722191/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "DOXY 100 mg, comprimé pelliculé",
+          "products": [
+            {
+              "cis": "61722191",
+              "product": "DOXY 100 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "67061569",
+              "product": "DOXY 50 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "61722191",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61722191/extrait",
+        "marketedProducts": 13
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "63307856",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63307856/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "azithromycin",
+      "generic": "Azithromycin",
+      "brand": "Zithromax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zithromax",
+          "id": "65740799",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65740799/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZITHROMAX 250 mg, comprimé pelliculé",
+          "products": [
+            {
+              "cis": "65740799",
+              "product": "ZITHROMAX 250 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "68175764",
+              "product": "ZITHROMAX 250 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "67287098",
+              "product": "ZITHROMAX 40 mg/ml ENFANTS, poudre pour suspension buvable",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "62059468",
+              "product": "ZITHROMAX MONODOSE 250 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "65714530",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65714530/extrait",
+        "marketedProducts": 20
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "65740799",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65740799/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "ciprofloxacin",
+      "generic": "Ciprofloxacin",
+      "brand": "Ciflox",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ciflox",
+          "id": "65126598",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65126598/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "CIFLOX 200 mg/100 mL, solution pour perfusion (IV)",
+          "products": [
+            {
+              "cis": "65126598",
+              "product": "CIFLOX 200 mg/100 mL, solution pour perfusion (IV)",
+              "legal": "RX",
+              "conditions": [
+                "prescription hospitalière",
+                "liste I"
+              ]
+            },
+            {
+              "cis": "65636245",
+              "product": "CIFLOX 500 mg, comprimé pelliculé sécable",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "64728922",
+              "product": "CIFLOX 500 mg/5 ml, granulés et solvant pour suspension buvable",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "65126598",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65126598/extrait",
+        "marketedProducts": 29
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "65126598",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65126598/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "acetazolamide",
+      "generic": "Acetazolamide",
+      "brand": "Diamox",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Diamox",
+          "id": "68693244",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68693244/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "DIAMOX 250 mg, comprimé sécable",
+          "products": [
+            {
+              "cis": "68693244",
+              "product": "DIAMOX 250 mg, comprimé sécable",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "63463588",
+              "product": "DIAMOX 500 mg, poudre et solvant pour préparation injectable",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "68693244",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68693244/extrait",
+        "marketedProducts": 2
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "68693244",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68693244/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "scopolamine",
+      "generic": "Scopolamine (motion-sickness patch)",
+      "brand": "Scopoderm TTS",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Scopoderm TTS",
+          "id": "63958849",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63958849/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "SCOPODERM TTS 1 mg/72 heures, dispositif transdermique",
+          "products": [
+            {
+              "cis": "63958849",
+              "product": "SCOPODERM TTS 1 mg/72 heures, dispositif transdermique",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "68731823",
+              "product": "SCOPODERM TTS 1 mg/72 heures, dispositif transdermique",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "69713034",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69713034/extrait",
+        "marketedProducts": 6
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "63958849",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63958849/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "ondansetron",
+      "generic": "Ondansetron",
+      "brand": "Zophren",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zophren",
+          "id": "65991171",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65991171/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZOPHREN 2 mg/ml, solution injectable en ampoule (IV)",
+          "products": [
+            {
+              "cis": "65991171",
+              "product": "ZOPHREN 2 mg/ml, solution injectable en ampoule (IV)",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "60530882",
+              "product": "ZOPHREN 4 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "61187301",
+              "product": "ZOPHREN 4 mg, lyophilisat oral",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "62518996",
+              "product": "ZOPHREN 4 mg/5 ml, sirop",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "65394952",
+              "product": "ZOPHREN 8 mg, comprimé pelliculé",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "66120057",
+              "product": "ZOPHREN 8 mg, lyophilisat oral",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "69422609",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69422609/extrait",
+        "marketedProducts": 25
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "65991171",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65991171/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "epinephrine",
+      "generic": "Epinephrine (adrenaline auto-injector)",
+      "brand": "EpiPen / Anapen / Jext",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "EpiPen",
+          "id": "61846627",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61846627/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "EPIPEN 0,15 mg/0,3 ml, solution injectable en stylo pré-rempli",
+          "products": [
+            {
+              "cis": "61846627",
+              "product": "EPIPEN 0,15 mg/0,3 ml, solution injectable en stylo pré-rempli",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "68293517",
+              "product": "EPIPEN 0,30 mg/0,3 ml, solution injectable en stylo pré-rempli",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Anapen",
+          "id": "62031508",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62031508/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "ANAPEN 150 microgrammes/0,3 ml, solution injectable en seringue préremplie",
+          "products": [
+            {
+              "cis": "62031508",
+              "product": "ANAPEN 150 microgrammes/0,3 ml, solution injectable en seringue préremplie",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "62538162",
+              "product": "ANAPEN 300 microgrammes/0,3 ml, solution injectable en seringue préremplie",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "66223317",
+              "product": "ANAPEN 500 microgrammes/0,3 mL, solution injectable en seringue préremplie",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jext",
+          "id": "68391203",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68391203/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "JEXT 150 microgrammes, solution injectable en stylo prérempli",
+          "products": [
+            {
+              "cis": "68391203",
+              "product": "JEXT 150 microgrammes, solution injectable en stylo prérempli",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
+              "cis": "66693676",
+              "product": "JEXT 300 microgrammes, solution injectable en stylo prérempli",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "62024136",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62024136/extrait",
+        "marketedProducts": 43
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 7
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "61846627",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61846627/extrait",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import { STATUS } from './status';
 
 export * from './types';
 export { STATUS };
+export { KIT_GROUPS } from './kit';
 
 export const COUNTRIES: readonly Country[] = COUNTRY_LIST;
 export const DRUGS = drugsJson as Drug[];

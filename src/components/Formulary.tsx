@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { SearchIcon, XIcon } from 'lucide-react';
-import { COUNTRIES, DRUGS, getCountry, type CountryCode } from '@/data';
+import { COUNTRIES, DRUGS, KIT_GROUPS, getCountry, type CountryCode, type Drug } from '@/data';
 import { drugMatches, visibleCountries } from '@/lib/search';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
@@ -13,7 +13,8 @@ import { DrugEntry } from './DrugEntry';
 import { Flag } from './Flag';
 import { PrintButton, SourcesToggle } from './Toolbar';
 import { StepNumber, StepStrip, stepStates } from './Steps';
-import { useMyMeds } from '@/lib/my-meds';
+import { UsNameHint } from './UsNameHint';
+import { useMyDestinations, useMyMeds } from '@/lib/my-meds';
 
 /** Reads ?q= and ?c=JP,FR so a shared link restores the same view. */
 export function Formulary() {
@@ -25,6 +26,15 @@ export function Formulary() {
   return <FormularyView initialQuery={params.get('q') ?? ''} initialCountries={initialCountries} syncUrl />;
 }
 
+const NONE: CountryCode[] = [];
+
+type View = 'essentials' | 'other' | 'all';
+const VIEWS: { id: View; label: string; count: number; matches: (d: Drug) => boolean }[] = [
+  { id: 'essentials', label: 'Travel essentials', matches: (d: Drug) => !!d.kit },
+  { id: 'other', label: 'Other', matches: (d: Drug) => !d.kit },
+  { id: 'all', label: 'All', matches: () => true },
+].map((v) => ({ ...v, id: v.id as View, count: DRUGS.filter(v.matches).length }));
+
 interface FormularyViewProps {
   initialQuery?: string;
   initialCountries?: CountryCode[];
@@ -33,7 +43,15 @@ interface FormularyViewProps {
 
 export function FormularyView({ initialQuery = '', initialCountries = [], syncUrl = false }: FormularyViewProps) {
   const [rawQuery, setRawQuery] = useState(initialQuery);
-  const [active, setActive] = useState<CountryCode[]>(initialCountries);
+  // Destinations are shared with the travel card. A link's ?c= wins for this view until the traveler
+  // changes the selection; with no ?c=, the homepage opens on the saved destinations.
+  const [dests, setDests] = useMyDestinations();
+  const [picked, setPicked] = useState<CountryCode[] | null>(initialCountries.length ? initialCountries : null);
+  const active = picked ?? (syncUrl ? dests : NONE);
+  const setActive = (codes: CountryCode[]) => {
+    setPicked(codes);
+    if (syncUrl) setDests(codes);
+  };
   const activeSet = useMemo(() => new Set(active), [active]);
   const query = rawQuery.trim();
   const searchRef = useRef<HTMLInputElement>(null);
@@ -71,13 +89,18 @@ export function FormularyView({ initialQuery = '', initialCountries = [], syncUr
     return () => window.removeEventListener('keydown', onKey);
   }, []);
 
+  // The view tabs narrow the browsing list; a search always looks through every medicine.
+  const [view, setView] = useState<View>('essentials');
+  const current = VIEWS.find((v) => v.id === view)!;
   const results = useMemo(
     () =>
-      DRUGS.map((drug) => ({ drug, match: drugMatches(drug, query) }))
+      DRUGS.filter((drug) => !!query || current.matches(drug))
+        .map((drug) => ({ drug, match: drugMatches(drug, query) }))
         .filter((r) => r.match.matches)
         .map((r) => ({ ...r, countries: visibleCountries(r.match, query, activeSet) })),
-    [query, activeSet],
+    [query, activeSet, current],
   );
+  const grouped = view === 'essentials' && !query;
 
   const { meds } = useMyMeds();
   const [s1, s2, s3] = stepStates([!!query, active.length > 0, meds.length > 0]);
@@ -215,13 +238,32 @@ export function FormularyView({ initialQuery = '', initialCountries = [], syncUr
             </span>
           </p>
         </div>
+        <ToggleGroup
+          type="single"
+          value={view}
+          onValueChange={(v) => v && setView(v as View)}
+          spacing={2}
+          aria-label="Which medicines to list"
+          className="no-print mb-4 flex-wrap"
+        >
+          {VIEWS.map((v) => (
+            <ToggleGroupItem
+              key={v.id}
+              value={v.id}
+              className="data-[state=on]:bg-primary data-[state=on]:text-primary-foreground h-9 gap-2 rounded-full border px-3.5 text-[0.8rem] data-[state=on]:border-transparent"
+            >
+              {v.label}
+              <span className="font-mono text-[0.7rem] opacity-70">{v.count}</span>
+            </ToggleGroupItem>
+          ))}
+        </ToggleGroup>
         <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
           <p className="text-muted-foreground font-mono text-xs tracking-wide" aria-live="polite">
-            {filtering
-              ? query
-                ? `${results.length} of ${DRUGS.length} medicines match “${query}”`
-                : `${results.length} medicines · ${active.length} destination${active.length > 1 ? 's' : ''}`
-              : `All ${DRUGS.length} medicines`}
+            {query
+              ? `${results.length} of ${DRUGS.length} medicines match “${query}”`
+              : `${results.length} ${view === 'essentials' ? 'travel essentials' : view === 'other' ? 'other medicines' : 'medicines'}${
+                  active.length ? ` · ${active.length} destination${active.length > 1 ? 's' : ''}` : ''
+                }`}
           </p>
           <div className="no-print flex items-center gap-1">
             <SourcesToggle />
@@ -234,7 +276,26 @@ export function FormularyView({ initialQuery = '', initialCountries = [], syncUr
             <div className="bg-card rounded-2xl border border-dashed p-10 text-center">
               <p className="font-heading text-lg font-semibold">No matches</p>
               <p className="text-muted-foreground mt-1 text-sm">Try a different brand, generic name, or destination.</p>
+              <UsNameHint query={query} onSearch={setRawQuery} />
             </div>
+          ) : grouped ? (
+            KIT_GROUPS.map((group) => {
+              const items = results.filter((r) => r.drug.kit === group.id);
+              if (items.length === 0) return null;
+              return (
+                <section key={group.id} aria-labelledby={`kit-${group.id}`} className="grid gap-4 not-first:mt-4">
+                  <div className="border-b pb-2">
+                    <h2 id={`kit-${group.id}`} className="font-heading text-lg font-bold tracking-tight">
+                      {group.title} <span className="text-muted-foreground font-mono text-xs font-normal">{items.length}</span>
+                    </h2>
+                    <p className="text-muted-foreground text-sm">{group.hint}</p>
+                  </div>
+                  {items.map(({ drug, match, countries }) => (
+                    <DrugEntry key={drug.id} drug={drug} countries={countries} query={query} open={shouldOpen} countryHits={match.countryHits} />
+                  ))}
+                </section>
+              );
+            })
           ) : (
             results.map(({ drug, match, countries }) => (
               <DrugEntry

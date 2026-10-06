@@ -1,0 +1,5008 @@
+{
+  "country": "CA",
+  "registry": "Health Canada Drug Product Database",
+  "registryVersion": null,
+  "checked": "2026-10-06",
+  "summary": {
+    "entries": 76,
+    "brandEntries": 55,
+    "brandEntriesConfirmed": 54,
+    "brandNames": 60,
+    "brandNamesConfirmed": 59,
+    "verified": 72,
+    "statusAgree": 70,
+    "statusDiffer": 1,
+    "statusNotComparable": 5,
+    "confidenceRaised": 0,
+    "flagged": 4
+  },
+  "entries": [
+    {
+      "id": "paracetamol",
+      "generic": "Paracetamol",
+      "brand": "Tylenol",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tylenol",
+          "id": 73935,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=73935",
+          "confirmed": true,
+          "note": null,
+          "matched": "TYLENOL ULTRA RELIEF",
+          "products": [
+            {
+              "code": 73935,
+              "din": "02254468",
+              "product": "TYLENOL ULTRA RELIEF",
+              "single": false,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 13865,
+              "din": "00863270",
+              "product": "TYLENOL RAPID RELEASE",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 70191,
+              "din": "02246060",
+              "product": "TYLENOL MUSCLE & BODY",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 5255,
+              "din": "00559407",
+              "product": "TYLENOL EXTRA STRENGTH",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 5254,
+              "din": "00559393",
+              "product": "TYLENOL REGULAR STRENGTH",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 62325,
+              "din": "02238885",
+              "product": "TYLENOL ARTHRITIS PAIN 8H",
+              "single": true,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "73935",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=73935",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "ibuprofen",
+      "generic": "Ibuprofen",
+      "brand": "Advil",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Advil",
+          "id": 88592,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=88592",
+          "confirmed": true,
+          "note": null,
+          "matched": "ADVIL FLU",
+          "products": [
+            {
+              "code": 88592,
+              "din": "02401193",
+              "product": "ADVIL FLU",
+              "single": false,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 13452,
+              "din": "01933531",
+              "product": "ADVIL CAPLETS",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 13625,
+              "din": "01933558",
+              "product": "ADVIL TABLETS",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 92825,
+              "din": "02443562",
+              "product": "ADVIL 12 HOUR",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 84104,
+              "din": "02355841",
+              "product": "ADVIL NIGHTTIME",
+              "single": false,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 97565,
+              "din": "02485400",
+              "product": "ADVIL MINI-GELS",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 65432,
+              "din": "02241769",
+              "product": "ADVIL LIQUI-GELS",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 14492,
+              "din": "02036312",
+              "product": "ADVIL COLD AND SINUS",
+              "single": false,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "88592",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=88592",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "loratadine",
+      "generic": "Loratadine",
+      "brand": "Claritin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Claritin",
+          "id": 65175,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=65175",
+          "confirmed": true,
+          "note": null,
+          "matched": "CLARITIN KIDS",
+          "products": [
+            {
+              "code": 65175,
+              "din": "02241523",
+              "product": "CLARITIN KIDS",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 10533,
+              "din": "00782696",
+              "product": "CLARITIN ALLERGY",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 61088,
+              "din": "02237734",
+              "product": "CLARITIN RAPID DISSOLVE",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 11974,
+              "din": "01945157",
+              "product": "CLARITIN ALLERGY + SINUS",
+              "single": false,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 88925,
+              "din": "02404494",
+              "product": "CLARITIN LIQUID CAPSULES",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 99811,
+              "din": "02508761",
+              "product": "CLARITIN KIDS RAPID DISSOLVE",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 74601,
+              "din": "02260557",
+              "product": "CLARITIN ALLERGY + SINUS EXTRA STRENGTH",
+              "single": false,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "65175",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=65175",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "cetirizine",
+      "generic": "Cetirizine",
+      "brand": "Reactine",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Reactine",
+          "id": 43369,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=43369",
+          "confirmed": true,
+          "note": null,
+          "matched": "REACTINE",
+          "products": [
+            {
+              "code": 43369,
+              "din": "02223546",
+              "product": "REACTINE",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 43370,
+              "din": "02223554",
+              "product": "REACTINE",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 61744,
+              "din": "02238337",
+              "product": "REACTINE",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 97710,
+              "din": "02486954",
+              "product": "REACTINE ALLERGY",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 70312,
+              "din": "02246162",
+              "product": "REACTINE COMPLETE",
+              "single": false,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 46803,
+              "din": "01900978",
+              "product": "REACTINE 20 MG TABLET",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 95593,
+              "din": "02467577",
+              "product": "REACTINE RAPID DISSOLVE",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 84341,
+              "din": "02358352",
+              "product": "REACTINE FAST MELT JUNIOR",
+              "single": true,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 6,
+            "RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "43369",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=43369",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "diphenhydramine",
+      "generic": "Diphenhydramine",
+      "brand": "Benadryl",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Benadryl",
+          "id": 13782,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=13782",
+          "confirmed": true,
+          "note": null,
+          "matched": "BENADRYL ALLERGY",
+          "products": [
+            {
+              "code": 13782,
+              "din": "02017849",
+              "product": "BENADRYL ALLERGY",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 15516,
+              "din": "02019736",
+              "product": "BENADRYL ALLERGY LIQUID",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 76653,
+              "din": "02280868",
+              "product": "BENADRYL BUG BITE RELIEF",
+              "single": false,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 78954,
+              "din": "02304252",
+              "product": "BENADRYL ALLERGY LIQUIGELS",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 97511,
+              "din": "02484838",
+              "product": "BENADRYL ITCH STOPPING CREAM",
+              "single": false,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "13782",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=13782",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "loperamide",
+      "generic": "Loperamide",
+      "brand": "Imodium",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Imodium",
+          "id": 69200,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=69200",
+          "confirmed": true,
+          "note": null,
+          "matched": "IMODIUM COMPLETE",
+          "products": [
+            {
+              "code": 69200,
+              "din": "02245185",
+              "product": "IMODIUM COMPLETE",
+              "single": false,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 86147,
+              "din": "02376016",
+              "product": "IMODIUM LIQUI-GELS",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 49614,
+              "din": "02230542",
+              "product": "IMODIUM QUICK DISSOLVE",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 77716,
+              "din": "02291800",
+              "product": "IMODIUM CALMING LIQUID",
+              "single": true,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "69200",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=69200",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "omeprazole",
+      "generic": "Omeprazole",
+      "brand": "Losec",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Losec",
+          "id": 9823,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=9823",
+          "confirmed": true,
+          "note": null,
+          "matched": "LOSEC",
+          "products": [
+            {
+              "code": 9823,
+              "din": "00846503",
+              "product": "LOSEC",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 66187,
+              "din": "02242462",
+              "product": "LOSEC MUPS",
+              "single": true,
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "9823",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=9823",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "pseudoephedrine",
+      "generic": "Pseudoephedrine",
+      "brand": "Sudafed",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Sudafed",
+          "id": 65897,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=65897",
+          "confirmed": true,
+          "note": null,
+          "matched": "SUDAFED SINUS ADVANCE",
+          "products": [
+            {
+              "code": 65897,
+              "din": "02242217",
+              "product": "SUDAFED SINUS ADVANCE",
+              "single": false,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "65897",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=65897",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "melatonin",
+      "generic": "Melatonin",
+      "brand": "Sold as a \"natural health product\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": 106383,
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=106383",
+        "searched": "melatonin",
+        "registeredProducts": 3
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 2,
+            "NO_RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "106383",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=106383",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "dimenhydrinate",
+      "generic": "Dimenhydrinate",
+      "brand": "Gravol",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Gravol",
+          "id": 3944,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=3944",
+          "confirmed": true,
+          "note": null,
+          "matched": "GRAVOL TABLETS",
+          "products": [
+            {
+              "code": 3944,
+              "din": "00013803",
+              "product": "GRAVOL TABLETS",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 86988,
+              "din": "02384132",
+              "product": "GRAVOL CHEWABLES",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 69984,
+              "din": "02245867",
+              "product": "GRAVOL LIQUID GELS",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 193,
+              "din": "00013609",
+              "product": "GRAVOL SUPPOSITORIES",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 73930,
+              "din": "02254409",
+              "product": "GRAVOL IMMEDIATE RELEASE & LONG ACTING CAPLETS",
+              "single": true,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "3944",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=3944",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amoxicillin",
+      "generic": "Amoxicillin",
+      "brand": "Sold generic (formerly Amoxil)",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": 106438,
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=106438",
+        "searched": "amoxicillin",
+        "registeredProducts": 224
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "106438",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=106438",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "metformin",
+      "generic": "Metformin",
+      "brand": "Glucophage (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Glucophage",
+          "id": 17104,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=17104",
+          "confirmed": true,
+          "note": null,
+          "matched": "GLUCOPHAGE",
+          "products": [
+            {
+              "code": 17104,
+              "din": "02099233",
+              "product": "GLUCOPHAGE",
+              "single": true,
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "17104",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=17104",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "sertraline",
+      "generic": "Sertraline",
+      "brand": "Zoloft",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zoloft",
+          "id": 13392,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=13392",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZOLOFT",
+          "products": [
+            {
+              "code": 13392,
+              "din": "01962779",
+              "product": "ZOLOFT",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 12662,
+              "din": "01962817",
+              "product": "ZOLOFT",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 18005,
+              "din": "02132702",
+              "product": "ZOLOFT",
+              "single": true,
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "13392",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=13392",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "albuterol",
+      "generic": "Salbutamol",
+      "brand": "Ventolin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ventolin",
+          "id": 65137,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=65137",
+          "confirmed": true,
+          "note": null,
+          "matched": "VENTOLIN HFA",
+          "products": [
+            {
+              "code": 65137,
+              "din": "02241497",
+              "product": "VENTOLIN HFA",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 66984,
+              "din": "02243115",
+              "product": "VENTOLIN DISKUS",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 43108,
+              "din": "02213486",
+              "product": "VENTOLIN RESPIRATOR SOLUTION",
+              "single": true,
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "65137",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=65137",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "atorvastatin",
+      "generic": "Atorvastatin",
+      "brand": "Lipitor (mostly sold generic now)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lipitor",
+          "id": 49973,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=49973",
+          "confirmed": true,
+          "note": null,
+          "matched": "LIPITOR",
+          "products": [
+            {
+              "code": 49973,
+              "din": "02230711",
+              "product": "LIPITOR",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 49974,
+              "din": "02230713",
+              "product": "LIPITOR",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 49975,
+              "din": "02230714",
+              "product": "LIPITOR",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 66964,
+              "din": "02243097",
+              "product": "LIPITOR",
+              "single": true,
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "49973",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=49973",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "levothyroxine",
+      "generic": "Levothyroxine",
+      "brand": "Synthroid",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Synthroid",
+          "id": 19589,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=19589",
+          "confirmed": true,
+          "note": null,
+          "matched": "SYNTHROID",
+          "products": [
+            {
+              "code": 19589,
+              "din": "02171228",
+              "product": "SYNTHROID",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 19588,
+              "din": "02172062",
+              "product": "SYNTHROID",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 19587,
+              "din": "02172070",
+              "product": "SYNTHROID",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 19595,
+              "din": "02172089",
+              "product": "SYNTHROID",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 19599,
+              "din": "02172097",
+              "product": "SYNTHROID",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 19601,
+              "din": "02172100",
+              "product": "SYNTHROID",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 19594,
+              "din": "02172119",
+              "product": "SYNTHROID",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 19598,
+              "din": "02172127",
+              "product": "SYNTHROID",
+              "single": true,
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "19589",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=19589",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "lisinopril",
+      "generic": "Lisinopril",
+      "brand": "Zestril (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zestril",
+          "id": 17126,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=17126",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZESTRIL",
+          "products": [
+            {
+              "code": 17126,
+              "din": "02049333",
+              "product": "ZESTRIL",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 17215,
+              "din": "02049376",
+              "product": "ZESTRIL",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 17123,
+              "din": "02049384",
+              "product": "ZESTRIL",
+              "single": true,
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "17126",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=17126",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amlodipine",
+      "generic": "Amlodipine",
+      "brand": "Norvasc (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Norvasc",
+          "id": 12938,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=12938",
+          "confirmed": true,
+          "note": null,
+          "matched": "NORVASC",
+          "products": [
+            {
+              "code": 12938,
+              "din": "00878928",
+              "product": "NORVASC",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 12939,
+              "din": "00878936",
+              "product": "NORVASC",
+              "single": true,
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "12938",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=12938",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "metoprolol",
+      "generic": "Metoprolol",
+      "brand": "Sold generic (formerly Lopresor)",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": 96432,
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=96432",
+        "searched": "metoprolol",
+        "registeredProducts": 103
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "96432",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=96432",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "losartan",
+      "generic": "Losartan",
+      "brand": "Cozaar (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Cozaar",
+          "id": 19167,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=19167",
+          "confirmed": true,
+          "note": null,
+          "matched": "COZAAR",
+          "products": [
+            {
+              "code": 19167,
+              "din": "02182815",
+              "product": "COZAAR",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 19168,
+              "din": "02182874",
+              "product": "COZAAR",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 44255,
+              "din": "02182882",
+              "product": "COZAAR",
+              "single": true,
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "19167",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=19167",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "gabapentin",
+      "generic": "Gabapentin",
+      "brand": "Neurontin (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Neurontin",
+          "id": 15944,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=15944",
+          "confirmed": true,
+          "note": null,
+          "matched": "NEURONTIN",
+          "products": [
+            {
+              "code": 15944,
+              "din": "02084260",
+              "product": "NEURONTIN",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 15945,
+              "din": "02084279",
+              "product": "NEURONTIN",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 16210,
+              "din": "02084287",
+              "product": "NEURONTIN",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 63199,
+              "din": "02239717",
+              "product": "NEURONTIN",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 63200,
+              "din": "02239718",
+              "product": "NEURONTIN",
+              "single": true,
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "15944",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=15944",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "rosuvastatin",
+      "generic": "Rosuvastatin",
+      "brand": "Crestor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Crestor",
+          "id": 75100,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=75100",
+          "confirmed": true,
+          "note": null,
+          "matched": "CRESTOR - 5MG",
+          "products": [
+            {
+              "code": 75100,
+              "din": "02265540",
+              "product": "CRESTOR - 5MG",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 71404,
+              "din": "02247162",
+              "product": "CRESTOR - 10MG",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 71405,
+              "din": "02247163",
+              "product": "CRESTOR - 20MG",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 71406,
+              "din": "02247164",
+              "product": "CRESTOR - 40MG",
+              "single": true,
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "75100",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=75100",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "pantoprazole",
+      "generic": "Pantoprazole",
+      "brand": "Pantoloc",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Pantoloc",
+          "id": 47339,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=47339",
+          "confirmed": true,
+          "note": null,
+          "matched": "PANTOLOC",
+          "products": [
+            {
+              "code": 47339,
+              "din": "02229453",
+              "product": "PANTOLOC",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 65469,
+              "din": "02241804",
+              "product": "PANTOLOC",
+              "single": true,
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "47339",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=47339",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "escitalopram",
+      "generic": "Escitalopram",
+      "brand": "Cipralex",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Cipralex",
+          "id": 74862,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=74862",
+          "confirmed": true,
+          "note": null,
+          "matched": "CIPRALEX   -10MG",
+          "products": [
+            {
+              "code": 74862,
+              "din": "02263238",
+              "product": "CIPRALEX   -10MG",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 74864,
+              "din": "02263254",
+              "product": "CIPRALEX   -20MG",
+              "single": true,
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "74862",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=74862",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amphetamine",
+      "generic": "Amphetamine / Dextroamphetamine",
+      "brand": "Adderall XR",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Adderall XR",
+          "id": 73177,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=73177",
+          "confirmed": true,
+          "note": null,
+          "matched": "ADDERALL XR",
+          "products": [
+            {
+              "code": 73177,
+              "din": "02248808",
+              "product": "ADDERALL XR",
+              "single": true,
+              "legal": "CONTROLLED"
+            },
+            {
+              "code": 73178,
+              "din": "02248809",
+              "product": "ADDERALL XR",
+              "single": true,
+              "legal": "CONTROLLED"
+            },
+            {
+              "code": 73179,
+              "din": "02248810",
+              "product": "ADDERALL XR",
+              "single": true,
+              "legal": "CONTROLLED"
+            },
+            {
+              "code": 73180,
+              "din": "02248811",
+              "product": "ADDERALL XR",
+              "single": true,
+              "legal": "CONTROLLED"
+            },
+            {
+              "code": 73181,
+              "din": "02248812",
+              "product": "ADDERALL XR",
+              "single": true,
+              "legal": "CONTROLLED"
+            },
+            {
+              "code": 73182,
+              "din": "02248813",
+              "product": "ADDERALL XR",
+              "single": true,
+              "legal": "CONTROLLED"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "CONTROLLED": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "73177",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=73177",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrochlorothiazide",
+      "generic": "Hydrochlorothiazide",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": 103640,
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103640",
+        "searched": "hydrochlorothiazide",
+        "registeredProducts": 522
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "103640",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103640",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "bupropion",
+      "generic": "Bupropion",
+      "brand": "Wellbutrin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Wellbutrin",
+          "id": 76060,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=76060",
+          "confirmed": true,
+          "note": null,
+          "matched": "WELLBUTRIN XL",
+          "products": [
+            {
+              "code": 76060,
+              "din": "02275090",
+              "product": "WELLBUTRIN XL",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 76061,
+              "din": "02275104",
+              "product": "WELLBUTRIN XL",
+              "single": true,
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "76060",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=76060",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "fluoxetine",
+      "generic": "Fluoxetine",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": 103543,
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103543",
+        "searched": "fluoxetine",
+        "registeredProducts": 99
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "103543",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103543",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "semaglutide",
+      "generic": "Semaglutide",
+      "brand": "Ozempic / Wegovy",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ozempic",
+          "id": 96058,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=96058",
+          "confirmed": true,
+          "note": null,
+          "matched": "OZEMPIC",
+          "products": [
+            {
+              "code": 96058,
+              "din": "02471469",
+              "product": "OZEMPIC",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 102895,
+              "din": "02540258",
+              "product": "OZEMPIC",
+              "single": true,
+              "legal": "RX"
+            }
+          ]
+        },
+        {
+          "name": "Wegovy",
+          "id": 101765,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=101765",
+          "confirmed": true,
+          "note": null,
+          "matched": "WEGOVY",
+          "products": [
+            {
+              "code": 101765,
+              "din": "02528509",
+              "product": "WEGOVY",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 101773,
+              "din": "02528517",
+              "product": "WEGOVY",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 101774,
+              "din": "02528525",
+              "product": "WEGOVY",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 101775,
+              "din": "02528533",
+              "product": "WEGOVY",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 101776,
+              "din": "02528541",
+              "product": "WEGOVY",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 104165,
+              "din": "02552698",
+              "product": "WEGOVY",
+              "single": true,
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "96058",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=96058",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "montelukast",
+      "generic": "Montelukast",
+      "brand": "Singulair",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Singulair",
+          "id": 61609,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=61609",
+          "confirmed": true,
+          "note": null,
+          "matched": "SINGULAIR",
+          "products": [
+            {
+              "code": 61609,
+              "din": "02238216",
+              "product": "SINGULAIR",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 61610,
+              "din": "02238217",
+              "product": "SINGULAIR",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 67521,
+              "din": "02243602",
+              "product": "SINGULAIR",
+              "single": true,
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "61609",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=61609",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "trazodone",
+      "generic": "Trazodone",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": 102668,
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=102668",
+        "searched": "trazodone",
+        "registeredProducts": 57
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "102668",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=102668",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "simvastatin",
+      "generic": "Simvastatin",
+      "brand": "Zocor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zocor",
+          "id": 10947,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=10947",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZOCOR",
+          "products": [
+            {
+              "code": 10947,
+              "din": "00884332",
+              "product": "ZOCOR",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 16473,
+              "din": "00884340",
+              "product": "ZOCOR",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 46718,
+              "din": "00884359",
+              "product": "ZOCOR",
+              "single": true,
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "10947",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=10947",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "tamsulosin",
+      "generic": "Tamsulosin",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": 103396,
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103396",
+        "searched": "tamsulosin",
+        "registeredProducts": 20
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "103396",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103396",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrocodone",
+      "generic": "Hydrocodone / Paracetamol combination",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": 80973,
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=80973",
+        "searched": "hydrocodone",
+        "registeredProducts": 30
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "CONTROLLED": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "80973",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=80973",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "fluticasone",
+      "generic": "Fluticasone",
+      "brand": "Flonase (nasal spray, OTC) / Flovent (inhaler, Rx)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Flonase",
+          "id": 72648,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=72648",
+          "confirmed": true,
+          "note": null,
+          "matched": "FLONASE ALLERGY RELIEF",
+          "products": [
+            {
+              "code": 72648,
+              "din": "02248307",
+              "product": "FLONASE ALLERGY RELIEF",
+              "single": true,
+              "legal": "NO_RX"
+            }
+          ]
+        },
+        {
+          "name": "Flovent",
+          "id": 68258,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=68258",
+          "confirmed": true,
+          "note": null,
+          "matched": "FLOVENT HFA",
+          "products": [
+            {
+              "code": 68258,
+              "din": "02244291",
+              "product": "FLOVENT HFA",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 68259,
+              "din": "02244292",
+              "product": "FLOVENT HFA",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 68260,
+              "din": "02244293",
+              "product": "FLOVENT HFA",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 60565,
+              "din": "02237245",
+              "product": "FLOVENT DISKUS",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 60566,
+              "din": "02237246",
+              "product": "FLOVENT DISKUS",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 60567,
+              "din": "02237247",
+              "product": "FLOVENT DISKUS",
+              "single": true,
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 1,
+            "RX": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "72648",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=72648",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "meloxicam",
+      "generic": "Meloxicam",
+      "brand": "Sold generic (formerly Mobicox)",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": 103139,
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103139",
+        "searched": "meloxicam",
+        "registeredProducts": 66
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "103139",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103139",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "apixaban",
+      "generic": "Apixaban",
+      "brand": "Eliquis",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Eliquis",
+          "id": 86287,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=86287",
+          "confirmed": true,
+          "note": null,
+          "matched": "ELIQUIS",
+          "products": [
+            {
+              "code": 86287,
+              "din": "02377233",
+              "product": "ELIQUIS",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 88264,
+              "din": "02397714",
+              "product": "ELIQUIS",
+              "single": true,
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "86287",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=86287",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "furosemide",
+      "generic": "Furosemide",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": 102470,
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=102470",
+        "searched": "furosemide",
+        "registeredProducts": 76
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "102470",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=102470",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-glargine",
+      "generic": "Insulin Glargine",
+      "brand": "Lantus",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lantus",
+          "id": 69790,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=69790",
+          "confirmed": true,
+          "note": null,
+          "matched": "LANTUS",
+          "products": [
+            {
+              "code": 69790,
+              "din": "02245689",
+              "product": "LANTUS",
+              "single": true,
+              "legal": null
+            },
+            {
+              "code": 73683,
+              "din": "02251930",
+              "product": "LANTUS",
+              "single": true,
+              "legal": null
+            },
+            {
+              "code": 77967,
+              "din": "02294338",
+              "product": "LANTUS",
+              "single": true,
+              "legal": null
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": null,
+        "result": "na",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {}
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "69790",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=69790",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "duloxetine",
+      "generic": "Duloxetine",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": 101197,
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=101197",
+        "searched": "duloxetine",
+        "registeredProducts": 68
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "101197",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=101197",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "famotidine",
+      "generic": "Famotidine",
+      "brand": "Pepcid",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Pepcid",
+          "id": 42879,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=42879",
+          "confirmed": true,
+          "note": null,
+          "matched": "PEPCID AC",
+          "products": [
+            {
+              "code": 42879,
+              "din": "02185938",
+              "product": "PEPCID AC",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 66915,
+              "din": "02243053",
+              "product": "PEPCID COMPLETE",
+              "single": false,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "42879",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=42879",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "empagliflozin",
+      "generic": "Empagliflozin",
+      "brand": "Jardiance",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Jardiance",
+          "id": 92871,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=92871",
+          "confirmed": true,
+          "note": null,
+          "matched": "JARDIANCE",
+          "products": [
+            {
+              "code": 92871,
+              "din": "02443937",
+              "product": "JARDIANCE",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 92872,
+              "din": "02443945",
+              "product": "JARDIANCE",
+              "single": true,
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "92871",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=92871",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "carvedilol",
+      "generic": "Carvedilol",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": 90309,
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=90309",
+        "searched": "carvedilol",
+        "registeredProducts": 81
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "90309",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=90309",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "tramadol",
+      "generic": "Tramadol",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": 103980,
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103980",
+        "searched": "tramadol",
+        "registeredProducts": 49
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "CONTROLLED": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "103980",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103980",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "alprazolam",
+      "generic": "Alprazolam",
+      "brand": "Xanax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Xanax",
+          "id": 4471,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=4471",
+          "confirmed": true,
+          "note": null,
+          "matched": "XANAX",
+          "products": [
+            {
+              "code": 4471,
+              "din": "00548359",
+              "product": "XANAX",
+              "single": true,
+              "legal": "CONTROLLED"
+            },
+            {
+              "code": 4472,
+              "din": "00548367",
+              "product": "XANAX",
+              "single": true,
+              "legal": "CONTROLLED"
+            },
+            {
+              "code": 13685,
+              "din": "00723770",
+              "product": "XANAX",
+              "single": true,
+              "legal": "CONTROLLED"
+            },
+            {
+              "code": 13686,
+              "din": "00813958",
+              "product": "XANAX TS",
+              "single": true,
+              "legal": "CONTROLLED"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "CONTROLLED": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "4471",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=4471",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "prednisone",
+      "generic": "Prednisone",
+      "brand": "Winpred",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Winpred",
+          "id": 3076,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=3076",
+          "confirmed": true,
+          "note": null,
+          "matched": "WINPRED",
+          "products": [
+            {
+              "code": 3076,
+              "din": "00271373",
+              "product": "WINPRED",
+              "single": true,
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "3076",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=3076",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "clopidogrel",
+      "generic": "Clopidogrel",
+      "brand": "Plavix",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Plavix",
+          "id": 62114,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=62114",
+          "confirmed": true,
+          "note": null,
+          "matched": "PLAVIX",
+          "products": [
+            {
+              "code": 62114,
+              "din": "02238682",
+              "product": "PLAVIX",
+              "single": true,
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "62114",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=62114",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "aspirin",
+      "generic": "Acetylsalicylic acid (Aspirin)",
+      "brand": "Aspirin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Aspirin",
+          "id": 61080,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=61080",
+          "confirmed": true,
+          "note": null,
+          "matched": "ASPIRIN 81MG",
+          "products": [
+            {
+              "code": 61080,
+              "din": "02237726",
+              "product": "ASPIRIN 81MG",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 19475,
+              "din": "02150336",
+              "product": "ASPIRIN EXTRA STRENGTH",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 19474,
+              "din": "02150328",
+              "product": "ASPIRIN REGULAR STRENGTH",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 77528,
+              "din": "02289970",
+              "product": "ASPIRIN 81MG QUICK CHEWS",
+              "single": true,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "61080",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=61080",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oxycodone",
+      "generic": "Oxycodone",
+      "brand": "OxyNEO",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "OxyNEO",
+          "id": 85760,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=85760",
+          "confirmed": true,
+          "note": null,
+          "matched": "OXYNEO",
+          "products": [
+            {
+              "code": 85760,
+              "din": "02372525",
+              "product": "OXYNEO",
+              "single": true,
+              "legal": "CONTROLLED"
+            },
+            {
+              "code": 85765,
+              "din": "02372533",
+              "product": "OXYNEO",
+              "single": true,
+              "legal": "CONTROLLED"
+            },
+            {
+              "code": 85766,
+              "din": "02372541",
+              "product": "OXYNEO",
+              "single": true,
+              "legal": "CONTROLLED"
+            },
+            {
+              "code": 85767,
+              "din": "02372568",
+              "product": "OXYNEO",
+              "single": true,
+              "legal": "CONTROLLED"
+            },
+            {
+              "code": 85768,
+              "din": "02372576",
+              "product": "OXYNEO",
+              "single": true,
+              "legal": "CONTROLLED"
+            },
+            {
+              "code": 85769,
+              "din": "02372584",
+              "product": "OXYNEO",
+              "single": true,
+              "legal": "CONTROLLED"
+            },
+            {
+              "code": 85788,
+              "din": "02372797",
+              "product": "OXYNEO",
+              "single": true,
+              "legal": "CONTROLLED"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "CONTROLLED": 7
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "85760",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=85760",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "methylphenidate",
+      "generic": "Methylphenidate",
+      "brand": "Concerta",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Concerta",
+          "id": 72012,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=72012",
+          "confirmed": true,
+          "note": null,
+          "matched": "CONCERTA",
+          "products": [
+            {
+              "code": 72012,
+              "din": "02247732",
+              "product": "CONCERTA",
+              "single": true,
+              "legal": "CONTROLLED"
+            },
+            {
+              "code": 72013,
+              "din": "02247733",
+              "product": "CONCERTA",
+              "single": true,
+              "legal": "CONTROLLED"
+            },
+            {
+              "code": 72014,
+              "din": "02247734",
+              "product": "CONCERTA",
+              "single": true,
+              "legal": "CONTROLLED"
+            },
+            {
+              "code": 73505,
+              "din": "02250241",
+              "product": "CONCERTA",
+              "single": true,
+              "legal": "CONTROLLED"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "CONTROLLED": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "72012",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=72012",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "naproxen",
+      "generic": "Naproxen",
+      "brand": "Aleve",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Aleve",
+          "id": 78704,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=78704",
+          "confirmed": true,
+          "note": null,
+          "matched": "ALEVE CAPLETS",
+          "products": [
+            {
+              "code": 78704,
+              "din": "02301733",
+              "product": "ALEVE CAPLETS",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 92965,
+              "din": "02444593",
+              "product": "ALEVE NIGHTTIME",
+              "single": false,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 84684,
+              "din": "02361795",
+              "product": "ALEVE LIQUID GELS",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 92069,
+              "din": "02436337",
+              "product": "ALEVE BACK AND BODY PAIN",
+              "single": true,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "78704",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=78704",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "diclofenac-gel",
+      "generic": "Diclofenac (topical gel)",
+      "brand": "Voltaren Emulgel",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Voltaren Emulgel",
+          "id": 104363,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=104363",
+          "confirmed": true,
+          "note": null,
+          "matched": "VOLTAREN EMULGEL ACTIVE",
+          "products": [
+            {
+              "code": 104363,
+              "din": "02554801",
+              "product": "VOLTAREN EMULGEL ACTIVE",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 87843,
+              "din": "02393190",
+              "product": "VOLTAREN EMULGEL EXTRA STRENGTH",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 95324,
+              "din": "02465035",
+              "product": "VOLTAREN EMULGEL BACK & MUSCLE PAIN",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 95325,
+              "din": "02465043",
+              "product": "VOLTAREN EMULGEL JOINT PAIN EXTRA STRENGTH",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 82423,
+              "din": "02338580",
+              "product": "VOLTAREN EMULGEL JOINT PAIN REGULAR STRENGTH",
+              "single": true,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "104363",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=104363",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "fexofenadine",
+      "generic": "Fexofenadine",
+      "brand": "Allegra",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Allegra",
+          "id": 63341,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=63341",
+          "confirmed": true,
+          "note": null,
+          "matched": "ALLEGRA-D",
+          "products": [
+            {
+              "code": 63341,
+              "din": "02239853",
+              "product": "ALLEGRA-D",
+              "single": false,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 101047,
+              "din": "02521245",
+              "product": "ALLEGRA HIVES",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 50779,
+              "din": "02231462",
+              "product": "ALLEGRA 12 HOUR",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 66647,
+              "din": "02242819",
+              "product": "ALLEGRA 24 HOUR",
+              "single": true,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "63341",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=63341",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "guaifenesin",
+      "generic": "Guaifenesin",
+      "brand": "Mucinex / Robitussin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Mucinex",
+          "id": 91903,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=91903",
+          "confirmed": true,
+          "note": null,
+          "matched": "MUCINEX CHEST CONGESTION",
+          "products": [
+            {
+              "code": 91903,
+              "din": "02434725",
+              "product": "MUCINEX CHEST CONGESTION",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 91765,
+              "din": "02433257",
+              "product": "MUCINEX CONGESTION & COUGH",
+              "single": false,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 106508,
+              "din": "02562189",
+              "product": "MUCINEX CONGESTION & FEVER",
+              "single": false,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 91779,
+              "din": "02433419",
+              "product": "MUCINEX ALL IN ONE COLD & COUGH LIQUID",
+              "single": false,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 91782,
+              "din": "02433451",
+              "product": "MUCINEX MULTI-ACTION CONGESTION, COLD & FLU",
+              "single": false,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 91781,
+              "din": "02433435",
+              "product": "MUCINEX MULTI-ACTION CONGESTION, COLD & COUGH",
+              "single": false,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 91764,
+              "din": "02433249",
+              "product": "MUCINEX MULTI-ACTION CONGESTION, STUFFY NOSE & COUGH LIQUID",
+              "single": false,
+              "legal": "NO_RX"
+            }
+          ]
+        },
+        {
+          "name": "Robitussin",
+          "id": 13296,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=13296",
+          "confirmed": true,
+          "note": null,
+          "matched": "ROBITUSSIN COUGH CONTROL",
+          "products": [
+            {
+              "code": 13296,
+              "din": "01931024",
+              "product": "ROBITUSSIN COUGH CONTROL",
+              "single": false,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 72923,
+              "din": "02248568",
+              "product": "ROBITUSSIN SUGAR FREE COUGH CONTROL",
+              "single": false,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 19060,
+              "din": "02172380",
+              "product": "ROBITUSSIN EXTRA STRENGTH COUGH & COLD",
+              "single": false,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 19026,
+              "din": "02142775",
+              "product": "ROBITUSSIN EXTRA STRENGTH COUGH CONTROL",
+              "single": false,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "91903",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=91903",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "dextromethorphan",
+      "generic": "Dextromethorphan",
+      "brand": "Robitussin DM",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Robitussin DM",
+          "id": 73742,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=73742",
+          "confirmed": true,
+          "note": null,
+          "matched": "ROBITUSSIN DM COUGHGELS LIQUI-GELS TOUX",
+          "products": [
+            {
+              "code": 73742,
+              "din": "02252554",
+              "product": "ROBITUSSIN DM COUGHGELS LIQUI-GELS TOUX",
+              "single": true,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "73742",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=73742",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oxymetazoline",
+      "generic": "Oxymetazoline (nasal spray)",
+      "brand": "Drixoral",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Drixoral",
+          "id": 86596,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=86596",
+          "confirmed": true,
+          "note": null,
+          "matched": "DRIXORAL NASAL CONGESTION",
+          "products": [
+            {
+              "code": 86596,
+              "din": "02380129",
+              "product": "DRIXORAL NASAL CONGESTION",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 69676,
+              "din": "02245580",
+              "product": "DRIXORAL NO DRIP COOLING MENTHOL",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 41903,
+              "din": "00740861",
+              "product": "DRIXORAL DECONGESTANT NASAL SPRAY",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 98807,
+              "din": "02498294",
+              "product": "DRIXORAL NO DRIP NASAL CONGESTION",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 69670,
+              "din": "02245575",
+              "product": "DRIXORAL NO DRIP EXTRA MOISTURIZING",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 69673,
+              "din": "02245578",
+              "product": "DRIXORAL NO DRIP ORIGINAL UNSCENTED",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 98808,
+              "din": "02498308",
+              "product": "DRIXORAL NO DRIP NASAL CONGESTION WITH MENTHOL",
+              "single": true,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 7
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "86596",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=86596",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "bismuth-subsalicylate",
+      "generic": "Bismuth subsalicylate",
+      "brand": "Pepto-Bismol",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Pepto-Bismol",
+          "id": 42395,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=42395",
+          "confirmed": true,
+          "note": null,
+          "matched": "PEPTO-BISMOL",
+          "products": [
+            {
+              "code": 42395,
+              "din": "02097079",
+              "product": "PEPTO-BISMOL",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 47656,
+              "din": "02229668",
+              "product": "PEPTO-BISMOL EXTRA",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 60637,
+              "din": "02237315",
+              "product": "PEPTO-BISMOL CHEWABLES",
+              "single": false,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 101991,
+              "din": "02530759",
+              "product": "PEPTO-BISMOL EXTRA CAPLET",
+              "single": true,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "42395",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=42395",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "calcium-carbonate",
+      "generic": "Calcium carbonate (antacid)",
+      "brand": "Tums",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tums",
+          "id": 102897,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=102897",
+          "confirmed": true,
+          "note": null,
+          "matched": "TUMS CHEWY BITES WITH GAS RELIEF",
+          "products": [
+            {
+              "code": 102897,
+              "din": "02540274",
+              "product": "TUMS CHEWY BITES WITH GAS RELIEF",
+              "single": false,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "102897",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=102897",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "simeticone",
+      "generic": "Simeticone",
+      "brand": "Gas-X / Ovol",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Gas-X",
+          "id": 13362,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=13362",
+          "confirmed": true,
+          "note": null,
+          "matched": "GAS-X EXTRA STRENGTH",
+          "products": [
+            {
+              "code": 13362,
+              "din": "00896675",
+              "product": "GAS-X EXTRA STRENGTH",
+              "single": true,
+              "legal": "NO_RX"
+            }
+          ]
+        },
+        {
+          "name": "Ovol",
+          "id": 198,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=198",
+          "confirmed": true,
+          "note": null,
+          "matched": "OVOL DROPS",
+          "products": [
+            {
+              "code": 198,
+              "din": "00013617",
+              "product": "OVOL DROPS",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 1889,
+              "din": "00292990",
+              "product": "OVOL FOR GAS 80 MG TABLET",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 71367,
+              "din": "02247127",
+              "product": "OVOL FOR GAS 180 MG TABLET",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 62764,
+              "din": "02239298",
+              "product": "OVOL FOR GAS 180 MG CAPSULE",
+              "single": true,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "13362",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=13362",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oral-rehydration-salts",
+      "generic": "Oral rehydration salts",
+      "brand": "Pedialyte",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Pedialyte",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "not found in DPD",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": false
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Brand \"Pedialyte\" not confirmed: not found in DPD"
+      ]
+    },
+    {
+      "id": "bisacodyl",
+      "generic": "Bisacodyl",
+      "brand": "Dulcolax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Dulcolax",
+          "id": 1555,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=1555",
+          "confirmed": true,
+          "note": null,
+          "matched": "DULCOLAX",
+          "products": [
+            {
+              "code": 1555,
+              "din": "00003875",
+              "product": "DULCOLAX",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 1553,
+              "din": "00254142",
+              "product": "DULCOLAX",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 88276,
+              "din": "02397854",
+              "product": "DULCOLAX FOR WOMEN",
+              "single": true,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "1555",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=1555",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "polyethylene-glycol",
+      "generic": "Polyethylene glycol 3350 (macrogol)",
+      "brand": "RestoraLAX / Lax-A-Day",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "RestoraLAX",
+          "id": 80366,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=80366",
+          "confirmed": true,
+          "note": null,
+          "matched": "RESTORALAX",
+          "products": [
+            {
+              "code": 80366,
+              "din": "02318164",
+              "product": "RESTORALAX",
+              "single": true,
+              "legal": "NO_RX"
+            }
+          ]
+        },
+        {
+          "name": "Lax-A-Day",
+          "id": 80321,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=80321",
+          "confirmed": true,
+          "note": null,
+          "matched": "LAX-A-DAY",
+          "products": [
+            {
+              "code": 80321,
+              "din": "02317680",
+              "product": "LAX-A-DAY",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 93973,
+              "din": "02453193",
+              "product": "LAX-A-DAY PHARMA",
+              "single": true,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "80366",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=80366",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "meclozine",
+      "generic": "Meclozine",
+      "brand": "Not commonly available — \"Gravol\" (dimenhydrinate) covers this use",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": null,
+        "searched": "meclizine",
+        "registeredProducts": 3
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrocortisone-cream",
+      "generic": "Hydrocortisone (cream)",
+      "brand": "Sold generic (\"hydrocortisone cream\")",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": 103421,
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103421",
+        "searched": "hydrocortisone",
+        "registeredProducts": 157
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "RX",
+        "result": "differ",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "103421",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103421",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "Status differs: entry MIXED, registry RX"
+      ]
+    },
+    {
+      "id": "clotrimazole",
+      "generic": "Clotrimazole",
+      "brand": "Canesten",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Canesten",
+          "id": 19479,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=19479",
+          "confirmed": true,
+          "note": null,
+          "matched": "CANESTEN COMFORTAB 3",
+          "products": [
+            {
+              "code": 19479,
+              "din": "02150840",
+              "product": "CANESTEN COMFORTAB 3",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 19480,
+              "din": "02150859",
+              "product": "CANESTEN COMFORTAB 1",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 74951,
+              "din": "02264099",
+              "product": "CANESTEN COMBI 3 DAY",
+              "single": false,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 74952,
+              "din": "02264102",
+              "product": "CANESTEN COMBI 1 DAY",
+              "single": false,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 79727,
+              "din": "02311720",
+              "product": "CANESTEN EXTERNAL CREAM",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 103588,
+              "din": "02547252",
+              "product": "CANESTEN SOFT CAPSULE 1",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 19487,
+              "din": "02150867",
+              "product": "CANESTEN 1% TOPICAL CREAM",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 44016,
+              "din": "02150883",
+              "product": "CANESTEN 1 DAY INTERNAL CREAM",
+              "single": true,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "19479",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=19479",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "antibiotic-ointment",
+      "generic": "Bacitracin / Neomycin / Polymyxin B (antibiotic ointment)",
+      "brand": "Polysporin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Polysporin",
+          "id": 64139,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=64139",
+          "confirmed": true,
+          "note": null,
+          "matched": "POLYSPORIN COMPLETE",
+          "products": [
+            {
+              "code": 64139,
+              "din": "02240568",
+              "product": "POLYSPORIN COMPLETE",
+              "single": false,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 60546,
+              "din": "02237227",
+              "product": "POLYSPORIN ANTIBIOTIC OINTMENT",
+              "single": false,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "64139",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=64139",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "doxylamine",
+      "generic": "Doxylamine",
+      "brand": "Not sold on its own — found in nighttime cold remedies such as \"NyQuil\"",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": 106252,
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=106252",
+        "searched": "doxylamine",
+        "registeredProducts": 113
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": "MIXED",
+        "result": "na",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 5,
+            "RX": 1
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "Entry says \"Not sold on its own — found in nighttime cold remedies such as \"NyQuil\"\" but the registry lists products with this ingredient"
+      ]
+    },
+    {
+      "id": "levonorgestrel",
+      "generic": "Levonorgestrel (emergency contraception)",
+      "brand": "Plan B",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Plan B",
+          "id": 77922,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=77922",
+          "confirmed": true,
+          "note": null,
+          "matched": "PLAN B",
+          "products": [
+            {
+              "code": 77922,
+              "din": "02293854",
+              "product": "PLAN B",
+              "single": true,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "77922",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=77922",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "atovaquone-proguanil",
+      "generic": "Atovaquone / Proguanil",
+      "brand": "Malarone",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Malarone",
+          "id": 61542,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=61542",
+          "confirmed": true,
+          "note": null,
+          "matched": "MALARONE",
+          "products": [
+            {
+              "code": 61542,
+              "din": "02238151",
+              "product": "MALARONE",
+              "single": false,
+              "legal": "RX"
+            },
+            {
+              "code": 75044,
+              "din": "02264935",
+              "product": "MALARONE PEDIATRIC",
+              "single": false,
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "61542",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=61542",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "doxycycline",
+      "generic": "Doxycycline",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": 106441,
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=106441",
+        "searched": "doxycycline",
+        "registeredProducts": 55
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "106441",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=106441",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "azithromycin",
+      "generic": "Azithromycin",
+      "brand": "Sold generic (formerly Zithromax)",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": 103468,
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103468",
+        "searched": "azithromycin",
+        "registeredProducts": 89
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "103468",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103468",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "ciprofloxacin",
+      "generic": "Ciprofloxacin",
+      "brand": "Cipro",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Cipro",
+          "id": 73758,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=73758",
+          "confirmed": true,
+          "note": null,
+          "matched": "CIPRODEX",
+          "products": [
+            {
+              "code": 73758,
+              "din": "02252716",
+              "product": "CIPRODEX",
+              "single": false,
+              "legal": "RX"
+            },
+            {
+              "code": 83851,
+              "din": "02353318",
+              "product": "CIPROFLOXACIN",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 83852,
+              "din": "02353326",
+              "product": "CIPROFLOXACIN",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 87170,
+              "din": "02386119",
+              "product": "CIPROFLOXACIN",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 87171,
+              "din": "02386127",
+              "product": "CIPROFLOXACIN",
+              "single": true,
+              "legal": "RX"
+            },
+            {
+              "code": 103580,
+              "din": "02547147",
+              "product": "CIPROFLOXACIN",
+              "single": true,
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "73758",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=73758",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "acetazolamide",
+      "generic": "Acetazolamide",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": 102665,
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=102665",
+        "searched": "acetazolamide",
+        "registeredProducts": 11
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "102665",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=102665",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "scopolamine",
+      "generic": "Scopolamine (motion-sickness patch)",
+      "brand": "Not commonly available",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": 66636,
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=66636",
+        "searched": "scopolamine",
+        "registeredProducts": 22
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": "NO_RX",
+        "result": "na",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 2
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "Entry says \"Not commonly available\" but the registry lists products with this ingredient"
+      ]
+    },
+    {
+      "id": "ondansetron",
+      "generic": "Ondansetron",
+      "brand": "Sold generic (formerly Zofran)",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": 106798,
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=106798",
+        "searched": "ondansetron",
+        "registeredProducts": 141
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "RX": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "106798",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=106798",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "epinephrine",
+      "generic": "Epinephrine (adrenaline auto-injector)",
+      "brand": "EpiPen",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "EpiPen",
+          "id": 3883,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=3883",
+          "confirmed": true,
+          "note": null,
+          "matched": "EPIPEN",
+          "products": [
+            {
+              "code": 3883,
+              "din": "00509558",
+              "product": "EPIPEN",
+              "single": true,
+              "legal": "NO_RX"
+            },
+            {
+              "code": 5970,
+              "din": "00578657",
+              "product": "EPIPEN JR",
+              "single": true,
+              "legal": "NO_RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {
+            "NO_RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "3883",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=3883",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    }
+  ]
+}

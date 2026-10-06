@@ -11,6 +11,7 @@ const STAMP: Record<string, { ink: string; variant?: string }> = {
   controlled: { ink: 'ink-controlled', variant: 'stamp--dashed' },
   banned: { ink: 'ink-banned', variant: 'stamp--solid' },
   unconfirmed: { ink: 'ink-unconfirmed', variant: 'stamp--dashed' },
+  unavailable: { ink: 'ink-unavailable' },
   generic: { ink: 'ink-generic', variant: 'stamp--dashed' },
 };
 

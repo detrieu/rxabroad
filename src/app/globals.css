@@ -28,6 +28,7 @@
   --color-ink-banned: var(--ink-banned);
   --color-ink-generic: var(--ink-generic);
   --color-ink-unconfirmed: var(--ink-unconfirmed);
+  --color-ink-unavailable: var(--ink-unavailable);
   --color-mark: var(--mark);
 
   --color-ring: var(--ring);
@@ -95,6 +96,7 @@
   --ink-banned: oklch(0.5 0.2 25);
   --ink-generic: oklch(0.47 0.15 305);
   --ink-unconfirmed: oklch(0.5 0.02 262);
+  --ink-unavailable: oklch(0.47 0.14 350);
 }
 
 .dark {
@@ -131,6 +133,7 @@
   --ink-banned: oklch(0.7 0.18 25);
   --ink-generic: oklch(0.78 0.12 305);
   --ink-unconfirmed: oklch(0.7 0.02 262);
+  --ink-unavailable: oklch(0.78 0.12 350);
 }
 
 @layer base {
@@ -255,6 +258,7 @@
 @utility ink-banned { --ink: var(--ink-banned); }
 @utility ink-generic { --ink: var(--ink-generic); }
 @utility ink-unconfirmed { --ink: var(--ink-unconfirmed); }
+@utility ink-unavailable { --ink: var(--ink-unavailable); }
 
 /* "Show sources" preference lives on <html data-sources>. */
 :root:not([data-sources]) .source-link {
@@ -284,6 +288,7 @@
     --ink-banned: oklch(0.5 0.2 25);
     --ink-generic: oklch(0.47 0.15 305);
     --ink-unconfirmed: oklch(0.5 0.02 262);
+    --ink-unavailable: oklch(0.47 0.14 350);
   }
   .guilloche {
     background-image: none;

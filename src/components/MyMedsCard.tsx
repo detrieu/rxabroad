@@ -40,6 +40,23 @@ const CAUTION: Partial<Record<string, { icon: typeof BanIcon; ink: string; text:
   },
 };
 
+// Country-specific advice for travelers carrying controlled medicines, replacing the generic caution.
+// `source` is set where the text restates a rule the country publishes.
+const CONTROLLED_RULE: Partial<Record<CountryCode, { text: string; source?: string }>> = {
+  US: {
+    text: 'Controlled here — keep it in the original labeled pharmacy container and bring only what you need (as a rule of thumb, no more than a 90-day supply). Arriving from abroad, declare it at customs and carry a prescription or doctor’s note in English.',
+    source: 'https://www.cbp.gov/travel/us-citizens/know-before-you-go/prohibited-and-restricted-items',
+  },
+  SG: {
+    text: 'Controlled here — you need approval from Singapore’s Health Sciences Authority before you travel, and may bring at most a 3-month supply, in the original labeled container. No approval is needed if you stay inside the airport transit zone.',
+    source: 'https://file.go.gov.sg/document-guide-for-bringing-in-personal-medications.pdf',
+  },
+  CA: {
+    text: 'Controlled here — bring no more than a 90-day supply, in the labeled container your pharmacy dispensed it in, and declare it to customs on arrival. A doctor’s letter is optional.',
+    source: 'https://www.canada.ca/en/health-canada/services/health-concerns/controlled-substances-precursor-chemicals/controlled-substances/compliance-monitoring/travelling-into-and-out-of-canada-with-prescription-medication-containing-controlled-substances.html',
+  },
+};
+
 export function MyMedsCard() {
   const { meds, toggle, clear, setMeds } = useMyMeds();
   const [dests, setDests] = useMyDestinations();
@@ -53,7 +70,7 @@ export function MyMedsCard() {
     <SaveExportGuide hasCard={legs.length > 0 && savedDrugs.length > 0} cardCount={legs.length} />
     <div className="grid grid-cols-[minmax(0,1fr)] items-start gap-6 lg:grid-cols-[20rem_minmax(0,1fr)] print:block">
       {/* Saved trips + builder */}
-      <div className="no-print grid gap-4 lg:sticky lg:top-4">
+      <div className="no-print grid grid-cols-[minmax(0,1fr)] gap-4 lg:sticky lg:top-4">
       <TripsPanel meds={meds} dests={dests} setMeds={setMeds} setDests={setDests} />
       <section aria-labelledby="pick-heading" className="bg-card rounded-2xl border p-5 shadow-sm">
         <h2 id="pick-heading" className="font-heading text-lg font-bold">Build your card</h2>
@@ -119,7 +136,8 @@ export function MyMedsCard() {
             className="pl-8"
           />
         </div>
-        <ScrollArea className="mt-2 h-72 rounded-lg border">
+        {/* Radix lays the viewport content out as a table, which grows to the longest name; block keeps it to the column width. */}
+        <ScrollArea className="mt-2 h-72 rounded-lg border [&_[data-slot=scroll-area-viewport]>div]:!block">
           <div role="group" aria-label="Medicines" className="p-1">
             {options.length === 0 && <p className="text-muted-foreground p-3 text-sm italic">No medicines match “{filter}”.</p>}
             {options.map((d) => {
@@ -213,6 +231,7 @@ function TravelPass({ country, leg, legs, drugs, onRemove }: TravelPassProps) {
               {drugs.map((drug) => {
                 const entry = entryFor(drug, country.code);
                 const caution = CAUTION[entry.status];
+                const rule = entry.status === 'CONTROLLED' ? CONTROLLED_RULE[country.code] : undefined;
                 return (
                   <li key={drug.id} className="travel-card__row border-t px-5 py-4 first:border-t-0">
                     <div className="flex flex-wrap items-start justify-between gap-x-3 gap-y-2">
@@ -232,10 +251,22 @@ function TravelPass({ country, leg, legs, drugs, onRemove }: TravelPassProps) {
                     {caution && (
                       <p className={cn('mt-2 flex gap-2 rounded-lg border px-3 py-2 text-[0.8rem] leading-snug', caution.ink)}>
                         <caution.icon className="mt-0.5 size-4 shrink-0" />
-                        {caution.text}
+                        <span>
+                          {rule?.text ?? caution.text}
+                          {rule?.source && (
+                            <>
+                              {' '}
+                              <a href={rule.source} target="_blank" rel="noopener noreferrer" className="no-print underline underline-offset-2">
+                                Official rule
+                              </a>
+                            </>
+                          )}
+                        </span>
                       </p>
                     )}
-                    {entry.confidence !== 'high' && (
+                    {entry.verified?.checks.includes('brand') && entry.confidence !== 'low' ? (
+                      <p className="text-ink-otc mt-1.5 text-xs">Registry-verified: {entry.verified.registry}.</p>
+                    ) : entry.confidence !== 'high' && (
                       <p className="text-ink-mixed mt-1.5 text-xs">
                         {entry.confidence === 'low'
                           ? 'Unconfirmed — verify with a local pharmacist.'

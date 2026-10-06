@@ -1,0 +1,4416 @@
+{
+  "country": "US",
+  "registry": "RxNorm (U.S. National Library of Medicine)",
+  "registryVersion": "RxNorm 05-Oct-2026",
+  "checked": "2026-10-06",
+  "summary": {
+    "entries": 76,
+    "brandEntries": 63,
+    "brandEntriesConfirmed": 61,
+    "brandNames": 74,
+    "brandNamesConfirmed": 72,
+    "verified": 75,
+    "statusAgree": 74,
+    "statusDiffer": 0,
+    "statusNotComparable": 2,
+    "confidenceRaised": 0,
+    "flagged": 8
+  },
+  "entries": [
+    {
+      "id": "paracetamol",
+      "generic": "Paracetamol",
+      "brand": "Tylenol",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tylenol",
+          "id": "202433",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=202433",
+          "via": "exact",
+          "matched": "Tylenol",
+          "ingredients": [
+            "acetaminophen"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "161",
+        "name": "acetaminophen",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=161",
+        "searched": "Paracetamol",
+        "atc": [
+          "N02BE01"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 45
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "202433",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=202433",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "ibuprofen",
+      "generic": "Ibuprofen",
+      "brand": "Advil / Motrin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Advil",
+          "id": "153010",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=153010",
+          "via": "exact",
+          "matched": "Advil",
+          "ingredients": [
+            "ibuprofen"
+          ],
+          "confirmed": true,
+          "note": null
+        },
+        {
+          "name": "Motrin",
+          "id": "202488",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=202488",
+          "via": "exact",
+          "matched": "Motrin",
+          "ingredients": [
+            "ibuprofen"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "5640",
+        "name": "ibuprofen",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=5640",
+        "searched": "Ibuprofen",
+        "atc": [
+          "C01EB16",
+          "G02CC01",
+          "M01AE01",
+          "M02AA13",
+          "R02AX02"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 58
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "153010",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=153010",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "loratadine",
+      "generic": "Loratadine",
+      "brand": "Claritin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Claritin",
+          "id": "203576",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203576",
+          "via": "exact",
+          "matched": "Claritin",
+          "ingredients": [
+            "loratadine"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "28889",
+        "name": "loratadine",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=28889",
+        "searched": "Loratadine",
+        "atc": [
+          "R06AX13"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 25
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "203576",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203576",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "cetirizine",
+      "generic": "Cetirizine",
+      "brand": "Zyrtec",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zyrtec",
+          "id": "58930",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=58930",
+          "via": "exact",
+          "matched": "Zyrtec",
+          "ingredients": [
+            "cetirizine"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "20610",
+        "name": "cetirizine",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=20610",
+        "searched": "Cetirizine",
+        "atc": [
+          "R06AE07",
+          "S01GX12"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 22
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "58930",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=58930",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "diphenhydramine",
+      "generic": "Diphenhydramine",
+      "brand": "Benadryl",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Benadryl",
+          "id": "203457",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203457",
+          "via": "exact",
+          "matched": "Benadryl",
+          "ingredients": [
+            "diphenhydramine"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "3498",
+        "name": "diphenhydramine",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=3498",
+        "searched": "Diphenhydramine",
+        "atc": [
+          "D04AA32",
+          "R06AA02"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 19
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "203457",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203457",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "loperamide",
+      "generic": "Loperamide",
+      "brand": "Imodium",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Imodium",
+          "id": "151889",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=151889",
+          "via": "exact",
+          "matched": "Imodium",
+          "ingredients": [
+            "loperamide"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "6468",
+        "name": "loperamide",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=6468",
+        "searched": "Loperamide",
+        "atc": [
+          "A07DA03"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "151889",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=151889",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "omeprazole",
+      "generic": "Omeprazole",
+      "brand": "Prilosec",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Prilosec",
+          "id": "203345",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203345",
+          "via": "exact",
+          "matched": "Prilosec",
+          "ingredients": [
+            "omeprazole"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "7646",
+        "name": "omeprazole",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=7646",
+        "searched": "Omeprazole",
+        "atc": [
+          "A02BC01"
+        ]
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 4,
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "203345",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203345",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "pseudoephedrine",
+      "generic": "Pseudoephedrine",
+      "brand": "Sudafed",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Sudafed",
+          "id": "203302",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203302",
+          "via": "exact",
+          "matched": "Sudafed",
+          "ingredients": [
+            "pseudoephedrine"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "8896",
+        "name": "pseudoephedrine",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=8896",
+        "searched": "Pseudoephedrine",
+        "atc": [
+          "R01BA02"
+        ]
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "OTC",
+        "result": "na",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "203302",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203302",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "melatonin",
+      "generic": "Melatonin",
+      "brand": "Sold as a plain supplement — no brand needed",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "6711",
+        "name": "melatonin",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=6711",
+        "searched": "Melatonin",
+        "atc": [
+          "N05CH01"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "ingredient",
+          "products": {
+            "OTC": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "6711",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=6711",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "dimenhydrinate",
+      "generic": "Dimenhydrinate",
+      "brand": "Dramamine",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Dramamine",
+          "id": "151666",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=151666",
+          "via": "exact",
+          "matched": "Dramamine",
+          "ingredients": [
+            "dimenhydrinate"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "3444",
+        "name": "dimenhydrinate",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=3444",
+        "searched": "Dimenhydrinate",
+        "atc": [
+          "R06AA11"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 7
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "151666",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=151666",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amoxicillin",
+      "generic": "Amoxicillin",
+      "brand": "Sold generic (formerly Amoxil)",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "723",
+        "name": "amoxicillin",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=723",
+        "searched": "Amoxicillin",
+        "atc": [
+          "J01CA04"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "ingredient",
+          "products": {
+            "RX": 58
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "723",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=723",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "metformin",
+      "generic": "Metformin",
+      "brand": "Sold generic (formerly Glucophage)",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "6809",
+        "name": "metformin",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=6809",
+        "searched": "Metformin",
+        "atc": [
+          "A10BA02"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "ingredient",
+          "products": {
+            "RX": 62
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "6809",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=6809",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "sertraline",
+      "generic": "Sertraline",
+      "brand": "Zoloft",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zoloft",
+          "id": "82728",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=82728",
+          "via": "exact",
+          "matched": "Zoloft",
+          "ingredients": [
+            "sertraline"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "36437",
+        "name": "sertraline",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=36437",
+        "searched": "Sertraline",
+        "atc": [
+          "N06AB06"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "82728",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=82728",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "albuterol",
+      "generic": "Salbutamol",
+      "brand": "Ventolin / ProAir — labeled \"albuterol\"",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ventolin",
+          "id": "8887",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=8887",
+          "via": "exact",
+          "matched": "Ventolin",
+          "ingredients": [
+            "albuterol"
+          ],
+          "confirmed": true,
+          "note": null
+        },
+        {
+          "name": "ProAir",
+          "id": "647295",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=647295",
+          "via": "exact",
+          "matched": "ProAir",
+          "ingredients": [
+            "albuterol"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "435",
+        "name": "albuterol",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=435",
+        "searched": "Salbutamol",
+        "atc": [
+          "R03AC02",
+          "R03CC02"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 10
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "8887",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=8887",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "atorvastatin",
+      "generic": "Atorvastatin",
+      "brand": "Lipitor (mostly sold generic now)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lipitor",
+          "id": "153165",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=153165",
+          "via": "exact",
+          "matched": "Lipitor",
+          "ingredients": [
+            "atorvastatin"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "83367",
+        "name": "atorvastatin",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=83367",
+        "searched": "Atorvastatin",
+        "atc": [
+          "C10AA05"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "153165",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=153165",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "levothyroxine",
+      "generic": "Levothyroxine",
+      "brand": "Synthroid",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Synthroid",
+          "id": "224920",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=224920",
+          "via": "exact",
+          "matched": "Synthroid",
+          "ingredients": [
+            "levothyroxine"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "10582",
+        "name": "levothyroxine",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=10582",
+        "searched": "Levothyroxine",
+        "atc": []
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 12
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "224920",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=224920",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "ATC: RxNorm has no ATC code on this ingredient concept (entry has H03AA01)"
+      ]
+    },
+    {
+      "id": "lisinopril",
+      "generic": "Lisinopril",
+      "brand": "Zestril (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zestril",
+          "id": "196472",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=196472",
+          "via": "exact",
+          "matched": "Zestril",
+          "ingredients": [
+            "lisinopril"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "29046",
+        "name": "lisinopril",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=29046",
+        "searched": "Lisinopril",
+        "atc": [
+          "C09AA03"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "196472",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=196472",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amlodipine",
+      "generic": "Amlodipine",
+      "brand": "Norvasc (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Norvasc",
+          "id": "58927",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=58927",
+          "via": "exact",
+          "matched": "Norvasc",
+          "ingredients": [
+            "amlodipine"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "17767",
+        "name": "amlodipine",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=17767",
+        "searched": "Amlodipine",
+        "atc": [
+          "C08CA01"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "58927",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=58927",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "metoprolol",
+      "generic": "Metoprolol",
+      "brand": "Lopressor / Toprol-XL (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lopressor",
+          "id": "203344",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203344",
+          "via": "exact",
+          "matched": "Lopressor",
+          "ingredients": [
+            "metoprolol"
+          ],
+          "confirmed": true,
+          "note": null
+        },
+        {
+          "name": "Toprol-XL",
+          "id": "865575",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=865575",
+          "via": "normalised",
+          "matched": "Toprol",
+          "ingredients": [
+            "metoprolol"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "6918",
+        "name": "metoprolol",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=6918",
+        "searched": "Metoprolol",
+        "atc": [
+          "C07AB02"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 9
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "203344",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203344",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "losartan",
+      "generic": "Losartan",
+      "brand": "Cozaar (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Cozaar",
+          "id": "151558",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=151558",
+          "via": "exact",
+          "matched": "Cozaar",
+          "ingredients": [
+            "losartan"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "52175",
+        "name": "losartan",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=52175",
+        "searched": "Losartan",
+        "atc": [
+          "C09CA01"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "151558",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=151558",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "gabapentin",
+      "generic": "Gabapentin",
+      "brand": "Neurontin (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Neurontin",
+          "id": "196498",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=196498",
+          "via": "exact",
+          "matched": "Neurontin",
+          "ingredients": [
+            "gabapentin"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "25480",
+        "name": "gabapentin",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=25480",
+        "searched": "Gabapentin",
+        "atc": [
+          "N02BF01"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "196498",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=196498",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "rosuvastatin",
+      "generic": "Rosuvastatin",
+      "brand": "Crestor (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Crestor",
+          "id": "320864",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=320864",
+          "via": "exact",
+          "matched": "Crestor",
+          "ingredients": [
+            "rosuvastatin"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "301542",
+        "name": "rosuvastatin",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=301542",
+        "searched": "Rosuvastatin",
+        "atc": [
+          "C10AA07"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "320864",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=320864",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "pantoprazole",
+      "generic": "Pantoprazole",
+      "brand": "Protonix (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Protonix",
+          "id": "261624",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=261624",
+          "via": "exact",
+          "matched": "Protonix",
+          "ingredients": [
+            "pantoprazole"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "40790",
+        "name": "pantoprazole",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=40790",
+        "searched": "Pantoprazole",
+        "atc": [
+          "A02BC02"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 7
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "261624",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=261624",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "escitalopram",
+      "generic": "Escitalopram",
+      "brand": "Lexapro (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lexapro",
+          "id": "352741",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=352741",
+          "via": "exact",
+          "matched": "Lexapro",
+          "ingredients": [
+            "escitalopram"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "321988",
+        "name": "escitalopram",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=321988",
+        "searched": "Escitalopram",
+        "atc": [
+          "N06AB10"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "352741",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=352741",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amphetamine",
+      "generic": "Amphetamine / Dextroamphetamine",
+      "brand": "Adderall",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Adderall",
+          "id": "84815",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=84815",
+          "via": "exact",
+          "matched": "Adderall",
+          "ingredients": [
+            "dextroamphetamine",
+            "amphetamine"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "725",
+        "name": "amphetamine",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=725",
+        "searched": "Amphetamine",
+        "atc": [
+          "N06BA01"
+        ]
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "CONTROLLED": 13
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "84815",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=84815",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrochlorothiazide",
+      "generic": "Hydrochlorothiazide",
+      "brand": "Sold generic (formerly Microzide)",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "5487",
+        "name": "hydrochlorothiazide",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=5487",
+        "searched": "Hydrochlorothiazide",
+        "atc": [
+          "C03AA03"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "ingredient",
+          "products": {
+            "RX": 16
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "5487",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=5487",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "bupropion",
+      "generic": "Bupropion",
+      "brand": "Wellbutrin (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Wellbutrin",
+          "id": "42568",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=42568",
+          "via": "exact",
+          "matched": "Wellbutrin",
+          "ingredients": [
+            "bupropion"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "42347",
+        "name": "bupropion",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=42347",
+        "searched": "Bupropion",
+        "atc": [
+          "N06AX12"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "42568",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=42568",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "fluoxetine",
+      "generic": "Fluoxetine",
+      "brand": "Prozac (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Prozac",
+          "id": "58827",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=58827",
+          "via": "exact",
+          "matched": "Prozac",
+          "ingredients": [
+            "fluoxetine"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "4493",
+        "name": "fluoxetine",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=4493",
+        "searched": "Fluoxetine",
+        "atc": [
+          "N06AB03"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "58827",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=58827",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "semaglutide",
+      "generic": "Semaglutide",
+      "brand": "Ozempic (diabetes) / Wegovy (weight management)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ozempic",
+          "id": "1991307",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1991307",
+          "via": "exact",
+          "matched": "Ozempic",
+          "ingredients": [
+            "semaglutide"
+          ],
+          "confirmed": true,
+          "note": null
+        },
+        {
+          "name": "Wegovy",
+          "id": "2553502",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=2553502",
+          "via": "exact",
+          "matched": "Wegovy",
+          "ingredients": [
+            "semaglutide"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1991302",
+        "name": "semaglutide",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1991302",
+        "searched": "Semaglutide",
+        "atc": [
+          "A10BJ06"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 21
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "1991307",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1991307",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "montelukast",
+      "generic": "Montelukast",
+      "brand": "Singulair (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Singulair",
+          "id": "153889",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=153889",
+          "via": "exact",
+          "matched": "Singulair",
+          "ingredients": [
+            "montelukast"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "88249",
+        "name": "montelukast",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=88249",
+        "searched": "Montelukast",
+        "atc": [
+          "R03DC03"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "153889",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=153889",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "trazodone",
+      "generic": "Trazodone",
+      "brand": "Sold generic (formerly Desyrel)",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10737",
+        "name": "trazodone",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=10737",
+        "searched": "Trazodone",
+        "atc": [
+          "N06AX05"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "ingredient",
+          "products": {
+            "RX": 88
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "10737",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=10737",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "simvastatin",
+      "generic": "Simvastatin",
+      "brand": "Zocor (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zocor",
+          "id": "196503",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=196503",
+          "via": "exact",
+          "matched": "Zocor",
+          "ingredients": [
+            "simvastatin"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "36567",
+        "name": "simvastatin",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=36567",
+        "searched": "Simvastatin",
+        "atc": [
+          "C10AA01"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "196503",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=196503",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "tamsulosin",
+      "generic": "Tamsulosin",
+      "brand": "Sold generic (formerly Flomax)",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "77492",
+        "name": "tamsulosin",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=77492",
+        "searched": "Tamsulosin",
+        "atc": [
+          "G04CA02"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "ingredient",
+          "products": {
+            "RX": 63
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "77492",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=77492",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrocodone",
+      "generic": "Hydrocodone / Paracetamol combination",
+      "brand": "Norco (with paracetamol) / Hysingla ER (hydrocodone alone)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Norco",
+          "id": "218772",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=218772",
+          "via": "exact",
+          "matched": "Norco",
+          "ingredients": [
+            "acetaminophen",
+            "hydrocodone"
+          ],
+          "confirmed": true,
+          "note": null
+        },
+        {
+          "name": "Hysingla ER",
+          "id": "1595731",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1595731",
+          "via": "normalised",
+          "matched": "Hysingla",
+          "ingredients": [
+            "hydrocodone"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "5489",
+        "name": "hydrocodone",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=5489",
+        "searched": "Hydrocodone",
+        "atc": [
+          "R05DA03"
+        ]
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "CONTROLLED": 7
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "218772",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=218772",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "ATC differs: entry N02AJ22, RxNorm R05DA03"
+      ]
+    },
+    {
+      "id": "fluticasone",
+      "generic": "Fluticasone",
+      "brand": "Flonase (nasal spray, OTC) / Flovent (inhaler, Rx)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Flonase",
+          "id": "83373",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=83373",
+          "via": "exact",
+          "matched": "Flonase",
+          "ingredients": [
+            "fluticasone"
+          ],
+          "confirmed": true,
+          "note": null
+        },
+        {
+          "name": "Flovent",
+          "id": "217152",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=217152",
+          "via": "exact",
+          "matched": "Flovent",
+          "ingredients": [
+            "fluticasone"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "41126",
+        "name": "fluticasone",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=41126",
+        "searched": "Fluticasone",
+        "atc": [
+          "D07AC17",
+          "R01AD08",
+          "R03BA05"
+        ]
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 7,
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "83373",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=83373",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "meloxicam",
+      "generic": "Meloxicam",
+      "brand": "Sold generic (formerly Mobic)",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "41493",
+        "name": "meloxicam",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=41493",
+        "searched": "Meloxicam",
+        "atc": [
+          "M01AC06"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "ingredient",
+          "products": {
+            "RX": 88
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "41493",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=41493",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "apixaban",
+      "generic": "Apixaban",
+      "brand": "Eliquis",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Eliquis",
+          "id": "1364436",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1364436",
+          "via": "exact",
+          "matched": "Eliquis",
+          "ingredients": [
+            "apixaban"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1364430",
+        "name": "apixaban",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1364430",
+        "searched": "Apixaban",
+        "atc": [
+          "B01AF02"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 14
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "1364436",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1364436",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "furosemide",
+      "generic": "Furosemide",
+      "brand": "Lasix (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lasix",
+          "id": "202991",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=202991",
+          "via": "exact",
+          "matched": "Lasix",
+          "ingredients": [
+            "furosemide"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "4603",
+        "name": "furosemide",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=4603",
+        "searched": "Furosemide",
+        "atc": [
+          "C03CA01"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "202991",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=202991",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-glargine",
+      "generic": "Insulin Glargine",
+      "brand": "Lantus",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lantus",
+          "id": "261551",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=261551",
+          "via": "exact",
+          "matched": "Lantus",
+          "ingredients": [
+            "insulin glargine"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "274783",
+        "name": "insulin glargine",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=274783",
+        "searched": "Insulin Glargine",
+        "atc": [
+          "A10AE04"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "261551",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=261551",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "duloxetine",
+      "generic": "Duloxetine",
+      "brand": "Sold generic (formerly Cymbalta)",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "72625",
+        "name": "duloxetine",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=72625",
+        "searched": "Duloxetine",
+        "atc": [
+          "N06AX21"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "ingredient",
+          "products": {
+            "RX": 82
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "72625",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=72625",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "famotidine",
+      "generic": "Famotidine",
+      "brand": "Pepcid",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Pepcid",
+          "id": "196458",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=196458",
+          "via": "exact",
+          "matched": "Pepcid",
+          "ingredients": [
+            "famotidine"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "4278",
+        "name": "famotidine",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=4278",
+        "searched": "Famotidine",
+        "atc": [
+          "A02BA03"
+        ]
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 4,
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "196458",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=196458",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "empagliflozin",
+      "generic": "Empagliflozin",
+      "brand": "Jardiance",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Jardiance",
+          "id": "1545659",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1545659",
+          "via": "exact",
+          "matched": "Jardiance",
+          "ingredients": [
+            "empagliflozin"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1545653",
+        "name": "empagliflozin",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1545653",
+        "searched": "Empagliflozin",
+        "atc": [
+          "A10BK03"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 11
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "1545659",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1545659",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "carvedilol",
+      "generic": "Carvedilol",
+      "brand": "Coreg (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Coreg",
+          "id": "216221",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=216221",
+          "via": "exact",
+          "matched": "Coreg",
+          "ingredients": [
+            "carvedilol"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "20352",
+        "name": "carvedilol",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=20352",
+        "searched": "Carvedilol",
+        "atc": [
+          "C07AG02"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "216221",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=216221",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "tramadol",
+      "generic": "Tramadol",
+      "brand": "Sold generic (formerly Ultram)",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10689",
+        "name": "tramadol",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=10689",
+        "searched": "Tramadol",
+        "atc": [
+          "N02AX02"
+        ]
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "ingredient",
+          "products": {
+            "CONTROLLED": 82
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "10689",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=10689",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "alprazolam",
+      "generic": "Alprazolam",
+      "brand": "Xanax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Xanax",
+          "id": "202363",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=202363",
+          "via": "exact",
+          "matched": "Xanax",
+          "ingredients": [
+            "alprazolam"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "596",
+        "name": "alprazolam",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=596",
+        "searched": "Alprazolam",
+        "atc": [
+          "N05BA12"
+        ]
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "CONTROLLED": 9
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "202363",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=202363",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "prednisone",
+      "generic": "Prednisone",
+      "brand": "Sold generic (formerly Deltasone)",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "8640",
+        "name": "prednisone",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=8640",
+        "searched": "Prednisone",
+        "atc": [
+          "A07EA03",
+          "H02AB07"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "ingredient",
+          "products": {
+            "RX": 97
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "8640",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=8640",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "clopidogrel",
+      "generic": "Clopidogrel",
+      "brand": "Plavix (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Plavix",
+          "id": "174742",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=174742",
+          "via": "exact",
+          "matched": "Plavix",
+          "ingredients": [
+            "clopidogrel"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "32968",
+        "name": "clopidogrel",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=32968",
+        "searched": "Clopidogrel",
+        "atc": [
+          "B01AC04"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "174742",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=174742",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "aspirin",
+      "generic": "Acetylsalicylic acid (Aspirin)",
+      "brand": "Bayer Aspirin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Bayer Aspirin",
+          "id": "215568",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=215568",
+          "via": "exact",
+          "matched": "Bayer Aspirin",
+          "ingredients": [
+            "aspirin"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1191",
+        "name": "aspirin",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1191",
+        "searched": "Acetylsalicylic acid",
+        "atc": [
+          "A01AD05",
+          "B01AC06",
+          "N02BA01"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "215568",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=215568",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oxycodone",
+      "generic": "Oxycodone",
+      "brand": "OxyContin / Percocet / Xtampza ER",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "OxyContin",
+          "id": "218986",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=218986",
+          "via": "exact",
+          "matched": "OxyContin",
+          "ingredients": [
+            "oxycodone"
+          ],
+          "confirmed": true,
+          "note": null
+        },
+        {
+          "name": "Percocet",
+          "id": "42844",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=42844",
+          "via": "exact",
+          "matched": "Percocet",
+          "ingredients": [
+            "acetaminophen",
+            "oxycodone"
+          ],
+          "confirmed": true,
+          "note": null
+        },
+        {
+          "name": "Xtampza ER",
+          "id": "1790528",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1790528",
+          "via": "normalised",
+          "matched": "Xtampza",
+          "ingredients": [
+            "oxycodone"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "7804",
+        "name": "oxycodone",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=7804",
+        "searched": "Oxycodone",
+        "atc": [
+          "N02AA05"
+        ]
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "CONTROLLED": 12
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "218986",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=218986",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "methylphenidate",
+      "generic": "Methylphenidate",
+      "brand": "Ritalin / Concerta",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ritalin",
+          "id": "224917",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=224917",
+          "via": "exact",
+          "matched": "Ritalin",
+          "ingredients": [
+            "methylphenidate"
+          ],
+          "confirmed": true,
+          "note": null
+        },
+        {
+          "name": "Concerta",
+          "id": "284704",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=284704",
+          "via": "exact",
+          "matched": "Concerta",
+          "ingredients": [
+            "methylphenidate"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "6901",
+        "name": "methylphenidate",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=6901",
+        "searched": "Methylphenidate",
+        "atc": [
+          "N06BA04"
+        ]
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "CONTROLLED": 11
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "224917",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=224917",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "naproxen",
+      "generic": "Naproxen",
+      "brand": "Aleve",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Aleve",
+          "id": "215101",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=215101",
+          "via": "exact",
+          "matched": "Aleve",
+          "ingredients": [
+            "naproxen"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "7258",
+        "name": "naproxen",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=7258",
+        "searched": "Naproxen",
+        "atc": [
+          "G02CC02",
+          "M01AE02",
+          "M02AA12"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 30
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "215101",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=215101",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "diclofenac-gel",
+      "generic": "Diclofenac (topical gel)",
+      "brand": "Voltaren (Arthritis Pain gel)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Voltaren",
+          "id": "202976",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=202976",
+          "via": "exact",
+          "matched": "Voltaren",
+          "ingredients": [
+            "diclofenac"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "3355",
+        "name": "diclofenac",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=3355",
+        "searched": "Diclofenac",
+        "atc": [
+          "D11AX18",
+          "M01AB05",
+          "M02AA15",
+          "S01BC03"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "202976",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=202976",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "fexofenadine",
+      "generic": "Fexofenadine",
+      "brand": "Allegra",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Allegra",
+          "id": "324026",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=324026",
+          "via": "exact",
+          "matched": "Allegra",
+          "ingredients": [
+            "fexofenadine"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "87636",
+        "name": "fexofenadine",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=87636",
+        "searched": "Fexofenadine",
+        "atc": [
+          "R06AX26"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 15
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "324026",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=324026",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "guaifenesin",
+      "generic": "Guaifenesin",
+      "brand": "Mucinex",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Mucinex",
+          "id": "352777",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=352777",
+          "via": "exact",
+          "matched": "Mucinex",
+          "ingredients": [
+            "guaifenesin"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "5032",
+        "name": "guaifenesin",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=5032",
+        "searched": "Guaifenesin",
+        "atc": [
+          "R05CA03"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 15
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "352777",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=352777",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "dextromethorphan",
+      "generic": "Dextromethorphan",
+      "brand": "Delsym",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Delsym",
+          "id": "3146",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=3146",
+          "via": "exact",
+          "matched": "Delsym",
+          "ingredients": [
+            "dextromethorphan"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "3289",
+        "name": "dextromethorphan",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=3289",
+        "searched": "Dextromethorphan",
+        "atc": [
+          "R05DA09"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "3146",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=3146",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oxymetazoline",
+      "generic": "Oxymetazoline (nasal spray)",
+      "brand": "Afrin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Afrin",
+          "id": "215051",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=215051",
+          "via": "exact",
+          "matched": "Afrin",
+          "ingredients": [
+            "oxymetazoline"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "7812",
+        "name": "oxymetazoline",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=7812",
+        "searched": "Oxymetazoline",
+        "atc": [
+          "D11AX27",
+          "R01AA05",
+          "R01AB07",
+          "S01GA04"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 15
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "215051",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=215051",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "bismuth-subsalicylate",
+      "generic": "Bismuth subsalicylate",
+      "brand": "Pepto-Bismol",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Pepto-Bismol",
+          "id": "54536",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=54536",
+          "via": "exact",
+          "matched": "Pepto-Bismol",
+          "ingredients": [
+            "bismuth subsalicylate"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "19478",
+        "name": "bismuth subsalicylate",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=19478",
+        "searched": "Bismuth subsalicylate",
+        "atc": []
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 24
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "54536",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=54536",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "ATC: RxNorm has no ATC code on this ingredient concept (entry has A07BB)"
+      ]
+    },
+    {
+      "id": "calcium-carbonate",
+      "generic": "Calcium carbonate (antacid)",
+      "brand": "Tums",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tums",
+          "id": "220508",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=220508",
+          "via": "exact",
+          "matched": "Tums",
+          "ingredients": [
+            "calcium carbonate"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1897",
+        "name": "calcium carbonate",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1897",
+        "searched": "Calcium carbonate",
+        "atc": [
+          "A02AC01",
+          "A12AA04"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 53
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "220508",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=220508",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "simeticone",
+      "generic": "Simeticone",
+      "brand": "Gas-X",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Gas-X",
+          "id": "217263",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=217263",
+          "via": "exact",
+          "matched": "Gas-X",
+          "ingredients": [
+            "simethicone"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "9796",
+        "name": "simethicone",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=9796",
+        "searched": "Simeticone",
+        "atc": []
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "217263",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=217263",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "ATC: RxNorm has no ATC code on this ingredient concept (entry has A03AX13)"
+      ]
+    },
+    {
+      "id": "oral-rehydration-salts",
+      "generic": "Oral rehydration salts",
+      "brand": "Pedialyte",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Pedialyte",
+          "id": null,
+          "url": null,
+          "via": null,
+          "matched": null,
+          "ingredients": [],
+          "confirmed": false,
+          "note": "not found in RxNorm"
+        }
+      ],
+      "ingredient": {
+        "registered": false,
+        "searched": "Oral rehydration salts"
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Ingredient \"Oral rehydration salts\" not found in RxNorm",
+        "Brand \"Pedialyte\" not confirmed: not found in RxNorm"
+      ]
+    },
+    {
+      "id": "bisacodyl",
+      "generic": "Bisacodyl",
+      "brand": "Dulcolax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Dulcolax",
+          "id": "151672",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=151672",
+          "via": "exact",
+          "matched": "Dulcolax",
+          "ingredients": [
+            "bisacodyl"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1596",
+        "name": "bisacodyl",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1596",
+        "searched": "Bisacodyl",
+        "atc": [
+          "A06AB02",
+          "A06AG02"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "151672",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=151672",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "polyethylene-glycol",
+      "generic": "Polyethylene glycol 3350 (macrogol)",
+      "brand": "Miralax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Miralax",
+          "id": "261575",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=261575",
+          "via": "exact",
+          "matched": "Miralax",
+          "ingredients": [
+            "polyethylene glycol 3350"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "221147",
+        "name": "polyethylene glycol 3350",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=221147",
+        "searched": "Polyethylene glycol 3350",
+        "atc": []
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "261575",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=261575",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "ATC: RxNorm has no ATC code on this ingredient concept (entry has A06AD15)"
+      ]
+    },
+    {
+      "id": "meclozine",
+      "generic": "Meclozine",
+      "brand": "Bonine",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Bonine",
+          "id": "1694",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1694",
+          "via": "exact",
+          "matched": "Bonine",
+          "ingredients": [
+            "meclizine"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "6676",
+        "name": "meclizine",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=6676",
+        "searched": "Meclozine",
+        "atc": [
+          "R06AE05"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "1694",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1694",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrocortisone-cream",
+      "generic": "Hydrocortisone (cream)",
+      "brand": "Cortizone-10",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Cortizone-10",
+          "id": "1987140",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1987140",
+          "via": "normalised",
+          "matched": "Cortizone",
+          "ingredients": [
+            "hydrocortisone"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "5492",
+        "name": "hydrocortisone",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=5492",
+        "searched": "Hydrocortisone",
+        "atc": [
+          "A01AC03",
+          "A07EA02",
+          "C05AA01",
+          "D07AA02",
+          "D07XA01",
+          "H02AB09",
+          "S01BA02",
+          "S01CB03",
+          "S02BA01"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 16
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "1987140",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1987140",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "clotrimazole",
+      "generic": "Clotrimazole",
+      "brand": "Lotrimin (AF cream)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lotrimin",
+          "id": "202859",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=202859",
+          "via": "exact",
+          "matched": "Lotrimin",
+          "ingredients": [
+            "clotrimazole"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2623",
+        "name": "clotrimazole",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=2623",
+        "searched": "Clotrimazole",
+        "atc": [
+          "A01AB18",
+          "D01AC01",
+          "G01AF02"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "202859",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=202859",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "antibiotic-ointment",
+      "generic": "Bacitracin / Neomycin / Polymyxin B (antibiotic ointment)",
+      "brand": "Neosporin / Polysporin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Neosporin",
+          "id": null,
+          "url": null,
+          "via": null,
+          "matched": null,
+          "ingredients": [],
+          "confirmed": false,
+          "note": "not found in RxNorm"
+        },
+        {
+          "name": "Polysporin",
+          "id": "54955",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=54955",
+          "via": "exact",
+          "matched": "Polysporin",
+          "ingredients": [
+            "bacitracin",
+            "polymyxin B"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1291",
+        "name": "bacitracin",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1291",
+        "searched": "Bacitracin",
+        "atc": [
+          "D06AX05",
+          "J01XX10",
+          "R02AB04",
+          "S01AA32"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "1291",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1291",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "Brand \"Neosporin\" not confirmed: not found in RxNorm"
+      ]
+    },
+    {
+      "id": "doxylamine",
+      "generic": "Doxylamine",
+      "brand": "Unisom (SleepTabs)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Unisom",
+          "id": "220672",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=220672",
+          "via": "exact",
+          "matched": "Unisom",
+          "ingredients": [
+            "doxylamine"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "3642",
+        "name": "doxylamine",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=3642",
+        "searched": "Doxylamine",
+        "atc": [
+          "R06AA09"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "220672",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=220672",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "levonorgestrel",
+      "generic": "Levonorgestrel (emergency contraception)",
+      "brand": "Plan B One-Step",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Plan B One-Step",
+          "id": "858076",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=858076",
+          "via": "exact",
+          "matched": "Plan B One-Step",
+          "ingredients": [
+            "levonorgestrel"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "6373",
+        "name": "levonorgestrel",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=6373",
+        "searched": "Levonorgestrel",
+        "atc": [
+          "G03AC03",
+          "G03AD01"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "858076",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=858076",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "atovaquone-proguanil",
+      "generic": "Atovaquone / Proguanil",
+      "brand": "Malarone",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Malarone",
+          "id": "153767",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=153767",
+          "via": "exact",
+          "matched": "Malarone",
+          "ingredients": [
+            "proguanil",
+            "atovaquone"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "60212",
+        "name": "atovaquone",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=60212",
+        "searched": "Atovaquone",
+        "atc": [
+          "P01AX06"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "153767",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=153767",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "ATC differs: entry P01BB51, RxNorm P01AX06"
+      ]
+    },
+    {
+      "id": "doxycycline",
+      "generic": "Doxycycline",
+      "brand": "Sold generic (also Vibramycin, Doryx)",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "3640",
+        "name": "doxycycline",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=3640",
+        "searched": "Doxycycline",
+        "atc": [
+          "A01AB22",
+          "J01AA02"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "ingredient",
+          "products": {
+            "RX": 94
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "3640",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=3640",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "azithromycin",
+      "generic": "Azithromycin",
+      "brand": "Zithromax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zithromax",
+          "id": "196474",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=196474",
+          "via": "exact",
+          "matched": "Zithromax",
+          "ingredients": [
+            "azithromycin"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "18631",
+        "name": "azithromycin",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=18631",
+        "searched": "Azithromycin",
+        "atc": [
+          "J01FA10",
+          "S01AA26"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 9
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "196474",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=196474",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "ciprofloxacin",
+      "generic": "Ciprofloxacin",
+      "brand": "Cipro",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Cipro",
+          "id": "203563",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203563",
+          "via": "exact",
+          "matched": "Cipro",
+          "ingredients": [
+            "ciprofloxacin"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2551",
+        "name": "ciprofloxacin",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=2551",
+        "searched": "Ciprofloxacin",
+        "atc": [
+          "J01MA02",
+          "S01AE03",
+          "S02AA15",
+          "S03AA07"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "203563",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203563",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "acetazolamide",
+      "generic": "Acetazolamide",
+      "brand": "Sold generic (formerly Diamox)",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "167",
+        "name": "acetazolamide",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=167",
+        "searched": "Acetazolamide",
+        "atc": [
+          "S01EC01"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "ingredient",
+          "products": {
+            "RX": 74
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "167",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=167",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "scopolamine",
+      "generic": "Scopolamine (motion-sickness patch)",
+      "brand": "Transderm Scop",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Transderm Scop",
+          "id": "220372",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=220372",
+          "via": "exact",
+          "matched": "Transderm Scop",
+          "ingredients": [
+            "scopolamine"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "9601",
+        "name": "scopolamine",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=9601",
+        "searched": "Scopolamine",
+        "atc": [
+          "A04AD01",
+          "N05CM05",
+          "S01FA02"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "220372",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=220372",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "ondansetron",
+      "generic": "Ondansetron",
+      "brand": "Sold generic (formerly Zofran)",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "26225",
+        "name": "ondansetron",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=26225",
+        "searched": "Ondansetron",
+        "atc": [
+          "A04AA01"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "ingredient",
+          "products": {
+            "RX": 92
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "26225",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=26225",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "epinephrine",
+      "generic": "Epinephrine (adrenaline auto-injector)",
+      "brand": "EpiPen / Auvi-Q",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "EpiPen",
+          "id": "727341",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=727341",
+          "via": "exact",
+          "matched": "EpiPen",
+          "ingredients": [
+            "epinephrine"
+          ],
+          "confirmed": true,
+          "note": null
+        },
+        {
+          "name": "Auvi-Q",
+          "id": "1305264",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1305264",
+          "via": "exact",
+          "matched": "Auvi-Q",
+          "ingredients": [
+            "epinephrine"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "3992",
+        "name": "epinephrine",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=3992",
+        "searched": "Epinephrine",
+        "atc": [
+          "A01AD01",
+          "B02BC09",
+          "C01CA24",
+          "R01AA14",
+          "R03AA01",
+          "S01EA01"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 13
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "727341",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=727341",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    }
+  ]
+}
