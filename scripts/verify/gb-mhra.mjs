@@ -13,6 +13,10 @@ const PUBLIC_QUERY_KEY = '17CCFC430C1A78A169B392A35A99C49D';
 export const registry = { code: 'GB', name: 'MHRA Products (UK medicines regulator)' };
 export const cannotDetect = [];
 
+/** Without dm+d the check can't read legal status; run.mjs refuses to --write in that state. */
+export const checkGap = () =>
+  dmd ? null : 'Legal status can’t be checked without NHS dm+d: add TRUD_API_KEY to .env.local (see the README), then run again.';
+
 // British approved names where they differ from the INN the app uses.
 const UK_NAMES = {
   scopolamine: ['HYOSCINE HYDROBROMIDE'],

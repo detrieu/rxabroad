@@ -17,7 +17,8 @@ const TABLE = path.join(DIR, 'table.json');
 const CHECK_EVERY_MS = 24 * 60 * 60 * 1000;
 
 function apiKey() {
-  if (process.env.TRUD_API_KEY) return process.env.TRUD_API_KEY.trim();
+  // Set in the environment (even to an empty string, to switch dm+d off) it wins over .env.local.
+  if (process.env.TRUD_API_KEY !== undefined) return process.env.TRUD_API_KEY.trim() || null;
   try {
     const line = fs.readFileSync(path.join(ROOT, '.env.local'), 'utf8').split(/\r?\n/).find((l) => l.startsWith('TRUD_API_KEY='));
     return line ? line.slice('TRUD_API_KEY='.length).trim().replace(/^["']|["']$/g, '') : null;

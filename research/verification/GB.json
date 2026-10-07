@@ -13,7 +13,7 @@
     "statusAgree": 58,
     "statusDiffer": 8,
     "statusNotComparable": 10,
-    "confidenceRaised": 4,
+    "confidenceRaised": 0,
     "flagged": 11
   },
   "entries": [
@@ -2690,7 +2690,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3090,7 +3090,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -5220,7 +5220,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -5260,7 +5260,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []

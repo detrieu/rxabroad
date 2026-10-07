@@ -39,6 +39,15 @@ if (!ADAPTERS[code]) {
 const adapter = await import(ADAPTERS[code]);
 const useCache = !args.includes('--no-cache');
 const session = await adapter.open({ createClient: (opts) => createClient({ ...opts, useCache }) });
+
+// An adapter that can only do part of its job (the UK without a TRUD key can't read legal status) says so here.
+// Writing would replace markers that the full check earned, so refuse; a dry run just carries on and notes it.
+const gap = adapter.checkGap?.();
+if (gap && write) {
+  console.error(`${code}: not writing. ${gap}`);
+  process.exit(2);
+}
+if (gap) console.error(`${code}: note: ${gap}`);
 const checked = new Date().toLocaleDateString('en-CA'); // YYYY-MM-DD, local time
 const drugs = loadDrugs();
 const entries = [];

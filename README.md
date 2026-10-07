@@ -76,12 +76,20 @@ That is a dry run; add `--write` to update `drugs.json`. Nothing here runs when 
 | FR | [BDPM](https://base-donnees-publique.medicaments.gouv.fr/telechargement) | brand ↔ ingredient, marketed status, prescription conditions |
 | GB | [MHRA Products](https://products.mhra.gov.uk/) + [NHS dm+d](https://isd.digital.nhs.uk/trud/users/guest/filters/0/categories/6/items/24/releases) | MHRA: brand ↔ ingredient for licensed products. dm+d: legal category (GSL / P / POM) and controlled-drug schedule of packs on the market. dm+d needs a free NHS TRUD account: put the key in `.env.local` as `TRUD_API_KEY`. Without it the UK check is brand-only |
 
-All four are free and need no key. `--write` is deliberately conservative: it never edits `brand`, `status`
+The US, Canada, Singapore, France and UK-brand checks are free and need no key. `--write` is deliberately conservative: it never edits `brand`, `status`
 or `note`; it attaches `verified` when the registry confirms the entry; and it raises `medium` to `high`
 only when the registry confirms everything the entry claims (brand, ingredient and legal status; for a "sold generic" entry with no brand, ingredient and legal status). It never lowers confidence. A registry shows that a
 product is *registered*, not that a given pharmacy stocks it. After a run, refresh the report with
 `node scripts/confidence-report.mjs`. To add a country, write an adapter next to the others (`open()` and
 `verify()`) and register it in `run.mjs`.
+
+**Keeping it current.** Registries change (the NHS dictionary weekly, the others every few weeks), so re-run the
+checks about once a month: `npm run verify` is a dry run of all five countries, and `npm run verify:write` updates
+`src/data/drugs.json` and the confidence report. Then read the new mismatch lists in `research/verification/`, check
+`git diff src/data/drugs.json`, and commit. The UK legal-status step needs a free NHS TRUD account: subscribe to the
+"NHSBSA dm+d" item and put the key in `.env.local` as `TRUD_API_KEY=...`. Without it a dry run still works but
+notes that legal status was skipped, and `--write` refuses for the UK so it can't overwrite the full check with a
+partial one. Countries without a registry check (the other nine) never refresh and need a manual review.
 
 **Live lookup.** `GET /api/rxnorm/resolve?q=<name>` (`src/app/api/rxnorm/resolve/route.ts`, logic in
 `src/lib/rxnorm.ts`) resolves a US medicine name to its ingredients and maps them to formulary drugs through
