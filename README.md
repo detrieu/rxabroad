@@ -84,12 +84,27 @@ product is *registered*, not that a given pharmacy stocks it. After a run, refre
 `verify()`) and register it in `run.mjs`.
 
 **Keeping it current.** Registries change (the NHS dictionary weekly, the others every few weeks), so re-run the
-checks about once a month: `npm run verify` is a dry run of all five countries, and `npm run verify:write` updates
-`src/data/drugs.json` and the confidence report. Then read the new mismatch lists in `research/verification/`, check
-`git diff src/data/drugs.json`, and commit. The UK legal-status step needs a free NHS TRUD account: subscribe to the
-"NHSBSA dm+d" item and put the key in `.env.local` as `TRUD_API_KEY=...`. Without it a dry run still works but
-notes that legal status was skipped, and `--write` refuses for the UK so it can't overwrite the full check with a
-partial one. Countries without a registry check (the other nine) never refresh and need a manual review.
+checks about once a month. A scheduled cloud routine ("Rx Abroad monthly registry check", the 1st of each month)
+does a dry run and reports what changed at https://claude.ai/code/routines; it can't see the TRUD key, so it skips
+UK legal status. To update the data yourself:
+
+1. Open a terminal in the project folder (in VS Code: Terminal > New Terminal, or `cd ~/dev/pill-trotter`).
+2. `npm run verify` is a dry run of all five countries. It changes no data, only the report files in
+   `research/verification/`, and takes a few minutes on the first run (results are cached for a day).
+3. `npm run verify:write` does the same and also updates `src/data/drugs.json` and the confidence report.
+4. Read the new mismatch lists in `research/verification/` and check `git diff src/data/drugs.json`. The script
+   never edits `brand`, `status` or `note`: those mismatches are yours to decide.
+5. Commit and push. Pushing to `main` deploys to Vercel.
+
+The UK legal-status step needs a free NHS TRUD account: subscribe to the "NHSBSA dm+d" item and put the key in
+`.env.local` as `TRUD_API_KEY=...` (the file is git-ignored). Without it a dry run still works but notes that
+legal status was skipped, and `--write` refuses for the UK so it can't overwrite the full check with a partial
+one. The other nine countries have no registry check: they never refresh and need a manual review.
+
+The cloud routine runs in the "Default" cloud environment, whose network access is set to Custom so it can reach the
+registries: `rxnav.nlm.nih.gov`, `api.fda.gov`, `health-products.canada.ca`, `data.gov.sg`,
+`base-donnees-publique.medicaments.gouv.fr` and `mhraproducts4853.search.windows.net`, plus the default package
+list. If a run reports HTTP 403 from a registry, check that list first.
 
 **Live lookup.** `GET /api/rxnorm/resolve?q=<name>` (`src/app/api/rxnorm/resolve/route.ts`, logic in
 `src/lib/rxnorm.ts`) resolves a US medicine name to its ingredients and maps them to formulary drugs through
