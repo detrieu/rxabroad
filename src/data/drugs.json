@@ -31,7 +31,18 @@
         "status": "OTC",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 44673/0076",
+          "url": "https://products.mhra.gov.uk/search/?search=Panadol&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Tylenol",
@@ -184,7 +195,18 @@
         "status": "OTC",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 00063/0376",
+          "url": "https://products.mhra.gov.uk/search/?search=Nurofen&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Advil",
@@ -337,7 +359,18 @@
         "status": "OTC",
         "confidence": "high",
         "note": "Note the UK spelling — \"Clarityn\", not \"Claritin\".",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 00010/0662",
+          "url": "https://products.mhra.gov.uk/search/?search=Clarityn&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Claritin",
@@ -489,7 +522,17 @@
         "status": "OTC",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 44673/0098",
+          "url": "https://products.mhra.gov.uk/search/?search=Piriteze&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "CA": {
         "brand": "Reactine",
@@ -638,11 +681,22 @@
         }
       },
       "GB": {
-        "brand": "Not sold as \"Benadryl\" — the UK brand uses acrivastine or cetirizine, never diphenhydramine",
-        "status": "ASK_GENERIC",
+        "brand": "Nytol (sold as a sleep aid, not for allergy)",
+        "status": "PHARMACY",
         "confidence": "high",
-        "note": "For diphenhydramine itself, ask for \"Nytol\" — confirmed as the UK’s #1 sleep-aid brand and diphenhydramine-based (Nytol Original / One-A-Night). Nytol’s herbal line is a different, non-diphenhydramine product — check the label.",
-        "source": "https://medxdrg.com/is-diphenhydramine-available-in-the-uk-your-guide-to-uk-brands-and-uses"
+        "note": "UK \"Benadryl\" is a different medicine (acrivastine or cetirizine). Diphenhydramine is sold as a sleep aid, under Nytol and pharmacy own-brand names.",
+        "source": "https://medxdrg.com/is-diphenhydramine-available-in-the-uk-your-guide-to-uk-brands-and-uses",
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 02855/0313",
+          "url": "https://products.mhra.gov.uk/search/?search=Nytol&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Benadryl",
@@ -795,7 +849,18 @@
         "status": "OTC",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 15513/0345",
+          "url": "https://products.mhra.gov.uk/search/?search=Imodium&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Imodium",
@@ -948,7 +1013,17 @@
         "status": "MIXED",
         "confidence": "high",
         "note": "Losec itself has never held a UK OTC licence and remains prescription-only; the branded OTC product is Pyrocalm Control 20mg, sold in pharmacies and supermarkets for a maximum 14-day course.",
-        "source": "https://www.pyrocalmcontrol.co.uk/"
+        "source": "https://www.pyrocalmcontrol.co.uk/",
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 14017/0302",
+          "url": "https://products.mhra.gov.uk/search/?search=Pyrocalm%20Control&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "CA": {
         "brand": "Losec",
@@ -1100,7 +1175,17 @@
         "status": "PHARMACY",
         "confidence": "high",
         "note": "Pharmacy-only, with purchase limits.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 15513/0024",
+          "url": "https://products.mhra.gov.uk/search/?search=Sudafed&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "CA": {
         "brand": "Sudafed",
@@ -1240,7 +1325,18 @@
         "status": "RX",
         "confidence": "high",
         "note": "Regulated as a medicine, not a supplement, even at low doses — bringing your own is often more reliable than buying it locally.",
-        "source": "https://www.ukmeds.co.uk/blog/circadin-prescription-requirements-uk"
+        "source": "https://www.ukmeds.co.uk/blog/circadin-prescription-requirements-uk",
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PLPI 42332/0043",
+          "url": "https://products.mhra.gov.uk/search/?search=Circadin&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Sold as a \"natural health product\"",
@@ -1376,10 +1472,10 @@
         }
       },
       "GB": {
-        "brand": "Uncommon — \"Kwells\" (hyoscine) or \"Sea-Legs\" cover this use instead",
-        "status": "UNCONFIRMED",
-        "confidence": "medium",
-        "note": "Different active ingredient; describe \"motion sickness tablets\" to a pharmacist.",
+        "brand": "Not sold on UK shelves — \"Kwells\" (hyoscine) or \"Stugeron\" (cinnarizine) cover this use instead",
+        "status": "UNAVAILABLE",
+        "confidence": "high",
+        "note": "Dimenhydrinate is not a standard over-the-counter medicine in UK pharmacies; the only dimenhydrinate products listed are prescription-only. Boots and Superdrug stock hyoscine, cinnarizine or meclozine (Sea-Legs) travel-sickness tablets instead.",
         "source": null
       },
       "CA": {
@@ -1532,7 +1628,17 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 57395/0002",
+          "url": "https://products.mhra.gov.uk/search/?search=amoxicillin&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Sold generic (formerly Amoxil)",
@@ -1681,7 +1787,17 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 33414/0059",
+          "url": "https://products.mhra.gov.uk/search/?search=metformin&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Glucophage (mostly sold generic)",
@@ -1833,7 +1949,18 @@
         "status": "RX",
         "confidence": "high",
         "note": "Sold as \"Lustral\", not \"Zoloft\", in the UK.",
-        "source": "https://www.drugs.com/uk/lustral-50mg-tablets-leaflet.html"
+        "source": "https://www.drugs.com/uk/lustral-50mg-tablets-leaflet.html",
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 46302/0307",
+          "url": "https://products.mhra.gov.uk/search/?search=Lustral&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Zoloft",
@@ -1982,10 +2109,21 @@
       },
       "GB": {
         "brand": "Ventolin",
-        "status": "PHARMACY",
+        "status": "RX",
         "confidence": "high",
-        "note": "Small pack sizes can be sold OTC at a pharmacist’s discretion.",
-        "source": null
+        "note": "Ventolin is prescription-only in the UK.",
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 10949/0274",
+          "url": "https://products.mhra.gov.uk/search/?search=Ventolin&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Ventolin",
@@ -2137,7 +2275,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 46302/0304",
+          "url": "https://products.mhra.gov.uk/search/?search=Lipitor&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Lipitor (mostly sold generic now)",
@@ -2289,7 +2438,17 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 00289/1973",
+          "url": "https://products.mhra.gov.uk/search/?search=levothyroxine&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Synthroid",
@@ -2441,7 +2600,17 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 21880/0239",
+          "url": "https://products.mhra.gov.uk/search/?search=lisinopril&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Zestril (mostly sold generic)",
@@ -2524,7 +2693,7 @@
       "SG": {
         "brand": "Sold generic",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
         "source": null,
         "verified": {
@@ -2590,9 +2759,20 @@
       "GB": {
         "brand": "Istin (mostly sold generic)",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 46302/0295",
+          "url": "https://products.mhra.gov.uk/search/?search=Istin&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Norvasc (mostly sold generic)",
@@ -2742,9 +2922,20 @@
       "GB": {
         "brand": "Betaloc (mostly sold generic)",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 30883/0007",
+          "url": "https://products.mhra.gov.uk/search/?search=Betaloc&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Sold generic (formerly Lopresor)",
@@ -2895,7 +3086,17 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 45841/0014",
+          "url": "https://products.mhra.gov.uk/search/?search=losartan&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Cozaar (mostly sold generic)",
@@ -3047,7 +3248,18 @@
         "status": "CONTROLLED",
         "confidence": "high",
         "note": "Reclassified as a Class C controlled substance in the UK in 2019 due to rising misuse — expect controlled-drug handling (harder refills, stricter pharmacy rules), not just a normal Rx.",
-        "source": "https://www.singlecare.com/blog/is-gabapentin-a-controlled-substance/"
+        "source": "https://www.singlecare.com/blog/is-gabapentin-a-controlled-substance/",
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 46302/0308",
+          "url": "https://products.mhra.gov.uk/search/?search=Neurontin&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Neurontin (mostly sold generic)",
@@ -3199,7 +3411,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 17901/0243",
+          "url": "https://products.mhra.gov.uk/search/?search=Crestor&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Crestor",
@@ -3351,7 +3574,17 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 45841/0018",
+          "url": "https://products.mhra.gov.uk/search/?search=pantoprazole&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Pantoloc",
@@ -3503,7 +3736,18 @@
         "status": "RX",
         "confidence": "high",
         "note": "Brand confirmed still marketed by Lundbeck in the UK.",
-        "source": "https://www.medicines.org.uk/emc/product/7716/smpc"
+        "source": "https://www.medicines.org.uk/emc/product/7716/smpc",
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 00458/0310",
+          "url": "https://products.mhra.gov.uk/search/?search=Cipralex&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Cipralex",
@@ -3651,11 +3895,22 @@
         }
       },
       "GB": {
-        "brand": "Not commonly prescribed",
+        "brand": "Amfexa (dexamfetamine) — Adderall itself is not licensed",
         "status": "CONTROLLED",
-        "confidence": "medium",
-        "note": "UK ADHD stimulant therapy favors lisdexamfetamine (Elvanse) or methylphenidate instead.",
-        "source": null
+        "confidence": "high",
+        "note": "Adderall’s mixed amphetamine salts are not licensed in the UK; dexamfetamine is the closest equivalent and is a controlled drug.",
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 11243/0021",
+          "url": "https://products.mhra.gov.uk/search/?search=Amfexa&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Adderall XR",
@@ -3795,7 +4050,17 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 35533/0304",
+          "url": "https://products.mhra.gov.uk/search/?search=hydrochlorothiazide&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Sold generic",
@@ -3877,7 +4142,7 @@
       "SG": {
         "brand": "Sold generic",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
         "source": null,
         "verified": {
@@ -3945,7 +4210,17 @@
         "status": "RX",
         "confidence": "medium",
         "note": "Don’t expect a pharmacist to recognize \"Wellbutrin\" — ask for Zyban and describe the actual use case (depression) if that’s why you take it.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PLPI 20636/3420",
+          "url": "https://products.mhra.gov.uk/search/?search=Zyban&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "CA": {
         "brand": "Wellbutrin",
@@ -4092,11 +4367,21 @@
         }
       },
       "GB": {
-        "brand": "Prozac (mostly sold generic)",
+        "brand": "Sold generic (formerly Prozac)",
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 08553/0262",
+          "url": "https://products.mhra.gov.uk/search/?search=fluoxetine&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Sold generic",
@@ -4177,7 +4462,7 @@
       "SG": {
         "brand": "Sold generic (e.g. Proctin, Fluxil)",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Prozac is not on the HSA register.",
         "source": null,
         "verified": {
@@ -4245,7 +4530,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PLPI 18799/3972",
+          "url": "https://products.mhra.gov.uk/search/?search=Ozempic&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Ozempic / Wegovy",
@@ -4397,7 +4693,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 00025/0440",
+          "url": "https://products.mhra.gov.uk/search/?search=Singulair&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Singulair",
@@ -4548,7 +4855,17 @@
         "status": "RX",
         "confidence": "high",
         "note": "Molipaxin brand was discontinued in the UK.",
-        "source": "https://www.medicines.org.uk/emc/product/4194/smpc"
+        "source": "https://www.medicines.org.uk/emc/product/4194/smpc",
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 33155/0031",
+          "url": "https://products.mhra.gov.uk/search/?search=trazodone&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Sold generic",
@@ -4619,7 +4936,7 @@
       "SG": {
         "brand": "Sold generic",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
         "source": null,
         "verified": {
@@ -4687,7 +5004,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PLPI 15361/0071",
+          "url": "https://products.mhra.gov.uk/search/?search=Zocor&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Zocor",
@@ -4838,7 +5166,18 @@
         "status": "RX",
         "confidence": "high",
         "note": "Brand confirmed still marketed by Astellas Pharma in the UK.",
-        "source": "https://www.medicines.org.uk/emc/product/97/smpc"
+        "source": "https://www.medicines.org.uk/emc/product/97/smpc",
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 00166/0199",
+          "url": "https://products.mhra.gov.uk/search/?search=Flomaxtra%20XL&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Sold generic",
@@ -4994,7 +5333,7 @@
       "CA": {
         "brand": "Sold generic",
         "status": "CONTROLLED",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Tightly controlled.",
         "source": null,
         "verified": {
@@ -5115,11 +5454,21 @@
         }
       },
       "GB": {
-        "brand": "Flixonase (nasal) / Flixotide (inhaler)",
+        "brand": "Pirinase Hayfever (nasal spray, OTC) / Flixotide (inhaler, Rx)",
         "status": "MIXED",
         "confidence": "high",
-        "note": "The hay fever nasal spray was reclassified to OTC (Pharmacy/P medicine) in 2002 and is now sold as Pirinase Allergy; Flixotide for asthma remains prescription-only.",
-        "source": "https://www.thepharmaletter.com/article/flixonase-goes-otc-in-uk"
+        "note": "Flixonase nasal spray is prescription-only in the UK. The hay fever spray sold without a prescription is Pirinase (also Nasofan Allergy); fluticasone inhalers for asthma need a prescription.",
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 44673/0100",
+          "url": "https://products.mhra.gov.uk/search/?search=Pirinase%20Hayfever&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "CA": {
         "brand": "Flonase (nasal spray, OTC) / Flovent (inhaler, Rx)",
@@ -5268,14 +5617,24 @@
       "GB": {
         "brand": "Sold generic",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "The Mobic brand does not appear in the UK electronic Medicines Compendium’s current meloxicam listing, which shows only generic products — the brand appears to have been discontinued.",
-        "source": "https://www.medicines.org.uk/emc/ingredient/754"
+        "source": "https://www.medicines.org.uk/emc/ingredient/754",
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 59209/0120",
+          "url": "https://products.mhra.gov.uk/search/?search=meloxicam&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Sold generic (formerly Mobicox)",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
         "source": null,
         "verified": {
@@ -5421,7 +5780,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PLPI 33543/0075",
+          "url": "https://products.mhra.gov.uk/search/?search=Eliquis&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Eliquis",
@@ -5569,11 +5939,21 @@
         }
       },
       "GB": {
-        "brand": "Lasix (mostly sold generic)",
+        "brand": "Sold generic",
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 42976/0016",
+          "url": "https://products.mhra.gov.uk/search/?search=furosemide&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Sold generic",
@@ -5655,7 +6035,7 @@
       "SG": {
         "brand": "Sold generic",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Often labeled with the older name “frusemide”. Lasix is not on the HSA register.",
         "source": null,
         "verified": {
@@ -5723,7 +6103,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PLPI 15643/0095",
+          "url": "https://products.mhra.gov.uk/search/?search=Lantus&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Lantus",
@@ -5873,7 +6264,17 @@
         "status": "RX",
         "confidence": "high",
         "note": "Cymbalta brand was discontinued in the UK (listed discontinued on the electronic Medicines Compendium, last updated July 2024); generic duloxetine remains available.",
-        "source": "https://www.medicines.org.uk/emc/ingredient/2206"
+        "source": "https://www.medicines.org.uk/emc/ingredient/2206",
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 29831/0651",
+          "url": "https://products.mhra.gov.uk/search/?search=duloxetine&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Sold generic",
@@ -6009,11 +6410,21 @@
         }
       },
       "GB": {
-        "brand": "Pepcid AC",
-        "status": "OTC",
-        "confidence": "medium",
-        "note": null,
-        "source": null
+        "brand": "Sold generic",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Famotidine is prescription-only in the UK.",
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 04569/0423",
+          "url": "https://products.mhra.gov.uk/search/?search=famotidine&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Pepcid",
@@ -6164,7 +6575,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PLPI 18799/4026",
+          "url": "https://products.mhra.gov.uk/search/?search=Jardiance&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Jardiance",
@@ -6314,9 +6736,19 @@
       "GB": {
         "brand": "Sold generic",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "The Eucardic brand does not appear in the UK electronic Medicines Compendium’s current carvedilol listing, which shows only generic products — the brand appears to have been discontinued.",
-        "source": "https://www.medicines.org.uk/emc/ingredient/450"
+        "source": "https://www.medicines.org.uk/emc/ingredient/450",
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 36687/0270",
+          "url": "https://products.mhra.gov.uk/search/?search=carvedilol&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Sold generic",
@@ -6466,12 +6898,22 @@
         "status": "CONTROLLED",
         "confidence": "high",
         "note": "Reclassified as a Schedule 3 controlled drug in the UK in 2014 — prescription-only, subject to controlled-drug handling rules.",
-        "source": "https://theconversation.com/what-is-tramadol-how-dangerous-is-it-and-where-is-it-illegal-86982"
+        "source": "https://theconversation.com/what-is-tramadol-how-dangerous-is-it-and-where-is-it-illegal-86982",
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 36722/0129",
+          "url": "https://products.mhra.gov.uk/search/?search=tramadol&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Sold generic",
         "status": "CONTROLLED",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
         "source": null,
         "verified": {
@@ -6612,11 +7054,22 @@
         }
       },
       "GB": {
-        "brand": "Not licensed for prescription in the UK at all",
-        "status": "UNAVAILABLE",
-        "confidence": "medium",
-        "note": "Alprazolam is not a standard UK prescription — diazepam or lorazepam are the more likely equivalents a UK doctor would use.",
-        "source": null
+        "brand": "Xanax",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "Licensed in the UK but not prescribed on the NHS, so it is only available on a private prescription.",
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 46302/0328",
+          "url": "https://products.mhra.gov.uk/search/?search=Xanax&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Xanax",
@@ -6762,10 +7215,10 @@
         }
       },
       "GB": {
-        "brand": "Prednisolone, not prednisone — prednisone is rarely available in the UK at all",
-        "status": "UNCONFIRMED",
+        "brand": "Not sold — prednisolone is used instead",
+        "status": "UNAVAILABLE",
         "confidence": "high",
-        "note": "Prednisone must be converted to prednisolone by the liver to work; the UK (like most of the world outside the US) just prescribes prednisolone directly. Don’t assume a 1:1 substitution without checking with a pharmacist.",
+        "note": "The only prednisone product listed in the UK is an imported, unlicensed one (Decortin), prescription-only. Prednisolone is the standard UK equivalent; a UK doctor would prescribe that.",
         "source": "https://www.hweclinicalguidance.nhs.uk/prescribing-guidance/prednisolone/"
       },
       "CA": {
@@ -6849,7 +7302,7 @@
       "SG": {
         "brand": "Sold generic",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
         "source": null,
         "verified": {
@@ -6917,7 +7370,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PLPI 20504/0193",
+          "url": "https://products.mhra.gov.uk/search/?search=Plavix&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Plavix",
@@ -7069,8 +7533,18 @@
         "brand": "Aspirin / Disprin",
         "status": "OTC",
         "confidence": "high",
-        "note": null,
-        "source": null
+        "note": "Pain-relief aspirin (300 mg) is sold without a prescription, on general sale or at the pharmacy counter. Some other aspirin products are prescription-only.",
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 20416/0723",
+          "url": "https://products.mhra.gov.uk/search/?search=Aspirin&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "CA": {
         "brand": "Aspirin",
@@ -7222,7 +7696,18 @@
         "status": "CONTROLLED",
         "confidence": "high",
         "note": "Brand confirmed still marketed by Napp Pharmaceuticals in the UK (unlike Canada, where the original OxyContin was withdrawn and replaced by OxyNEO).",
-        "source": "https://www.medicines.org.uk/emc/product/7675/smpc"
+        "source": "https://www.medicines.org.uk/emc/product/7675/smpc",
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PLPI 20636/1681",
+          "url": "https://products.mhra.gov.uk/search/?search=OxyContin&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "OxyNEO",
@@ -7373,7 +7858,18 @@
         "status": "CONTROLLED",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PLPI 20504/0651",
+          "url": "https://products.mhra.gov.uk/search/?search=Concerta&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Concerta",
@@ -7521,11 +8017,21 @@
         }
       },
       "GB": {
-        "brand": "Feminax Ultra (pharmacy) / Naprosyn (Rx)",
-        "status": "MIXED",
+        "brand": "Feminax Ultra",
+        "status": "PHARMACY",
         "confidence": "medium",
-        "note": "Without a prescription it is sold only for period pain, from the pharmacy counter. For anything else it needs a prescription.",
-        "source": null
+        "note": "Without a prescription, naproxen is sold only as Feminax Ultra, for period pain, from the pharmacy counter. Other naproxen tablets are prescription-only.",
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 00010/0631",
+          "url": "https://products.mhra.gov.uk/search/?search=Feminax%20Ultra&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "CA": {
         "brand": "Aleve",
@@ -7677,8 +8183,18 @@
         "brand": "Voltarol",
         "status": "OTC",
         "confidence": "medium",
-        "note": null,
-        "source": null
+        "note": "Voltarol Back & Muscle Pain Relief gel is on general sale; the other Voltarol gels are pharmacy-only, and the tablets and suppositories need a prescription.",
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 20162/0018",
+          "url": "https://products.mhra.gov.uk/search/?search=Voltarol&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "CA": {
         "brand": "Voltaren Emulgel",
@@ -7829,9 +8345,20 @@
       "GB": {
         "brand": "Allevia",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Allevia 120 mg is sold without a prescription; Telfast and the 180 mg strength need one.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 53886/0065",
+          "url": "https://products.mhra.gov.uk/search/?search=Allevia&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Allegra",
@@ -7982,9 +8509,20 @@
       "GB": {
         "brand": "Benylin Chesty Coughs / Robitussin Chesty Cough",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 15513/0056",
+          "url": "https://products.mhra.gov.uk/search/?search=Benylin%20Chesty%20Coughs&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Mucinex / Robitussin",
@@ -8135,9 +8673,20 @@
       "GB": {
         "brand": "Benylin Dry Coughs / Robitussin Dry Cough",
         "status": "PHARMACY",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 15513/0053",
+          "url": "https://products.mhra.gov.uk/search/?search=Benylin%20Dry%20Coughs&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Robitussin DM",
@@ -8288,9 +8837,20 @@
       "GB": {
         "brand": "Vicks Sinex",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 00129/0133",
+          "url": "https://products.mhra.gov.uk/search/?search=Vicks%20Sinex&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Drixoral",
@@ -8441,9 +9001,20 @@
       "GB": {
         "brand": "Pepto-Bismol",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 00129/0358",
+          "url": "https://products.mhra.gov.uk/search/?search=Pepto-Bismol&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Pepto-Bismol",
@@ -8572,9 +9143,20 @@
       "GB": {
         "brand": "Rennie",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Rennie also contains magnesium carbonate.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 00010/0361",
+          "url": "https://products.mhra.gov.uk/search/?search=Rennie&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Tums",
@@ -8723,11 +9305,22 @@
         }
       },
       "GB": {
-        "brand": "Wind-eze / WindSetlers",
+        "brand": "WindSetlers",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 00240/0095",
+          "url": "https://products.mhra.gov.uk/search/?search=WindSetlers&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Gas-X / Ovol",
@@ -8866,9 +9459,20 @@
       "GB": {
         "brand": "Dioralyte",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 35104/0040",
+          "url": "https://products.mhra.gov.uk/search/?search=Dioralyte&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Pedialyte",
@@ -8988,7 +9592,17 @@
         "status": "OTC",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 61186/0008",
+          "url": "https://products.mhra.gov.uk/search/?search=Dulcolax&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "CA": {
         "brand": "Dulcolax",
@@ -9141,7 +9755,17 @@
         "status": "PHARMACY",
         "confidence": "medium",
         "note": "Called \"macrogol\" outside the US.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PLPI 19488/0064",
+          "url": "https://products.mhra.gov.uk/search/?search=Movicol&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "CA": {
         "brand": "RestoraLAX / Lax-A-Day",
@@ -9290,11 +9914,21 @@
         }
       },
       "GB": {
-        "brand": "Not sold — \"Stugeron\" (cinnarizine) or \"Kwells\" (hyoscine) cover this use",
-        "status": "UNAVAILABLE",
+        "brand": "Sea-Legs / Traveleeze",
+        "status": "PHARMACY",
         "confidence": "medium",
-        "note": null,
-        "source": null
+        "note": "Sold for motion sickness without a prescription. Hyoscine (Kwells) and cinnarizine (Stugeron) are the more common choices.",
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 58255/0003",
+          "url": "https://products.mhra.gov.uk/search/?search=Sea-Legs&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "CA": {
         "brand": "Not commonly available — \"Gravol\" (dimenhydrinate) covers this use",
@@ -9421,11 +10055,22 @@
         }
       },
       "GB": {
-        "brand": "HC45 / Dermacort",
+        "brand": "HC45",
         "status": "PHARMACY",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 50567/0012",
+          "url": "https://products.mhra.gov.uk/search/?search=HC45&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Sold generic (\"hydrocortisone cream\")",
@@ -9573,10 +10218,21 @@
       },
       "GB": {
         "brand": "Canesten",
-        "status": "OTC",
-        "confidence": "medium",
-        "note": null,
-        "source": null
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": "Canesten creams are mostly pharmacy medicines; the athlete’s foot cream is also on general sale.",
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 00010/0016",
+          "url": "https://products.mhra.gov.uk/search/?search=Canesten&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Canesten",
@@ -9726,7 +10382,7 @@
       "GB": {
         "brand": "Not sold without a prescription — ask for an antiseptic cream such as \"Savlon\" or \"Germolene\"",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Antibiotic creams (fusidic acid, mupirocin) need a prescription in the UK.",
         "source": null
       },
@@ -9857,8 +10513,8 @@
       "GB": {
         "brand": "Not sold on its own — \"Nytol\" (diphenhydramine) is the usual sleep aid",
         "status": "UNAVAILABLE",
-        "confidence": "medium",
-        "note": null,
+        "confidence": "high",
+        "note": "Only licensed in combinations: with vitamin B6 for pregnancy nausea (Xonvea, prescription-only) and in some codeine painkillers.",
         "source": null
       },
       "CA": {
@@ -9990,7 +10646,17 @@
         "status": "PHARMACY",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 04854/0150",
+          "url": "https://products.mhra.gov.uk/search/?search=Levonelle&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "CA": {
         "brand": "Plan B",
@@ -10141,9 +10807,20 @@
       "GB": {
         "brand": "Malarone (Rx) / Maloff Protect (pharmacy)",
         "status": "MIXED",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Maloff Protect can be sold by a pharmacist without a prescription after a short consultation.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PLPI 20636/1165",
+          "url": "https://products.mhra.gov.uk/search/?search=Malarone&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Malarone",
@@ -10293,9 +10970,19 @@
       "GB": {
         "brand": "Sold generic",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 00142/0407",
+          "url": "https://products.mhra.gov.uk/search/?search=doxycycline&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Sold generic",
@@ -10444,9 +11131,19 @@
       "GB": {
         "brand": "Sold generic",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 04416/1235",
+          "url": "https://products.mhra.gov.uk/search/?search=azithromycin&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Sold generic (formerly Zithromax)",
@@ -10596,9 +11293,20 @@
       "GB": {
         "brand": "Ciproxin",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PLPI 15184/1369",
+          "url": "https://products.mhra.gov.uk/search/?search=Ciproxin&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Cipro",
@@ -10750,7 +11458,17 @@
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PL 12762/0145",
+          "url": "https://products.mhra.gov.uk/search/?search=Diamox&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "CA": {
         "brand": "Sold generic",
@@ -10897,11 +11615,22 @@
         }
       },
       "GB": {
-        "brand": "Scopoderm (patch, Rx) / Kwells (tablets, OTC)",
-        "status": "MIXED",
-        "confidence": "medium",
-        "note": "Called \"hyoscine hydrobromide\" in the UK.",
-        "source": null
+        "brand": "Scopoderm (patch) / Kwells (tablets)",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": "Both are pharmacy medicines: ask the pharmacist, no prescription needed. Called hyoscine hydrobromide in the UK.",
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PLPI 56830/0117",
+          "url": "https://products.mhra.gov.uk/search/?search=Scopoderm&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Not commonly available",
@@ -11029,9 +11758,20 @@
       "GB": {
         "brand": "Zofran",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PLPI 30900/1937",
+          "url": "https://products.mhra.gov.uk/search/?search=Zofran&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "Sold generic (formerly Zofran)",
@@ -11181,9 +11921,20 @@
       "GB": {
         "brand": "EpiPen / Jext",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Called \"adrenaline\" outside North America.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PLPI 18799/4325",
+          "url": "https://products.mhra.gov.uk/search/?search=EpiPen&page=1",
+          "checked": "2026-10-06",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "CA": {
         "brand": "EpiPen",

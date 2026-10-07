@@ -55,7 +55,8 @@ export function DrugEntry({ drug, countries, query, open, countryHits }: DrugEnt
               <span className="flex items-center gap-1.5 font-mono text-[0.65rem] tracking-[0.16em] uppercase">
                 <Flag code={single.code} /> {single.code}
               </span>
-              <StatusPill status={singleEntry.status} size="sm" />
+              {/* The stub is narrow: let long labels ("No Rx — Ask Pharmacist") wrap inside it instead of spilling past its edges. */}
+              <StatusPill status={singleEntry.status} size="sm" className="max-w-full justify-center text-center leading-[1.3] whitespace-normal" />
             </>
           ) : (
             <>
@@ -128,7 +129,7 @@ function CountryRow({
     <div
       role="row"
       className={cn(
-        'grid grid-cols-[minmax(0,1fr)_auto] items-center gap-x-4 gap-y-1.5 border-t px-4 py-3.5 [.sr-only+&]:border-t-0 sm:grid-cols-[10.5rem_minmax(0,1fr)_auto] sm:px-5',
+        'grid grid-cols-[minmax(0,1fr)_auto] items-center gap-x-4 gap-y-1.5 border-t px-4 py-3.5 [.sr-only+&]:border-t-0 sm:grid-cols-[10.5rem_minmax(0,1fr)_7.5rem] sm:px-5',
         isMatch && 'bg-mark/25',
       )}
     >
@@ -143,8 +144,9 @@ function CountryRow({
         <span className="font-semibold"><Highlight text={entry.brand} query={query} /></span>
         <EntryBadges entry={entry} />
       </span>
-      <span role="cell" className="col-start-2 row-start-1 justify-self-end sm:col-start-auto sm:row-start-auto">
-        <StatusPill status={entry.status} />
+      {/* On wide screens the stamp sits in a fixed column whose centre lines up with the stamp in the ticket stub above. */}
+      <span role="cell" className="col-start-2 row-start-1 justify-self-end sm:col-start-auto sm:row-start-auto sm:flex sm:w-full sm:justify-center">
+        <StatusPill status={entry.status} className="sm:max-w-full sm:justify-center sm:text-center sm:leading-[1.3] sm:whitespace-normal" />
       </span>
       {entry.note && <p className="text-muted-foreground col-span-full text-[0.82rem] leading-relaxed">{entry.note}</p>}
       <SourceLink source={entry.source ?? entry.verified?.url ?? null} />

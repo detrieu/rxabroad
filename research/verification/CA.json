@@ -13,7 +13,7 @@
     "statusAgree": 70,
     "statusDiffer": 1,
     "statusNotComparable": 5,
-    "confidenceRaised": 0,
+    "confidenceRaised": 3,
     "flagged": 4
   },
   "entries": [
@@ -2349,7 +2349,7 @@
       },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
@@ -2497,7 +2497,7 @@
       },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
@@ -2909,7 +2909,7 @@
       },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },

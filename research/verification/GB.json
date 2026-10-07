@@ -1,0 +1,5788 @@
+{
+  "country": "GB",
+  "registry": "MHRA Products + NHS dm+d (UK)",
+  "registryVersion": "dm+d 2026-10-05",
+  "checked": "2026-10-06",
+  "summary": {
+    "entries": 76,
+    "brandEntries": 54,
+    "brandEntriesConfirmed": 54,
+    "brandNames": 67,
+    "brandNamesConfirmed": 67,
+    "verified": 71,
+    "statusAgree": 58,
+    "statusDiffer": 8,
+    "statusNotComparable": 10,
+    "confidenceRaised": 4,
+    "flagged": 11
+  },
+  "entries": [
+    {
+      "id": "paracetamol",
+      "generic": "Paracetamol",
+      "brand": "Panadol",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Panadol",
+          "id": "PL 44673/0076",
+          "url": "https://products.mhra.gov.uk/search/?search=Panadol&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "PANADOL NIGHT, PANADOL NIGHTPAIN",
+          "products": [
+            {
+              "licence": "PL 44673/0076",
+              "product": "PANADOL NIGHT, PANADOL NIGHTPAIN",
+              "substances": [
+                "DIPHENHYDRAMINE HYDROCHLORIDE",
+                "PARACETAMOL"
+              ]
+            },
+            {
+              "licence": "PL 44673/0189",
+              "product": "PANADOL ACTIFAST",
+              "substances": [
+                "PARACETAMOL"
+              ]
+            },
+            {
+              "licence": "PL 44673/0188",
+              "product": "PANADOL ORIGINAL TABLETS",
+              "substances": [
+                "PARACETAMOL"
+              ]
+            },
+            {
+              "licence": "PL 44673/0191",
+              "product": "PANADOL EXTRA TABLETS",
+              "substances": [
+                "PARACETAMOL",
+                "CAFFEINE"
+              ]
+            },
+            {
+              "licence": "PL 02855/0076",
+              "product": "PANADOL COLD & SINUS",
+              "substances": [
+                "PSEUDOEPHEDRINE HYDROCHLORIDE",
+                "PARACETAMOL"
+              ]
+            },
+            {
+              "licence": "PL 44673/0077",
+              "product": "PANADOL EXTRA SOLUBLE TABLETS",
+              "substances": [
+                "PARACETAMOL",
+                "CAFFEINE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 12063/0007",
+        "url": "https://products.mhra.gov.uk/search/?search=paracetamol&page=1",
+        "searched": "paracetamol",
+        "licensedProducts": 31
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "OTC": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 44673/0076",
+        "url": "https://products.mhra.gov.uk/search/?search=Panadol&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "ibuprofen",
+      "generic": "Ibuprofen",
+      "brand": "Nurofen",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Nurofen",
+          "id": "PL 00063/0376",
+          "url": "https://products.mhra.gov.uk/search/?search=Nurofen&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "NUROFEN PLUS",
+          "products": [
+            {
+              "licence": "PL 00063/0376",
+              "product": "NUROFEN PLUS",
+              "substances": [
+                "IBUPROFEN",
+                "CODEINE PHOSPHATE"
+              ]
+            },
+            {
+              "licence": "PL 00063/0380",
+              "product": "NUROFEN EXPRESS 342MG CAPLETS, NUROFEN TENSION HEADACHE, NUROFEN MIGRAINE PAIN",
+              "substances": [
+                "IBUPROFEN LYSINE"
+              ]
+            },
+            {
+              "licence": "PL 00063/0375",
+              "product": "NUROFEN SINUS RELIEF, NUROFEN COLD AND FLU",
+              "substances": [
+                "IBUPROFEN",
+                "PSEUDOEPHEDRINE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 00063/0386",
+              "product": "NUROFEN 200 MG CAPLETS",
+              "substances": [
+                "IBUPROFEN"
+              ]
+            },
+            {
+              "licence": "PL 00063/0385",
+              "product": "NUROFEN 200 MG TABLETS",
+              "substances": [
+                "IBUPROFEN"
+              ]
+            },
+            {
+              "licence": "PL 00063/0388",
+              "product": "NUROFEN 200MG TABLETS",
+              "substances": [
+                "IBUPROFEN"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 00014/0498",
+        "url": "https://products.mhra.gov.uk/search/?search=ibuprofen&page=1",
+        "searched": "ibuprofen",
+        "licensedProducts": 54
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "OTC": 13,
+            "PHARMACY": 11
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 00063/0376",
+        "url": "https://products.mhra.gov.uk/search/?search=Nurofen&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "loratadine",
+      "generic": "Loratadine",
+      "brand": "Clarityn",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Clarityn",
+          "id": "PL 00010/0662",
+          "url": "https://products.mhra.gov.uk/search/?search=Clarityn&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "CLARITYN ALLERGY 10MG TABLETS",
+          "products": [
+            {
+              "licence": "PL 00010/0662",
+              "product": "CLARITYN ALLERGY 10MG TABLETS",
+              "substances": [
+                "LORATADINE"
+              ]
+            },
+            {
+              "licence": "PL 00010/0656",
+              "product": "CLARITYN ALLERGY 1MG/ML SYRUP",
+              "substances": [
+                "LORATADINE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 28444/0016",
+        "url": "https://products.mhra.gov.uk/search/?search=loratadine&page=1",
+        "searched": "loratadine",
+        "licensedProducts": 26
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "OTC": 2,
+            "PHARMACY": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 00010/0662",
+        "url": "https://products.mhra.gov.uk/search/?search=Clarityn&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "cetirizine",
+      "generic": "Cetirizine",
+      "brand": "Piriteze / Zirtek",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Piriteze",
+          "id": "PL 44673/0098",
+          "url": "https://products.mhra.gov.uk/search/?search=Piriteze&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "PIRITEZE ALLERGY TABLETS",
+          "products": [
+            {
+              "licence": "PL 44673/0098",
+              "product": "PIRITEZE ALLERGY TABLETS",
+              "substances": [
+                "CETIRIZINE DIHYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 44673/0097",
+              "product": "PIRITEZE HAYFEVER & ALLERGY 10MG FILM COATED TABLETS",
+              "substances": [
+                "CETIRIZINE DIHYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 44673/0096",
+              "product": "PIRITEZE ALLERGY RELIEF 1MG/ML SYRUP, PIRITEZE CHILDRENS HAYFEVER & ALLERGY 1MG/ML SYRUP",
+              "substances": [
+                "CETIRIZINE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 44673/0095",
+              "product": "PIRITEZE CHILDRENS HAYFEVER & ALLERGY 1MG/ML SYRUP, PIRITEZE ALLERGY 1MG/ML SYRUP",
+              "substances": [
+                "CETIRIZINE HYDROCHLORIDE"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Zirtek",
+          "id": "PLPI 20636/1519",
+          "url": "https://products.mhra.gov.uk/search/?search=Zirtek&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZIRTEK ALLERGY 10MG TABLETS",
+          "products": [
+            {
+              "licence": "PLPI 20636/1519",
+              "product": "ZIRTEK ALLERGY 10MG TABLETS",
+              "substances": [
+                "CETIRIZINE DIHYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 00039/0561",
+              "product": "ZIRTEK ALLERGY RELIEF 10MG FILM-COATED TABLETS",
+              "substances": [
+                "CETIRIZINE DIHYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 00039/0540",
+              "product": "ZIRTEK ALLERGY SOLUTION 1MG/ML ORAL SOLUTION",
+              "substances": [
+                "CETIRIZINE DIHYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 00039/0542",
+              "product": "ZIRTEK ALLERGY 10MG FILM-COATED TABLETS",
+              "substances": [
+                "CETIRIZINE DIHYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 00039/0541",
+              "product": "ZIRTEK ALLERGY RELIEF FOR CHILDREN 1MG/ML ORAL SOLUTION",
+              "substances": [
+                "CETIRIZINE DIHYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 15184/2652",
+              "product": "CETIRIZINE DIHYDROCHLORIDE 1 MG/ML ORAL SOLUTION, ZIRTEK ALLERGY SOLUTION 1 MG/ML ORAL SOLUTION",
+              "substances": [
+                "CETIRIZINE DIHYDROCHLORIDE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 04416/0381",
+        "url": "https://products.mhra.gov.uk/search/?search=cetirizine&page=1",
+        "searched": "cetirizine",
+        "licensedProducts": 45
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "MIXED",
+        "result": "differ",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "OTC": 4,
+            "PHARMACY": 3,
+            "RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 44673/0098",
+        "url": "https://products.mhra.gov.uk/search/?search=Piriteze&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "Status differs: entry OTC, registry MIXED"
+      ]
+    },
+    {
+      "id": "diphenhydramine",
+      "generic": "Diphenhydramine",
+      "brand": "Nytol (sold as a sleep aid, not for allergy)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Nytol",
+          "id": "PL 02855/0313",
+          "url": "https://products.mhra.gov.uk/search/?search=Nytol&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "NYTOL LIQUID CARAMEL FLAVOUR 10MG/5ML ORAL SOLUTION",
+          "products": [
+            {
+              "licence": "PL 02855/0313",
+              "product": "NYTOL LIQUID CARAMEL FLAVOUR 10MG/5ML ORAL SOLUTION",
+              "substances": [
+                "DIPHENHYDRAMINE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 02855/0071",
+              "product": "SUPERDRUG SLEEP AID 25MG TABLETS, TESCO HEALTH SLEEP AID 25MG TABLETS, ASDA NIGHT TIME SLEEP AID 25MG TABLETS, NYTOL ORIGINAL 25MG TABLETS, SLEEPEAZE 25MG TABLETS, NUMARK SLEEP AID 25MG TABLETS, NYTOL, MORRISONS SLEEP AID 25MG TABLETS",
+              "substances": [
+                "DIPHENHYDRAMINE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 02855/0070",
+              "product": "TESCO HEALTH SLEEP AID 50MG TABLETS, MORRISONS ONE-A-NIGHT SLEEP AID 50MG TABLETS, SUPERDRUG ONE-A-NIGHT SLEEP AID 50MG TABLETS, NYTOL ONE-A-NIGHT, ASDA ONE-A-NIGHT SLEEP AID 50MG TABLETS, SLEAPEAZE 50MG TABLETS, GALPHARM SLEEP AID 50MG TABLETS, NUMARK SLEEP AID 50MG TABLETS",
+              "substances": [
+                "DIPHENHYDRAMINE HYDROCHLORIDE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 43461/0065",
+        "url": "https://products.mhra.gov.uk/search/?search=diphenhydramine&page=1",
+        "searched": "diphenhydramine",
+        "licensedProducts": 23
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "PHARMACY",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "PHARMACY": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 02855/0313",
+        "url": "https://products.mhra.gov.uk/search/?search=Nytol&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "loperamide",
+      "generic": "Loperamide",
+      "brand": "Imodium",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Imodium",
+          "id": "PL 15513/0345",
+          "url": "https://products.mhra.gov.uk/search/?search=Imodium&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "IMODIUM INSTANTS",
+          "products": [
+            {
+              "licence": "PL 15513/0345",
+              "product": "IMODIUM INSTANTS",
+              "substances": [
+                "LOPERAMIDE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 15513/0309",
+              "product": "IMODIUM CLASSIC 2MG CAPSULES",
+              "substances": [
+                "LOPERAMIDE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 15513/0310",
+              "product": "IMODIUM ORIGINAL 2MG CAPSULES",
+              "substances": [
+                "LOPERAMIDE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 15513/0346",
+              "product": "IMODIUM INSTANT MELTS",
+              "substances": [
+                "LOPERAMIDE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 15513/0367",
+              "product": "IMODIUM SOFTGELS 2MG CAPSULES  SOFT",
+              "substances": [
+                "LOPERAMIDE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 15513/0342",
+              "product": "IMODIUM DUAL ACTION RELIEF TABLETS",
+              "substances": [
+                "LOPERAMIDE HYDROCHLORIDE",
+                "SIMETICONE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 28278/0104",
+        "url": "https://products.mhra.gov.uk/search/?search=loperamide&page=1",
+        "searched": "loperamide",
+        "licensedProducts": 47
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "OTC": 3,
+            "PHARMACY": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 15513/0345",
+        "url": "https://products.mhra.gov.uk/search/?search=Imodium&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "omeprazole",
+      "generic": "Omeprazole",
+      "brand": "Pyrocalm Control (OTC) / Losec (Rx)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Pyrocalm Control",
+          "id": "PL 14017/0302",
+          "url": "https://products.mhra.gov.uk/search/?search=Pyrocalm%20Control&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "PYROCALM CONTROL PEPPERMINT FLAVOUR 20MG GASTRO-RESISTANT TABLETS",
+          "products": [
+            {
+              "licence": "PL 14017/0302",
+              "product": "PYROCALM CONTROL PEPPERMINT FLAVOUR 20MG GASTRO-RESISTANT TABLETS",
+              "substances": [
+                "OMEPRAZOLE"
+              ]
+            },
+            {
+              "licence": "PL 14017/0277",
+              "product": "PYROCALM CONTROL 20MG GASTRO-RESISTANT TABLETS, OMEPRAZOLE 20MG GASTRO-RESISTANT TABLETS, WELL PHARMACEUTICALS ACID REFLUX 20MG GASTRO-RESISTANT TABLETS, BOOTS ONE-A-DAY ACID REFLUX RELIEF 20MG GASTRO-RESISTANT TABLETS, NUMARK HEARTBURN AND ACID REFLUX 20MG GASTRO-RESISTANT TABLETS",
+              "substances": [
+                "OMEPRAZOLE"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Losec",
+          "id": "PL 45043/0101",
+          "url": "https://products.mhra.gov.uk/search/?search=Losec&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "LOSEC 20MG HARD CAPSULES",
+          "products": [
+            {
+              "licence": "PL 45043/0101",
+              "product": "LOSEC 20MG HARD CAPSULES",
+              "substances": [
+                "OMEPRAZOLE"
+              ]
+            },
+            {
+              "licence": "PL 45043/0102",
+              "product": "LOSEC 40MG HARD CAPSULES",
+              "substances": [
+                "OMEPRAZOLE"
+              ]
+            },
+            {
+              "licence": "PL 45043/0103",
+              "product": "LOSEC MUPS TABLETS 10MG",
+              "substances": [
+                "OMEPRAZOLE MAGNESIUM"
+              ]
+            },
+            {
+              "licence": "PLPI 20774/1216",
+              "product": "LOSEC MUPS 20MG TABLETS",
+              "substances": [
+                "OMEPRAZOLE"
+              ]
+            },
+            {
+              "licence": "PL 45043/0105",
+              "product": "LOSEC MUPS TABLETS 40MG",
+              "substances": [
+                "OMEPRAZOLE MAGNESIUM"
+              ]
+            },
+            {
+              "licence": "PLPI 19488/1674",
+              "product": "LOSEC 20MG GASTRO-RESISTANT CAPSULES",
+              "substances": [
+                "OMEPRAZOLE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 04416/0651",
+        "url": "https://products.mhra.gov.uk/search/?search=omeprazole&page=1",
+        "searched": "omeprazole",
+        "licensedProducts": 74
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "RX",
+        "result": "differ",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 18,
+            "OTC": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 14017/0302",
+        "url": "https://products.mhra.gov.uk/search/?search=Pyrocalm%20Control&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "Status differs: entry MIXED, registry RX"
+      ]
+    },
+    {
+      "id": "pseudoephedrine",
+      "generic": "Pseudoephedrine",
+      "brand": "Sudafed",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Sudafed",
+          "id": "PL 15513/0024",
+          "url": "https://products.mhra.gov.uk/search/?search=Sudafed&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "SUDAFED DECONGESTANT TABLETS",
+          "products": [
+            {
+              "licence": "PL 15513/0024",
+              "product": "SUDAFED DECONGESTANT TABLETS",
+              "substances": [
+                "PSEUDOEPHEDRINE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 15513/0023",
+              "product": "NON-DROWSY SUDAFED CHILDRENS SYRUP, SUDAFED DECONGESTANT LIQUID",
+              "substances": [
+                "PSEUDOEPHEDRINE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 15513/0396",
+              "product": "SUDAFED SINUS PRESSURE & PAIN 200MG/30MG TABLETS",
+              "substances": [
+                "PSEUDOEPHEDRINE HYDROCHLORIDE",
+                "IBUPROFEN"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 55612/0015",
+        "url": "https://products.mhra.gov.uk/search/?search=pseudoephedrine&page=1",
+        "searched": "pseudoephedrine",
+        "licensedProducts": 33
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 15513/0024",
+        "url": "https://products.mhra.gov.uk/search/?search=Sudafed&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "melatonin",
+      "generic": "Melatonin",
+      "brand": "Circadin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Circadin",
+          "id": "PLPI 42332/0043",
+          "url": "https://products.mhra.gov.uk/search/?search=Circadin&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "CIRCADIN 2MG PROLONGED-RELEASE TABLETS",
+          "products": [
+            {
+              "licence": "PLPI 42332/0043",
+              "product": "CIRCADIN 2MG PROLONGED-RELEASE TABLETS",
+              "substances": [
+                "MELATONIN"
+              ]
+            },
+            {
+              "licence": "PLPI 15643/0197",
+              "product": "CIRCADIN 2 MG PROLONGED-RELEASE TABLETS",
+              "substances": [
+                "MELATONIN"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 58775/0003",
+        "url": "https://products.mhra.gov.uk/search/?search=melatonin&page=1",
+        "searched": "melatonin",
+        "licensedProducts": 76
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PLPI 42332/0043",
+        "url": "https://products.mhra.gov.uk/search/?search=Circadin&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "dimenhydrinate",
+      "generic": "Dimenhydrinate",
+      "brand": "Not sold on UK shelves — \"Kwells\" (hyoscine) or \"Stugeron\" (cinnarizine) cover this use instead",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 33414/0040",
+        "url": "https://products.mhra.gov.uk/search/?search=dimenhydrinate&page=1",
+        "searched": "dimenhydrinate",
+        "licensedProducts": 5
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "Entry says \"Not sold on UK shelves — \"Kwells\" (hyoscine) or \"Stugeron\" (cinnarizine) cover this use instead\" but the registry lists products with this ingredient"
+      ]
+    },
+    {
+      "id": "amoxicillin",
+      "generic": "Amoxicillin",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 57395/0002",
+        "url": "https://products.mhra.gov.uk/search/?search=amoxicillin&page=1",
+        "searched": "amoxicillin",
+        "licensedProducts": 67
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 83
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 57395/0002",
+        "url": "https://products.mhra.gov.uk/search/?search=amoxicillin&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "metformin",
+      "generic": "Metformin",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 33414/0059",
+        "url": "https://products.mhra.gov.uk/search/?search=metformin&page=1",
+        "searched": "metformin",
+        "licensedProducts": 66
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 136
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 33414/0059",
+        "url": "https://products.mhra.gov.uk/search/?search=metformin&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "sertraline",
+      "generic": "Sertraline",
+      "brand": "Lustral",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lustral",
+          "id": "PL 46302/0307",
+          "url": "https://products.mhra.gov.uk/search/?search=Lustral&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "LUSTRAL 50MG FILM COATED TABLETS",
+          "products": [
+            {
+              "licence": "PL 46302/0307",
+              "product": "LUSTRAL 50MG FILM COATED TABLETS",
+              "substances": [
+                "SERTRALINE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 46302/0306",
+              "product": "LUSTRAL 100MG FILM COATED TABLETS",
+              "substances": [
+                "SERTRALINE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 19488/0439",
+              "product": "SERTRALINE 100MG TABLETS, LUSTRAL 100MG TABLETS",
+              "substances": [
+                "SERTRALINE"
+              ]
+            },
+            {
+              "licence": "PLPI 19488/0438",
+              "product": "LUSTRAL 50MG TABLETS, SERTRALINE 50MG TABLETS",
+              "substances": [
+                "SERTRALINE"
+              ]
+            },
+            {
+              "licence": "PLPI 15184/0973",
+              "product": "TATIG 50MG TABLETS, SERTRALINE 50MG TABLETS, LUSTRAL 50MG TABLETS",
+              "substances": [
+                "SERTRALINE"
+              ]
+            },
+            {
+              "licence": "PLPI 15361/0043",
+              "product": "LUSTRAL 50 MG FILM-COATED TABLETS, SERTRALINE 50 MG FILM-COATED TABLETS, BESITRAN 50 MG FILM-COATED TABLETS",
+              "substances": [
+                "SERTRALINE HYDROCHLORIDE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 14894/0113",
+        "url": "https://products.mhra.gov.uk/search/?search=sertraline&page=1",
+        "searched": "sertraline",
+        "licensedProducts": 32
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 46302/0307",
+        "url": "https://products.mhra.gov.uk/search/?search=Lustral&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "albuterol",
+      "generic": "Salbutamol",
+      "brand": "Ventolin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ventolin",
+          "id": "PL 10949/0274",
+          "url": "https://products.mhra.gov.uk/search/?search=Ventolin&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "VENTOLIN EVOHALER",
+          "products": [
+            {
+              "licence": "PL 10949/0274",
+              "product": "VENTOLIN EVOHALER",
+              "substances": [
+                "SALBUTAMOL SULPHATE"
+              ]
+            },
+            {
+              "licence": "PL 10949/0088",
+              "product": "VENTOLIN SYRUP",
+              "substances": [
+                "SALBUTAMOL SULPHATE"
+              ]
+            },
+            {
+              "licence": "PL 10949/0084",
+              "product": "VENTOLIN INJECTION 500MCG/1ML",
+              "substances": [
+                "SALBUTAMOL SULPHATE"
+              ]
+            },
+            {
+              "licence": "PL 10949/0244",
+              "product": "VENTOLIN RESPIRATOR SOLUTION",
+              "substances": [
+                "SALBUTAMOL SULPHATE"
+              ]
+            },
+            {
+              "licence": "PL 10949/0252",
+              "product": "VENTOLIN ACCUHALER 200 MCG",
+              "substances": [
+                "SALBUTAMOL SULPHATE"
+              ]
+            },
+            {
+              "licence": "PL 10949/0087",
+              "product": "VENTOLIN SOLUTION FOR INTRAVENOUS INFUSION",
+              "substances": [
+                "SALBUTAMOL SULPHATE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 00142/0486",
+        "url": "https://products.mhra.gov.uk/search/?search=salbutamol&page=1",
+        "searched": "salbutamol",
+        "licensedProducts": 39
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 7
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 10949/0274",
+        "url": "https://products.mhra.gov.uk/search/?search=Ventolin&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "atorvastatin",
+      "generic": "Atorvastatin",
+      "brand": "Lipitor (mostly sold generic now)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lipitor",
+          "id": "PL 46302/0304",
+          "url": "https://products.mhra.gov.uk/search/?search=Lipitor&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "LIPITOR 5MG CHEWABLE TABLET",
+          "products": [
+            {
+              "licence": "PL 46302/0304",
+              "product": "LIPITOR 5MG CHEWABLE TABLET",
+              "substances": [
+                "ATORVASTATIN CALCIUM"
+              ]
+            },
+            {
+              "licence": "PL 46302/0300",
+              "product": "LIPITOR 20MG CHEWABLE TABLET",
+              "substances": [
+                "ATORVASTATIN CALCIUM"
+              ]
+            },
+            {
+              "licence": "PL 46302/0299",
+              "product": "LIPITOR 10MG CHEWABLE TABLETS",
+              "substances": [
+                "ATORVASTATIN CALCIUM"
+              ]
+            },
+            {
+              "licence": "PL 50622/0041",
+              "product": "LIPITOR 40MG TABLETS",
+              "substances": [
+                "ATORVASTATIN CALCIUM"
+              ]
+            },
+            {
+              "licence": "PL 46302/0302",
+              "product": "LIPITOR 40MG CHEWABLE TABLET",
+              "substances": [
+                "ATORVASTATIN CALCIUM"
+              ]
+            },
+            {
+              "licence": "PL 50622/0043",
+              "product": "LIPITOR 80MG TABLETS",
+              "substances": [
+                "ATORVASTATIN CALCIUM"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 01656/0180",
+        "url": "https://products.mhra.gov.uk/search/?search=atorvastatin&page=1",
+        "searched": "atorvastatin",
+        "licensedProducts": 34
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 46302/0304",
+        "url": "https://products.mhra.gov.uk/search/?search=Lipitor&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "levothyroxine",
+      "generic": "Levothyroxine",
+      "brand": "Sold generic; also historically \"Eltroxin\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 00289/1973",
+        "url": "https://products.mhra.gov.uk/search/?search=levothyroxine&page=1",
+        "searched": "levothyroxine",
+        "licensedProducts": 62
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 205
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 00289/1973",
+        "url": "https://products.mhra.gov.uk/search/?search=levothyroxine&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "lisinopril",
+      "generic": "Lisinopril",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 21880/0239",
+        "url": "https://products.mhra.gov.uk/search/?search=lisinopril&page=1",
+        "searched": "lisinopril",
+        "licensedProducts": 38
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 87
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 21880/0239",
+        "url": "https://products.mhra.gov.uk/search/?search=lisinopril&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amlodipine",
+      "generic": "Amlodipine",
+      "brand": "Istin (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Istin",
+          "id": "PL 46302/0295",
+          "url": "https://products.mhra.gov.uk/search/?search=Istin&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "ISTIN 5MG TABLETS",
+          "products": [
+            {
+              "licence": "PL 46302/0295",
+              "product": "ISTIN 5MG TABLETS",
+              "substances": [
+                "AMLODIPINE BESILATE"
+              ]
+            },
+            {
+              "licence": "PL 46302/0293",
+              "product": "ISTIN 10MG TABLETS",
+              "substances": [
+                "AMLODIPINE BESILATE"
+              ]
+            },
+            {
+              "licence": "PL 46302/0294",
+              "product": "ISTIN 5 MG HARD CAPSULES",
+              "substances": [
+                "AMLODIPINE BESILATE"
+              ]
+            },
+            {
+              "licence": "PL 46302/0292",
+              "product": "ISTIN 10 MG HARD CAPSULES",
+              "substances": [
+                "AMLODIPINE BESILATE"
+              ]
+            },
+            {
+              "licence": "PLPI 33532/0761",
+              "product": "AMLODIPINE 5MG TABLETS, ISTIN 5MG TABLETS",
+              "substances": [
+                "AMLODIPINE BESILATE"
+              ]
+            },
+            {
+              "licence": "PLPI 33532/0762",
+              "product": "AMLODIPINE 10MG TABLETS, ISTIN 10MG TABLETS",
+              "substances": [
+                "AMLODIPINE BESILATE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 00289/2668",
+        "url": "https://products.mhra.gov.uk/search/?search=amlodipine&page=1",
+        "searched": "amlodipine",
+        "licensedProducts": 72
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 46302/0295",
+        "url": "https://products.mhra.gov.uk/search/?search=Istin&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "metoprolol",
+      "generic": "Metoprolol",
+      "brand": "Betaloc (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Betaloc",
+          "id": "PL 30883/0007",
+          "url": "https://products.mhra.gov.uk/search/?search=Betaloc&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "BETALOC I.V. INJECTION",
+          "products": [
+            {
+              "licence": "PL 30883/0007",
+              "product": "BETALOC I.V. INJECTION",
+              "substances": [
+                "METOPROLOL TARTRATE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 04569/0143",
+        "url": "https://products.mhra.gov.uk/search/?search=metoprolol&page=1",
+        "searched": "metoprolol",
+        "licensedProducts": 9
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 30883/0007",
+        "url": "https://products.mhra.gov.uk/search/?search=Betaloc&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "losartan",
+      "generic": "Losartan",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 45841/0014",
+        "url": "https://products.mhra.gov.uk/search/?search=losartan&page=1",
+        "searched": "losartan",
+        "licensedProducts": 38
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 104
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 45841/0014",
+        "url": "https://products.mhra.gov.uk/search/?search=losartan&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "gabapentin",
+      "generic": "Gabapentin",
+      "brand": "Neurontin (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Neurontin",
+          "id": "PL 46302/0308",
+          "url": "https://products.mhra.gov.uk/search/?search=Neurontin&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "NEURONTIN 100MG HARD CAPSULES",
+          "products": [
+            {
+              "licence": "PL 46302/0308",
+              "product": "NEURONTIN 100MG HARD CAPSULES",
+              "substances": [
+                "GABAPENTIN"
+              ]
+            },
+            {
+              "licence": "PL 50622/0047",
+              "product": "NEURONTIN 300MG HARD CAPSULES",
+              "substances": [
+                "GABAPENTIN"
+              ]
+            },
+            {
+              "licence": "PL 46302/0310",
+              "product": "NEURONTIN 400MG HARD CAPSULES",
+              "substances": [
+                "GABAPENTIN"
+              ]
+            },
+            {
+              "licence": "PL 50622/0050",
+              "product": "NEURONTIN 800MG FILM-COATED TABLETS",
+              "substances": [
+                "GABAPENTIN"
+              ]
+            },
+            {
+              "licence": "PL 46302/0311",
+              "product": "NEURONTIN 600MG FILM-COATED TABLETS",
+              "substances": [
+                "GABAPENTIN"
+              ]
+            },
+            {
+              "licence": "PLPI 30900/1924",
+              "product": "NEURONTIN 100 MG HARD CAPSULES",
+              "substances": [
+                "GABAPENTIN"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 51463/0278",
+        "url": "https://products.mhra.gov.uk/search/?search=gabapentin&page=1",
+        "searched": "gabapentin",
+        "licensedProducts": 117
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "CONTROLLED": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 46302/0308",
+        "url": "https://products.mhra.gov.uk/search/?search=Neurontin&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "rosuvastatin",
+      "generic": "Rosuvastatin",
+      "brand": "Crestor (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Crestor",
+          "id": "PL 17901/0243",
+          "url": "https://products.mhra.gov.uk/search/?search=Crestor&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "CRESTOR 5MG FILM-COATED TABLETS",
+          "products": [
+            {
+              "licence": "PL 17901/0243",
+              "product": "CRESTOR 5MG FILM-COATED TABLETS",
+              "substances": [
+                "ROSUVASTATIN CALCIUM"
+              ]
+            },
+            {
+              "licence": "PLPI 16378/0539",
+              "product": "CRESTOR 10MG FILM-COATED TABLETS",
+              "substances": [
+                "ROSUVASTATIN CALCIUM"
+              ]
+            },
+            {
+              "licence": "PLPI 33532/0882",
+              "product": "CRESTOR 5MG FILM COATED TABLETS",
+              "substances": [
+                "ROSUVASTATIN CALCIUM"
+              ]
+            },
+            {
+              "licence": "PL 17901/0203",
+              "product": "CRESTOR 40MG FILM-COATED TABLETS",
+              "substances": [
+                "ROSUVASTATIN CALCIUM"
+              ]
+            },
+            {
+              "licence": "PL 17901/0202",
+              "product": "CRESTOR 20MG FILM-COATED TABLETS",
+              "substances": [
+                "ROSUVASTATIN CALCIUM"
+              ]
+            },
+            {
+              "licence": "PL 19065/0353",
+              "product": "CRESTOR 5MG FILM-COATED  TABLETS",
+              "substances": [
+                "ROSUVASTATIN CALCIUM"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 49565/0086",
+        "url": "https://products.mhra.gov.uk/search/?search=rosuvastatin&page=1",
+        "searched": "rosuvastatin",
+        "licensedProducts": 38
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 14
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 17901/0243",
+        "url": "https://products.mhra.gov.uk/search/?search=Crestor&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "pantoprazole",
+      "generic": "Pantoprazole",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 45841/0018",
+        "url": "https://products.mhra.gov.uk/search/?search=pantoprazole&page=1",
+        "searched": "pantoprazole",
+        "licensedProducts": 18
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 44
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 45841/0018",
+        "url": "https://products.mhra.gov.uk/search/?search=pantoprazole&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "escitalopram",
+      "generic": "Escitalopram",
+      "brand": "Cipralex",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Cipralex",
+          "id": "PL 00458/0310",
+          "url": "https://products.mhra.gov.uk/search/?search=Cipralex&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "CIPRALEX 10MG FILM-COATED TABLETS",
+          "products": [
+            {
+              "licence": "PL 00458/0310",
+              "product": "CIPRALEX 10MG FILM-COATED TABLETS",
+              "substances": [
+                "ESCITALOPRAM OXALATE"
+              ]
+            },
+            {
+              "licence": "PL 13761/0008",
+              "product": "CIPRALEX 5MG FILM-COATED TABLETS",
+              "substances": [
+                "ESCITALOPRAM OXALATE"
+              ]
+            },
+            {
+              "licence": "PL 00458/0311",
+              "product": "CIPRALEX 20MG FILM-COATED TABLETS",
+              "substances": [
+                "ESCITALOPRAM OXALATE"
+              ]
+            },
+            {
+              "licence": "PL 00458/0313",
+              "product": "CIPRALEX 20 MG/ML ORAL DROPS  SOLUTION",
+              "substances": [
+                "ESCITALOPRAM OXALATE"
+              ]
+            },
+            {
+              "licence": "PLPI 33532/0438",
+              "product": "CIPRALEX 10 MG FILM-COATED TABLETS",
+              "substances": [
+                "ESCITALOPRAM OXALATE"
+              ]
+            },
+            {
+              "licence": "PLPI 20636/1526",
+              "product": "ESCITALOPRAM 20MG TABLETS, CIPRALEX 20MG TABLETS",
+              "substances": [
+                "ESCITALOPRAM OXALATE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 20416/0266",
+        "url": "https://products.mhra.gov.uk/search/?search=escitalopram&page=1",
+        "searched": "escitalopram",
+        "licensedProducts": 34
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 00458/0310",
+        "url": "https://products.mhra.gov.uk/search/?search=Cipralex&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amphetamine",
+      "generic": "Amphetamine / Dextroamphetamine",
+      "brand": "Amfexa (dexamfetamine) — Adderall itself is not licensed",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Amfexa",
+          "id": "PL 11243/0021",
+          "url": "https://products.mhra.gov.uk/search/?search=Amfexa&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "DEXAMFETAMINE SULFATE MEDICE 5 MG TABLETS, AMFEXA 5MG TABLETS",
+          "products": [
+            {
+              "licence": "PL 11243/0021",
+              "product": "DEXAMFETAMINE SULFATE MEDICE 5 MG TABLETS, AMFEXA 5MG TABLETS",
+              "substances": [
+                "DEXAMFETAMINE SULFATE"
+              ]
+            },
+            {
+              "licence": "PL 11243/0024",
+              "product": "AMFEXA 20MG TABLET, DEXAMFETAMINE SULFATE MEDICE 20 MG TABLETS",
+              "substances": [
+                "DEXAMFETAMINE SULFATE"
+              ]
+            },
+            {
+              "licence": "PL 11243/0023",
+              "product": "DEXAMFETAMINE SULFATE MEDICE 10 MG TABLETS, AMFEXA 10MG TABLET",
+              "substances": [
+                "DEXAMFETAMINE SULFATE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 25298/0152",
+        "url": "https://products.mhra.gov.uk/search/?search=amphetamine&page=1",
+        "searched": "amphetamine",
+        "licensedProducts": 1
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "CONTROLLED": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 11243/0021",
+        "url": "https://products.mhra.gov.uk/search/?search=Amfexa&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrochlorothiazide",
+      "generic": "Hydrochlorothiazide",
+      "brand": "Sold generic, often combined with other agents",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 35533/0304",
+        "url": "https://products.mhra.gov.uk/search/?search=hydrochlorothiazide&page=1",
+        "searched": "hydrochlorothiazide",
+        "licensedProducts": 105
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 27
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 35533/0304",
+        "url": "https://products.mhra.gov.uk/search/?search=hydrochlorothiazide&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "bupropion",
+      "generic": "Bupropion",
+      "brand": "Zyban — marketed there mainly as a smoking-cessation aid, not an antidepressant",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zyban",
+          "id": "PLPI 20636/3420",
+          "url": "https://products.mhra.gov.uk/search/?search=Zyban&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZYBAN 150 MG PROLONGED RELEASE TABLETS",
+          "products": [
+            {
+              "licence": "PLPI 20636/3420",
+              "product": "ZYBAN 150 MG PROLONGED RELEASE TABLETS",
+              "substances": [
+                "BUPROPION HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 19065/0586",
+              "product": "ZYBAN 150 MG PROLONGED RELEASE FILM-COATED TABLETS",
+              "substances": [
+                "BUPROPION HYDROCHLORIDE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PLGB 50742/0001",
+        "url": "https://products.mhra.gov.uk/search/?search=bupropion&page=1",
+        "searched": "bupropion",
+        "licensedProducts": 3
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PLPI 20636/3420",
+        "url": "https://products.mhra.gov.uk/search/?search=Zyban&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "fluoxetine",
+      "generic": "Fluoxetine",
+      "brand": "Sold generic (formerly Prozac)",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 08553/0262",
+        "url": "https://products.mhra.gov.uk/search/?search=fluoxetine&page=1",
+        "searched": "fluoxetine",
+        "licensedProducts": 28
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 77
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 08553/0262",
+        "url": "https://products.mhra.gov.uk/search/?search=fluoxetine&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "semaglutide",
+      "generic": "Semaglutide",
+      "brand": "Ozempic / Wegovy",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ozempic",
+          "id": "PLPI 18799/3972",
+          "url": "https://products.mhra.gov.uk/search/?search=Ozempic&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "OZEMPIC 0.25 MG SOLUTION FOR INJECTION IN PRE-FILLED PEN",
+          "products": [
+            {
+              "licence": "PLPI 18799/3972",
+              "product": "OZEMPIC 0.25 MG SOLUTION FOR INJECTION IN PRE-FILLED PEN",
+              "substances": [
+                "SEMAGLUTIDE"
+              ]
+            },
+            {
+              "licence": "PLGB 04668/0435",
+              "product": "OZEMPIC 2MG SOLUTION FOR INJECTION IN PRE-FILLED PEN",
+              "substances": [
+                "SEMAGLUTIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 18799/3974",
+              "product": "OZEMPIC 0.5 MG SOLUTION FOR INJECTION IN PRE-FILLED PEN",
+              "substances": [
+                "SEMAGLUTIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 45763/1408",
+              "product": "OZEMPIC 1 MG SOLUTION FOR INJECTION IN PRE-FILLED PEN",
+              "substances": [
+                "SEMAGLUTIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 18799/4214",
+              "product": "OZEMPIC 0.5MG SOLUTION FOR INJECTION IN PRE-FILLED PEN",
+              "substances": [
+                "SEMAGLUTIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 18799/4215",
+              "product": "OZEMPIC 0.25MG SOLUTION FOR INJECTION IN PRE-FILLED PEN",
+              "substances": [
+                "SEMAGLUTIDE"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Wegovy",
+          "id": "PL 04668/0468",
+          "url": "https://products.mhra.gov.uk/search/?search=Wegovy&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "WEGOVY 9 MG TABLETS",
+          "products": [
+            {
+              "licence": "PL 04668/0468",
+              "product": "WEGOVY 9 MG TABLETS",
+              "substances": [
+                "SEMAGLUTIDE"
+              ]
+            },
+            {
+              "licence": "PL 04668/0467",
+              "product": "WEGOVY 4 MG TABLETS",
+              "substances": [
+                "SEMAGLUTIDE"
+              ]
+            },
+            {
+              "licence": "PL 04668/0469",
+              "product": "WEGOVY 25 MG TABLETS",
+              "substances": [
+                "SEMAGLUTIDE"
+              ]
+            },
+            {
+              "licence": "PL 04668/0466",
+              "product": "WEGOVY 1.5 MG TABLETS",
+              "substances": [
+                "SEMAGLUTIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 18799/4131",
+              "product": "WEGOVY 1MG FLEXTOUCH SOLUTION FOR INJECTION IN PRE-FILLED PEN",
+              "substances": [
+                "SEMAGLUTIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 18799/4126",
+              "product": "WEGOVY 0.5MG FLEXTOUCH SOLUTION FOR INJECTION IN PRE-FILLED PEN",
+              "substances": [
+                "SEMAGLUTIDE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PLPI 33652/0453",
+        "url": "https://products.mhra.gov.uk/search/?search=semaglutide&page=1",
+        "searched": "semaglutide",
+        "licensedProducts": 42
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 25
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PLPI 18799/3972",
+        "url": "https://products.mhra.gov.uk/search/?search=Ozempic&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "montelukast",
+      "generic": "Montelukast",
+      "brand": "Singulair (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Singulair",
+          "id": "PL 00025/0440",
+          "url": "https://products.mhra.gov.uk/search/?search=Singulair&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "SINGULAIR PAEDIATRIC 4MG GRANULES",
+          "products": [
+            {
+              "licence": "PL 00025/0440",
+              "product": "SINGULAIR PAEDIATRIC 4MG GRANULES",
+              "substances": [
+                "MONTELUKAST SODIUM"
+              ]
+            },
+            {
+              "licence": "PL 00025/0357",
+              "product": "SINGULAIR PAEDIATRIC 5MG CHEWABLE TABLETS",
+              "substances": [
+                "MONTELUKAST SODIUM"
+              ]
+            },
+            {
+              "licence": "PL 00025/0358",
+              "product": "SINGULAIR 10MG FILM-COATED TABLET",
+              "substances": [
+                "MONTELUKAST SODIUM"
+              ]
+            },
+            {
+              "licence": "PLPI 33532/0171",
+              "product": "SINGULAIR 10MG FILM-COATED TABLETS",
+              "substances": [
+                "MONTELUKAST SODIUM"
+              ]
+            },
+            {
+              "licence": "PLPI 16378/1303",
+              "product": "SINGULAIR 10 MG FILM-COATED TABLETS",
+              "substances": [
+                "MONTELUKAST"
+              ]
+            },
+            {
+              "licence": "PL 00025/0412",
+              "product": "SINGULAIR PAEDIATRIC 4 MG CHEWABLE TABLETS",
+              "substances": [
+                "MONTELUKAST SODIUM"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 36687/0048",
+        "url": "https://products.mhra.gov.uk/search/?search=montelukast&page=1",
+        "searched": "montelukast",
+        "licensedProducts": 30
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 9
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 00025/0440",
+        "url": "https://products.mhra.gov.uk/search/?search=Singulair&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "trazodone",
+      "generic": "Trazodone",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 33155/0031",
+        "url": "https://products.mhra.gov.uk/search/?search=trazodone&page=1",
+        "searched": "trazodone",
+        "licensedProducts": 38
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 88
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 33155/0031",
+        "url": "https://products.mhra.gov.uk/search/?search=trazodone&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "simvastatin",
+      "generic": "Simvastatin",
+      "brand": "Zocor (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zocor",
+          "id": "PLPI 15361/0071",
+          "url": "https://products.mhra.gov.uk/search/?search=Zocor&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZOCOR 10MG TABLETS, SIMVASTATIN 10MG TABLETS",
+          "products": [
+            {
+              "licence": "PLPI 15361/0071",
+              "product": "ZOCOR 10MG TABLETS, SIMVASTATIN 10MG TABLETS",
+              "substances": [
+                "SIMVASTATIN"
+              ]
+            },
+            {
+              "licence": "PL 00025/0241",
+              "product": "ZOCOR 10 MG  FILM-COATED TABLETS",
+              "substances": [
+                "SIMVASTATIN"
+              ]
+            },
+            {
+              "licence": "PL 00025/0242",
+              "product": "ZOCOR 20 MG  FILM-COATED TABLETS",
+              "substances": [
+                "SIMVASTATIN"
+              ]
+            },
+            {
+              "licence": "PLPI 46420/0397",
+              "product": "SIMVASTATIN 20MG TABLETS, ZOCOR 20MG TABLETS",
+              "substances": [
+                "SIMVASTATIN"
+              ]
+            },
+            {
+              "licence": "PL 00025/0243",
+              "product": "ZOCOR 40 MG  FILM-COATED TABLETS",
+              "substances": [
+                "SIMVASTATIN"
+              ]
+            },
+            {
+              "licence": "PLPI 15361/2426",
+              "product": "ZOCOR 40 MG FILM-COATED TABLETS, SIMVASTATIN 40 MG FILM-COATED TABLETS",
+              "substances": [
+                "SIMVASTATIN"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 17907/0127",
+        "url": "https://products.mhra.gov.uk/search/?search=simvastatin&page=1",
+        "searched": "simvastatin",
+        "licensedProducts": 42
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PLPI 15361/0071",
+        "url": "https://products.mhra.gov.uk/search/?search=Zocor&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "tamsulosin",
+      "generic": "Tamsulosin",
+      "brand": "Flomaxtra XL",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Flomaxtra XL",
+          "id": "PL 00166/0199",
+          "url": "https://products.mhra.gov.uk/search/?search=Flomaxtra%20XL&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "FLOMAXTRA XL 400 MICROGRAMS",
+          "products": [
+            {
+              "licence": "PL 00166/0199",
+              "product": "FLOMAXTRA XL 400 MICROGRAMS",
+              "substances": [
+                "TAMSULOSIN HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 30900/1889",
+              "product": "FLOMAXTRA XL 400 MICROGRAMS TABLETS",
+              "substances": [
+                "TAMSULOSIN HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 46420/0189",
+              "product": "FLOMAXTRA XL 400 MICROGRAMS PROLONGED RELEASE TABLETS",
+              "substances": [
+                "TAMSULOSIN HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 18799/2755",
+              "product": "OMNIC XL 400 MICROGRAMS TABLETS, FLOMAXTRA XL 400 MICROGRAMS TABLETS",
+              "substances": [
+                "TAMSULOSIN HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 20774/1110",
+              "product": "FLOMAXTRA XL 400 MICROGRAMS FILM-COATED PROLONGED RELEASE TABLETS",
+              "substances": [
+                "TAMSULOSIN HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 18799/2778",
+              "product": "OMNIC XL 400MICROGRAMS TABLETS, FLOMAXTRA XL 400 MICROGRAMS TABLETS",
+              "substances": [
+                "TAMSULOSIN HYDROCHLORIDE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 00240/0475",
+        "url": "https://products.mhra.gov.uk/search/?search=tamsulosin&page=1",
+        "searched": "tamsulosin",
+        "licensedProducts": 48
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 00166/0199",
+        "url": "https://products.mhra.gov.uk/search/?search=Flomaxtra%20XL&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrocodone",
+      "generic": "Hydrocodone / Paracetamol combination",
+      "brand": "Not licensed for prescription in the UK at all — it isn’t on the NHS medicine list",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://products.mhra.gov.uk/search/?search=hydrocodone&page=1",
+        "searched": "hydrocodone",
+        "licensedProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "fluticasone",
+      "generic": "Fluticasone",
+      "brand": "Pirinase Hayfever (nasal spray, OTC) / Flixotide (inhaler, Rx)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Pirinase Hayfever",
+          "id": "PL 44673/0100",
+          "url": "https://products.mhra.gov.uk/search/?search=Pirinase%20Hayfever&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "PIRINASE HAYFEVER RELIEF FOR ADULTS 0.05% NASAL SPRAY, PIRINASE HAYFEVER ONCE DAILY 0.05% NASAL SPRAY  SUSPENSION",
+          "products": [
+            {
+              "licence": "PL 44673/0100",
+              "product": "PIRINASE HAYFEVER RELIEF FOR ADULTS 0.05% NASAL SPRAY, PIRINASE HAYFEVER ONCE DAILY 0.05% NASAL SPRAY  SUSPENSION",
+              "substances": [
+                "FLUTICASONE PROPIONATE MICRONISED"
+              ]
+            },
+            {
+              "licence": "PL 44673/0099",
+              "product": "PIRINASE HAYFEVER 0.05% W/W NASAL SPRAY, FLIXONASE ALLERGY 0.05% W/W NASAL SPRAY, PIRINASE ALLERGY 0.05% W/W NASAL SPRAY",
+              "substances": [
+                "FLUTICASONE PROPIONATE MICRONISED"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Flixotide",
+          "id": "PLPI 15361/0373",
+          "url": "https://products.mhra.gov.uk/search/?search=Flixotide&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "FLIXOTIDE EVOHALER 250MICROGRAMS",
+          "products": [
+            {
+              "licence": "PLPI 15361/0373",
+              "product": "FLIXOTIDE EVOHALER 250MICROGRAMS",
+              "substances": [
+                "FLUTICASONE PROPIONATE"
+              ]
+            },
+            {
+              "licence": "PLPI 16378/1288",
+              "product": "FLIXOTIDE ACCUHALER 250 MICROGRAMS",
+              "substances": [
+                "FLUTICASONE PROPIONATE"
+              ]
+            },
+            {
+              "licence": "PLPI 20774/1751",
+              "product": "FLIXOTIDE 250 MICROGRAMS EVOHALER",
+              "substances": [
+                "FLUTICASONE PROPIONATE"
+              ]
+            },
+            {
+              "licence": "PLPI 18799/2086",
+              "product": "FLIXOTIDE 500MICROGRAMS ACCUHALER",
+              "substances": [
+                "FLUTICASONE PROPIONATE"
+              ]
+            },
+            {
+              "licence": "PLPI 41103/0081",
+              "product": "FLIXOTIDE 100 MICROGRAMS ACCUHALER",
+              "substances": [
+                "FLUTICASONE PROPIONATE"
+              ]
+            },
+            {
+              "licence": "PLPI 33543/0184",
+              "product": "FLIXOTIDE 125 MICROGRAMS EVOHALER",
+              "substances": [
+                "FLUTICASONE PROPIONATE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 35533/0205",
+        "url": "https://products.mhra.gov.uk/search/?search=fluticasone&page=1",
+        "searched": "fluticasone",
+        "licensedProducts": 119
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "RX",
+        "result": "differ",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 20,
+            "PHARMACY": 1,
+            "OTC": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 44673/0100",
+        "url": "https://products.mhra.gov.uk/search/?search=Pirinase%20Hayfever&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "Status differs: entry MIXED, registry RX"
+      ]
+    },
+    {
+      "id": "meloxicam",
+      "generic": "Meloxicam",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 59209/0120",
+        "url": "https://products.mhra.gov.uk/search/?search=meloxicam&page=1",
+        "searched": "meloxicam",
+        "licensedProducts": 9
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 29
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 59209/0120",
+        "url": "https://products.mhra.gov.uk/search/?search=meloxicam&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "apixaban",
+      "generic": "Apixaban",
+      "brand": "Eliquis",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Eliquis",
+          "id": "PLPI 33543/0075",
+          "url": "https://products.mhra.gov.uk/search/?search=Eliquis&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "ELIQUIS 5 MG FILM-COATED TABLETS",
+          "products": [
+            {
+              "licence": "PLPI 33543/0075",
+              "product": "ELIQUIS 5 MG FILM-COATED TABLETS",
+              "substances": [
+                "APIXABAN"
+              ]
+            },
+            {
+              "licence": "PLPI 16378/0937",
+              "product": "ELIQUIS 2.5 MG FILM-COATED TABLETS",
+              "substances": [
+                "APIXABAN"
+              ]
+            },
+            {
+              "licence": "PLPI 42332/0085",
+              "product": "ELIQUIS 5MG FILM-COATED TABLETS, APIXABAN 5MG FILM-COATED TABLETS",
+              "substances": [
+                "APIXABAN"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 56328/0025",
+        "url": "https://products.mhra.gov.uk/search/?search=apixaban&page=1",
+        "searched": "apixaban",
+        "licensedProducts": 33
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PLPI 33543/0075",
+        "url": "https://products.mhra.gov.uk/search/?search=Eliquis&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "furosemide",
+      "generic": "Furosemide",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 42976/0016",
+        "url": "https://products.mhra.gov.uk/search/?search=furosemide&page=1",
+        "searched": "furosemide",
+        "licensedProducts": 47
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 118
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 42976/0016",
+        "url": "https://products.mhra.gov.uk/search/?search=furosemide&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-glargine",
+      "generic": "Insulin Glargine",
+      "brand": "Lantus",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lantus",
+          "id": "PLPI 15643/0095",
+          "url": "https://products.mhra.gov.uk/search/?search=Lantus&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "LANTUS 100 UNITS/ML SOLUTION FOR INJECTION IN A CARTRIDGE",
+          "products": [
+            {
+              "licence": "PLPI 15643/0095",
+              "product": "LANTUS 100 UNITS/ML SOLUTION FOR INJECTION IN A CARTRIDGE",
+              "substances": [
+                "INSULIN GLARGINE"
+              ]
+            },
+            {
+              "licence": "PLPI 18799/3310",
+              "product": "LANTUS 100 UNITS/ML SOLUTION FOR INJECTION IN A VIAL",
+              "substances": [
+                "INSULIN GLARGINE"
+              ]
+            },
+            {
+              "licence": "PLPI 20504/0231",
+              "product": "LANTUS SOLOSTAR 100 UNITS/ML SOLUTION FOR INJECTION IN A PRE FILLED PEN",
+              "substances": [
+                "INSULIN GLARGINE"
+              ]
+            },
+            {
+              "licence": "PLPI 15643/0341",
+              "product": "LANTUS SOLOSTAR 100 UNITS/ML SOLUTION FOR INJECTION IN A PRE-FILLED PEN",
+              "substances": [
+                "INSULIN GLARGINE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PLGB 14895/0228",
+        "url": "https://products.mhra.gov.uk/search/?search=insulin%20glargine&page=1",
+        "searched": "insulin glargine",
+        "licensedProducts": 16
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PLPI 15643/0095",
+        "url": "https://products.mhra.gov.uk/search/?search=Lantus&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "duloxetine",
+      "generic": "Duloxetine",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 29831/0651",
+        "url": "https://products.mhra.gov.uk/search/?search=duloxetine&page=1",
+        "searched": "duloxetine",
+        "licensedProducts": 53
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 67
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 29831/0651",
+        "url": "https://products.mhra.gov.uk/search/?search=duloxetine&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "famotidine",
+      "generic": "Famotidine",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 04569/0423",
+        "url": "https://products.mhra.gov.uk/search/?search=famotidine&page=1",
+        "searched": "famotidine",
+        "licensedProducts": 7
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 27
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 04569/0423",
+        "url": "https://products.mhra.gov.uk/search/?search=famotidine&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "empagliflozin",
+      "generic": "Empagliflozin",
+      "brand": "Jardiance",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Jardiance",
+          "id": "PLPI 18799/4026",
+          "url": "https://products.mhra.gov.uk/search/?search=Jardiance&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "JARDIANCE 10MG FILM-COATED TABLETS",
+          "products": [
+            {
+              "licence": "PLPI 18799/4026",
+              "product": "JARDIANCE 10MG FILM-COATED TABLETS",
+              "substances": [
+                "EMPAGLIFLOZIN"
+              ]
+            },
+            {
+              "licence": "PLPI 19488/1993",
+              "product": "JARDIANCE 10 MG FILM-COATED TABLETS",
+              "substances": [
+                "EMPAGLIFLOZIN"
+              ]
+            },
+            {
+              "licence": "PLPI 15814/1790",
+              "product": "JARDIANCE 25 MG FILM-COATED TABLETS",
+              "substances": [
+                "EMPAGLIFLOZIN"
+              ]
+            },
+            {
+              "licence": "PLPI 16378/1234",
+              "product": "JARDIANCE 25 MG FILM-COATED TABLETS, EMPAGLIFLOZIN 25 MG FILM-COATED TABLETS",
+              "substances": [
+                "EMPAGLIFLOZIN"
+              ]
+            },
+            {
+              "licence": "PLPI 16378/1066",
+              "product": "JARDIANCE 10 MG FILM-COATED TABLETS, EMPAGLIFLOZIN 10 MG FILM-COATED TABLETS",
+              "substances": [
+                "EMPAGLIFLOZIN"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 04416/1781",
+        "url": "https://products.mhra.gov.uk/search/?search=empagliflozin&page=1",
+        "searched": "empagliflozin",
+        "licensedProducts": 21
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PLPI 18799/4026",
+        "url": "https://products.mhra.gov.uk/search/?search=Jardiance&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "carvedilol",
+      "generic": "Carvedilol",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 36687/0270",
+        "url": "https://products.mhra.gov.uk/search/?search=carvedilol&page=1",
+        "searched": "carvedilol",
+        "licensedProducts": 16
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 43
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 36687/0270",
+        "url": "https://products.mhra.gov.uk/search/?search=carvedilol&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "tramadol",
+      "generic": "Tramadol",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 36722/0129",
+        "url": "https://products.mhra.gov.uk/search/?search=tramadol&page=1",
+        "searched": "tramadol",
+        "licensedProducts": 94
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "CONTROLLED": 83
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 36722/0129",
+        "url": "https://products.mhra.gov.uk/search/?search=tramadol&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "alprazolam",
+      "generic": "Alprazolam",
+      "brand": "Xanax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Xanax",
+          "id": "PL 46302/0328",
+          "url": "https://products.mhra.gov.uk/search/?search=Xanax&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "XANAX 250 MICROGRAM TABLETS",
+          "products": [
+            {
+              "licence": "PL 46302/0328",
+              "product": "XANAX 250 MICROGRAM TABLETS",
+              "substances": [
+                "ALPRAZOLAM"
+              ]
+            },
+            {
+              "licence": "PL 50622/0067",
+              "product": "XANAX 500 MICROGRAM TABLETS",
+              "substances": [
+                "ALPRAZOLAM"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 50622/0066",
+        "url": "https://products.mhra.gov.uk/search/?search=alprazolam&page=1",
+        "searched": "alprazolam",
+        "licensedProducts": 2
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "CONTROLLED": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 46302/0328",
+        "url": "https://products.mhra.gov.uk/search/?search=Xanax&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "prednisone",
+      "generic": "Prednisone",
+      "brand": "Not sold — prednisolone is used instead",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://products.mhra.gov.uk/search/?search=prednisone&page=1",
+        "searched": "prednisone",
+        "licensedProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "clopidogrel",
+      "generic": "Clopidogrel",
+      "brand": "Plavix (mostly sold generic)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Plavix",
+          "id": "PLPI 20504/0193",
+          "url": "https://products.mhra.gov.uk/search/?search=Plavix&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "PLAVIX 75 MG FILM-COATED TABLET",
+          "products": [
+            {
+              "licence": "PLPI 20504/0193",
+              "product": "PLAVIX 75 MG FILM-COATED TABLET",
+              "substances": [
+                "CLOPIDOGREL HYDROGEN SULFATE"
+              ]
+            },
+            {
+              "licence": "PLPI 15814/1964",
+              "product": "PLAVIX 75 MG FILM-COATED TABLETS",
+              "substances": [
+                "CLOPIDOGREL"
+              ]
+            },
+            {
+              "licence": "PLGB 04425/0794",
+              "product": "PLAVIX 300 MG FILM-COATED TABLET",
+              "substances": [
+                "CLOPIDOGREL HYDROGEN SULFATE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 21880/0249",
+        "url": "https://products.mhra.gov.uk/search/?search=clopidogrel&page=1",
+        "searched": "clopidogrel",
+        "licensedProducts": 12
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PLPI 20504/0193",
+        "url": "https://products.mhra.gov.uk/search/?search=Plavix&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "aspirin",
+      "generic": "Acetylsalicylic acid (Aspirin)",
+      "brand": "Aspirin / Disprin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Aspirin",
+          "id": "PL 20416/0723",
+          "url": "https://products.mhra.gov.uk/search/?search=Aspirin&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "ASPIRIN TABLETS BP 300MG",
+          "products": [
+            {
+              "licence": "PL 20416/0723",
+              "product": "ASPIRIN TABLETS BP 300MG",
+              "substances": [
+                "ASPIRIN"
+              ]
+            },
+            {
+              "licence": "PL 00142/1252",
+              "product": "ASPIRIN 75MG DISPERSIBLE TABLETS",
+              "substances": [
+                "ASPIRIN"
+              ]
+            },
+            {
+              "licence": "PL 17907/0152",
+              "product": "ASPIRIN 300MG TABLETS BP",
+              "substances": [
+                "ASPIRIN"
+              ]
+            },
+            {
+              "licence": "PL 08977/0018",
+              "product": "ASPIRIN 300MG TABLETS",
+              "substances": [
+                "ASPIRIN"
+              ]
+            },
+            {
+              "licence": "PL 57630/0001",
+              "product": "ASPIRIN 300MG CAPLETS",
+              "substances": [
+                "ASPIRIN"
+              ]
+            },
+            {
+              "licence": "PL 21880/0171",
+              "product": "ASPIRIN 75MG TABLETS",
+              "substances": [
+                "ACETYLSALICYLIC ACID"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Disprin",
+          "id": "PL 00063/0018",
+          "url": "https://products.mhra.gov.uk/search/?search=Disprin&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "DISPRIN DIRECT",
+          "products": [
+            {
+              "licence": "PL 00063/0018",
+              "product": "DISPRIN DIRECT",
+              "substances": [
+                "ASPIRIN"
+              ]
+            },
+            {
+              "licence": "PL 00063/0017",
+              "product": "DISPRIN 300MG DISPERSIBLE TABLETS",
+              "substances": [
+                "ASPIRIN"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 21597/0067",
+        "url": "https://products.mhra.gov.uk/search/?search=acetylsalicylic%20acid&page=1",
+        "searched": "acetylsalicylic acid",
+        "licensedProducts": 37
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "MIXED",
+        "result": "differ",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "OTC": 14,
+            "PHARMACY": 28,
+            "RX": 38
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 20416/0723",
+        "url": "https://products.mhra.gov.uk/search/?search=Aspirin&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "Status differs: entry OTC, registry MIXED"
+      ]
+    },
+    {
+      "id": "oxycodone",
+      "generic": "Oxycodone",
+      "brand": "OxyContin — tightly controlled",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "OxyContin",
+          "id": "PLPI 20636/1681",
+          "url": "https://products.mhra.gov.uk/search/?search=OxyContin&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "OXYCONTIN 20MG PROLONGED RELEASE TABLETS",
+          "products": [
+            {
+              "licence": "PLPI 20636/1681",
+              "product": "OXYCONTIN 20MG PROLONGED RELEASE TABLETS",
+              "substances": [
+                "OXYCODONE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 19488/1112",
+              "product": "OXYCONTIN 10MG PROLONGED RELEASE TABLETS",
+              "substances": [
+                "OXYCODONE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 19488/1548",
+              "product": "OXYCONTIN 5MG PROLONGED RELEASE TABLETS",
+              "substances": [
+                "OXYCODONE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 16950/0139",
+              "product": "OXYCONTIN 15MG PROLONGED RELEASE TABLETS",
+              "substances": [
+                "OXYCODONE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 20636/1276",
+              "product": "OXYCONTIN 80MG PROLONGED RELEASE TABLETS",
+              "substances": [
+                "OXYCODONE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 42332/0050",
+              "product": "OXYCONTIN 10MG PROLONGED-RELEASE TABLETS",
+              "substances": [
+                "OXYCODONE HYDROCHLORIDE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 59242/0012",
+        "url": "https://products.mhra.gov.uk/search/?search=oxycodone&page=1",
+        "searched": "oxycodone",
+        "licensedProducts": 178
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "CONTROLLED": 14
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PLPI 20636/1681",
+        "url": "https://products.mhra.gov.uk/search/?search=OxyContin&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "methylphenidate",
+      "generic": "Methylphenidate",
+      "brand": "Concerta / Ritalin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Concerta",
+          "id": "PLPI 20504/0651",
+          "url": "https://products.mhra.gov.uk/search/?search=Concerta&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "CONCERTA XL 36 MG PROLONGED RELEASE TABLETS",
+          "products": [
+            {
+              "licence": "PLPI 20504/0651",
+              "product": "CONCERTA XL 36 MG PROLONGED RELEASE TABLETS",
+              "substances": [
+                "METHYLPHENIDATE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 33532/0552",
+              "product": "CONCERTA XL 27 MG PROLONGED-RELEASE TABLETS",
+              "substances": [
+                "METHYLPHENIDATE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 20504/0015",
+              "product": "CONCERTA XL 27 MG PROLONGED RELEASE TABLETS",
+              "substances": [
+                "METHYLPHENIDATE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 00242/0372",
+              "product": "CONCERTA XL 18MG PROLONGED-RELEASE TABLETS",
+              "substances": [
+                "METHYLPHENIDATE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 19488/1759",
+              "product": "CONCERTA XL 18 MG PROLONGED RELEASE TABLETS",
+              "substances": [
+                "METHYLPHENIDATE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 33652/0359",
+              "product": "CONCERTA XL 18 MG PROLONGED-RELEASE TABLETS",
+              "substances": [
+                "METHYLPHENIDATE HYDROCHLORIDE"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ritalin",
+          "id": "PLPI 19488/1135",
+          "url": "https://products.mhra.gov.uk/search/?search=Ritalin&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "RITALIN 10MG TABLETS",
+          "products": [
+            {
+              "licence": "PLPI 19488/1135",
+              "product": "RITALIN 10MG TABLETS",
+              "substances": [
+                "METHYLPHENIDATE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 15011/0033",
+              "product": "RITALIN TABLETS 10MG",
+              "substances": [
+                "METHYLPHENIDATE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 19488/0344",
+              "product": "METHYLPHENIDATE HYDROCHLORIDE 10MG TABLETS, RITALIN 10MG TABLETS",
+              "substances": [
+                "METHYLPHENIDATE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 15184/1565",
+              "product": "RITALIN 10MG TABLETS, METHYLPHENIDATE HYDROCHLORIDE 10MG TABLETS",
+              "substances": [
+                "METHYLPHENIDATE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 33532/0824",
+              "product": "METHYLPHENIDATE HYDROCHLORIDE 10 MG TABLETS, RITALIN 10 MG TABLETS",
+              "substances": [
+                "METHYLPHENIDATE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 15011/0038",
+              "product": "RITALIN XL 60 MG MODIFIED-RELEASE HARD CAPSULES",
+              "substances": [
+                "METHYLPHENIDATE HYDROCHLORIDE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PLPI 15184/1514",
+        "url": "https://products.mhra.gov.uk/search/?search=methylphenidate&page=1",
+        "searched": "methylphenidate",
+        "licensedProducts": 129
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "CONTROLLED": 16
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PLPI 20504/0651",
+        "url": "https://products.mhra.gov.uk/search/?search=Concerta&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "naproxen",
+      "generic": "Naproxen",
+      "brand": "Feminax Ultra",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Feminax Ultra",
+          "id": "PL 00010/0631",
+          "url": "https://products.mhra.gov.uk/search/?search=Feminax%20Ultra&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "FEMINAX ULTRA 250MG GASTRO-RESISTANT TABLETS",
+          "products": [
+            {
+              "licence": "PL 00010/0631",
+              "product": "FEMINAX ULTRA 250MG GASTRO-RESISTANT TABLETS",
+              "substances": [
+                "NAPROXEN"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 20416/0112",
+        "url": "https://products.mhra.gov.uk/search/?search=naproxen&page=1",
+        "searched": "naproxen",
+        "licensedProducts": 40
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 00010/0631",
+        "url": "https://products.mhra.gov.uk/search/?search=Feminax%20Ultra&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "diclofenac-gel",
+      "generic": "Diclofenac (topical gel)",
+      "brand": "Voltarol",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Voltarol",
+          "id": "PL 20162/0018",
+          "url": "https://products.mhra.gov.uk/search/?search=Voltarol&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "VOLTAROL OPHTHA",
+          "products": [
+            {
+              "licence": "PL 20162/0018",
+              "product": "VOLTAROL OPHTHA",
+              "substances": [
+                "DICLOFENAC SODIUM"
+              ]
+            },
+            {
+              "licence": "PLPI 19488/0435",
+              "product": "VOLTAROL RAPID 50MG TABLETS",
+              "substances": [
+                "DICLOFENAC POTASSIUM"
+              ]
+            },
+            {
+              "licence": "PL 00101/0474",
+              "product": "VOLTAROL SUPPOSITORIES 50MG",
+              "substances": [
+                "DICLOFENAC SODIUM"
+              ]
+            },
+            {
+              "licence": "PL 00101/0466",
+              "product": "VOLTAROL AMPOULES 75MG/3ML",
+              "substances": [
+                "DICLOFENAC SODIUM"
+              ]
+            },
+            {
+              "licence": "PL 00101/0472",
+              "product": "VOLTAROL SUPPOSITORIES 12.5MG",
+              "substances": [
+                "DICLOFENAC SODIUM"
+              ]
+            },
+            {
+              "licence": "PL 00101/0475",
+              "product": "VOLTAROL SUPPOSITORIES 100MG",
+              "substances": [
+                "DICLOFENAC SODIUM"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 19255/0019",
+        "url": "https://products.mhra.gov.uk/search/?search=diclofenac&page=1",
+        "searched": "diclofenac",
+        "licensedProducts": 105
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "MIXED",
+        "result": "differ",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 15,
+            "PHARMACY": 6,
+            "OTC": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 20162/0018",
+        "url": "https://products.mhra.gov.uk/search/?search=Voltarol&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Status differs: entry OTC, registry MIXED"
+      ]
+    },
+    {
+      "id": "fexofenadine",
+      "generic": "Fexofenadine",
+      "brand": "Allevia",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Allevia",
+          "id": "PL 53886/0065",
+          "url": "https://products.mhra.gov.uk/search/?search=Allevia&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "ALLEVIA 120 MG TABLETS",
+          "products": [
+            {
+              "licence": "PL 53886/0065",
+              "product": "ALLEVIA 120 MG TABLETS",
+              "substances": [
+                "FEXOFENADINE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 53886/0075",
+              "product": "ALLEVIA HIVES 180 MG TABLETS",
+              "substances": [
+                "FEXOFENADINE HYDROCHLORIDE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 16363/0837",
+        "url": "https://products.mhra.gov.uk/search/?search=fexofenadine&page=1",
+        "searched": "fexofenadine",
+        "licensedProducts": 19
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "OTC": 1,
+            "PHARMACY": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 53886/0065",
+        "url": "https://products.mhra.gov.uk/search/?search=Allevia&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "guaifenesin",
+      "generic": "Guaifenesin",
+      "brand": "Benylin Chesty Coughs / Robitussin Chesty Cough",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Benylin Chesty Coughs",
+          "id": "PL 15513/0056",
+          "url": "https://products.mhra.gov.uk/search/?search=Benylin%20Chesty%20Coughs&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "BENYLIN MUCUS COUGH, BENYLIN CHESTY COUGHS (NON-DROWSY)",
+          "products": [
+            {
+              "licence": "PL 15513/0056",
+              "product": "BENYLIN MUCUS COUGH, BENYLIN CHESTY COUGHS (NON-DROWSY)",
+              "substances": [
+                "GUAIFENESIN",
+                "LEVOMENTHOL"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Robitussin Chesty Cough",
+          "id": "PL 44673/0206",
+          "url": "https://products.mhra.gov.uk/search/?search=Robitussin%20Chesty%20Cough&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "ROBITUSSIN CHESTY COUGH MEDICINE",
+          "products": [
+            {
+              "licence": "PL 44673/0206",
+              "product": "ROBITUSSIN CHESTY COUGH MEDICINE",
+              "substances": [
+                "GUAIPHENESIN"
+              ]
+            },
+            {
+              "licence": "PL 44673/0174",
+              "product": "ROBITUSSIN CHESTY COUGH JUNIOR 50 MG / 5 ML ORAL SOLUTION",
+              "substances": [
+                "GUAIFENESIN"
+              ]
+            },
+            {
+              "licence": "PL 44673/0208",
+              "product": "ROBITUSSIN MUCUS COUGH AND CONGESTION RELIEF 20MG  6MG/ML ORAL SOLUTION, ROBITUSSIN CHESTY COUGH WITH CONGESTION",
+              "substances": [
+                "PSEUDOEPHEDRINE HYDROCHLORIDE",
+                "GUAIPHENESIN"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 00240/0594",
+        "url": "https://products.mhra.gov.uk/search/?search=guaifenesin&page=1",
+        "searched": "guaifenesin",
+        "licensedProducts": 50
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "OTC": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 15513/0056",
+        "url": "https://products.mhra.gov.uk/search/?search=Benylin%20Chesty%20Coughs&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "dextromethorphan",
+      "generic": "Dextromethorphan",
+      "brand": "Benylin Dry Coughs / Robitussin Dry Cough",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Benylin Dry Coughs",
+          "id": "PL 15513/0053",
+          "url": "https://products.mhra.gov.uk/search/?search=Benylin%20Dry%20Coughs&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "BENYLIN DRY COUGHS NIGHT SYRUP",
+          "products": [
+            {
+              "licence": "PL 15513/0053",
+              "product": "BENYLIN DRY COUGHS NIGHT SYRUP",
+              "substances": [
+                "DEXTROMETHORPHAN HYDROBROMIDE",
+                "L-MENTHOL",
+                "DIPHENHYDRAMINE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 15513/0051",
+              "product": "BENYLIN DRY COUGHS 7.5MG/5ML SYRUP",
+              "substances": [
+                "DEXTROMETHORPHAN HYDROBROMIDE"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Robitussin Dry Cough",
+          "id": "PL 44673/0207",
+          "url": "https://products.mhra.gov.uk/search/?search=Robitussin%20Dry%20Cough&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "ROBITUSSIN DRY COUGH MEDICINE",
+          "products": [
+            {
+              "licence": "PL 44673/0207",
+              "product": "ROBITUSSIN DRY COUGH MEDICINE",
+              "substances": [
+                "DEXTROMETHORPHAN HYDROBROMIDE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 17907/0314",
+        "url": "https://products.mhra.gov.uk/search/?search=dextromethorphan&page=1",
+        "searched": "dextromethorphan",
+        "licensedProducts": 14
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "PHARMACY",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "PHARMACY": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 15513/0053",
+        "url": "https://products.mhra.gov.uk/search/?search=Benylin%20Dry%20Coughs&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oxymetazoline",
+      "generic": "Oxymetazoline (nasal spray)",
+      "brand": "Vicks Sinex",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Vicks Sinex",
+          "id": "PL 00129/0133",
+          "url": "https://products.mhra.gov.uk/search/?search=Vicks%20Sinex&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "VICKS SINEX MICROMIST",
+          "products": [
+            {
+              "licence": "PL 00129/0133",
+              "product": "VICKS SINEX MICROMIST",
+              "substances": [
+                "OXYMETAZOLINE HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 00129/0356",
+              "product": "VICKS SINEX SOOTHER NASAL SPRAY",
+              "substances": [
+                "OXYMETAZOLINE HYDROCHLORIDE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 00129/0133",
+        "url": "https://products.mhra.gov.uk/search/?search=oxymetazoline&page=1",
+        "searched": "oxymetazoline",
+        "licensedProducts": 4
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "OTC": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 00129/0133",
+        "url": "https://products.mhra.gov.uk/search/?search=Vicks%20Sinex&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "bismuth-subsalicylate",
+      "generic": "Bismuth subsalicylate",
+      "brand": "Pepto-Bismol",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Pepto-Bismol",
+          "id": "PL 00129/0358",
+          "url": "https://products.mhra.gov.uk/search/?search=Pepto-Bismol&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "PEPTO-BISMOL 17.5MG/ML ORAL SUSPENSION",
+          "products": [
+            {
+              "licence": "PL 00129/0358",
+              "product": "PEPTO-BISMOL 17.5MG/ML ORAL SUSPENSION",
+              "substances": [
+                "BISMUTH SUBSALICYLATE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 00014/0615",
+        "url": "https://products.mhra.gov.uk/search/?search=bismuth%20subsalicylate&page=1",
+        "searched": "bismuth subsalicylate",
+        "licensedProducts": 3
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "OTC": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 00129/0358",
+        "url": "https://products.mhra.gov.uk/search/?search=Pepto-Bismol&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "calcium-carbonate",
+      "generic": "Calcium carbonate (antacid)",
+      "brand": "Rennie",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Rennie",
+          "id": "PL 00010/0361",
+          "url": "https://products.mhra.gov.uk/search/?search=Rennie&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "RENNIE SPEARMINT",
+          "products": [
+            {
+              "licence": "PL 00010/0361",
+              "product": "RENNIE SPEARMINT",
+              "substances": [
+                "CALCIUM CARBONATE",
+                "MAGNESIUM CARBONATE HEAVY"
+              ]
+            },
+            {
+              "licence": "PL 00010/0353",
+              "product": "RENNIE PEPPERMINT",
+              "substances": [
+                "MAGNESIUM CARBONATE HEAVY",
+                "CALCIUM CARBONATE"
+              ]
+            },
+            {
+              "licence": "PL 00010/0354",
+              "product": "RENNIE ORANGE FLAVOUR",
+              "substances": [
+                "CALCIUM CARBONATE"
+              ]
+            },
+            {
+              "licence": "PL 00010/0362",
+              "product": "RENNIE SUGAR FREE",
+              "substances": [
+                "CALCIUM CARBONATE",
+                "MAGNESIUM CARBONATE HEAVY"
+              ]
+            },
+            {
+              "licence": "PL 00010/0514",
+              "product": "RENNIE EXTRA TABLETS, RENNIE DUAL ACTION CHEWABLE TABLETS",
+              "substances": [
+                "ALGINIC ACID",
+                "MAGNESIUM CARBONATE HEAVY",
+                "CALCIUM CARBONATE"
+              ]
+            },
+            {
+              "licence": "PL 00010/0360",
+              "product": "RENNIE SOFT CHEWS 800MG CHEWABLE TABLETS",
+              "substances": [
+                "CALCIUM CARBONATE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 44673/0057",
+        "url": "https://products.mhra.gov.uk/search/?search=calcium%20carbonate&page=1",
+        "searched": "calcium carbonate",
+        "licensedProducts": 74
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "OTC": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 00010/0361",
+        "url": "https://products.mhra.gov.uk/search/?search=Rennie&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "simeticone",
+      "generic": "Simeticone",
+      "brand": "WindSetlers",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "WindSetlers",
+          "id": "PL 00240/0095",
+          "url": "https://products.mhra.gov.uk/search/?search=WindSetlers&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "WINDSETLERS",
+          "products": [
+            {
+              "licence": "PL 00240/0095",
+              "product": "WINDSETLERS",
+              "substances": [
+                "SIMETICONE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 15490/0001",
+        "url": "https://products.mhra.gov.uk/search/?search=simeticone&page=1",
+        "searched": "simeticone",
+        "licensedProducts": 10
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "OTC": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 00240/0095",
+        "url": "https://products.mhra.gov.uk/search/?search=WindSetlers&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oral-rehydration-salts",
+      "generic": "Oral rehydration salts",
+      "brand": "Dioralyte",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Dioralyte",
+          "id": "PL 35104/0040",
+          "url": "https://products.mhra.gov.uk/search/?search=Dioralyte&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "DIORALYTE BLACKCURRANT",
+          "products": [
+            {
+              "licence": "PL 35104/0040",
+              "product": "DIORALYTE BLACKCURRANT",
+              "substances": [
+                "SODIUM CHLORIDE",
+                "DISODIUM HYDROGEN CITRATE",
+                "GLUCOSE",
+                "POTASSIUM CHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 35104/0042",
+              "product": "DIORALYTE CITRUS",
+              "substances": [
+                "DISODIUM HYDROGEN CITRATE",
+                "POTASSIUM CHLORIDE",
+                "GLUCOSE",
+                "SODIUM CHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 53886/0017",
+              "product": "DIORALYTE NATURAL",
+              "substances": [
+                "GLUCOSE",
+                "DISODIUM HYDROGEN CITRATE",
+                "POTASSIUM CHLORIDE",
+                "SODIUM CHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 35104/0043",
+              "product": "DIORALYTE CITRUS SACHETS",
+              "substances": [
+                "DISODIUM HYDROGEN CITRATE",
+                "POTASSIUM CHLORIDE",
+                "GLUCOSE",
+                "SODIUM CHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 35104/0041",
+              "product": "DIORALYTE BLACKCURRANT SACHETS",
+              "substances": [
+                "DISODIUM HYDROGEN CITRATE",
+                "GLUCOSE",
+                "SODIUM CHLORIDE",
+                "POTASSIUM CHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 53886/0018",
+              "product": "DIORALYTE NATURAL SACHETS",
+              "substances": [
+                "POTASSIUM CHLORIDE",
+                "GLUCOSE",
+                "DISODIUM HYDROGEN CITRATE",
+                "SODIUM CHLORIDE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 42671/0008",
+        "url": "https://products.mhra.gov.uk/search/?search=glucose&page=1",
+        "searched": "glucose",
+        "licensedProducts": 87
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "OTC": 3,
+            "PHARMACY": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 35104/0040",
+        "url": "https://products.mhra.gov.uk/search/?search=Dioralyte&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "bisacodyl",
+      "generic": "Bisacodyl",
+      "brand": "Dulcolax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Dulcolax",
+          "id": "PL 61186/0008",
+          "url": "https://products.mhra.gov.uk/search/?search=Dulcolax&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "DULCOLAX 5 MG SUPPOSITORIES",
+          "products": [
+            {
+              "licence": "PL 61186/0008",
+              "product": "DULCOLAX 5 MG SUPPOSITORIES",
+              "substances": [
+                "BISACODYL"
+              ]
+            },
+            {
+              "licence": "PL 53886/0028",
+              "product": "DULCOLAX TWELVE PLUS 10 MG SUPPOSITORIES",
+              "substances": [
+                "BISACODYL"
+              ]
+            },
+            {
+              "licence": "PL 53886/0025",
+              "product": "DULCOLAX ADULT 5 MG GASTRO-RESISTANT TABLETS",
+              "substances": [
+                "BISACODYL"
+              ]
+            },
+            {
+              "licence": "PL 53886/0029",
+              "product": "DULCOLAX TWELVE PLUS 5 MG GASTRO-RESISTANT TABLETS",
+              "substances": [
+                "BISACODYL"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 00156/0045",
+        "url": "https://products.mhra.gov.uk/search/?search=bisacodyl&page=1",
+        "searched": "bisacodyl",
+        "licensedProducts": 14
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "MIXED",
+        "result": "differ",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 1,
+            "PHARMACY": 2,
+            "OTC": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 61186/0008",
+        "url": "https://products.mhra.gov.uk/search/?search=Dulcolax&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Status differs: entry OTC, registry MIXED"
+      ]
+    },
+    {
+      "id": "polyethylene-glycol",
+      "generic": "Polyethylene glycol 3350 (macrogol)",
+      "brand": "Movicol / Laxido",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Movicol",
+          "id": "PLPI 19488/0064",
+          "url": "https://products.mhra.gov.uk/search/?search=Movicol&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "MOVICOL",
+          "products": [
+            {
+              "licence": "PLPI 19488/0064",
+              "product": "MOVICOL",
+              "substances": [
+                "SODIUM BICARBONATE",
+                "POTASSIUM CHLORIDE",
+                "SODIUM CHLORIDE",
+                "MACROGOL 3350"
+              ]
+            },
+            {
+              "licence": "PL 00322/0086",
+              "product": "MOVICOL CHOCOLATE 13.7G POWDER FOR ORAL SOLUTION",
+              "substances": [
+                "SODIUM HYDROGEN CARBONATE",
+                "POTASSIUM CHLORIDE",
+                "SODIUM CHLORIDE",
+                "MACROGOL 3350"
+              ]
+            },
+            {
+              "licence": "PL 20011/0037",
+              "product": "MOVICOL PLAIN 13.7G POWDER FOR ORAL SOLUTION",
+              "substances": [
+                "MACROGOL 3350",
+                "POTASSIUM CHLORIDE",
+                "SODIUM BICARBONATE",
+                "SODIUM CHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 20011/0077",
+              "product": "MOVICOL EASE 13.7G POWDER FOR ORAL SOLUTION",
+              "substances": [
+                "SODIUM BICARBONATE",
+                "MACROGOL 3350",
+                "SODIUM CHLORIDE",
+                "POTASSIUM CHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 00322/0070",
+              "product": "MOVICOL 13.7G POWDER FOR ORAL SOLUTION",
+              "substances": [
+                "POTASSIUM CHLORIDE",
+                "MACROGOL 3350",
+                "SODIUM BICARBONATE",
+                "SODIUM CHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 00322/0080",
+              "product": "MOVICOL-HALF 6.9G POWDER FOR ORAL SOLUTION",
+              "substances": [
+                "MACROGOL 3350",
+                "SODIUM CHLORIDE",
+                "SODIUM HYDROGEN CARBONATE",
+                "SODIUM BICARBONATE",
+                "POTASSIUM CHLORIDE"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Laxido",
+          "id": "PL 27827/0026",
+          "url": "https://products.mhra.gov.uk/search/?search=Laxido&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "LAXIDO ORANGE  POWDER FOR ORAL SOLUTION",
+          "products": [
+            {
+              "licence": "PL 27827/0026",
+              "product": "LAXIDO ORANGE  POWDER FOR ORAL SOLUTION",
+              "substances": [
+                "SODIUM CHLORIDE",
+                "MACROGOL 3350",
+                "SODIUM HYDROGEN CARBONATE",
+                "POTASSIUM CHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 27827/0028",
+              "product": "LAXIDO PAEDIATRIC PLAIN 6.9 G  POWDER FOR ORAL SOLUTION",
+              "substances": [
+                "SODIUM HYDROGEN CARBONATE",
+                "SODIUM CHLORIDE",
+                "MACROGOL 3350",
+                "POTASSIUM CHLORIDE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PLPI 46420/0621",
+        "url": "https://products.mhra.gov.uk/search/?search=polyethylene%20glycol%203350&page=1",
+        "searched": "polyethylene glycol 3350",
+        "licensedProducts": 16
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "MIXED",
+        "result": "differ",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "PHARMACY": 6,
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PLPI 19488/0064",
+        "url": "https://products.mhra.gov.uk/search/?search=Movicol&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Status differs: entry PHARMACY, registry MIXED"
+      ]
+    },
+    {
+      "id": "meclozine",
+      "generic": "Meclozine",
+      "brand": "Sea-Legs / Traveleeze",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Sea-Legs",
+          "id": "PL 58255/0003",
+          "url": "https://products.mhra.gov.uk/search/?search=Sea-Legs&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "SEA-LEGS TABLETS",
+          "products": [
+            {
+              "licence": "PL 58255/0003",
+              "product": "SEA-LEGS TABLETS",
+              "substances": [
+                "MECLOZINE HYDROCHLORIDE"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Traveleeze",
+          "id": "PL 00094/0042",
+          "url": "https://products.mhra.gov.uk/search/?search=Traveleeze&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "TRAVELEEZE 12.5MG PASTILLES",
+          "products": [
+            {
+              "licence": "PL 00094/0042",
+              "product": "TRAVELEEZE 12.5MG PASTILLES",
+              "substances": [
+                "MECLOZINE HYDROCHLORIDE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 00094/0042",
+        "url": "https://products.mhra.gov.uk/search/?search=meclozine&page=1",
+        "searched": "meclozine",
+        "licensedProducts": 2
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 58255/0003",
+        "url": "https://products.mhra.gov.uk/search/?search=Sea-Legs&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrocortisone-cream",
+      "generic": "Hydrocortisone (cream)",
+      "brand": "HC45",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "HC45",
+          "id": "PL 50567/0012",
+          "url": "https://products.mhra.gov.uk/search/?search=HC45&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "HC45 HYDROCORTISONE CREAM",
+          "products": [
+            {
+              "licence": "PL 50567/0012",
+              "product": "HC45 HYDROCORTISONE CREAM",
+              "substances": [
+                "HYDROCORTISONE ACETATE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 10321/0210",
+        "url": "https://products.mhra.gov.uk/search/?search=hydrocortisone&page=1",
+        "searched": "hydrocortisone",
+        "licensedProducts": 82
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "PHARMACY",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "PHARMACY": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 50567/0012",
+        "url": "https://products.mhra.gov.uk/search/?search=HC45&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "clotrimazole",
+      "generic": "Clotrimazole",
+      "brand": "Canesten",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Canesten",
+          "id": "PL 00010/0016",
+          "url": "https://products.mhra.gov.uk/search/?search=Canesten&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "CANESTEN CREAM",
+          "products": [
+            {
+              "licence": "PL 00010/0016",
+              "product": "CANESTEN CREAM",
+              "substances": [
+                "CLOTRIMAZOLE MICRONISED"
+              ]
+            },
+            {
+              "licence": "PL 00010/0082",
+              "product": "CANESTEN SOLUTION",
+              "substances": [
+                "CLOTRIMAZOLE"
+              ]
+            },
+            {
+              "licence": "PL 00010/0060",
+              "product": "CANESTEN DERMATOLOGICAL SPRAY",
+              "substances": [
+                "CLOTRIMAZOLE"
+              ]
+            },
+            {
+              "licence": "PL 00010/0015",
+              "product": "CANESTEN 100MG PESSARY",
+              "substances": [
+                "CLOTRIMAZOLE MICRONISED"
+              ]
+            },
+            {
+              "licence": "PL 00010/0072",
+              "product": "CANESTEN 200MG PESSARY",
+              "substances": [
+                "CLOTRIMAZOLE MICRONISED"
+              ]
+            },
+            {
+              "licence": "PLPI 20774/1442",
+              "product": "CANESTEN 2% THRUSH CREAM",
+              "substances": [
+                "CLOTRIMAZOLE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 04569/0194",
+        "url": "https://products.mhra.gov.uk/search/?search=clotrimazole&page=1",
+        "searched": "clotrimazole",
+        "licensedProducts": 50
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "PHARMACY",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 1,
+            "PHARMACY": 16,
+            "OTC": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 00010/0016",
+        "url": "https://products.mhra.gov.uk/search/?search=Canesten&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "antibiotic-ointment",
+      "generic": "Bacitracin / Neomycin / Polymyxin B (antibiotic ointment)",
+      "brand": "Not sold without a prescription — ask for an antiseptic cream such as \"Savlon\" or \"Germolene\"",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 19095/0007",
+        "url": "https://products.mhra.gov.uk/search/?search=bacitracin&page=1",
+        "searched": "bacitracin",
+        "licensedProducts": 1
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "Entry says \"Not sold without a prescription — ask for an antiseptic cream such as \"Savlon\" or \"Germolene\"\" but the registry lists products with this ingredient"
+      ]
+    },
+    {
+      "id": "doxylamine",
+      "generic": "Doxylamine",
+      "brand": "Not sold on its own — \"Nytol\" (diphenhydramine) is the usual sleep aid",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "PLPI 18799/4265",
+        "url": "https://products.mhra.gov.uk/search/?search=doxylamine&page=1",
+        "searched": "doxylamine",
+        "licensedProducts": 5
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "Entry says \"Not sold on its own — \"Nytol\" (diphenhydramine) is the usual sleep aid\" but the registry lists products with this ingredient"
+      ]
+    },
+    {
+      "id": "levonorgestrel",
+      "generic": "Levonorgestrel (emergency contraception)",
+      "brand": "Levonelle",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Levonelle",
+          "id": "PL 04854/0150",
+          "url": "https://products.mhra.gov.uk/search/?search=Levonelle&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "LEVONELLE 1500 MICROGRAM TABLET",
+          "products": [
+            {
+              "licence": "PL 04854/0150",
+              "product": "LEVONELLE 1500 MICROGRAM TABLET",
+              "substances": [
+                "LEVONORGESTREL"
+              ]
+            },
+            {
+              "licence": "PL 04854/0151",
+              "product": "LEVONELLE ONE STEP 1500 MICROGRAM TABLET",
+              "substances": [
+                "LEVONORGESTREL"
+              ]
+            },
+            {
+              "licence": "PLPI 18799/2250",
+              "product": "LEVONORGESTREL 1500MICROGRAMS TABLET, LEVONELLE 1500MICROGRAMS TABLET",
+              "substances": [
+                "LEVONORGESTREL"
+              ]
+            },
+            {
+              "licence": "PLPI 46420/0122",
+              "product": "LEVONELLE ONE STEP 1500 MICROGRAMS TABLETS, LEVONORGESTREL 1500 MICROGRAMS TABLETS",
+              "substances": [
+                "LEVONORGESTREL"
+              ]
+            },
+            {
+              "licence": "PLPI 18799/2319",
+              "product": "LEVONELLE ONE STEP 1.5MG TABLET, LEVONORGESTREL ONE STEP 1.5MG TABLET",
+              "substances": [
+                "LEVONORGESTREL"
+              ]
+            },
+            {
+              "licence": "PLPI 18980/1089",
+              "product": "LEVONELLE ONE STEP 1500 MICROGRAMS TABLET, LEVONORGESTREL ONE STEP 1500 MICROGRAMS TABLET",
+              "substances": [
+                "LEVONORGESTREL"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 20395/0341",
+        "url": "https://products.mhra.gov.uk/search/?search=levonorgestrel&page=1",
+        "searched": "levonorgestrel",
+        "licensedProducts": 55
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "MIXED",
+        "result": "differ",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "PHARMACY": 4,
+            "RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 04854/0150",
+        "url": "https://products.mhra.gov.uk/search/?search=Levonelle&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Status differs: entry PHARMACY, registry MIXED"
+      ]
+    },
+    {
+      "id": "atovaquone-proguanil",
+      "generic": "Atovaquone / Proguanil",
+      "brand": "Malarone (Rx) / Maloff Protect (pharmacy)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Malarone",
+          "id": "PLPI 20636/1165",
+          "url": "https://products.mhra.gov.uk/search/?search=Malarone&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "MALARONE TABLETS",
+          "products": [
+            {
+              "licence": "PLPI 20636/1165",
+              "product": "MALARONE TABLETS",
+              "substances": [
+                "PROGUANIL HYDROCHLORIDE",
+                "ATOVAQUONE"
+              ]
+            },
+            {
+              "licence": "PLPI 16369/1662",
+              "product": "MALARONE 250MG/100MG TABLETS",
+              "substances": [
+                "ATOVAQUONE",
+                "PROGUANIL HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 16378/0569",
+              "product": "MALARONE 250MG/100MG FILM-COATED TABLETS",
+              "substances": [
+                "ATOVAQUONE",
+                "PROGUANIL HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 45396/0100",
+              "product": "MALARONE 250 MG/100 MG TABLETS",
+              "substances": [
+                "PROGUANIL HYDROCHLORIDE",
+                "ATOVAQUONE"
+              ]
+            },
+            {
+              "licence": "PLPI 46927/0256",
+              "product": "MALARONE 250 MG/100 MG FILM-COATED TABLETS",
+              "substances": [
+                "ATOVAQUONE",
+                "PROGUANIL HYDROCHLORIDE"
+              ]
+            },
+            {
+              "licence": "PL 10949/0258",
+              "product": "MALARONE TABLETS 250 MG/100 MG FILM-COATED TABLETS",
+              "substances": [
+                "PROGUANIL HYDROCHLORIDE",
+                "ATOVAQUONE"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maloff Protect",
+          "id": "PL 25258/0166",
+          "url": "https://products.mhra.gov.uk/search/?search=Maloff%20Protect&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "MALOFF PROTECT 250MG/100MG TABLETS",
+          "products": [
+            {
+              "licence": "PL 25258/0166",
+              "product": "MALOFF PROTECT 250MG/100MG TABLETS",
+              "substances": [
+                "PROGUANIL HYDROCHLORIDE",
+                "ATOVAQUONE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PLPI 20636/3514",
+        "url": "https://products.mhra.gov.uk/search/?search=atovaquone&page=1",
+        "searched": "atovaquone",
+        "licensedProducts": 23
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 5,
+            "PHARMACY": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PLPI 20636/1165",
+        "url": "https://products.mhra.gov.uk/search/?search=Malarone&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "doxycycline",
+      "generic": "Doxycycline",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 00142/0407",
+        "url": "https://products.mhra.gov.uk/search/?search=doxycycline&page=1",
+        "searched": "doxycycline",
+        "licensedProducts": 20
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 30
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 00142/0407",
+        "url": "https://products.mhra.gov.uk/search/?search=doxycycline&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "azithromycin",
+      "generic": "Azithromycin",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 04416/1235",
+        "url": "https://products.mhra.gov.uk/search/?search=azithromycin&page=1",
+        "searched": "azithromycin",
+        "licensedProducts": 24
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 47
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 04416/1235",
+        "url": "https://products.mhra.gov.uk/search/?search=azithromycin&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "ciprofloxacin",
+      "generic": "Ciprofloxacin",
+      "brand": "Ciproxin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ciproxin",
+          "id": "PLPI 15184/1369",
+          "url": "https://products.mhra.gov.uk/search/?search=Ciproxin&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "CIPROXIN 250MG/5ML GRANULES AND SOLVENT FOR ORAL SUSPENSION",
+          "products": [
+            {
+              "licence": "PLPI 15184/1369",
+              "product": "CIPROXIN 250MG/5ML GRANULES AND SOLVENT FOR ORAL SUSPENSION",
+              "substances": [
+                "CIPROFLOXACIN"
+              ]
+            },
+            {
+              "licence": "PLPI 16378/1149",
+              "product": "CIPROXIN 250 MG/5 ML GRANULES AND SOLVENT FOR ORAL SUSPENSION",
+              "substances": [
+                "CIPROFLOXACIN"
+              ]
+            },
+            {
+              "licence": "PLPI 46420/0157",
+              "product": "CIPROXIN 250MG/5ML GRANULES AND SOLVENT FOR ORAL SUSPENSION, CIPROFLOXACIN 250MG/5ML GRANULES AND SOLVENT FOR ORAL SUSPENSION",
+              "substances": [
+                "CIPROFLOXACIN"
+              ]
+            },
+            {
+              "licence": "PLPI 18799/2356",
+              "product": "CIPROXIN 250MG/5ML GRANULES AND SOLVENT  FOR ORAL SUSPENSION, CIPROFLOXACIN 250MG/5ML GRANULES AND SOLVENT  FOR ORAL SUSPENSION",
+              "substances": [
+                "CIPROFLOXACIN"
+              ]
+            },
+            {
+              "licence": "PLPI 45763/1501",
+              "product": "CIPROFLOXACIN 250MG/5ML GRANULES AND SOLVENT FOR ORAL SUSPENSION, CIPROXIN 250MG/5ML GRANULES AND SOLVENT FOR ORAL SUSPENSION",
+              "substances": [
+                "CIPROFLOXACIN"
+              ]
+            },
+            {
+              "licence": "PLPI 15814/1160",
+              "product": "CIPROFLOXACIN 250 MG/5 ML GRANULES AND SOLVENT FOR ORAL SUSPENSION, CIPROXIN  250 MG/5 ML GRANULES AND SOLVENT FOR ORAL SUSPENSION",
+              "substances": [
+                "CIPROFLOXACIN"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 18374/0003",
+        "url": "https://products.mhra.gov.uk/search/?search=ciprofloxacin&page=1",
+        "searched": "ciprofloxacin",
+        "licensedProducts": 52
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PLPI 15184/1369",
+        "url": "https://products.mhra.gov.uk/search/?search=Ciproxin&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "acetazolamide",
+      "generic": "Acetazolamide",
+      "brand": "Diamox",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Diamox",
+          "id": "PL 12762/0145",
+          "url": "https://products.mhra.gov.uk/search/?search=Diamox&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "DIAMOX SR 250MG PROLONGED-RELEASE CAPSULES",
+          "products": [
+            {
+              "licence": "PL 12762/0145",
+              "product": "DIAMOX SR 250MG PROLONGED-RELEASE CAPSULES",
+              "substances": [
+                "ACETAZOLAMIDE"
+              ]
+            },
+            {
+              "licence": "PL 12762/0147",
+              "product": "ACETAZOLAMIDE MERCURY PHARMA 250MG TABLETS, DIAMOX 250MG TABLETS",
+              "substances": [
+                "ACETAZOLAMIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 18799/2888",
+              "product": "DIAMOX 250MG TABLETS, ACETAZOLAMIDE MERCURY PHARMA 250MG TABLETS",
+              "substances": [
+                "ACETAZOLAMIDE"
+              ]
+            },
+            {
+              "licence": "PL 12762/0146",
+              "product": "ACETAZOLAMIDE 500MG POWDER FOR SOLUTION FOR INJECTION, DIAMOX SODIUM 500MG POWDER FOR SOLUTION FOR INJECTION",
+              "substances": [
+                "ACETAZOLAMIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 20636/3180",
+              "product": "ACETAZOLAMIDE 500 MG POWDER FOR SOLUTION FOR INJECTION, DIAMOX SODIUM 500 MG POWDER FOR SOLUTION FOR INJECTION",
+              "substances": [
+                "ACETAZOLAMIDE"
+              ]
+            },
+            {
+              "licence": "PLPI 20636/2879",
+              "product": "DIAMOX SODIUM 500 MG POWDER FOR SOLUTION FOR INJECTION, ACETAZOLAMIDE 500 MG POWDER FOR SOLUTION FOR INJECTION",
+              "substances": [
+                "ACETAZOLAMIDE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 20416/0885",
+        "url": "https://products.mhra.gov.uk/search/?search=acetazolamide&page=1",
+        "searched": "acetazolamide",
+        "licensedProducts": 12
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PL 12762/0145",
+        "url": "https://products.mhra.gov.uk/search/?search=Diamox&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "scopolamine",
+      "generic": "Scopolamine (motion-sickness patch)",
+      "brand": "Scopoderm (patch) / Kwells (tablets)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Scopoderm",
+          "id": "PLPI 56830/0117",
+          "url": "https://products.mhra.gov.uk/search/?search=Scopoderm&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "SCOPODERM 1.5MG PATCHES",
+          "products": [
+            {
+              "licence": "PLPI 56830/0117",
+              "product": "SCOPODERM 1.5MG PATCHES",
+              "substances": [
+                "HYOSCINE"
+              ]
+            },
+            {
+              "licence": "PLPI 46420/0083",
+              "product": "SCOPODERM 1.5MG PATCH",
+              "substances": [
+                "HYOSCINE"
+              ]
+            },
+            {
+              "licence": "PLPI 20636/3355",
+              "product": "SCOPODERM 1.5 MG PATCH",
+              "substances": [
+                "HYOSCINE"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Kwells",
+          "id": "PL 14017/0299",
+          "url": "https://products.mhra.gov.uk/search/?search=Kwells&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "KWELLS 300 MICROGRAM TABLETS",
+          "products": [
+            {
+              "licence": "PL 14017/0299",
+              "product": "KWELLS 300 MICROGRAM TABLETS",
+              "substances": [
+                "HYOSCINE HYDROBROMIDE"
+              ]
+            },
+            {
+              "licence": "PL 14017/0300",
+              "product": "KWELLS KIDS 150 MICROGRAM TABLETS",
+              "substances": [
+                "HYOSCINE HYDROBROMIDE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 29831/0115",
+        "url": "https://products.mhra.gov.uk/search/?search=hyoscine%20hydrobromide&page=1",
+        "searched": "hyoscine hydrobromide",
+        "licensedProducts": 10
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "PHARMACY",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "PHARMACY": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PLPI 56830/0117",
+        "url": "https://products.mhra.gov.uk/search/?search=Scopoderm&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "ondansetron",
+      "generic": "Ondansetron",
+      "brand": "Zofran",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zofran",
+          "id": "PLPI 30900/1937",
+          "url": "https://products.mhra.gov.uk/search/?search=Zofran&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZOFRAN 4MG TABLETS",
+          "products": [
+            {
+              "licence": "PLPI 30900/1937",
+              "product": "ZOFRAN 4MG TABLETS",
+              "substances": [
+                "ONDANSETRON"
+              ]
+            },
+            {
+              "licence": "PLPI 20636/2953",
+              "product": "ZOFRAN 4MG MELT",
+              "substances": [
+                "ONDANSETRON"
+              ]
+            },
+            {
+              "licence": "PLPI 20636/2954",
+              "product": "ZOFRAN 8MG MELT",
+              "substances": [
+                "ONDANSETRON"
+              ]
+            },
+            {
+              "licence": "PLPI 30900/1938",
+              "product": "ZOFRAN 8MG TABLETS",
+              "substances": [
+                "ONDANSETRON"
+              ]
+            },
+            {
+              "licence": "PLPI 46420/0046",
+              "product": "ONDANSETRON 4MG ORAL LYOPHILISATES, ZOFRAN MELT 4MG",
+              "substances": [
+                "ONDANSETRON"
+              ]
+            },
+            {
+              "licence": "PLPI 18799/3153",
+              "product": "ZOFRAN MELT 4MG, ONDANSETRON 4MG ORAL LYOPHILISATES",
+              "substances": [
+                "ONDANSETRON"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 04416/0504",
+        "url": "https://products.mhra.gov.uk/search/?search=ondansetron&page=1",
+        "searched": "ondansetron",
+        "licensedProducts": 57
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PLPI 30900/1937",
+        "url": "https://products.mhra.gov.uk/search/?search=Zofran&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "epinephrine",
+      "generic": "Epinephrine (adrenaline auto-injector)",
+      "brand": "EpiPen / Jext",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "EpiPen",
+          "id": "PLPI 18799/4325",
+          "url": "https://products.mhra.gov.uk/search/?search=EpiPen&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "EPIPEN AUTO-INJECTOR 0.3MG",
+          "products": [
+            {
+              "licence": "PLPI 18799/4325",
+              "product": "EPIPEN AUTO-INJECTOR 0.3MG",
+              "substances": [
+                "ADRENALINE"
+              ]
+            },
+            {
+              "licence": "PLPI 45396/0393",
+              "product": "EPIPEN AUTO-INJECTOR 0.3 MG",
+              "substances": [
+                "ADRENALINE"
+              ]
+            },
+            {
+              "licence": "PLPI 18799/4326",
+              "product": "EPIPEN JR. AUTO-INJECTOR 0.15MG",
+              "substances": [
+                "ADRENALINE"
+              ]
+            },
+            {
+              "licence": "PLPI 20774/2739",
+              "product": "EPIPEN JR. AUTO-INJECTOR 0.15 MG",
+              "substances": [
+                "ADRENALINE"
+              ]
+            },
+            {
+              "licence": "PLPI 15814/2128",
+              "product": "EPIPEN JR AUTO-INJECTOR 0.15 MG",
+              "substances": [
+                "ADRENALINE"
+              ]
+            },
+            {
+              "licence": "PLPI 33543/0367",
+              "product": "EPIPEN JR. ADRENALINE AUTO-INJECTOR 0.15 MG",
+              "substances": [
+                "ADRENALINE"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jext",
+          "id": "PLPI 45763/1657",
+          "url": "https://products.mhra.gov.uk/search/?search=Jext&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "JEXT 150 MICROGRAMS SOLUTION FOR INJECTION IN PRE-FILLED PEN",
+          "products": [
+            {
+              "licence": "PLPI 45763/1657",
+              "product": "JEXT 150 MICROGRAMS SOLUTION FOR INJECTION IN PRE-FILLED PEN",
+              "substances": [
+                "ADRENALINE TARTRATE"
+              ]
+            },
+            {
+              "licence": "PLPI 45763/1923",
+              "product": "JEXT 300 MICROGRAMS SOLUTION FOR INJECTION IN PRE-FILLED PEN",
+              "substances": [
+                "ADRENALINE"
+              ]
+            },
+            {
+              "licence": "PLPI 16378/1331",
+              "product": "JEXT 300 MICROGRAMS  SOLUTION FOR INJECTION IN PRE-FILLED PEN.",
+              "substances": [
+                "ADRENALINE"
+              ]
+            },
+            {
+              "licence": "PLPI 16378/1329",
+              "product": "JEXT 150 MICROGRAMS  SOLUTION FOR INJECTION IN PRE-FILLED PEN.",
+              "substances": [
+                "ADRENALINE"
+              ]
+            },
+            {
+              "licence": "PLPI 16378/1330",
+              "product": "JEXT 150 MICROGRAMS  SOLUTION FOR INJECTION IN PRE-FILLED PEN",
+              "substances": [
+                "ADRENALINE"
+              ]
+            },
+            {
+              "licence": "PLPI 20774/2742",
+              "product": "JEXT 150 MICROGRAMS SOLUTION FOR INJECTION IN A PRE-FILLED PEN",
+              "substances": [
+                "ADRENALINE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PL 12064/0058",
+        "url": "https://products.mhra.gov.uk/search/?search=epinephrine&page=1",
+        "searched": "epinephrine",
+        "licensedProducts": 23
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PLPI 18799/4325",
+        "url": "https://products.mhra.gov.uk/search/?search=EpiPen&page=1",
+        "checked": "2026-10-06",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    }
+  ]
+}

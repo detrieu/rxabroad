@@ -11,7 +11,7 @@ const LEGEND: { status: string; text: string }[] = [
   { status: 'BANNED', text: 'No legal personal-use pathway. Do not bring it in.' },
   { status: 'UNAVAILABLE', text: 'Not sold in this country. Bring it from home.' },
   { status: 'ASK_GENERIC', text: 'Local brand unknown — ask by the generic name.' },
-  { status: 'UNCONFIRMED', text: 'No reliable information yet.' },
+  { status: 'UNCONFIRMED', text: 'We couldn’t find reliable information on how it is sold here.' },
 ];
 
 export function Footer() {
@@ -37,7 +37,7 @@ export function Footer() {
               <dt className="text-ink-mixed flex items-center gap-1.5 text-sm font-medium">
                 <InfoIcon className="size-4" /> Not verified
               </dt>
-              <dd className="text-muted-foreground -mt-2.5 text-sm leading-snug sm:mt-0">General market knowledge, not brand-verified.</dd>
+              <dd className="text-muted-foreground -mt-2.5 text-sm leading-snug sm:mt-0">General market knowledge, not registry-checked.</dd>
             </div>
             <div className="contents">
               <dt className="text-ink-banned flex items-center gap-1.5 text-sm font-medium">

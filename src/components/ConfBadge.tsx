@@ -8,8 +8,8 @@ const TIPS: Partial<Record<Confidence, { icon: typeof InfoIcon; color: string; t
   medium: {
     icon: InfoIcon,
     color: 'text-ink-mixed',
-    title: 'Not brand-verified',
-    tip: 'Based on general market knowledge. The brand is likely right, but it hasn’t been confirmed against a local registry.',
+    title: 'Not registry-checked',
+    tip: 'Based on general market knowledge. It is likely right, but it hasn’t been confirmed against a local registry.',
   },
   low: {
     icon: CircleHelpIcon,
@@ -70,7 +70,7 @@ export function VerifiedBadge({ verified }: { verified: Verification }) {
   );
 }
 
-/** The marker(s) after an entry's "Ask for" name. A registry-confirmed brand replaces the "not brand-verified" hint. */
+/** The marker(s) after an entry's "Ask for" name. A registry-confirmed brand replaces the "not registry-checked" hint. */
 export function EntryBadges({ entry }: { entry: CountryEntry }) {
   const brandVerified = entry.verified?.checks.includes('brand');
   return (

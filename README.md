@@ -20,7 +20,7 @@ Morocco, Portugal, Türkiye.
   There is also a sitemap.
 - **My meds travel card** (`/my-meds`). Pick your medicines and a destination to get a printable one-page
   card with the local name to ask for and any cautions. Your list is saved only in your browser.
-- **Confidence markers and sources.** † means general knowledge that isn't brand-verified, and ? means
+- **Confidence markers and sources.** † means general knowledge that isn't registry-checked, and ? means
   unconfirmed. A check mark means the entry was confirmed against that country's official medicines
   registry. Use "Show sources" to see the citation links.
 - **US name lookup.** A search that matches nothing in the formulary is looked up in RxNorm, so
@@ -64,7 +64,7 @@ browser only.
 
 ### Registry verification and US name lookup
 
-**Offline verification.** `node scripts/verify/run.mjs <US|CA|SG|FR>` checks one country's entries against
+**Offline verification.** `node scripts/verify/run.mjs <US|CA|SG|FR|GB>` checks one country's entries against
 its official registry and writes the evidence and every mismatch to `research/verification/<CC>.json`.
 That is a dry run; add `--write` to update `drugs.json`. Nothing here runs when the site is built or served.
 
@@ -74,10 +74,11 @@ That is a dry run; add `--write` to update `drugs.json`. Nothing here runs when 
 | CA | [Health Canada DPD](https://health-products.canada.ca/api/documentation/dpd-documentation-en.html) | brand ↔ ingredient, marketed status, schedule |
 | SG | [HSA register on data.gov.sg](https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view) | brand ↔ ingredient, GSL / Pharmacy Only / Prescription Only |
 | FR | [BDPM](https://base-donnees-publique.medicaments.gouv.fr/telechargement) | brand ↔ ingredient, marketed status, prescription conditions |
+| GB | [MHRA Products](https://products.mhra.gov.uk/) + [NHS dm+d](https://isd.digital.nhs.uk/trud/users/guest/filters/0/categories/6/items/24/releases) | MHRA: brand ↔ ingredient for licensed products. dm+d: legal category (GSL / P / POM) and controlled-drug schedule of packs on the market. dm+d needs a free NHS TRUD account: put the key in `.env.local` as `TRUD_API_KEY`. Without it the UK check is brand-only |
 
 All four are free and need no key. `--write` is deliberately conservative: it never edits `brand`, `status`
 or `note`; it attaches `verified` when the registry confirms the entry; and it raises `medium` to `high`
-only when brand, ingredient and legal status all agree. It never lowers confidence. A registry shows that a
+only when the registry confirms everything the entry claims (brand, ingredient and legal status; for a "sold generic" entry with no brand, ingredient and legal status). It never lowers confidence. A registry shows that a
 product is *registered*, not that a given pharmacy stocks it. After a run, refresh the report with
 `node scripts/confidence-report.mjs`. To add a country, write an adapter next to the others (`open()` and
 `verify()`) and register it in `run.mjs`.

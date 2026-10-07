@@ -13,7 +13,7 @@
     "statusAgree": 70,
     "statusDiffer": 1,
     "statusNotComparable": 5,
-    "confidenceRaised": 1,
+    "confidenceRaised": 0,
     "flagged": 4
   },
   "entries": [
@@ -426,7 +426,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []

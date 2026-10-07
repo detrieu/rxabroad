@@ -270,7 +270,7 @@ function TravelPass({ country, leg, legs, drugs, onRemove }: TravelPassProps) {
                       <p className="text-ink-mixed mt-1.5 text-xs">
                         {entry.confidence === 'low'
                           ? 'Unconfirmed — verify with a local pharmacist.'
-                          : 'General market knowledge, not brand-verified.'}
+                          : 'General market knowledge, not registry-checked.'}
                       </p>
                     )}
                     <Button

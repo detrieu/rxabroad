@@ -1,13 +1,15 @@
 // Checks one country's entries in src/data/drugs.json against that country's official drug registry.
 //
-// Usage: node scripts/verify/run.mjs <US|CA|SG|FR> [--write] [--no-cache]
+// Usage: node scripts/verify/run.mjs <US|CA|SG|FR|GB> [--write] [--no-cache]
 //
 // Without --write this is a dry run: it only writes research/verification/<CC>.json (the evidence and
 // every mismatch). With --write it also updates drugs.json, under these rules:
 //   - `brand`, `status` and `note` are never edited. Mismatches are reported for a person to decide.
 //   - `verified` is attached when the registry confirms the entry, and removed when it no longer does.
 //   - US only: an entry whose brand is withdrawn or doubtful is verified on its generic ingredient instead.
-//   - `confidence` goes medium → high only when brand, ingredient and legal status all agree. It never goes down.
+//   - `confidence` goes medium → high only when the registry confirms everything the entry claims: brand, ingredient and
+//     legal status for a branded entry, or ingredient and legal status for a "sold generic" entry that names no brand.
+//     It never goes down.
 //
 // A registry shows that a product is registered with that ingredient and legal class. It does not show
 // that it is the brand a pharmacy is most likely to stock.
@@ -23,6 +25,7 @@ const ADAPTERS = {
   CA: './ca-dpd.mjs',
   SG: './sg-hsa.mjs',
   FR: './fr-bdpm.mjs',
+  GB: './gb-mhra.mjs',
 };
 
 const args = process.argv.slice(2);
@@ -72,7 +75,9 @@ for (const drug of drugs) {
   if (parsed.kind === 'generic' && !res.ingredient.registered) flags.push('Ingredient not found in this registry');
   if (statusResult === 'differ') flags.push(`Status differs: entry ${entry.status}, registry ${res.registryStatus}`);
 
-  const raise = entry.confidence === 'medium' && brandsSolid && statusResult === 'agree';
+  // A generic-only entry makes no brand claim, so there is no brand to confirm.
+  const genericConfirmed = parsed.kind === 'generic' && checks.includes('ingredient');
+  const raise = entry.confidence === 'medium' && (brandsSolid || genericConfirmed) && statusResult === 'agree';
 
   entries.push({
     id: drug.id,

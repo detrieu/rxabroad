@@ -13,7 +13,7 @@
     "statusAgree": 65,
     "statusDiffer": 0,
     "statusNotComparable": 11,
-    "confidenceRaised": 0,
+    "confidenceRaised": 6,
     "flagged": 5
   },
   "entries": [
@@ -1075,7 +1075,7 @@
       },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
@@ -1591,7 +1591,7 @@
       },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
@@ -1686,7 +1686,7 @@
       },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
@@ -1857,7 +1857,7 @@
       },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
@@ -2211,7 +2211,7 @@
       },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
@@ -2679,7 +2679,7 @@
       },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },

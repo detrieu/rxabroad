@@ -28,7 +28,7 @@ export const STATUS = {
     "cls": "banned"
   },
   "UNCONFIRMED": {
-    "label": "Unconfirmed",
+    "label": "Status unknown",
     "cls": "unconfirmed"
   },
   "UNAVAILABLE": {

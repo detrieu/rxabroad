@@ -54,7 +54,7 @@
           "source": "openFDA NDC directory",
           "scope": "brand",
           "products": {
-            "OTC": 45
+            "OTC": 47
           }
         }
       },
@@ -420,8 +420,8 @@
           "source": "openFDA NDC directory",
           "scope": "brand",
           "products": {
-            "OTC": 4,
-            "RX": 2
+            "RX": 2,
+            "OTC": 4
           }
         }
       },
@@ -625,7 +625,7 @@
           "source": "openFDA NDC directory",
           "scope": "ingredient",
           "products": {
-            "RX": 58
+            "RX": 46
           }
         }
       },
@@ -669,7 +669,7 @@
           "source": "openFDA NDC directory",
           "scope": "ingredient",
           "products": {
-            "RX": 62
+            "RX": 63
           }
         }
       },
@@ -1493,7 +1493,7 @@
           "source": "openFDA NDC directory",
           "scope": "ingredient",
           "products": {
-            "RX": 16
+            "RX": 23
           }
         }
       },
@@ -1781,7 +1781,7 @@
           "source": "openFDA NDC directory",
           "scope": "ingredient",
           "products": {
-            "RX": 88
+            "RX": 83
           }
         }
       },
@@ -2073,7 +2073,7 @@
           "source": "openFDA NDC directory",
           "scope": "ingredient",
           "products": {
-            "RX": 88
+            "RX": 85
           }
         }
       },
@@ -2291,7 +2291,7 @@
           "source": "openFDA NDC directory",
           "scope": "ingredient",
           "products": {
-            "RX": 82
+            "RX": 85
           }
         }
       },
@@ -2510,7 +2510,7 @@
           "source": "openFDA NDC directory",
           "scope": "ingredient",
           "products": {
-            "CONTROLLED": 82
+            "CONTROLLED": 75
           }
         }
       },
@@ -2613,7 +2613,7 @@
           "source": "openFDA NDC directory",
           "scope": "ingredient",
           "products": {
-            "RX": 97
+            "RX": 96
           }
         }
       },
