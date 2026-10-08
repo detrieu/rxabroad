@@ -1265,7 +1265,7 @@
         "brand": "Ask by generic name",
         "status": "CONTROLLED",
         "confidence": "medium",
-        "note": "A stimulant raw material under Japanese law. Products with more than 10% pseudoephedrine need written permission before you travel; products with 10% or less are excluded from that rule. Since most travelers cannot easily check their product’s concentration, phenylephrine (Sudafed PE) is the simpler choice to bring instead.",
+        "note": "A stimulant raw material under Japanese law. Products with more than 10% pseudoephedrine need written permission before you travel; products with 10% or less are excluded from that rule.",
         "source": "https://www.ncd.mhlw.go.jp/dl_data/keitai/cotrolled_substances_list20241212%20.pdf",
         "verified": {
           "registry": "MHLW drug price list (Japan, prescription medicines)",
