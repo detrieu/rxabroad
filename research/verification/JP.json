@@ -1,0 +1,4426 @@
+{
+  "country": "JP",
+  "registry": "MHLW drug price list (Japan, prescription medicines)",
+  "registryVersion": "list of 2026-08-13",
+  "checked": "2026-10-07",
+  "summary": {
+    "entries": 76,
+    "brandEntries": 59,
+    "brandEntriesConfirmed": 41,
+    "brandNames": 69,
+    "brandNamesConfirmed": 50,
+    "verified": 47,
+    "statusAgree": 40,
+    "statusDiffer": 0,
+    "statusNotComparable": 36,
+    "confidenceRaised": 1,
+    "flagged": 23
+  },
+  "entries": [
+    {
+      "id": "paracetamol",
+      "generic": "Paracetamol",
+      "brand": "Tylenol A — often called \"Calonal\" instead, an equally common Japanese name for the same ingredient",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tylenol A",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "タイレノール is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has アセトアミノフェン, カロナール, トラマドール塩酸塩・アセトアミノフェン, トラムセット, トアラセット, アセリオ静)",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1141001X1010",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "アセトアミノフェン",
+        "listedProducts": 47
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": null,
+        "result": "na",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 47
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "Brand \"Tylenol A\" not confirmed: タイレノール is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has アセトアミノフェン, カロナール, トラマドール塩酸塩・アセトアミノフェン, トラムセット, トアラセット, アセリオ静)"
+      ]
+    },
+    {
+      "id": "ibuprofen",
+      "generic": "Ibuprofen",
+      "brand": "EVE A (150mg ibuprofen per tablet)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "EVE A",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "イブA is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has ブルフェン, イブプロフェン, イブリーフ静, ベシカム, スタデルム)",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1149001D1160",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "イブプロフェン",
+        "listedProducts": 12
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": null,
+        "result": "na",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 12
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "Brand \"EVE A\" not confirmed: イブA is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has ブルフェン, イブプロフェン, イブリーフ静, ベシカム, スタデルム)"
+      ]
+    },
+    {
+      "id": "loratadine",
+      "generic": "Loratadine",
+      "brand": "Claritin EX",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Claritin EX",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "クラリチンEX is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has ロラタジン, クラリチン, クラリチンレディタブ)",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "4490027F1014",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "ロラタジン",
+        "listedProducts": 20
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": null,
+        "result": "na",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 20
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "Brand \"Claritin EX\" not confirmed: クラリチンEX is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has ロラタジン, クラリチン, クラリチンレディタブ)"
+      ]
+    },
+    {
+      "id": "cetirizine",
+      "generic": "Cetirizine",
+      "brand": "Zyrtec (ジルテック)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zyrtec",
+          "id": "4490020F1020",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "ジルテック錠5",
+          "products": [
+            {
+              "code": "4490020F1020",
+              "product": "ジルテック錠5",
+              "ingredient": "セチリジン塩酸塩",
+              "maker": "ユーシービージャパン"
+            },
+            {
+              "code": "4490020F2027",
+              "product": "ジルテック錠10",
+              "ingredient": "セチリジン塩酸塩",
+              "maker": "ユーシービージャパン"
+            },
+            {
+              "code": "4490020R1027",
+              "product": "ジルテックドライシロップ1.25%",
+              "ingredient": "セチリジン塩酸塩",
+              "maker": "ユーシービージャパン"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "4490020F1012",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "セチリジン",
+        "listedProducts": 20
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 20
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "4490020F1020",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "diphenhydramine",
+      "generic": "Diphenhydramine",
+      "brand": "Drewell (50mg diphenhydramine, Class 2 OTC sleep aid) — not an allergy product",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Drewell",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "ドリエル is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has トラベルミン, レスタミンコーワ, ジフェンヒドラミン塩酸塩, レスカルミン, デスパコーワ口腔用, ジフェンヒドラミン)",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1339100F1038",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "ジフェンヒドラミン",
+        "listedProducts": 9
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": null,
+        "result": "na",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 9
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "Brand \"Drewell\" not confirmed: ドリエル is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has トラベルミン, レスタミンコーワ, ジフェンヒドラミン塩酸塩, レスカルミン, デスパコーワ口腔用, ジフェンヒドラミン)"
+      ]
+    },
+    {
+      "id": "loperamide",
+      "generic": "Loperamide",
+      "brand": "Lopemin (ロペミン) / Tomedine Kowa (トメダインコーワ)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lopemin",
+          "id": "2319001C1080",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "ロペミン小児用細粒0.05%",
+          "products": [
+            {
+              "code": "2319001C1080",
+              "product": "ロペミン小児用細粒0.05%",
+              "ingredient": "ロペラミド塩酸塩",
+              "maker": "ヤンセンファーマ"
+            },
+            {
+              "code": "2319001C2060",
+              "product": "ロペミン細粒0.1%",
+              "ingredient": "ロペラミド塩酸塩",
+              "maker": "帝國製薬"
+            },
+            {
+              "code": "2319001M1213",
+              "product": "ロペミンカプセル1mg",
+              "ingredient": "ロペラミド塩酸塩",
+              "maker": "帝國製薬"
+            }
+          ]
+        },
+        {
+          "name": "Tomedine Kowa",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "トメダインコーワ is not on the prescription list (which leaves out medicines national insurance doesn't cover) (for this ingredient the list has ロペミン, ロペラミド塩酸塩)",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2319001C1080",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "ロペラミド",
+        "listedProducts": 6
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 6
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Brand \"Tomedine Kowa\" not confirmed: トメダインコーワ is not on the prescription list (which leaves out medicines national insurance doesn't cover) (for this ingredient the list has ロペミン, ロペラミド塩酸塩)"
+      ]
+    },
+    {
+      "id": "omeprazole",
+      "generic": "Omeprazole",
+      "brand": "Prescription-only; OTC PPIs are uncommon in Japan",
+      "kind": "other",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "2329022H1019",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "オメプラゾール",
+        "listedProducts": 13
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 13
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2329022H1019",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "pseudoephedrine",
+      "generic": "Pseudoephedrine",
+      "brand": "Ask by generic name",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "4490100F1021",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "プソイドエフェドリン",
+        "listedProducts": 3
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "4490100F1021",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "melatonin",
+      "generic": "Melatonin",
+      "brand": "Melatobel (メラトベル)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Melatobel",
+          "id": "1190028D1026",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "メラトベル顆粒小児用0.2%",
+          "products": [
+            {
+              "code": "1190028D1026",
+              "product": "メラトベル顆粒小児用0.2%",
+              "ingredient": "メラトニン",
+              "maker": "ノーベルファーマ"
+            },
+            {
+              "code": "1190028F1027",
+              "product": "メラトベル錠小児用1mg",
+              "ingredient": "メラトニン",
+              "maker": "ノーベルファーマ"
+            },
+            {
+              "code": "1190028F2023",
+              "product": "メラトベル錠小児用2mg",
+              "ingredient": "メラトニン",
+              "maker": "ノーベルファーマ"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1190028D1026",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "メラトニン",
+        "listedProducts": 3
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "1190028D1026",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "dimenhydrinate",
+      "generic": "Dimenhydrinate",
+      "brand": "Dramamine (ドラマミン) / Travelmin (トラベルミン)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Dramamine",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "ドラマミン is not on the prescription list (which leaves out medicines national insurance doesn't cover) (for this ingredient the list has ジメンヒドリナート)",
+          "products": []
+        },
+        {
+          "name": "Travelmin",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "on the prescription list as トラベルミン with ジフェンヒドラミン・ジプロフィリン, not this ingredient",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1331001F1010",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "ジメンヒドリナート",
+        "listedProducts": 1
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": null,
+        "result": "na",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 1
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Brand \"Dramamine\" not confirmed: ドラマミン is not on the prescription list (which leaves out medicines national insurance doesn't cover) (for this ingredient the list has ジメンヒドリナート)",
+        "Brand \"Travelmin\" not confirmed: on the prescription list as トラベルミン with ジフェンヒドラミン・ジプロフィリン, not this ingredient"
+      ]
+    },
+    {
+      "id": "amoxicillin",
+      "generic": "Amoxicillin",
+      "brand": "Sold generic (\"Amoxicillin\")",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "6131001C1210",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "アモキシシリン",
+        "listedProducts": 20
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 20
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "6131001C1210",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "metformin",
+      "generic": "Metformin",
+      "brand": "Metgluco",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Metgluco",
+          "id": "3962002F2027",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "メトグルコ錠250mg",
+          "products": [
+            {
+              "code": "3962002F2027",
+              "product": "メトグルコ錠250mg",
+              "ingredient": "メトホルミン塩酸塩",
+              "maker": "住友ファーマ"
+            },
+            {
+              "code": "3962002F3023",
+              "product": "メトグルコ錠500mg",
+              "ingredient": "メトホルミン塩酸塩",
+              "maker": "住友ファーマ"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "3962002F1071",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "メトホルミン",
+        "listedProducts": 17
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 17
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "3962002F2027",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "sertraline",
+      "generic": "Sertraline",
+      "brand": "Jzoloft",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Jzoloft",
+          "id": "1179046F1028",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "ジェイゾロフト錠25mg",
+          "products": [
+            {
+              "code": "1179046F1028",
+              "product": "ジェイゾロフト錠25mg",
+              "ingredient": "セルトラリン塩酸塩",
+              "maker": "ヴィアトリス製薬"
+            },
+            {
+              "code": "1179046F2024",
+              "product": "ジェイゾロフト錠50mg",
+              "ingredient": "セルトラリン塩酸塩",
+              "maker": "ヴィアトリス製薬"
+            },
+            {
+              "code": "1179046F3020",
+              "product": "ジェイゾロフト錠100mg",
+              "ingredient": "セルトラリン塩酸塩",
+              "maker": "ヴィアトリス製薬"
+            },
+            {
+              "code": "1179046F4027",
+              "product": "ジェイゾロフトOD錠25mg",
+              "ingredient": "セルトラリン塩酸塩",
+              "maker": "ヴィアトリス製薬"
+            },
+            {
+              "code": "1179046F5023",
+              "product": "ジェイゾロフトOD錠50mg",
+              "ingredient": "セルトラリン塩酸塩",
+              "maker": "ヴィアトリス製薬"
+            },
+            {
+              "code": "1179046F6020",
+              "product": "ジェイゾロフトOD錠100mg",
+              "ingredient": "セルトラリン塩酸塩",
+              "maker": "ヴィアトリス製薬"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1179046F1010",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "セルトラリン",
+        "listedProducts": 20
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 20
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "1179046F1028",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "albuterol",
+      "generic": "Salbutamol",
+      "brand": "Sultanol",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Sultanol",
+          "id": "2254700G4037",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "サルタノールインヘラー100μg",
+          "products": [
+            {
+              "code": "2254700G4037",
+              "product": "サルタノールインヘラー100μg",
+              "ingredient": "サルブタモール硫酸塩",
+              "maker": "グラクソ・スミスクライン"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2254001F1102",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "サルブタモール",
+        "listedProducts": 4
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2254700G4037",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "atorvastatin",
+      "generic": "Atorvastatin",
+      "brand": "Lipitor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lipitor",
+          "id": "2189015F1023",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "リピトール錠5mg",
+          "products": [
+            {
+              "code": "2189015F1023",
+              "product": "リピトール錠5mg",
+              "ingredient": "アトルバスタチンカルシウム水和物",
+              "maker": "ヴィアトリス製薬"
+            },
+            {
+              "code": "2189015F2020",
+              "product": "リピトール錠10mg",
+              "ingredient": "アトルバスタチンカルシウム水和物",
+              "maker": "ヴィアトリス製薬"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2189015F1015",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "アトルバスタチン",
+        "listedProducts": 40
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 40
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2189015F1023",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "levothyroxine",
+      "generic": "Levothyroxine",
+      "brand": "Thyradin S",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Thyradin S",
+          "id": "2431004B1038",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "チラーヂンS散0.01%",
+          "products": [
+            {
+              "code": "2431004B1038",
+              "product": "チラーヂンS散0.01%",
+              "ingredient": "レボチロキシンナトリウム水和物",
+              "maker": "あすか製薬"
+            },
+            {
+              "code": "2431004F1056",
+              "product": "チラーヂンS錠50μg",
+              "ingredient": "レボチロキシンナトリウム水和物",
+              "maker": "あすか製薬"
+            },
+            {
+              "code": "2431004F2052",
+              "product": "チラーヂンS錠25μg",
+              "ingredient": "レボチロキシンナトリウム水和物",
+              "maker": "あすか製薬"
+            },
+            {
+              "code": "2431400A1029",
+              "product": "チラーヂンS静注液200μg",
+              "ingredient": "レボチロキシンナトリウム水和物",
+              "maker": "あすか製薬"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2431004B1038",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "レボチロキシン",
+        "listedProducts": 9
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 9
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2431004B1038",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "lisinopril",
+      "generic": "Lisinopril",
+      "brand": "Sold generic (e.g. Mylan)",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "2144006F1014",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "リシノプリル",
+        "listedProducts": 8
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2144006F1014",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amlodipine",
+      "generic": "Amlodipine",
+      "brand": "Norvasc / Amlodin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Norvasc",
+          "id": "2171022F1029",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "ノルバスク錠2.5mg",
+          "products": [
+            {
+              "code": "2171022F1029",
+              "product": "ノルバスク錠2.5mg",
+              "ingredient": "アムロジピンベシル酸塩",
+              "maker": "ヴィアトリス製薬"
+            },
+            {
+              "code": "2171022F2025",
+              "product": "ノルバスク錠5mg",
+              "ingredient": "アムロジピンベシル酸塩",
+              "maker": "ヴィアトリス製薬"
+            },
+            {
+              "code": "2171022F3048",
+              "product": "ノルバスクOD錠2.5mg",
+              "ingredient": "アムロジピンベシル酸塩",
+              "maker": "ヴィアトリス製薬"
+            },
+            {
+              "code": "2171022F4044",
+              "product": "ノルバスクOD錠5mg",
+              "ingredient": "アムロジピンベシル酸塩",
+              "maker": "ヴィアトリス製薬"
+            },
+            {
+              "code": "2171022F5032",
+              "product": "ノルバスク錠10mg",
+              "ingredient": "アムロジピンベシル酸塩",
+              "maker": "ヴィアトリス製薬"
+            },
+            {
+              "code": "2171022F6039",
+              "product": "ノルバスクOD錠10mg",
+              "ingredient": "アムロジピンベシル酸塩",
+              "maker": "ヴィアトリス製薬"
+            }
+          ]
+        },
+        {
+          "name": "Amlodin",
+          "id": "2171022F1045",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "アムロジン錠2.5mg",
+          "products": [
+            {
+              "code": "2171022F1045",
+              "product": "アムロジン錠2.5mg",
+              "ingredient": "アムロジピンベシル酸塩",
+              "maker": "住友ファーマ"
+            },
+            {
+              "code": "2171022F2041",
+              "product": "アムロジン錠5mg",
+              "ingredient": "アムロジピンベシル酸塩",
+              "maker": "住友ファーマ"
+            },
+            {
+              "code": "2171022F3021",
+              "product": "アムロジンOD錠2.5mg",
+              "ingredient": "アムロジピンベシル酸塩",
+              "maker": "住友ファーマ"
+            },
+            {
+              "code": "2171022F4028",
+              "product": "アムロジンOD錠5mg",
+              "ingredient": "アムロジピンベシル酸塩",
+              "maker": "住友ファーマ"
+            },
+            {
+              "code": "2171022F5024",
+              "product": "アムロジン錠10mg",
+              "ingredient": "アムロジピンベシル酸塩",
+              "maker": "住友ファーマ"
+            },
+            {
+              "code": "2171022F6020",
+              "product": "アムロジンOD錠10mg",
+              "ingredient": "アムロジピンベシル酸塩",
+              "maker": "住友ファーマ"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2149114F1021",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "アムロジピン",
+        "listedProducts": 169
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 169
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2171022F1029",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "metoprolol",
+      "generic": "Metoprolol",
+      "brand": "Seloken / Lopresor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Seloken",
+          "id": "2149010F1025",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "セロケン錠20mg",
+          "products": [
+            {
+              "code": "2149010F1025",
+              "product": "セロケン錠20mg",
+              "ingredient": "メトプロロール酒石酸塩",
+              "maker": "太陽ファルマ"
+            },
+            {
+              "code": "2149010G1047",
+              "product": "セロケンL錠120mg",
+              "ingredient": "メトプロロール酒石酸塩",
+              "maker": "太陽ファルマ"
+            }
+          ]
+        },
+        {
+          "name": "Lopresor",
+          "id": "2149010F1033",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "ロプレソール錠20mg",
+          "products": [
+            {
+              "code": "2149010F1033",
+              "product": "ロプレソール錠20mg",
+              "ingredient": "メトプロロール酒石酸塩",
+              "maker": "サンファーマ"
+            },
+            {
+              "code": "2149010F2072",
+              "product": "ロプレソール錠40mg",
+              "ingredient": "メトプロロール酒石酸塩",
+              "maker": "サンファーマ"
+            },
+            {
+              "code": "2149010G1055",
+              "product": "ロプレソールSR錠120mg",
+              "ingredient": "メトプロロール酒石酸塩",
+              "maker": "サンファーマ"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2149010F1017",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "メトプロロール",
+        "listedProducts": 7
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 7
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2149010F1025",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "losartan",
+      "generic": "Losartan",
+      "brand": "Nu-Lotan",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Nu-Lotan",
+          "id": "2149039F1031",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "ニューロタン錠25mg",
+          "products": [
+            {
+              "code": "2149039F1031",
+              "product": "ニューロタン錠25mg",
+              "ingredient": "ロサルタンカリウム",
+              "maker": "オルガノン"
+            },
+            {
+              "code": "2149039F2038",
+              "product": "ニューロタン錠50mg",
+              "ingredient": "ロサルタンカリウム",
+              "maker": "オルガノン"
+            },
+            {
+              "code": "2149039F3026",
+              "product": "ニューロタン錠100mg",
+              "ingredient": "ロサルタンカリウム",
+              "maker": "オルガノン"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2149039F1015",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "ロサルタン",
+        "listedProducts": 49
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 49
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2149039F1031",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "gabapentin",
+      "generic": "Gabapentin",
+      "brand": "Gabapen",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Gabapen",
+          "id": "1139007F1022",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "ガバペン錠200mg",
+          "products": [
+            {
+              "code": "1139007F1022",
+              "product": "ガバペン錠200mg",
+              "ingredient": "ガバペンチン",
+              "maker": "富士製薬工業"
+            },
+            {
+              "code": "1139007F2029",
+              "product": "ガバペン錠300mg",
+              "ingredient": "ガバペンチン",
+              "maker": "富士製薬工業"
+            },
+            {
+              "code": "1139007F3025",
+              "product": "ガバペン錠400mg",
+              "ingredient": "ガバペンチン",
+              "maker": "富士製薬工業"
+            },
+            {
+              "code": "1139007Q1023",
+              "product": "ガバペンシロップ5%",
+              "ingredient": "ガバペンチン",
+              "maker": "富士製薬工業"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1139007F1022",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "ガバペンチン",
+        "listedProducts": 5
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "1139007F1022",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "rosuvastatin",
+      "generic": "Rosuvastatin",
+      "brand": "Crestor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Crestor",
+          "id": "2189017F1022",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "クレストール錠2.5mg",
+          "products": [
+            {
+              "code": "2189017F1022",
+              "product": "クレストール錠2.5mg",
+              "ingredient": "ロスバスタチンカルシウム",
+              "maker": "アストラゼネカ"
+            },
+            {
+              "code": "2189017F2029",
+              "product": "クレストール錠5mg",
+              "ingredient": "ロスバスタチンカルシウム",
+              "maker": "アストラゼネカ"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2189017F1014",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "ロスバスタチン",
+        "listedProducts": 27
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 27
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2189017F1022",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "pantoprazole",
+      "generic": "Pantoprazole",
+      "brand": "Not sold in Japan",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "パントプラゾール",
+        "listedProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "escitalopram",
+      "generic": "Escitalopram",
+      "brand": "Lexapro",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lexapro",
+          "id": "1179054F1022",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "レクサプロ錠10mg",
+          "products": [
+            {
+              "code": "1179054F1022",
+              "product": "レクサプロ錠10mg",
+              "ingredient": "エスシタロプラムシュウ酸塩",
+              "maker": "持田製薬"
+            },
+            {
+              "code": "1179054F2029",
+              "product": "レクサプロ錠20mg",
+              "ingredient": "エスシタロプラムシュウ酸塩",
+              "maker": "持田製薬"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1179054F1022",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "エスシタロプラム",
+        "listedProducts": 26
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 26
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "1179054F1022",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amphetamine",
+      "generic": "Amphetamine / Dextroamphetamine",
+      "brand": "Not sold",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "アンフェタミン",
+        "listedProducts": 0
+      },
+      "status": {
+        "entry": "BANNED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrochlorothiazide",
+      "generic": "Hydrochlorothiazide",
+      "brand": "Sold generic (ヒドロクロロチアジド)",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "2132004F1103",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "ヒドロクロロチアジド",
+        "listedProducts": 68
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 68
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2132004F1103",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "bupropion",
+      "generic": "Bupropion",
+      "brand": "Not approved for any use by Japan’s Ministry of Health, Labour and Welfare",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "ブプロピオン",
+        "listedProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "fluoxetine",
+      "generic": "Fluoxetine",
+      "brand": "Not approved for use in Japan — the manufacturer withdrew it after disappointing local trials",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "フルオキセチン",
+        "listedProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "semaglutide",
+      "generic": "Semaglutide",
+      "brand": "Ozempic",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ozempic",
+          "id": "2499418G4027",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "オゼンピック皮下注2mg",
+          "products": [
+            {
+              "code": "2499418G4027",
+              "product": "オゼンピック皮下注2mg",
+              "ingredient": "セマグルチド(遺伝子組換え)",
+              "maker": "ノボ ノルディスク ファーマ"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2499014F1021",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "セマグルチド",
+        "listedProducts": 14
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 14
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2499418G4027",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "montelukast",
+      "generic": "Montelukast",
+      "brand": "Kipres / Singulair",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Kipres",
+          "id": "4490026C1021",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "キプレス細粒4mg",
+          "products": [
+            {
+              "code": "4490026C1021",
+              "product": "キプレス細粒4mg",
+              "ingredient": "モンテルカストナトリウム",
+              "maker": "杏林製薬"
+            },
+            {
+              "code": "4490026F1044",
+              "product": "キプレスチュアブル錠5mg",
+              "ingredient": "モンテルカストナトリウム",
+              "maker": "杏林製薬"
+            },
+            {
+              "code": "4490026F2040",
+              "product": "キプレス錠10mg",
+              "ingredient": "モンテルカストナトリウム",
+              "maker": "杏林製薬"
+            },
+            {
+              "code": "4490026F3020",
+              "product": "キプレス錠5mg",
+              "ingredient": "モンテルカストナトリウム",
+              "maker": "杏林製薬"
+            },
+            {
+              "code": "4490026F4027",
+              "product": "キプレスOD錠10mg",
+              "ingredient": "モンテルカストナトリウム",
+              "maker": "杏林製薬"
+            }
+          ]
+        },
+        {
+          "name": "Singulair",
+          "id": "4490026C1030",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "シングレア細粒4mg",
+          "products": [
+            {
+              "code": "4490026C1030",
+              "product": "シングレア細粒4mg",
+              "ingredient": "モンテルカストナトリウム",
+              "maker": "オルガノン"
+            },
+            {
+              "code": "4490026F1052",
+              "product": "シングレアチュアブル錠5mg",
+              "ingredient": "モンテルカストナトリウム",
+              "maker": "オルガノン"
+            },
+            {
+              "code": "4490026F2059",
+              "product": "シングレア錠10mg",
+              "ingredient": "モンテルカストナトリウム",
+              "maker": "オルガノン"
+            },
+            {
+              "code": "4490026F3039",
+              "product": "シングレア錠5mg",
+              "ingredient": "モンテルカストナトリウム",
+              "maker": "オルガノン"
+            },
+            {
+              "code": "4490026F4035",
+              "product": "シングレアOD錠10mg",
+              "ingredient": "モンテルカストナトリウム",
+              "maker": "オルガノン"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "4490026C1013",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "モンテルカスト",
+        "listedProducts": 49
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 49
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "4490026C1021",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "trazodone",
+      "generic": "Trazodone",
+      "brand": "Reslin (レスリン)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Reslin",
+          "id": "1179037F1029",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "レスリン錠25",
+          "products": [
+            {
+              "code": "1179037F1029",
+              "product": "レスリン錠25",
+              "ingredient": "トラゾドン塩酸塩",
+              "maker": "オルガノン"
+            },
+            {
+              "code": "1179037F2025",
+              "product": "レスリン錠50",
+              "ingredient": "トラゾドン塩酸塩",
+              "maker": "オルガノン"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1179037F1029",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "トラゾドン",
+        "listedProducts": 4
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "1179037F1029",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "simvastatin",
+      "generic": "Simvastatin",
+      "brand": "Lipovas",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lipovas",
+          "id": "2189011F1025",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "リポバス錠5",
+          "products": [
+            {
+              "code": "2189011F1025",
+              "product": "リポバス錠5",
+              "ingredient": "シンバスタチン",
+              "maker": "オルガノン"
+            },
+            {
+              "code": "2189011F2021",
+              "product": "リポバス錠10",
+              "ingredient": "シンバスタチン",
+              "maker": "オルガノン"
+            },
+            {
+              "code": "2189011F3028",
+              "product": "リポバス錠20",
+              "ingredient": "シンバスタチン",
+              "maker": "オルガノン"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2189011F1017",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "シンバスタチン",
+        "listedProducts": 19
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 19
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2189011F1025",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "tamsulosin",
+      "generic": "Tamsulosin",
+      "brand": "Harnal",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Harnal",
+          "id": "2590008F1026",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "ハルナールD錠0.1mg",
+          "products": [
+            {
+              "code": "2590008F1026",
+              "product": "ハルナールD錠0.1mg",
+              "ingredient": "タムスロシン塩酸塩",
+              "maker": "アステラス製薬"
+            },
+            {
+              "code": "2590008F2022",
+              "product": "ハルナールD錠0.2mg",
+              "ingredient": "タムスロシン塩酸塩",
+              "maker": "アステラス製薬"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2590008F1026",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "タムスロシン",
+        "listedProducts": 21
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 21
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2590008F1026",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrocodone",
+      "generic": "Hydrocodone / Paracetamol combination",
+      "brand": "Not sold in Japan",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "ヒドロコドン",
+        "listedProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "fluticasone",
+      "generic": "Fluticasone",
+      "brand": "Flunase (フルナーゼ) / Allermist (アラミスト) / Flutide (フルタイド)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Flunase",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "フルナーゼ is not on the prescription list (which leaves out medicines national insurance doesn't cover) (for this ingredient the list has フルチカゾン, フルチカゾンプロピオン酸エステル, アラミスト, フルチカゾンフランカルボン酸エステル, フルタイド, アニュイティ)",
+          "products": []
+        },
+        {
+          "name": "Allermist",
+          "id": "1329711Q1021",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "アラミスト点鼻液27.5μg56噴霧用",
+          "products": [
+            {
+              "code": "1329711Q1021",
+              "product": "アラミスト点鼻液27.5μg56噴霧用",
+              "ingredient": "フルチカゾンフランカルボン酸エステル",
+              "maker": "グラクソ・スミスクライン"
+            },
+            {
+              "code": "1329711Q2028",
+              "product": "アラミスト点鼻液27.5μg120噴霧用",
+              "ingredient": "フルチカゾンフランカルボン酸エステル",
+              "maker": "グラクソ・スミスクライン"
+            }
+          ]
+        },
+        {
+          "name": "Flutide",
+          "id": "2290700G4025",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "フルタイド50ディスカス",
+          "products": [
+            {
+              "code": "2290700G4025",
+              "product": "フルタイド50ディスカス",
+              "ingredient": "フルチカゾンプロピオン酸エステル",
+              "maker": "グラクソ・スミスクライン"
+            },
+            {
+              "code": "2290700G5021",
+              "product": "フルタイド100ディスカス",
+              "ingredient": "フルチカゾンプロピオン酸エステル",
+              "maker": "グラクソ・スミスクライン"
+            },
+            {
+              "code": "2290700G6028",
+              "product": "フルタイド200ディスカス",
+              "ingredient": "フルチカゾンプロピオン酸エステル",
+              "maker": "グラクソ・スミスクライン"
+            },
+            {
+              "code": "2290700G7032",
+              "product": "フルタイド50μgエアゾール120吸入用",
+              "ingredient": "フルチカゾンプロピオン酸エステル",
+              "maker": "グラクソ・スミスクライン"
+            },
+            {
+              "code": "2290700G8039",
+              "product": "フルタイド100μgエアゾール60吸入用",
+              "ingredient": "フルチカゾンプロピオン酸エステル",
+              "maker": "グラクソ・スミスクライン"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1329707Q1076",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "フルチカゾン",
+        "listedProducts": 55
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 55
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "Brand \"Flunase\" not confirmed: フルナーゼ is not on the prescription list (which leaves out medicines national insurance doesn't cover) (for this ingredient the list has フルチカゾン, フルチカゾンプロピオン酸エステル, アラミスト, フルチカゾンフランカルボン酸エステル, フルタイド, アニュイティ)"
+      ]
+    },
+    {
+      "id": "meloxicam",
+      "generic": "Meloxicam",
+      "brand": "Mobic",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Mobic",
+          "id": "1149035F1020",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "モービック錠5mg",
+          "products": [
+            {
+              "code": "1149035F1020",
+              "product": "モービック錠5mg",
+              "ingredient": "メロキシカム",
+              "maker": "日本ベーリンガーインゲルハイム"
+            },
+            {
+              "code": "1149035F2027",
+              "product": "モービック錠10mg",
+              "ingredient": "メロキシカム",
+              "maker": "日本ベーリンガーインゲルハイム"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1149035F1012",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "メロキシカム",
+        "listedProducts": 13
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 13
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "1149035F1020",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "apixaban",
+      "generic": "Apixaban",
+      "brand": "Eliquis",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Eliquis",
+          "id": "3339004F1029",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "エリキュース錠2.5mg",
+          "products": [
+            {
+              "code": "3339004F1029",
+              "product": "エリキュース錠2.5mg",
+              "ingredient": "アピキサバン",
+              "maker": "ブリストル・マイヤーズ スクイブ"
+            },
+            {
+              "code": "3339004F2025",
+              "product": "エリキュース錠5mg",
+              "ingredient": "アピキサバン",
+              "maker": "ブリストル・マイヤーズ スクイブ"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "3339004F1029",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "アピキサバン",
+        "listedProducts": 2
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "3339004F1029",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "furosemide",
+      "generic": "Furosemide",
+      "brand": "Lasix",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lasix",
+          "id": "2139005F1052",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "ラシックス錠20mg",
+          "products": [
+            {
+              "code": "2139005F1052",
+              "product": "ラシックス錠20mg",
+              "ingredient": "フロセミド",
+              "maker": "サノフィ"
+            },
+            {
+              "code": "2139005F2342",
+              "product": "ラシックス錠40mg",
+              "ingredient": "フロセミド",
+              "maker": "サノフィ"
+            },
+            {
+              "code": "2139005F3039",
+              "product": "ラシックス錠10mg",
+              "ingredient": "フロセミド",
+              "maker": "サノフィ"
+            },
+            {
+              "code": "2139401A1033",
+              "product": "ラシックス注100mg",
+              "ingredient": "フロセミド",
+              "maker": "サノフィ"
+            },
+            {
+              "code": "2139401A2137",
+              "product": "ラシックス注20mg",
+              "ingredient": "フロセミド",
+              "maker": "サノフィ"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2139005C1048",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "フロセミド",
+        "listedProducts": 10
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 10
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2139005F1052",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-glargine",
+      "generic": "Insulin Glargine",
+      "brand": "Lantus",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lantus",
+          "id": "2492416A1033",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "ランタス注カート",
+          "products": [
+            {
+              "code": "2492416A1033",
+              "product": "ランタス注カート",
+              "ingredient": "インスリングラルギン(遺伝子組換え)",
+              "maker": "サノフィ"
+            },
+            {
+              "code": "2492416A3036",
+              "product": "ランタス注100単位/mL",
+              "ingredient": "インスリングラルギン(遺伝子組換え)",
+              "maker": "サノフィ"
+            },
+            {
+              "code": "2492416G2024",
+              "product": "ランタス注ソロスター",
+              "ingredient": "インスリングラルギン(遺伝子組換え)",
+              "maker": "サノフィ"
+            },
+            {
+              "code": "2492416G3020",
+              "product": "ランタスXR注ソロスター",
+              "ingredient": "インスリングラルギン(遺伝子組換え)",
+              "maker": "サノフィ"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2492416A1033",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "インスリン グラルギン",
+        "listedProducts": 8
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2492416A1033",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "duloxetine",
+      "generic": "Duloxetine",
+      "brand": "Cymbalta",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Cymbalta",
+          "id": "1179052M1022",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "サインバルタカプセル20mg",
+          "products": [
+            {
+              "code": "1179052M1022",
+              "product": "サインバルタカプセル20mg",
+              "ingredient": "デュロキセチン塩酸塩",
+              "maker": "塩野義製薬"
+            },
+            {
+              "code": "1179052M2029",
+              "product": "サインバルタカプセル30mg",
+              "ingredient": "デュロキセチン塩酸塩",
+              "maker": "塩野義製薬"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1179052F1023",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "デュロキセチン",
+        "listedProducts": 41
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 41
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "1179052M1022",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "famotidine",
+      "generic": "Famotidine",
+      "brand": "Gaster (ガスター) / Gaster 10 (ガスター10)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Gaster",
+          "id": "2325003B1022",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "ガスター散10%",
+          "products": [
+            {
+              "code": "2325003B1022",
+              "product": "ガスター散10%",
+              "ingredient": "ファモチジン",
+              "maker": "LTLファーマ"
+            },
+            {
+              "code": "2325003B2029",
+              "product": "ガスター散2%",
+              "ingredient": "ファモチジン",
+              "maker": "LTLファーマ"
+            },
+            {
+              "code": "2325003F1024",
+              "product": "ガスター錠10mg",
+              "ingredient": "ファモチジン",
+              "maker": "LTLファーマ"
+            },
+            {
+              "code": "2325003F2020",
+              "product": "ガスター錠20mg",
+              "ingredient": "ファモチジン",
+              "maker": "LTLファーマ"
+            },
+            {
+              "code": "2325003F3035",
+              "product": "ガスターD錠10mg",
+              "ingredient": "ファモチジン",
+              "maker": "LTLファーマ"
+            },
+            {
+              "code": "2325003F4031",
+              "product": "ガスターD錠20mg",
+              "ingredient": "ファモチジン",
+              "maker": "LTLファーマ"
+            }
+          ]
+        },
+        {
+          "name": "Gaster 10",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "ガスター10 is not on the prescription list (which leaves out medicines national insurance doesn't cover) (for this ingredient the list has ファモチジン, ガスター, ガスターD)",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2325003B1014",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "ファモチジン",
+        "listedProducts": 23
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 23
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Brand \"Gaster 10\" not confirmed: ガスター10 is not on the prescription list (which leaves out medicines national insurance doesn't cover) (for this ingredient the list has ファモチジン, ガスター, ガスターD)"
+      ]
+    },
+    {
+      "id": "empagliflozin",
+      "generic": "Empagliflozin",
+      "brand": "Jardiance",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Jardiance",
+          "id": "3969023F1023",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "ジャディアンス錠10mg",
+          "products": [
+            {
+              "code": "3969023F1023",
+              "product": "ジャディアンス錠10mg",
+              "ingredient": "エンパグリフロジン",
+              "maker": "日本ベーリンガーインゲルハイム"
+            },
+            {
+              "code": "3969023F2020",
+              "product": "ジャディアンス錠25mg",
+              "ingredient": "エンパグリフロジン",
+              "maker": "日本ベーリンガーインゲルハイム"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "3969023F1023",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "エンパグリフロジン",
+        "listedProducts": 4
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "3969023F1023",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "carvedilol",
+      "generic": "Carvedilol",
+      "brand": "Artist",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Artist",
+          "id": "2149032F1021",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "アーチスト錠10mg",
+          "products": [
+            {
+              "code": "2149032F1021",
+              "product": "アーチスト錠10mg",
+              "ingredient": "カルベジロール",
+              "maker": "第一三共"
+            },
+            {
+              "code": "2149032F2028",
+              "product": "アーチスト錠20mg",
+              "ingredient": "カルベジロール",
+              "maker": "第一三共"
+            },
+            {
+              "code": "2149032F3024",
+              "product": "アーチスト錠1.25mg",
+              "ingredient": "カルベジロール",
+              "maker": "第一三共"
+            },
+            {
+              "code": "2149032F4020",
+              "product": "アーチスト錠2.5mg",
+              "ingredient": "カルベジロール",
+              "maker": "第一三共"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2149032F1013",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "カルベジロール",
+        "listedProducts": 13
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 13
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2149032F1021",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "tramadol",
+      "generic": "Tramadol",
+      "brand": "Tramal (トラマール)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tramal",
+          "id": "1149038F1024",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "トラマールOD錠25mg",
+          "products": [
+            {
+              "code": "1149038F1024",
+              "product": "トラマールOD錠25mg",
+              "ingredient": "トラマドール塩酸塩",
+              "maker": "日本新薬"
+            },
+            {
+              "code": "1149038F2020",
+              "product": "トラマールOD錠50mg",
+              "ingredient": "トラマドール塩酸塩",
+              "maker": "日本新薬"
+            },
+            {
+              "code": "1149400A1049",
+              "product": "トラマール注100",
+              "ingredient": "トラマドール塩酸塩",
+              "maker": "日本新薬"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1149038F1024",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "トラマドール",
+        "listedProducts": 23
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 23
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "1149038F1024",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "alprazolam",
+      "generic": "Alprazolam",
+      "brand": "Solanax / Constan",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Solanax",
+          "id": "1124023F1037",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "ソラナックス0.4mg錠",
+          "products": [
+            {
+              "code": "1124023F1037",
+              "product": "ソラナックス0.4mg錠",
+              "ingredient": "アルプラゾラム",
+              "maker": "ヴィアトリス製薬"
+            },
+            {
+              "code": "1124023F2033",
+              "product": "ソラナックス0.8mg錠",
+              "ingredient": "アルプラゾラム",
+              "maker": "ヴィアトリス製薬"
+            }
+          ]
+        },
+        {
+          "name": "Constan",
+          "id": "1124023F1029",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "コンスタン0.4mg錠",
+          "products": [
+            {
+              "code": "1124023F1029",
+              "product": "コンスタン0.4mg錠",
+              "ingredient": "アルプラゾラム",
+              "maker": "T’s製薬"
+            },
+            {
+              "code": "1124023F2025",
+              "product": "コンスタン0.8mg錠",
+              "ingredient": "アルプラゾラム",
+              "maker": "T’s製薬"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1124023F1010",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "アルプラゾラム",
+        "listedProducts": 7
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 7
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "1124023F1037",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "prednisone",
+      "generic": "Prednisone",
+      "brand": "Not sold — Japan uses prednisolone instead: Predonine (プレドニン), prescription-only",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "プレドニゾン",
+        "listedProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "clopidogrel",
+      "generic": "Clopidogrel",
+      "brand": "Plavix",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Plavix",
+          "id": "3399008F1025",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "プラビックス錠25mg",
+          "products": [
+            {
+              "code": "3399008F1025",
+              "product": "プラビックス錠25mg",
+              "ingredient": "クロピドグレル硫酸塩",
+              "maker": "サノフィ"
+            },
+            {
+              "code": "3399008F2021",
+              "product": "プラビックス錠75mg",
+              "ingredient": "クロピドグレル硫酸塩",
+              "maker": "サノフィ"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "3399008F1017",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "クロピドグレル",
+        "listedProducts": 37
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 37
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "3399008F1025",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "aspirin",
+      "generic": "Acetylsalicylic acid (Aspirin)",
+      "brand": "Bayer Aspirin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Bayer Aspirin",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "バイエルアスピリン is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has アスピリン, アスピリン・ダイアルミネートA, コンプラビン, ロレアス, タケルダ, キャブピリン)",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1143001X1040",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "アスピリン",
+        "listedProducts": 13
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": null,
+        "result": "na",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 13
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Brand \"Bayer Aspirin\" not confirmed: バイエルアスピリン is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has アスピリン, アスピリン・ダイアルミネートA, コンプラビン, ロレアス, タケルダ, キャブピリン)"
+      ]
+    },
+    {
+      "id": "oxycodone",
+      "generic": "Oxycodone",
+      "brand": "OxyContin TR (オキシコンチンTR) / Oxinorm (オキノーム)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "OxyContin TR",
+          "id": "8119002G5020",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "オキシコンチンTR錠5mg",
+          "products": [
+            {
+              "code": "8119002G5020",
+              "product": "オキシコンチンTR錠5mg",
+              "ingredient": "オキシコドン塩酸塩水和物",
+              "maker": "シオノギファーマ"
+            },
+            {
+              "code": "8119002G6026",
+              "product": "オキシコンチンTR錠10mg",
+              "ingredient": "オキシコドン塩酸塩水和物",
+              "maker": "シオノギファーマ"
+            },
+            {
+              "code": "8119002G7022",
+              "product": "オキシコンチンTR錠20mg",
+              "ingredient": "オキシコドン塩酸塩水和物",
+              "maker": "シオノギファーマ"
+            },
+            {
+              "code": "8119002G8029",
+              "product": "オキシコンチンTR錠40mg",
+              "ingredient": "オキシコドン塩酸塩水和物",
+              "maker": "シオノギファーマ"
+            }
+          ]
+        },
+        {
+          "name": "Oxinorm",
+          "id": "8119002B2023",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "オキノーム散2.5mg",
+          "products": [
+            {
+              "code": "8119002B2023",
+              "product": "オキノーム散2.5mg",
+              "ingredient": "オキシコドン塩酸塩水和物",
+              "maker": "シオノギファーマ"
+            },
+            {
+              "code": "8119002B3020",
+              "product": "オキノーム散5mg",
+              "ingredient": "オキシコドン塩酸塩水和物",
+              "maker": "シオノギファーマ"
+            },
+            {
+              "code": "8119002B4026",
+              "product": "オキノーム散10mg",
+              "ingredient": "オキシコドン塩酸塩水和物",
+              "maker": "シオノギファーマ"
+            },
+            {
+              "code": "8119002B5022",
+              "product": "オキノーム散20mg",
+              "ingredient": "オキシコドン塩酸塩水和物",
+              "maker": "シオノギファーマ"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "8119002B2023",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "オキシコドン",
+        "listedProducts": 28
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 28
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "8119002G5020",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "methylphenidate",
+      "generic": "Methylphenidate",
+      "brand": "Concerta",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Concerta",
+          "id": "1179009G1022",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "コンサータ錠18mg",
+          "products": [
+            {
+              "code": "1179009G1022",
+              "product": "コンサータ錠18mg",
+              "ingredient": "メチルフェニデート塩酸塩",
+              "maker": "ヤンセンファーマ"
+            },
+            {
+              "code": "1179009G2029",
+              "product": "コンサータ錠27mg",
+              "ingredient": "メチルフェニデート塩酸塩",
+              "maker": "ヤンセンファーマ"
+            },
+            {
+              "code": "1179009G3025",
+              "product": "コンサータ錠36mg",
+              "ingredient": "メチルフェニデート塩酸塩",
+              "maker": "ヤンセンファーマ"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1179009F1035",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "メチルフェニデート",
+        "listedProducts": 4
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "1179009G1022",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "naproxen",
+      "generic": "Naproxen",
+      "brand": "Naixan (ナイキサン)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Naixan",
+          "id": "1149007F1142",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "ナイキサン錠100mg",
+          "products": [
+            {
+              "code": "1149007F1142",
+              "product": "ナイキサン錠100mg",
+              "ingredient": "ナプロキセン",
+              "maker": "ニプロ"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1149007F1142",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "ナプロキセン",
+        "listedProducts": 1
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "1149007F1142",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "diclofenac-gel",
+      "generic": "Diclofenac (topical gel)",
+      "brand": "Voltaren EX (ボルタレンEX)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Voltaren EX",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "ボルタレンEX is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has ジクロフェナクナトリウム, ボルタレン, ナボールSR, ボルタレンSR, ジョイクル関節, ボルタレンサポ)",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1147002F1013",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "ジクロフェナク",
+        "listedProducts": 32
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": null,
+        "result": "na",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 32
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Brand \"Voltaren EX\" not confirmed: ボルタレンEX is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has ジクロフェナクナトリウム, ボルタレン, ナボールSR, ボルタレンSR, ジョイクル関節, ボルタレンサポ)"
+      ]
+    },
+    {
+      "id": "fexofenadine",
+      "generic": "Fexofenadine",
+      "brand": "Allegra FX (アレグラFX)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Allegra FX",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "アレグラFX is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has フェキソフェナジン塩酸塩, アレグラ, ディレグラ, プソフェキ)",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "4490023F1016",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "フェキソフェナジン",
+        "listedProducts": 28
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": null,
+        "result": "na",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 28
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Brand \"Allegra FX\" not confirmed: アレグラFX is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has フェキソフェナジン塩酸塩, アレグラ, ディレグラ, プソフェキ)"
+      ]
+    },
+    {
+      "id": "guaifenesin",
+      "generic": "Guaifenesin",
+      "brand": "Ask for it by the generic name: \"グアイフェネシン (guaifenesin)\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "グアイフェネシン",
+        "listedProducts": 0
+      },
+      "status": {
+        "entry": "ASK_GENERIC",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": [
+        "Ingredient not found in this registry"
+      ]
+    },
+    {
+      "id": "dextromethorphan",
+      "generic": "Dextromethorphan",
+      "brand": "Medicon (メジコン)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Medicon",
+          "id": "2223001B1210",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "メジコン散10%",
+          "products": [
+            {
+              "code": "2223001B1210",
+              "product": "メジコン散10%",
+              "ingredient": "デキストロメトルファン臭化水素酸塩水和物",
+              "maker": "シオノギファーマ"
+            },
+            {
+              "code": "2223001F2099",
+              "product": "メジコン錠15mg",
+              "ingredient": "デキストロメトルファン臭化水素酸塩水和物",
+              "maker": "シオノギファーマ"
+            },
+            {
+              "code": "2249106Q1066",
+              "product": "メジコン配合シロップ",
+              "ingredient": "デキストロメトルファン臭化水素酸塩水和物・クレゾールスルホン酸カリウム",
+              "maker": "シオノギファーマ"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2223001B1210",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "デキストロメトルファン",
+        "listedProducts": 7
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 7
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2223001B1210",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "oxymetazoline",
+      "generic": "Oxymetazoline (nasal spray)",
+      "brand": "Nasivin (ナシビン)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Nasivin",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "ナシビン is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "オキシメタゾリン",
+        "listedProducts": 0
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Brand \"Nasivin\" not confirmed: ナシビン is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it"
+      ]
+    },
+    {
+      "id": "bismuth-subsalicylate",
+      "generic": "Bismuth subsalicylate",
+      "brand": "Not commonly available",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "次サリチル酸ビスマス",
+        "listedProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "calcium-carbonate",
+      "generic": "Calcium carbonate (antacid)",
+      "brand": "Ohta Isan (太田胃散)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ohta Isan",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "太田胃散 is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has カルタン, 沈降炭酸カルシウム, 炭カル, デノタスチュアブル)",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2190024F1023",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "沈降炭酸カルシウム",
+        "listedProducts": 12
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": null,
+        "result": "na",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 12
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": [
+        "Brand \"Ohta Isan\" not confirmed: 太田胃散 is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has カルタン, 沈降炭酸カルシウム, 炭カル, デノタスチュアブル)"
+      ]
+    },
+    {
+      "id": "simeticone",
+      "generic": "Simeticone",
+      "brand": "Gaspitan (ガスピタン)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Gaspitan",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "ガスピタン is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has ガスコン, ジメチコン, ガスサール, ガスコンドロップ)",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2318001B1037",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "ジメチコン",
+        "listedProducts": 9
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": null,
+        "result": "na",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 9
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": [
+        "Brand \"Gaspitan\" not confirmed: ガスピタン is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has ガスコン, ジメチコン, ガスサール, ガスコンドロップ)"
+      ]
+    },
+    {
+      "id": "oral-rehydration-salts",
+      "generic": "Oral rehydration salts",
+      "brand": "OS-1 (オーエスワン)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "OS-1",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "オーエスワン is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": null,
+        "listedProducts": 0
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Brand \"OS-1\" not confirmed: オーエスワン is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it"
+      ]
+    },
+    {
+      "id": "bisacodyl",
+      "generic": "Bisacodyl",
+      "brand": "Colac (コーラック)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Colac",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "コーラック is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has ビサコジル)",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2359700J1010",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "ビサコジル",
+        "listedProducts": 2
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": null,
+        "result": "na",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Brand \"Colac\" not confirmed: コーラック is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has ビサコジル)"
+      ]
+    },
+    {
+      "id": "polyethylene-glycol",
+      "generic": "Polyethylene glycol 3350 (macrogol)",
+      "brand": "Movicol (モビコール)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Movicol",
+          "id": "2359110B1037",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "モビコール配合内用剤LD",
+          "products": [
+            {
+              "code": "2359110B1037",
+              "product": "モビコール配合内用剤LD",
+              "ingredient": "マクロゴール4000・塩化ナトリウム・炭酸水素ナトリウム・塩化カリウム",
+              "maker": "EAファーマ"
+            },
+            {
+              "code": "2359110B2025",
+              "product": "モビコール配合内用剤HD",
+              "ingredient": "マクロゴール4000・塩化ナトリウム・炭酸水素ナトリウム・塩化カリウム",
+              "maker": "EAファーマ"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2359110B1037",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "マクロゴール",
+        "listedProducts": 16
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 16
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2359110B1037",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "meclozine",
+      "generic": "Meclozine",
+      "brand": "Ask for it by the generic name: \"メクリジン (meclizine)\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "メクリジン",
+        "listedProducts": 0
+      },
+      "status": {
+        "entry": "ASK_GENERIC",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": [
+        "Ingredient not found in this registry"
+      ]
+    },
+    {
+      "id": "hydrocortisone-cream",
+      "generic": "Hydrocortisone (cream)",
+      "brand": "Terra-Cortril (テラ・コートリル)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Terra-Cortril",
+          "id": "2647705M1023",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "テラ・コートリル軟膏",
+          "products": [
+            {
+              "code": "2647705M1023",
+              "product": "テラ・コートリル軟膏",
+              "ingredient": "オキシテトラサイクリン塩酸塩・ヒドロコルチゾン",
+              "maker": "陽進堂ホールディングス"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2452002F1030",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "ヒドロコルチゾン",
+        "listedProducts": 18
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 18
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2647705M1023",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Entry says it is sold without a prescription, but this brand is on the prescription list"
+      ]
+    },
+    {
+      "id": "clotrimazole",
+      "generic": "Clotrimazole",
+      "brand": "Empecid (エンペシド)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Empecid",
+          "id": "2655700N1176",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "エンペシドクリーム1%",
+          "products": [
+            {
+              "code": "2655700N1176",
+              "product": "エンペシドクリーム1%",
+              "ingredient": "クロトリマゾール",
+              "maker": "バイエル薬品"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2529702H1087",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "クロトリマゾール",
+        "listedProducts": 3
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2655700N1176",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Entry says it is sold without a prescription, but this brand is on the prescription list"
+      ]
+    },
+    {
+      "id": "antibiotic-ointment",
+      "generic": "Bacitracin / Neomycin / Polymyxin B (antibiotic ointment)",
+      "brand": "Dolmycin (ドルマイシン軟膏)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Dolmycin",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "ドルマイシン軟膏 is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has バラマイシン)",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2639805M1020",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "バシトラシン",
+        "listedProducts": 1
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": null,
+        "result": "na",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 1
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Brand \"Dolmycin\" not confirmed: ドルマイシン軟膏 is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has バラマイシン)"
+      ]
+    },
+    {
+      "id": "doxylamine",
+      "generic": "Doxylamine",
+      "brand": "Not sold — \"Drewell\" (diphenhydramine) is the OTC sleep aid",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "ドキシラミン",
+        "listedProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "levonorgestrel",
+      "generic": "Levonorgestrel (emergency contraception)",
+      "brand": "Norlevo (ノルレボ)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Norlevo",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "ノルレボ is not on the prescription list (which leaves out medicines national insurance doesn't cover) (for this ingredient the list has ウェールナラ, ジェミーナ, ミレーナ)",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2482010F1026",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "レボノルゲストレル",
+        "listedProducts": 3
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Brand \"Norlevo\" not confirmed: ノルレボ is not on the prescription list (which leaves out medicines national insurance doesn't cover) (for this ingredient the list has ウェールナラ, ジェミーナ, ミレーナ)"
+      ]
+    },
+    {
+      "id": "atovaquone-proguanil",
+      "generic": "Atovaquone / Proguanil",
+      "brand": "Malarone (マラロン)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Malarone",
+          "id": "6419101F1020",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "マラロン配合錠",
+          "products": [
+            {
+              "code": "6419101F1020",
+              "product": "マラロン配合錠",
+              "ingredient": "アトバコン・プログアニル塩酸塩",
+              "maker": "グラクソ・スミスクライン"
+            },
+            {
+              "code": "6419101F2026",
+              "product": "マラロン小児用配合錠",
+              "ingredient": "アトバコン・プログアニル塩酸塩",
+              "maker": "グラクソ・スミスクライン"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "6290006S1027",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "アトバコン",
+        "listedProducts": 3
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "6419101F1020",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "doxycycline",
+      "generic": "Doxycycline",
+      "brand": "Vibramycin (ビブラマイシン)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Vibramycin",
+          "id": "6152004F1074",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "ビブラマイシン錠50mg",
+          "products": [
+            {
+              "code": "6152004F1074",
+              "product": "ビブラマイシン錠50mg",
+              "ingredient": "ドキシサイクリン塩酸塩水和物",
+              "maker": "ファイザー"
+            },
+            {
+              "code": "6152004F2089",
+              "product": "ビブラマイシン錠100mg",
+              "ingredient": "ドキシサイクリン塩酸塩水和物",
+              "maker": "ファイザー"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "6152004F1074",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "ドキシサイクリン",
+        "listedProducts": 2
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "6152004F1074",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "azithromycin",
+      "generic": "Azithromycin",
+      "brand": "Zithromac (ジスロマック)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zithromac",
+          "id": "6149004C1030",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "ジスロマック細粒小児用10%",
+          "products": [
+            {
+              "code": "6149004C1030",
+              "product": "ジスロマック細粒小児用10%",
+              "ingredient": "アジスロマイシン水和物",
+              "maker": "ファイザー"
+            },
+            {
+              "code": "6149004F1028",
+              "product": "ジスロマック錠250mg",
+              "ingredient": "アジスロマイシン水和物",
+              "maker": "ファイザー"
+            },
+            {
+              "code": "6149004F2024",
+              "product": "ジスロマック錠600mg",
+              "ingredient": "アジスロマイシン水和物",
+              "maker": "ファイザー"
+            },
+            {
+              "code": "6149004M1027",
+              "product": "ジスロマックカプセル小児用100mg",
+              "ingredient": "アジスロマイシン水和物",
+              "maker": "ファイザー"
+            },
+            {
+              "code": "6149400D1021",
+              "product": "ジスロマック点滴静注用500mg",
+              "ingredient": "アジスロマイシン水和物",
+              "maker": "ファイザー"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "6149004C1030",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "アジスロマイシン",
+        "listedProducts": 14
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 14
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "6149004C1030",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "ciprofloxacin",
+      "generic": "Ciprofloxacin",
+      "brand": "Ciproxan (シプロキサン)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ciproxan",
+          "id": "6241008F1023",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "シプロキサン錠100mg",
+          "products": [
+            {
+              "code": "6241008F1023",
+              "product": "シプロキサン錠100mg",
+              "ingredient": "シプロフロキサシン塩酸塩",
+              "maker": "バイエル薬品"
+            },
+            {
+              "code": "6241008F2020",
+              "product": "シプロキサン錠200mg",
+              "ingredient": "シプロフロキサシン塩酸塩",
+              "maker": "バイエル薬品"
+            },
+            {
+              "code": "6241400A4021",
+              "product": "シプロキサン注200mg",
+              "ingredient": "シプロフロキサシン",
+              "maker": "バイエル薬品"
+            },
+            {
+              "code": "6241400A6024",
+              "product": "シプロキサン注400mg",
+              "ingredient": "シプロフロキサシン",
+              "maker": "バイエル薬品"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "6241008F1023",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "シプロフロキサシン",
+        "listedProducts": 6
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "6241008F1023",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "acetazolamide",
+      "generic": "Acetazolamide",
+      "brand": "Diamox (ダイアモックス)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Diamox",
+          "id": "2134002F1109",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "ダイアモックス錠250mg",
+          "products": [
+            {
+              "code": "2134002F1109",
+              "product": "ダイアモックス錠250mg",
+              "ingredient": "アセタゾラミド",
+              "maker": "三和化学研究所"
+            },
+            {
+              "code": "2134400D1039",
+              "product": "ダイアモックス注射用500mg",
+              "ingredient": "アセタゾラミドナトリウム",
+              "maker": "三和化学研究所"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2134001X1010",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "アセタゾラミド",
+        "listedProducts": 3
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2134002F1109",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "scopolamine",
+      "generic": "Scopolamine (motion-sickness patch)",
+      "brand": "No patch in Japan",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "8119502A1014",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "スコポラミン",
+        "listedProducts": 2
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": [
+        "Entry says \"No patch in Japan\" but the registry lists products with this ingredient"
+      ]
+    },
+    {
+      "id": "ondansetron",
+      "generic": "Ondansetron",
+      "brand": "Sold generic (\"オンダンセトロン\")",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "2391001F3023",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "オンダンセトロン",
+        "listedProducts": 4
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2391001F3023",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "epinephrine",
+      "generic": "Epinephrine (adrenaline auto-injector)",
+      "brand": "EpiPen (エピペン)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "EpiPen",
+          "id": "2451402G2020",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "エピペン注射液0.15mg",
+          "products": [
+            {
+              "code": "2451402G2020",
+              "product": "エピペン注射液0.15mg",
+              "ingredient": "アドレナリン",
+              "maker": "ヴィアトリス製薬"
+            },
+            {
+              "code": "2451402G3026",
+              "product": "エピペン注射液0.3mg",
+              "ingredient": "アドレナリン",
+              "maker": "ヴィアトリス製薬"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1214400A1022",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "アドレナリン",
+        "listedProducts": 10
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 10
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2451402G2020",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-07",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    }
+  ]
+}

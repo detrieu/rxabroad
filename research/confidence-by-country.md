@@ -17,8 +17,8 @@ when the data was researched; the tiers show how much evidence actually backs th
 | 3 | FR France | 97 | 72 | 4 | 0 | 69 | 1 | 1 | 5 | 2 | 69 | 4 | 0 |
 | 4 | SG Singapore | 97 | 73 | 2 | 1 | 65 | 1 | 3 | 7 | 6 | 67 | 5 | 2 |
 | 5 | GB United Kingdom | 95 | 68 | 8 | 0 | 59 | 8 | 6 | 3 | 3 | 71 | 6 | 2 |
-| 6 | DE Germany | 67 | 28 | 46 | 2 | 1 | 8 | 3 | 64 | 18 | 0 | 5 | 4 |
-| 7 | JP Japan | 59 | 21 | 47 | 8 | 4 | 9 | 15 | 48 | 0 | 0 | 7 | 4 |
+| 6 | JP Japan | 78 | 49 | 21 | 6 | 38 | 8 | 12 | 18 | 0 | 47 | 5 | 1 |
+| 7 | DE Germany | 67 | 28 | 46 | 2 | 1 | 8 | 3 | 64 | 18 | 0 | 5 | 4 |
 | 8 | IN India | 55 | 18 | 48 | 10 | 0 | 1 | 14 | 61 | 7 | 0 | 7 | 6 |
 | 9 | MX Mexico | 53 | 14 | 52 | 10 | 4 | 1 | 6 | 65 | 4 | 0 | 7 | 4 |
 | 10 | PT Portugal | 51 | 14 | 50 | 12 | 4 | 2 | 4 | 66 | 8 | 0 | 5 | 4 |
@@ -26,7 +26,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | 12 | MA Morocco | 31 | 6 | 35 | 35 | 0 | 0 | 6 | 70 | 2 | 0 | 2 | 2 |
 | 13 | VN Vietnam | 22 | 7 | 20 | 49 | 0 | 0 | 6 | 70 | 1 | 0 | 3 | 3 |
 | 14 | ET Ethiopia | 10 | 0 | 15 | 61 | 1 | 0 | 0 | 75 | 0 | 0 | 0 | 0 |
-| | **All** | 63 | 479 | 373 | 212 | 354 | 31 | 72 | 607 | 54 | 354 | 68 | 36 |
+| | **All** | 64 | 507 | 347 | 210 | 388 | 30 | 69 | 577 | 54 | 401 | 66 | 33 |
 
 ## 1. United States (US) — score 99
 
@@ -443,7 +443,90 @@ when the data was researched; the tiers show how much evidence actually backs th
 | medium ✓ | Naproxen | Feminax Ultra | PHARMACY | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Feminax%20Ultra&page=1) |
 | medium ✓ | Polyethylene glycol 3350 (macrogol) | Movicol / Laxido | PHARMACY | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Movicol&page=1) |
 
-## 6. Germany (DE) — score 67
+## 6. Japan (JP) — score 78
+
+49 high · 21 medium · 6 low · sources: 38 official, 8 professional, 12 secondary, 18 none · 47 registry-verified
+
+| Confidence | Medicine | Sold as | Status | Source |
+|---|---|---|---|---|
+| high ✓ | Acetazolamide | Diamox (ダイアモックス) | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Alprazolam | Solanax / Constan | CONTROLLED ⚠ | T1 [ncd.mhlw.go.jp](https://www.ncd.mhlw.go.jp/dl_data/keitai/total.pdf) |
+| high ✓ | Amlodipine | Norvasc / Amlodin | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Amoxicillin | Sold generic ("Amoxicillin") | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Apixaban | Eliquis | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Atorvastatin | Lipitor | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Atovaquone / Proguanil | Malarone (マラロン) | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Azithromycin | Zithromac (ジスロマック) | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Cetirizine | Zyrtec (ジルテック) | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Ciprofloxacin | Ciproxan (シプロキサン) | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Clopidogrel | Plavix | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Doxycycline | Vibramycin (ビブラマイシン) | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Duloxetine | Cymbalta | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Empagliflozin | Jardiance | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Epinephrine (adrenaline auto-injector) | EpiPen (エピペン) | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Escitalopram | Lexapro | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Furosemide | Lasix | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Gabapentin | Gabapen | RX | T1 [info.pmda.go.jp](https://www.info.pmda.go.jp/downfiles/guide/ph/670109_1139007F1022_3_00G.pdf) |
+| high ✓ | Insulin Glargine | Lantus | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Melatonin | Melatobel (メラトベル) | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Methylphenidate | Concerta | CONTROLLED ⚠ | T1 [ncd.mhlw.go.jp](https://www.ncd.mhlw.go.jp/dl_data/keitai/total.pdf) |
+| high ✓ | Metoprolol | Seloken / Lopresor | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Montelukast | Kipres / Singulair | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Naproxen | Naixan (ナイキサン) | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Polyethylene glycol 3350 (macrogol) | Movicol (モビコール) | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Rosuvastatin | Crestor | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Semaglutide | Ozempic | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Simvastatin | Lipovas | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Tamsulosin | Harnal | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| high ✓ | Tramadol | Tramal (トラマール) | RX | T1 [ncd.mhlw.go.jp](https://www.ncd.mhlw.go.jp/en/application2.html) |
+| high ✓ | Carvedilol | Artist | RX | T2 [medical.nikkeibp.co.jp](https://medical.nikkeibp.co.jp/inc/all/drugdic/prd/21/2149032F2028.html) |
+| high | Fluticasone | Flunase (フルナーゼ) / Allermist (アラミスト) / Flutide (フルタイド) | MIXED | T2 [flunase.jp](https://www.flunase.jp/) |
+| high | Ibuprofen | EVE A (150mg ibuprofen per tablet) | OTC | T2 [ssp.co.jp](https://www.ssp.co.jp/eve/en/) |
+| high ✓ | Levothyroxine | Thyradin S | RX | T2 [medical.nikkeibp.co.jp](https://medical.nikkeibp.co.jp/inc/all/drugdic/prd/24/2431004F1056.html) |
+| high | Loratadine | Claritin EX | OTC | T2 [catalog-taisho.com](https://www.catalog-taisho.com/content/dam/selfmedication/jp/ja/claritin/images/04839/pdf/04839_ProductPDF_en.pdf) |
+| high ✓ | Losartan | Nu-Lotan | RX | T2 [organonpro.com](https://organonpro.com/ja-jp/wp-content/uploads/sites/10/2025/09/if_nulotan_tab.pdf) |
+| high ✓ | Metformin | Metgluco | RX | T2 [sumitomo-pharma.com](https://www.sumitomo-pharma.com/news/20100120-01.html) |
+| high ✓ | Salbutamol | Sultanol | RX | T2 [rad-ar.or.jp](https://www.rad-ar.or.jp/siori/english/search/result?n=38384) |
+| high | Amphetamine / Dextroamphetamine | Not sold | BANNED ⚠ | T3 [fodors.com](https://www.fodors.com/world/asia/japan/experiences/news/my-prescription-for-adderall-for-adhd-is-banned-in-japan-what-to-know) |
+| high | Bupropion | Not approved for any use by Japan’s Ministry of Health, Labour and Welfare | UNAVAILABLE | T3 [legalclarity.org](https://legalclarity.org/is-bupropion-legal-in-japan-rules-for-personal-use/) |
+| high | Diphenhydramine | Drewell (50mg diphenhydramine, Class 2 OTC sleep aid) — not an allergy product | OTC | T3 [otcguidejapan.com](https://otcguidejapan.com/guides/sleeping-pills-in-japan/) |
+| high | Fluoxetine | Not approved for use in Japan — the manufacturer withdrew it after disappointing local trials | UNAVAILABLE | T3 [interacnetwork.com](https://interacnetwork.com/antidepressants-availablity-in-japan-2/) |
+| high ✓ | Hydrochlorothiazide | Sold generic (ヒドロクロロチアジド) | RX | T3 [clinicaltrials.gov](https://clinicaltrials.gov/study/NCT03205137) |
+| high ✓ | Lisinopril | Sold generic (e.g. Mylan) | RX | T3 [drugs.com](https://www.drugs.com/international/lisinopril.html) |
+| high ✓ | Meloxicam | Mobic | RX | T3 [qlife.jp](https://www.qlife.jp/meds/rx18262.html) |
+| high | Paracetamol | Tylenol A — often called "Calonal" instead, an equally common Japanese name for the same ingredient | OTC | T3 [otcguidejapan.com](https://otcguidejapan.com/guides/acetaminophen-in-japan/) |
+| high | Prednisone | Not sold — Japan uses prednisolone instead: Predonine (プレドニン), prescription-only | UNAVAILABLE | T3 [sugamo-sengoku-hifu.jp](https://sugamo-sengoku-hifu.jp/medicines/predonin.html) |
+| high ✓ | Sertraline | Jzoloft | RX | T3 [clinicaltrials.gov](https://clinicaltrials.gov/study/NCT01699724) |
+| high ✓ | Trazodone | Reslin (レスリン) | RX | T3 [ja.wikipedia.org](https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A9%E3%82%BE%E3%83%89%E3%83%B3) |
+| medium ✓ | Clotrimazole | Empecid (エンペシド) | OTC | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| medium ✓ | Dextromethorphan | Medicon (メジコン) | MIXED | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| medium | Hydrocodone / Paracetamol combination | Not sold in Japan | UNAVAILABLE | T1 [ncd.mhlw.go.jp](https://www.ncd.mhlw.go.jp/en/application2.html) |
+| medium ✓ | Hydrocortisone (cream) | Terra-Cortril (テラ・コートリル) | OTC | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| medium ✓ | Omeprazole | Prescription-only; OTC PPIs are uncommon in Japan | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| medium ✓ | Oxycodone | OxyContin TR (オキシコンチンTR) / Oxinorm (オキノーム) | CONTROLLED ⚠ | T1 [ncd.mhlw.go.jp](https://www.ncd.mhlw.go.jp/en/application2.html) |
+| medium ✓ | Pseudoephedrine | Ask by generic name | CONTROLLED ⚠ | T1 [ncd.mhlw.go.jp](https://www.ncd.mhlw.go.jp/dl_data/keitai/cotrolled_substances_list20241212%20.pdf) |
+| medium | Pantoprazole | Not sold in Japan | UNAVAILABLE | T3 [ja.wikipedia.org](https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AD%E3%83%88%E3%83%B3%E3%83%9D%E3%83%B3%E3%83%97%E9%98%BB%E5%AE%B3%E8%96%AC) |
+| medium | Acetylsalicylic acid (Aspirin) | Bayer Aspirin | OTC | — |
+| medium | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Dolmycin (ドルマイシン軟膏) | OTC | — |
+| medium | Bisacodyl | Colac (コーラック) | OTC | — |
+| medium | Bismuth subsalicylate | Not commonly available | UNAVAILABLE | — |
+| medium | Diclofenac (topical gel) | Voltaren EX (ボルタレンEX) | OTC | — |
+| medium | Dimenhydrinate | Dramamine (ドラマミン) / Travelmin (トラベルミン) | MIXED | — |
+| medium | Doxylamine | Not sold — "Drewell" (diphenhydramine) is the OTC sleep aid | UNAVAILABLE | — |
+| medium | Famotidine | Gaster (ガスター) / Gaster 10 (ガスター10) | MIXED | — |
+| medium | Fexofenadine | Allegra FX (アレグラFX) | OTC | — |
+| medium | Levonorgestrel (emergency contraception) | Norlevo (ノルレボ) | RX | — |
+| medium | Loperamide | Lopemin (ロペミン) / Tomedine Kowa (トメダインコーワ) | MIXED | — |
+| medium | Oral rehydration salts | OS-1 (オーエスワン) | OTC | — |
+| medium | Oxymetazoline (nasal spray) | Nasivin (ナシビン) | OTC | — |
+| low ✓ | Ondansetron | Sold generic ("オンダンセトロン") | RX | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
+| low | Calcium carbonate (antacid) | Ohta Isan (太田胃散) | OTC | — |
+| low | Guaifenesin | Ask for it by the generic name: "グアイフェネシン (guaifenesin)" | ASK_GENERIC | — |
+| low | Meclozine | Ask for it by the generic name: "メクリジン (meclizine)" | ASK_GENERIC | — |
+| low | Scopolamine (motion-sickness patch) | No patch in Japan | UNAVAILABLE | — |
+| low | Simeticone | Gaspitan (ガスピタン) | OTC | — |
+
+## 7. Germany (DE) — score 67
 
 28 high · 46 medium · 2 low · sources: 1 official, 8 professional, 3 secondary, 64 none · 0 registry-verified
 
@@ -525,89 +608,6 @@ when the data was researched; the tiers show how much evidence actually backs th
 | medium | Tramadol | Tramal | CONTROLLED ⚠ | — |
 | low | Guaifenesin | Wick Husten-Löser | OTC | — |
 | low | Meclozine | Not commonly available — "Vomex A" (dimenhydrinate) covers this use | UNAVAILABLE | — |
-
-## 7. Japan (JP) — score 59
-
-21 high · 47 medium · 8 low · sources: 4 official, 9 professional, 15 secondary, 48 none · 0 registry-verified
-
-| Confidence | Medicine | Sold as | Status | Source |
-|---|---|---|---|---|
-| high | Alprazolam | Solanax / Constan | CONTROLLED ⚠ | T1 [us.emb-japan.go.jp](https://www.us.emb-japan.go.jp/itpr_en/bringing-medications-to-japan.html) |
-| high | Gabapentin | Gabapen | RX | T1 [info.pmda.go.jp](https://www.info.pmda.go.jp/downfiles/guide/ph/670109_1139007F1022_3_00G.pdf) |
-| high | Carvedilol | Artist | RX | T2 [medical.nikkeibp.co.jp](https://medical.nikkeibp.co.jp/inc/all/drugdic/prd/21/2149032F2028.html) |
-| high | Fluticasone | Flunase (nasal spray, OTC for seasonal allergies) / other fluticasone forms (Rx) | MIXED | T2 [flunase.jp](https://www.flunase.jp/) |
-| high | Ibuprofen | EVE A (150mg ibuprofen per tablet) | OTC | T2 [ssp.co.jp](https://www.ssp.co.jp/eve/en/) |
-| high | Levothyroxine | Thyradin S | RX | T2 [medical.nikkeibp.co.jp](https://medical.nikkeibp.co.jp/inc/all/drugdic/prd/24/2431004F1056.html) |
-| high | Loratadine | Claritin EX | OTC | T2 [catalog-taisho.com](https://www.catalog-taisho.com/content/dam/selfmedication/jp/ja/claritin/images/04839/pdf/04839_ProductPDF_en.pdf) |
-| high | Losartan | Nu-Lotan | RX | T2 [organonpro.com](https://organonpro.com/ja-jp/wp-content/uploads/sites/10/2025/09/if_nulotan_tab.pdf) |
-| high | Metformin | Metgluco | RX | T2 [sumitomo-pharma.com](https://www.sumitomo-pharma.com/news/20100120-01.html) |
-| high | Salbutamol | Sultanol | RX | T2 [rad-ar.or.jp](https://www.rad-ar.or.jp/siori/english/search/result?n=38384) |
-| high | Amphetamine / Dextroamphetamine | Not sold | BANNED ⚠ | T3 [fodors.com](https://www.fodors.com/world/asia/japan/experiences/news/my-prescription-for-adderall-for-adhd-is-banned-in-japan-what-to-know) |
-| high | Bupropion | Not approved for any use by Japan’s Ministry of Health, Labour and Welfare | UNAVAILABLE | T3 [legalclarity.org](https://legalclarity.org/is-bupropion-legal-in-japan-rules-for-personal-use/) |
-| high | Diphenhydramine | Drewell (50mg diphenhydramine, Class 2 OTC sleep aid) — not an allergy product | OTC | T3 [otcguidejapan.com](https://otcguidejapan.com/guides/sleeping-pills-in-japan/) |
-| high | Fluoxetine | Not approved for use in Japan — the manufacturer withdrew it after disappointing local trials | UNAVAILABLE | T3 [interacnetwork.com](https://interacnetwork.com/antidepressants-availablity-in-japan-2/) |
-| high | Hydrochlorothiazide | Almost never sold standalone — found inside combination pills like Ecard (candesartan/HCTZ) or Micombi (telmisartan/HCTZ) | RX | T3 [clinicaltrials.gov](https://clinicaltrials.gov/study/NCT03205137) |
-| high | Meloxicam | Mobic | RX | T3 [qlife.jp](https://www.qlife.jp/meds/rx18262.html) |
-| high | Methylphenidate | Concerta | CONTROLLED ⚠ | T3 [interacnetwork.com](https://interacnetwork.com/navigating-stimulant-therapy-for-adult-adhd-in-japan-regulations-and-considerations/) |
-| high | Paracetamol | Tylenol A — often called "Calonal" instead, an equally common Japanese name for the same ingredient | OTC | T3 [otcguidejapan.com](https://otcguidejapan.com/guides/acetaminophen-in-japan/) |
-| high | Prednisone | Ask for プレドニン (Predonine) — prednisolone, not prednisone, is what's actually stocked | UNCONFIRMED | T3 [sugamo-sengoku-hifu.jp](https://sugamo-sengoku-hifu.jp/medicines/predonin.html) |
-| high | Sertraline | Jzoloft | RX | T3 [clinicaltrials.gov](https://clinicaltrials.gov/study/NCT01699724) |
-| high | Trazodone | Desyrel / Reslin (トラゾドン塩酸塩) | RX | T3 [ja.wikipedia.org](https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A9%E3%82%BE%E3%83%89%E3%83%B3) |
-| medium | Hydrocodone / Paracetamol combination | Available via import permit | CONTROLLED ⚠ | T1 [us.emb-japan.go.jp](https://www.us.emb-japan.go.jp/itpr_en/bringing-medications-to-japan.html) |
-| medium | Oxycodone | Available via import permit | CONTROLLED ⚠ | T1 [us.emb-japan.go.jp](https://www.us.emb-japan.go.jp/itpr_en/bringing-medications-to-japan.html) |
-| medium | Dimenhydrinate | No confirmed dimenhydrinate-specific brand — "Travelmin" (a well-known Japanese motion-sickness brand) is actually diphenhydramine + diprophylline, not dimenhydrinate | UNCONFIRMED | T2 [eisai.com](https://www.eisai.com/news/news201034.html) |
-| medium | Lisinopril | Sold generic (e.g. Mylan) | RX | T3 [drugs.com](https://www.drugs.com/international/lisinopril.html) |
-| medium | Pantoprazole | Not a common PPI choice — Japan's standard lineup is lansoprazole (Takepron), vonoprazan (Takecab), rabeprazole (Pariet), esomeprazole (Nexium), and omeprazole; pantoprazole is notably absent from consumer-facing brand lists | UNCONFIRMED | T3 [ja.wikipedia.org](https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AD%E3%83%88%E3%83%B3%E3%83%9D%E3%83%B3%E3%83%97%E9%98%BB%E5%AE%B3%E8%96%AC) |
-| medium | Pseudoephedrine | Ask by generic name | CONTROLLED ⚠ | T3 [is-this-legal.com](https://is-this-legal.com/is-pseudoephedrine-legal-in-japan/) |
-| medium | Tramadol | Sold generic | CONTROLLED ⚠ | T3 [medx.it.com](https://medx.it.com/is-tramadol-banned-in-japan-navigating-medication-import-rules) |
-| medium | Acetazolamide | Diamox (ダイアモックス) | RX | — |
-| medium | Acetylsalicylic acid (Aspirin) | Bayer Aspirin | OTC | — |
-| medium | Amlodipine | Norvasc / Amlodin | RX | — |
-| medium | Amoxicillin | Sold generic ("Amoxicillin") | RX | — |
-| medium | Apixaban | Eliquis | RX | — |
-| medium | Atorvastatin | Lipitor | RX | — |
-| medium | Atovaquone / Proguanil | Malarone (マラロン) | RX | — |
-| medium | Azithromycin | Zithromac (ジスロマック) | RX | — |
-| medium | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Dolmycin (ドルマイシン軟膏) | OTC | — |
-| medium | Bisacodyl | Colac (コーラック) | OTC | — |
-| medium | Bismuth subsalicylate | Not commonly available | UNAVAILABLE | — |
-| medium | Cetirizine | Cetirizine is prescription-only; the common OTC antihistamine is fexofenadine (brand "Allegra FX") | RX | — |
-| medium | Ciprofloxacin | Ciproxan (シプロキサン) | RX | — |
-| medium | Clopidogrel | Plavix | RX | — |
-| medium | Dextromethorphan | Medicon (メジコン) | MIXED | — |
-| medium | Diclofenac (topical gel) | Voltaren EX (ボルタレンEX) | OTC | — |
-| medium | Doxycycline | Vibramycin (ビブラマイシン) | RX | — |
-| medium | Doxylamine | Not sold — "Drewell" (diphenhydramine) is the OTC sleep aid | UNAVAILABLE | — |
-| medium | Duloxetine | Cymbalta | RX | — |
-| medium | Empagliflozin | Jardiance | RX | — |
-| medium | Epinephrine (adrenaline auto-injector) | EpiPen (エピペン) | RX | — |
-| medium | Escitalopram | Lexapro | RX | — |
-| medium | Famotidine | Gaster | RX | — |
-| medium | Fexofenadine | Allegra FX (アレグラFX) | OTC | — |
-| medium | Furosemide | Lasix | RX | — |
-| medium | Insulin Glargine | Lantus | RX | — |
-| medium | Levonorgestrel (emergency contraception) | Norlevo (ノルレボ) | RX | — |
-| medium | Loperamide | Imodium — historically dispensed rather than shelf-OTC | RX | — |
-| medium | Melatonin | Not sold as an OTC supplement; melatonin receptor drugs like ramelteon require a prescription | RX | — |
-| medium | Metoprolol | Seloken / Lopresor | RX | — |
-| medium | Montelukast | Kipres / Singulair | RX | — |
-| medium | Naproxen | Naixan (ナイキサン) | RX | — |
-| medium | Omeprazole | Prescription-only; OTC PPIs are uncommon in Japan | RX | — |
-| medium | Oral rehydration salts | OS-1 (オーエスワン) | OTC | — |
-| medium | Oxymetazoline (nasal spray) | Nasivin (ナシビン) | OTC | — |
-| medium | Polyethylene glycol 3350 (macrogol) | Movicol (モビコール) | RX | — |
-| medium | Rosuvastatin | Crestor | RX | — |
-| medium | Semaglutide | Ozempic | RX | — |
-| medium | Simvastatin | Lipovas | RX | — |
-| medium | Tamsulosin | Harnal | RX | — |
-| low | Calcium carbonate (antacid) | Ohta Isan (太田胃散) | OTC | — |
-| low | Clotrimazole | Empecid (エンペシド) | OTC | — |
-| low | Guaifenesin | Ask for it by the generic name: "グアイフェネシン (guaifenesin)" | ASK_GENERIC | — |
-| low | Hydrocortisone (cream) | Terra-Cortril (テラ・コートリル) | OTC | — |
-| low | Meclozine | Ask for it by the generic name: "メクリジン (meclizine)" | ASK_GENERIC | — |
-| low | Ondansetron | Sold generic ("オンダンセトロン") | RX | — |
-| low | Scopolamine (motion-sickness patch) | No patch — some OTC motion-sickness (酔い止め) tablets contain scopolamine | UNAVAILABLE | — |
-| low | Simeticone | Gaspitan (ガスピタン) | OTC | — |
 
 ## 8. India (IN) — score 55
 

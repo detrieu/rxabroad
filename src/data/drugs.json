@@ -599,11 +599,22 @@
         "source": null
       },
       "JP": {
-        "brand": "Cetirizine is prescription-only; the common OTC antihistamine is fexofenadine (brand \"Allegra FX\")",
+        "brand": "Zyrtec (ジルテック)",
         "status": "RX",
-        "confidence": "medium",
-        "note": null,
-        "source": null
+        "confidence": "high",
+        "note": "Prescription-only. The common over-the-counter antihistamine is fexofenadine (Allegra FX).",
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "4490020F1020",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Zyrtec",
@@ -927,10 +938,10 @@
         "source": null
       },
       "JP": {
-        "brand": "Imodium — historically dispensed rather than shelf-OTC",
-        "status": "RX",
+        "brand": "Lopemin (ロペミン) / Tomedine Kowa (トメダインコーワ)",
+        "status": "MIXED",
         "confidence": "medium",
-        "note": "Standalone loperamide has traditionally required a pharmacist/prescription route in Japan more than in the US or EU.",
+        "note": "Lopemin is prescription-only. Over the counter, look for Tomedine Kowa or the Stoppa (ストッパ) range. These are brand families with more than one formulation, so confirm loperamide (ロペラミド) is the active ingredient on the pack.",
         "source": null
       },
       "VN": {
@@ -1094,7 +1105,17 @@
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2329022H1019",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Losec / generic omeprazole",
@@ -1244,8 +1265,17 @@
         "brand": "Ask by generic name",
         "status": "CONTROLLED",
         "confidence": "medium",
-        "note": "Pseudoephedrine is a Stimulants Raw Material under Japanese law — products at 10% concentration or less are exempt up to a 2-month personal supply, but higher concentrations or larger quantities require advance Ministry of Health permission. Since most travelers cannot easily verify their product’s exact concentration, Sudafed PE (phenylephrine) remains the simpler, safer choice to bring instead.",
-        "source": "https://is-this-legal.com/is-pseudoephedrine-legal-in-japan/"
+        "note": "A stimulant raw material under Japanese law. Products with more than 10% pseudoephedrine need written permission before you travel; products with 10% or less are excluded from that rule. Since most travelers cannot easily check their product’s concentration, phenylephrine (Sudafed PE) is the simpler choice to bring instead.",
+        "source": "https://www.ncd.mhlw.go.jp/dl_data/keitai/cotrolled_substances_list20241212%20.pdf",
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "4490100F1021",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "VN": {
         "brand": "Ask by generic name",
@@ -1391,11 +1421,22 @@
         "source": null
       },
       "JP": {
-        "brand": "Not sold as an OTC supplement; melatonin receptor drugs like ramelteon require a prescription",
+        "brand": "Melatobel (メラトベル)",
         "status": "RX",
-        "confidence": "medium",
-        "note": "Bringing your own supply is usually more reliable than trying to buy it locally.",
-        "source": null
+        "confidence": "high",
+        "note": "Prescription-only, and licensed as a children’s medicine. Melatonin is not sold as a supplement in Japan, so bring your own supply.",
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "1190028D1026",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Generic/INN name \"Melatonin\"",
@@ -1543,11 +1584,11 @@
         "source": null
       },
       "JP": {
-        "brand": "No confirmed dimenhydrinate-specific brand — \"Travelmin\" (a well-known Japanese motion-sickness brand) is actually diphenhydramine + diprophylline, not dimenhydrinate",
-        "status": "UNCONFIRMED",
+        "brand": "Dramamine (ドラマミン) / Travelmin (トラベルミン)",
+        "status": "MIXED",
         "confidence": "medium",
-        "note": "Confirmed via Eisai’s own product page.",
-        "source": "https://www.eisai.com/news/news201034.html"
+        "note": "Dramamine (dimenhydrinate) is prescription-only. Over the counter, look for the Travelmin range: it is a brand family whose products use different active ingredients for different needs, so check the ingredients on the pack.",
+        "source": null
       },
       "VN": {
         "brand": "Generic/INN name \"Dimenhydrinate\" (spelling unchanged from the international name)",
@@ -1706,9 +1747,19 @@
       "JP": {
         "brand": "Sold generic (\"Amoxicillin\")",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "6131001C1210",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Sold generic — enforcement of the Rx requirement has historically been loose",
@@ -1868,7 +1919,18 @@
         "status": "RX",
         "confidence": "high",
         "note": "Licensed into Japan from Glucophage’s maker (Merck Sante, France) in 2003; approved by Japan’s health ministry in 2010.",
-        "source": "https://www.sumitomo-pharma.com/news/20100120-01.html"
+        "source": "https://www.sumitomo-pharma.com/news/20100120-01.html",
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "3962002F2027",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Glucophage",
@@ -2031,7 +2093,18 @@
         "status": "RX",
         "confidence": "high",
         "note": "Branded \"Jzoloft\" in Japan — not \"Zoloft\".",
-        "source": "https://clinicaltrials.gov/study/NCT01699724"
+        "source": "https://clinicaltrials.gov/study/NCT01699724",
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "1179046F1028",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Zoloft",
@@ -2194,7 +2267,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": "https://www.rad-ar.or.jp/siori/english/search/result?n=38384"
+        "source": "https://www.rad-ar.or.jp/siori/english/search/result?n=38384",
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2254700G4037",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Ventolin",
@@ -2355,9 +2439,20 @@
       "JP": {
         "brand": "Lipitor",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2189015F1023",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Lipitor",
@@ -2519,7 +2614,18 @@
         "status": "RX",
         "confidence": "high",
         "note": "\"Chironin\" could not be confirmed as sold in Japan; Thyradin S (Asuka Pharmaceutical, distributed by Takeda) is confirmed as the dominant brand there.",
-        "source": "https://medical.nikkeibp.co.jp/inc/all/drugdic/prd/24/2431004F1056.html"
+        "source": "https://medical.nikkeibp.co.jp/inc/all/drugdic/prd/24/2431004F1056.html",
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2431004B1038",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Ask for it by the generic name: \"Levothyroxine\"",
@@ -2679,9 +2785,19 @@
       "JP": {
         "brand": "Sold generic (e.g. Mylan)",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Japan leans toward ARBs over ACE inhibitors as a class for blood-pressure prescribing generally, so lisinopril may be less commonly prescribed in practice even though it is available.",
-        "source": "https://www.drugs.com/international/lisinopril.html"
+        "source": "https://www.drugs.com/international/lisinopril.html",
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2144006F1014",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Ask for it by the generic name: \"Lisinopril\"",
@@ -2841,9 +2957,20 @@
       "JP": {
         "brand": "Norvasc / Amlodin",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2171022F1029",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Norvasc",
@@ -3003,9 +3130,20 @@
       "JP": {
         "brand": "Seloken / Lopresor",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2149010F1025",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Betaloc",
@@ -3167,7 +3305,18 @@
         "status": "RX",
         "confidence": "high",
         "note": "Brand confirmed (MSD/Organon), approved in Japan since July 1998.",
-        "source": "https://organonpro.com/ja-jp/wp-content/uploads/sites/10/2025/09/if_nulotan_tab.pdf"
+        "source": "https://organonpro.com/ja-jp/wp-content/uploads/sites/10/2025/09/if_nulotan_tab.pdf",
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2149039F1031",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Cozaar",
@@ -3330,7 +3479,18 @@
         "status": "RX",
         "confidence": "high",
         "note": "Brand confirmed via Japan’s PMDA patient guide; listed since 2006.",
-        "source": "https://www.info.pmda.go.jp/downfiles/guide/ph/670109_1139007F1022_3_00G.pdf"
+        "source": "https://www.info.pmda.go.jp/downfiles/guide/ph/670109_1139007F1022_3_00G.pdf",
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "1139007F1022",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Neurontin",
@@ -3491,9 +3651,20 @@
       "JP": {
         "brand": "Crestor",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2189017F1022",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Crestor",
@@ -3651,10 +3822,10 @@
         "source": null
       },
       "JP": {
-        "brand": "Not a common PPI choice — Japan's standard lineup is lansoprazole (Takepron), vonoprazan (Takecab), rabeprazole (Pariet), esomeprazole (Nexium), and omeprazole; pantoprazole is notably absent from consumer-facing brand lists",
-        "status": "UNCONFIRMED",
+        "brand": "Not sold in Japan",
+        "status": "UNAVAILABLE",
         "confidence": "medium",
-        "note": "Its exact registration status wasn't confirmable, but it doesn't appear on any standard Japanese PPI brand list — expect a substitution with one of the drugs above.",
+        "note": "Pantoprazole is not on Japan’s prescription list. Japan uses omeprazole (Omepral), esomeprazole (Nexium), lansoprazole (Takepron), rabeprazole (Pariet) and vonoprazan (Takecab) instead, all prescription-only, so bring your own supply.",
         "source": "https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AD%E3%83%88%E3%83%B3%E3%83%9D%E3%83%B3%E3%83%97%E9%98%BB%E5%AE%B3%E8%96%AC"
       },
       "VN": {
@@ -3816,9 +3987,20 @@
       "JP": {
         "brand": "Lexapro",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "1179054F1022",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Lexapro / Cipralex",
@@ -3980,7 +4162,7 @@
         "brand": "Not sold",
         "status": "BANNED",
         "confidence": "high",
-        "note": "Effectively banned — amphetamine is a prohibited stimulant under Japan’s Stimulants Control Act. This is not a documentation issue — a foreign prescription carries no legal weight, and importing it is a criminal offence (up to 10 years) even in original packaging. Methylphenidate (Concerta) and Vyvanse have separate, more permissive rules — see those entries instead.",
+        "note": "Effectively banned — amphetamine is a prohibited stimulant under Japan’s Stimulants Control Act. This is not a documentation issue — a foreign prescription carries no legal weight, and importing it is a criminal offence even in original packaging. Methylphenidate (Concerta) and Vyvanse have separate, more permissive rules — see those entries instead.",
         "source": "https://www.fodors.com/world/asia/japan/experiences/news/my-prescription-for-adderall-for-adhd-is-banned-in-japan-what-to-know"
       },
       "VN": {
@@ -4126,11 +4308,21 @@
         "source": null
       },
       "JP": {
-        "brand": "Almost never sold standalone — found inside combination pills like Ecard (candesartan/HCTZ) or Micombi (telmisartan/HCTZ)",
+        "brand": "Sold generic (ヒドロクロロチアジド)",
         "status": "RX",
         "confidence": "high",
-        "note": "Confirmed pattern: Japanese prescribing leans on fixed-dose combination tablets for HCTZ rather than a single-ingredient product.",
-        "source": "https://clinicaltrials.gov/study/NCT03205137"
+        "note": "Rarely prescribed on its own. It is mostly found inside combination pills such as Preminent (losartan + hydrochlorothiazide) or Ecard (candesartan + hydrochlorothiazide).",
+        "source": "https://clinicaltrials.gov/study/NCT03205137",
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2132004F1103",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Ask for it by the generic name: \"Hydrochlorothiazide\"",
@@ -4610,9 +4802,20 @@
       "JP": {
         "brand": "Ozempic",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2499418G4027",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Ozempic",
@@ -4773,9 +4976,20 @@
       "JP": {
         "brand": "Kipres / Singulair",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "4490026C1021",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Singulair",
@@ -4920,11 +5134,22 @@
         "source": null
       },
       "JP": {
-        "brand": "Desyrel / Reslin (トラゾドン塩酸塩)",
+        "brand": "Reslin (レスリン)",
         "status": "RX",
         "confidence": "high",
         "note": "Prescribed as an antidepressant (SARI class) but, as elsewhere, increasingly used off-label for its sedative effect as a sleep aid.",
-        "source": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A9%E3%82%BE%E3%83%89%E3%83%B3"
+        "source": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A9%E3%82%BE%E3%83%89%E3%83%B3",
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "1179037F1029",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Availability unconfirmed",
@@ -5084,9 +5309,20 @@
       "JP": {
         "brand": "Lipovas",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2189011F1025",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Zocor",
@@ -5245,9 +5481,20 @@
       "JP": {
         "brand": "Harnal",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2590008F1026",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Flomax",
@@ -5383,11 +5630,11 @@
         "source": null
       },
       "JP": {
-        "brand": "Available via import permit",
-        "status": "CONTROLLED",
+        "brand": "Not sold in Japan",
+        "status": "UNAVAILABLE",
         "confidence": "medium",
-        "note": "Opioid painkillers face strict import controls in Japan. As a narcotic, hydrocodone requires advance permission (a Yunyu Kakunin-sho import certificate) from a Regional Bureau of Health and Welfare for any quantity — apply at least 2 weeks ahead with a prescription copy and doctor’s letter. There is no small-quantity exemption like there is for psychotropics such as methylphenidate.",
-        "source": "https://www.us.emb-japan.go.jp/itpr_en/bringing-medications-to-japan.html"
+        "note": "Not marketed in Japan. It is a narcotic under Japanese law, so bringing your own supply follows the same rule as oxycodone: written permission from a Regional Bureau of Health and Welfare before you travel, for any quantity, applied for at least 14 days ahead with a doctor’s certificate.",
+        "source": "https://www.ncd.mhlw.go.jp/en/application2.html"
       },
       "VN": {
         "brand": "Not commonly available",
@@ -5535,10 +5782,10 @@
         "source": null
       },
       "JP": {
-        "brand": "Flunase (nasal spray, OTC for seasonal allergies) / other fluticasone forms (Rx)",
+        "brand": "Flunase (フルナーゼ) / Allermist (アラミスト) / Flutide (フルタイド)",
         "status": "MIXED",
         "confidence": "high",
-        "note": "Flunase nasal spray has a dedicated OTC version sold specifically for seasonal allergies (hay fever) in Japan, alongside the prescription version — the same pattern seen in the US, UK, Canada, Germany, and Portugal.",
+        "note": "Flunase nasal spray is sold over the counter for seasonal allergies (hay fever). Allermist (nasal spray) and Flutide (inhaler) are prescription-only. Other over-the-counter steroid nasal sprays use beclomethasone dipropionate (ベクロメタゾンプロピオン酸エステル) instead, for example Nazal αAR (ナザールαAR) and Contac Hana-en Spray (コンタック鼻炎スプレー).",
         "source": "https://www.flunase.jp/"
       },
       "VN": {
@@ -5699,7 +5946,18 @@
         "status": "RX",
         "confidence": "high",
         "note": "Brand confirmed (Boehringer Ingelheim Japan), on sale since January 2005.",
-        "source": "https://www.qlife.jp/meds/rx18262.html"
+        "source": "https://www.qlife.jp/meds/rx18262.html",
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "1149035F1020",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Mobic",
@@ -5860,9 +6118,20 @@
       "JP": {
         "brand": "Eliquis",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "3339004F1029",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Eliquis",
@@ -6021,9 +6290,20 @@
       "JP": {
         "brand": "Lasix",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2139005F1052",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Lasix",
@@ -6182,9 +6462,20 @@
       "JP": {
         "brand": "Lantus",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2492416A1033",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Lantus",
@@ -6341,9 +6632,20 @@
       "JP": {
         "brand": "Cymbalta",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "1179052M1022",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Cymbalta",
@@ -6490,10 +6792,10 @@
         "source": null
       },
       "JP": {
-        "brand": "Gaster",
-        "status": "RX",
+        "brand": "Gaster (ガスター) / Gaster 10 (ガスター10)",
+        "status": "MIXED",
         "confidence": "medium",
-        "note": null,
+        "note": "Gaster is prescription-only. Gaster 10 is the non-prescription version, sold only after a consultation with the pharmacist.",
         "source": null
       },
       "VN": {
@@ -6655,9 +6957,20 @@
       "JP": {
         "brand": "Jardiance",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "3969023F1023",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Jardiance",
@@ -6818,7 +7131,18 @@
         "status": "RX",
         "confidence": "high",
         "note": "Brand confirmed, sold in 1.25/2.5/10/20mg tablets.",
-        "source": "https://medical.nikkeibp.co.jp/inc/all/drugdic/prd/21/2149032F2028.html"
+        "source": "https://medical.nikkeibp.co.jp/inc/all/drugdic/prd/21/2149032F2028.html",
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2149032F1021",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Dilatrend",
@@ -6974,11 +7298,22 @@
         "source": null
       },
       "JP": {
-        "brand": "Sold generic",
-        "status": "CONTROLLED",
-        "confidence": "medium",
-        "note": "Tramadol is classified as a general (non-scheduled) medicine in Japan — up to a one-month personal supply needs no certificate at all; above that, a standard Yunyu Kakunin-sho (import certificate) applies, the same process used for many ordinary prescription medicines.",
-        "source": "https://medx.it.com/is-tramadol-banned-in-japan-navigating-medication-import-rules"
+        "brand": "Tramal (トラマール)",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Prescription-only, but not a narcotic or psychotropic under Japanese law, so the narcotics permit does not apply.",
+        "source": "https://www.ncd.mhlw.go.jp/en/application2.html",
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "1149038F1024",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Availability and import rules unconfirmed — treat as tightly controlled",
@@ -7139,8 +7474,18 @@
         "brand": "Solanax / Constan",
         "status": "CONTROLLED",
         "confidence": "high",
-        "note": "Regulated as a psychotropic; the personal-supply exemption threshold is drug-specific and unusually low — 72mg total (not the general 30-day rule) — above which a Yunyu Kakunin-sho import certificate is required in advance.",
-        "source": "https://www.us.emb-japan.go.jp/itpr_en/bringing-medications-to-japan.html"
+        "note": "A psychotropic under Japanese law. The amount you may bring without permission is set per medicine and is low for this one: 72 mg in total. Above that, carry a doctor’s certificate stating your condition and the amount you need.",
+        "source": "https://www.ncd.mhlw.go.jp/dl_data/keitai/total.pdf",
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "1124023F1037",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "VN": {
         "brand": "Availability and import rules unconfirmed — treat as tightly controlled",
@@ -7286,10 +7631,10 @@
         "source": null
       },
       "JP": {
-        "brand": "Ask for プレドニン (Predonine) — prednisolone, not prednisone, is what's actually stocked",
-        "status": "UNCONFIRMED",
+        "brand": "Not sold — Japan uses prednisolone instead: Predonine (プレドニン), prescription-only",
+        "status": "UNAVAILABLE",
         "confidence": "high",
-        "note": "The liver converts prednisone to prednisolone anyway, so Japan (like several other markets) just prescribes prednisolone directly rather than carrying prednisone itself.",
+        "note": "Prednisone itself is not marketed in Japan. The liver converts prednisone to prednisolone anyway, so Japan prescribes prednisolone directly. Predonine needs a prescription, so bring your own supply.",
         "source": "https://sugamo-sengoku-hifu.jp/medicines/predonin.html"
       },
       "VN": {
@@ -7450,9 +7795,20 @@
       "JP": {
         "brand": "Plavix",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "3399008F1025",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Plavix",
@@ -7774,11 +8130,21 @@
         "source": null
       },
       "JP": {
-        "brand": "Available via import permit",
+        "brand": "OxyContin TR (オキシコンチンTR) / Oxinorm (オキノーム)",
         "status": "CONTROLLED",
         "confidence": "medium",
-        "note": "Opioid painkillers face strict import controls in Japan. As a narcotic, oxycodone requires advance permission (a Yunyu Kakunin-sho import certificate) from a Regional Bureau of Health and Welfare for any quantity — apply at least 2 weeks ahead with a prescription copy and doctor’s letter. There is no small-quantity exemption like there is for psychotropics such as methylphenidate.",
-        "source": "https://www.us.emb-japan.go.jp/itpr_en/bringing-medications-to-japan.html"
+        "note": "A narcotic under Japanese law. To bring your own supply you need written permission from a Regional Bureau of Health and Welfare before you travel, for any quantity: apply at least 14 days ahead with a doctor’s certificate. There is no small-quantity exemption like the one for psychotropics such as methylphenidate.",
+        "source": "https://www.ncd.mhlw.go.jp/en/application2.html",
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "8119002G5020",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "VN": {
         "brand": "Availability and import rules unconfirmed — treat as tightly controlled",
@@ -7939,8 +8305,18 @@
         "brand": "Concerta",
         "status": "CONTROLLED",
         "confidence": "high",
-        "note": "Permitted in limited quantity with an import certificate (Yakkan Shoumei) above a one-month supply. Up to a one-month supply (roughly 2,160mg total) can be brought with just a doctor’s letter; above that, you need the Yakkan Shoumei import certificate in advance — apply well before travel. Note Japan has also reported periodic Concerta shortages, so don’t assume local purchase is an option even with paperwork in order.",
-        "source": "https://interacnetwork.com/navigating-stimulant-therapy-for-adult-adhd-in-japan-regulations-and-considerations/"
+        "note": "A psychotropic under Japanese law. You may bring up to 2.16 g in total without permission; above that, carry a doctor’s certificate stating your condition and the amount you need. Japan has also reported periodic Concerta shortages, so don’t count on buying it locally.",
+        "source": "https://www.ncd.mhlw.go.jp/dl_data/keitai/total.pdf",
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "1179009G1022",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "VN": {
         "brand": "Availability and import rules unconfirmed — treat as tightly controlled",
@@ -8100,9 +8476,20 @@
       "JP": {
         "brand": "Naixan (ナイキサン)",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Not sold over the counter in Japan; loxoprofen (\"Loxonin S\") is the usual OTC pain reliever.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "1149007F1142",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Ask for it by the generic name: \"Naproxen\"",
@@ -8757,7 +9144,17 @@
         "status": "MIXED",
         "confidence": "medium",
         "note": "Medicon itself is prescription-only; \"Medicon Sekidome Pro\" is the over-the-counter version.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2223001B1210",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "VN": {
         "brand": "Ask for it by the generic name: \"Dextromethorphan\"",
@@ -9834,9 +10231,20 @@
       "JP": {
         "brand": "Movicol (モビコール)",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2359110B1037",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Forlax",
@@ -10137,9 +10545,19 @@
       "JP": {
         "brand": "Terra-Cortril (テラ・コートリル)",
         "status": "OTC",
-        "confidence": "low",
-        "note": "Terra-Cortril combines hydrocortisone with an antibiotic.",
-        "source": null
+        "confidence": "medium",
+        "note": "Sold over the counter, but Terra-Cortril is not plain hydrocortisone: it combines hydrocortisone with the antibiotic oxytetracycline. Check the active ingredients on the pack.",
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2647705M1023",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "VN": {
         "brand": "Ask for it by the generic name: \"Hydrocortisone cream\"",
@@ -10301,9 +10719,19 @@
       "JP": {
         "brand": "Empecid (エンペシド)",
         "status": "OTC",
-        "confidence": "low",
-        "note": null,
-        "source": null
+        "confidence": "medium",
+        "note": "Sold over the counter. Empecid contains clotrimazole (クロトリマゾール) as its only active ingredient.",
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2655700N1176",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "VN": {
         "brand": "Canesten",
@@ -10889,9 +11317,20 @@
       "JP": {
         "brand": "Malarone (マラロン)",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "6419101F1020",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Not commonly available",
@@ -11050,9 +11489,20 @@
       "JP": {
         "brand": "Vibramycin (ビブラマイシン)",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "6152004F1074",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Sold generic",
@@ -11211,9 +11661,20 @@
       "JP": {
         "brand": "Zithromac (ジスロマック)",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "6149004C1030",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Zitromax",
@@ -11375,9 +11836,20 @@
       "JP": {
         "brand": "Ciproxan (シプロキサン)",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "6241008F1023",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Ciprobay",
@@ -11536,9 +12008,20 @@
       "JP": {
         "brand": "Diamox (ダイアモックス)",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2134002F1109",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Ask for it by the generic name: \"Acetazolamid\"",
@@ -11686,10 +12169,10 @@
         "source": null
       },
       "JP": {
-        "brand": "No patch — some OTC motion-sickness (酔い止め) tablets contain scopolamine",
+        "brand": "No patch in Japan",
         "status": "UNAVAILABLE",
         "confidence": "low",
-        "note": "Bring what you need from home.",
+        "note": "Scopolamine patches are not sold in Japan, so bring what you need from home. The nearest prescription product is Buscopan (ブスコパン, butylscopolamine). Over the counter, some products in the Travelmin (トラベルミン) motion-sickness range include scopolamine as one of several ingredients.",
         "source": null
       },
       "VN": {
@@ -11841,7 +12324,17 @@
         "status": "RX",
         "confidence": "low",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2391001F3023",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Sold generic",
@@ -12003,9 +12496,20 @@
       "JP": {
         "brand": "EpiPen (エピペン)",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2451402G2020",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-07",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "VN": {
         "brand": "Not commonly available",

@@ -11,6 +11,7 @@ import { Input } from '@/components/ui/input';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
 import { cn } from '@/lib/utils';
+import { BRINGING_ANCHOR, hasBringingGuide } from './BringingGuide';
 import { Flag } from './Flag';
 import { StatusPill } from './StatusPill';
 import { PrintButton } from './Toolbar';
@@ -41,8 +42,19 @@ const CAUTION: Partial<Record<string, { icon: typeof BanIcon; ink: string; text:
 };
 
 // Country-specific advice for travelers carrying controlled medicines, replacing the generic caution.
-// `source` is set where the text restates a rule the country publishes.
-const CONTROLLED_RULE: Partial<Record<CountryCode, { text: string; source?: string }>> = {
+// `source` is set where the text restates a rule the country publishes. `byDrug` covers countries whose
+// rule differs by medicine (Japan treats narcotics, psychotropics and stimulants differently).
+type Rule = { text: string; source?: string };
+const JP_PERMIT = 'https://www.ncd.mhlw.go.jp/en/application2.html';
+const JP_NARCOTIC: Rule = {
+  text: 'Controlled here — a narcotic under Japanese law. You need written permission from a Regional Bureau of Health and Welfare before you travel: apply at least 14 days ahead with a doctor’s certificate. Without it you cannot bring it in, even with a prescription. Bring no more than a one-month supply.',
+  source: JP_PERMIT,
+};
+const jpPsychotropic = (limit: string): Rule => ({
+  text: `Controlled here — a psychotropic under Japanese law. You may carry up to ${limit} in total without permission (not injections). For more, carry a doctor’s certificate stating your condition and the amount you need. Bring no more than a one-month supply.`,
+  source: 'https://www.ncd.mhlw.go.jp/dl_data/keitai/total.pdf',
+});
+const CONTROLLED_RULE: Partial<Record<CountryCode, Rule & { byDrug?: Record<string, Rule> }>> = {
   US: {
     text: 'Controlled here — keep it in the original labeled pharmacy container and bring only what you need (as a rule of thumb, no more than a 90-day supply). Arriving from abroad, declare it at customs and carry a prescription or doctor’s note in English.',
     source: 'https://www.cbp.gov/travel/us-citizens/know-before-you-go/prohibited-and-restricted-items',
@@ -54,6 +66,24 @@ const CONTROLLED_RULE: Partial<Record<CountryCode, { text: string; source?: stri
   CA: {
     text: 'Controlled here — bring no more than a 90-day supply, in the labeled container your pharmacy dispensed it in, and declare it to customs on arrival. A doctor’s letter is optional.',
     source: 'https://www.canada.ca/en/health-canada/services/health-concerns/controlled-substances-precursor-chemicals/controlled-substances/compliance-monitoring/travelling-into-and-out-of-canada-with-prescription-medication-containing-controlled-substances.html',
+  },
+  JP: {
+    text: 'Controlled here — Japan’s rule depends on the medicine. Narcotics and stimulant raw materials need written permission before you travel (apply at least 14 days ahead); psychotropics are allowed up to a set quantity. Check which applies to yours. Bring no more than a one-month supply.',
+    source: JP_PERMIT,
+    byDrug: {
+      oxycodone: JP_NARCOTIC,
+      hydrocodone: JP_NARCOTIC,
+      alprazolam: jpPsychotropic('72 mg'),
+      methylphenidate: jpPsychotropic('2.16 g'),
+      pseudoephedrine: {
+        text: 'Controlled here — products with more than 10% pseudoephedrine count as a stimulant raw material and need written permission before you travel (apply at least 14 days ahead with a doctor’s certificate). Products with 10% or less are outside that rule. Bring no more than a one-month supply.',
+        source: JP_PERMIT,
+      },
+      amphetamine: {
+        text: 'Banned here — do not bring it. Japan does not let any traveler bring in amphetamine or methamphetamine medicines, even with a prescription. Ask your doctor about an alternative before you travel.',
+        source: JP_PERMIT,
+      },
+    },
   },
 };
 
@@ -230,8 +260,10 @@ function TravelPass({ country, leg, legs, drugs, onRemove }: TravelPassProps) {
             <ol>
               {drugs.map((drug) => {
                 const entry = entryFor(drug, country.code);
-                const caution = CAUTION[entry.status];
-                const rule = entry.status === 'CONTROLLED' ? CONTROLLED_RULE[country.code] : undefined;
+                const countryRule = CONTROLLED_RULE[country.code];
+                const rule: Rule | undefined = countryRule?.byDrug?.[drug.id] ?? (entry.status === 'CONTROLLED' ? countryRule : undefined);
+                // A medicine that isn't sold here can still be controlled for travelers carrying their own.
+                const caution = CAUTION[entry.status] ?? (rule ? CAUTION.CONTROLLED : undefined);
                 return (
                   <li key={drug.id} className="travel-card__row border-t px-5 py-4 first:border-t-0">
                     <div className="flex flex-wrap items-start justify-between gap-x-3 gap-y-2">
@@ -259,6 +291,14 @@ function TravelPass({ country, leg, legs, drugs, onRemove }: TravelPassProps) {
                               <a href={rule.source} target="_blank" rel="noopener noreferrer" className="no-print underline underline-offset-2">
                                 Official rule
                               </a>
+                            </>
+                          )}
+                          {rule && hasBringingGuide(country.code) && (
+                            <>
+                              {' · '}
+                              <Link href={`/country/${country.slug}#${BRINGING_ANCHOR}`} className="no-print underline underline-offset-2">
+                                How to apply
+                              </Link>
                             </>
                           )}
                         </span>

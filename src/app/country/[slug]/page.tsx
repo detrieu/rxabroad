@@ -7,6 +7,7 @@ import { Button } from '@/components/ui/button';
 import { StatusPill } from '@/components/StatusPill';
 import { EntryBadges } from '@/components/ConfBadge';
 import { SourceLink } from '@/components/DrugEntry';
+import { BringingGuide } from '@/components/BringingGuide';
 import { Flag } from '@/components/Flag';
 import { CONTAINER } from '@/components/Masthead';
 import { PageHero } from '@/components/PageHero';
@@ -71,6 +72,8 @@ export default async function CountryPage({ params }: PageProps<'/country/[slug]
             ))}
           </ul>
         </div>
+
+        <BringingGuide code={country.code} name={country.name} />
 
         <div className="no-print mt-6 mb-3 flex flex-wrap items-center justify-between gap-2">
           <Button asChild variant="outline" size="sm">

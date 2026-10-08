@@ -64,7 +64,7 @@ browser only.
 
 ### Registry verification and US name lookup
 
-**Offline verification.** `node scripts/verify/run.mjs <US|CA|SG|FR|GB>` checks one country's entries against
+**Offline verification.** `node scripts/verify/run.mjs <US|CA|SG|FR|GB|JP>` checks one country's entries against
 its official registry and writes the evidence and every mismatch to `research/verification/<CC>.json`.
 That is a dry run; add `--write` to update `drugs.json`. Nothing here runs when the site is built or served.
 
@@ -75,6 +75,7 @@ That is a dry run; add `--write` to update `drugs.json`. Nothing here runs when 
 | SG | [HSA register on data.gov.sg](https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view) | brand ↔ ingredient, GSL / Pharmacy Only / Prescription Only |
 | FR | [BDPM](https://base-donnees-publique.medicaments.gouv.fr/telechargement) | brand ↔ ingredient, marketed status, prescription conditions |
 | GB | [MHRA Products](https://products.mhra.gov.uk/) + [NHS dm+d](https://isd.digital.nhs.uk/trud/users/guest/filters/0/categories/6/items/24/releases) | MHRA: brand ↔ ingredient for licensed products. dm+d: legal category (GSL / P / POM) and controlled-drug schedule of packs on the market. dm+d needs a free NHS TRUD account: put the key in `.env.local` as `TRUD_API_KEY`. Without it the UK check is brand-only |
+| JP | [MHLW drug price list](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000078916.html) | Brand ↔ ingredient for prescription products covered by national insurance, which confirms an Rx status. It has no over-the-counter products, so OTC entries can't be confirmed, and it can't see an OTC twin of an Rx brand. Controlled-drug scheduling is checked by hand against the [Narcotics Control Department list](https://www.ncd.mhlw.go.jp/en/application2.html) |
 
 The US, Canada, Singapore, France and UK-brand checks are free and need no key. `--write` is deliberately conservative: it never edits `brand`, `status`
 or `note`; it attaches `verified` when the registry confirms the entry; and it raises `medium` to `high`
@@ -99,11 +100,11 @@ UK legal status. To update the data yourself:
 The UK legal-status step needs a free NHS TRUD account: subscribe to the "NHSBSA dm+d" item and put the key in
 `.env.local` as `TRUD_API_KEY=...` (the file is git-ignored). Without it a dry run still works but notes that
 legal status was skipped, and `--write` refuses for the UK so it can't overwrite the full check with a partial
-one. The other nine countries have no registry check: they never refresh and need a manual review.
+one. The other eight countries have no registry check: they never refresh and need a manual review.
 
 The cloud routine runs in the "Default" cloud environment, whose network access is set to Custom so it can reach the
 registries: `rxnav.nlm.nih.gov`, `api.fda.gov`, `health-products.canada.ca`, `data.gov.sg`,
-`base-donnees-publique.medicaments.gouv.fr` and `mhraproducts4853.search.windows.net`, plus the default package
+`base-donnees-publique.medicaments.gouv.fr`, `mhraproducts4853.search.windows.net` and `www.mhlw.go.jp`, plus the default package
 list. If a run reports HTTP 403 from a registry, check that list first.
 
 **Live lookup.** `GET /api/rxnorm/resolve?q=<name>` (`src/app/api/rxnorm/resolve/route.ts`, logic in
