@@ -98,7 +98,7 @@ export function BringingGuide({ code, name }: { code: CountryCode; name: string 
               href={s.link.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-2 inline-block text-[0.82rem] font-medium underline underline-offset-2"
+              className="mt-1 inline-block py-1 text-[0.82rem] font-medium underline underline-offset-2"
             >
               {s.link.label}
             </a>

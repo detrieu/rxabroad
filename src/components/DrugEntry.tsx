@@ -135,7 +135,7 @@ function CountryRow({
     >
       <span role="cell" className="flex min-w-0 items-center gap-2 text-sm font-medium">
         <Flag code={country.code} className="h-4" />
-        <Link href={`/country/${country.slug}`} className="truncate underline-offset-4 hover:underline">
+        <Link href={`/country/${country.slug}`} className="-my-1.5 truncate py-1.5 underline-offset-4 hover:underline">
           <Highlight text={country.name} query={query} />
         </Link>
       </span>

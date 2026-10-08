@@ -12,7 +12,7 @@ export function PageHero({
       <div className={`${CONTAINER} pt-6 pb-9 sm:pt-8`}>
         <Link
           href="/"
-          className="no-print text-navy-foreground/70 hover:text-gold inline-flex items-center gap-1.5 font-mono text-[0.68rem] tracking-[0.18em] uppercase"
+          className="no-print text-navy-foreground/70 hover:text-gold -my-2 inline-flex items-center py-2 gap-1.5 font-mono text-[0.68rem] tracking-[0.18em] uppercase"
         >
           <ArrowLeftIcon className="size-3.5" /> All medicines
         </Link>

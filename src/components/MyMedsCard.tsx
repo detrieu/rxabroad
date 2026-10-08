@@ -112,7 +112,7 @@ export function MyMedsCard() {
           {dests.length > 0 && (
             <button
               type="button"
-              className="text-muted-foreground hover:text-foreground font-mono text-[0.65rem] tracking-wider uppercase underline-offset-4 hover:underline"
+              className="text-muted-foreground hover:text-foreground -my-2 py-2 font-mono text-[0.65rem] tracking-wider uppercase underline-offset-4 hover:underline"
               onClick={() => setDests([])}
             >
               Clear

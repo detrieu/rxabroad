@@ -20,7 +20,7 @@ const TIPS: Partial<Record<Confidence, { icon: typeof InfoIcon; color: string; t
 };
 
 const TRIGGER =
-  'ml-1 inline-flex size-5 translate-y-0.5 items-center justify-center rounded-full hover:bg-muted focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none';
+  'relative ml-1 inline-flex size-5 translate-y-0.5 after:absolute after:-inset-1.5 after:content-[""] items-center justify-center rounded-full hover:bg-muted focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none';
 
 /** Small icon after a brand name; tap or click to see what it means (works on touch, unlike a tooltip). */
 export function ConfBadge({ confidence }: { confidence: Confidence }) {

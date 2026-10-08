@@ -151,7 +151,7 @@ export function FormularyView({ initialQuery = '', initialCountries = [], syncUr
               type="text"
               value={rawQuery}
               onChange={(e) => setRawQuery(e.target.value)}
-              placeholder="Try “Claritin”, “paracetamol”, or “Japan”"
+              placeholder="Try “Claritin” or “Japan”"
               autoComplete="off"
               spellCheck={false}
               aria-describedby="search-hint"
@@ -190,7 +190,7 @@ export function FormularyView({ initialQuery = '', initialCountries = [], syncUr
               {active.length > 0 && (
                 <button
                   type="button"
-                  className="text-gold font-mono text-[0.68rem] tracking-wider uppercase underline-offset-4 hover:underline"
+                  className="text-gold -my-2 py-2 font-mono text-[0.68rem] tracking-wider uppercase underline-offset-4 hover:underline"
                   onClick={() => setActive([])}
                 >
                   Clear ({active.length})
