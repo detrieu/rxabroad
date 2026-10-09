@@ -4,16 +4,16 @@
   "registryVersion": "list of 2026-08-13",
   "checked": "2026-10-08",
   "summary": {
-    "entries": 76,
-    "brandEntries": 59,
-    "brandEntriesConfirmed": 41,
-    "brandNames": 69,
-    "brandNamesConfirmed": 50,
-    "verified": 47,
-    "statusAgree": 40,
+    "entries": 82,
+    "brandEntries": 65,
+    "brandEntriesConfirmed": 47,
+    "brandNames": 77,
+    "brandNamesConfirmed": 58,
+    "verified": 53,
+    "statusAgree": 46,
     "statusDiffer": 0,
     "statusNotComparable": 36,
-    "confidenceRaised": 0,
+    "confidenceRaised": 6,
     "flagged": 23
   },
   "entries": [
@@ -2389,6 +2389,488 @@
       },
       "confidence": {
         "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-lispro",
+      "generic": "Insulin Lispro",
+      "brand": "Humalog (ヒューマログ)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Humalog",
+          "id": "2492414A1026",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "ヒューマログ注カート",
+          "products": [
+            {
+              "code": "2492414A1026",
+              "product": "ヒューマログ注カート",
+              "ingredient": "インスリンリスプロ(遺伝子組換え)",
+              "maker": "日本イーライリリー"
+            },
+            {
+              "code": "2492414A2030",
+              "product": "ヒューマログ注100単位/mL",
+              "ingredient": "インスリンリスプロ(遺伝子組換え)",
+              "maker": "日本イーライリリー"
+            },
+            {
+              "code": "2492414A3029",
+              "product": "ヒューマログミックス25注カート",
+              "ingredient": "インスリンリスプロ(遺伝子組換え)",
+              "maker": "日本イーライリリー"
+            },
+            {
+              "code": "2492414A4025",
+              "product": "ヒューマログミックス50注カート",
+              "ingredient": "インスリンリスプロ(遺伝子組換え)",
+              "maker": "日本イーライリリー"
+            },
+            {
+              "code": "2492414G5024",
+              "product": "ヒューマログ注ミリオペン",
+              "ingredient": "インスリンリスプロ(遺伝子組換え)",
+              "maker": "日本イーライリリー"
+            },
+            {
+              "code": "2492414G6020",
+              "product": "ヒューマログミックス25注ミリオペン",
+              "ingredient": "インスリンリスプロ(遺伝子組換え)",
+              "maker": "日本イーライリリー"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2492414A1026",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "インスリン リスプロ",
+        "listedProducts": 15
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 15
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2492414A1026",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-aspart",
+      "generic": "Insulin Aspart",
+      "brand": "NovoRapid (ノボラピッド)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "NovoRapid",
+          "id": "2492415A2035",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "ノボラピッド注 ペンフィル",
+          "products": [
+            {
+              "code": "2492415A2035",
+              "product": "ノボラピッド注 ペンフィル",
+              "ingredient": "インスリンアスパルト(遺伝子組換え)",
+              "maker": "ノボ ノルディスク ファーマ"
+            },
+            {
+              "code": "2492415A3031",
+              "product": "ノボラピッド注 100単位/mL",
+              "ingredient": "インスリンアスパルト(遺伝子組換え)",
+              "maker": "ノボ ノルディスク ファーマ"
+            },
+            {
+              "code": "2492415A4038",
+              "product": "ノボラピッド30ミックス注 ペンフィル",
+              "ingredient": "インスリンアスパルト(遺伝子組換え)",
+              "maker": "ノボ ノルディスク ファーマ"
+            },
+            {
+              "code": "2492415G1031",
+              "product": "ノボラピッド注 フレックスペン",
+              "ingredient": "インスリンアスパルト(遺伝子組換え)",
+              "maker": "ノボ ノルディスク ファーマ"
+            },
+            {
+              "code": "2492415G2020",
+              "product": "ノボラピッド30ミックス注 フレックスペン",
+              "ingredient": "インスリンアスパルト(遺伝子組換え)",
+              "maker": "ノボ ノルディスク ファーマ"
+            },
+            {
+              "code": "2492415G4022",
+              "product": "ノボラピッド50ミックス注 フレックスペン",
+              "ingredient": "インスリンアスパルト(遺伝子組換え)",
+              "maker": "ノボ ノルディスク ファーマ"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2492415A2035",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "インスリン アスパルト",
+        "listedProducts": 14
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 14
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2492415A2035",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-regular",
+      "generic": "Insulin Human (Regular)",
+      "brand": "Humulin R (ヒューマリンR) / Novolin R (ノボリンR)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Humulin R",
+          "id": "2492403A4051",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "ヒューマリンR注100単位/mL",
+          "products": [
+            {
+              "code": "2492403A4051",
+              "product": "ヒューマリンR注100単位/mL",
+              "ingredient": "インスリン ヒト(遺伝子組換え)",
+              "maker": "日本イーライリリー"
+            },
+            {
+              "code": "2492403H4041",
+              "product": "ヒューマリンR注カート",
+              "ingredient": "インスリン ヒト(遺伝子組換え)",
+              "maker": "日本イーライリリー"
+            },
+            {
+              "code": "2492413P2020",
+              "product": "ヒューマリンR注ミリオペン",
+              "ingredient": "インスリン ヒト(遺伝子組換え)",
+              "maker": "日本イーライリリー"
+            }
+          ]
+        },
+        {
+          "name": "Novolin R",
+          "id": "2492403A4043",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "ノボリンR注 100単位/mL",
+          "products": [
+            {
+              "code": "2492403A4043",
+              "product": "ノボリンR注 100単位/mL",
+              "ingredient": "インスリン ヒト(遺伝子組換え)",
+              "maker": "ノボ ノルディスク ファーマ"
+            },
+            {
+              "code": "2492413G8053",
+              "product": "ノボリンR注フレックスペン",
+              "ingredient": "インスリン ヒト(遺伝子組換え)",
+              "maker": "ノボ ノルディスク ファーマ"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2492403A3047",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "ヒトインスリン",
+        "listedProducts": 13
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 13
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2492403A4051",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-nph",
+      "generic": "Insulin Isophane (NPH)",
+      "brand": "Humulin N (ヒューマリンN) / Novolin N (ノボリンN)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Humulin N",
+          "id": "2492403A3047",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "ヒューマリンN注100単位/mL",
+          "products": [
+            {
+              "code": "2492403A3047",
+              "product": "ヒューマリンN注100単位/mL",
+              "ingredient": "インスリン ヒト(遺伝子組換え)",
+              "maker": "日本イーライリリー"
+            },
+            {
+              "code": "2492403H5030",
+              "product": "ヒューマリンN注カート",
+              "ingredient": "インスリン ヒト(遺伝子組換え)",
+              "maker": "日本イーライリリー"
+            },
+            {
+              "code": "2492413P1024",
+              "product": "ヒューマリンN注ミリオペン",
+              "ingredient": "インスリン ヒト(遺伝子組換え)",
+              "maker": "日本イーライリリー"
+            }
+          ]
+        },
+        {
+          "name": "Novolin N",
+          "id": "2492413G1059",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "ノボリンN注フレックスペン",
+          "products": [
+            {
+              "code": "2492413G1059",
+              "product": "ノボリンN注フレックスペン",
+              "ingredient": "インスリン ヒト(遺伝子組換え)",
+              "maker": "ノボ ノルディスク ファーマ"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2492403A3047",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "ヒトインスリン",
+        "listedProducts": 13
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 13
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2492403A3047",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-detemir",
+      "generic": "Insulin Detemir",
+      "brand": "Levemir (レベミル)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Levemir",
+          "id": "2492417A1038",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "レベミル注 ペンフィル",
+          "products": [
+            {
+              "code": "2492417A1038",
+              "product": "レベミル注 ペンフィル",
+              "ingredient": "インスリンデテミル(遺伝子組換え)",
+              "maker": "ノボ ノルディスク ファーマ"
+            },
+            {
+              "code": "2492417G1030",
+              "product": "レベミル注 フレックスペン",
+              "ingredient": "インスリンデテミル(遺伝子組換え)",
+              "maker": "ノボ ノルディスク ファーマ"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2492417A1038",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "インスリン デテミル",
+        "listedProducts": 2
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2492417A1038",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-degludec",
+      "generic": "Insulin Degludec",
+      "brand": "Tresiba (トレシーバ)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tresiba",
+          "id": "2492419A1029",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "トレシーバ注 ペンフィル",
+          "products": [
+            {
+              "code": "2492419A1029",
+              "product": "トレシーバ注 ペンフィル",
+              "ingredient": "インスリンデグルデク(遺伝子組換え)",
+              "maker": "ノボ ノルディスク ファーマ"
+            },
+            {
+              "code": "2492419G1021",
+              "product": "トレシーバ注 フレックスタッチ",
+              "ingredient": "インスリンデグルデク(遺伝子組換え)",
+              "maker": "ノボ ノルディスク ファーマ"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2492419A1029",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "searched": "インスリン デグルデク",
+        "listedProducts": 4
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "MHLW price list 20260813",
+          "products": {
+            "RX": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHLW drug price list (Japan, prescription medicines)",
+        "id": "2492419A1029",
+        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
         "to": "high"
       },
       "flags": []

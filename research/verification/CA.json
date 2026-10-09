@@ -4,15 +4,15 @@
   "registryVersion": null,
   "checked": "2026-10-08",
   "summary": {
-    "entries": 76,
-    "brandEntries": 55,
-    "brandEntriesConfirmed": 54,
-    "brandNames": 60,
-    "brandNamesConfirmed": 59,
-    "verified": 72,
+    "entries": 82,
+    "brandEntries": 60,
+    "brandEntriesConfirmed": 59,
+    "brandNames": 69,
+    "brandNamesConfirmed": 68,
+    "verified": 77,
     "statusAgree": 70,
     "statusDiffer": 1,
-    "statusNotComparable": 5,
+    "statusNotComparable": 11,
     "confidenceRaised": 0,
     "flagged": 4
   },
@@ -2645,7 +2645,7 @@
         "registered": true
       },
       "status": {
-        "entry": "PHARMACY",
+        "entry": "RX",
         "registry": null,
         "result": "na",
         "evidence": {
@@ -2666,6 +2666,465 @@
       "confidence": {
         "from": "high",
         "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-lispro",
+      "generic": "Insulin Lispro",
+      "brand": "Humalog / Admelog",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Humalog",
+          "id": 47871,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=47871",
+          "confirmed": true,
+          "note": null,
+          "matched": "HUMALOG",
+          "products": [
+            {
+              "code": 47871,
+              "din": "02229704",
+              "product": "HUMALOG",
+              "single": true,
+              "legal": null
+            },
+            {
+              "code": 95912,
+              "din": "02470152",
+              "product": "HUMALOG",
+              "single": true,
+              "legal": null
+            },
+            {
+              "code": 88822,
+              "din": "02403412",
+              "product": "HUMALOG  (KWIKPEN)",
+              "single": true,
+              "legal": null
+            },
+            {
+              "code": 47872,
+              "din": "02229705",
+              "product": "HUMALOG  (CARTRIDGE)",
+              "single": true,
+              "legal": null
+            },
+            {
+              "code": 88823,
+              "din": "02403420",
+              "product": "HUMALOG MIX 25  (KWIKPEN)",
+              "single": false,
+              "legal": null
+            },
+            {
+              "code": 88824,
+              "din": "02403439",
+              "product": "HUMALOG MIX 50  (KWIKPEN)",
+              "single": false,
+              "legal": null
+            },
+            {
+              "code": 63832,
+              "din": "02240294",
+              "product": "HUMALOG MIX 25  (CARTRIDGE)",
+              "single": false,
+              "legal": null
+            },
+            {
+              "code": 63835,
+              "din": "02240297",
+              "product": "HUMALOG MIX 50  (CARTRIDGE)",
+              "single": false,
+              "legal": null
+            }
+          ]
+        },
+        {
+          "name": "Admelog",
+          "id": 95877,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=95877",
+          "confirmed": true,
+          "note": null,
+          "matched": "ADMELOG",
+          "products": [
+            {
+              "code": 95877,
+              "din": "02469898",
+              "product": "ADMELOG",
+              "single": true,
+              "legal": null
+            },
+            {
+              "code": 95881,
+              "din": "02469901",
+              "product": "ADMELOG",
+              "single": true,
+              "legal": null
+            },
+            {
+              "code": 95880,
+              "din": "02469871",
+              "product": "ADMELOG SOLOSTAR",
+              "single": true,
+              "legal": null
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {}
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "47871",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=47871",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-aspart",
+      "generic": "Insulin Aspart",
+      "brand": "NovoRapid / Fiasp",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "NovoRapid",
+          "id": 68321,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=68321",
+          "confirmed": true,
+          "note": null,
+          "matched": "NOVORAPID",
+          "products": [
+            {
+              "code": 68321,
+              "din": "02244353",
+              "product": "NOVORAPID",
+              "single": true,
+              "legal": null
+            },
+            {
+              "code": 69441,
+              "din": "02245397",
+              "product": "NOVORAPID",
+              "single": true,
+              "legal": null
+            }
+          ]
+        },
+        {
+          "name": "Fiasp",
+          "id": 94775,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=94775",
+          "confirmed": true,
+          "note": null,
+          "matched": "FIASP",
+          "products": [
+            {
+              "code": 94775,
+              "din": "02460408",
+              "product": "FIASP",
+              "single": true,
+              "legal": null
+            },
+            {
+              "code": 94776,
+              "din": "02460416",
+              "product": "FIASP",
+              "single": true,
+              "legal": null
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {}
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "68321",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=68321",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-regular",
+      "generic": "Insulin Human (Regular)",
+      "brand": "Humulin R / Novolin ge Toronto",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Humulin R",
+          "id": 12569,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=12569",
+          "confirmed": true,
+          "note": null,
+          "matched": "HUMULIN R CARTRIDGE",
+          "products": [
+            {
+              "code": 12569,
+              "din": "01959220",
+              "product": "HUMULIN R CARTRIDGE",
+              "single": true,
+              "legal": null
+            }
+          ]
+        },
+        {
+          "name": "Novolin ge Toronto",
+          "id": 14260,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=14260",
+          "confirmed": true,
+          "note": null,
+          "matched": "NOVOLIN GE TORONTO",
+          "products": [
+            {
+              "code": 14260,
+              "din": "02024233",
+              "product": "NOVOLIN GE TORONTO",
+              "single": true,
+              "legal": null
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": null,
+        "result": "na",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {}
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "12569",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=12569",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-nph",
+      "generic": "Insulin Isophane (NPH)",
+      "brand": "Humulin N / Novolin ge NPH",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Humulin N",
+          "id": 5326,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=5326",
+          "confirmed": true,
+          "note": null,
+          "matched": "HUMULIN N",
+          "products": [
+            {
+              "code": 5326,
+              "din": "00587737",
+              "product": "HUMULIN N",
+              "single": true,
+              "legal": null
+            },
+            {
+              "code": 88825,
+              "din": "02403447",
+              "product": "HUMULIN N (KWIKPEN)",
+              "single": true,
+              "legal": null
+            },
+            {
+              "code": 12570,
+              "din": "01959239",
+              "product": "HUMULIN N (CARTRIDGE)",
+              "single": true,
+              "legal": null
+            }
+          ]
+        },
+        {
+          "name": "Novolin ge NPH",
+          "id": 14261,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=14261",
+          "confirmed": true,
+          "note": null,
+          "matched": "NOVOLIN GE NPH",
+          "products": [
+            {
+              "code": 14261,
+              "din": "02024225",
+              "product": "NOVOLIN GE NPH",
+              "single": true,
+              "legal": null
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": null,
+        "result": "na",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {}
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "5326",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=5326",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-detemir",
+      "generic": "Insulin Detemir",
+      "brand": "No longer sold — Levemir has been withdrawn in Canada",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": null,
+        "searched": "insulin detemir",
+        "registeredProducts": 2
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-degludec",
+      "generic": "Insulin Degludec",
+      "brand": "Tresiba",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tresiba",
+          "id": 95622,
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=95622",
+          "confirmed": true,
+          "note": null,
+          "matched": "TRESIBA",
+          "products": [
+            {
+              "code": 95622,
+              "din": "02467860",
+              "product": "TRESIBA",
+              "single": true,
+              "legal": null
+            },
+            {
+              "code": 95623,
+              "din": "02467879",
+              "product": "TRESIBA",
+              "single": true,
+              "legal": null
+            },
+            {
+              "code": 95624,
+              "din": "02467887",
+              "product": "TRESIBA",
+              "single": true,
+              "legal": null
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": {
+          "source": "DPD schedule, marketed products sampled",
+          "products": {}
+        }
+      },
+      "verified": {
+        "registry": "Health Canada Drug Product Database",
+        "id": "95622",
+        "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=95622",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
       },
       "flags": []
     },

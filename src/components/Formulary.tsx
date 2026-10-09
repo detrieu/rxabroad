@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useRef, useState } from 'react';
+import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { SearchIcon, XIcon } from 'lucide-react';
 import { COUNTRIES, DRUGS, KIT_GROUPS, getCountry, type CountryCode, type Drug } from '@/data';
@@ -217,6 +218,19 @@ export function FormularyView({ initialQuery = '', initialCountries = [], syncUr
                 </ToggleGroupItem>
               ))}
             </ToggleGroup>
+            {active.length > 0 && (
+              <p className="text-navy-foreground/80 mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-[0.8rem]">
+                <span>Full country guide:</span>
+                {active.map((code) => {
+                  const co = getCountry(code);
+                  return co && (
+                    <Link key={code} href={`/country/${co.slug}`} className="text-gold -my-2 py-2 font-medium underline underline-offset-4">
+                      All medicines in {co.name}
+                    </Link>
+                  );
+                })}
+              </p>
+            )}
           </div>
         </div>
       </section>

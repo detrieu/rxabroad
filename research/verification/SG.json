@@ -4,16 +4,16 @@
   "registryVersion": "5511 registered products",
   "checked": "2026-10-08",
   "summary": {
-    "entries": 76,
-    "brandEntries": 56,
-    "brandEntriesConfirmed": 55,
-    "brandNames": 63,
-    "brandNamesConfirmed": 62,
-    "verified": 67,
-    "statusAgree": 65,
+    "entries": 82,
+    "brandEntries": 62,
+    "brandEntriesConfirmed": 61,
+    "brandNames": 69,
+    "brandNamesConfirmed": 68,
+    "verified": 73,
+    "statusAgree": 71,
     "statusDiffer": 0,
     "statusNotComparable": 11,
-    "confidenceRaised": 0,
+    "confidenceRaised": 6,
     "flagged": 5
   },
   "entries": [
@@ -2272,6 +2272,382 @@
       },
       "confidence": {
         "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-lispro",
+      "generic": "Insulin Lispro",
+      "brand": "Humalog",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Humalog",
+          "id": "SIN13719P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "HUMALOG KWIKPEN 100 units/ml",
+          "products": [
+            {
+              "licence": "SIN13719P",
+              "product": "HUMALOG KWIKPEN 100 units/ml",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN14025P",
+              "product": "Humalog Mix50 Kwikpen 100 units/ml",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN11227P",
+              "product": "HUMALOG MIX 25 SUSPENSION FOR INJECTION 100 iu/ml",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN11171P",
+              "product": "HUMALOG MIX25 KWIKPEN 100 units/ml",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN13719P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 4
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN13719P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-aspart",
+      "generic": "Insulin Aspart",
+      "brand": "NovoRapid",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "NovoRapid",
+          "id": "SIN11394P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "NOVORAPID PENFILL INJECTION 100 u/ml",
+          "products": [
+            {
+              "licence": "SIN11394P",
+              "product": "NOVORAPID PENFILL INJECTION 100 u/ml",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN12189P",
+              "product": "NOVORAPID FLEXPEN INJECTION 100 u/ml",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN12190P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 9
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN11394P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-regular",
+      "generic": "Insulin Human (Regular)",
+      "brand": "Actrapid",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Actrapid",
+          "id": "SIN02397P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "ACTRAPID PENFILL INJECTION 100 IU/ml",
+          "products": [
+            {
+              "licence": "SIN02397P",
+              "product": "ACTRAPID PENFILL INJECTION 100 IU/ml",
+              "legal": "PHARMACY"
+            },
+            {
+              "licence": "SIN02395P",
+              "product": "ACTRAPID INJECTION 100 IU/ml",
+              "legal": "PHARMACY"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN08656P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 6
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "PHARMACY",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Pharmacy Only": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN02397P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-nph",
+      "generic": "Insulin Isophane (NPH)",
+      "brand": "Insulatard",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Insulatard",
+          "id": "SIN08654P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "INSULATARD PENFILL INJECTION 100 iu/ml",
+          "products": [
+            {
+              "licence": "SIN08654P",
+              "product": "INSULATARD PENFILL INJECTION 100 iu/ml",
+              "legal": "PHARMACY"
+            },
+            {
+              "licence": "SIN08655P",
+              "product": "INSULATARD INJECTION 100 iu/ml",
+              "legal": "PHARMACY"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN08656P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 6
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "PHARMACY",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Pharmacy Only": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN08654P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-detemir",
+      "generic": "Insulin Detemir",
+      "brand": "Levemir",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Levemir",
+          "id": "SIN13115P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "LEVEMIR® FLEXPEN® 100U/ML, 3ML",
+          "products": [
+            {
+              "licence": "SIN13115P",
+              "product": "LEVEMIR® FLEXPEN® 100U/ML, 3ML",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN15515P",
+              "product": "LEVEMIR® PENFILL® 100 U/ML",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN13115P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 2
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN13115P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-degludec",
+      "generic": "Insulin Degludec",
+      "brand": "Tresiba",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tresiba",
+          "id": "SIN15704P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "TRESIBA® FLEXTOUCH® SOLUTION FOR INJECTION IN PRE-FILLED PEN 200 U/ML",
+          "products": [
+            {
+              "licence": "SIN15704P",
+              "product": "TRESIBA® FLEXTOUCH® SOLUTION FOR INJECTION IN PRE-FILLED PEN 200 U/ML",
+              "legal": "RX"
+            },
+            {
+              "licence": "SIN15703P",
+              "product": "TRESIBA® FLEXTOUCH® SOLUTION FOR INJECTION IN PRE-FILLED PEN 100 U/ML",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "SIN15704P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "registeredProducts": 3
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "HSA forensic classification",
+          "products": {
+            "Prescription Only": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "HSA Register of Therapeutic Products (Singapore)",
+        "id": "SIN15704P",
+        "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
         "to": "high"
       },
       "flags": []

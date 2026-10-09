@@ -4,16 +4,16 @@
   "registryVersion": "15883 specialities",
   "checked": "2026-10-08",
   "summary": {
-    "entries": 76,
-    "brandEntries": 65,
-    "brandEntriesConfirmed": 64,
-    "brandNames": 79,
-    "brandNamesConfirmed": 78,
-    "verified": 69,
-    "statusAgree": 70,
+    "entries": 82,
+    "brandEntries": 71,
+    "brandEntriesConfirmed": 70,
+    "brandNames": 87,
+    "brandNamesConfirmed": 86,
+    "verified": 75,
+    "statusAgree": 76,
     "statusDiffer": 1,
     "statusNotComparable": 5,
-    "confidenceRaised": 0,
+    "confidenceRaised": 6,
     "flagged": 4
   },
   "entries": [
@@ -2869,6 +2869,500 @@
       },
       "confidence": {
         "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-lispro",
+      "generic": "Insulin Lispro",
+      "brand": "Humalog",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Humalog",
+          "id": "65132156",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65132156/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "HUMALOG 100 UI/ml KWIKPEN, solution injectable",
+          "products": [
+            {
+              "cis": "65132156",
+              "product": "HUMALOG 100 UI/ml KWIKPEN, solution injectable",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "64052173",
+              "product": "HUMALOG 100 UI/ml, solution injectable en cartouche",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "65228400",
+              "product": "HUMALOG 100 UI/ml, solution injectable en flacon",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "66537912",
+              "product": "HUMALOG 100 unités/ml JUNIOR KWIKPEN solution injectable en stylo pré-rempli",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "67759549",
+              "product": "HUMALOG 200 UI/ml KWIKPEN, solution injectable en stylo prérempli",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "61872223",
+              "product": "HUMALOG MIX25 100 UI/ml KWIKPEN, suspension injectable",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "65132156",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65132156/extrait",
+        "marketedProducts": 10
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 7
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "65132156",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65132156/extrait",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-aspart",
+      "generic": "Insulin Aspart",
+      "brand": "NovoRapid / Fiasp",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "NovoRapid",
+          "id": "69482353",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69482353/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "NOVORAPID 100 unités/ml, solution injectable",
+          "products": [
+            {
+              "cis": "69482353",
+              "product": "NOVORAPID 100 unités/ml, solution injectable",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "61232223",
+              "product": "NOVORAPID FLEXPEN 100 unités/ml, solution injectable en stylo prérempli",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "65918860",
+              "product": "NOVORAPID PENFILL 100 unités/ml, solution injectable en cartouche",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "62278832",
+              "product": "NOVORAPID PUMPCART 100 unités/ml, solution injectable en cartouche",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fiasp",
+          "id": "68772407",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68772407/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "FIASP 100 unités/ml, solution injectable en flacon",
+          "products": [
+            {
+              "cis": "68772407",
+              "product": "FIASP 100 unités/ml, solution injectable en flacon",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "65741417",
+              "product": "FIASP FLEXTOUCH 100 unités/ml, solution injectable en stylo prérempli",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "60810891",
+              "product": "FIASP PENFILL 100 unités/ml, solution injectable en cartouche",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "64366900",
+              "product": "FIASP PUMPCART 100 unités/ml, solution injectable en cartouche",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "68772407",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68772407/extrait",
+        "marketedProducts": 14
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "69482353",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69482353/extrait",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-regular",
+      "generic": "Insulin Human (Regular)",
+      "brand": "Actrapid",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Actrapid",
+          "id": "62809126",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62809126/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "ACTRAPID 100 unités internationales/ml, solution injectable",
+          "products": [
+            {
+              "cis": "62809126",
+              "product": "ACTRAPID 100 unités internationales/ml, solution injectable",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "62809126",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62809126/extrait",
+        "marketedProducts": 6
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "62809126",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62809126/extrait",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-nph",
+      "generic": "Insulin Isophane (NPH)",
+      "brand": "Insulatard / Umuline NPH",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Insulatard",
+          "id": "69704932",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69704932/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "INSULATARD 100 unités internationales/ml, suspension injectable",
+          "products": [
+            {
+              "cis": "69704932",
+              "product": "INSULATARD 100 unités internationales/ml, suspension injectable",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Umuline NPH",
+          "id": "60464222",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60464222/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "UMULINE NPH KWIKPEN 100 UI/1 mL, suspension injectable",
+          "products": [
+            {
+              "cis": "60464222",
+              "product": "UMULINE NPH KWIKPEN 100 UI/1 mL, suspension injectable",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "62809126",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62809126/extrait",
+        "marketedProducts": 6
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "69704932",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69704932/extrait",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-detemir",
+      "generic": "Insulin Detemir",
+      "brand": "Levemir",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Levemir",
+          "id": "64529525",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64529525/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "LEVEMIR FLEXPEN 100 Unités/mL, solution injectable en stylo prérempli",
+          "products": [
+            {
+              "cis": "64529525",
+              "product": "LEVEMIR FLEXPEN 100 Unités/mL, solution injectable en stylo prérempli",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "66688750",
+              "product": "LEVEMIR PENFILL 100 Unités/mL, solution injectable en cartouche",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "64529525",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64529525/extrait",
+        "marketedProducts": 2
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "64529525",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64529525/extrait",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-degludec",
+      "generic": "Insulin Degludec",
+      "brand": "Tresiba",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tresiba",
+          "id": "60791754",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60791754/extrait",
+          "confirmed": true,
+          "note": null,
+          "matched": "TRESIBA FLEXTOUCH 200 unités/ml, solution injectable en stylo prérempli",
+          "products": [
+            {
+              "cis": "60791754",
+              "product": "TRESIBA FLEXTOUCH 200 unités/ml, solution injectable en stylo prérempli",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "69786114",
+              "product": "TRESIBA PENFILL 100 unités/ml, solution injectable en cartouche",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "60791754",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60791754/extrait",
+        "marketedProducts": 3
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "60791754",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60791754/extrait",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
         "to": "high"
       },
       "flags": []

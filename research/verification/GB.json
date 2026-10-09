@@ -4,16 +4,16 @@
   "registryVersion": "dm+d 2026-10-05",
   "checked": "2026-10-08",
   "summary": {
-    "entries": 76,
-    "brandEntries": 54,
-    "brandEntriesConfirmed": 54,
-    "brandNames": 67,
-    "brandNamesConfirmed": 67,
-    "verified": 71,
-    "statusAgree": 58,
+    "entries": 82,
+    "brandEntries": 60,
+    "brandEntriesConfirmed": 60,
+    "brandNames": 76,
+    "brandNamesConfirmed": 76,
+    "verified": 77,
+    "statusAgree": 64,
     "statusDiffer": 8,
     "statusNotComparable": 10,
-    "confidenceRaised": 0,
+    "confidenceRaised": 6,
     "flagged": 11
   },
   "entries": [
@@ -2883,6 +2883,621 @@
       },
       "confidence": {
         "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-lispro",
+      "generic": "Insulin Lispro",
+      "brand": "Humalog",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Humalog",
+          "id": "PLPI 19065/0732",
+          "url": "https://products.mhra.gov.uk/search/?search=Humalog&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "HUMALOG 100 UNITS/ML KWIKPEN",
+          "products": [
+            {
+              "licence": "PLPI 19065/0732",
+              "product": "HUMALOG 100 UNITS/ML KWIKPEN",
+              "substances": [
+                "INSULIN LISPRO"
+              ]
+            },
+            {
+              "licence": "PLPI 18799/3179",
+              "product": "HUMALOG 100 UNITS/ML SOLUTION FOR INJECTION IN CARTRIDGE",
+              "substances": [
+                "INSULIN LISPRO"
+              ]
+            },
+            {
+              "licence": "PLPI 20636/3587",
+              "product": "HUMALOG MIX50 100 UNITS/ML SUSPENSION FOR INJECTION IN CARTRIDGE",
+              "substances": [
+                "INSULIN LISPRO"
+              ]
+            },
+            {
+              "licence": "PLPI 21923/0077",
+              "product": "HUMALOG MIX25 100 UNITS/ML SUSPENSION FOR INJECTION IN CARTRIDGE",
+              "substances": [
+                "INSULIN LISPRO"
+              ]
+            },
+            {
+              "licence": "PLPI 21923/0068",
+              "product": "HUMALOG 100 UNITS/ML SOLUTION FOR INJECTION IN VIAL",
+              "substances": [
+                "INSULIN LISPRO"
+              ]
+            },
+            {
+              "licence": "PLGB 14895/0249",
+              "product": "HUMALOG MIX25 100 UNITS/ML SUSPENSION FOR INJECTION IN VIAL",
+              "substances": [
+                "INSULIN LISPRO"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PLGB 04425/0822",
+        "url": "https://products.mhra.gov.uk/search/?search=insulin%20lispro&page=1",
+        "searched": "insulin lispro",
+        "licensedProducts": 27
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 13
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PLPI 19065/0732",
+        "url": "https://products.mhra.gov.uk/search/?search=Humalog&page=1",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-aspart",
+      "generic": "Insulin Aspart",
+      "brand": "NovoRapid / Fiasp",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "NovoRapid",
+          "id": "PLPI 18799/4343",
+          "url": "https://products.mhra.gov.uk/search/?search=NovoRapid&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "NOVORAPID 100 UNITS/ML SOLUTION FOR INJECTION IN VIAL",
+          "products": [
+            {
+              "licence": "PLPI 18799/4343",
+              "product": "NOVORAPID 100 UNITS/ML SOLUTION FOR INJECTION IN VIAL",
+              "substances": [
+                "INSULIN ASPART"
+              ]
+            },
+            {
+              "licence": "PLPI 18799/3283",
+              "product": "NOVORAPID PENFILL 100 UNITS/ML SOLUTION FOR INJECTION IN CARTRIDGE",
+              "substances": [
+                "INSULIN ASPART"
+              ]
+            },
+            {
+              "licence": "PLGB 04668/0392",
+              "product": "NOVORAPID PUMPCART 100 UNITS/ML SOLUTION FOR INJECTION IN CARTRIDGE",
+              "substances": [
+                "INSULIN ASPART"
+              ]
+            },
+            {
+              "licence": "PLPI 15643/0080",
+              "product": "NOVORAPID FLEX-PEN 100 UNITS/ML SOLUTION FOR INJECTION IN PRE-FILLED PEN",
+              "substances": [
+                "INSULIN ASPART"
+              ]
+            },
+            {
+              "licence": "PLPI 15643/0340",
+              "product": "NOVORAPID FLEXPEN 100 UNITS/ML SOLUTION FOR INJECTION IN PRE-FILLED PEN",
+              "substances": [
+                "INSULIN ASPART"
+              ]
+            },
+            {
+              "licence": "PLGB 04668/0389",
+              "product": "NOVORAPID FLEXTOUCH 100 UNITS/ML SOLUTION FOR INJECTION IN PRE-FILLED PEN",
+              "substances": [
+                "INSULIN ASPART"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fiasp",
+          "id": "PLGB 04668/0361",
+          "url": "https://products.mhra.gov.uk/search/?search=Fiasp&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "FIASP 100 UNITS/ML SOLUTION FOR INJECTION IN CARTRIDGE (PENFILL)",
+          "products": [
+            {
+              "licence": "PLGB 04668/0361",
+              "product": "FIASP 100 UNITS/ML SOLUTION FOR INJECTION IN CARTRIDGE (PENFILL)",
+              "substances": [
+                "INSULIN ASPART"
+              ]
+            },
+            {
+              "licence": "PLPI 33532/1683",
+              "product": "FIASP PENFILL 100 UNITS/ML SOLUTION FOR INJECTION IN CARTRIDGE",
+              "substances": [
+                "INSULIN ASPART"
+              ]
+            },
+            {
+              "licence": "PLGB 04668/0359",
+              "product": "FIASP 100 UNITS/ML SOLUTION FOR INJECTION IN VIAL",
+              "substances": [
+                "INSULIN ASPART"
+              ]
+            },
+            {
+              "licence": "PLPI 20912/0053",
+              "product": "FIASP PENFIL 100 UNITS/ML SOLUTION FOR INJECTION IN CARTRIDGE",
+              "substances": [
+                "INSULIN ASPART"
+              ]
+            },
+            {
+              "licence": "PLGB 04668/0360",
+              "product": "FIASP 100 UNITS/ML SOLUTION FOR INJECTION IN PRE-FILLED PEN (FLEXTOUCH)",
+              "substances": [
+                "INSULIN ASPART"
+              ]
+            },
+            {
+              "licence": "PLPI 20504/0622",
+              "product": "FIASP FLEXTOUCH 100 UNITS/ML SOLUTION FOR INJECTION IN PRE-FILLED PEN",
+              "substances": [
+                "INSULIN ASPART"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PLGB 04425/0886",
+        "url": "https://products.mhra.gov.uk/search/?search=insulin%20aspart&page=1",
+        "searched": "insulin aspart",
+        "licensedProducts": 23
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 13
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PLPI 18799/4343",
+        "url": "https://products.mhra.gov.uk/search/?search=NovoRapid&page=1",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-regular",
+      "generic": "Insulin Human (Regular)",
+      "brand": "Actrapid / Humulin S",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Actrapid",
+          "id": "PLGB 04668/0354",
+          "url": "https://products.mhra.gov.uk/search/?search=Actrapid&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "ACTRAPID 100 INTERNATIONAL UNITS/ML SOLUTION FOR INJECTION IN VIAL",
+          "products": [
+            {
+              "licence": "PLGB 04668/0354",
+              "product": "ACTRAPID 100 INTERNATIONAL UNITS/ML SOLUTION FOR INJECTION IN VIAL",
+              "substances": [
+                "INSULIN HUMAN"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Humulin S",
+          "id": "PLPI 46420/0077",
+          "url": "https://products.mhra.gov.uk/search/?search=Humulin%20S&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "HUMULIN S (SOLUBLE) 100 IU/ML SOLUTION FOR INJECTION IN VIAL",
+          "products": [
+            {
+              "licence": "PLPI 46420/0077",
+              "product": "HUMULIN S (SOLUBLE) 100 IU/ML SOLUTION FOR INJECTION IN VIAL",
+              "substances": [
+                "INSULIN HUMAN"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PLPI 20504/0264",
+        "url": "https://products.mhra.gov.uk/search/?search=insulin%20human&page=1",
+        "searched": "insulin human",
+        "licensedProducts": 4
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PLGB 04668/0354",
+        "url": "https://products.mhra.gov.uk/search/?search=Actrapid&page=1",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-nph",
+      "generic": "Insulin Isophane (NPH)",
+      "brand": "Insulatard / Humulin I",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Insulatard",
+          "id": "PLGB 04668/0363",
+          "url": "https://products.mhra.gov.uk/search/?search=Insulatard&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "INSULATARD 100 INTERNATIONAL UNITS/ML SUSPENSION FOR INJECTION IN VIAL.",
+          "products": [
+            {
+              "licence": "PLGB 04668/0363",
+              "product": "INSULATARD 100 INTERNATIONAL UNITS/ML SUSPENSION FOR INJECTION IN VIAL.",
+              "substances": [
+                "INSULIN HUMAN"
+              ]
+            },
+            {
+              "licence": "PLPI 20504/0264",
+              "product": "INSULATARD PENFILL 100 INTERNATIONAL UNITS/ML SUSPENSION FOR INJECTION IN CARTRIDGE.",
+              "substances": [
+                "INSULIN HUMAN"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Humulin I",
+          "id": "PLPI 20504/0130",
+          "url": "https://products.mhra.gov.uk/search/?search=Humulin%20I&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "HUMULIN I 100 IU/ML SUSPENSION FOR INJECTION IN CARTRIDGE",
+          "products": [
+            {
+              "licence": "PLPI 20504/0130",
+              "product": "HUMULIN I 100 IU/ML SUSPENSION FOR INJECTION IN CARTRIDGE",
+              "substances": [
+                "INSULIN HUMAN"
+              ]
+            },
+            {
+              "licence": "PLPI 41103/0071",
+              "product": "HUMULIN I 100 IU/ML SUSPENSION FOR INJECTION IN VIAL",
+              "substances": [
+                "INSULIN HUMAN"
+              ]
+            },
+            {
+              "licence": "PLPI 33532/0892",
+              "product": "HUMULIN I 100 IU-ML SUSPENSION FOR INJECTION IN VIAL",
+              "substances": [
+                "INSULIN HUMAN"
+              ]
+            },
+            {
+              "licence": "PLPI 18799/3041",
+              "product": "HUMULIN I 100IU-ML SUSPENSION FOR INJECTION IN VIAL",
+              "substances": [
+                "INSULIN HUMAN"
+              ]
+            },
+            {
+              "licence": "PLPI 46420/0430",
+              "product": "HUMULIN I (ISOPHANE) 100 IU/ML SUSPENSION FOR INJECTION IN CARTRIDGE",
+              "substances": [
+                "INSULIN HUMAN"
+              ]
+            },
+            {
+              "licence": "PLPI 46420/0078",
+              "product": "HUMULIN I (ISOPHANE) 100 IU/ML SUSPENSION FOR INJECTION IN VIAL",
+              "substances": [
+                "INSULIN HUMAN"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PLPI 46420/0078",
+        "url": "https://products.mhra.gov.uk/search/?search=insulin%20isophane&page=1",
+        "searched": "insulin isophane",
+        "licensedProducts": 12
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 7
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PLGB 04668/0363",
+        "url": "https://products.mhra.gov.uk/search/?search=Insulatard&page=1",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-detemir",
+      "generic": "Insulin Detemir",
+      "brand": "Levemir",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Levemir",
+          "id": "PLPI 20504/0588",
+          "url": "https://products.mhra.gov.uk/search/?search=Levemir&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "LEVEMIR PENFILL 100 UNITS/ML SOLUTION FOR INJECTION IN CARTRIDGE",
+          "products": [
+            {
+              "licence": "PLPI 20504/0588",
+              "product": "LEVEMIR PENFILL 100 UNITS/ML SOLUTION FOR INJECTION IN CARTRIDGE",
+              "substances": [
+                "INSULIN DETEMIR"
+              ]
+            },
+            {
+              "licence": "PLPI 15643/0328",
+              "product": "LEVEMIR PENFILL 100 UNITS/ML SOLUTION FOR INJECTION IN CARTRIDGE.",
+              "substances": [
+                "INSULIN DETEMIR"
+              ]
+            },
+            {
+              "licence": "PLGB 04668/0370",
+              "product": "LEVEMIR INNOLET 100 UNITS/ML SOLUTION FOR INJECTION IN PRE-FILLED PEN.",
+              "substances": [
+                "INSULIN DETEMIR"
+              ]
+            },
+            {
+              "licence": "PLPI 18799/3439",
+              "product": "LEVEMIR FLEXPEN 100 UNITS/ML SOLUTION FOR INJECTION IN PRE-FILLED PEN.",
+              "substances": [
+                "INSULIN DETEMIR"
+              ]
+            },
+            {
+              "licence": "PLPI 33652/0393",
+              "product": "LEVEMIR FLEXPEN 100 UNITS/ML SOLUTION FOR INJECTION IN PRE-FILLED PEN",
+              "substances": [
+                "INSULIN DETEMIR"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PLGB 04668/0370",
+        "url": "https://products.mhra.gov.uk/search/?search=insulin%20detemir&page=1",
+        "searched": "insulin detemir",
+        "licensedProducts": 5
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PLPI 20504/0588",
+        "url": "https://products.mhra.gov.uk/search/?search=Levemir&page=1",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-degludec",
+      "generic": "Insulin Degludec",
+      "brand": "Tresiba",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tresiba",
+          "id": "PLPI 15184/2437",
+          "url": "https://products.mhra.gov.uk/search/?search=Tresiba&page=1",
+          "confirmed": true,
+          "note": null,
+          "matched": "TRESIBA 200UNITS/ML FLEXTOUCH",
+          "products": [
+            {
+              "licence": "PLPI 15184/2437",
+              "product": "TRESIBA 200UNITS/ML FLEXTOUCH",
+              "substances": [
+                "INSULIN DEGLUDEC"
+              ]
+            },
+            {
+              "licence": "PLPI 45763/1282",
+              "product": "TRESIBA 100 UNITS/ML SOLUTION FOR INJECTION IN CARTRIDGE",
+              "substances": [
+                "INSULIN DEGLUDEC"
+              ]
+            },
+            {
+              "licence": "PLPI 33652/0401",
+              "product": "TRESIBA PENFILL 100 UNITS-ML SOLUTION FOR INJECTION IN CARTRIDGE",
+              "substances": [
+                "INSULIN DEGLUDEC"
+              ]
+            },
+            {
+              "licence": "PLPI 33652/0440",
+              "product": "TRESIBA PENFILL 100 UNITS/ML SOLUTION FOR INJECTION IN CARTRIDGE",
+              "substances": [
+                "INSULIN DEGLUDEC"
+              ]
+            },
+            {
+              "licence": "PLPI 39467/0709",
+              "product": "TRESIBA PENFILL 100 UNIT/ML SOLUTION FOR INJECTION IN CARTRIDGE",
+              "substances": [
+                "INSULIN DEGLUDEC"
+              ]
+            },
+            {
+              "licence": "PLPI 18980/1160",
+              "product": "TRESIBA 200 UNITS/ML SOLUTION FOR INJECTION IN PRE-FILLED PEN",
+              "substances": [
+                "INSULIN DEGLUDEC"
+              ]
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "PLPI 45763/1418",
+        "url": "https://products.mhra.gov.uk/search/?search=insulin%20degludec&page=1",
+        "searched": "insulin degludec",
+        "licensedProducts": 13
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "NHS dm+d 2026-10-05, packs on the market",
+          "products": {
+            "RX": 7
+          }
+        }
+      },
+      "verified": {
+        "registry": "MHRA Products + NHS dm+d (UK)",
+        "id": "PLPI 15184/2437",
+        "url": "https://products.mhra.gov.uk/search/?search=Tresiba&page=1",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
         "to": "high"
       },
       "flags": []

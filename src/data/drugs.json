@@ -18,7 +18,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "202433",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=202433",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -36,7 +36,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 44673/0076",
           "url": "https://products.mhra.gov.uk/search/?search=Panadol&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -54,7 +54,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "73935",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=73935",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -90,7 +90,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "66057393",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66057393/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -143,7 +143,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN14833P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -193,7 +193,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "153010",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=153010",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -211,7 +211,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 00063/0376",
           "url": "https://products.mhra.gov.uk/search/?search=Nurofen&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -229,7 +229,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "88592",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=88592",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -264,7 +264,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "60305960",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60305960/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -317,7 +317,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN14587P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -367,7 +367,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "203576",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203576",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -385,7 +385,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 00010/0662",
           "url": "https://products.mhra.gov.uk/search/?search=Clarityn&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -403,7 +403,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "65175",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=65175",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -439,7 +439,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "68728738",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68728738/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -491,7 +491,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN16091P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -541,7 +541,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "58930",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=58930",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -559,7 +559,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 44673/0098",
           "url": "https://products.mhra.gov.uk/search/?search=Piriteze&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient"
@@ -576,7 +576,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "43369",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=43369",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -612,7 +612,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "62636293",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62636293/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -651,7 +651,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "4490020F1020",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -676,7 +676,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN15437P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -726,7 +726,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "203457",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203457",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -744,7 +744,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 02855/0313",
           "url": "https://products.mhra.gov.uk/search/?search=Nytol&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -762,7 +762,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "13782",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=13782",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -796,7 +796,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "62444574",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62444574/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -849,7 +849,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN10851P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -899,7 +899,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "151889",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=151889",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -917,7 +917,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 15513/0345",
           "url": "https://products.mhra.gov.uk/search/?search=Imodium&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -935,7 +935,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "69200",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=69200",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -971,7 +971,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "61203061",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61203061/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -1024,7 +1024,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN06212P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -1074,7 +1074,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "203345",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203345",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -1092,7 +1092,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 14017/0302",
           "url": "https://products.mhra.gov.uk/search/?search=Pyrocalm%20Control&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient"
@@ -1109,7 +1109,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "9823",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=9823",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -1145,7 +1145,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "69606819",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69606819/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -1184,7 +1184,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "2329022H1019",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -1208,7 +1208,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN16251P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -1258,7 +1258,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "203302",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203302",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient"
@@ -1275,7 +1275,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 15513/0024",
           "url": "https://products.mhra.gov.uk/search/?search=Sudafed&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient"
@@ -1292,7 +1292,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "65897",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=65897",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -1356,7 +1356,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "4490100F1021",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient"
           ]
@@ -1379,7 +1379,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN11488P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -1428,7 +1428,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "6711",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=6711",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -1445,7 +1445,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PLPI 42332/0043",
           "url": "https://products.mhra.gov.uk/search/?search=Circadin&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -1463,7 +1463,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "106383",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=106383",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -1525,7 +1525,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "1190028D1026",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -1550,7 +1550,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN13954P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -1599,7 +1599,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "151666",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=151666",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -1624,7 +1624,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "3944",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=3944",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -1659,7 +1659,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "69806008",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69806008/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -1712,7 +1712,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN03550P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -1762,7 +1762,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "723",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=723",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -1777,9 +1777,9 @@
         "source": null,
         "verified": {
           "registry": "MHRA Products + NHS dm+d (UK)",
-          "id": "PL 57395/0002",
+          "id": "PL 54022/0018",
           "url": "https://products.mhra.gov.uk/search/?search=amoxicillin&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -1796,7 +1796,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "106438",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=106438",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -1831,7 +1831,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "64539416",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64539416/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -1870,7 +1870,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "6131001C1210",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -1894,7 +1894,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN11417P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -1942,7 +1942,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "6809",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=6809",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -1959,7 +1959,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 33414/0059",
           "url": "https://products.mhra.gov.uk/search/?search=metformin&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -1976,7 +1976,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "17104",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=17104",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2012,7 +2012,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "61052830",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61052830/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2051,7 +2051,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "3962002F2027",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2076,7 +2076,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN13994P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2125,7 +2125,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "82728",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=82728",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2143,7 +2143,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 46302/0307",
           "url": "https://products.mhra.gov.uk/search/?search=Lustral&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2161,7 +2161,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "13392",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=13392",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2197,7 +2197,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "60155788",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60155788/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2236,7 +2236,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "1179046F1028",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2261,7 +2261,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN07301P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2310,7 +2310,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "8887",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=8887",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2328,7 +2328,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 10949/0274",
           "url": "https://products.mhra.gov.uk/search/?search=Ventolin&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2346,7 +2346,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "65137",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=65137",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2382,7 +2382,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "69077942",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69077942/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2421,7 +2421,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "2254700G4037",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2446,7 +2446,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN02988P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2495,7 +2495,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "153165",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=153165",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2513,7 +2513,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 46302/0304",
           "url": "https://products.mhra.gov.uk/search/?search=Lipitor&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2531,7 +2531,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "49973",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=49973",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2567,7 +2567,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "67143532",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67143532/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2606,7 +2606,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "2189015F1023",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2631,7 +2631,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN09550P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2680,7 +2680,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "224920",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=224920",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2696,9 +2696,9 @@
         "source": null,
         "verified": {
           "registry": "MHRA Products + NHS dm+d (UK)",
-          "id": "PL 00289/1973",
+          "id": "PL 25258/0295",
           "url": "https://products.mhra.gov.uk/search/?search=levothyroxine&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -2715,7 +2715,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "19589",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=19589",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2751,7 +2751,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "68416845",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68416845/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2790,7 +2790,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "2431004B1038",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2815,7 +2815,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN13252P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2864,7 +2864,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "196472",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=196472",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2880,9 +2880,9 @@
         "source": null,
         "verified": {
           "registry": "MHRA Products + NHS dm+d (UK)",
-          "id": "PL 21880/0239",
+          "id": "PL 20416/0353",
           "url": "https://products.mhra.gov.uk/search/?search=lisinopril&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -2899,7 +2899,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "17126",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=17126",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2934,7 +2934,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "66729161",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66729161/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -2973,7 +2973,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "2144006F1014",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -2997,7 +2997,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN12037P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -3045,7 +3045,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "58927",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=58927",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3063,7 +3063,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 46302/0295",
           "url": "https://products.mhra.gov.uk/search/?search=Istin&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3081,7 +3081,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "12938",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=12938",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3117,7 +3117,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "61939921",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61939921/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3156,7 +3156,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "2171022F1029",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3181,7 +3181,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN05277P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3230,7 +3230,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "203344",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203344",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3248,7 +3248,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 30883/0007",
           "url": "https://products.mhra.gov.uk/search/?search=Betaloc&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3266,7 +3266,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "96432",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=96432",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -3301,7 +3301,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "68179830",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68179830/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3340,7 +3340,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "2149010F1025",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3365,7 +3365,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN01331P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3414,7 +3414,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "151558",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=151558",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3432,7 +3432,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 45841/0014",
           "url": "https://products.mhra.gov.uk/search/?search=losartan&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -3449,7 +3449,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "19167",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=19167",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3485,7 +3485,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "66928996",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66928996/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3524,7 +3524,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "2149039F1031",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3549,7 +3549,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN14192P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3598,7 +3598,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "196498",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=196498",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3616,7 +3616,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 46302/0308",
           "url": "https://products.mhra.gov.uk/search/?search=Neurontin&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3634,7 +3634,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "15944",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=15944",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3670,7 +3670,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "62678755",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62678755/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3709,7 +3709,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "1139007F1022",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3734,7 +3734,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN08303P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3783,7 +3783,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "320864",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=320864",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3801,7 +3801,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 17901/0243",
           "url": "https://products.mhra.gov.uk/search/?search=Crestor&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3819,7 +3819,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "75100",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=75100",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3855,7 +3855,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "68479386",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68479386/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3894,7 +3894,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "2189017F1022",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3919,7 +3919,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN12157P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3968,7 +3968,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "261624",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=261624",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -3986,7 +3986,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 45841/0018",
           "url": "https://products.mhra.gov.uk/search/?search=pantoprazole&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -4003,7 +4003,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "47339",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=47339",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -4039,7 +4039,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "60550568",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60550568/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -4092,7 +4092,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN08843P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -4141,7 +4141,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "352741",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=352741",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -4159,7 +4159,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 00458/0310",
           "url": "https://products.mhra.gov.uk/search/?search=Cipralex&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -4177,7 +4177,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "74862",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=74862",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -4213,7 +4213,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "67219535",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67219535/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -4252,7 +4252,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "1179054F1022",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -4277,7 +4277,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN12365P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -4326,7 +4326,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "84815",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=84815",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -4344,7 +4344,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 11243/0021",
           "url": "https://products.mhra.gov.uk/search/?search=Amfexa&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -4362,7 +4362,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "73177",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=73177",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -4398,7 +4398,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "61746712",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61746712/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -4489,7 +4489,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "5487",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=5487",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -4506,7 +4506,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 35533/0304",
           "url": "https://products.mhra.gov.uk/search/?search=hydrochlorothiazide&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -4523,7 +4523,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "103640",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103640",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -4558,7 +4558,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "66153192",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66153192/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -4597,7 +4597,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "2132004F1103",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -4621,7 +4621,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN06552P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -4669,7 +4669,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "42568",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=42568",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -4687,7 +4687,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PLPI 20636/3420",
           "url": "https://products.mhra.gov.uk/search/?search=Zyban&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient"
@@ -4704,7 +4704,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "76060",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=76060",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -4740,7 +4740,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "64556383",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64556383/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -4792,7 +4792,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN10983P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -4841,7 +4841,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "58827",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=58827",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -4859,7 +4859,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 08553/0262",
           "url": "https://products.mhra.gov.uk/search/?search=fluoxetine&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -4876,7 +4876,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "103543",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103543",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -4910,7 +4910,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "63686057",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63686057/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -4962,7 +4962,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN09317P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -5010,7 +5010,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "1991307",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1991307",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -5026,9 +5026,9 @@
         "source": null,
         "verified": {
           "registry": "MHRA Products + NHS dm+d (UK)",
-          "id": "PLPI 18799/3972",
+          "id": "PLPI 18799/3974",
           "url": "https://products.mhra.gov.uk/search/?search=Ozempic&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -5046,7 +5046,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "96058",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=96058",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -5082,7 +5082,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "65766192",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65766192/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -5121,7 +5121,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "2499418G4027",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -5146,7 +5146,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN16165P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -5195,7 +5195,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "153889",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=153889",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -5213,7 +5213,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 00025/0440",
           "url": "https://products.mhra.gov.uk/search/?search=Singulair&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -5231,7 +5231,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "61609",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=61609",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -5267,7 +5267,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "69863646",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69863646/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -5306,7 +5306,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "4490026C1021",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -5331,7 +5331,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN12460P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -5380,7 +5380,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "10737",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=10737",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -5397,7 +5397,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 33155/0031",
           "url": "https://products.mhra.gov.uk/search/?search=trazodone&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -5414,7 +5414,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "102668",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=102668",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -5476,7 +5476,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "1179037F1029",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -5501,7 +5501,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN10777P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -5549,7 +5549,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "196503",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=196503",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -5567,7 +5567,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PLPI 15361/0071",
           "url": "https://products.mhra.gov.uk/search/?search=Zocor&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -5585,7 +5585,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "10947",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=10947",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -5621,7 +5621,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "67037301",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67037301/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -5660,7 +5660,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "2189011F1025",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -5685,7 +5685,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN03789P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -5734,7 +5734,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "77492",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=77492",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -5751,7 +5751,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 00166/0199",
           "url": "https://products.mhra.gov.uk/search/?search=Flomaxtra%20XL&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -5769,7 +5769,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "103396",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103396",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -5804,7 +5804,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "63729537",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63729537/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -5843,7 +5843,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "2590008F1026",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -5868,7 +5868,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN13696P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -5917,7 +5917,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "218772",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=218772",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -5942,7 +5942,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "80973",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=80973",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -6047,7 +6047,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "83373",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=83373",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -6065,7 +6065,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 44673/0100",
           "url": "https://products.mhra.gov.uk/search/?search=Pirinase%20Hayfever&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient"
@@ -6082,7 +6082,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "72648",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=72648",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -6107,7 +6107,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "61748649",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61748649/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -6160,7 +6160,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN07090P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -6209,7 +6209,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "41493",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=41493",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -6226,7 +6226,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 59209/0120",
           "url": "https://products.mhra.gov.uk/search/?search=meloxicam&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -6243,7 +6243,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "103139",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103139",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -6278,7 +6278,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "65217119",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65217119/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -6317,7 +6317,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "1149035F1020",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -6342,7 +6342,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN09554P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -6391,7 +6391,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "1364436",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1364436",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -6407,9 +6407,9 @@
         "source": null,
         "verified": {
           "registry": "MHRA Products + NHS dm+d (UK)",
-          "id": "PLPI 33543/0075",
+          "id": "PLPI 16378/0937",
           "url": "https://products.mhra.gov.uk/search/?search=Eliquis&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -6427,7 +6427,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "86287",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=86287",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -6463,7 +6463,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "62111096",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62111096/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -6502,7 +6502,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "3339004F1029",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -6527,7 +6527,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN14407P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -6576,7 +6576,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "202991",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=202991",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -6592,9 +6592,9 @@
         "source": null,
         "verified": {
           "registry": "MHRA Products + NHS dm+d (UK)",
-          "id": "PL 42976/0016",
+          "id": "PL 40147/0039",
           "url": "https://products.mhra.gov.uk/search/?search=furosemide&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -6611,7 +6611,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "102470",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=102470",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -6646,7 +6646,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "63736250",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63736250/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -6685,7 +6685,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "2139005F1052",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -6710,7 +6710,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN00064P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -6758,7 +6758,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "261551",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=261551",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -6774,9 +6774,9 @@
         "source": null,
         "verified": {
           "registry": "MHRA Products + NHS dm+d (UK)",
-          "id": "PLPI 15643/0095",
+          "id": "PLPI 18799/3318",
           "url": "https://products.mhra.gov.uk/search/?search=Lantus&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -6786,15 +6786,15 @@
       },
       "CA": {
         "brand": "Lantus",
-        "status": "PHARMACY",
+        "status": "RX",
         "confidence": "high",
-        "note": "Insulin does not need a prescription in Canada: a pharmacist can supply it after a consultation.",
+        "note": null,
         "source": null,
         "verified": {
           "registry": "Health Canada Drug Product Database",
           "id": "69790",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=69790",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient"
@@ -6829,7 +6829,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "64745003",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64745003/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -6868,7 +6868,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "2492416A1033",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -6893,7 +6893,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN11934P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -6925,6 +6925,1098 @@
     }
   },
   {
+    "id": "insulin-lispro",
+    "generic": "Insulin Lispro",
+    "usAlt": "Humalog in the US",
+    "cls": "Rapid-acting insulin",
+    "atc": "A10AB04",
+    "rxcui": "86009",
+    "countries": {
+      "US": {
+        "brand": "Humalog / Admelog",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "RxNorm (U.S. National Library of Medicine)",
+          "id": "135805",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=135805",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "GB": {
+        "brand": "Humalog",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PLPI 19065/0732",
+          "url": "https://products.mhra.gov.uk/search/?search=Humalog&page=1",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "CA": {
+        "brand": "Humalog / Admelog",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "Health Canada Drug Product Database",
+          "id": "47871",
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=47871",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
+      },
+      "DE": {
+        "brand": "Humalog / Liprolog",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "EU/1/96/007/047",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "FR": {
+        "brand": "Humalog",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "Base de données publique des médicaments (France)",
+          "id": "65132156",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65132156/extrait",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "MX": {
+        "brand": "Humalog",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Humalog",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Insulin lispro\" — cold-chain availability is a bigger practical concern than naming",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Humalog (ヒューマログ)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2492414A1026",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "VN": {
+        "brand": "Humalog",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Humalog",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "HSA Register of Therapeutic Products (Singapore)",
+          "id": "SIN13719P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "MA": {
+        "brand": "Humalog",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Humalog",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Humalog",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "insulin-aspart",
+    "generic": "Insulin Aspart",
+    "usAlt": "NovoLog in the US",
+    "cls": "Rapid-acting insulin",
+    "atc": "A10AB05",
+    "rxcui": "51428",
+    "countries": {
+      "US": {
+        "brand": "NovoLog / Fiasp",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "RxNorm (U.S. National Library of Medicine)",
+          "id": "284810",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=284810",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "GB": {
+        "brand": "NovoRapid / Fiasp",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PLPI 18799/4343",
+          "url": "https://products.mhra.gov.uk/search/?search=NovoRapid&page=1",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "CA": {
+        "brand": "NovoRapid / Fiasp",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "Health Canada Drug Product Database",
+          "id": "68321",
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=68321",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
+      },
+      "DE": {
+        "brand": "NovoRapid / Fiasp",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "EU/1/99/119/015",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "FR": {
+        "brand": "NovoRapid / Fiasp",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "Base de données publique des médicaments (France)",
+          "id": "69482353",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69482353/extrait",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "MX": {
+        "brand": "NovoRapid",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "NovoRapid",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Insulin aspart\" — cold-chain availability is a bigger practical concern than naming",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "NovoRapid (ノボラピッド)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2492415A2035",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "VN": {
+        "brand": "NovoRapid",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "NovoRapid",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "HSA Register of Therapeutic Products (Singapore)",
+          "id": "SIN11394P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "MA": {
+        "brand": "NovoRapid",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "NovoRapid",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "NovoRapid",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "insulin-regular",
+    "generic": "Insulin Human (Regular)",
+    "usAlt": "Humulin R or Novolin R in the US",
+    "cls": "Short-acting insulin",
+    "atc": "A10AB01",
+    "rxcui": "253182",
+    "countries": {
+      "US": {
+        "brand": "Humulin R / Novolin R",
+        "status": "PHARMACY",
+        "confidence": "medium",
+        "note": "Human insulin is sold without a prescription at the pharmacy counter in most US states. The concentrated U-500 version and newer insulins need one.",
+        "source": null,
+        "verified": {
+          "registry": "RxNorm (U.S. National Library of Medicine)",
+          "id": "92881",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=92881",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
+      },
+      "GB": {
+        "brand": "Actrapid / Humulin S",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PLGB 04668/0354",
+          "url": "https://products.mhra.gov.uk/search/?search=Actrapid&page=1",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "CA": {
+        "brand": "Humulin R / Novolin ge Toronto",
+        "status": "PHARMACY",
+        "confidence": "medium",
+        "note": "Human insulin does not need a prescription in Canada: a pharmacist can supply it after a consultation. Newer insulins need one.",
+        "source": null,
+        "verified": {
+          "registry": "Health Canada Drug Product Database",
+          "id": "12569",
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=12569",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
+      },
+      "DE": {
+        "brand": "Actrapid / Huminsulin Normal",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "EU/1/02/230/003",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "FR": {
+        "brand": "Actrapid",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "Base de données publique des médicaments (France)",
+          "id": "62809126",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62809126/extrait",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "MX": {
+        "brand": "Humulin R",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Actrapid / Huminsulin R",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Soluble (regular) insulin\" — cold-chain availability is a bigger practical concern than naming",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Humulin R (ヒューマリンR) / Novolin R (ノボリンR)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2492403A4051",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "VN": {
+        "brand": "Actrapid",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Actrapid",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": "Human insulin is a pharmacy-only medicine in Singapore: a pharmacist can supply it without a prescription.",
+        "source": null,
+        "verified": {
+          "registry": "HSA Register of Therapeutic Products (Singapore)",
+          "id": "SIN02397P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "MA": {
+        "brand": "Actrapid",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Actrapid / Humulin Regular",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Actrapid / Humulin R",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "insulin-nph",
+    "generic": "Insulin Isophane (NPH)",
+    "usAlt": "Humulin N or Novolin N in the US",
+    "cls": "Intermediate-acting insulin",
+    "atc": "A10AC01",
+    "rxcui": "1605101",
+    "countries": {
+      "US": {
+        "brand": "Humulin N / Novolin N",
+        "status": "PHARMACY",
+        "confidence": "medium",
+        "note": "Human insulin is sold without a prescription at the pharmacy counter in most US states. Newer insulins need one.",
+        "source": null,
+        "verified": {
+          "registry": "RxNorm (U.S. National Library of Medicine)",
+          "id": "92880",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=92880",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
+      },
+      "GB": {
+        "brand": "Insulatard / Humulin I",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PLGB 04668/0363",
+          "url": "https://products.mhra.gov.uk/search/?search=Insulatard&page=1",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "CA": {
+        "brand": "Humulin N / Novolin ge NPH",
+        "status": "PHARMACY",
+        "confidence": "medium",
+        "note": "Human insulin does not need a prescription in Canada: a pharmacist can supply it after a consultation. Newer insulins need one.",
+        "source": null,
+        "verified": {
+          "registry": "Health Canada Drug Product Database",
+          "id": "5326",
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=5326",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
+      },
+      "DE": {
+        "brand": "Protaphane / Huminsulin Basal",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "EU/1/02/234/003",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "FR": {
+        "brand": "Insulatard / Umuline NPH",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "Base de données publique des médicaments (France)",
+          "id": "69704932",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69704932/extrait",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "MX": {
+        "brand": "Humulin N",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Insulatard / Huminsulin N",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"NPH (isophane) insulin\" — cold-chain availability is a bigger practical concern than naming",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Humulin N (ヒューマリンN) / Novolin N (ノボリンN)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2492403A3047",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "VN": {
+        "brand": "Insulatard",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Insulatard",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": "Human insulin is a pharmacy-only medicine in Singapore: a pharmacist can supply it without a prescription.",
+        "source": null,
+        "verified": {
+          "registry": "HSA Register of Therapeutic Products (Singapore)",
+          "id": "SIN08654P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "MA": {
+        "brand": "Insulatard",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Insulatard / Humulin NPH",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Humulin N / Insulatard",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "insulin-detemir",
+    "generic": "Insulin Detemir",
+    "usAlt": "Levemir in the US",
+    "cls": "Long-acting insulin",
+    "atc": "A10AE05",
+    "rxcui": "139825",
+    "countries": {
+      "US": {
+        "brand": "Levemir",
+        "status": "RX",
+        "confidence": "high",
+        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "source": null,
+        "verified": {
+          "registry": "RxNorm (U.S. National Library of Medicine)",
+          "id": "400560",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=400560",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "GB": {
+        "brand": "Levemir",
+        "status": "RX",
+        "confidence": "high",
+        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PLPI 20504/0588",
+          "url": "https://products.mhra.gov.uk/search/?search=Levemir&page=1",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "CA": {
+        "brand": "No longer sold — Levemir has been withdrawn in Canada",
+        "status": "UNAVAILABLE",
+        "confidence": "medium",
+        "note": "Ask your prescriber about a replacement before you travel.",
+        "source": null
+      },
+      "DE": {
+        "brand": "Levemir",
+        "status": "RX",
+        "confidence": "high",
+        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "EU/1/04/278/011",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "FR": {
+        "brand": "Levemir",
+        "status": "RX",
+        "confidence": "high",
+        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "source": null,
+        "verified": {
+          "registry": "Base de données publique des médicaments (France)",
+          "id": "64529525",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64529525/extrait",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "MX": {
+        "brand": "Levemir",
+        "status": "RX",
+        "confidence": "medium",
+        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "source": null
+      },
+      "IN": {
+        "brand": "Levemir",
+        "status": "RX",
+        "confidence": "medium",
+        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Insulin detemir\" — cold-chain availability is a bigger practical concern than naming",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "source": null
+      },
+      "JP": {
+        "brand": "Levemir (レベミル)",
+        "status": "RX",
+        "confidence": "high",
+        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2492417A1038",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "VN": {
+        "brand": "Levemir",
+        "status": "RX",
+        "confidence": "low",
+        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "source": null
+      },
+      "SG": {
+        "brand": "Levemir",
+        "status": "RX",
+        "confidence": "high",
+        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "source": null,
+        "verified": {
+          "registry": "HSA Register of Therapeutic Products (Singapore)",
+          "id": "SIN13115P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "MA": {
+        "brand": "Levemir",
+        "status": "RX",
+        "confidence": "low",
+        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "source": null
+      },
+      "PT": {
+        "brand": "Levemir",
+        "status": "RX",
+        "confidence": "medium",
+        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "source": null
+      },
+      "TR": {
+        "brand": "Levemir",
+        "status": "RX",
+        "confidence": "medium",
+        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "source": null
+      }
+    }
+  },
+  {
+    "id": "insulin-degludec",
+    "generic": "Insulin Degludec",
+    "usAlt": "Tresiba in the US",
+    "cls": "Long-acting insulin",
+    "atc": "A10AE06",
+    "rxcui": "1670007",
+    "countries": {
+      "US": {
+        "brand": "Tresiba",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "RxNorm (U.S. National Library of Medicine)",
+          "id": "1670012",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1670012",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "GB": {
+        "brand": "Tresiba",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "MHRA Products + NHS dm+d (UK)",
+          "id": "PLPI 15184/2437",
+          "url": "https://products.mhra.gov.uk/search/?search=Tresiba&page=1",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "CA": {
+        "brand": "Tresiba",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "Health Canada Drug Product Database",
+          "id": "95622",
+          "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=95622",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
+      },
+      "DE": {
+        "brand": "Tresiba",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "EU/1/12/807/004",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "FR": {
+        "brand": "Tresiba",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "Base de données publique des médicaments (France)",
+          "id": "60791754",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60791754/extrait",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "MX": {
+        "brand": "Tresiba",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "IN": {
+        "brand": "Tresiba",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ET": {
+        "brand": "Ask for it by the generic name: \"Insulin degludec\" — cold-chain availability is a bigger practical concern than naming",
+        "status": "ASK_GENERIC",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "JP": {
+        "brand": "Tresiba (トレシーバ)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "MHLW drug price list (Japan, prescription medicines)",
+          "id": "2492419A1029",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "VN": {
+        "brand": "Tresiba",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "SG": {
+        "brand": "Tresiba",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "HSA Register of Therapeutic Products (Singapore)",
+          "id": "SIN15704P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "MA": {
+        "brand": "Tresiba",
+        "status": "RX",
+        "confidence": "low",
+        "note": null,
+        "source": null
+      },
+      "PT": {
+        "brand": "Tresiba",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "TR": {
+        "brand": "Tresiba",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      }
+    }
+  },
+  {
     "id": "duloxetine",
     "generic": "Duloxetine",
     "usAlt": "Cymbalta in the US",
@@ -6942,7 +8034,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "72625",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=72625",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -6959,7 +8051,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 29831/0651",
           "url": "https://products.mhra.gov.uk/search/?search=duloxetine&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -6976,7 +8068,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "101197",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=101197",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -7011,7 +8103,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "60457719",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60457719/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -7049,7 +8141,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "1179052M1022",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -7113,7 +8205,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "196458",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=196458",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -7131,7 +8223,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 04569/0423",
           "url": "https://products.mhra.gov.uk/search/?search=famotidine&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -7148,7 +8240,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "42879",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=42879",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -7184,7 +8276,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "60005856",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60005856/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -7236,7 +8328,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN07569P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -7285,7 +8377,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "1545659",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1545659",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -7303,7 +8395,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PLPI 18799/4026",
           "url": "https://products.mhra.gov.uk/search/?search=Jardiance&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -7321,7 +8413,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "92871",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=92871",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -7357,7 +8449,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "67947145",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67947145/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -7396,7 +8488,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "3969023F1023",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -7421,7 +8513,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN15061P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -7470,7 +8562,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "216221",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=216221",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -7488,7 +8580,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 36687/0270",
           "url": "https://products.mhra.gov.uk/search/?search=carvedilol&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -7505,7 +8597,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "90309",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=90309",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -7539,7 +8631,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "61271735",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61271735/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -7578,7 +8670,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "2149032F1021",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -7603,7 +8695,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN10335P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -7652,7 +8744,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "10689",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=10689",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -7667,9 +8759,9 @@
         "source": "https://theconversation.com/what-is-tramadol-how-dangerous-is-it-and-where-is-it-illegal-86982",
         "verified": {
           "registry": "MHRA Products + NHS dm+d (UK)",
-          "id": "PL 36722/0129",
+          "id": "PL 11311/0084",
           "url": "https://products.mhra.gov.uk/search/?search=tramadol&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -7686,7 +8778,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "103980",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103980",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -7721,7 +8813,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "62355702",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62355702/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -7760,7 +8852,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "1149038F1024",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -7785,7 +8877,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN08953P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -7833,7 +8925,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "202363",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=202363",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -7849,9 +8941,9 @@
         "source": null,
         "verified": {
           "registry": "MHRA Products + NHS dm+d (UK)",
-          "id": "PL 46302/0328",
+          "id": "PL 50622/0066",
           "url": "https://products.mhra.gov.uk/search/?search=Xanax&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -7869,7 +8961,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "4471",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=4471",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -7905,7 +8997,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "69847791",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69847791/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -7944,7 +9036,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "1124023F1037",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient"
@@ -7968,7 +9060,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN01984P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient"
@@ -8016,7 +9108,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "8640",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=8640",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -8040,7 +9132,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "3076",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=3076",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -8075,7 +9167,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "60118715",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60118715/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -8128,7 +9220,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN04379P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -8176,7 +9268,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "174742",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=174742",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -8192,9 +9284,9 @@
         "source": null,
         "verified": {
           "registry": "MHRA Products + NHS dm+d (UK)",
-          "id": "PLPI 20504/0193",
+          "id": "PLPI 18799/3260",
           "url": "https://products.mhra.gov.uk/search/?search=Plavix&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -8212,7 +9304,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "62114",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=62114",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -8248,7 +9340,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "60562855",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60562855/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -8287,7 +9379,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "3399008F1025",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -8312,7 +9404,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN09828P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -8362,7 +9454,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "215568",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=215568",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -8380,7 +9472,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 20416/0723",
           "url": "https://products.mhra.gov.uk/search/?search=Aspirin&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient"
@@ -8397,7 +9489,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "61080",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=61080",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -8433,7 +9525,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "61162942",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61162942/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -8486,7 +9578,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN05373P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -8535,7 +9627,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "218986",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=218986",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -8553,7 +9645,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PLPI 20636/1681",
           "url": "https://products.mhra.gov.uk/search/?search=OxyContin&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -8571,7 +9663,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "85760",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=85760",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -8607,7 +9699,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "61200108",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61200108/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -8646,7 +9738,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "8119002G5020",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient"
@@ -8670,7 +9762,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN14885P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient"
@@ -8718,7 +9810,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "224917",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=224917",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -8736,7 +9828,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PLPI 20504/0651",
           "url": "https://products.mhra.gov.uk/search/?search=Concerta&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -8754,7 +9846,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "72012",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=72012",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -8790,7 +9882,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "60059081",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60059081/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -8829,7 +9921,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "1179009G1022",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient"
@@ -8853,7 +9945,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN12098P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient"
@@ -8902,7 +9994,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "215101",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=215101",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -8920,7 +10012,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 00010/0631",
           "url": "https://products.mhra.gov.uk/search/?search=Feminax%20Ultra&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient"
@@ -8937,7 +10029,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "78704",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=78704",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -8972,7 +10064,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "67849644",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67849644/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9011,7 +10103,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "1149007F1142",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9036,7 +10128,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN12440P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9086,7 +10178,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "202976",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=202976",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9104,7 +10196,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 20162/0018",
           "url": "https://products.mhra.gov.uk/search/?search=Voltarol&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient"
@@ -9121,7 +10213,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "104363",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=104363",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9157,7 +10249,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "60851678",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60851678/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9210,7 +10302,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN03962P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9260,7 +10352,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "324026",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=324026",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9278,7 +10370,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 53886/0065",
           "url": "https://products.mhra.gov.uk/search/?search=Allevia&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9296,7 +10388,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "63341",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=63341",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9332,7 +10424,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "68712285",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68712285/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9385,7 +10477,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN11699P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9435,7 +10527,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "352777",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=352777",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9453,7 +10545,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 15513/0056",
           "url": "https://products.mhra.gov.uk/search/?search=Benylin%20Chesty%20Coughs&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9471,7 +10563,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "91903",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=91903",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9507,7 +10599,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "63320939",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63320939/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9560,7 +10652,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN14588P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9610,7 +10702,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "3146",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=3146",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9628,7 +10720,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 15513/0053",
           "url": "https://products.mhra.gov.uk/search/?search=Benylin%20Dry%20Coughs&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9646,7 +10738,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "73742",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=73742",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9682,7 +10774,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "66819541",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66819541/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9721,7 +10813,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "2223001B1210",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient"
@@ -9745,7 +10837,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN02657P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9795,7 +10887,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "215051",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=215051",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9813,7 +10905,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 00129/0133",
           "url": "https://products.mhra.gov.uk/search/?search=Vicks%20Sinex&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9831,7 +10923,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "86596",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=86596",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9867,7 +10959,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "65639939",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65639939/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9920,7 +11012,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN03163P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9970,7 +11062,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "54536",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=54536",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -9988,7 +11080,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 00129/0358",
           "url": "https://products.mhra.gov.uk/search/?search=Pepto-Bismol&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -10006,7 +11098,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "42395",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=42395",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -10112,7 +11204,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "220508",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=220508",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -10130,7 +11222,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 00010/0361",
           "url": "https://products.mhra.gov.uk/search/?search=Rennie&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -10148,7 +11240,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "102897",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=102897",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -10184,7 +11276,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "63674254",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63674254/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -10237,7 +11329,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN08733P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -10287,7 +11379,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "217263",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=217263",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -10305,7 +11397,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 00240/0095",
           "url": "https://products.mhra.gov.uk/search/?search=WindSetlers&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -10323,7 +11415,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "13362",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=13362",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -10359,7 +11451,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "63660735",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63660735/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -10412,7 +11504,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN11621P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -10468,7 +11560,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 35104/0040",
           "url": "https://products.mhra.gov.uk/search/?search=Dioralyte&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -10592,7 +11684,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "151672",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=151672",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -10610,7 +11702,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 61186/0008",
           "url": "https://products.mhra.gov.uk/search/?search=Dulcolax&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient"
@@ -10627,7 +11719,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "1555",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=1555",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -10663,7 +11755,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "64835956",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64835956/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -10716,7 +11808,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN02663P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -10766,7 +11858,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "261575",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=261575",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -10784,7 +11876,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PLPI 19488/0064",
           "url": "https://products.mhra.gov.uk/search/?search=Movicol&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient"
@@ -10801,7 +11893,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "80366",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=80366",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -10836,7 +11928,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "69298346",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69298346/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -10875,7 +11967,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "2359110B1037",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -10900,7 +11992,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN12419P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -10950,7 +12042,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "1694",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1694",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -10968,7 +12060,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 58255/0003",
           "url": "https://products.mhra.gov.uk/search/?search=Sea-Legs&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient"
@@ -10999,7 +12091,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "60456535",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60456535/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -11091,7 +12183,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "1987140",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1987140",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -11109,7 +12201,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 50567/0012",
           "url": "https://products.mhra.gov.uk/search/?search=HC45&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -11127,7 +12219,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "103421",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103421",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient"
           ]
@@ -11161,7 +12253,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "67981927",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67981927/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -11200,7 +12292,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "2647705M1023",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient"
@@ -11224,7 +12316,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN08804P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -11274,7 +12366,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "202859",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=202859",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -11292,7 +12384,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 00010/0016",
           "url": "https://products.mhra.gov.uk/search/?search=Canesten&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -11310,7 +12402,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "19479",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=19479",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -11346,7 +12438,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "67301480",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67301480/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -11385,7 +12477,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "2655700N1176",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient"
@@ -11409,7 +12501,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN03585P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -11459,7 +12551,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "1291",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1291",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -11483,7 +12575,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "64139",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=64139",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -11600,7 +12692,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "220672",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=220672",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -11639,7 +12731,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "67103299",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67103299/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -11731,7 +12823,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "858076",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=858076",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -11749,7 +12841,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 04854/0150",
           "url": "https://products.mhra.gov.uk/search/?search=Levonelle&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient"
@@ -11766,7 +12858,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "77922",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=77922",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -11802,7 +12894,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "60812935",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60812935/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -11855,7 +12947,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN11836P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -11905,7 +12997,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "153767",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=153767",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -11923,7 +13015,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PLPI 20636/1165",
           "url": "https://products.mhra.gov.uk/search/?search=Malarone&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -11941,7 +13033,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "61542",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=61542",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -11977,7 +13069,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "61638010",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61638010/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -12016,7 +13108,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "6419101F1020",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -12041,7 +13133,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN09761P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -12091,7 +13183,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "3640",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=3640",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -12108,7 +13200,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 00142/0407",
           "url": "https://products.mhra.gov.uk/search/?search=doxycycline&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -12125,7 +13217,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "106441",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=106441",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -12159,7 +13251,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "63307856",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63307856/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -12198,7 +13290,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "6152004F1074",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -12223,7 +13315,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN08536P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -12272,7 +13364,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "196474",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=196474",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -12288,9 +13380,9 @@
         "source": null,
         "verified": {
           "registry": "MHRA Products + NHS dm+d (UK)",
-          "id": "PL 04416/1235",
+          "id": "PL 33155/0078",
           "url": "https://products.mhra.gov.uk/search/?search=azithromycin&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -12307,7 +13399,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "103468",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103468",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -12342,7 +13434,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "65740799",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65740799/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -12381,7 +13473,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "6149004C1030",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -12406,7 +13498,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN10911P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -12456,7 +13548,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "203563",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203563",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -12474,7 +13566,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PLPI 15184/1369",
           "url": "https://products.mhra.gov.uk/search/?search=Ciproxin&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -12492,7 +13584,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "73758",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=73758",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -12528,7 +13620,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "65126598",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65126598/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -12567,7 +13659,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "6241008F1023",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -12592,7 +13684,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN03028P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -12642,7 +13734,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "167",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=167",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -12659,7 +13751,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PL 12762/0145",
           "url": "https://products.mhra.gov.uk/search/?search=Diamox&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient"
@@ -12676,7 +13768,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "102665",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=102665",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -12711,7 +13803,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "68693244",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68693244/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -12750,7 +13842,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "2134002F1109",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -12775,7 +13867,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN01140P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -12824,7 +13916,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "220372",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=220372",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -12842,7 +13934,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PLPI 56830/0117",
           "url": "https://products.mhra.gov.uk/search/?search=Scopoderm&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -12885,7 +13977,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "63958849",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63958849/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -12977,7 +14069,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "26225",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=26225",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -12994,7 +14086,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PLPI 30900/1937",
           "url": "https://products.mhra.gov.uk/search/?search=Zofran&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -13012,7 +14104,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "106798",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=106798",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -13047,7 +14139,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "65991171",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65991171/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -13086,7 +14178,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "2391001F3023",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "ingredient",
             "status"
@@ -13110,7 +14202,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN05135P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -13160,7 +14252,7 @@
           "registry": "RxNorm (U.S. National Library of Medicine)",
           "id": "727341",
           "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=727341",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -13178,7 +14270,7 @@
           "registry": "MHRA Products + NHS dm+d (UK)",
           "id": "PLPI 18799/4325",
           "url": "https://products.mhra.gov.uk/search/?search=EpiPen&page=1",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -13196,7 +14288,7 @@
           "registry": "Health Canada Drug Product Database",
           "id": "3883",
           "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=3883",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -13232,7 +14324,7 @@
           "registry": "Base de données publique des médicaments (France)",
           "id": "61846627",
           "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61846627/extrait",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -13271,7 +14363,7 @@
           "registry": "MHLW drug price list (Japan, prescription medicines)",
           "id": "2451402G2020",
           "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-10-07",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",
@@ -13296,7 +14388,7 @@
           "registry": "HSA Register of Therapeutic Products (Singapore)",
           "id": "SIN13288P",
           "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-          "checked": "2026-10-06",
+          "checked": "2026-10-08",
           "checks": [
             "brand",
             "ingredient",

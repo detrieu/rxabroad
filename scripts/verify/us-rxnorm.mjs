@@ -5,6 +5,8 @@ import { aggregateStatus, norm, primaryIngredient, statusPool } from './lib.mjs'
 
 const RX = 'https://rxnav.nlm.nih.gov/REST';
 const NDC = 'https://api.fda.gov/drug/ndc.json';
+// Where the FDA's generic name differs from RxNorm's ("insulin aspart, human", "insulin, regular, human").
+const FDA_GENERIC = { 'insulin-aspart': ['insulin aspart'], 'insulin-regular': ['insulin human', 'human insulin'], 'insulin-nph': ['insulin human', 'human insulin'] };
 
 export const registry = { code: 'US', name: 'RxNorm (U.S. National Library of Medicine)' };
 // "Behind the counter" (pseudoephedrine) is a sales restriction, not a product type either source records.
@@ -138,7 +140,7 @@ export async function verify({ drug, parsed }) {
   // Legal class from openFDA, scoped to the confirmed brands (or to the ingredient when there is no brand).
   let products = [];
   let scope = null;
-  const generic = ingredient.registered ? `generic_name:"${q(ingredient.name)}"` : null;
+  const generic = ingredient.registered ? `(${(FDA_GENERIC[drug.id] ?? [ingredient.name]).map((n) => `generic_name:"${q(n)}"`).join('+OR+')})` : null;
   if (generic) {
     for (const b of brands.filter((x) => x.confirmed)) {
       const brand = nameVariants(b.name).at(-1);

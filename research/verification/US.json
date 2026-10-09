@@ -4,17 +4,17 @@
   "registryVersion": "RxNorm 05-Oct-2026",
   "checked": "2026-10-08",
   "summary": {
-    "entries": 76,
-    "brandEntries": 63,
-    "brandEntriesConfirmed": 61,
-    "brandNames": 74,
-    "brandNamesConfirmed": 72,
-    "verified": 75,
-    "statusAgree": 74,
+    "entries": 82,
+    "brandEntries": 69,
+    "brandEntriesConfirmed": 67,
+    "brandNames": 84,
+    "brandNamesConfirmed": 82,
+    "verified": 81,
+    "statusAgree": 78,
     "statusDiffer": 0,
-    "statusNotComparable": 2,
-    "confidenceRaised": 0,
-    "flagged": 8
+    "statusNotComparable": 4,
+    "confidenceRaised": 4,
+    "flagged": 9
   },
   "entries": [
     {
@@ -2263,6 +2263,408 @@
       },
       "confidence": {
         "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-lispro",
+      "generic": "Insulin Lispro",
+      "brand": "Humalog / Admelog",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Humalog",
+          "id": "135805",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=135805",
+          "via": "exact",
+          "matched": "Humalog",
+          "ingredients": [
+            "insulin lispro"
+          ],
+          "confirmed": true,
+          "note": null
+        },
+        {
+          "name": "Admelog",
+          "id": "1992165",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1992165",
+          "via": "exact",
+          "matched": "Admelog",
+          "ingredients": [
+            "insulin lispro"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "86009",
+        "name": "insulin lispro",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=86009",
+        "searched": "Insulin Lispro",
+        "atc": [
+          "A10AB04",
+          "A10AC04",
+          "A10AD04"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 17
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "135805",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=135805",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-aspart",
+      "generic": "Insulin Aspart",
+      "brand": "NovoLog / Fiasp",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "NovoLog",
+          "id": "284810",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=284810",
+          "via": "exact",
+          "matched": "NovoLog",
+          "ingredients": [
+            "insulin aspart, human"
+          ],
+          "confirmed": true,
+          "note": null
+        },
+        {
+          "name": "Fiasp",
+          "id": "1986350",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1986350",
+          "via": "exact",
+          "matched": "Fiasp",
+          "ingredients": [
+            "insulin aspart, human"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "51428",
+        "name": "insulin aspart, human",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=51428",
+        "searched": "Insulin Aspart",
+        "atc": [
+          "A10AB05",
+          "A10AD05"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 19
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "284810",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=284810",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-regular",
+      "generic": "Insulin Human (Regular)",
+      "brand": "Humulin R / Novolin R",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Humulin R",
+          "id": "92881",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=92881",
+          "via": "exact",
+          "matched": "Humulin R",
+          "ingredients": [
+            "insulin, regular, human"
+          ],
+          "confirmed": true,
+          "note": null
+        },
+        {
+          "name": "Novolin R",
+          "id": "93560",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=93560",
+          "via": "exact",
+          "matched": "Novolin R",
+          "ingredients": [
+            "insulin, regular, human"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "253182",
+        "name": "insulin, regular, human",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=253182",
+        "searched": "Insulin Human",
+        "atc": [
+          "A10AB01",
+          "A10AC01",
+          "A10AD01",
+          "A10AE01",
+          "A10AF01"
+        ]
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "MIXED",
+        "result": "na",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 1,
+            "OTC": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "92881",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=92881",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-nph",
+      "generic": "Insulin Isophane (NPH)",
+      "brand": "Humulin N / Novolin N",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Humulin N",
+          "id": "92880",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=92880",
+          "via": "exact",
+          "matched": "Humulin N",
+          "ingredients": [
+            "insulin isophane"
+          ],
+          "confirmed": true,
+          "note": null
+        },
+        {
+          "name": "Novolin N",
+          "id": "93558",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=93558",
+          "via": "exact",
+          "matched": "Novolin N",
+          "ingredients": [
+            "insulin isophane"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1605101",
+        "name": "insulin isophane",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1605101",
+        "searched": "Insulin Isophane",
+        "atc": []
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "OTC",
+        "result": "na",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "OTC": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "92880",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=92880",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "ATC: RxNorm has no ATC code on this ingredient concept (entry has A10AC01)"
+      ]
+    },
+    {
+      "id": "insulin-detemir",
+      "generic": "Insulin Detemir",
+      "brand": "Levemir",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Levemir",
+          "id": "400560",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=400560",
+          "via": "exact",
+          "matched": "Levemir",
+          "ingredients": [
+            "insulin detemir"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "139825",
+        "name": "insulin detemir",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=139825",
+        "searched": "Insulin Detemir",
+        "atc": [
+          "A10AE05"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "400560",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=400560",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-degludec",
+      "generic": "Insulin Degludec",
+      "brand": "Tresiba",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tresiba",
+          "id": "1670012",
+          "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1670012",
+          "via": "exact",
+          "matched": "Tresiba",
+          "ingredients": [
+            "insulin degludec"
+          ],
+          "confirmed": true,
+          "note": null
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1670007",
+        "name": "insulin degludec",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1670007",
+        "searched": "Insulin Degludec",
+        "atc": [
+          "A10AE06"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "openFDA NDC directory",
+          "scope": "brand",
+          "products": {
+            "RX": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "RxNorm (U.S. National Library of Medicine)",
+        "id": "1670012",
+        "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1670012",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
         "to": "high"
       },
       "flags": []

@@ -4,16 +4,16 @@
   "registryVersion": "searched 2026-10-08",
   "checked": "2026-10-08",
   "summary": {
-    "entries": 76,
-    "brandEntries": 65,
-    "brandEntriesConfirmed": 63,
-    "brandNames": 88,
-    "brandNamesConfirmed": 86,
-    "verified": 71,
-    "statusAgree": 67,
+    "entries": 82,
+    "brandEntries": 71,
+    "brandEntriesConfirmed": 69,
+    "brandNames": 98,
+    "brandNamesConfirmed": 96,
+    "verified": 77,
+    "statusAgree": 73,
     "statusDiffer": 5,
     "statusNotComparable": 4,
-    "confidenceRaised": 2,
+    "confidenceRaised": 6,
     "flagged": 6
   },
   "entries": [
@@ -697,7 +697,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1398,7 +1398,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2898,6 +2898,538 @@
       },
       "confidence": {
         "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-lispro",
+      "generic": "Insulin Lispro",
+      "brand": "Humalog / Liprolog",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Humalog",
+          "id": "EU/1/96/007/047",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Humalog 100 Einheiten/ml Tempo Pen, Injektionslösung in einem Fertigpen",
+          "products": [
+            {
+              "product": "Humalog 100 Einheiten/ml Tempo Pen, Injektionslösung in einem Fertigpen",
+              "holder": "Eli Lilly Nederland B.V.",
+              "authorisation": "EU/1/96/007/047",
+              "legal": "prescription"
+            },
+            {
+              "product": "Humalog 100 Einheiten/ml Tempo Pen, Injektionslösung in einem Fertigpen",
+              "holder": "Eli Lilly Nederland B.V.",
+              "authorisation": "EU/1/96/007/046",
+              "legal": "prescription"
+            },
+            {
+              "product": "Humalog 100 E/ml Injektionslösung in Durchstechflasche - OP(1x10ml)",
+              "holder": "MTK-PHARMA-Vertriebs-GmbH",
+              "authorisation": "EU/1/96/007/002",
+              "legal": "prescription"
+            }
+          ]
+        },
+        {
+          "name": "Liprolog",
+          "id": "EU/1/01/195/001",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Liprolog 100 E/ml Injektionslösung in Durchstechflasche - OP(1x10ml)",
+          "products": [
+            {
+              "product": "Liprolog 100 E/ml Injektionslösung in Durchstechflasche - OP(1x10ml)",
+              "holder": "Eli Lilly Nederland B.V.",
+              "authorisation": "EU/1/01/195/001",
+              "legal": "prescription"
+            },
+            {
+              "product": "Liprolog 100 E/ml Injektionslösung in Durchstechflasche - OP(2x10ml)",
+              "holder": "Eli Lilly Nederland B.V.",
+              "authorisation": "EU/1/01/195/008",
+              "legal": "prescription"
+            },
+            {
+              "product": "Liprolog 100 E/ml Injektionslösung in Durchstechflasche - OP[5x(1x10ml)]",
+              "holder": "Eli Lilly Nederland B.V.",
+              "authorisation": "EU/1/01/195/009",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "EU/1/26/2030/001",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "A10AB04",
+        "marketedProducts": 164
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 102
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "EU/1/96/007/047",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-aspart",
+      "generic": "Insulin Aspart",
+      "brand": "NovoRapid / Fiasp",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "NovoRapid",
+          "id": "EU/1/99/119/015",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "NovoRapid 100 E / ml Injektionslösung in Durchstechflasche OP 5",
+          "products": [
+            {
+              "product": "NovoRapid 100 E / ml Injektionslösung in Durchstechflasche OP 5",
+              "holder": "2CARE4 ApS HR-Beiname: Aurora Medical ApS",
+              "authorisation": "EU/1/99/119/015",
+              "legal": "prescription"
+            },
+            {
+              "product": "NovoRapid 100 E/ml Injektionslösung in Durchstechflasche - OP(1x10ml)",
+              "holder": "Novo Nordisk A/S",
+              "authorisation": "EU/1/99/119/001",
+              "legal": "prescription"
+            },
+            {
+              "product": "NovoRapid 100 E/ml Injektionslösung in Durchstechflasche - OP(5x10ml)",
+              "holder": "MTK-PHARMA-Vertriebs-GmbH",
+              "authorisation": "EU/1/99/119/008",
+              "legal": "prescription"
+            }
+          ]
+        },
+        {
+          "name": "Fiasp",
+          "id": "EU/1/16/1160/008",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Fiasp 100 Einheiten/ml Injektionslösung in Durchstechflasche",
+          "products": [
+            {
+              "product": "Fiasp 100 Einheiten/ml Injektionslösung in Durchstechflasche",
+              "holder": "Novo Nordisk A/S",
+              "authorisation": "EU/1/16/1160/008",
+              "legal": "prescription"
+            },
+            {
+              "product": "Fiasp 100 Einheiten/ml Injektionslösung in Fertigpen",
+              "holder": "Novo Nordisk A/S",
+              "authorisation": "EU/1/16/1160/003",
+              "legal": "prescription"
+            },
+            {
+              "product": "Fiasp 100 Einheiten/ml PumpCart Injektionslösung in einer Patrone",
+              "holder": "Novo Nordisk A/S",
+              "authorisation": "EU/1/16/1160/013",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "EU/1/26/2029/001",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "A10AB05",
+        "marketedProducts": 180
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 124
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "EU/1/99/119/015",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-regular",
+      "generic": "Insulin Human (Regular)",
+      "brand": "Actrapid / Huminsulin Normal",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Actrapid",
+          "id": "EU/1/02/230/003",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Actrapid 100 I.E./ml Injektionslösung in Durchstechflasche - OP(1x10ml)",
+          "products": [
+            {
+              "product": "Actrapid 100 I.E./ml Injektionslösung in Durchstechflasche - OP(1x10ml)",
+              "holder": "Novo Nordisk A/S",
+              "authorisation": "EU/1/02/230/003",
+              "legal": "prescription"
+            },
+            {
+              "product": "Actrapid 100 I.E./ml Injektionslösung in Durchstechflasche - OP(5x10ml)",
+              "holder": "Novo Nordisk A/S",
+              "authorisation": "EU/1/02/230/004",
+              "legal": "prescription"
+            },
+            {
+              "product": "Actrapid 100 I.E./ml Injektionslösung in Durchstechflasche - OP5x(1x10ml)",
+              "holder": "Novo Nordisk A/S",
+              "authorisation": "EU/1/02/230/017",
+              "legal": "prescription"
+            }
+          ]
+        },
+        {
+          "name": "Huminsulin Normal",
+          "id": "96082.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Huminsulin Normal 100 100 IE/ml Injektionslösung in Durchstechflasche",
+          "products": [
+            {
+              "product": "Huminsulin Normal 100 100 IE/ml Injektionslösung in Durchstechflasche",
+              "holder": "Lilly Deutschland Gesellschaft mit beschränkter Haftung",
+              "authorisation": "96082.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Huminsulin Normal für Pen 3 ml 100 I.E./ml Injektionslösung in Patrone",
+              "holder": "Orifarm GmbH - Geschäftsanschrift -",
+              "authorisation": "7000291.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Huminsulin Normal für Pen 3 ml 100 I.E./ml Injektionslösung in Patrone",
+              "holder": "European Pharma B.V.",
+              "authorisation": "95614.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "EU/1/02/230/003",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "A10AB01",
+        "marketedProducts": 157
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 61
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "EU/1/02/230/003",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-nph",
+      "generic": "Insulin Isophane (NPH)",
+      "brand": "Protaphane / Huminsulin Basal",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Protaphane",
+          "id": "EU/1/02/234/003",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Protaphane 100 I.E./ml Injektionssuspension in Durchstechflasche - OP(1x10ml)",
+          "products": [
+            {
+              "product": "Protaphane 100 I.E./ml Injektionssuspension in Durchstechflasche - OP(1x10ml)",
+              "holder": "Novo Nordisk A/S",
+              "authorisation": "EU/1/02/234/003",
+              "legal": "prescription"
+            },
+            {
+              "product": "Protaphane 100 I.E./ml Injektionssuspension in Durchstechflasche - OP(5x10ml)",
+              "holder": "Novo Nordisk A/S",
+              "authorisation": "EU/1/02/234/004",
+              "legal": "prescription"
+            },
+            {
+              "product": "Protaphane 100 I.E./ml Injektionssuspension in Durchstechflasche - OP5x(1x10ml)",
+              "holder": "Novo Nordisk A/S",
+              "authorisation": "EU/1/02/234/017",
+              "legal": "prescription"
+            }
+          ]
+        },
+        {
+          "name": "Huminsulin Basal",
+          "id": "54703.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Huminsulin Basal (NPH) für Pen 3 ml",
+          "products": [
+            {
+              "product": "Huminsulin Basal (NPH) für Pen 3 ml",
+              "holder": "kohlpharma GmbH",
+              "authorisation": "54703.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Huminsulin Basal (NPH) für Pen 3 ml 100 I.E./ml Injektionssuspension in Patrone",
+              "holder": "European Pharma B.V.",
+              "authorisation": "95613.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Huminsulin Basal (NPH) für Pen 3 ml 100 I.E./ml Injektionssuspension in Patrone",
+              "holder": "Orifarm GmbH - Geschäftsanschrift -",
+              "authorisation": "7000379.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "54703.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "A10AC01",
+        "marketedProducts": 133
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 31
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "EU/1/02/234/003",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-detemir",
+      "generic": "Insulin Detemir",
+      "brand": "Levemir",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Levemir",
+          "id": "EU/1/04/278/011",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Levemir 100 E/ml Injektionslösung in Fertigpen - OP3ml(FlexPen)",
+          "products": [
+            {
+              "product": "Levemir 100 E/ml Injektionslösung in Fertigpen - OP3ml(FlexPen)",
+              "holder": "Novo Nordisk A/S",
+              "authorisation": "EU/1/04/278/011",
+              "legal": "prescription"
+            },
+            {
+              "product": "Levemir 100 E/ml Injektionslösung in Fertigpen - OP3ml(FlexPen)",
+              "holder": "Novo Nordisk A/S",
+              "authorisation": "EU/1/04/278/010",
+              "legal": "prescription"
+            },
+            {
+              "product": "Levemir 100 I.E. Injektionslösung in Fertigpen - OP(10x3ml)(FlexPen)",
+              "holder": "CC - Pharma GmbH",
+              "authorisation": "EU/1/04/278/006",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "EU/1/04/278/011",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "A10AE05",
+        "marketedProducts": 36
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 36
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "EU/1/04/278/011",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-degludec",
+      "generic": "Insulin Degludec",
+      "brand": "Tresiba",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tresiba",
+          "id": "EU/1/12/807/004",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Tresiba 100 Einheiten/ml Injektionslösung in Fertigpen",
+          "products": [
+            {
+              "product": "Tresiba 100 Einheiten/ml Injektionslösung in Fertigpen",
+              "holder": "Orifarm GmbH",
+              "authorisation": "EU/1/12/807/004",
+              "legal": "prescription"
+            },
+            {
+              "product": "Tresiba 100 Einheiten/ml Injektionslösung in Fertigpen - OP(5x3ml)",
+              "holder": "Novo Nordisk A/S",
+              "authorisation": "EU/1/12/807/004",
+              "legal": "prescription"
+            },
+            {
+              "product": "Tresiba 100 Einheiten/ml Injektionslösung in Fertigpen - OP3ml",
+              "holder": "Novo Nordisk A/S",
+              "authorisation": "EU/1/12/807/003",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "EU/1/12/807/004",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "A10AE06",
+        "marketedProducts": 15
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 15
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "EU/1/12/807/004",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
         "to": "high"
       },
       "flags": []
