@@ -2,7 +2,7 @@
   "country": "GB",
   "registry": "MHRA Products + NHS dm+d (UK)",
   "registryVersion": "dm+d 2026-10-05",
-  "checked": "2026-10-08",
+  "checked": "2026-10-09",
   "summary": {
     "entries": 82,
     "brandEntries": 60,
@@ -13,7 +13,7 @@
     "statusAgree": 64,
     "statusDiffer": 8,
     "statusNotComparable": 10,
-    "confidenceRaised": 6,
+    "confidenceRaised": 0,
     "flagged": 11
   },
   "entries": [
@@ -101,7 +101,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 44673/0076",
         "url": "https://products.mhra.gov.uk/search/?search=Panadol&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -198,7 +198,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 00063/0376",
         "url": "https://products.mhra.gov.uk/search/?search=Nurofen&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -265,7 +265,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 00010/0662",
         "url": "https://products.mhra.gov.uk/search/?search=Clarityn&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -399,7 +399,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 44673/0098",
         "url": "https://products.mhra.gov.uk/search/?search=Piriteze&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient"
@@ -473,7 +473,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 02855/0313",
         "url": "https://products.mhra.gov.uk/search/?search=Nytol&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -569,7 +569,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 15513/0345",
         "url": "https://products.mhra.gov.uk/search/?search=Imodium&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -688,7 +688,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 14017/0302",
         "url": "https://products.mhra.gov.uk/search/?search=Pyrocalm%20Control&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient"
@@ -758,7 +758,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 15513/0024",
         "url": "https://products.mhra.gov.uk/search/?search=Sudafed&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient"
@@ -823,7 +823,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PLPI 42332/0043",
         "url": "https://products.mhra.gov.uk/search/?search=Circadin&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -897,7 +897,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 54022/0018",
         "url": "https://products.mhra.gov.uk/search/?search=amoxicillin&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "ingredient",
           "status"
@@ -937,7 +937,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 33414/0059",
         "url": "https://products.mhra.gov.uk/search/?search=metformin&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "ingredient",
           "status"
@@ -1030,7 +1030,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 46302/0307",
         "url": "https://products.mhra.gov.uk/search/?search=Lustral&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -1124,7 +1124,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 10949/0274",
         "url": "https://products.mhra.gov.uk/search/?search=Ventolin&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -1218,7 +1218,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 46302/0304",
         "url": "https://products.mhra.gov.uk/search/?search=Lipitor&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -1259,7 +1259,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 25258/0295",
         "url": "https://products.mhra.gov.uk/search/?search=levothyroxine&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "ingredient",
           "status"
@@ -1299,7 +1299,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 20416/0353",
         "url": "https://products.mhra.gov.uk/search/?search=lisinopril&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "ingredient",
           "status"
@@ -1392,7 +1392,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 46302/0295",
         "url": "https://products.mhra.gov.uk/search/?search=Istin&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -1451,7 +1451,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 30883/0007",
         "url": "https://products.mhra.gov.uk/search/?search=Betaloc&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -1492,7 +1492,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 45841/0014",
         "url": "https://products.mhra.gov.uk/search/?search=losartan&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "ingredient",
           "status"
@@ -1585,7 +1585,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 46302/0308",
         "url": "https://products.mhra.gov.uk/search/?search=Neurontin&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -1679,7 +1679,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 17901/0243",
         "url": "https://products.mhra.gov.uk/search/?search=Crestor&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -1720,7 +1720,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 45841/0018",
         "url": "https://products.mhra.gov.uk/search/?search=pantoprazole&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "ingredient",
           "status"
@@ -1813,7 +1813,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 00458/0310",
         "url": "https://products.mhra.gov.uk/search/?search=Cipralex&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -1886,7 +1886,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 11243/0021",
         "url": "https://products.mhra.gov.uk/search/?search=Amfexa&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -1927,7 +1927,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 35533/0304",
         "url": "https://products.mhra.gov.uk/search/?search=hydrochlorothiazide&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "ingredient",
           "status"
@@ -1987,7 +1987,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PLPI 20636/3420",
         "url": "https://products.mhra.gov.uk/search/?search=Zyban&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient"
@@ -2027,7 +2027,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 08553/0262",
         "url": "https://products.mhra.gov.uk/search/?search=fluoxetine&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "ingredient",
           "status"
@@ -2172,7 +2172,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PLPI 18799/3974",
         "url": "https://products.mhra.gov.uk/search/?search=Ozempic&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -2266,7 +2266,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 00025/0440",
         "url": "https://products.mhra.gov.uk/search/?search=Singulair&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -2307,7 +2307,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 33155/0031",
         "url": "https://products.mhra.gov.uk/search/?search=trazodone&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "ingredient",
           "status"
@@ -2400,7 +2400,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PLPI 15361/0071",
         "url": "https://products.mhra.gov.uk/search/?search=Zocor&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -2494,7 +2494,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 00166/0199",
         "url": "https://products.mhra.gov.uk/search/?search=Flomaxtra%20XL&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -2640,7 +2640,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 44673/0100",
         "url": "https://products.mhra.gov.uk/search/?search=Pirinase%20Hayfever&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient"
@@ -2682,7 +2682,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 59209/0120",
         "url": "https://products.mhra.gov.uk/search/?search=meloxicam&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "ingredient",
           "status"
@@ -2754,7 +2754,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PLPI 16378/0937",
         "url": "https://products.mhra.gov.uk/search/?search=Eliquis&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -2795,7 +2795,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 40147/0039",
         "url": "https://products.mhra.gov.uk/search/?search=furosemide&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "ingredient",
           "status"
@@ -2874,7 +2874,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PLPI 18799/3318",
         "url": "https://products.mhra.gov.uk/search/?search=Lantus&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -2968,7 +2968,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PLPI 19065/0732",
         "url": "https://products.mhra.gov.uk/search/?search=Humalog&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -2976,7 +2976,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3114,7 +3114,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PLPI 18799/4343",
         "url": "https://products.mhra.gov.uk/search/?search=NovoRapid&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -3122,7 +3122,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3190,7 +3190,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PLGB 04668/0354",
         "url": "https://products.mhra.gov.uk/search/?search=Actrapid&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -3198,7 +3198,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3308,7 +3308,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PLGB 04668/0363",
         "url": "https://products.mhra.gov.uk/search/?search=Insulatard&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -3316,7 +3316,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3395,7 +3395,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PLPI 20504/0588",
         "url": "https://products.mhra.gov.uk/search/?search=Levemir&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -3403,7 +3403,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3489,7 +3489,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PLPI 15184/2437",
         "url": "https://products.mhra.gov.uk/search/?search=Tresiba&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -3497,7 +3497,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3530,7 +3530,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 29831/0651",
         "url": "https://products.mhra.gov.uk/search/?search=duloxetine&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "ingredient",
           "status"
@@ -3570,7 +3570,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 04569/0423",
         "url": "https://products.mhra.gov.uk/search/?search=famotidine&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "ingredient",
           "status"
@@ -3656,7 +3656,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PLPI 18799/4026",
         "url": "https://products.mhra.gov.uk/search/?search=Jardiance&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -3697,7 +3697,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 36687/0270",
         "url": "https://products.mhra.gov.uk/search/?search=carvedilol&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "ingredient",
           "status"
@@ -3737,7 +3737,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 11311/0084",
         "url": "https://products.mhra.gov.uk/search/?search=tramadol&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "ingredient",
           "status"
@@ -3802,7 +3802,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 50622/0066",
         "url": "https://products.mhra.gov.uk/search/?search=Xanax&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -3906,7 +3906,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PLPI 18799/3260",
         "url": "https://products.mhra.gov.uk/search/?search=Plavix&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -4026,7 +4026,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 20416/0723",
         "url": "https://products.mhra.gov.uk/search/?search=Aspirin&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient"
@@ -4121,7 +4121,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PLPI 20636/1681",
         "url": "https://products.mhra.gov.uk/search/?search=OxyContin&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -4267,7 +4267,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PLPI 20504/0651",
         "url": "https://products.mhra.gov.uk/search/?search=Concerta&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -4321,7 +4321,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 00010/0631",
         "url": "https://products.mhra.gov.uk/search/?search=Feminax%20Ultra&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient"
@@ -4416,7 +4416,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 20162/0018",
         "url": "https://products.mhra.gov.uk/search/?search=Voltarol&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient"
@@ -4484,7 +4484,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 53886/0065",
         "url": "https://products.mhra.gov.uk/search/?search=Allevia&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -4576,7 +4576,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 15513/0056",
         "url": "https://products.mhra.gov.uk/search/?search=Benylin%20Chesty%20Coughs&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -4661,7 +4661,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 15513/0053",
         "url": "https://products.mhra.gov.uk/search/?search=Benylin%20Dry%20Coughs&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -4727,7 +4727,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 00129/0133",
         "url": "https://products.mhra.gov.uk/search/?search=Vicks%20Sinex&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -4786,7 +4786,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 00129/0358",
         "url": "https://products.mhra.gov.uk/search/?search=Pepto-Bismol&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -4885,7 +4885,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 00010/0361",
         "url": "https://products.mhra.gov.uk/search/?search=Rennie&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -4944,7 +4944,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 00240/0095",
         "url": "https://products.mhra.gov.uk/search/?search=WindSetlers&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -5057,7 +5057,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 35104/0040",
         "url": "https://products.mhra.gov.uk/search/?search=Dioralyte&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -5139,7 +5139,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 61186/0008",
         "url": "https://products.mhra.gov.uk/search/?search=Dulcolax&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient"
@@ -5284,7 +5284,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PLPI 19488/0064",
         "url": "https://products.mhra.gov.uk/search/?search=Movicol&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient"
@@ -5356,7 +5356,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 58255/0003",
         "url": "https://products.mhra.gov.uk/search/?search=Sea-Legs&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient"
@@ -5414,7 +5414,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 50567/0012",
         "url": "https://products.mhra.gov.uk/search/?search=HC45&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -5510,7 +5510,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 00010/0016",
         "url": "https://products.mhra.gov.uk/search/?search=Canesten&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -5666,7 +5666,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 04854/0150",
         "url": "https://products.mhra.gov.uk/search/?search=Levonelle&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient"
@@ -5786,7 +5786,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PLPI 20636/1165",
         "url": "https://products.mhra.gov.uk/search/?search=Malarone&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -5827,7 +5827,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 00142/0407",
         "url": "https://products.mhra.gov.uk/search/?search=doxycycline&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "ingredient",
           "status"
@@ -5867,7 +5867,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 33155/0078",
         "url": "https://products.mhra.gov.uk/search/?search=azithromycin&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "ingredient",
           "status"
@@ -5960,7 +5960,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PLPI 15184/1369",
         "url": "https://products.mhra.gov.uk/search/?search=Ciproxin&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -6049,7 +6049,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PL 12762/0145",
         "url": "https://products.mhra.gov.uk/search/?search=Diamox&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient"
@@ -6145,7 +6145,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PLPI 56830/0117",
         "url": "https://products.mhra.gov.uk/search/?search=Scopoderm&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -6239,7 +6239,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PLPI 30900/1937",
         "url": "https://products.mhra.gov.uk/search/?search=Zofran&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -6385,7 +6385,7 @@
         "registry": "MHRA Products + NHS dm+d (UK)",
         "id": "PLPI 18799/4325",
         "url": "https://products.mhra.gov.uk/search/?search=EpiPen&page=1",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",

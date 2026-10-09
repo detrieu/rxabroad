@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { ChevronDownIcon } from 'lucide-react';
-import { entryFor, isSafeSource, statusMeta, type Country, type CountryCode, type Drug } from '@/data';
+import { entryFor, isSafeSource, statusMeta, type Country, type CountryCode, type CountryEntry, type Drug } from '@/data';
 import { cn } from '@/lib/utils';
 import { Flag } from './Flag';
 import { Highlight } from './Highlight';
@@ -143,6 +143,7 @@ function CountryRow({
         <span className="text-muted-foreground mr-2 font-mono text-[0.6rem] tracking-[0.16em] uppercase">Ask for</span>
         <span className="font-semibold"><Highlight text={entry.brand} query={query} /></span>
         <EntryBadges entry={entry} />
+        <LocalName entry={entry} />
       </span>
       {/* On wide screens the stamp sits in a fixed column whose centre lines up with the stamp in the ticket stub above. */}
       <span role="cell" className="col-start-2 row-start-1 justify-self-end sm:col-start-auto sm:row-start-auto sm:flex sm:w-full sm:justify-center">
@@ -151,6 +152,16 @@ function CountryRow({
       {entry.note && <p className="text-muted-foreground col-span-full text-[0.82rem] leading-relaxed">{entry.note}</p>}
       <SourceLink source={entry.source ?? entry.verified?.url ?? null} />
     </div>
+  );
+}
+
+/** The generic name as a local pharmacist knows it, for when the brand isn't in stock. */
+export function LocalName({ entry }: { entry: CountryEntry }) {
+  if (!entry.localName) return null;
+  return (
+    <span className="text-muted-foreground block text-[0.78rem]">
+      Generic name here: <span className="text-foreground">{entry.localName}</span>
+    </span>
   );
 }
 

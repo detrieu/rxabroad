@@ -2,7 +2,7 @@
   "country": "FR",
   "registry": "Base de données publique des médicaments (France)",
   "registryVersion": "15883 specialities",
-  "checked": "2026-10-08",
+  "checked": "2026-10-09",
   "summary": {
     "entries": 82,
     "brandEntries": 71,
@@ -13,7 +13,7 @@
     "statusAgree": 76,
     "statusDiffer": 1,
     "statusNotComparable": 5,
-    "confidenceRaised": 6,
+    "confidenceRaised": 0,
     "flagged": 4
   },
   "entries": [
@@ -91,7 +91,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "66057393",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66057393/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -227,7 +227,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "60305960",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60305960/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -268,7 +268,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "68728738",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68728738/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "ingredient",
           "status"
@@ -361,7 +361,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "62636293",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62636293/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -418,7 +418,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "62444574",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62444574/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -499,7 +499,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "61203061",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61203061/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -589,7 +589,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "69606819",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69606819/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -715,7 +715,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "69806008",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69806008/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -806,7 +806,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "64539416",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64539416/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -889,7 +889,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "61052830",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61052830/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -956,7 +956,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "60155788",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60155788/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -1055,7 +1055,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "69077942",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69077942/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -1146,7 +1146,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "67143532",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67143532/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -1245,7 +1245,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "68416845",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68416845/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -1312,7 +1312,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "66729161",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66729161/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -1379,7 +1379,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "61939921",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61939921/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -1472,7 +1472,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "68179830",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68179830/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -1539,7 +1539,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "66928996",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66928996/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -1638,7 +1638,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "62678755",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62678755/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -1713,7 +1713,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "68479386",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68479386/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -1806,7 +1806,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "60550568",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60550568/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -1897,7 +1897,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "67219535",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67219535/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -1993,7 +1993,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "61746712",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61746712/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -2052,7 +2052,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "66153192",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66153192/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -2092,7 +2092,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "64556383",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64556383/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "ingredient",
           "status"
@@ -2131,7 +2131,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "63686057",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63686057/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "ingredient",
           "status"
@@ -2205,7 +2205,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "65766192",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65766192/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -2280,7 +2280,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "69863646",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69863646/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -2372,7 +2372,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "67037301",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67037301/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -2431,7 +2431,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "63729537",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63729537/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -2526,7 +2526,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "61748649",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61748649/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -2593,7 +2593,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "65217119",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65217119/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -2692,7 +2692,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "62111096",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62111096/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -2785,7 +2785,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "63736250",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63736250/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -2860,7 +2860,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "64745003",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64745003/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -2959,7 +2959,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "65132156",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65132156/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -2967,7 +2967,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3084,7 +3084,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "69482353",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69482353/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -3092,7 +3092,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3143,7 +3143,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "62809126",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62809126/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -3151,7 +3151,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3220,7 +3220,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "69704932",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69704932/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -3228,7 +3228,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3287,7 +3287,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "64529525",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64529525/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -3295,7 +3295,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3354,7 +3354,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "60791754",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60791754/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -3362,7 +3362,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3394,7 +3394,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "60457719",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60457719/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "ingredient",
           "status"
@@ -3433,7 +3433,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "60005856",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60005856/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "ingredient",
           "status"
@@ -3499,7 +3499,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "67947145",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67947145/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -3586,7 +3586,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "61271735",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61271735/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -3700,7 +3700,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "62355702",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62355702/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -3769,7 +3769,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "69847791",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69847791/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -3844,7 +3844,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "60118715",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60118715/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -3911,7 +3911,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "60562855",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60562855/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -4014,7 +4014,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "61162942",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61162942/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -4125,7 +4125,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "61200108",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61200108/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -4252,7 +4252,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "60059081",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60059081/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -4361,7 +4361,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "67849644",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67849644/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -4430,7 +4430,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "60851678",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60851678/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -4506,7 +4506,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "68712285",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68712285/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -4563,7 +4563,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "63320939",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63320939/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -4664,7 +4664,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "66819541",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66819541/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -4723,7 +4723,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "65639939",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65639939/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -4811,7 +4811,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "63674254",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63674254/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -4868,7 +4868,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "63660735",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63660735/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -4970,7 +4970,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "64835956",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64835956/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -5061,7 +5061,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "69298346",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69298346/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -5118,7 +5118,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "60456535",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60456535/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -5191,7 +5191,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "67981927",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67981927/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -5272,7 +5272,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "67301480",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67301480/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -5367,7 +5367,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "67103299",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67103299/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -5424,7 +5424,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "60812935",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60812935/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -5491,7 +5491,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "61638010",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61638010/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -5576,7 +5576,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "63307856",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63307856/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -5659,7 +5659,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "65740799",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65740799/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -5735,7 +5735,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "65126598",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65126598/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -5802,7 +5802,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "68693244",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68693244/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -5869,7 +5869,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "63958849",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63958849/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -5968,7 +5968,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "65991171",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65991171/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",
@@ -6095,7 +6095,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "61846627",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61846627/extrait",
-        "checked": "2026-10-08",
+        "checked": "2026-10-09",
         "checks": [
           "brand",
           "ingredient",

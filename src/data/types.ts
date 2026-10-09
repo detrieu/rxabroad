@@ -4,7 +4,7 @@ export type CountryCode =
 
 export type Status =
   | 'OTC' | 'RX' | 'MIXED' | 'PHARMACY'
-  | 'CONTROLLED' | 'BANNED' | 'UNCONFIRMED' | 'ASK_GENERIC' | 'UNAVAILABLE';
+  | 'CONTROLLED' | 'BANNED' | 'UNCONFIRMED' | 'UNAVAILABLE';
 
 export type Confidence = 'high' | 'medium' | 'low';
 
@@ -42,6 +42,8 @@ export interface CountryEntry {
   confidence: Confidence;
   note: string | null;
   source: string | null;
+  /** The generic name in the country's own language, where it differs from the English one. */
+  localName?: string;
   verified?: Verification;
 }
 

@@ -1,5 +1,6 @@
 // Shared helpers for the registry verifiers. See run.mjs for usage.
 
+import { execFileSync } from 'node:child_process';
 import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -60,6 +61,26 @@ export function createClient({ perSecond = 5, useCache = true } = {}) {
       return buf ? new TextDecoder(encoding).decode(buf) : null;
     },
   };
+}
+
+const unxml = (s) => s.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&amp;/g, '&');
+
+/** Rows of the first sheet of an .xlsx, each as { A: ..., B: ... }, read with the system unzip. */
+export function sheetRows(file) {
+  const part = (name) => execFileSync('unzip', ['-p', file, name], { encoding: 'utf8', maxBuffer: 256 * 1024 * 1024 });
+  // Phonetic guides (<rPh>) repeat the text in kana and are not part of the cell.
+  const strings = [...part('xl/sharedStrings.xml').matchAll(/<si>(.*?)<\/si>/gs)].map(([, si]) =>
+    unxml([...si.replace(/<rPh.*?<\/rPh>/gs, '').matchAll(/<t[^>]*>([^<]*)<\/t>/g)].map((m) => m[1]).join('')));
+  const rows = [];
+  for (const [, row] of part('xl/worksheets/sheet1.xml').matchAll(/<row[^>]*>(.*?)<\/row>/gs)) {
+    const cells = {};
+    for (const [, col, attrs, body] of row.matchAll(/<c r="([A-Z]+)\d+"([^>]*?)(?:\/>|>(.*?)<\/c>)/gs)) {
+      const v = body?.match(/<v>([^<]*)<\/v>/)?.[1];
+      if (v !== undefined) cells[col] = attrs.includes('t="s"') ? strings[Number(v)] : v;
+    }
+    rows.push(cells);
+  }
+  return rows;
 }
 
 /** Uppercase, accents stripped, punctuation to spaces: "Diphénhydramine (chlorhydrate)" → "DIPHENHYDRAMINE CHLORHYDRATE". */
@@ -183,7 +204,7 @@ export function statusPool(drug, products, isSingleIngredient) {
 /** 'agree' | 'differ' | 'na' (the registry can't speak to this status, or the entry makes no status claim). */
 export function compareStatus(entryStatus, registryStatus, cannotDetect = []) {
   if (!registryStatus) return 'na';
-  if (['BANNED', 'UNCONFIRMED', 'ASK_GENERIC', 'UNAVAILABLE'].includes(entryStatus)) return 'na';
+  if (['BANNED', 'UNCONFIRMED', 'UNAVAILABLE'].includes(entryStatus)) return 'na';
   if (cannotDetect.includes(entryStatus)) return 'na';
   if (registryStatus === 'NO_RX') return entryStatus === 'OTC' || entryStatus === 'PHARMACY' ? 'agree' : 'differ';
   return entryStatus === registryStatus ? 'agree' : 'differ';

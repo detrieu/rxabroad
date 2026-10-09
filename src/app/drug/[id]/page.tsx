@@ -19,7 +19,7 @@ function headlineBrands(drug: Drug, max = 4) {
   for (const co of COUNTRIES) {
     const e = drug.countries[co.code];
     if (!e || e.confidence !== 'high' || e.brand.length > 28) continue;
-    if (e.status === 'BANNED' || e.status === 'ASK_GENERIC' || /^(sold generic|not |ask |generic|prescription|unavailable)/i.test(e.brand)) continue;
+    if (e.status === 'BANNED' || /^(sold generic|not |ask |generic|prescription|unavailable)/i.test(e.brand)) continue;
     const brand = e.brand.split(' / ')[0].replace(/\s*\(.*\)\s*$/, '');
     seen.add(brand);
     if (seen.size >= max) break;

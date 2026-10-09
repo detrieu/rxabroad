@@ -70,13 +70,7 @@ export function VerifiedBadge({ verified }: { verified: Verification }) {
   );
 }
 
-/** The marker(s) after an entry's "Ask for" name. A registry-confirmed brand replaces the "not registry-checked" hint. */
+/** The marker after an entry's "Ask for" name: the registry check mark where there is one, else the confidence hint. */
 export function EntryBadges({ entry }: { entry: CountryEntry }) {
-  const brandVerified = entry.verified?.checks.includes('brand');
-  return (
-    <>
-      {!(brandVerified && entry.confidence === 'medium') && <ConfBadge confidence={entry.confidence} />}
-      {entry.verified && <VerifiedBadge verified={entry.verified} />}
-    </>
-  );
+  return entry.verified ? <VerifiedBadge verified={entry.verified} /> : <ConfBadge confidence={entry.confidence} />;
 }

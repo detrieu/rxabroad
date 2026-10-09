@@ -10,7 +10,6 @@ const LEGEND: { status: string; text: string }[] = [
   { status: 'CONTROLLED', text: 'A prescription works, but expect scrutiny, paperwork, and harder refills.' },
   { status: 'BANNED', text: 'No legal personal-use pathway. Do not bring it in.' },
   { status: 'UNAVAILABLE', text: 'Not sold in this country. Bring it from home.' },
-  { status: 'ASK_GENERIC', text: 'Local brand unknown — ask by the generic name.' },
   { status: 'UNCONFIRMED', text: 'We couldn’t find reliable information on how it is sold here.' },
 ];
 

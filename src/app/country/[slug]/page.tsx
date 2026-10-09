@@ -6,7 +6,7 @@ import { COUNTRIES, DRUGS, entryFor, getCountryBySlug, type CountryCode, type St
 import { Button } from '@/components/ui/button';
 import { StatusPill } from '@/components/StatusPill';
 import { EntryBadges } from '@/components/ConfBadge';
-import { SourceLink } from '@/components/DrugEntry';
+import { LocalName, SourceLink } from '@/components/DrugEntry';
 import { BringingGuide } from '@/components/BringingGuide';
 import { Flag } from '@/components/Flag';
 import { CONTAINER } from '@/components/Masthead';
@@ -32,12 +32,16 @@ export async function generateMetadata({ params }: PageProps<'/country/[slug]'>)
 }
 
 // A country-wide rule worth knowing before reading the list.
-const FOOTNOTE: Partial<Record<CountryCode, string>> = {
-  DE: 'In Germany, medicines that need no prescription are still kept behind the pharmacy counter. Ask the pharmacist (Apotheke) for them; you will not find them on a shelf or in a supermarket.',
+const FOOTNOTES: Partial<Record<CountryCode, string[]>> = {
+  MX: [
+    'In Mexico, many pharmacies have a doctor’s office next door that can examine you and write a prescription on the spot for a small fee. So prescription medicines for everyday problems are easy to get without your own doctor.',
+    'Be careful buying antibiotics and opioid painkillers in Mexico. Counterfeit and substandard products are a known risk, because manufacturing and supply are not policed as tightly as in the US. Where you can, get these from your own pharmacy before you travel.',
+  ],
+  DE: ['In Germany, medicines that need no prescription are still kept behind the pharmacy counter. Ask the pharmacist (Apotheke) for them; you will not find them on a shelf or in a supermarket.'],
 };
 
 // Most restrictive first, so the risky ones lead the summary.
-const SUMMARY_ORDER: Status[] = ['BANNED', 'CONTROLLED', 'RX', 'MIXED', 'PHARMACY', 'OTC', 'ASK_GENERIC', 'UNAVAILABLE', 'UNCONFIRMED'];
+const SUMMARY_ORDER: Status[] = ['BANNED', 'CONTROLLED', 'RX', 'MIXED', 'PHARMACY', 'OTC', 'UNAVAILABLE', 'UNCONFIRMED'];
 
 export default async function CountryPage({ params }: PageProps<'/country/[slug]'>) {
   const country = getCountryBySlug((await params).slug);
@@ -76,9 +80,9 @@ export default async function CountryPage({ params }: PageProps<'/country/[slug]
               </li>
             ))}
           </ul>
-          {FOOTNOTE[country.code] && (
-            <p className="text-muted-foreground mt-4 text-[0.82rem] leading-relaxed">{FOOTNOTE[country.code]}</p>
-          )}
+          {FOOTNOTES[country.code]?.map((text) => (
+            <p key={text} className="text-muted-foreground mt-4 text-[0.82rem] leading-relaxed">{text}</p>
+          ))}
         </div>
 
         <BringingGuide code={country.code} name={country.name} />
@@ -115,6 +119,7 @@ export default async function CountryPage({ params }: PageProps<'/country/[slug]
                 <span className="text-muted-foreground mr-2 font-mono text-[0.6rem] tracking-[0.16em] uppercase">Ask for</span>
                 <span className="font-semibold">{entry.brand}</span>
                 <EntryBadges entry={entry} />
+                <LocalName entry={entry} />
               </span>
               <span role="cell" className="col-start-2 row-start-1 justify-self-end sm:col-start-auto sm:row-start-auto">
                 <StatusPill status={entry.status} />

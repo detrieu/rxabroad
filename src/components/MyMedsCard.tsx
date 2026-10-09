@@ -12,6 +12,7 @@ import { ScrollArea } from '@/components/ui/scroll-area';
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
 import { cn } from '@/lib/utils';
 import { BRINGING_ANCHOR, hasBringingGuide } from './BringingGuide';
+import { LocalName } from './DrugEntry';
 import { Flag } from './Flag';
 import { StatusPill } from './StatusPill';
 import { PrintButton } from './Toolbar';
@@ -279,6 +280,7 @@ function TravelPass({ country, leg, legs, drugs, onRemove }: TravelPassProps) {
                       <span className="text-muted-foreground mr-2 font-mono text-[0.6rem] tracking-[0.16em] uppercase">Ask for</span>
                       <span className="font-semibold">{entry.brand}</span>
                     </p>
+                    <LocalName entry={entry} />
                     {entry.note && <p className="text-muted-foreground mt-1 text-[0.82rem] leading-relaxed">{entry.note}</p>}
                     {caution && (
                       <p className={cn('mt-2 flex gap-2 rounded-lg border px-3 py-2 text-[0.8rem] leading-snug', caution.ink)}>

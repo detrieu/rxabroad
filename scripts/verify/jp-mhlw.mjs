@@ -8,10 +8,9 @@
 // Narcotic, psychotropic and stimulant-raw-material scheduling isn't here either; those entries are
 // checked by hand against the Narcotics Control Department's list.
 
-import { execFileSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
-import { ROOT } from './lib.mjs';
+import { ROOT, sheetRows } from './lib.mjs';
 
 const INDEX = 'https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000078916.html';
 const DIR = path.join(ROOT, 'node_modules/.cache/rxabroad-verify/jp');
@@ -75,26 +74,6 @@ function japaneseName(name, brandText) {
   if (JP_BRANDS[name]) return JP_BRANDS[name];
   const after = brandText.slice(brandText.indexOf(name) + name.length).match(/^\s*\(([^)]*)\)/)?.[1];
   return after && JAPANESE.test(after) ? jnorm(after) : null;
-}
-
-const unxml = (s) => s.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&amp;/g, '&');
-
-/** Rows of the first sheet of an .xlsx, each as { A: ..., B: ... }, read with the system unzip. */
-function sheetRows(file) {
-  const part = (name) => execFileSync('unzip', ['-p', file, name], { encoding: 'utf8', maxBuffer: 256 * 1024 * 1024 });
-  // Phonetic guides (<rPh>) repeat the text in kana and are not part of the cell.
-  const strings = [...part('xl/sharedStrings.xml').matchAll(/<si>(.*?)<\/si>/gs)].map(([, si]) =>
-    unxml([...si.replace(/<rPh.*?<\/rPh>/gs, '').matchAll(/<t[^>]*>([^<]*)<\/t>/g)].map((m) => m[1]).join('')));
-  const rows = [];
-  for (const [, row] of part('xl/worksheets/sheet1.xml').matchAll(/<row[^>]*>(.*?)<\/row>/gs)) {
-    const cells = {};
-    for (const [, col, attrs, body] of row.matchAll(/<c r="([A-Z]+)\d+"([^>]*?)(?:\/>|>(.*?)<\/c>)/gs)) {
-      const v = body?.match(/<v>([^<]*)<\/v>/)?.[1];
-      if (v !== undefined) cells[col] = attrs.includes('t="s"') ? strings[Number(v)] : v;
-    }
-    rows.push(cells);
-  }
-  return rows;
 }
 
 async function get(url) {

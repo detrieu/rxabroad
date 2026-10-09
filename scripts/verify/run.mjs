@@ -1,14 +1,15 @@
 // Checks one country's entries in src/data/drugs.json against that country's official drug registry.
 //
-// Usage: node scripts/verify/run.mjs <US|CA|SG|FR|GB|JP|DE> [--write] [--no-cache]
+// Usage: node scripts/verify/run.mjs <US|CA|SG|FR|GB|JP|DE|MX> [--write] [--no-cache]
 //
 // Without --write this is a dry run: it only writes research/verification/<CC>.json (the evidence and
 // every mismatch). With --write it also updates drugs.json, under these rules:
 //   - `brand`, `status` and `note` are never edited. Mismatches are reported for a person to decide.
 //   - `verified` is attached when the registry confirms the entry, and removed when it no longer does.
 //   - US only: an entry whose brand is withdrawn or doubtful is verified on its generic ingredient instead.
-//   - `confidence` goes medium → high only when the registry confirms everything the entry claims: brand, ingredient and
+//   - `confidence` goes to high only when the registry confirms everything the entry claims: brand, ingredient and
 //     legal status for a branded entry, or ingredient and legal status for a "sold generic" entry that names no brand.
+//     A low entry the registry confirms only in part goes to medium, so nothing verified stays "unconfirmed".
 //     It never goes down.
 //
 // A registry shows that a product is registered with that ingredient and legal class. It does not show
@@ -28,6 +29,7 @@ const ADAPTERS = {
   GB: './gb-mhra.mjs',
   JP: './jp-mhlw.mjs',
   DE: './de-amice.mjs',
+  MX: './mx-cofepris.mjs',
 };
 
 const args = process.argv.slice(2);
@@ -88,7 +90,10 @@ for (const drug of drugs) {
 
   // A generic-only entry makes no brand claim, so there is no brand to confirm.
   const genericConfirmed = parsed.kind === 'generic' && checks.includes('ingredient');
-  const raise = entry.confidence === 'medium' && (brandsSolid || genericConfirmed) && statusResult === 'agree';
+  const confirmed = (brandsSolid || genericConfirmed) && statusResult === 'agree';
+  // A registry-verified entry never keeps the "unconfirmed" (low) label: fully confirmed goes to high,
+  // partly confirmed (say, the ingredient but not the legal status) to medium.
+  const to = confirmed && entry.confidence !== 'high' ? 'high' : verified && entry.confidence === 'low' ? 'medium' : entry.confidence;
 
   entries.push({
     id: drug.id,
@@ -99,14 +104,14 @@ for (const drug of drugs) {
     ingredient: res.ingredient,
     status: { entry: entry.status, registry: res.registryStatus, result: statusResult, evidence: res.statusEvidence ?? null },
     verified,
-    confidence: raise ? { from: 'medium', to: 'high' } : { from: entry.confidence, to: entry.confidence },
+    confidence: { from: entry.confidence, to },
     flags,
   });
 
   if (write) {
     if (verified) entry.verified = verified;
     else if (entry.verified?.registry === adapter.registry.name) delete entry.verified;
-    if (raise) entry.confidence = 'high';
+    entry.confidence = to;
     if (res.drugPatch?.rxcui) drug.rxcui = res.drugPatch.rxcui;
   }
   process.stderr.write('.');
@@ -147,7 +152,7 @@ console.log(`${code} · ${adapter.registry.name}${session?.version ? ` (${sessio
 console.log(`  brand names confirmed   ${summary.brandNamesConfirmed} of ${summary.brandNames} (${summary.brandEntriesConfirmed} of ${summary.brandEntries} entries fully)`);
 console.log(`  entries verified        ${summary.verified} of ${summary.entries}`);
 console.log(`  legal status            ${summary.statusAgree} agree · ${summary.statusDiffer} differ · ${summary.statusNotComparable} not comparable`);
-console.log(`  confidence medium→high  ${summary.confidenceRaised}`);
+console.log(`  confidence raised       ${summary.confidenceRaised}`);
 console.log(`\n  Needs a look (${summary.flagged}):`);
 for (const e of entries) for (const f of e.flags) console.log(`    ${e.id}: ${f}`);
 console.log(`\nWrote ${path.relative(ROOT, out)}${write ? ' and updated src/data/drugs.json' : ' (dry run; pass --write to update drugs.json)'}`);

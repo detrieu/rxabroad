@@ -1,0 +1,4986 @@
+{
+  "country": "MX",
+  "registry": "COFEPRIS medicine register (Mexico)",
+  "registryVersion": "14948 registrations, file of 2026-10-09",
+  "checked": "2026-10-09",
+  "summary": {
+    "entries": 82,
+    "brandEntries": 67,
+    "brandEntriesConfirmed": 63,
+    "brandNames": 73,
+    "brandNamesConfirmed": 69,
+    "verified": 73,
+    "statusAgree": 72,
+    "statusDiffer": 1,
+    "statusNotComparable": 9,
+    "confidenceRaised": 1,
+    "flagged": 8
+  },
+  "entries": [
+    {
+      "id": "paracetamol",
+      "generic": "Paracetamol",
+      "brand": "Tempra / Tylenol",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tempra",
+          "id": "48607 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "TEMPRA",
+          "products": [
+            {
+              "registration": "48607 SSA",
+              "product": "TEMPRA",
+              "generic": "PARACETAMOL",
+              "fraction": "VI",
+              "holder": "RB SALUTE MÉXICO, S.A. DE C.V."
+            },
+            {
+              "registration": "419M2008 SSA",
+              "product": "TEMPRA XT NOCHE",
+              "generic": "PARACETAMOL / FENILEFRINA / CARBINOXAMINA",
+              "fraction": "VI",
+              "holder": "RB SALUTE MÉXICO, S.A. DE C.V."
+            },
+            {
+              "registration": "467M2008 SSA",
+              "product": "TEMPRA XT DIA",
+              "generic": "PARACETAMOL / FENILEFRINA",
+              "fraction": "VI",
+              "holder": "RB SALUTE MÉXICO, S.A. DE C.V."
+            },
+            {
+              "registration": "48690 SSA",
+              "product": "TEMPRA",
+              "generic": "PARACETAMOL",
+              "fraction": "VI",
+              "holder": "RB SALUTE MÉXICO, S.A. DE C.V."
+            },
+            {
+              "registration": "64768 SSA",
+              "product": "TEMPRA",
+              "generic": "PARACETAMOL",
+              "fraction": "VI",
+              "holder": "RB SALUTE MEXICO SA DE CV"
+            },
+            {
+              "registration": "90865 SSA",
+              "product": "TEMPRA",
+              "generic": "PARACETAMOL",
+              "fraction": "VI",
+              "holder": "RB SALUTE MÉXICO, S.A. DE C.V."
+            }
+          ]
+        },
+        {
+          "name": "Tylenol",
+          "id": "508M97 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "TYLENOL",
+          "products": [
+            {
+              "registration": "508M97 SSA",
+              "product": "TYLENOL",
+              "generic": "PARACETAMOL",
+              "fraction": "VI",
+              "holder": "JOHNSON & JOHNSON INDUSTRIAL LTDA"
+            },
+            {
+              "registration": "140M87 SSA",
+              "product": "TYLENOL",
+              "generic": "PARACETAMOL",
+              "fraction": "VI",
+              "holder": "JOHNSON & JOHNSON INDUSTRIAL LTDA"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "305M2018 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "N02BE01",
+        "currentRegistrations": 335
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "VI": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "48607 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "ibuprofen",
+      "generic": "Ibuprofen",
+      "brand": "Motrin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Motrin",
+          "id": "390M90 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "MOTRIN RETARD",
+          "products": [
+            {
+              "registration": "390M90 SSA",
+              "product": "MOTRIN RETARD",
+              "generic": "IBUPROFENO",
+              "fraction": "IV",
+              "holder": "KENVUE LTD."
+            },
+            {
+              "registration": "630M98 SSA",
+              "product": "MOTRIN",
+              "generic": "IBUPROFENO",
+              "fraction": "VI",
+              "holder": "JOHNSON & JOHNSON INDUSTRIAL LTDA"
+            },
+            {
+              "registration": "74737 SSA",
+              "product": "MOTRIN",
+              "generic": "IBUPROFENO",
+              "fraction": "IV",
+              "holder": "JOHNSON & JOHNSON INDUSTRIAL LTDA"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "156M2021 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "M01AE01",
+        "currentRegistrations": 80
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 2,
+            "VI": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "390M90 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "loratadine",
+      "generic": "Loratadine",
+      "brand": "Clarityne",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Clarityne",
+          "id": "001M89 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "CLARITYNE",
+          "products": [
+            {
+              "registration": "001M89 SSA",
+              "product": "CLARITYNE",
+              "generic": "LORATADINA",
+              "fraction": "VI",
+              "holder": "BAYER DE MEXICO, S.A. DE C.V."
+            },
+            {
+              "registration": "045M88 SSA",
+              "product": "CLARITYNE",
+              "generic": "LORATADINA",
+              "fraction": "VI",
+              "holder": "BAYER DE MEXICO, S.A. DE C.V."
+            },
+            {
+              "registration": "161M90 SSA",
+              "product": "CLARITYNE D",
+              "generic": "LORATADINA / FENILEFRINA",
+              "fraction": "VI",
+              "holder": "BAYER DE MEXICO, S.A. DE C.V."
+            },
+            {
+              "registration": "251M91 SSA",
+              "product": "CLARITYNE D",
+              "generic": "LORATADINA / FENILEFRINA",
+              "fraction": "VI",
+              "holder": "BAYER DE MEXICO, S.A. DE C.V."
+            },
+            {
+              "registration": "309M94 SSA",
+              "product": "CLARITYNE",
+              "generic": "LORATADINA",
+              "fraction": "VI",
+              "holder": "BAYER DE MEXICO, S.A. DE C.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "062M2020 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "R06AX13",
+        "currentRegistrations": 106
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "VI": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "001M89 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "cetirizine",
+      "generic": "Cetirizine",
+      "brand": "Zyrtec",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zyrtec",
+          "id": "130M2018 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZYRTEC",
+          "products": [
+            {
+              "registration": "130M2018 SSA",
+              "product": "ZYRTEC",
+              "generic": "CETIRIZINA",
+              "fraction": "VI",
+              "holder": "ARMSTRONG LABORATORIOS DE MEXICO., S.A. DE C.V."
+            },
+            {
+              "registration": "131M91 SSA",
+              "product": "ZYRTEC",
+              "generic": "CETIRIZINA",
+              "fraction": "VI",
+              "holder": "ARMSTRONG LABORATORIOS DE MEXICO, S.A. DE C.V"
+            },
+            {
+              "registration": "390M93 SSA",
+              "product": "ZYRTEC",
+              "generic": "CETIRIZINA",
+              "fraction": "VI",
+              "holder": "ARMSTRONG LABORATORIOS DE MEXICO, S.A. DE C.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "265M2018 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "R06AE07",
+        "currentRegistrations": 18
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "VI": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "130M2018 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "diphenhydramine",
+      "generic": "Diphenhydramine",
+      "brand": "Benadryl",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Benadryl",
+          "id": "078M2007 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "BENADRYL",
+          "products": [
+            {
+              "registration": "078M2007 SSA",
+              "product": "BENADRYL",
+              "generic": "DIFENHIDRAMINA",
+              "fraction": "VI",
+              "holder": "JOHNSON & JOHNSON INDUSTRIAL LTDA"
+            },
+            {
+              "registration": "29779 SSA",
+              "product": "BENADRYL",
+              "generic": "DIFENHIDRAMINA",
+              "fraction": "VI",
+              "holder": "JOHNSON & JOHNSON INDUSTRIAL LTDA"
+            },
+            {
+              "registration": "34251 SSA",
+              "product": "BENADRYL-E",
+              "generic": "DIFENHIDRAMINA / GUAIFENESINA",
+              "fraction": "VI",
+              "holder": "JANSSEN-CILAG, S.A. DE C.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "028M2015 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "R06AA02",
+        "currentRegistrations": 23
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "VI": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "078M2007 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "loperamide",
+      "generic": "Loperamide",
+      "brand": "Imodium",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Imodium",
+          "id": "83335 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "IMODIUM",
+          "products": [
+            {
+              "registration": "83335 SSA",
+              "product": "IMODIUM",
+              "generic": "LOPERAMIDA",
+              "fraction": "IV",
+              "holder": "JOHNSON & JOHNSON INDUSTRIAL LTDA"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "089M2022 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "A07DA03",
+        "currentRegistrations": 15
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "83335 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "omeprazole",
+      "generic": "Omeprazole",
+      "brand": "Losec",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Losec",
+          "id": "245M2003 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "LOSEC A",
+          "products": [
+            {
+              "registration": "245M2003 SSA",
+              "product": "LOSEC A",
+              "generic": "OMEPRAZOL",
+              "fraction": "VI",
+              "holder": "MEDICINAS Y MEDICAMENTOS NACIONALES, S.A DE C.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "026M2020 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "A02BC01",
+        "currentRegistrations": 57
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "VI": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "245M2003 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "pseudoephedrine",
+      "generic": "Pseudoephedrine",
+      "brand": "Not sold",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "R01BA02",
+        "currentRegistrations": 0
+      },
+      "status": {
+        "entry": "BANNED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "melatonin",
+      "generic": "Melatonin",
+      "brand": "Sold as a supplement",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "581M97 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "N05CH01",
+        "currentRegistrations": 8
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "V": 1,
+            "VI": 4,
+            "IV": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "581M97 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "dimenhydrinate",
+      "generic": "Dimenhydrinate",
+      "brand": "Dramamine",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Dramamine",
+          "id": "51373 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "DRAMAMINE",
+          "products": [
+            {
+              "registration": "51373 SSA",
+              "product": "DRAMAMINE",
+              "generic": "DIMENHIDRINATO",
+              "fraction": "VI",
+              "holder": "JOHNSON & JOHNSON INDUSTRIAL LTDA"
+            },
+            {
+              "registration": "73887 SSA",
+              "product": "DRAMAMINE",
+              "generic": "DIMENHIDRINATO",
+              "fraction": "VI",
+              "holder": "JANSSEN-CILAG, S. A. DE C. V."
+            },
+            {
+              "registration": "34634 SSA",
+              "product": "DRAMAMINE",
+              "generic": "DIMENHIDRINATO",
+              "fraction": "VI",
+              "holder": "JOHNSON & JOHNSON INDUSTRIAL LTDA"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "104M2020 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "R06AA11",
+        "currentRegistrations": 12
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "VI": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "51373 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amoxicillin",
+      "generic": "Amoxicillin",
+      "brand": "Amoxicilina",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Amoxicilina",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "not in the COFEPRIS file, which may be incomplete (for this ingredient it lists AMOXIL, PENAMOX, VANDIX, AMSAXILINA, POLYMOX, PENTICLOX)",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "074M2018 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "J01CA04",
+        "currentRegistrations": 104
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "Brand \"Amoxicilina\" not confirmed: not in the COFEPRIS file, which may be incomplete (for this ingredient it lists AMOXIL, PENAMOX, VANDIX, AMSAXILINA, POLYMOX, PENTICLOX)"
+      ]
+    },
+    {
+      "id": "metformin",
+      "generic": "Metformin",
+      "brand": "Glucophage",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Glucophage",
+          "id": "075M2012 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "GLUCOPHAGE XR",
+          "products": [
+            {
+              "registration": "075M2012 SSA",
+              "product": "GLUCOPHAGE XR",
+              "generic": "METFORMINA",
+              "fraction": "IV",
+              "holder": "MERCK HEALTHCARE KGAA"
+            },
+            {
+              "registration": "391M93 SSA",
+              "product": "GLUCOPHAGE",
+              "generic": "METFORMINA",
+              "fraction": "IV",
+              "holder": "MERCK HEALTHCARE KGAA"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "019M2019 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "A10BA02",
+        "currentRegistrations": 105
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "075M2012 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "sertraline",
+      "generic": "Sertraline",
+      "brand": "Altruline",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Altruline",
+          "id": "208M92 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "ALTRULINE",
+          "products": [
+            {
+              "registration": "208M92 SSA",
+              "product": "ALTRULINE",
+              "generic": "SERTRALINA",
+              "fraction": "IV",
+              "holder": "ROTTAPHARM LIMITED"
+            },
+            {
+              "registration": "339M95 SSA",
+              "product": "ALTRULINE",
+              "generic": "SERTRALINA",
+              "fraction": "IV",
+              "holder": "ROTTAPHARM LIMITED"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "361M2014 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "N06AB06",
+        "currentRegistrations": 23
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "208M92 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "albuterol",
+      "generic": "Salbutamol",
+      "brand": "Ventolin (salbutamol)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ventolin",
+          "id": "72948 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "VENTOLIN",
+          "products": [
+            {
+              "registration": "72948 SSA",
+              "product": "VENTOLIN",
+              "generic": "SALBUTAMOL",
+              "fraction": "IV",
+              "holder": "GLAXO WELLCOME, S.A."
+            },
+            {
+              "registration": "86514 SSA",
+              "product": "VENTOLIN",
+              "generic": "SALBUTAMOL",
+              "fraction": "IV",
+              "holder": "GLAXO WELLCOME, S.A."
+            },
+            {
+              "registration": "80307 SSA",
+              "product": "VENTOLIN",
+              "generic": "SALBUTAMOL",
+              "fraction": "IV",
+              "holder": "GLAXO WELLCOME, S.A."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "286M2018 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "R03AC02",
+        "currentRegistrations": 44
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "72948 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "atorvastatin",
+      "generic": "Atorvastatin",
+      "brand": "Lipitor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lipitor",
+          "id": "413M97 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "LIPITOR",
+          "products": [
+            {
+              "registration": "413M97 SSA",
+              "product": "LIPITOR",
+              "generic": "ATORVASTATINA",
+              "fraction": "IV",
+              "holder": "ROTTAPHARM LIMITED"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "141M2022 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "C10AA05",
+        "currentRegistrations": 31
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "413M97 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "levothyroxine",
+      "generic": "Levothyroxine",
+      "brand": "Eutirox / Synthroid",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Eutirox",
+          "id": "297M89 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "EUTIROX",
+          "products": [
+            {
+              "registration": "297M89 SSA",
+              "product": "EUTIROX",
+              "generic": "LEVOTIROXINA SÓDICA",
+              "fraction": "IV",
+              "holder": "MERCK, S.A. DE C.V."
+            }
+          ]
+        },
+        {
+          "name": "Synthroid",
+          "id": "127M2015 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "SYNTHROID",
+          "products": [
+            {
+              "registration": "127M2015 SSA",
+              "product": "SYNTHROID",
+              "generic": "LEVOTIROXINA SÓDICA",
+              "fraction": "IV",
+              "holder": "ABBOTT LABORATORIES DE MEXICO, S.A DE C.V"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "125M2020 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "H03AA01",
+        "currentRegistrations": 11
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "297M89 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "lisinopril",
+      "generic": "Lisinopril",
+      "brand": "Zestril",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zestril",
+          "id": "043M88 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZESTRIL",
+          "products": [
+            {
+              "registration": "043M88 SSA",
+              "product": "ZESTRIL",
+              "generic": "LISINOPRIL",
+              "fraction": "IV",
+              "holder": "LABORATORIOS QUIMPHARMA, S.A. DE C.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "053M2001 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "C09AA03",
+        "currentRegistrations": 5
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "043M88 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amlodipine",
+      "generic": "Amlodipine",
+      "brand": "Norvas",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Norvas",
+          "id": "108M90 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "NORVAS",
+          "products": [
+            {
+              "registration": "108M90 SSA",
+              "product": "NORVAS",
+              "generic": "AMLODIPINO",
+              "fraction": "IV",
+              "holder": "ROTTAPHARM LIMITED"
+            },
+            {
+              "registration": "184M2026 SSA",
+              "product": "NORVAS-PREV",
+              "generic": "AMLODIPINO / VALSARTÁN",
+              "fraction": "IV",
+              "holder": "ROTTAPHARM LIMITED"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "099M2020 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "C08CA01",
+        "currentRegistrations": 59
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "108M90 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "metoprolol",
+      "generic": "Metoprolol",
+      "brand": "Lopresor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lopresor",
+          "id": "87525 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "LOPRESOR 100",
+          "products": [
+            {
+              "registration": "87525 SSA",
+              "product": "LOPRESOR 100",
+              "generic": "METOPROLOL",
+              "fraction": "IV",
+              "holder": "SANDOZ GMBH"
+            },
+            {
+              "registration": "016M2005 SSA",
+              "product": "LOPRESOR R",
+              "generic": "METOPROLOL",
+              "fraction": "IV",
+              "holder": "SANDOZ GMBH."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "159M2019 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "C07AB02",
+        "currentRegistrations": 19
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "87525 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "losartan",
+      "generic": "Losartan",
+      "brand": "Cozaar",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Cozaar",
+          "id": "237M2013 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "COZAAR XQ",
+          "products": [
+            {
+              "registration": "237M2013 SSA",
+              "product": "COZAAR XQ",
+              "generic": "LOSARTÁN / AMLODIPINO",
+              "fraction": "IV",
+              "holder": "ORGANON PHARMA MEXICO SA DE CV"
+            },
+            {
+              "registration": "284M95 SSA",
+              "product": "COZAAR",
+              "generic": "LOSARTÁN",
+              "fraction": "IV",
+              "holder": "SCHERING - PLOUGH,S.A DE C.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "184M2020 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "C09CA01",
+        "currentRegistrations": 40
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "237M2013 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "gabapentin",
+      "generic": "Gabapentin",
+      "brand": "Neurontin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Neurontin",
+          "id": "310M2000 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "NEURONTIN",
+          "products": [
+            {
+              "registration": "310M2000 SSA",
+              "product": "NEURONTIN",
+              "generic": "GABAPENTINA",
+              "fraction": "IV",
+              "holder": "ROTTAPHARM LIMITED"
+            },
+            {
+              "registration": "157M95 SSA",
+              "product": "NEURONTIN",
+              "generic": "GABAPENTINA",
+              "fraction": "IV",
+              "holder": "ROTTAPHARM LIMITED"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "165M2018 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "N02BF01",
+        "currentRegistrations": 19
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "310M2000 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "rosuvastatin",
+      "generic": "Rosuvastatin",
+      "brand": "Crestor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Crestor",
+          "id": "177M2003 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "CRESTOR",
+          "products": [
+            {
+              "registration": "177M2003 SSA",
+              "product": "CRESTOR",
+              "generic": "ROSUVASTATINA",
+              "fraction": "IV",
+              "holder": "ASTRAZENECA UK LIMITED"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "189M2020 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "C10AA07",
+        "currentRegistrations": 32
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "177M2003 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "pantoprazole",
+      "generic": "Pantoprazole",
+      "brand": "Pantoprazol",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Pantoprazol",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "not in the COFEPRIS file, which may be incomplete (for this ingredient it lists PRAZOLAN, SUPACID, PANTOZOL, POPRAM, ATZIAN, ECCER)",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "173M2020 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "A02BC02",
+        "currentRegistrations": 24
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Brand \"Pantoprazol\" not confirmed: not in the COFEPRIS file, which may be incomplete (for this ingredient it lists PRAZOLAN, SUPACID, PANTOZOL, POPRAM, ATZIAN, ECCER)"
+      ]
+    },
+    {
+      "id": "escitalopram",
+      "generic": "Escitalopram",
+      "brand": "Lexapro",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lexapro",
+          "id": "282M2002 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "LEXAPRO",
+          "products": [
+            {
+              "registration": "282M2002 SSA",
+              "product": "LEXAPRO",
+              "generic": "ESCITALOPRAM",
+              "fraction": "IV",
+              "holder": "H. LUNDBECK A/S"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "443M2014 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "N06AB10",
+        "currentRegistrations": 19
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "282M2002 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amphetamine",
+      "generic": "Amphetamine / Dextroamphetamine",
+      "brand": "Vyvanse (lisdexamfetamine)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Vyvanse",
+          "id": "124M2014 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "VYVANSE",
+          "products": [
+            {
+              "registration": "124M2014 SSA",
+              "product": "VYVANSE",
+              "generic": "LISDEXANFETAMINA",
+              "fraction": "II",
+              "holder": "TAKEDA IRELAND LIMITED"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "124M2014 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "N06BA01",
+        "currentRegistrations": 3
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "II": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "124M2014 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrochlorothiazide",
+      "generic": "Hydrochlorothiazide",
+      "brand": "Hidroclorotiazida",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Hidroclorotiazida",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "not in the COFEPRIS file, which may be incomplete (for this ingredient it lists DIZIVER, SYSTOCAL, NAXTROL, WASER, BIDROCIRAL, ROFUCAL)",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "010M2021 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "C03AA03",
+        "currentRegistrations": 85
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Brand \"Hidroclorotiazida\" not confirmed: not in the COFEPRIS file, which may be incomplete (for this ingredient it lists DIZIVER, SYSTOCAL, NAXTROL, WASER, BIDROCIRAL, ROFUCAL)"
+      ]
+    },
+    {
+      "id": "bupropion",
+      "generic": "Bupropion",
+      "brand": "Wellbutrin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Wellbutrin",
+          "id": "132M2020 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "WELLBUTRIN LR",
+          "products": [
+            {
+              "registration": "132M2020 SSA",
+              "product": "WELLBUTRIN LR",
+              "generic": "BUPROPIÓN",
+              "fraction": "III",
+              "holder": "GLAXO WELLCOME, S.A."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "132M2020 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "N06AX12",
+        "currentRegistrations": 8
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "CONTROLLED",
+        "result": "differ",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "III": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "132M2020 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Status differs: entry RX, registry CONTROLLED"
+      ]
+    },
+    {
+      "id": "fluoxetine",
+      "generic": "Fluoxetine",
+      "brand": "Sold generic as \"Fluoxetina\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "133M2021 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "N06AB03",
+        "currentRegistrations": 17
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 16
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "133M2021 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "semaglutide",
+      "generic": "Semaglutide",
+      "brand": "Ozempic",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ozempic",
+          "id": "096M2019 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "OZEMPIC",
+          "products": [
+            {
+              "registration": "096M2019 SSA",
+              "product": "OZEMPIC",
+              "generic": "SEMAGLUTIDA",
+              "fraction": "IV",
+              "holder": "NOVO NORDISK A/S"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "096M2019 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "A10BJ06",
+        "currentRegistrations": 4
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "096M2019 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "montelukast",
+      "generic": "Montelukast",
+      "brand": "Singulair",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Singulair",
+          "id": "357M97 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "SINGULAIR",
+          "products": [
+            {
+              "registration": "357M97 SSA",
+              "product": "SINGULAIR",
+              "generic": "MONTELUKAST",
+              "fraction": "IV",
+              "holder": "ORGANON PHARMA MEXICO S.A. DE C.V."
+            },
+            {
+              "registration": "057M2002 SSA",
+              "product": "SINGULAIR",
+              "generic": "MONTELUKAST",
+              "fraction": "IV",
+              "holder": "ORGANON PHARMA MEXICO S.A. DE C.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "213M2014 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "R03DC03",
+        "currentRegistrations": 45
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "357M97 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "trazodone",
+      "generic": "Trazodone",
+      "brand": "Sideril",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Sideril",
+          "id": "446M79 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "SIDERIL",
+          "products": [
+            {
+              "registration": "446M79 SSA",
+              "product": "SIDERIL",
+              "generic": "TRAZODONA",
+              "fraction": "IV",
+              "holder": "LABORATORIOS SENOSIAIN S.A. DE C.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "446M79 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "N06AX05",
+        "currentRegistrations": 1
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "446M79 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "simvastatin",
+      "generic": "Simvastatin",
+      "brand": "Sold generic as \"Simvastatina\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "310M2018 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "C10AA01",
+        "currentRegistrations": 20
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 7
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "310M2018 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "tamsulosin",
+      "generic": "Tamsulosin",
+      "brand": "Sold generic as \"Tamsulosina\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "005M2021 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "G04CA02",
+        "currentRegistrations": 33
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 19
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "005M2021 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrocodone",
+      "generic": "Hydrocodone / Paracetamol combination",
+      "brand": "Sold generic as \"Hidrocodona\" in some pharmacies",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "N02AJ22",
+        "currentRegistrations": 0
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "Ingredient not found in this registry"
+      ]
+    },
+    {
+      "id": "fluticasone",
+      "generic": "Fluticasone",
+      "brand": "Flixonase",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Flixonase",
+          "id": "441M95 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "FLIXONASE",
+          "products": [
+            {
+              "registration": "441M95 SSA",
+              "product": "FLIXONASE",
+              "generic": "FLUTICASONA",
+              "fraction": "V",
+              "holder": "GLAXOSMITHKLINE CONSUMER HEALTHCARE MÉXICO, S. DE R.L. DE C.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "382M2015 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "R01AD08",
+        "currentRegistrations": 19
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "PHARMACY",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "V": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "441M95 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "meloxicam",
+      "generic": "Meloxicam",
+      "brand": "Sold generic as \"Meloxicam\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "041M2020 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "M01AC06",
+        "currentRegistrations": 30
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 18,
+            "VI": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "041M2020 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "apixaban",
+      "generic": "Apixaban",
+      "brand": "Elicuis",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Elicuis",
+          "id": "044M2013 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "ELICUIS",
+          "products": [
+            {
+              "registration": "044M2013 SSA",
+              "product": "ELICUIS",
+              "generic": "APIXABÁN",
+              "fraction": "IV",
+              "holder": "PFIZER, S.A. DE C.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "044M2013 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "B01AF02",
+        "currentRegistrations": 3
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "044M2013 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "furosemide",
+      "generic": "Furosemide",
+      "brand": "Lasix",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lasix",
+          "id": "62267 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "LASIX",
+          "products": [
+            {
+              "registration": "62267 SSA",
+              "product": "LASIX",
+              "generic": "FUROSEMIDA",
+              "fraction": "IV",
+              "holder": "SANOFI WINTHROP INDUSTRIE."
+            },
+            {
+              "registration": "62270 SSA",
+              "product": "LASIX",
+              "generic": "FUROSEMIDA",
+              "fraction": "IV",
+              "holder": "SANOFI WINTHROP INDUSTRIE"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "073M2020 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "C03CA01",
+        "currentRegistrations": 17
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "62267 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-glargine",
+      "generic": "Insulin Glargine",
+      "brand": "Lantus",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lantus",
+          "id": "189M2001 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "LANTUS",
+          "products": [
+            {
+              "registration": "189M2001 SSA",
+              "product": "LANTUS",
+              "generic": "INSULINA GLARGINA",
+              "fraction": "IV",
+              "holder": "SANOFI WINTHROP INDUSTRIE"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "352M2015 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "A10AE04",
+        "currentRegistrations": 9
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "189M2001 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-lispro",
+      "generic": "Insulin Lispro",
+      "brand": "Humalog",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Humalog",
+          "id": "144M97 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "HUMALOG",
+          "products": [
+            {
+              "registration": "144M97 SSA",
+              "product": "HUMALOG",
+              "generic": "INSULINA LISPRO",
+              "fraction": "IV",
+              "holder": "ELI LILLY AND COMPANY"
+            },
+            {
+              "registration": "278M99 SSA",
+              "product": "HUMALOG MIX",
+              "generic": "INSULINA LISPRO / INSULINA LISPRO PROTAMINA",
+              "fraction": "IV",
+              "holder": "ELI LILLY AND COMPANY"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "144M97 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "A10AB04",
+        "currentRegistrations": 4
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "144M97 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-aspart",
+      "generic": "Insulin Aspart",
+      "brand": "NovoRapid",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "NovoRapid",
+          "id": "102M2004 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "NOVORAPID",
+          "products": [
+            {
+              "registration": "102M2004 SSA",
+              "product": "NOVORAPID",
+              "generic": "INSULINA ASPARTA",
+              "fraction": "IV",
+              "holder": "NOVO NORDISK A/S"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "289M2012 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "A10AB05",
+        "currentRegistrations": 3
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "102M2004 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-regular",
+      "generic": "Insulin Human (Regular)",
+      "brand": "Novolin R / Insulex R",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Novolin R",
+          "id": "225M92 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "NOVOLIN-R",
+          "products": [
+            {
+              "registration": "225M92 SSA",
+              "product": "NOVOLIN-R",
+              "generic": "INSULINA HUMANA RECOMBINANTE",
+              "fraction": "IV",
+              "holder": "NOVO NORDISK A/S"
+            }
+          ]
+        },
+        {
+          "name": "Insulex R",
+          "id": "398M94 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "INSULEX R",
+          "products": [
+            {
+              "registration": "398M94 SSA",
+              "product": "INSULEX R",
+              "generic": "INSULINA HUMANA",
+              "fraction": "IV",
+              "holder": "LABORATORIOS PISA, S.A. DE C.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "239M2007 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "A10AB01",
+        "currentRegistrations": 7
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "225M92 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-nph",
+      "generic": "Insulin Isophane (NPH)",
+      "brand": "Humulin N",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Humulin N",
+          "id": "075M90 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "HUMULIN N",
+          "products": [
+            {
+              "registration": "075M90 SSA",
+              "product": "HUMULIN N",
+              "generic": "INSULINA HUMANA RECOMBINANTE ISÓFANA",
+              "fraction": "IV",
+              "holder": "ELI LILLY AND COMPANY"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "239M2007 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "A10AC01",
+        "currentRegistrations": 7
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "075M90 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-detemir",
+      "generic": "Insulin Detemir",
+      "brand": "Levemir",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Levemir",
+          "id": "372M2005 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "LEVEMIR",
+          "products": [
+            {
+              "registration": "372M2005 SSA",
+              "product": "LEVEMIR",
+              "generic": "INSULINA DETEMIR",
+              "fraction": "IV",
+              "holder": "NOVO NORDISK A/S"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "372M2005 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "A10AE05",
+        "currentRegistrations": 1
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "372M2005 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-degludec",
+      "generic": "Insulin Degludec",
+      "brand": "Tresiba",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tresiba",
+          "id": "284M2012 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "TRESIBA",
+          "products": [
+            {
+              "registration": "284M2012 SSA",
+              "product": "TRESIBA",
+              "generic": "INSULINA DEGLUDEC",
+              "fraction": "IV",
+              "holder": "NOVO NORDISK A/S"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "043M2018 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "A10AE06",
+        "currentRegistrations": 3
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "284M2012 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "duloxetine",
+      "generic": "Duloxetine",
+      "brand": "Sold generic as \"Duloxetina\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "033M2016 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "N06AX21",
+        "currentRegistrations": 20
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 20
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "033M2016 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "famotidine",
+      "generic": "Famotidine",
+      "brand": "Facidex / Durater",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Facidex",
+          "id": "597M2001 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "FACIDEX",
+          "products": [
+            {
+              "registration": "597M2001 SSA",
+              "product": "FACIDEX",
+              "generic": "FAMOTIDINA",
+              "fraction": "VI",
+              "holder": "LABORATORIOS LIOMONT, S.A. DE C.V."
+            }
+          ]
+        },
+        {
+          "name": "Durater",
+          "id": "072M87 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "DURATER",
+          "products": [
+            {
+              "registration": "072M87 SSA",
+              "product": "DURATER",
+              "generic": "FAMOTIDINA",
+              "fraction": "IV",
+              "holder": "LABORATORIOS SENOSIAIN, S.A. DE C.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "542M95 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "A02BA03",
+        "currentRegistrations": 4
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "VI": 1,
+            "IV": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "597M2001 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "empagliflozin",
+      "generic": "Empagliflozin",
+      "brand": "Jardianz",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Jardianz",
+          "id": "432M2015 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "JARDIANZ DUO",
+          "products": [
+            {
+              "registration": "432M2015 SSA",
+              "product": "JARDIANZ DUO",
+              "generic": "EMPAGLIFLOZINA / METFORMINA",
+              "fraction": "IV",
+              "holder": "BOEHRINGER INGELHEIM PROMECO, S.A. DE C.V."
+            },
+            {
+              "registration": "212M2014 SSA",
+              "product": "JARDIANZ",
+              "generic": "EMPAGLIFLOZINA",
+              "fraction": "IV",
+              "holder": "BOEHRINGER INGELHEIM PROMECO, S.A. DE C.V."
+            },
+            {
+              "registration": "512M2016 SSA",
+              "product": "JARDIANZ DPP",
+              "generic": "EMPAGLIFLOZINA / LINAGLIPTINA",
+              "fraction": "IV",
+              "holder": "BOEHRINGER INGELHEIM PROMECO, S.A. DE C.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "432M2015 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "A10BK03",
+        "currentRegistrations": 3
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "432M2015 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "carvedilol",
+      "generic": "Carvedilol",
+      "brand": "Dilatrend",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Dilatrend",
+          "id": "034M92 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "DILATREND",
+          "products": [
+            {
+              "registration": "034M92 SSA",
+              "product": "DILATREND",
+              "generic": "CARVEDILOL",
+              "fraction": "IV",
+              "holder": "RUBIEPHARM ARZNEIMITTEL GMBH"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "432M2008 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "C07AG02",
+        "currentRegistrations": 5
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "034M92 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "tramadol",
+      "generic": "Tramadol",
+      "brand": "Tradol (or generic tramadol)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tradol",
+          "id": "191M2020 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "TRADOL-DUO",
+          "products": [
+            {
+              "registration": "191M2020 SSA",
+              "product": "TRADOL-DUO",
+              "generic": "CLORHIDRATO DE TRAMADOL / DICLOFENACO DIETILAMONIO",
+              "fraction": "III",
+              "holder": "GRÜNENTHAL GMBH."
+            },
+            {
+              "registration": "077M90 SSA",
+              "product": "TRADOL",
+              "generic": "CLORHIDRATO DE TRAMADOL",
+              "fraction": "IV",
+              "holder": "GRÜNENTHAL GMBH."
+            },
+            {
+              "registration": "211M88 SSA",
+              "product": "TRADOL",
+              "generic": "CLORHIDRATO DE TRAMADOL",
+              "fraction": "III",
+              "holder": "GRÜNENTHAL GMBH."
+            },
+            {
+              "registration": "035M97 SSA",
+              "product": "TRADOL RETARD",
+              "generic": "CLORHIDRATO DE TRAMADOL",
+              "fraction": "IV",
+              "holder": "GRÜNENTHAL GMBH."
+            },
+            {
+              "registration": "210M88 SSA",
+              "product": "TRADOL",
+              "generic": "TRAMADOL",
+              "fraction": "III",
+              "holder": "GRÜNENTHAL, GMBH."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "353M2018 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "N02AX02",
+        "currentRegistrations": 81
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 2,
+            "III": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "191M2020 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "alprazolam",
+      "generic": "Alprazolam",
+      "brand": "Tafil",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tafil",
+          "id": "259M80 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "TAFIL",
+          "products": [
+            {
+              "registration": "259M80 SSA",
+              "product": "TAFIL",
+              "generic": "ALPRAZOLAM",
+              "fraction": "II",
+              "holder": "ROTTAPHARM LIMITED"
+            },
+            {
+              "registration": "494M2002 SSA",
+              "product": "TAFIL",
+              "generic": "ALPRAZOLAM",
+              "fraction": "II",
+              "holder": "ROTTAPHARM LTD"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "533M2015 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "N05BA12",
+        "currentRegistrations": 16
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "II": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "259M80 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "prednisone",
+      "generic": "Prednisone",
+      "brand": "Meticorten",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Meticorten",
+          "id": "44942 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "METICORTEN",
+          "products": [
+            {
+              "registration": "44942 SSA",
+              "product": "METICORTEN",
+              "generic": "PREDNISONA",
+              "fraction": "IV",
+              "holder": "ASPEN PHARMA INDUSTRIA FARMACÉUTICA LTDA."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "84678 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "H02AB07",
+        "currentRegistrations": 10
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "44942 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "clopidogrel",
+      "generic": "Clopidogrel",
+      "brand": "Plavix",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Plavix",
+          "id": "474M98 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "PLAVIX",
+          "products": [
+            {
+              "registration": "474M98 SSA",
+              "product": "PLAVIX",
+              "generic": "CLOPIDOGREL",
+              "fraction": "IV",
+              "holder": "SANOFI WINTHROP INDUSTRIE"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "008M2021 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "B01AC04",
+        "currentRegistrations": 27
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "474M98 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "aspirin",
+      "generic": "Acetylsalicylic acid (Aspirin)",
+      "brand": "Aspirina",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Aspirina",
+          "id": "57607 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "ASPIRINA",
+          "products": [
+            {
+              "registration": "57607 SSA",
+              "product": "ASPIRINA",
+              "generic": "ÁCIDO ACETILSALICÍLICO",
+              "fraction": "VI",
+              "holder": "BAYER DE MEXICO, S.A. DE C.V."
+            },
+            {
+              "registration": "51530 SSA",
+              "product": "ASPIRINA CARE",
+              "generic": "ÁCIDO ACETILSALICÍLICO",
+              "fraction": "VI",
+              "holder": "BAYER DE MÉXICO, S. A. DE C. V."
+            },
+            {
+              "registration": "88864 SSA",
+              "product": "ASPIRINA",
+              "generic": "ÁCIDO ACETILSALICÍLICO",
+              "fraction": "VI",
+              "holder": "BAYER DE MEXICO, S.A. DE C.V."
+            },
+            {
+              "registration": "131M97 SSA",
+              "product": "ASPIRINA PROTECT",
+              "generic": "ÁCIDO ACETILSALICÍLICO",
+              "fraction": "IV",
+              "holder": "BAYER DE MÉXICO, S.A. DE C.V."
+            },
+            {
+              "registration": "152M2022 SSA",
+              "product": "ASPIRINA GO",
+              "generic": "ÁCIDO ACETILSALICÍLICO",
+              "fraction": "VI",
+              "holder": "BAYER DE MÉXICO, S.A. DE C.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "008M2021 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "N02BA01",
+        "currentRegistrations": 49
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "VI": 4,
+            "IV": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "57607 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oxycodone",
+      "generic": "Oxycodone",
+      "brand": "Endocodil",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Endocodil",
+          "id": "048M2014 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "ENDOCODIL IR",
+          "products": [
+            {
+              "registration": "048M2014 SSA",
+              "product": "ENDOCODIL IR",
+              "generic": "OXICODONA",
+              "fraction": "I",
+              "holder": "PSICOFARMA, S.A. DE C.V."
+            },
+            {
+              "registration": "246M2012 SSA",
+              "product": "ENDOCODIL XR",
+              "generic": "OXICODONA",
+              "fraction": "I",
+              "holder": "PSICOFARMA, S.A. DE C.V."
+            },
+            {
+              "registration": "099M2008 SSA",
+              "product": "ENDOCODIL",
+              "generic": "OXICODONA",
+              "fraction": "I",
+              "holder": "PSICOFARMA, S.A. DE C.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "048M2014 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "N02AA05",
+        "currentRegistrations": 3
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "I": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "048M2014 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "methylphenidate",
+      "generic": "Methylphenidate",
+      "brand": "Concerta / Ritalin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Concerta",
+          "id": "136M2002 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "CONCERTA",
+          "products": [
+            {
+              "registration": "136M2002 SSA",
+              "product": "CONCERTA",
+              "generic": "CLORHIDRATO DE METILFENIDATO",
+              "fraction": "II",
+              "holder": "JANSSEN-CILAG, S. A. DE C. V."
+            }
+          ]
+        },
+        {
+          "name": "Ritalin",
+          "id": "44836 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "RITALIN",
+          "products": [
+            {
+              "registration": "44836 SSA",
+              "product": "RITALIN",
+              "generic": "CLORHIDRATO DE METILFENIDATO",
+              "fraction": "II",
+              "holder": "NOVARTIS PHARMA AG"
+            },
+            {
+              "registration": "586M2002 SSA",
+              "product": "RITALIN LA",
+              "generic": "CLORHIDRATO DE METILFENIDATO",
+              "fraction": "II",
+              "holder": "NOVARTIS PHARMA AG"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "149M2020 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "N06BA04",
+        "currentRegistrations": 13
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "II": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "136M2002 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "naproxen",
+      "generic": "Naproxen",
+      "brand": "Flanax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Flanax",
+          "id": "036M2022 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "FLANAX 660",
+          "products": [
+            {
+              "registration": "036M2022 SSA",
+              "product": "FLANAX 660",
+              "generic": "NAPROXENO",
+              "fraction": "IV",
+              "holder": "BAYER DE MEXICO, S.A. DE C.V."
+            },
+            {
+              "registration": "271M2016 SSA",
+              "product": "FLANAX NOCTO",
+              "generic": "NAPROXENO / DIFENHIDRAMINA",
+              "fraction": "VI",
+              "holder": "BAYER DE MEXICO, S.A. DE C.V."
+            },
+            {
+              "registration": "006M90 SSA",
+              "product": "FLANAX",
+              "generic": "NAPROXENO",
+              "fraction": "VI",
+              "holder": "BAYER DE MEXICO, S.A. DE C.V."
+            },
+            {
+              "registration": "159M2005 SSA",
+              "product": "FLANAX",
+              "generic": "NAPROXENO",
+              "fraction": "VI",
+              "holder": "BAYER DE MEXICO, S.A. DE C.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "493M2001 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "M01AE02",
+        "currentRegistrations": 72
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 1,
+            "VI": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "036M2022 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "diclofenac-gel",
+      "generic": "Diclofenac (topical gel)",
+      "brand": "Voltaren Emulgel",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Voltaren Emulgel",
+          "id": "016M87 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "VOLTAREN EMULGEL",
+          "products": [
+            {
+              "registration": "016M87 SSA",
+              "product": "VOLTAREN EMULGEL",
+              "generic": "DICLOFENACO DIETILAMONIO",
+              "fraction": "VI",
+              "holder": "NOVARTIS PHARMA AG"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "191M2020 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "M02AA15",
+        "currentRegistrations": 100
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "VI": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "016M87 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "fexofenadine",
+      "generic": "Fexofenadine",
+      "brand": "Allegra",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Allegra",
+          "id": "041M99 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "ALLEGRA D",
+          "products": [
+            {
+              "registration": "041M99 SSA",
+              "product": "ALLEGRA D",
+              "generic": "FEXOFENADINA / FENILEFRINA",
+              "fraction": "VI",
+              "holder": "SANOFI-AVENTIS DE MÉXICO, S. A. DE C. V."
+            },
+            {
+              "registration": "075M98 SSA",
+              "product": "ALLEGRA",
+              "generic": "FEXOFENADINA",
+              "fraction": "VI",
+              "holder": "SANOFI-AVENTIS DE MÉXICO, S. A. DE C. V."
+            },
+            {
+              "registration": "307M2008 SSA",
+              "product": "ALLEGRA",
+              "generic": "FEXOFENADINA",
+              "fraction": "VI",
+              "holder": "SANOFI-AVENTIS DE MÉXICO, S. A. DE C. V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "463M2015 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "R06AX26",
+        "currentRegistrations": 10
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "VI": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "041M99 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "guaifenesin",
+      "generic": "Guaifenesin",
+      "brand": "Robitussin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Robitussin",
+          "id": "66744 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "ROBITUSSIN DM",
+          "products": [
+            {
+              "registration": "66744 SSA",
+              "product": "ROBITUSSIN DM",
+              "generic": "DEXTROMETORFANO / GUAIFENESINA",
+              "fraction": "VI",
+              "holder": "HALEON PANAMÁ, S.A."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "098M2020 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "R05CA03",
+        "currentRegistrations": 40
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "VI": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "66744 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "dextromethorphan",
+      "generic": "Dextromethorphan",
+      "brand": "Sold generic as \"Dextrometorfano\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "016M2020 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "R05DA09",
+        "currentRegistrations": 85
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 5,
+            "VI": 10
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "016M2020 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oxymetazoline",
+      "generic": "Oxymetazoline (nasal spray)",
+      "brand": "Afrin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Afrin",
+          "id": "63955 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "AFRIN LUB",
+          "products": [
+            {
+              "registration": "63955 SSA",
+              "product": "AFRIN LUB",
+              "generic": "OXIMETAZOLINA",
+              "fraction": "VI",
+              "holder": "BAYER DE MEXICO, S.A. DE C.V."
+            },
+            {
+              "registration": "64245 SSA",
+              "product": "AFRIN",
+              "generic": "OXIMETAZOLINA",
+              "fraction": "VI",
+              "holder": "BAYER DE MEXICO, S.A DE C.V."
+            },
+            {
+              "registration": "032M2010 SSA",
+              "product": "AFRIN NO DRIP CSE",
+              "generic": "OXIMETAZOLINA",
+              "fraction": "VI",
+              "holder": "BAYER DE MEXICO, S.A. DE C.V."
+            },
+            {
+              "registration": "108M2009 SSA",
+              "product": "AFRIN NO DRIP",
+              "generic": "OXIMETAZOLINA",
+              "fraction": "VI",
+              "holder": "BAYER DE MEXICO, S.A. DE C.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "183M2017 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "R01AA05",
+        "currentRegistrations": 15
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "VI": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "63955 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "bismuth-subsalicylate",
+      "generic": "Bismuth subsalicylate",
+      "brand": "Pepto-Bismol",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Pepto-Bismol",
+          "id": "091M88 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "PEPTO BISMOL",
+          "products": [
+            {
+              "registration": "091M88 SSA",
+              "product": "PEPTO BISMOL",
+              "generic": "SUBSALICILATO DE BISMUTO",
+              "fraction": "VI",
+              "holder": "PROCTER & GAMBLE MANUFACTURING MEXICO, S. DE R.L. DE C.V."
+            },
+            {
+              "registration": "30310 SSA",
+              "product": "PEPTO BISMOL",
+              "generic": "SUBSALICILATO DE BISMUTO",
+              "fraction": "VI",
+              "holder": "PROCTER & GAMBLE MANUFACTURING MEXICO, S. DE R.L. DE C.V."
+            },
+            {
+              "registration": "263M2003 SSA",
+              "product": "PEPTO-BISMOL",
+              "generic": "SUBSALICILATO DE BISMUTO",
+              "fraction": "VI",
+              "holder": "PROCTER & GAMBLE MANUFACTURING MEXICO S. DE R.L. DE C.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "199M2018 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "A07BB",
+        "currentRegistrations": 11
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "VI": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "091M88 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "calcium-carbonate",
+      "generic": "Calcium carbonate (antacid)",
+      "brand": "Tums",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tums",
+          "id": "159M94 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "TUMS",
+          "products": [
+            {
+              "registration": "159M94 SSA",
+              "product": "TUMS",
+              "generic": "CARBONATO DE CALCIO",
+              "fraction": "VI",
+              "holder": "GLAXOSMITHKLINE CONSUMER HEALTHCARE MEXICO, S. DE R.L. DE C.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "002V2021 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "A02AC01",
+        "currentRegistrations": 25
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "VI": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "159M94 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "simeticone",
+      "generic": "Simeticone",
+      "brand": "Sold generic as \"Simeticona\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "011M2020 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "A03AX13",
+        "currentRegistrations": 96
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "VI": 7,
+            "IV": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "011M2020 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oral-rehydration-salts",
+      "generic": "Oral rehydration salts",
+      "brand": "Electrolit / Pedialyte",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Electrolit",
+          "id": "90127 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "ELECTROLIT",
+          "products": [
+            {
+              "registration": "90127 SSA",
+              "product": "ELECTROLIT",
+              "generic": "ELECTROLITOS ORALES",
+              "fraction": "VI",
+              "holder": "LABORATORIOS PISA SA DE CV"
+            }
+          ]
+        },
+        {
+          "name": "Pedialyte",
+          "id": "68320 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "PEDIALYTE",
+          "products": [
+            {
+              "registration": "68320 SSA",
+              "product": "PEDIALYTE",
+              "generic": "N / A",
+              "fraction": "VI",
+              "holder": "ABBOTT LABORATORIES DE MEXICO, S.A. DE C.V."
+            },
+            {
+              "registration": "072M84 SSA",
+              "product": "PEDIALYTE SR",
+              "generic": "CITRATO DE SODIO / GLUCOSA / CLORURO DE SODIO / CLORURO DE POTASIO / GLUCONATO DE ZINC",
+              "fraction": "VI",
+              "holder": "ABBOTT LABORATORIES DE MEXICO, S.A. DE C.V."
+            },
+            {
+              "registration": "103M88 SSA",
+              "product": "PEDIALYTE SR 45",
+              "generic": "CLORURO DE SODIO MONOHIDRATADO / CITRATO DE POTASIO / GLUCONATO DE ZINC / GLUCOSA MONOHIDRATADA / CITRATO DE SODIO DIHIDRATADO",
+              "fraction": "VI",
+              "holder": "ABBOTT LABORATORIES DE MEXICO, S.A DE C.V"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "68320 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "A07CA",
+        "currentRegistrations": 10
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "VI": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "90127 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "bisacodyl",
+      "generic": "Bisacodyl",
+      "brand": "Dulcolax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Dulcolax",
+          "id": "47191 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "DULCOLAX",
+          "products": [
+            {
+              "registration": "47191 SSA",
+              "product": "DULCOLAX",
+              "generic": "BISACODILO",
+              "fraction": "VI",
+              "holder": "SANOFI-AVENTIS DE MÉXICO, S. A. DE C. V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "47191 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "A06AB02",
+        "currentRegistrations": 2
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "VI": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "47191 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "polyethylene-glycol",
+      "generic": "Polyethylene glycol 3350 (macrogol)",
+      "brand": "Contumax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Contumax",
+          "id": "137M2004 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "CONTUMAX",
+          "products": [
+            {
+              "registration": "137M2004 SSA",
+              "product": "CONTUMAX",
+              "generic": "MACROGOL",
+              "fraction": "VI",
+              "holder": "ASOFARMA DE MEXICO, S.A. DE C.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "197M2022 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "A06AD15",
+        "currentRegistrations": 10
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "VI": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "137M2004 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "meclozine",
+      "generic": "Meclozine",
+      "brand": "Bonadoxina",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Bonadoxina",
+          "id": "45910 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "BONADOXINA",
+          "products": [
+            {
+              "registration": "45910 SSA",
+              "product": "BONADOXINA",
+              "generic": "MECLOZINA / PIRIDOXINA",
+              "fraction": "IV",
+              "holder": "PFIZER, S. A. DE C. V."
+            },
+            {
+              "registration": "89644 SSA",
+              "product": "BONADOXINA",
+              "generic": "MECLOZINA / PIRIDOXINA",
+              "fraction": "IV",
+              "holder": "PFIZER, S.A. DE C.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "89570 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "R06AE05",
+        "currentRegistrations": 8
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "45910 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrocortisone-cream",
+      "generic": "Hydrocortisone (cream)",
+      "brand": "Sold generic as \"Hidrocortisona crema\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "364M2018 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "D07AA02",
+        "currentRegistrations": 41
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 24
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "364M2018 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "clotrimazole",
+      "generic": "Clotrimazole",
+      "brand": "Canesten",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Canesten",
+          "id": "78664 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "CANESTEN",
+          "products": [
+            {
+              "registration": "78664 SSA",
+              "product": "CANESTEN",
+              "generic": "CLOTRIMAZOL",
+              "fraction": "VI",
+              "holder": "BAYER DE MEXICO, S.A. DE C.V."
+            },
+            {
+              "registration": "034M81 SSA",
+              "product": "CANESTEN V",
+              "generic": "CLOTRIMAZOL",
+              "fraction": "VI",
+              "holder": "BAYER DE MEXICO, S.A. DE C.V."
+            },
+            {
+              "registration": "217M2002 SSA",
+              "product": "CANESTEN V",
+              "generic": "CLOTRIMAZOL",
+              "fraction": "VI",
+              "holder": "BAYER DE MEXICO S.A. DE C.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "095M2021 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "D01AC01",
+        "currentRegistrations": 52
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "VI": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "78664 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "antibiotic-ointment",
+      "generic": "Bacitracin / Neomycin / Polymyxin B (antibiotic ointment)",
+      "brand": "Neosporin Dérmico",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Neosporin Dérmico",
+          "id": "54730 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "NEOSPORIN DÉRMICO",
+          "products": [
+            {
+              "registration": "54730 SSA",
+              "product": "NEOSPORIN DÉRMICO",
+              "generic": "BACITRACINA / NEOMICINA / POLIMIXINA B",
+              "fraction": "IV",
+              "holder": "GLAXO WELLCOME, S.A."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "54730 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "D06AX05",
+        "currentRegistrations": 7
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "54730 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "doxylamine",
+      "generic": "Doxylamine",
+      "brand": "Not sold on its own",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "085M2022 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "R06AA09",
+        "currentRegistrations": 1
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 1
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Entry says \"Not sold on its own\" but the registry lists products with this ingredient"
+      ]
+    },
+    {
+      "id": "levonorgestrel",
+      "generic": "Levonorgestrel (emergency contraception)",
+      "brand": "Postday",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Postday",
+          "id": "409M2002 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "POSTDAY",
+          "products": [
+            {
+              "registration": "409M2002 SSA",
+              "product": "POSTDAY",
+              "generic": "LEVONORGESTREL",
+              "fraction": "V",
+              "holder": "INVESTIGACION FARMACÉUTICA, S.A. DE C.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "404M2015 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "G03AD01",
+        "currentRegistrations": 27
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "PHARMACY",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "V": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "409M2002 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "atovaquone-proguanil",
+      "generic": "Atovaquone / Proguanil",
+      "brand": "Malarone",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Malarone",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "not in the COFEPRIS file, which may be incomplete",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "P01BB51",
+        "currentRegistrations": 0
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Brand \"Malarone\" not confirmed: not in the COFEPRIS file, which may be incomplete"
+      ]
+    },
+    {
+      "id": "doxycycline",
+      "generic": "Doxycycline",
+      "brand": "Vibramicina",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Vibramicina",
+          "id": "68267 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "VIBRAMICINA",
+          "products": [
+            {
+              "registration": "68267 SSA",
+              "product": "VIBRAMICINA",
+              "generic": "DOXICICLINA",
+              "fraction": "IV",
+              "holder": "PFIZER, S. A. DE C. V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "008M2020 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "J01AA02",
+        "currentRegistrations": 10
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "68267 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "azithromycin",
+      "generic": "Azithromycin",
+      "brand": "Azitrocin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Azitrocin",
+          "id": "175M93 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "AZITROCIN G",
+          "products": [
+            {
+              "registration": "175M93 SSA",
+              "product": "AZITROCIN G",
+              "generic": "AZITROMICINA",
+              "fraction": "IV",
+              "holder": "PHARMACIA AND UPJOHN COMPANY LLC"
+            },
+            {
+              "registration": "266M91 SSA",
+              "product": "AZITROCIN",
+              "generic": "AZITROMICINA",
+              "fraction": "IV",
+              "holder": "PFIZER, S. A. DE C. V."
+            },
+            {
+              "registration": "275M91 SSA",
+              "product": "AZITROCIN",
+              "generic": "AZITROMICINA",
+              "fraction": "IV",
+              "holder": "PFIZER, S. A. DE C. V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "267M2017 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "J01FA10",
+        "currentRegistrations": 35
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "175M93 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "ciprofloxacin",
+      "generic": "Ciprofloxacin",
+      "brand": "Ciproxina",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ciproxina",
+          "id": "261M87 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "CIPROXINA",
+          "products": [
+            {
+              "registration": "261M87 SSA",
+              "product": "CIPROXINA",
+              "generic": "CIPROFLOXACINO",
+              "fraction": "IV",
+              "holder": "BAYER DE MÉXICO, S.A. DE C.V."
+            },
+            {
+              "registration": "280M98 SSA",
+              "product": "CIPROXINA",
+              "generic": "CIPROFLOXACINO",
+              "fraction": "IV",
+              "holder": "BAYER DE MÉXICO, S.A. DE C.V."
+            },
+            {
+              "registration": "038M90 SSA",
+              "product": "CIPROXINA",
+              "generic": "CIPROFLOXACINO",
+              "fraction": "IV",
+              "holder": "BAYER DE MÉXICO, S.A DE C.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "110M2015 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "J01MA02",
+        "currentRegistrations": 56
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "261M87 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "acetazolamide",
+      "generic": "Acetazolamide",
+      "brand": "Sold generic as \"Acetazolamida\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "111M2021 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "S01EC01",
+        "currentRegistrations": 4
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "111M2021 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "scopolamine",
+      "generic": "Scopolamine (motion-sickness patch)",
+      "brand": "No patch in Mexico",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "A04AD01",
+        "currentRegistrations": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "ondansetron",
+      "generic": "Ondansetron",
+      "brand": "Zofran",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zofran",
+          "id": "215M91 SSA",
+          "url": "https://registros.cofepris.gob.mx/BRSDM/",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZOFRAN",
+          "products": [
+            {
+              "registration": "215M91 SSA",
+              "product": "ZOFRAN",
+              "generic": "ONDANSETRÓN",
+              "fraction": "IV",
+              "holder": "SANDOZ GMBH"
+            },
+            {
+              "registration": "216M91 SSA",
+              "product": "ZOFRAN",
+              "generic": "ONDANSETRÓN",
+              "fraction": "IV",
+              "holder": "SANDOZ GMBH"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "063M2021 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "A04AA01",
+        "currentRegistrations": 28
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "COFEPRIS medicine register (Mexico)",
+        "id": "215M91 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "checked": "2026-10-09",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "epinephrine",
+      "generic": "Epinephrine (adrenaline auto-injector)",
+      "brand": "No auto-injector sold",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "018M2020 SSA",
+        "url": "https://registros.cofepris.gob.mx/BRSDM/",
+        "searched": "C01CA24",
+        "currentRegistrations": 21
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "COFEPRIS Fracción (article 226, Ley General de Salud)",
+          "products": {
+            "IV": 3
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Entry says \"No auto-injector sold\" but the registry lists products with this ingredient"
+      ]
+    }
+  ]
+}

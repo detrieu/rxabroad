@@ -34,9 +34,5 @@ export const STATUS = {
   "UNAVAILABLE": {
     "label": "Unavailable",
     "cls": "unavailable"
-  },
-  "ASK_GENERIC": {
-    "label": "Ask by generic name",
-    "cls": "generic"
   }
 } as const satisfies Record<string, StatusMeta>;
