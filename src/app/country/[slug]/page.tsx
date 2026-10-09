@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { SearchIcon } from 'lucide-react';
-import { COUNTRIES, DRUGS, entryFor, getCountryBySlug, type Status } from '@/data';
+import { COUNTRIES, DRUGS, entryFor, getCountryBySlug, type CountryCode, type Status } from '@/data';
 import { Button } from '@/components/ui/button';
 import { StatusPill } from '@/components/StatusPill';
 import { EntryBadges } from '@/components/ConfBadge';
@@ -30,6 +30,11 @@ export async function generateMetadata({ params }: PageProps<'/country/[slug]'>)
     alternates: { canonical: `/country/${country.slug}` },
   };
 }
+
+// A country-wide rule worth knowing before reading the list.
+const FOOTNOTE: Partial<Record<CountryCode, string>> = {
+  DE: 'In Germany, medicines that need no prescription are still kept behind the pharmacy counter. Ask the pharmacist (Apotheke) for them; you will not find them on a shelf or in a supermarket.',
+};
 
 // Most restrictive first, so the risky ones lead the summary.
 const SUMMARY_ORDER: Status[] = ['BANNED', 'CONTROLLED', 'RX', 'MIXED', 'PHARMACY', 'OTC', 'ASK_GENERIC', 'UNAVAILABLE', 'UNCONFIRMED'];
@@ -71,6 +76,9 @@ export default async function CountryPage({ params }: PageProps<'/country/[slug]
               </li>
             ))}
           </ul>
+          {FOOTNOTE[country.code] && (
+            <p className="text-muted-foreground mt-4 text-[0.82rem] leading-relaxed">{FOOTNOTE[country.code]}</p>
+          )}
         </div>
 
         <BringingGuide code={country.code} name={country.name} />

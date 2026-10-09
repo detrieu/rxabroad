@@ -64,10 +64,21 @@
       },
       "DE": {
         "brand": "ben-u-ron / Paracetamol-ratiopharm",
-        "status": "OTC",
-        "confidence": "medium",
+        "status": "PHARMACY",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "2697.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Doliprane",
@@ -228,10 +239,20 @@
       },
       "DE": {
         "brand": "Nurofen / Ibu-ratiopharm",
-        "status": "OTC",
+        "status": "PHARMACY",
         "confidence": "medium",
-        "note": null,
-        "source": null
+        "note": "Tablets up to 400 mg are sold without a prescription. 600 mg and 800 mg tablets, and some larger packs, need one.",
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "50464.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "FR": {
         "brand": "Nurofen / Advil",
@@ -392,10 +413,21 @@
       },
       "DE": {
         "brand": "Lorano (akut) — or generic \"Loratadin STADA / AL\"",
-        "status": "OTC",
+        "status": "PHARMACY",
         "confidence": "high",
         "note": "Pharmacy-only (apothekenpflichtig) but no prescription needed — confirmed retail brand, not a guess.",
-        "source": "https://www.loranopro.de/loranoakut-produktinformationen.html"
+        "source": "https://www.loranopro.de/loranoakut-produktinformationen.html",
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "47097.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Sold generic",
@@ -554,10 +586,21 @@
       },
       "DE": {
         "brand": "Zyrtec",
-        "status": "OTC",
-        "confidence": "medium",
+        "status": "PHARMACY",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "25701.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Zyrtecset (no prescription) / Zyrtec (Rx)",
@@ -732,7 +775,16 @@
         "status": "UNCONFIRMED",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "2203962.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "FR": {
         "brand": "Nautamine",
@@ -893,10 +945,21 @@
       },
       "DE": {
         "brand": "Imodium akut",
-        "status": "OTC",
+        "status": "PHARMACY",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "7018230.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Imodium",
@@ -1057,9 +1120,20 @@
       "DE": {
         "brand": "Omep / Antra",
         "status": "MIXED",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Sold OTC (pharmacy-only) at 20mg for a maximum 14-day course, with at least a 4-month gap before repeating; 40mg and longer-term use require a prescription.",
-        "source": "https://curistrelief.com/blogs/curist/omeprazole-faq-what-to-know"
+        "source": "https://curistrelief.com/blogs/curist/omeprazole-faq-what-to-know",
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "77976.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Mopral (Rx) / Mopralpro (no prescription)",
@@ -1227,11 +1301,22 @@
         }
       },
       "DE": {
-        "brand": "Similar Sudafed-branded products",
+        "brand": "Aspirin Complex / BoxaGrippal / Reactine duo",
         "status": "PHARMACY",
-        "confidence": "medium",
-        "note": null,
-        "source": null
+        "confidence": "high",
+        "note": "Not sold on its own. It comes only in combination cold remedies with a painkiller (aspirin or ibuprofen) or an antihistamine, so check the other ingredient. Aerinaze, the higher-dose version, needs a prescription.",
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "78358.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Prescription required for any pseudoephedrine-containing product",
@@ -1390,7 +1475,17 @@
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "7010873.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "OTC as a food supplement under 2mg per dose; 2mg and above is a prescription medicine",
@@ -1539,10 +1634,20 @@
       },
       "DE": {
         "brand": "Vomex A",
-        "status": "OTC",
+        "status": "PHARMACY",
         "confidence": "medium",
-        "note": null,
-        "source": null
+        "note": "The injection forms need a prescription.",
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "2202747.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "FR": {
         "brand": "Nausicalm",
@@ -1703,7 +1808,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "32376.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Clamoxyl",
@@ -1873,7 +1989,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "51643.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Glucophage",
@@ -2047,7 +2174,18 @@
         "status": "RX",
         "confidence": "high",
         "note": "Gladem (Boehringer Ingelheim) is confirmed sold in Germany and Austria.",
-        "source": "https://myhealthbox.eu/en/gladem-50mg/272519"
+        "source": "https://myhealthbox.eu/en/gladem-50mg/272519",
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "49564.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Zoloft",
@@ -2219,9 +2357,20 @@
       "DE": {
         "brand": "Sultanol / Salbulair",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "7016139.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Ventoline",
@@ -2395,7 +2544,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": "https://www.ema.europa.eu/en/documents/referral/sortis-emeaha-29-pad1255-article-29-paediatrics-referral-annex-i-ii-iii_en.pdf"
+        "source": "https://www.ema.europa.eu/en/documents/referral/sortis-emeaha-29-pad1255-article-29-paediatrics-referral-annex-i-ii-iii_en.pdf",
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "88574.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Tahor",
@@ -2568,7 +2728,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "53487.02.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Levothyrox",
@@ -2737,11 +2908,21 @@
         }
       },
       "DE": {
-        "brand": "Less commonly prescribed — Germany favors ramipril; sold generic where used",
+        "brand": "Sold generic as \"Lisinopril\"",
         "status": "RX",
-        "confidence": "medium",
-        "note": null,
-        "source": null
+        "confidence": "high",
+        "note": "Less commonly prescribed here: German doctors favor ramipril.",
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "43691.02.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Zestril",
@@ -2913,7 +3094,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "16909.01.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Amlor",
@@ -3086,7 +3278,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "4895.00.02",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Seloken / Lopressor",
@@ -3257,9 +3460,20 @@
       "DE": {
         "brand": "Lorzaar",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "41546.02.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Cozaar",
@@ -3433,7 +3647,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "47275.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Neurontin",
@@ -3607,7 +3832,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "81348.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Crestor",
@@ -3776,11 +4012,22 @@
         }
       },
       "DE": {
-        "brand": "Pantozol",
-        "status": "RX",
+        "brand": "Pantozol / Pantozol Control",
+        "status": "MIXED",
         "confidence": "high",
-        "note": null,
-        "source": null
+        "note": "20 mg heartburn packs (Pantozol Control and generics labelled \"bei Sodbrennen\") are sold in pharmacies without a prescription. 40 mg and longer courses need one.",
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "EU/1/09/517/004",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Eupantol / Inipomp",
@@ -3943,7 +4190,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "64675.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Seroplex",
@@ -4117,7 +4375,18 @@
         "status": "CONTROLLED",
         "confidence": "high",
         "note": "Attentin (dextroamphetamine, MEDICE) has been sold in Germany since 2011; tightly controlled under the Betäubungsmittelgesetz (German narcotics law).",
-        "source": "https://medice.com/de-de/produkte/adhs-kinder-und-jugendliche/attentin-r"
+        "source": "https://medice.com/de-de/produkte/adhs-kinder-und-jugendliche/attentin-r",
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "94042.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Tentin (dexamfetamine)",
@@ -4262,11 +4531,22 @@
         }
       },
       "DE": {
-        "brand": "Esidrix / HCT",
+        "brand": "HCT (e.g. HCT HEXAL, HCT-ratiopharm)",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "40202.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Esidrex",
@@ -4435,9 +4715,20 @@
       "DE": {
         "brand": "Elontril",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "91726.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Marketed mainly as Zyban for smoking cessation, not routinely used as an antidepressant",
@@ -4593,11 +4884,21 @@
         }
       },
       "DE": {
-        "brand": "Fluctin",
+        "brand": "Sold generic as \"Fluoxetin\"",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "40255.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Sold generic",
@@ -4758,7 +5059,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "EU/1/17/1251/013",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Ozempic — Wegovy availability may lag behind other markets",
@@ -4932,7 +5244,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "44579.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Singulair",
@@ -5101,9 +5424,19 @@
       "DE": {
         "brand": "Sold generic",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Thombran brand does not appear in the Gelbe Liste’s current trazodone listing, which shows only generic products — the brand appears to have been discontinued.",
-        "source": "https://www.gelbe-liste.de/wirkstoffe/Trazodon_3145"
+        "source": "https://www.gelbe-liste.de/wirkstoffe/Trazodon_3145",
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "2204234.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Not sold in France",
@@ -5265,7 +5598,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "35406.01.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Zocor",
@@ -5435,9 +5779,20 @@
       "DE": {
         "brand": "Alna / Tamsulosin-ratiopharm",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "61324.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Omix",
@@ -5900,7 +6255,18 @@
         "status": "RX",
         "confidence": "high",
         "note": "Brand confirmed still marketed by Boehringer Ingelheim in Germany (unlike the UK, where the equivalent Mobic brand appears discontinued).",
-        "source": "https://www.gelbe-liste.de/wirkstoffe/Meloxicam_22498"
+        "source": "https://www.gelbe-liste.de/wirkstoffe/Meloxicam_22498",
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "36062.01.01",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Mobic",
@@ -6074,7 +6440,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "EU/1/11/691/013",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Eliquis",
@@ -6246,7 +6623,18 @@
         "status": "RX",
         "confidence": "high",
         "note": "Brand confirmed still marketed in Germany (unlike Canada, where Lasix was discontinued in the 1990s).",
-        "source": "https://www.gelbe-liste.de/wirkstoffe/Furosemid_283"
+        "source": "https://www.gelbe-liste.de/wirkstoffe/Furosemid_283",
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "6132084.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Lasilix",
@@ -6418,7 +6806,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "EU/1/00/134/037",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Lantus",
@@ -6589,7 +6988,18 @@
         "status": "RX",
         "confidence": "high",
         "note": "Brand confirmed still listed in Germany (unlike Canada and the UK, where Cymbalta was discontinued).",
-        "source": "https://www.gelbe-liste.de/wirkstoffe/Duloxetin-hydrochlorid_48490"
+        "source": "https://www.gelbe-liste.de/wirkstoffe/Duloxetin-hydrochlorid_48490",
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "EU/1/04/296/001",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Sold generic",
@@ -6749,9 +7159,20 @@
       "DE": {
         "brand": "Pepdul",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "5775.01.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Sold generic as \"Famotidine\"",
@@ -6913,7 +7334,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "EU/1/14/930/018",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Jardiance",
@@ -7085,7 +7517,17 @@
         "status": "RX",
         "confidence": "high",
         "note": "Dilatrend brand was discontinued in Germany.",
-        "source": "https://www.fitundgesund.at/dilatrend-artikel-2125"
+        "source": "https://www.fitundgesund.at/dilatrend-artikel-2125",
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "58440.02.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Kredex",
@@ -7253,10 +7695,21 @@
       },
       "DE": {
         "brand": "Tramal",
-        "status": "CONTROLLED",
-        "confidence": "medium",
-        "note": null,
-        "source": null
+        "status": "RX",
+        "confidence": "high",
+        "note": "Prescription-only. Not classed as a controlled narcotic in Germany, so it goes on an ordinary prescription.",
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "1116.00.02",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Topalgic",
@@ -7425,11 +7878,22 @@
         }
       },
       "DE": {
-        "brand": "Xanor / Tafil",
-        "status": "CONTROLLED",
-        "confidence": "medium",
-        "note": "Tightly controlled (Betäubungsmittelgesetz).",
-        "source": null
+        "brand": "Tafil",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Prescription-only. Tablets up to 1 mg are exempt from the narcotics rules, so it is not treated as a controlled narcotic and goes on an ordinary prescription.",
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "29946.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Xanax",
@@ -7585,11 +8049,21 @@
         }
       },
       "DE": {
-        "brand": "Decortin",
+        "brand": "Sold generic as \"Prednison\"",
         "status": "RX",
-        "confidence": "medium",
-        "note": null,
-        "source": null
+        "confidence": "high",
+        "note": "The Decortin brand of prednisone is no longer sold. \"Decortin H\" is prednisolone, a different medicine.",
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "7005083.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Cortancyl — prednisolone is also commonly used instead",
@@ -7751,7 +8225,18 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "EU/1/98/069/012",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Plavix",
@@ -7922,10 +8407,21 @@
       },
       "DE": {
         "brand": "Aspirin — the brand originated here (Bayer)",
-        "status": "OTC",
+        "status": "PHARMACY",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "6245718.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Aspégic / Aspirine UPSA",
@@ -8086,9 +8582,20 @@
       "DE": {
         "brand": "Oxygesic",
         "status": "CONTROLLED",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "41153.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "OxyContin",
@@ -8258,9 +8765,20 @@
       "DE": {
         "brand": "Ritalin / Medikinet",
         "status": "CONTROLLED",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Controlled (Betäubungsmittelgesetz).",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "7023981.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Ritaline",
@@ -8428,11 +8946,21 @@
         }
       },
       "DE": {
-        "brand": "Aleve / Dolormin für Frauen",
-        "status": "OTC",
+        "brand": "Dolormin für Frauen / Dolormin GS",
+        "status": "PHARMACY",
         "confidence": "medium",
         "note": "Low-dose packs are sold in pharmacies without a prescription; higher strengths need one.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "35873.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "FR": {
         "brand": "Apranax / Naprosyne",
@@ -8603,10 +9131,21 @@
       },
       "DE": {
         "brand": "Voltaren Schmerzgel",
-        "status": "OTC",
-        "confidence": "medium",
+        "status": "PHARMACY",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "9165.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "VoltarenActigo",
@@ -8768,9 +9307,20 @@
       "DE": {
         "brand": "Telfast",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "48446.01.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Allervi (no prescription) / Telfast (Rx)",
@@ -8931,10 +9481,21 @@
       },
       "DE": {
         "brand": "Wick Husten-Löser",
-        "status": "OTC",
+        "status": "PHARMACY",
         "confidence": "low",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "5401.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Vicks Expectorant",
@@ -9094,11 +9655,22 @@
         }
       },
       "DE": {
-        "brand": "Silomat DMP / Hustenstiller-ratiopharm",
-        "status": "OTC",
-        "confidence": "medium",
-        "note": null,
-        "source": null
+        "brand": "Silomat Hustenstiller / Hustenstiller-ratiopharm",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": "Silomat Hustenstiller also comes with a different ingredient (pentoxyverine), so check the pack says Dextromethorphan.",
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "56502.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Tussidane / Pulmodexane",
@@ -9269,10 +9841,21 @@
       },
       "DE": {
         "brand": "Nasivin",
-        "status": "OTC",
-        "confidence": "medium",
+        "status": "PHARMACY",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "6108938.00.01",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Pernazène",
@@ -9575,10 +10158,21 @@
       },
       "DE": {
         "brand": "Rennie",
-        "status": "OTC",
-        "confidence": "medium",
+        "status": "PHARMACY",
+        "confidence": "high",
         "note": "Rennie also contains magnesium carbonate.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "77312.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Rennie",
@@ -9739,10 +10333,21 @@
       },
       "DE": {
         "brand": "Lefax / sab simplex",
-        "status": "OTC",
-        "confidence": "medium",
+        "status": "PHARMACY",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "44189.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Siligaz",
@@ -9880,10 +10485,21 @@
       },
       "DE": {
         "brand": "Elotrans",
-        "status": "OTC",
-        "confidence": "medium",
+        "status": "PHARMACY",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "4877.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Ask for \"soluté de réhydratation orale\" (SRO), e.g. Adiaril",
@@ -10021,10 +10637,21 @@
       },
       "DE": {
         "brand": "Dulcolax",
-        "status": "OTC",
-        "confidence": "medium",
+        "status": "PHARMACY",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "43523.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Dulcolax",
@@ -10184,10 +10811,20 @@
       },
       "DE": {
         "brand": "Movicol / Macrogol-ratiopharm",
-        "status": "OTC",
+        "status": "PHARMACY",
         "confidence": "medium",
-        "note": "Called \"Macrogol\" outside the US.",
-        "source": null
+        "note": "Called \"Macrogol\" outside the US. Movicol Junior (for children) needs a prescription.",
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "89891.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "FR": {
         "brand": "Forlax / Transipeg",
@@ -10498,10 +11135,21 @@
       },
       "DE": {
         "brand": "FeniHydrocort / Ebenol",
-        "status": "OTC",
-        "confidence": "medium",
+        "status": "PHARMACY",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "54735.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Cortapaisyl / CortiSédermyl",
@@ -10672,10 +11320,21 @@
       },
       "DE": {
         "brand": "Canesten",
-        "status": "OTC",
-        "confidence": "medium",
+        "status": "PHARMACY",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "6070101.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "MycoHydralin",
@@ -10834,10 +11493,21 @@
       },
       "DE": {
         "brand": "Tyrosur",
-        "status": "OTC",
-        "confidence": "medium",
+        "status": "PHARMACY",
+        "confidence": "high",
         "note": "Tyrosur is a different antibiotic (tyrothricin) sold without a prescription for small wounds.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "6527902.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Not sold without a prescription — ask for an antiseptic such as \"Biseptine\"",
@@ -10954,7 +11624,7 @@
       },
       "DE": {
         "brand": "Hoggar Night / SchlafTabs-ratiopharm",
-        "status": "OTC",
+        "status": "PHARMACY",
         "confidence": "medium",
         "note": null,
         "source": null
@@ -11106,10 +11776,21 @@
       },
       "DE": {
         "brand": "PiDaNa",
-        "status": "OTC",
-        "confidence": "medium",
+        "status": "PHARMACY",
+        "confidence": "high",
         "note": "Sold in pharmacies without a prescription.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "7010412.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Norlevo",
@@ -11271,9 +11952,20 @@
       "DE": {
         "brand": "Malarone",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "51590.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Malarone",
@@ -11443,9 +12135,19 @@
       "DE": {
         "brand": "Sold generic as \"Doxycyclin\"",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "1230.02.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Doxypalu / Doxy",
@@ -11615,9 +12317,20 @@
       "DE": {
         "brand": "Zithromax",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "37174.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Zithromax",
@@ -11790,9 +12503,20 @@
       "DE": {
         "brand": "Ciprobay",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "8242.04.02",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Ciflox",
@@ -11960,11 +12684,22 @@
         }
       },
       "DE": {
-        "brand": "Diamox / Glaupax",
+        "brand": "Glaupax / Acemit",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "6309022.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Diamox",
@@ -12125,9 +12860,20 @@
       "DE": {
         "brand": "Scopoderm TTS",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "4597.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Scopoderm TTS",
@@ -12276,9 +13022,20 @@
       "DE": {
         "brand": "Zofran",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "36332.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "Zophren",
@@ -12450,9 +13207,20 @@
       "DE": {
         "brand": "Fastjekt / Jext",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Called \"Adrenalin\" in Germany.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMIce drug information system (BfArM, Germany)",
+          "id": "13579.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "checked": "2026-10-08",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "FR": {
         "brand": "EpiPen / Anapen / Jext",

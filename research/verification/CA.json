@@ -2,7 +2,7 @@
   "country": "CA",
   "registry": "Health Canada Drug Product Database",
   "registryVersion": null,
-  "checked": "2026-10-06",
+  "checked": "2026-10-08",
   "summary": {
     "entries": 76,
     "brandEntries": 55,
@@ -94,7 +94,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "73935",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=73935",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -198,7 +198,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "88592",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=88592",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -295,7 +295,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "65175",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=65175",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -400,7 +400,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "43369",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=43369",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -483,7 +483,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "13782",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=13782",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -559,7 +559,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "69200",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=69200",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -621,7 +621,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "9823",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=9823",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -676,7 +676,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "65897",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=65897",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -718,7 +718,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "106383",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=106383",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "ingredient",
           "status"
@@ -800,7 +800,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "3944",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=3944",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -841,7 +841,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "106438",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=106438",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "ingredient",
           "status"
@@ -895,7 +895,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "17104",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=17104",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -964,7 +964,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "13392",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=13392",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -1033,7 +1033,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "65137",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=65137",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -1109,7 +1109,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "49973",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=49973",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -1213,7 +1213,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "19589",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=19589",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -1282,7 +1282,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "17126",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=17126",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -1344,7 +1344,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "12938",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=12938",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -1385,7 +1385,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "96432",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=96432",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "ingredient",
           "status"
@@ -1453,7 +1453,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "19167",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=19167",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -1536,7 +1536,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "15944",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=15944",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -1612,7 +1612,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "75100",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=75100",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -1674,7 +1674,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "47339",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=47339",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -1736,7 +1736,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "74862",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=74862",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -1826,7 +1826,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "73177",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=73177",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -1867,7 +1867,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "103640",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103640",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "ingredient",
           "status"
@@ -1928,7 +1928,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "76060",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=76060",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -1969,7 +1969,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "103543",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103543",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "ingredient",
           "status"
@@ -2082,7 +2082,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "96058",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=96058",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -2151,7 +2151,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "61609",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=61609",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -2192,7 +2192,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "102668",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=102668",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "ingredient",
           "status"
@@ -2260,7 +2260,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "10947",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=10947",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -2301,7 +2301,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "103396",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103396",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "ingredient",
           "status"
@@ -2341,7 +2341,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "80973",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=80973",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "ingredient",
           "status"
@@ -2448,7 +2448,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "72648",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=72648",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -2489,7 +2489,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "103139",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103139",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "ingredient",
           "status"
@@ -2550,7 +2550,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "86287",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=86287",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -2591,7 +2591,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "102470",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=102470",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "ingredient",
           "status"
@@ -2657,7 +2657,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "69790",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=69790",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient"
@@ -2697,7 +2697,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "101197",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=101197",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "ingredient",
           "status"
@@ -2758,7 +2758,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "42879",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=42879",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -2820,7 +2820,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "92871",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=92871",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -2861,7 +2861,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "90309",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=90309",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "ingredient",
           "status"
@@ -2901,7 +2901,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "103980",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103980",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "ingredient",
           "status"
@@ -2976,7 +2976,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "4471",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=4471",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -3031,7 +3031,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "3076",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=3076",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -3086,7 +3086,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "62114",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=62114",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -3162,7 +3162,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "61080",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=61080",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -3259,7 +3259,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "85760",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=85760",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -3335,7 +3335,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "72012",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=72012",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -3411,7 +3411,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "78704",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=78704",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -3494,7 +3494,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "104363",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=104363",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -3570,7 +3570,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "63341",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=63341",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -3705,7 +3705,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "91903",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=91903",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -3760,7 +3760,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "73742",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=73742",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -3857,7 +3857,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "86596",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=86596",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -3933,7 +3933,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "42395",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=42395",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -3988,7 +3988,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "102897",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=102897",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -4081,7 +4081,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "13362",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=13362",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -4183,7 +4183,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "1555",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=1555",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -4262,7 +4262,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "80366",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=80366",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -4329,7 +4329,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "103421",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103421",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "ingredient"
         ]
@@ -4433,7 +4433,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "19479",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=19479",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -4495,7 +4495,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "64139",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=64139",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -4584,7 +4584,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "77922",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=77922",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -4646,7 +4646,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "61542",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=61542",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -4687,7 +4687,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "106441",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=106441",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "ingredient",
           "status"
@@ -4727,7 +4727,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "103468",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103468",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "ingredient",
           "status"
@@ -4816,7 +4816,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "73758",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=73758",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",
@@ -4857,7 +4857,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "102665",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=102665",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "ingredient",
           "status"
@@ -4930,7 +4930,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "106798",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=106798",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "ingredient",
           "status"
@@ -4991,7 +4991,7 @@
         "registry": "Health Canada Drug Product Database",
         "id": "3883",
         "url": "https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=3883",
-        "checked": "2026-10-06",
+        "checked": "2026-10-08",
         "checks": [
           "brand",
           "ingredient",

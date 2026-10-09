@@ -1,0 +1,5408 @@
+{
+  "country": "DE",
+  "registry": "AMIce drug information system (BfArM, Germany)",
+  "registryVersion": "searched 2026-10-08",
+  "checked": "2026-10-08",
+  "summary": {
+    "entries": 76,
+    "brandEntries": 65,
+    "brandEntriesConfirmed": 63,
+    "brandNames": 88,
+    "brandNamesConfirmed": 86,
+    "verified": 71,
+    "statusAgree": 67,
+    "statusDiffer": 5,
+    "statusNotComparable": 4,
+    "confidenceRaised": 2,
+    "flagged": 6
+  },
+  "entries": [
+    {
+      "id": "paracetamol",
+      "generic": "Paracetamol",
+      "brand": "ben-u-ron / Paracetamol-ratiopharm",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "ben-u-ron",
+          "id": "2697.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "ben-u-ron",
+          "products": [
+            {
+              "product": "ben-u-ron",
+              "holder": "bene - Arzneimittel GmbH",
+              "authorisation": "2697.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "ben-u-ron 1000 mg Tabletten",
+              "holder": "bene - Arzneimittel GmbH",
+              "authorisation": "64647.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "ben-u-ron 1000mg",
+              "holder": "bene - Arzneimittel GmbH",
+              "authorisation": "6012055.03.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "ben-u-ron 500 mg Tabletten",
+              "holder": "bene - Arzneimittel GmbH",
+              "authorisation": "76984.00.00",
+              "legal": "prescription"
+            }
+          ]
+        },
+        {
+          "name": "Paracetamol-ratiopharm",
+          "id": "81886.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Paracetamol-ratiopharm 1000 mg Tabletten",
+          "products": [
+            {
+              "product": "Paracetamol-ratiopharm 1000 mg Tabletten",
+              "holder": "ratiopharm GmbH",
+              "authorisation": "81886.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Paracetamol-ratiopharm 1000 mg Zäpfchen",
+              "holder": "ratiopharm GmbH",
+              "authorisation": "2205764.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Paracetamol-ratiopharm 1000 mg Zäpfchen",
+              "holder": "ratiopharm GmbH",
+              "authorisation": "3599.96.97",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Paracetamol-ratiopharm 500 mg Tabletten",
+              "holder": "ratiopharm GmbH",
+              "authorisation": "3599.99.98",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "3599.99.98",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "N02BE01",
+        "marketedProducts": 1053
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 19,
+            "prescription": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "2697.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "ibuprofen",
+      "generic": "Ibuprofen",
+      "brand": "Nurofen / Ibu-ratiopharm",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Nurofen",
+          "id": "50464.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Nurofen 200 mg Schmelztabletten Lemon",
+          "products": [
+            {
+              "product": "Nurofen 200 mg Schmelztabletten Lemon",
+              "holder": "Reckitt Benckiser Deutschland GmbH",
+              "authorisation": "50464.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Nurofen 200 mg Schmelztabletten Mint",
+              "holder": "Reckitt Benckiser Deutschland GmbH",
+              "authorisation": "50462.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Nurofen 400 mg Weichkapseln",
+              "holder": "Reckitt Benckiser Deutschland GmbH",
+              "authorisation": "78463.00.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        },
+        {
+          "name": "Ibu-ratiopharm",
+          "id": "2129.99.99",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "IBU-ratiopharm 200 mg akut Schmerztabletten",
+          "products": [
+            {
+              "product": "IBU-ratiopharm 200 mg akut Schmerztabletten",
+              "holder": "ratiopharm GmbH",
+              "authorisation": "2129.99.99",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Ibu-ratiopharm 400 mg akut Schmerztabletten",
+              "holder": "ratiopharm GmbH",
+              "authorisation": "8100.01.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "IBU-ratiopharm direkt 200 mg Pulver zum Einnehmen",
+              "holder": "ratiopharm GmbH",
+              "authorisation": "94807.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Ibu-ratiopharm 400 mg Filmtabletten",
+              "holder": "ratiopharm GmbH",
+              "authorisation": "14496.01.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Ibu-ratiopharm 600 mg Filmtabletten",
+              "holder": "ratiopharm GmbH",
+              "authorisation": "16710.02.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Ibu-ratiopharm 800 mg Filmtabletten",
+              "holder": "ratiopharm GmbH",
+              "authorisation": "17645.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "7008675.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "M01AE01",
+        "marketedProducts": 230
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "MIXED",
+        "result": "differ",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 24,
+            "prescription": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "50464.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Status differs: entry PHARMACY, registry MIXED"
+      ]
+    },
+    {
+      "id": "loratadine",
+      "generic": "Loratadine",
+      "brand": "Lorano (akut) — or generic \"Loratadin STADA / AL\"",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lorano",
+          "id": "47097.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Lorano akut",
+          "products": [
+            {
+              "product": "Lorano akut",
+              "holder": "H e x a l Aktiengesellschaft",
+              "authorisation": "47097.00.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "52319.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "R06AX13",
+        "marketedProducts": 11
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "47097.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "cetirizine",
+      "generic": "Cetirizine",
+      "brand": "Zyrtec",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zyrtec",
+          "id": "25701.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Zyrtec",
+          "products": [
+            {
+              "product": "Zyrtec",
+              "holder": "kohlpharma GmbH",
+              "authorisation": "25701.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Zyrtec",
+              "holder": "ACA Müller ADAG Pharma Aktiengesellschaft",
+              "authorisation": "28005.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Zyrtec",
+              "holder": "kohlpharma GmbH",
+              "authorisation": "39736.00.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "99940.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "R06AE07",
+        "marketedProducts": 39
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 9
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "25701.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "diphenhydramine",
+      "generic": "Diphenhydramine",
+      "brand": "Generic name: \"Diphenhydramin\" — not a common first-line antihistamine; limited OTC presence",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "2203962.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "R06AA02",
+        "marketedProducts": 1
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "NO_RX",
+        "result": "na",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "2203962.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "loperamide",
+      "generic": "Loperamide",
+      "brand": "Imodium akut",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Imodium akut",
+          "id": "7018230.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Imodium akut",
+          "products": [
+            {
+              "product": "Imodium akut",
+              "holder": "European Pharma B.V.",
+              "authorisation": "7018230.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Imodium akut",
+              "holder": "EMRA-MED Arzneimittel GmbH",
+              "authorisation": "30044.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Imodium akut",
+              "holder": "kohlpharma GmbH",
+              "authorisation": "30209.00.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "7018230.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "A07DA03",
+        "marketedProducts": 40
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 9
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "7018230.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "omeprazole",
+      "generic": "Omeprazole",
+      "brand": "Omep / Antra",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Omep",
+          "id": "77976.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "OMEP HEXAL 20 mg magensaftresistente Tabletten",
+          "products": [
+            {
+              "product": "OMEP HEXAL 20 mg magensaftresistente Tabletten",
+              "holder": "H e x a l Aktiengesellschaft",
+              "authorisation": "77976.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "OMEP HEXAL 20 mg, magensaftresistente Hartkapseln",
+              "holder": "H e x a l Aktiengesellschaft",
+              "authorisation": "47677.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "OMEP 10 mg magensaftresistente Hartkapseln",
+              "holder": "H e x a l Aktiengesellschaft",
+              "authorisation": "72641.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "OMEP 20 mg",
+              "holder": "H e x a l Aktiengesellschaft",
+              "authorisation": "72642.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "OMEP 40 mg",
+              "holder": "H e x a l Aktiengesellschaft",
+              "authorisation": "72643.00.00",
+              "legal": "prescription"
+            }
+          ]
+        },
+        {
+          "name": "Antra",
+          "id": "40292.02.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Antra MUPS 10 mg",
+          "products": [
+            {
+              "product": "Antra MUPS 10 mg",
+              "holder": "Cheplapharm Arzneimittel GmbH",
+              "authorisation": "40292.02.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Antra MUPS 20 mg",
+              "holder": "Cheplapharm Arzneimittel GmbH",
+              "authorisation": "39993.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "7016174.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "A02BC01",
+        "marketedProducts": 92
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 2,
+            "prescription": 9
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "77976.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "pseudoephedrine",
+      "generic": "Pseudoephedrine",
+      "brand": "Aspirin Complex / BoxaGrippal / Reactine duo",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Aspirin Complex",
+          "id": "78358.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Aspirin Complex",
+          "products": [
+            {
+              "product": "Aspirin Complex",
+              "holder": "Bayer Vital GmbH",
+              "authorisation": "78358.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Aspirin Complex",
+              "holder": "Bayer Vital GmbH",
+              "authorisation": "78359.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Aspirin Complex Granulat-Sticks 500 mg/30 mg Granulat",
+              "holder": "Bayer Vital GmbH",
+              "authorisation": "2204928.00.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        },
+        {
+          "name": "BoxaGrippal",
+          "id": "90668.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "BoxaGrippal Erkältungssaft 200 mg/10 ml + 30 mg/10 ml Suspension zum Einnehmen",
+          "products": [
+            {
+              "product": "BoxaGrippal Erkältungssaft 200 mg/10 ml + 30 mg/10 ml Suspension zum Einnehmen",
+              "holder": "Angelini Pharma Italia Aziende Chimiche Riunite Angelini Francesco - A.C.R.A.F. S.P.A. HR-Beinamen: Angelini Pharma Italia S.P.A., Angelini Pharma S.P.A., A.C.R.A.F. S.P.A., ACRAF S.P.A., Angelini S.P.A., Aziende Chimiche Riunite Angelini Franscesco - A.C.R.A.F. S.P.A.",
+              "authorisation": "90668.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "BoxaGrippal Erkältungstabletten 200mg/30mg Filmtabletten",
+              "holder": "Angelini Pharma Italia Aziende Chimiche Riunite Angelini Francesco - A.C.R.A.F. S.P.A. HR-Beinamen: Angelini Pharma Italia S.P.A., Angelini Pharma S.P.A., A.C.R.A.F. S.P.A., ACRAF S.P.A., Angelini S.P.A., Aziende Chimiche Riunite Angelini Franscesco - A.C.R.A.F. S.P.A.",
+              "authorisation": "85528.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "BoxaGrippal forte Erkältungstabletten 400 mg/60 mg Filmtabletten",
+              "holder": "Angelini Pharma Italia Aziende Chimiche Riunite Angelini Francesco - A.C.R.A.F. S.P.A. HR-Beinamen: Angelini Pharma Italia S.P.A., Angelini Pharma S.P.A., A.C.R.A.F. S.P.A., ACRAF S.P.A., Angelini S.P.A., Aziende Chimiche Riunite Angelini Franscesco - A.C.R.A.F. S.P.A.",
+              "authorisation": "97699.00.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        },
+        {
+          "name": "Reactine duo",
+          "id": "47100.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Reactine duo",
+          "products": [
+            {
+              "product": "Reactine duo",
+              "holder": "Kenvue Germany GmbH",
+              "authorisation": "47100.00.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "78358.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "Pseudoephedrin",
+        "marketedProducts": 27
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "78358.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "melatonin",
+      "generic": "Melatonin",
+      "brand": "Prescription-only in most cases",
+      "kind": "other",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "7010873.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "N05CH01",
+        "marketedProducts": 62
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 1,
+            "prescription": 61
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "7010873.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "dimenhydrinate",
+      "generic": "Dimenhydrinate",
+      "brand": "Vomex A",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Vomex A",
+          "id": "2202747.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Vomex A 12,5 mg Kinder Lösung zum Einnehmen im Beutel für Kinder über 10 kg Körpergewicht",
+          "products": [
+            {
+              "product": "Vomex A 12,5 mg Kinder Lösung zum Einnehmen im Beutel für Kinder über 10 kg Körpergewicht",
+              "holder": "Klinge Pharma GmbH",
+              "authorisation": "2202747.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Vomex A 50 mg Lösung zum Einnehmen im Beutel",
+              "holder": "Klinge Pharma GmbH",
+              "authorisation": "2202748.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Vomex A Dragees",
+              "holder": "Klinge Pharma GmbH",
+              "authorisation": "6579997.00.02",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Vomex A i.m. Injektionslösung",
+              "holder": "Klinge Pharma GmbH",
+              "authorisation": "6580523.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Vomex A i.v. Injektionslösung",
+              "holder": "Klinge Pharma GmbH",
+              "authorisation": "6581008.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1879.99.98",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "Dimenhydrinat",
+        "marketedProducts": 36
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "MIXED",
+        "result": "differ",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 9,
+            "prescription": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "2202747.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Status differs: entry PHARMACY, registry MIXED"
+      ]
+    },
+    {
+      "id": "amoxicillin",
+      "generic": "Amoxicillin",
+      "brand": "Amoxi / Amoxicillin-ratiopharm",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Amoxi",
+          "id": "32376.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Amoxi 1000-1 A Pharma",
+          "products": [
+            {
+              "product": "Amoxi 1000-1 A Pharma",
+              "holder": "1 A Pharma GmbH",
+              "authorisation": "32376.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Amoxi 250 TS - 1 A Pharma",
+              "holder": "1 A Pharma GmbH",
+              "authorisation": "7213.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Amoxi 500 - 1 A Pharma",
+              "holder": "1 A Pharma GmbH",
+              "authorisation": "2467.02.00",
+              "legal": "prescription"
+            }
+          ]
+        },
+        {
+          "name": "Amoxicillin-ratiopharm",
+          "id": "1883.02.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Amoxicillin-ratiopharm 1000mg Filmtabletten",
+          "products": [
+            {
+              "product": "Amoxicillin-ratiopharm 1000mg Filmtabletten",
+              "holder": "ratiopharm GmbH",
+              "authorisation": "1883.02.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Amoxicillin-ratiopharm 250mg/5ml TS",
+              "holder": "ratiopharm GmbH",
+              "authorisation": "1883.02.01",
+              "legal": "prescription"
+            },
+            {
+              "product": "Amoxicillin-ratiopharm 500mg Filmtabletten",
+              "holder": "ratiopharm GmbH",
+              "authorisation": "1883.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "32376.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "J01CA04",
+        "marketedProducts": 50
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 52
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "32376.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "metformin",
+      "generic": "Metformin",
+      "brand": "Glucophage / Metformin-ratiopharm",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Glucophage",
+          "id": "51643.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Glucophage 1000 mg Filmtabletten",
+          "products": [
+            {
+              "product": "Glucophage 1000 mg Filmtabletten",
+              "holder": "Merck Healthcare Germany GmbH",
+              "authorisation": "51643.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Glucophage 500 mg Filmtabletten",
+              "holder": "Merck Healthcare Germany GmbH",
+              "authorisation": "6207899.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Glucophage 850 mg",
+              "holder": "Docpharm GmbH",
+              "authorisation": "53891.01.00",
+              "legal": "prescription"
+            }
+          ]
+        },
+        {
+          "name": "Metformin-ratiopharm",
+          "id": "67359.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Metformin-ratiopharm 1.000 mg Filmtabletten",
+          "products": [
+            {
+              "product": "Metformin-ratiopharm 1.000 mg Filmtabletten",
+              "holder": "ratiopharm GmbH",
+              "authorisation": "67359.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Metformin-ratiopharm 1000 mg Filmtabletten",
+              "holder": "ratiopharm GmbH",
+              "authorisation": "7003813.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Metformin-ratiopharm 500 mg Filmtabletten",
+              "holder": "ratiopharm GmbH",
+              "authorisation": "62977.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "51643.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "A10BA02",
+        "marketedProducts": 97
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 12
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "51643.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "sertraline",
+      "generic": "Sertraline",
+      "brand": "Zoloft / Gladem",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zoloft",
+          "id": "49564.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Zoloft 100 mg",
+          "products": [
+            {
+              "product": "Zoloft 100 mg",
+              "holder": "EMRA-MED Arzneimittel GmbH",
+              "authorisation": "49564.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Zoloft 100 mg",
+              "holder": "kohlpharma GmbH",
+              "authorisation": "54625.01.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "ZOLOFT 100 mg Filmtabletten",
+              "holder": "B2B Medical GmbH",
+              "authorisation": "7024794.00.00",
+              "legal": "prescription"
+            }
+          ]
+        },
+        {
+          "name": "Gladem",
+          "id": "54453.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Gladem 50 mg",
+          "products": [
+            {
+              "product": "Gladem 50 mg",
+              "holder": "kohlpharma GmbH",
+              "authorisation": "54453.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "54453.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "N06AB06",
+        "marketedProducts": 75
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 16
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "49564.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "albuterol",
+      "generic": "Salbutamol",
+      "brand": "Sultanol / Salbulair",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Sultanol",
+          "id": "7016139.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Sultanol Dosier-Aerosol",
+          "products": [
+            {
+              "product": "Sultanol Dosier-Aerosol",
+              "holder": "European Pharma B.V.",
+              "authorisation": "7016139.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Sultanol Dosier-Aerosol",
+              "holder": "GlaxoSmithKline GmbH & Co. KG",
+              "authorisation": "40393.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Sultanol Fertiginhalat",
+              "holder": "GlaxoSmithKline GmbH & Co. KG",
+              "authorisation": "3940.00.00",
+              "legal": "prescription"
+            }
+          ]
+        },
+        {
+          "name": "Salbulair",
+          "id": "52662.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Salbulair N 100 µg Easi-Breathe Druckgasinhalation, Suspension",
+          "products": [
+            {
+              "product": "Salbulair N 100 µg Easi-Breathe Druckgasinhalation, Suspension",
+              "holder": "TEVA GmbH",
+              "authorisation": "52662.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "41204.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "R03AC02",
+        "marketedProducts": 36
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "7016139.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "atorvastatin",
+      "generic": "Atorvastatin",
+      "brand": "Sortis",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Sortis",
+          "id": "88574.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Sortis 10 mg",
+          "products": [
+            {
+              "product": "Sortis 10 mg",
+              "holder": "kohlpharma GmbH",
+              "authorisation": "88574.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Sortis 10 mg",
+              "holder": "EMRA-MED Arzneimittel GmbH",
+              "authorisation": "45401.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Sortis 10 mg Filmtabletten",
+              "holder": "B2B Medical GmbH",
+              "authorisation": "7017109.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "87744.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "C10AA05",
+        "marketedProducts": 213
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 36
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "88574.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "levothyroxine",
+      "generic": "Levothyroxine",
+      "brand": "Euthyrox / L-Thyroxin Henning",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Euthyrox",
+          "id": "53487.02.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Euthyrox 100 Mikrogramm",
+          "products": [
+            {
+              "product": "Euthyrox 100 Mikrogramm",
+              "holder": "EMRA-MED Arzneimittel GmbH",
+              "authorisation": "53487.02.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Euthyrox 100 Mikrogramm Tabletten",
+              "holder": "Merck Healthcare Germany GmbH",
+              "authorisation": "43050.03.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Euthyrox 100 µg",
+              "holder": "kohlpharma GmbH",
+              "authorisation": "45104.00.00",
+              "legal": "prescription"
+            }
+          ]
+        },
+        {
+          "name": "L-Thyroxin Henning",
+          "id": "6295.01.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "L-Thyroxin Henning 100",
+          "products": [
+            {
+              "product": "L-Thyroxin Henning 100",
+              "holder": "Sanofi-Aventis Deutschland GmbH",
+              "authorisation": "6295.01.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "L-Thyroxin Henning 112 Mikrogramm Tabletten",
+              "holder": "Sanofi-Aventis Deutschland GmbH",
+              "authorisation": "2203960.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "L-Thyroxin Henning 125",
+              "holder": "Sanofi-Aventis Deutschland GmbH",
+              "authorisation": "1451.02.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "5189.02.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "H03AA01",
+        "marketedProducts": 232
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 34
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "53487.02.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "lisinopril",
+      "generic": "Lisinopril",
+      "brand": "Sold generic as \"Lisinopril\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "43691.02.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "C09AA03",
+        "marketedProducts": 51
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 51
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "43691.02.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amlodipine",
+      "generic": "Amlodipine",
+      "brand": "Norvasc",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Norvasc",
+          "id": "16909.01.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Norvasc 10 mg",
+          "products": [
+            {
+              "product": "Norvasc 10 mg",
+              "holder": "Viatris Pharma GmbH",
+              "authorisation": "16909.01.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Norvasc 5 mg",
+              "holder": "Allomedic GmbH",
+              "authorisation": "95013.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Norvasc 5 mg",
+              "holder": "AxiCorp Pharma GmbH",
+              "authorisation": "93306.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "61317.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "C08CA01",
+        "marketedProducts": 65
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 13
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "16909.01.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "metoprolol",
+      "generic": "Metoprolol",
+      "brand": "Beloc",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Beloc",
+          "id": "4895.00.02",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Beloc i.v.",
+          "products": [
+            {
+              "product": "Beloc i.v.",
+              "holder": "Recordati Industria Chimica E Farmaceutica S.p.A. in Breve Recordati S.p.A.",
+              "authorisation": "4895.00.02",
+              "legal": "prescription"
+            },
+            {
+              "product": "Beloc-Zok 95 mg",
+              "holder": "Recordati Industria Chimica E Farmaceutica S.p.A. in Breve Recordati S.p.A.",
+              "authorisation": "48563.02.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Beloc-Zok forte 190 mg",
+              "holder": "Recordati Industria Chimica E Farmaceutica S.p.A. in Breve Recordati S.p.A.",
+              "authorisation": "48563.03.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "4895.00.02",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "C07AB02",
+        "marketedProducts": 115
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "4895.00.02",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "losartan",
+      "generic": "Losartan",
+      "brand": "Lorzaar",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lorzaar",
+          "id": "41546.02.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "LORZAAR PROTECT 100 mg Filmtabletten",
+          "products": [
+            {
+              "product": "LORZAAR PROTECT 100 mg Filmtabletten",
+              "holder": "Organon Healthcare GmbH",
+              "authorisation": "41546.02.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "LORZAAR PROTECT 100 mg Filmtabletten",
+              "holder": "BB Farma s.r.l.",
+              "authorisation": "7023180.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "LORZAAR PROTECT 50 mg Filmtabletten",
+              "holder": "Organon Healthcare GmbH",
+              "authorisation": "41546.01.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "37518.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "C09CA01",
+        "marketedProducts": 88
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "41546.02.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "gabapentin",
+      "generic": "Gabapentin",
+      "brand": "Neurontin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Neurontin",
+          "id": "47275.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Neurontin 100 mg Hartkapseln",
+          "products": [
+            {
+              "product": "Neurontin 100 mg Hartkapseln",
+              "holder": "Viatris Pharma GmbH",
+              "authorisation": "47275.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Neurontin 300 mg Hartkapseln",
+              "holder": "Viatris Pharma GmbH",
+              "authorisation": "47275.01.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Neurontin 300 mg Hartkapseln",
+              "holder": "B2B Medical GmbH",
+              "authorisation": "7019934.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "60127.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "N02BF01",
+        "marketedProducts": 97
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "47275.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "rosuvastatin",
+      "generic": "Rosuvastatin",
+      "brand": "Crestor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Crestor",
+          "id": "81348.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Crestor 10 mg",
+          "products": [
+            {
+              "product": "Crestor 10 mg",
+              "holder": "Allomedic GmbH",
+              "authorisation": "81348.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "CRESTOR 10 mg",
+              "holder": "kohlpharma GmbH",
+              "authorisation": "78787.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Crestor 10 mg",
+              "holder": "FD Pharma GmbH",
+              "authorisation": "7017324.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "81348.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "C10AA07",
+        "marketedProducts": 126
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 41
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "81348.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "pantoprazole",
+      "generic": "Pantoprazole",
+      "brand": "Pantozol / Pantozol Control",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Pantozol",
+          "id": "EU/1/09/517/004",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "PANTOZOL Control 20 mg magensaftresistente Tabletten - OP14",
+          "products": [
+            {
+              "product": "PANTOZOL Control 20 mg magensaftresistente Tabletten - OP14",
+              "holder": "Takeda GmbH",
+              "authorisation": "EU/1/09/517/004",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "PANTOZOL Control 20 mg magensaftresistente Tabletten - OP14",
+              "holder": "Takeda GmbH",
+              "authorisation": "EU/1/09/517/002",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "PANTOZOL Control 20 mg magensaftresistente Tabletten - OP7",
+              "holder": "Takeda GmbH",
+              "authorisation": "EU/1/09/517/003",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Pantozol 20 mg",
+              "holder": "AxiCorp Pharma GmbH",
+              "authorisation": "97672.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Pantozol 20 mg",
+              "holder": "Takeda GmbH",
+              "authorisation": "43404.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Pantozol 20 mg",
+              "holder": "kohlpharma GmbH",
+              "authorisation": "53373.00.00",
+              "legal": "prescription"
+            }
+          ]
+        },
+        {
+          "name": "Pantozol Control",
+          "id": "EU/1/09/517/004",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "PANTOZOL Control 20 mg magensaftresistente Tabletten - OP14",
+          "products": [
+            {
+              "product": "PANTOZOL Control 20 mg magensaftresistente Tabletten - OP14",
+              "holder": "Takeda GmbH",
+              "authorisation": "EU/1/09/517/004",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "PANTOZOL Control 20 mg magensaftresistente Tabletten - OP14",
+              "holder": "Takeda GmbH",
+              "authorisation": "EU/1/09/517/002",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "PANTOZOL Control 20 mg magensaftresistente Tabletten - OP7",
+              "holder": "Takeda GmbH",
+              "authorisation": "EU/1/09/517/003",
+              "legal": "pharmacy-only"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "EU/1/09/515/002",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "A02BC02",
+        "marketedProducts": 140
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 8,
+            "prescription": 14
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "EU/1/09/517/004",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "escitalopram",
+      "generic": "Escitalopram",
+      "brand": "Cipralex",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Cipralex",
+          "id": "64675.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Cipralex 10 mg Filmtabletten",
+          "products": [
+            {
+              "product": "Cipralex 10 mg Filmtabletten",
+              "holder": "Orifarm GmbH - Geschäftsanschrift -",
+              "authorisation": "64675.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Cipralex 10 mg Filmtabletten",
+              "holder": "kohlpharma GmbH",
+              "authorisation": "60655.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Cipralex 10 mg Filmtabletten",
+              "holder": "H. Lundbeck A/S HR-Beiname: Kefalas A/S",
+              "authorisation": "55880.01.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "64675.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "N06AB10",
+        "marketedProducts": 111
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 25
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "64675.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amphetamine",
+      "generic": "Amphetamine / Dextroamphetamine",
+      "brand": "Attentin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Attentin",
+          "id": "94042.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Attentin 10 mg",
+          "products": [
+            {
+              "product": "Attentin 10 mg",
+              "holder": "MEDICE Arzneimittel Pütter GmbH & Co. KG",
+              "authorisation": "94042.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Attentin 10 mg",
+              "holder": "Candoro ethics GmbH",
+              "authorisation": "7017666.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Attentin 10 mg",
+              "holder": "Allomedic GmbH",
+              "authorisation": "7016599.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "94042.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "Dexamfetamin",
+        "marketedProducts": 27
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 3,
+            "narcotic prescription": 17
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "94042.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrochlorothiazide",
+      "generic": "Hydrochlorothiazide",
+      "brand": "HCT (e.g. HCT HEXAL, HCT-ratiopharm)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "HCT",
+          "id": "40202.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "HCT - 1 A Pharma 12,5 mg Tabletten",
+          "products": [
+            {
+              "product": "HCT - 1 A Pharma 12,5 mg Tabletten",
+              "holder": "1 A Pharma GmbH",
+              "authorisation": "40202.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "HCT - 1 A Pharma 25 mg Tabletten",
+              "holder": "1 A Pharma GmbH",
+              "authorisation": "40202.01.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "HCT AAA 12,5 mg Tabletten",
+              "holder": "AAA-Pharma GmbH",
+              "authorisation": "69374.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "40202.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "C03AA03",
+        "marketedProducts": 23
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 23
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "40202.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "bupropion",
+      "generic": "Bupropion",
+      "brand": "Elontril",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Elontril",
+          "id": "91726.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Elontril 150 mg",
+          "products": [
+            {
+              "product": "Elontril 150 mg",
+              "holder": "Pharma Gerke Arzneimittelvertriebs GmbH",
+              "authorisation": "91726.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Elontril 150 mg",
+              "holder": "FD Pharma GmbH",
+              "authorisation": "7017319.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Elontril 150 mg",
+              "holder": "EurimPharm Arzneimittel GmbH",
+              "authorisation": "70246.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "7025334.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "N06AX12",
+        "marketedProducts": 61
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 23
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "91726.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "fluoxetine",
+      "generic": "Fluoxetine",
+      "brand": "Sold generic as \"Fluoxetin\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "40255.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "N06AB03",
+        "marketedProducts": 26
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 26
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "40255.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "semaglutide",
+      "generic": "Semaglutide",
+      "brand": "Ozempic / Wegovy",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ozempic",
+          "id": "EU/1/17/1251/013",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Ozempic 0,5 mg Injektionslösung im Fertigpen",
+          "products": [
+            {
+              "product": "Ozempic 0,5 mg Injektionslösung im Fertigpen",
+              "holder": "Novo Nordisk A/S",
+              "authorisation": "EU/1/17/1251/013",
+              "legal": "prescription"
+            },
+            {
+              "product": "Ozempic 0,25 mg Injektionslösung in einer Fertigspritze",
+              "holder": "Novo Nordisk A/S",
+              "authorisation": "EU/1/17/1251/016",
+              "legal": "prescription"
+            },
+            {
+              "product": "Ozempic 1 mg Injektionslösung im Fertigpen",
+              "holder": "Novo Nordisk A/S",
+              "authorisation": "EU/1/17/1251/015",
+              "legal": "prescription"
+            }
+          ]
+        },
+        {
+          "name": "Wegovy",
+          "id": "EU/1/21/1608/019",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Wegovy 9 mg Tabletten",
+          "products": [
+            {
+              "product": "Wegovy 9 mg Tabletten",
+              "holder": "Novo Nordisk A/S",
+              "authorisation": "EU/1/21/1608/019",
+              "legal": "prescription"
+            },
+            {
+              "product": "Wegovy 0,25 mg Injektionslösung im Fertigpen",
+              "holder": "Novo Nordisk A/S",
+              "authorisation": "EU/1/21/1608/001",
+              "legal": "prescription"
+            },
+            {
+              "product": "Wegovy 9 mg Tabletten",
+              "holder": "Novo Nordisk A/S",
+              "authorisation": "EU/1/21/1608/020",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "EU/1/26/2019/004",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "A10BJ06",
+        "marketedProducts": 139
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 93
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "EU/1/17/1251/013",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "montelukast",
+      "generic": "Montelukast",
+      "brand": "Singulair",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Singulair",
+          "id": "44579.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Singulair 10 mg",
+          "products": [
+            {
+              "product": "Singulair 10 mg",
+              "holder": "EMRA-MED Arzneimittel GmbH",
+              "authorisation": "44579.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Singulair 10 mg",
+              "holder": "FD Pharma GmbH",
+              "authorisation": "7017321.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Singulair 10 mg Filmtabletten",
+              "holder": "CC - Pharma GmbH",
+              "authorisation": "73804.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "81572.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "R03DC03",
+        "marketedProducts": 82
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 25
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "44579.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "trazodone",
+      "generic": "Trazodone",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "2204234.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "N06AX05",
+        "marketedProducts": 13
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 13
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "2204234.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "simvastatin",
+      "generic": "Simvastatin",
+      "brand": "Zocor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zocor",
+          "id": "35406.01.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZOCOR 10 mg Filmtabletten",
+          "products": [
+            {
+              "product": "ZOCOR 10 mg Filmtabletten",
+              "holder": "Organon Healthcare GmbH",
+              "authorisation": "35406.01.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Zocor 20 mg",
+              "holder": "kohlpharma GmbH",
+              "authorisation": "41866.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Zocor 20 mg Filmtabletten",
+              "holder": "EurimPharm Arzneimittel GmbH",
+              "authorisation": "2204187.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "60334.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "C10AA01",
+        "marketedProducts": 92
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "35406.01.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "tamsulosin",
+      "generic": "Tamsulosin",
+      "brand": "Alna / Tamsulosin-ratiopharm",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Alna",
+          "id": "61324.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Alna Ocas 0,4 mg Retardtabletten",
+          "products": [
+            {
+              "product": "Alna Ocas 0,4 mg Retardtabletten",
+              "holder": "Boehringer Ingelheim Pharma GmbH & Co.KG",
+              "authorisation": "61324.00.00",
+              "legal": "prescription"
+            }
+          ]
+        },
+        {
+          "name": "Tamsulosin-ratiopharm",
+          "id": "63515.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Tamsulosin-ratiopharm 0,4 mg Hartkapseln mit veränderter Wirkstofffreisetzung",
+          "products": [
+            {
+              "product": "Tamsulosin-ratiopharm 0,4 mg Hartkapseln mit veränderter Wirkstofffreisetzung",
+              "holder": "ratiopharm GmbH",
+              "authorisation": "63515.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "61324.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "G04CA02",
+        "marketedProducts": 49
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "61324.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrocodone",
+      "generic": "Hydrocodone / Paracetamol combination",
+      "brand": "Dicodid (the German brand) was discontinued years ago — no hydrocodone product is currently marketed",
+      "kind": "other",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "N02AJ22",
+        "marketedProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "fluticasone",
+      "generic": "Fluticasone",
+      "brand": "Flutide (nasal spray, OTC) / Flutide inhaler (Rx)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Flutide",
+          "id": "23247.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Flutide Nasal",
+          "products": [
+            {
+              "product": "Flutide Nasal",
+              "holder": "GlaxoSmithKline GmbH & Co. KG",
+              "authorisation": "23247.00.00",
+              "legal": "prescription"
+            }
+          ]
+        },
+        {
+          "name": "Flutide inhaler",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "no marketable product of this name with this ingredient (AMIce lists OTRI, FLUTICA, FLUTIDE)",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "23248.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "R01AD08",
+        "marketedProducts": 3
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "RX",
+        "result": "differ",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 1
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": [
+        "Brand \"Flutide inhaler\" not confirmed: no marketable product of this name with this ingredient (AMIce lists OTRI, FLUTICA, FLUTIDE)",
+        "Status differs: entry MIXED, registry RX"
+      ]
+    },
+    {
+      "id": "meloxicam",
+      "generic": "Meloxicam",
+      "brand": "Mobec",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Mobec",
+          "id": "36062.01.01",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Mobec 15mg Tabletten",
+          "products": [
+            {
+              "product": "Mobec 15mg Tabletten",
+              "holder": "Boehringer Ingelheim Pharma GmbH & Co.KG",
+              "authorisation": "36062.01.01",
+              "legal": "prescription"
+            },
+            {
+              "product": "Mobec 7.5mg Tabletten",
+              "holder": "Boehringer Ingelheim Pharma GmbH & Co.KG",
+              "authorisation": "36062.00.01",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "62507.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "M01AC06",
+        "marketedProducts": 7
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "36062.01.01",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "apixaban",
+      "generic": "Apixaban",
+      "brand": "Eliquis",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Eliquis",
+          "id": "EU/1/11/691/013",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Eliquis 2,5 mg Filmtabletten - OP 168",
+          "products": [
+            {
+              "product": "Eliquis 2,5 mg Filmtabletten - OP 168",
+              "holder": "Abacus Medicine A/S",
+              "authorisation": "EU/1/11/691/013",
+              "legal": "prescription"
+            },
+            {
+              "product": "Eliquis 2,5 mg Filmtabletten - OP 60",
+              "holder": "SynCo pharma B.V.",
+              "authorisation": "EU/1/11/691/003",
+              "legal": "prescription"
+            },
+            {
+              "product": "ELIQUIS 2,5 mg Filmtabletten - OP 60 2,5 mg Filmtabletten",
+              "holder": "Abacus Medicine A/S",
+              "authorisation": "EU/1/11/691/003",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "7001779.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "B01AF02",
+        "marketedProducts": 210
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 58
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "EU/1/11/691/013",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "furosemide",
+      "generic": "Furosemide",
+      "brand": "Lasix",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lasix",
+          "id": "6132084.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Lasix 20mg Injektionslösung",
+          "products": [
+            {
+              "product": "Lasix 20mg Injektionslösung",
+              "holder": "Sanofi-Aventis Deutschland GmbH",
+              "authorisation": "6132084.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Lasix 250 mg Infusionslösung",
+              "holder": "Sanofi-Aventis Deutschland GmbH",
+              "authorisation": "6132115.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Lasix 40 mg Tabletten",
+              "holder": "Sanofi-Aventis Deutschland GmbH",
+              "authorisation": "6132196.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "7259.00.01",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "C03CA01",
+        "marketedProducts": 58
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 7
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "6132084.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-glargine",
+      "generic": "Insulin Glargine",
+      "brand": "Lantus",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lantus",
+          "id": "EU/1/00/134/037",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Lantus 100 I.E. / ml Injektionslösung in Fertigpen OP 10",
+          "products": [
+            {
+              "product": "Lantus 100 I.E. / ml Injektionslösung in Fertigpen OP 10",
+              "holder": "ACA Müller ADAG Pharma Aktiengesellschaft",
+              "authorisation": "EU/1/00/134/037",
+              "legal": "prescription"
+            },
+            {
+              "product": "Lantus 100 I.E. / ml Injektionslösung in Fertigpen OP 10",
+              "holder": "1 4 U Pharma GmbH",
+              "authorisation": "EU/1/00/134/037",
+              "legal": "prescription"
+            },
+            {
+              "product": "Lantus 100 I.E. / ml Injektionslösung in Fertigpen OP 10",
+              "holder": "2CARE4 ApS HR-Beiname: Aurora Medical ApS",
+              "authorisation": "EU/1/00/134/037",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "EU/1/14/944/015",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "A10AE04",
+        "marketedProducts": 138
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 56
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "EU/1/00/134/037",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "duloxetine",
+      "generic": "Duloxetine",
+      "brand": "Cymbalta",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Cymbalta",
+          "id": "EU/1/04/296/001",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Cymbalta 30 mg magensaftresistente Hartkapseln - OP28",
+          "products": [
+            {
+              "product": "Cymbalta 30 mg magensaftresistente Hartkapseln - OP28",
+              "holder": "BB Farma s.r.l.",
+              "authorisation": "EU/1/04/296/001",
+              "legal": "prescription"
+            },
+            {
+              "product": "Cymbalta 30 mg magensaftresistente Hartkapseln - OP28",
+              "holder": "Cambridge Major Laboratories Europe B.V. CML-Europe BV",
+              "authorisation": "EU/1/04/296/001",
+              "legal": "prescription"
+            },
+            {
+              "product": "Cymbalta 30 mg magensaftresistente Hartkapseln - OP28",
+              "holder": "kohlpharma GmbH",
+              "authorisation": "EU/1/04/296/001",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "EU/1/04/296/001",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "N06AX21",
+        "marketedProducts": 355
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 91
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "EU/1/04/296/001",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "famotidine",
+      "generic": "Famotidine",
+      "brand": "Pepdul",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Pepdul",
+          "id": "5775.01.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Pepdul 40 mg Filmtabletten",
+          "products": [
+            {
+              "product": "Pepdul 40 mg Filmtabletten",
+              "holder": "TEOFARMA S.R.L.",
+              "authorisation": "5775.01.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Pepdul mite 20 mg Filmtabletten",
+              "holder": "TEOFARMA S.R.L.",
+              "authorisation": "5775.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "7014921.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "A02BA03",
+        "marketedProducts": 10
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "5775.01.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "empagliflozin",
+      "generic": "Empagliflozin",
+      "brand": "Jardiance",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Jardiance",
+          "id": "EU/1/14/930/018",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Jardiance 10 mg Filmtabletten - OP 100",
+          "products": [
+            {
+              "product": "Jardiance 10 mg Filmtabletten - OP 100",
+              "holder": "PB Pharma GmbH",
+              "authorisation": "EU/1/14/930/018",
+              "legal": "prescription"
+            },
+            {
+              "product": "Jardiance 10 mg Filmtabletten - OP 100",
+              "holder": "B2B Medical GmbH",
+              "authorisation": "EU/1/14/930/018",
+              "legal": "prescription"
+            },
+            {
+              "product": "Jardiance 10 mg Filmtabletten - OP 100 10 mg Filmtabletten",
+              "holder": "2CARE4 ApS HR-Beiname: Aurora Medical ApS",
+              "authorisation": "EU/1/14/930/018",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "7017654.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "A10BK03",
+        "marketedProducts": 32
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 28
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "EU/1/14/930/018",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "carvedilol",
+      "generic": "Carvedilol",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "58440.02.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "C07AG02",
+        "marketedProducts": 64
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 64
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "58440.02.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "tramadol",
+      "generic": "Tramadol",
+      "brand": "Tramal",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tramal",
+          "id": "1116.00.02",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Tramal 100 mg",
+          "products": [
+            {
+              "product": "Tramal 100 mg",
+              "holder": "Grünenthal GmbH",
+              "authorisation": "1116.00.02",
+              "legal": "prescription"
+            },
+            {
+              "product": "Tramal 100 mg/ml Lösung zum Einnehmen",
+              "holder": "Grünenthal GmbH",
+              "authorisation": "1116.00.01",
+              "legal": "prescription"
+            },
+            {
+              "product": "Tramal 50 mg",
+              "holder": "Grünenthal GmbH",
+              "authorisation": "1116.01.02",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "28667.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "N02AX02",
+        "marketedProducts": 110
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 16
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "1116.00.02",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "alprazolam",
+      "generic": "Alprazolam",
+      "brand": "Tafil",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tafil",
+          "id": "29946.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Tafil 0,5 mg Tabletten",
+          "products": [
+            {
+              "product": "Tafil 0,5 mg Tabletten",
+              "holder": "Viatris Pharma GmbH",
+              "authorisation": "29946.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Tafil 1,0 mg Tabletten",
+              "holder": "Viatris Pharma GmbH",
+              "authorisation": "29946.01.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "69677.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "N05BA12",
+        "marketedProducts": 18
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "29946.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "prednisone",
+      "generic": "Prednisone",
+      "brand": "Sold generic as \"Prednison\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "7005083.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "H02AB07",
+        "marketedProducts": 31
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 31
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "7005083.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "clopidogrel",
+      "generic": "Clopidogrel",
+      "brand": "Plavix",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Plavix",
+          "id": "EU/1/98/069/012",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Plavix 300 mg Filmtabletten",
+          "products": [
+            {
+              "product": "Plavix 300 mg Filmtabletten",
+              "holder": "Sanofi Winthrop Industrie Rechtsform: S.A.",
+              "authorisation": "EU/1/98/069/012",
+              "legal": "prescription"
+            },
+            {
+              "product": "Plavix 300 mg Filmtabletten - OP100(100x1)(Al-Bl)",
+              "holder": "Sanofi Winthrop Industrie Rechtsform: S.A.",
+              "authorisation": "EU/1/98/069/010",
+              "legal": "prescription"
+            },
+            {
+              "product": "Plavix 300 mg Filmtabletten - OP30(30x1)",
+              "holder": "EurimPharm Arzneimittel GmbH",
+              "authorisation": "EU/1/98/069/009",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "74516.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "B01AC04",
+        "marketedProducts": 270
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 64
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "EU/1/98/069/012",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "aspirin",
+      "generic": "Acetylsalicylic acid (Aspirin)",
+      "brand": "Aspirin — the brand originated here (Bayer)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Aspirin",
+          "id": "6245718.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Aspirin",
+          "products": [
+            {
+              "product": "Aspirin",
+              "holder": "Bayer Vital GmbH",
+              "authorisation": "6245718.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Aspirin",
+              "holder": "Bayer Vital GmbH",
+              "authorisation": "25144.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Aspirin",
+              "holder": "Bayer Vital GmbH",
+              "authorisation": "6092686.00.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "37533.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "N02BA01",
+        "marketedProducts": 33
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 14
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "6245718.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oxycodone",
+      "generic": "Oxycodone",
+      "brand": "Oxygesic",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Oxygesic",
+          "id": "41153.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "OXYGESIC 10 mg",
+          "products": [
+            {
+              "product": "OXYGESIC 10 mg",
+              "holder": "Mundipharma Gesellschaft mit beschränkter Haftung - Geschäftsanschrift -",
+              "authorisation": "41153.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "OXYGESIC 10 mg",
+              "holder": "kohlpharma GmbH",
+              "authorisation": "91418.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Oxygesic 10 mg Retardtabletten",
+              "holder": "EurimPharm Arzneimittel GmbH",
+              "authorisation": "90462.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "87920.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "N02AA05",
+        "marketedProducts": 307
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "narcotic prescription": 78
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "41153.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "methylphenidate",
+      "generic": "Methylphenidate",
+      "brand": "Ritalin / Medikinet",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ritalin",
+          "id": "7023981.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Ritalin 10 mg Tabletten",
+          "products": [
+            {
+              "product": "Ritalin 10 mg Tabletten",
+              "holder": "Candoro ethics GmbH",
+              "authorisation": "7023981.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Ritalin 10 mg Tabletten",
+              "holder": "Orifarm GmbH - Geschäftsanschrift -",
+              "authorisation": "7005757.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Ritalin 10 mg Tabletten",
+              "holder": "EurimPharm Arzneimittel GmbH",
+              "authorisation": "90324.00.00",
+              "legal": "prescription"
+            }
+          ]
+        },
+        {
+          "name": "Medikinet",
+          "id": "75792.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Medikinet 10 mg",
+          "products": [
+            {
+              "product": "Medikinet 10 mg",
+              "holder": "MEDICE Arzneimittel Pütter GmbH & Co. KG",
+              "authorisation": "75792.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Medikinet 10 mg Tabletten",
+              "holder": "Orifarm GmbH - Geschäftsanschrift -",
+              "authorisation": "2205069.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Medikinet 10 mg Tabletten",
+              "holder": "Candoro ethics GmbH",
+              "authorisation": "2202816.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "96676.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "N06BA04",
+        "marketedProducts": 151
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "narcotic prescription": 45
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "7023981.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "naproxen",
+      "generic": "Naproxen",
+      "brand": "Dolormin für Frauen / Dolormin GS",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Dolormin für Frauen",
+          "id": "35873.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Dolormin für Frauen bei Menstruationsbeschwerden mit Naproxen",
+          "products": [
+            {
+              "product": "Dolormin für Frauen bei Menstruationsbeschwerden mit Naproxen",
+              "holder": "Kenvue Germany GmbH",
+              "authorisation": "35873.00.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        },
+        {
+          "name": "Dolormin GS",
+          "id": "35876.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Dolormin GS mit Naproxen",
+          "products": [
+            {
+              "product": "Dolormin GS mit Naproxen",
+              "holder": "Kenvue Germany GmbH",
+              "authorisation": "35876.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Dolormin GS mit Naproxen",
+              "holder": "Kenvue Germany GmbH",
+              "authorisation": "35876.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "52021.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "M01AE02",
+        "marketedProducts": 26
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "MIXED",
+        "result": "differ",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 2,
+            "prescription": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "35873.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Status differs: entry PHARMACY, registry MIXED"
+      ]
+    },
+    {
+      "id": "diclofenac-gel",
+      "generic": "Diclofenac (topical gel)",
+      "brand": "Voltaren Schmerzgel",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Voltaren Schmerzgel",
+          "id": "9165.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Voltaren Schmerzgel",
+          "products": [
+            {
+              "product": "Voltaren Schmerzgel",
+              "holder": "Haleon Germany GmbH",
+              "authorisation": "9165.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Voltaren Schmerzgel 1,16 % Gel",
+              "holder": "EMRA-MED Arzneimittel GmbH",
+              "authorisation": "86396.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Voltaren Schmerzgel forte",
+              "holder": "kohlpharma GmbH",
+              "authorisation": "7009106.00.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "4989.00.04",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "M02AA15",
+        "marketedProducts": 57
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 7
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "9165.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "fexofenadine",
+      "generic": "Fexofenadine",
+      "brand": "Telfast",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Telfast",
+          "id": "48446.01.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Telfast 120 mg",
+          "products": [
+            {
+              "product": "Telfast 120 mg",
+              "holder": "Orifarm GmbH - Geschäftsanschrift -",
+              "authorisation": "48446.01.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Telfast 120 mg",
+              "holder": "2CARE4 ApS HR-Beiname: Aurora Medical ApS",
+              "authorisation": "7016527.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Telfast 120 mg",
+              "holder": "EMRA-MED Arzneimittel GmbH",
+              "authorisation": "43984.01.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "68486.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "R06AX26",
+        "marketedProducts": 24
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 16
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "48446.01.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "guaifenesin",
+      "generic": "Guaifenesin",
+      "brand": "Wick Husten-Löser",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Wick Husten-Löser",
+          "id": "5401.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "WICK Husten-Löser Sirup mit Honigaroma 200mg/15ml",
+          "products": [
+            {
+              "product": "WICK Husten-Löser Sirup mit Honigaroma 200mg/15ml",
+              "holder": "Wick Pharma - Zweigniederlassung der Procter & Gamble GmbH",
+              "authorisation": "5401.00.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "3000053.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "R05CA03",
+        "marketedProducts": 3
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "5401.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "dextromethorphan",
+      "generic": "Dextromethorphan",
+      "brand": "Silomat Hustenstiller / Hustenstiller-ratiopharm",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Silomat Hustenstiller",
+          "id": "56502.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Silomat Hustenstiller Dextromethorphan Intensiv 22 mg Hartkapseln",
+          "products": [
+            {
+              "product": "Silomat Hustenstiller Dextromethorphan Intensiv 22 mg Hartkapseln",
+              "holder": "STADA Consumer Health Deutschland GmbH",
+              "authorisation": "56502.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Silomat Hustenstiller Dextrometorphan mit Honig-Geschmack 7,7 mg Lutschpastillen",
+              "holder": "STADA Consumer Health Deutschland GmbH",
+              "authorisation": "49060.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Silomat Hustenstiller Dextrometorphan mit Zitronen-Geschmack 7,7 mg Lutschpastillen",
+              "holder": "STADA Consumer Health Deutschland GmbH",
+              "authorisation": "49062.00.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        },
+        {
+          "name": "Hustenstiller-ratiopharm",
+          "id": "15503.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Hustenstiller-ratiopharm Dextromethorphan",
+          "products": [
+            {
+              "product": "Hustenstiller-ratiopharm Dextromethorphan",
+              "holder": "ratiopharm GmbH",
+              "authorisation": "15503.00.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "49061.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "R05DA09",
+        "marketedProducts": 6
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "56502.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oxymetazoline",
+      "generic": "Oxymetazoline (nasal spray)",
+      "brand": "Nasivin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Nasivin",
+          "id": "6108938.00.01",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Nasivin Nasentropfen Erwachsene und Schulkinder",
+          "products": [
+            {
+              "product": "Nasivin Nasentropfen Erwachsene und Schulkinder",
+              "holder": "P&G Health Germany GmbH",
+              "authorisation": "6108938.00.01",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Nasivin Spray für Erwachsene und Schulkinder",
+              "holder": "P&G Health Germany GmbH",
+              "authorisation": "6108938.00.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "6108938.00.01",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "R01AA05",
+        "marketedProducts": 7
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "6108938.00.01",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "bismuth-subsalicylate",
+      "generic": "Bismuth subsalicylate",
+      "brand": "Not commonly available",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "A07BB",
+        "marketedProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "calcium-carbonate",
+      "generic": "Calcium carbonate (antacid)",
+      "brand": "Rennie",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Rennie",
+          "id": "77312.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Rennie",
+          "products": [
+            {
+              "product": "Rennie",
+              "holder": "Bayer Vital GmbH",
+              "authorisation": "77312.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Rennie",
+              "holder": "Pharma Gerke Arzneimittelvertriebs GmbH",
+              "authorisation": "96471.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Rennie",
+              "holder": "Bayer Vital GmbH",
+              "authorisation": "6007249.00.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "16796.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "A02AC01",
+        "marketedProducts": 7
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "77312.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "simeticone",
+      "generic": "Simeticone",
+      "brand": "Lefax / sab simplex",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lefax",
+          "id": "44189.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Lefax",
+          "products": [
+            {
+              "product": "Lefax",
+              "holder": "Bayer Vital GmbH",
+              "authorisation": "44189.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Lefax extra",
+              "holder": "Bayer Vital GmbH",
+              "authorisation": "44189.01.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Lefax junior Pump-Liquid",
+              "holder": "Bayer Vital GmbH",
+              "authorisation": "46314.00.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        },
+        {
+          "name": "sab simplex",
+          "id": "39554.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Sab simplex",
+          "products": [
+            {
+              "product": "Sab simplex",
+              "holder": "EurimPharm Arzneimittel GmbH",
+              "authorisation": "39554.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Sab simplex",
+              "holder": "Pfizer Pharma GmbH",
+              "authorisation": "7732.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "SAB Simplex-Tropfen",
+              "holder": "EMRA-MED Arzneimittel GmbH",
+              "authorisation": "36962.00.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "6372003.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "A03AX13",
+        "marketedProducts": 18
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 9
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "44189.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oral-rehydration-salts",
+      "generic": "Oral rehydration salts",
+      "brand": "Elotrans",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Elotrans",
+          "id": "4877.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "ELOTRANS",
+          "products": [
+            {
+              "product": "ELOTRANS",
+              "holder": "STADA Consumer Health Deutschland GmbH",
+              "authorisation": "4877.00.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "4877.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "A07CA",
+        "marketedProducts": 4
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "4877.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "bisacodyl",
+      "generic": "Bisacodyl",
+      "brand": "Dulcolax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Dulcolax",
+          "id": "43523.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Dulcolax",
+          "products": [
+            {
+              "product": "Dulcolax",
+              "holder": "kohlpharma GmbH",
+              "authorisation": "43523.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "DulcoLax",
+              "holder": "A. Nattermann & Cie. Gesellschaft mit beschränkter Haftung",
+              "authorisation": "6426041.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Dulcolax",
+              "holder": "EMRA-MED Arzneimittel GmbH",
+              "authorisation": "43517.00.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2499.99.97",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "A06AB02",
+        "marketedProducts": 86
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 12
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "43523.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "polyethylene-glycol",
+      "generic": "Polyethylene glycol 3350 (macrogol)",
+      "brand": "Movicol / Macrogol-ratiopharm",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Movicol",
+          "id": "89891.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "MOVICOL aromafrei",
+          "products": [
+            {
+              "product": "MOVICOL aromafrei",
+              "holder": "EMRA-MED Arzneimittel GmbH",
+              "authorisation": "89891.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "MOVICOL Junior aromafrei",
+              "holder": "AxiCorp Pharma GmbH",
+              "authorisation": "97891.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Movicol Junior aromafrei 6,9 g",
+              "holder": "EMRA-MED Arzneimittel GmbH",
+              "authorisation": "68217.00.00",
+              "legal": "prescription"
+            }
+          ]
+        },
+        {
+          "name": "Macrogol-ratiopharm",
+          "id": "79434.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Macrogol-ratiopharm Balance Pulver zur Herstellung einer Lösung zum Einnehmen",
+          "products": [
+            {
+              "product": "Macrogol-ratiopharm Balance Pulver zur Herstellung einer Lösung zum Einnehmen",
+              "holder": "ratiopharm GmbH",
+              "authorisation": "79434.00.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "6001784.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "Macrogol",
+        "marketedProducts": 75
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "MIXED",
+        "result": "differ",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 2,
+            "prescription": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "89891.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Status differs: entry PHARMACY, registry MIXED"
+      ]
+    },
+    {
+      "id": "meclozine",
+      "generic": "Meclozine",
+      "brand": "Not commonly available — \"Vomex A\" (dimenhydrinate) covers this use",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "R06AE05",
+        "marketedProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrocortisone-cream",
+      "generic": "Hydrocortisone (cream)",
+      "brand": "FeniHydrocort / Ebenol",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "FeniHydrocort",
+          "id": "54735.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "FeniHydrocort Creme 0,25%",
+          "products": [
+            {
+              "product": "FeniHydrocort Creme 0,25%",
+              "holder": "Haleon Germany GmbH",
+              "authorisation": "54735.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "FeniHydrocort Creme 0,5%",
+              "holder": "Haleon Germany GmbH",
+              "authorisation": "54735.01.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        },
+        {
+          "name": "Ebenol",
+          "id": "57573.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Ebenol 0,25% Creme",
+          "products": [
+            {
+              "product": "Ebenol 0,25% Creme",
+              "holder": "Strathmann GmbH & Co. KG",
+              "authorisation": "57573.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Ebenol 0,5% Creme",
+              "holder": "Strathmann GmbH & Co. KG",
+              "authorisation": "57573.01.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Ebenol Spray 0,5% Lösung",
+              "holder": "Strathmann GmbH & Co. KG",
+              "authorisation": "58937.00.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "57573.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "D07AA02",
+        "marketedProducts": 37
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "54735.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "clotrimazole",
+      "generic": "Clotrimazole",
+      "brand": "Canesten",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Canesten",
+          "id": "6070101.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Canesten Creme",
+          "products": [
+            {
+              "product": "Canesten Creme",
+              "holder": "Bayer Vital GmbH",
+              "authorisation": "6070101.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Canesten GYN 3-Tage-Kombi",
+              "holder": "Bayer Vital GmbH",
+              "authorisation": "47257.01.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Canesten GYN Once Kombi",
+              "holder": "Bayer Vital GmbH",
+              "authorisation": "47257.00.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "47258.01.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "D01AC01",
+        "marketedProducts": 47
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "6070101.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "antibiotic-ointment",
+      "generic": "Bacitracin / Neomycin / Polymyxin B (antibiotic ointment)",
+      "brand": "Tyrosur",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tyrosur",
+          "id": "6527902.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Tyrosur Wundheilgel",
+          "products": [
+            {
+              "product": "Tyrosur Wundheilgel",
+              "holder": "Engelhard Arzneimittel GmbH & CoKG",
+              "authorisation": "6527902.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Tyrosur Wundheilpuder",
+              "holder": "Engelhard Arzneimittel GmbH & CoKG",
+              "authorisation": "6527902.00.01",
+              "legal": "pharmacy-only"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "88967.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "Tyrothricin",
+        "marketedProducts": 11
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "6527902.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "doxylamine",
+      "generic": "Doxylamine",
+      "brand": "Hoggar Night / SchlafTabs-ratiopharm",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Hoggar Night",
+          "id": "7016626.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Hoggar Night 12,5 mg Filmtabletten",
+          "products": [
+            {
+              "product": "Hoggar Night 12,5 mg Filmtabletten",
+              "holder": "STADA Consumer Health Deutschland GmbH",
+              "authorisation": "7016626.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Hoggar Night 25 mg Schmelztabletten",
+              "holder": "STADA Consumer Health Deutschland GmbH",
+              "authorisation": "2201376.00.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        },
+        {
+          "name": "SchlafTabs-ratiopharm",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "\"SchlafTabs-ratiopharm 25 mg Tabletten\" is marketable, but AMIce files it under a different code than this ingredient's; check it by hand",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "7009868.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "R06AA09",
+        "marketedProducts": 7
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 2
+          }
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Brand \"SchlafTabs-ratiopharm\" not confirmed: \"SchlafTabs-ratiopharm 25 mg Tabletten\" is marketable, but AMIce files it under a different code than this ingredient's; check it by hand"
+      ]
+    },
+    {
+      "id": "levonorgestrel",
+      "generic": "Levonorgestrel (emergency contraception)",
+      "brand": "PiDaNa",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "PiDaNa",
+          "id": "7010412.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "PiDaNa 1,5 mg Tablette",
+          "products": [
+            {
+              "product": "PiDaNa 1,5 mg Tablette",
+              "holder": "CC - Pharma GmbH",
+              "authorisation": "7010412.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "PiDaNa 1,5 mg Tablette",
+              "holder": "European Pharma B.V.",
+              "authorisation": "7015477.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "Pidana 1,5 mg Tablette",
+              "holder": "kohlpharma GmbH",
+              "authorisation": "2201905.00.00",
+              "legal": "pharmacy-only"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "87131.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "G03AD01",
+        "marketedProducts": 12
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "pharmacy-only": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "7010412.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "atovaquone-proguanil",
+      "generic": "Atovaquone / Proguanil",
+      "brand": "Malarone",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Malarone",
+          "id": "51590.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Malarone",
+          "products": [
+            {
+              "product": "Malarone",
+              "holder": "EMRA-MED Arzneimittel GmbH",
+              "authorisation": "51590.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Malarone",
+              "holder": "2CARE4 ApS HR-Beiname: Aurora Medical ApS",
+              "authorisation": "2202459.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Malarone",
+              "holder": "EurimPharm Arzneimittel GmbH",
+              "authorisation": "53642.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "7000054.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "P01BB51",
+        "marketedProducts": 28
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 16
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "51590.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "doxycycline",
+      "generic": "Doxycycline",
+      "brand": "Sold generic as \"Doxycyclin\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "1230.02.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "J01AA02",
+        "marketedProducts": 16
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 16
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "1230.02.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "azithromycin",
+      "generic": "Azithromycin",
+      "brand": "Zithromax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zithromax",
+          "id": "37174.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Zithromax 250 mg Filmtabletten",
+          "products": [
+            {
+              "product": "Zithromax 250 mg Filmtabletten",
+              "holder": "Pfizer Pharma GmbH",
+              "authorisation": "37174.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Zithromax 500 mg Filmtabletten",
+              "holder": "Pfizer Pharma GmbH",
+              "authorisation": "37174.01.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Zithromax Trockensaft",
+              "holder": "Pfizer Pharma GmbH",
+              "authorisation": "25156.00.01",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "67895.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "J01FA10",
+        "marketedProducts": 42
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "37174.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "ciprofloxacin",
+      "generic": "Ciprofloxacin",
+      "brand": "Ciprobay",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ciprobay",
+          "id": "8242.04.02",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Ciprobay 200mg",
+          "products": [
+            {
+              "product": "Ciprobay 200mg",
+              "holder": "Bayer Vital GmbH",
+              "authorisation": "8242.04.02",
+              "legal": "prescription"
+            },
+            {
+              "product": "Ciprobay 250mg",
+              "holder": "Bayer Vital GmbH",
+              "authorisation": "8242.01.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Ciprobay 400mg",
+              "holder": "Bayer Vital GmbH",
+              "authorisation": "8242.05.02",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "53742.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "J01MA02",
+        "marketedProducts": 59
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 11
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "8242.04.02",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "acetazolamide",
+      "generic": "Acetazolamide",
+      "brand": "Glaupax / Acemit",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Glaupax",
+          "id": "6309022.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Glaupax",
+          "products": [
+            {
+              "product": "Glaupax",
+              "holder": "OmniVision GmbH",
+              "authorisation": "6309022.00.00",
+              "legal": "prescription"
+            }
+          ]
+        },
+        {
+          "name": "Acemit",
+          "id": "3002026.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Acemit",
+          "products": [
+            {
+              "product": "Acemit",
+              "holder": "OmniVision GmbH",
+              "authorisation": "3002026.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "3002026.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "S01EC01",
+        "marketedProducts": 3
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "6309022.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "scopolamine",
+      "generic": "Scopolamine (motion-sickness patch)",
+      "brand": "Scopoderm TTS",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Scopoderm TTS",
+          "id": "4597.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Scopoderm TTS",
+          "products": [
+            {
+              "product": "Scopoderm TTS",
+              "holder": "Baxter Deutschland GmbH",
+              "authorisation": "4597.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "4597.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "A04AD01",
+        "marketedProducts": 1
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "4597.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "ondansetron",
+      "generic": "Ondansetron",
+      "brand": "Zofran",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zofran",
+          "id": "36332.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Zofran 4 mg",
+          "products": [
+            {
+              "product": "Zofran 4 mg",
+              "holder": "EMRA-MED Arzneimittel GmbH",
+              "authorisation": "36332.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Zofran 4 mg Filmtabletten",
+              "holder": "kohlpharma GmbH",
+              "authorisation": "27814.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Zofran 4 mg Zydis Lingual",
+              "holder": "H e x a l Aktiengesellschaft",
+              "authorisation": "41349.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "58383.00.01",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "A04AA01",
+        "marketedProducts": 101
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 25
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "36332.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "epinephrine",
+      "generic": "Epinephrine (adrenaline auto-injector)",
+      "brand": "Fastjekt / Jext",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Fastjekt",
+          "id": "13579.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Fastjekt",
+          "products": [
+            {
+              "product": "Fastjekt",
+              "holder": "Viatris Healthcare GmbH",
+              "authorisation": "13579.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Fastjekt",
+              "holder": "axicorp Pharma B.V.",
+              "authorisation": "7016789.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Fastjekt",
+              "holder": "CC - Pharma GmbH",
+              "authorisation": "7009605.00.00",
+              "legal": "prescription"
+            }
+          ]
+        },
+        {
+          "name": "Jext",
+          "id": "86795.00.00",
+          "url": "https://portal.bfarm.de/amguifree/",
+          "confirmed": true,
+          "note": null,
+          "matched": "Jext 150 Mikrogramm",
+          "products": [
+            {
+              "product": "Jext 150 Mikrogramm",
+              "holder": "EurimPharm Arzneimittel GmbH",
+              "authorisation": "86795.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Jext 150 Mikrogramm",
+              "holder": "kohlpharma GmbH",
+              "authorisation": "89770.00.00",
+              "legal": "prescription"
+            },
+            {
+              "product": "Jext 150 Mikrogramm Injektionslösung in einem Fertigpen",
+              "holder": "Orifarm GmbH - Geschäftsanschrift -",
+              "authorisation": "7004425.00.00",
+              "legal": "prescription"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "93835.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "searched": "C01CA24",
+        "marketedProducts": 55
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
+          "products": {
+            "prescription": 27
+          }
+        }
+      },
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "13579.00.00",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-10-08",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    }
+  ]
+}

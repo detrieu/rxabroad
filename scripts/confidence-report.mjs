@@ -25,7 +25,7 @@ export const TIER_1 = [
   'ansm.sante.fr', 'has-sante.fr', 'us.emb-japan.go.jp', 'info.pmda.go.jp', 'gob.mx', 'efda.gov.et',
   'ema.europa.eu', 'fda.gov', 'hweclinicalguidance.nhs.uk',
   // registries checked by scripts/verify
-  'nlm.nih.gov', 'data.gov.sg', 'mhra.gov.uk', 'isd.digital.nhs.uk', 'mhlw.go.jp',
+  'nlm.nih.gov', 'data.gov.sg', 'mhra.gov.uk', 'isd.digital.nhs.uk', 'mhlw.go.jp', 'bfarm.de',
 ];
 export const TIER_2 = [
   'medicines.org.uk', 'gelbe-liste.de', 'vidal.fr', 'mims.com', 'vademecum.es', 'flexikon.doccheck.com',

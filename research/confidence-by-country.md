@@ -17,8 +17,8 @@ when the data was researched; the tiers show how much evidence actually backs th
 | 3 | FR France | 97 | 72 | 4 | 0 | 69 | 1 | 1 | 5 | 2 | 69 | 4 | 0 |
 | 4 | SG Singapore | 97 | 73 | 2 | 1 | 65 | 1 | 3 | 7 | 6 | 67 | 5 | 2 |
 | 5 | GB United Kingdom | 95 | 68 | 8 | 0 | 59 | 8 | 6 | 3 | 3 | 71 | 6 | 2 |
-| 6 | JP Japan | 78 | 49 | 21 | 6 | 38 | 8 | 12 | 18 | 0 | 47 | 5 | 1 |
-| 7 | DE Germany | 67 | 28 | 46 | 2 | 1 | 8 | 3 | 64 | 18 | 0 | 5 | 4 |
+| 6 | DE Germany | 92 | 66 | 8 | 2 | 62 | 8 | 3 | 3 | 0 | 71 | 3 | 0 |
+| 7 | JP Japan | 78 | 49 | 21 | 6 | 38 | 8 | 12 | 18 | 0 | 47 | 5 | 1 |
 | 8 | IN India | 55 | 18 | 48 | 10 | 0 | 1 | 14 | 61 | 7 | 0 | 7 | 6 |
 | 9 | MX Mexico | 53 | 14 | 52 | 10 | 4 | 1 | 6 | 65 | 4 | 0 | 7 | 4 |
 | 10 | PT Portugal | 51 | 14 | 50 | 12 | 4 | 2 | 4 | 66 | 8 | 0 | 5 | 4 |
@@ -26,7 +26,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | 12 | MA Morocco | 31 | 6 | 35 | 35 | 0 | 0 | 6 | 70 | 2 | 0 | 2 | 2 |
 | 13 | VN Vietnam | 22 | 7 | 20 | 49 | 0 | 0 | 6 | 70 | 1 | 0 | 3 | 3 |
 | 14 | ET Ethiopia | 10 | 0 | 15 | 61 | 1 | 0 | 0 | 75 | 0 | 0 | 0 | 0 |
-| | **All** | 64 | 507 | 347 | 210 | 388 | 30 | 69 | 577 | 54 | 401 | 66 | 33 |
+| | **All** | 66 | 545 | 309 | 210 | 449 | 30 | 69 | 516 | 36 | 472 | 64 | 29 |
 
 ## 1. United States (US) — score 99
 
@@ -443,7 +443,90 @@ when the data was researched; the tiers show how much evidence actually backs th
 | medium ✓ | Naproxen | Feminax Ultra | PHARMACY | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Feminax%20Ultra&page=1) |
 | medium ✓ | Polyethylene glycol 3350 (macrogol) | Movicol / Laxido | PHARMACY | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Movicol&page=1) |
 
-## 6. Japan (JP) — score 78
+## 6. Germany (DE) — score 92
+
+66 high · 8 medium · 2 low · sources: 62 official, 8 professional, 3 secondary, 3 none · 71 registry-verified
+
+| Confidence | Medicine | Sold as | Status | Source |
+|---|---|---|---|---|
+| high ✓ | Acetazolamide | Glaupax / Acemit | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Acetylsalicylic acid (Aspirin) | Aspirin — the brand originated here (Bayer) | PHARMACY | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Alprazolam | Tafil | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Amlodipine | Norvasc | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Amoxicillin | Amoxi / Amoxicillin-ratiopharm | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Apixaban | Eliquis | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Atorvastatin | Sortis | RX | T1 [ema.europa.eu](https://www.ema.europa.eu/en/documents/referral/sortis-emeaha-29-pad1255-article-29-paediatrics-referral-annex-i-ii-iii_en.pdf) |
+| high ✓ | Atovaquone / Proguanil | Malarone | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Azithromycin | Zithromax | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Tyrosur | PHARMACY | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Bisacodyl | Dulcolax | PHARMACY | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Bupropion | Elontril | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Calcium carbonate (antacid) | Rennie | PHARMACY | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Cetirizine | Zyrtec | PHARMACY | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Ciprofloxacin | Ciprobay | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Clopidogrel | Plavix | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Clotrimazole | Canesten | PHARMACY | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Dextromethorphan | Silomat Hustenstiller / Hustenstiller-ratiopharm | PHARMACY | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Diclofenac (topical gel) | Voltaren Schmerzgel | PHARMACY | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Doxycycline | Sold generic as "Doxycyclin" | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Empagliflozin | Jardiance | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Epinephrine (adrenaline auto-injector) | Fastjekt / Jext | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Escitalopram | Cipralex | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Famotidine | Pepdul | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Fexofenadine | Telfast | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Fluoxetine | Sold generic as "Fluoxetin" | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Gabapentin | Neurontin | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Hydrochlorothiazide | HCT (e.g. HCT HEXAL, HCT-ratiopharm) | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Hydrocortisone (cream) | FeniHydrocort / Ebenol | PHARMACY | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Insulin Glargine | Lantus | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Levonorgestrel (emergency contraception) | PiDaNa | PHARMACY | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Levothyroxine | Euthyrox / L-Thyroxin Henning | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Lisinopril | Sold generic as "Lisinopril" | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Loperamide | Imodium akut | PHARMACY | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Losartan | Lorzaar | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Metformin | Glucophage / Metformin-ratiopharm | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Methylphenidate | Ritalin / Medikinet | CONTROLLED ⚠ | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Metoprolol | Beloc | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Montelukast | Singulair | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Ondansetron | Zofran | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Oral rehydration salts | Elotrans | PHARMACY | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Oxycodone | Oxygesic | CONTROLLED ⚠ | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Oxymetazoline (nasal spray) | Nasivin | PHARMACY | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Pantoprazole | Pantozol / Pantozol Control | MIXED | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Paracetamol | ben-u-ron / Paracetamol-ratiopharm | PHARMACY | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Prednisone | Sold generic as "Prednison" | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Pseudoephedrine | Aspirin Complex / BoxaGrippal / Reactine duo | PHARMACY | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Rosuvastatin | Crestor | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Salbutamol | Sultanol / Salbulair | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Scopolamine (motion-sickness patch) | Scopoderm TTS | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Semaglutide | Ozempic / Wegovy | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Simeticone | Lefax / sab simplex | PHARMACY | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Simvastatin | Zocor | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Tamsulosin | Alna / Tamsulosin-ratiopharm | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Tramadol | Tramal | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Amphetamine / Dextroamphetamine | Attentin | CONTROLLED ⚠ | T2 [medice.com](https://medice.com/de-de/produkte/adhs-kinder-und-jugendliche/attentin-r) |
+| high ✓ | Duloxetine | Cymbalta | RX | T2 [gelbe-liste.de](https://www.gelbe-liste.de/wirkstoffe/Duloxetin-hydrochlorid_48490) |
+| high | Fluticasone | Flutide (nasal spray, OTC) / Flutide inhaler (Rx) | MIXED | T2 [deutsche-apotheker-zeitung.de](https://www.deutsche-apotheker-zeitung.de/news/artikel/2016/09/23/nasensprays-mit-mometason-und-fluticason-rezeptfrei) |
+| high ✓ | Furosemide | Lasix | RX | T2 [gelbe-liste.de](https://www.gelbe-liste.de/wirkstoffe/Furosemid_283) |
+| high | Hydrocodone / Paracetamol combination | Dicodid (the German brand) was discontinued years ago — no hydrocodone product is currently marketed | UNAVAILABLE | T2 [flexikon.doccheck.com](https://flexikon.doccheck.com/de/Hydrocodon) |
+| high ✓ | Loratadine | Lorano (akut) — or generic "Loratadin STADA / AL" | PHARMACY | T2 [loranopro.de](https://www.loranopro.de/loranoakut-produktinformationen.html) |
+| high ✓ | Meloxicam | Mobec | RX | T2 [gelbe-liste.de](https://www.gelbe-liste.de/wirkstoffe/Meloxicam_22498) |
+| high ✓ | Trazodone | Sold generic | RX | T2 [gelbe-liste.de](https://www.gelbe-liste.de/wirkstoffe/Trazodon_3145) |
+| high ✓ | Carvedilol | Sold generic | RX | T3 [fitundgesund.at](https://www.fitundgesund.at/dilatrend-artikel-2125) |
+| high ✓ | Omeprazole | Omep / Antra | MIXED | T3 [curistrelief.com](https://curistrelief.com/blogs/curist/omeprazole-faq-what-to-know) |
+| high ✓ | Sertraline | Zoloft / Gladem | RX | T3 [myhealthbox.eu](https://myhealthbox.eu/en/gladem-50mg/272519) |
+| medium ✓ | Dimenhydrinate | Vomex A | PHARMACY | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| medium ✓ | Diphenhydramine | Generic name: "Diphenhydramin" — not a common first-line antihistamine; limited OTC presence | UNCONFIRMED | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| medium ✓ | Ibuprofen | Nurofen / Ibu-ratiopharm | PHARMACY | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| medium ✓ | Melatonin | Prescription-only in most cases | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| medium ✓ | Naproxen | Dolormin für Frauen / Dolormin GS | PHARMACY | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| medium ✓ | Polyethylene glycol 3350 (macrogol) | Movicol / Macrogol-ratiopharm | PHARMACY | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| medium | Bismuth subsalicylate | Not commonly available | UNAVAILABLE | — |
+| medium | Doxylamine | Hoggar Night / SchlafTabs-ratiopharm | PHARMACY | — |
+| low ✓ | Guaifenesin | Wick Husten-Löser | PHARMACY | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| low | Meclozine | Not commonly available — "Vomex A" (dimenhydrinate) covers this use | UNAVAILABLE | — |
+
+## 7. Japan (JP) — score 78
 
 49 high · 21 medium · 6 low · sources: 38 official, 8 professional, 12 secondary, 18 none · 47 registry-verified
 
@@ -525,89 +608,6 @@ when the data was researched; the tiers show how much evidence actually backs th
 | low | Meclozine | Ask for it by the generic name: "メクリジン (meclizine)" | ASK_GENERIC | — |
 | low | Scopolamine (motion-sickness patch) | No patch in Japan | UNAVAILABLE | — |
 | low | Simeticone | Gaspitan (ガスピタン) | OTC | — |
-
-## 7. Germany (DE) — score 67
-
-28 high · 46 medium · 2 low · sources: 1 official, 8 professional, 3 secondary, 64 none · 0 registry-verified
-
-| Confidence | Medicine | Sold as | Status | Source |
-|---|---|---|---|---|
-| high | Atorvastatin | Sortis | RX | T1 [ema.europa.eu](https://www.ema.europa.eu/en/documents/referral/sortis-emeaha-29-pad1255-article-29-paediatrics-referral-annex-i-ii-iii_en.pdf) |
-| high | Amphetamine / Dextroamphetamine | Attentin | CONTROLLED ⚠ | T2 [medice.com](https://medice.com/de-de/produkte/adhs-kinder-und-jugendliche/attentin-r) |
-| high | Duloxetine | Cymbalta | RX | T2 [gelbe-liste.de](https://www.gelbe-liste.de/wirkstoffe/Duloxetin-hydrochlorid_48490) |
-| high | Fluticasone | Flutide (nasal spray, OTC) / Flutide inhaler (Rx) | MIXED | T2 [deutsche-apotheker-zeitung.de](https://www.deutsche-apotheker-zeitung.de/news/artikel/2016/09/23/nasensprays-mit-mometason-und-fluticason-rezeptfrei) |
-| high | Furosemide | Lasix | RX | T2 [gelbe-liste.de](https://www.gelbe-liste.de/wirkstoffe/Furosemid_283) |
-| high | Hydrocodone / Paracetamol combination | Dicodid (the German brand) was discontinued years ago — no hydrocodone product is currently marketed | UNAVAILABLE | T2 [flexikon.doccheck.com](https://flexikon.doccheck.com/de/Hydrocodon) |
-| high | Loratadine | Lorano (akut) — or generic "Loratadin STADA / AL" | OTC | T2 [loranopro.de](https://www.loranopro.de/loranoakut-produktinformationen.html) |
-| high | Meloxicam | Mobec | RX | T2 [gelbe-liste.de](https://www.gelbe-liste.de/wirkstoffe/Meloxicam_22498) |
-| high | Carvedilol | Sold generic | RX | T3 [fitundgesund.at](https://www.fitundgesund.at/dilatrend-artikel-2125) |
-| high | Sertraline | Zoloft / Gladem | RX | T3 [myhealthbox.eu](https://myhealthbox.eu/en/gladem-50mg/272519) |
-| high | Acetylsalicylic acid (Aspirin) | Aspirin — the brand originated here (Bayer) | OTC | — |
-| high | Amlodipine | Norvasc | RX | — |
-| high | Amoxicillin | Amoxi / Amoxicillin-ratiopharm | RX | — |
-| high | Apixaban | Eliquis | RX | — |
-| high | Clopidogrel | Plavix | RX | — |
-| high | Empagliflozin | Jardiance | RX | — |
-| high | Escitalopram | Cipralex | RX | — |
-| high | Gabapentin | Neurontin | RX | — |
-| high | Insulin Glargine | Lantus | RX | — |
-| high | Levothyroxine | Euthyrox / L-Thyroxin Henning | RX | — |
-| high | Loperamide | Imodium akut | OTC | — |
-| high | Metformin | Glucophage / Metformin-ratiopharm | RX | — |
-| high | Metoprolol | Beloc | RX | — |
-| high | Montelukast | Singulair | RX | — |
-| high | Pantoprazole | Pantozol | RX | — |
-| high | Rosuvastatin | Crestor | RX | — |
-| high | Semaglutide | Ozempic / Wegovy | RX | — |
-| high | Simvastatin | Zocor | RX | — |
-| medium | Trazodone | Sold generic | RX | T2 [gelbe-liste.de](https://www.gelbe-liste.de/wirkstoffe/Trazodon_3145) |
-| medium | Omeprazole | Omep / Antra | MIXED | T3 [curistrelief.com](https://curistrelief.com/blogs/curist/omeprazole-faq-what-to-know) |
-| medium | Acetazolamide | Diamox / Glaupax | RX | — |
-| medium | Alprazolam | Xanor / Tafil | CONTROLLED ⚠ | — |
-| medium | Atovaquone / Proguanil | Malarone | RX | — |
-| medium | Azithromycin | Zithromax | RX | — |
-| medium | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Tyrosur | OTC | — |
-| medium | Bisacodyl | Dulcolax | OTC | — |
-| medium | Bismuth subsalicylate | Not commonly available | UNAVAILABLE | — |
-| medium | Bupropion | Elontril | RX | — |
-| medium | Calcium carbonate (antacid) | Rennie | OTC | — |
-| medium | Cetirizine | Zyrtec | OTC | — |
-| medium | Ciprofloxacin | Ciprobay | RX | — |
-| medium | Clotrimazole | Canesten | OTC | — |
-| medium | Dextromethorphan | Silomat DMP / Hustenstiller-ratiopharm | OTC | — |
-| medium | Diclofenac (topical gel) | Voltaren Schmerzgel | OTC | — |
-| medium | Dimenhydrinate | Vomex A | OTC | — |
-| medium | Diphenhydramine | Generic name: "Diphenhydramin" — not a common first-line antihistamine; limited OTC presence | UNCONFIRMED | — |
-| medium | Doxycycline | Sold generic as "Doxycyclin" | RX | — |
-| medium | Doxylamine | Hoggar Night / SchlafTabs-ratiopharm | OTC | — |
-| medium | Epinephrine (adrenaline auto-injector) | Fastjekt / Jext | RX | — |
-| medium | Famotidine | Pepdul | RX | — |
-| medium | Fexofenadine | Telfast | RX | — |
-| medium | Fluoxetine | Fluctin | RX | — |
-| medium | Hydrochlorothiazide | Esidrix / HCT | RX | — |
-| medium | Hydrocortisone (cream) | FeniHydrocort / Ebenol | OTC | — |
-| medium | Ibuprofen | Nurofen / Ibu-ratiopharm | OTC | — |
-| medium | Levonorgestrel (emergency contraception) | PiDaNa | OTC | — |
-| medium | Lisinopril | Less commonly prescribed — Germany favors ramipril; sold generic where used | RX | — |
-| medium | Losartan | Lorzaar | RX | — |
-| medium | Melatonin | Prescription-only in most cases | RX | — |
-| medium | Methylphenidate | Ritalin / Medikinet | CONTROLLED ⚠ | — |
-| medium | Naproxen | Aleve / Dolormin für Frauen | OTC | — |
-| medium | Ondansetron | Zofran | RX | — |
-| medium | Oral rehydration salts | Elotrans | OTC | — |
-| medium | Oxycodone | Oxygesic | CONTROLLED ⚠ | — |
-| medium | Oxymetazoline (nasal spray) | Nasivin | OTC | — |
-| medium | Paracetamol | ben-u-ron / Paracetamol-ratiopharm | OTC | — |
-| medium | Polyethylene glycol 3350 (macrogol) | Movicol / Macrogol-ratiopharm | OTC | — |
-| medium | Prednisone | Decortin | RX | — |
-| medium | Pseudoephedrine | Similar Sudafed-branded products | PHARMACY | — |
-| medium | Salbutamol | Sultanol / Salbulair | RX | — |
-| medium | Scopolamine (motion-sickness patch) | Scopoderm TTS | RX | — |
-| medium | Simeticone | Lefax / sab simplex | OTC | — |
-| medium | Tamsulosin | Alna / Tamsulosin-ratiopharm | RX | — |
-| medium | Tramadol | Tramal | CONTROLLED ⚠ | — |
-| low | Guaifenesin | Wick Husten-Löser | OTC | — |
-| low | Meclozine | Not commonly available — "Vomex A" (dimenhydrinate) covers this use | UNAVAILABLE | — |
 
 ## 8. India (IN) — score 55
 
