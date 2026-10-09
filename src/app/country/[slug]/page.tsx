@@ -2,11 +2,12 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { SearchIcon } from 'lucide-react';
-import { COUNTRIES, DRUGS, entryFor, getCountryBySlug, type CountryCode, type Status } from '@/data';
+import { COUNTRIES, DRUGS, IN_PROGRESS_NOTE, entryFor, getCountryBySlug, isInProgress, type CountryCode, type Status } from '@/data';
 import { Button } from '@/components/ui/button';
 import { StatusPill } from '@/components/StatusPill';
 import { EntryBadges } from '@/components/ConfBadge';
 import { LocalName, SourceLink } from '@/components/DrugEntry';
+import { InProgressBanner } from '@/components/InProgressBanner';
 import { BringingGuide } from '@/components/BringingGuide';
 import { Flag } from '@/components/Flag';
 import { CONTAINER } from '@/components/Masthead';
@@ -70,6 +71,11 @@ export default async function CountryPage({ params }: PageProps<'/country/[slug]
       </PageHero>
 
       <div className={CONTAINER}>
+        {isInProgress(country.code) && (
+          <div className="bg-card -mt-5 mb-9 rounded-xl shadow-sm">
+            <InProgressBanner>{IN_PROGRESS_NOTE}</InProgressBanner>
+          </div>
+        )}
         {/* Visa page: stamp counts */}
         <div className="bg-card -mt-5 rounded-2xl border p-5 shadow-sm">
           <p className="text-muted-foreground mb-4 font-mono text-[0.65rem] tracking-[0.2em] uppercase">Entry summary</p>

@@ -3,8 +3,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
-import { SearchIcon, XIcon } from 'lucide-react';
-import { COUNTRIES, DRUGS, KIT_GROUPS, getCountry, type CountryCode, type Drug } from '@/data';
+import { ConstructionIcon, SearchIcon, XIcon } from 'lucide-react';
+import { COUNTRIES, DRUGS, KIT_GROUPS, getCountry, isInProgress, type CountryCode, type Drug } from '@/data';
 import { drugMatches, visibleCountries } from '@/lib/search';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
@@ -12,6 +12,7 @@ import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
 import { CONTAINER } from './Masthead';
 import { DrugEntry } from './DrugEntry';
 import { Flag } from './Flag';
+import { InProgressBanner } from './InProgressBanner';
 import { PrintButton, SourcesToggle } from './Toolbar';
 import { StepNumber, StepStrip, stepStates } from './Steps';
 import { UsNameHint } from './UsNameHint';
@@ -215,6 +216,7 @@ export function FormularyView({ initialQuery = '', initialCountries = [], syncUr
                 >
                   <Flag code={co.code} className="h-3.5" />
                   {co.name}
+                  {isInProgress(co.code) && <ConstructionIcon className="size-3.5 opacity-80" aria-label="work in progress" />}
                 </ToggleGroupItem>
               ))}
             </ToggleGroup>
@@ -230,6 +232,12 @@ export function FormularyView({ initialQuery = '', initialCountries = [], syncUr
                   );
                 })}
               </p>
+            )}
+            {active.some(isInProgress) && (
+              <InProgressBanner onNavy className="mt-3">
+                {active.filter(isInProgress).map((code) => getCountry(code)?.name).join(', ')}: not yet checked against
+                the official medicines registry. Confirm with a local pharmacist.
+              </InProgressBanner>
             )}
           </div>
         </div>

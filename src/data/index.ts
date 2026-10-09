@@ -18,6 +18,12 @@ export function entryFor(drug: Drug, code: CountryCode): CountryEntry {
   return drug.countries[code] ?? FALLBACK_ENTRY;
 }
 
+// Countries not yet checked against an official registry: none of their entries carry a registry check.
+const IN_PROGRESS = new Set(COUNTRY_LIST.map((c) => c.code).filter((code) => !DRUGS.some((d) => d.countries[code]?.verified)));
+export const isInProgress = (code: CountryCode) => IN_PROGRESS.has(code);
+export const IN_PROGRESS_NOTE =
+  'These entries have not been checked against the official medicines registry yet. Confirm with a local pharmacist before relying on them.';
+
 export function statusMeta(status: string) {
   return STATUS[status as keyof typeof STATUS] ?? STATUS.UNCONFIRMED;
 }

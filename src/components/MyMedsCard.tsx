@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useState, type ReactNode } from 'react';
 import { BanIcon, PlaneIcon, SearchIcon, ShieldAlertIcon, Trash2Icon } from 'lucide-react';
-import { COUNTRIES, DRUGS, entryFor, getCountry, getDrug, type Country, type CountryCode, type Drug } from '@/data';
+import { COUNTRIES, DRUGS, IN_PROGRESS_NOTE, entryFor, getCountry, getDrug, isInProgress, type Country, type CountryCode, type Drug } from '@/data';
 import { useMyDestinations, useMyMeds } from '@/lib/my-meds';
 import { Button } from '@/components/ui/button';
 import { Checkbox } from '@/components/ui/checkbox';
@@ -14,6 +14,7 @@ import { cn } from '@/lib/utils';
 import { BRINGING_ANCHOR, hasBringingGuide } from './BringingGuide';
 import { LocalName } from './DrugEntry';
 import { Flag } from './Flag';
+import { InProgressBanner } from './InProgressBanner';
 import { StatusPill } from './StatusPill';
 import { PrintButton } from './Toolbar';
 import { TripsPanel } from './TripsPanel';
@@ -264,6 +265,9 @@ function TravelPass({ country, leg, legs, drugs, onRemove }: TravelPassProps) {
             <Field label="Medicines">{drugs.length || '—'}</Field>
             <Field label="Show to" className="hidden sm:block">Pharmacist</Field>
           </dl>
+          {country && isInProgress(country.code) && (
+            <div className="border-b px-5 py-3"><InProgressBanner>{IN_PROGRESS_NOTE}</InProgressBanner></div>
+          )}
 
           {!country || drugs.length === 0 ? (
             <p className="text-muted-foreground px-5 py-10 text-center text-sm">
