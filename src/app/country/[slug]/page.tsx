@@ -37,6 +37,7 @@ const FOOTNOTES: Partial<Record<CountryCode, string[]>> = {
     'In Mexico, many pharmacies have a doctor’s office next door that can examine you and write a prescription on the spot for a small fee. So prescription medicines for everyday problems are easy to get without your own doctor.',
     'Be careful buying antibiotics and opioid painkillers in Mexico. Counterfeit and substandard products are a known risk, because manufacturing and supply are not policed as tightly as in the US. Where you can, get these from your own pharmacy before you travel.',
   ],
+  ES: ['In Spain, all medicines are sold in pharmacies only and kept behind the counter. For ones that need no prescription, just ask the pharmacist at the counter.'],
   DE: ['In Germany, medicines that need no prescription are still kept behind the pharmacy counter. Ask the pharmacist (Apotheke) for them; you will not find them on a shelf or in a supermarket.'],
 };
 

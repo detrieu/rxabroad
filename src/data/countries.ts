@@ -72,5 +72,15 @@ export const COUNTRIES = [
     "code": "TR",
     "name": "Türkiye",
     "slug": "turkiye"
+  },
+  {
+    "code": "IT",
+    "name": "Italy",
+    "slug": "italy"
+  },
+  {
+    "code": "ES",
+    "name": "Spain",
+    "slug": "spain"
   }
 ] as const satisfies readonly Country[];

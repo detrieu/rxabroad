@@ -25,6 +25,8 @@ const ENDONYM: Record<CountryCode, { text: string; lang: string }> = {
   MA: { text: 'المغرب', lang: 'ar' },
   PT: { text: 'Portugal', lang: 'pt' },
   TR: { text: 'Türkiye', lang: 'tr' },
+  IT: { text: 'Italia', lang: 'it' },
+  ES: { text: 'España', lang: 'es' },
 };
 
 /**

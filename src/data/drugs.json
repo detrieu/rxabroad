@@ -183,6 +183,43 @@
         "confidence": "high",
         "note": "Turkey’s best-selling paracetamol brand by volume (Atabay, since 1973) — this is about as safe a brand claim as they come.",
         "source": "https://www.atabay.com/en/ilac/parol-500-mg-tablet-30-tablet-blister-2-2/"
+      },
+      "IT": {
+        "brand": "Tachipirina / Efferalgan",
+        "status": "MIXED",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Paracetamolo",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "012745143",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Gelocatil / Efferalgan / Termalgin",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "57131",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=57131",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -371,6 +408,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Moment / Brufen / Nurofen",
+        "status": "MIXED",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Ibuprofene",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "035618038",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Espidifen / Neobrufen / Nurofen",
+        "status": "MIXED",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Ibuprofeno",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "60514",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=60514",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -558,6 +633,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Clarityn",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Loratadina",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "027075011",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Clarityne",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Loratadina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "58518",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=58518",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -756,6 +869,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Zirtec",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Cetirizina",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "043629029",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Zyrtec / Alerlisin",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Cetirizina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "60279",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=60279",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -943,6 +1094,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Allergan",
+        "status": "OTC",
+        "confidence": "high",
+        "note": "Allergan is a skin cream for itching, not a tablet. For allergies, ask for loratadine (Clarityn) or cetirizine (Zirtec).",
+        "source": null,
+        "localName": "Difenidramina",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "001740063",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Soñodor",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Difenhidramina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "38322",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=38322",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -1131,6 +1320,43 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Imodium / Dissenten",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "046757035",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Fortasec",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Loperamida",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "65349",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=65349",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -1327,6 +1553,43 @@
         "confidence": "high",
         "note": "Brand confirmed (AstraZeneca Turkey); Antra and Omez are also real alternate brand names there.",
         "source": "https://www.ilacabak.com/etkengoster.php?Id=525"
+      },
+      "IT": {
+        "brand": "Antra / Losec / Mepral",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Omeprazolo",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "028245114",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Losec",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "58377",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=58377",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -1498,6 +1761,44 @@
         "confidence": "low",
         "note": "Controlled precursor.",
         "source": null
+      },
+      "IT": {
+        "brand": "Actifed / Actigrip",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Pseudoefedrina",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "018723080",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Frenadol Descongestivo",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Pseudoefedrina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "56682",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=56682",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -1682,6 +1983,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Circadin",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Melatonina",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "038264014",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Circadin",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Melatonina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "07392003",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=07392003",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -1858,6 +2197,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Xamamina / Travelgum",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Dimenidrinato",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "002955108",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Biodramina",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Dimenhidrinato",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "47497",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=47497",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -2041,6 +2418,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Velamox",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Amoxicillina",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "023097037",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Clamoxyl",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Amoxicilina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "59133",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=59133",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -2238,6 +2653,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Glucophage / Metforal",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Metformina",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "017758044",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Dianben",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Metformina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "55211",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=55211",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -2436,6 +2889,44 @@
         "confidence": "high",
         "note": "Confirmed as the best-known sertraline brand in Turkey — the UK branding pattern does hold here.",
         "source": "https://www.medikalakademi.com.tr/lustral-sertralin-nedir-ne-icin-kullanilir-yan-etkileri-nelerdir/"
+      },
+      "IT": {
+        "brand": "Zoloft",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Sertralina",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "027753045",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Besitran / Aremis",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Sertralina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "59718",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=59718",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -2633,6 +3124,43 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Ventolin / Broncovaleas",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Salbutamolo",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "022984052",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Ventolin",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "53010",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=53010",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -2832,6 +3360,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Torvast / Totalip",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Atorvastatina",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "033007410",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Cardyl / Zarator",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Atorvastatina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "61716",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=61716",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -3029,6 +3595,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Eutirox / Tirosint",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Levotiroxina",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "024402152",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Eutirox",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Levotiroxina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "64014",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=64014",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -3222,6 +3826,42 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Zestril / Prinivil",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "026834022",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Zestril / Prinivil",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "59127",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=59127",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -3420,6 +4060,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Norvasc",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Amlodipina",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "027428022",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Norvas / Astudal",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Amlodipino",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "59160",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=59160",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -3616,6 +4294,43 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Seloken / Lopresor",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Metoprololo",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "023616028",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Beloken / Lopresor",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "56989",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=56989",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -3812,6 +4527,42 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Lortaan / Losaprex",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "029384043",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Cozaar",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "64971",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=64971",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -4011,6 +4762,43 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Neurontin",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "028740037",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Neurontin",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Gabapentina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "60621",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=60621",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -4210,6 +4998,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Crestor / Provisacor",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Rosuvastatina",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "035885351",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Crestor",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Rosuvastatina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "70243",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=70243",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -4383,6 +5209,43 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Pantorc / Pantecta",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Pantoprazolo",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "041972023",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Pantecta / Anagastra",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "62580",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=62580",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -4580,6 +5443,42 @@
         "confidence": "high",
         "note": null,
         "source": "https://www.drugs.com/international/escitalopram.html"
+      },
+      "IT": {
+        "brand": "Cipralex / Entact",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "035767146",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Cipralex / Esertia",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "65230",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=65230",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -4756,6 +5655,32 @@
         "confidence": "low",
         "note": "Controlled substance — import without authorization is risky.",
         "source": null
+      },
+      "IT": {
+        "brand": "Not sold in Italy",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": "No amphetamine medicine is marketed in Italy. Carrying your own is a controlled-drug matter: bring your prescription and a doctor’s letter.",
+        "source": null
+      },
+      "ES": {
+        "brand": "Elvanse (lisdexamfetamine)",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Lisdexanfetamina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "82336",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=82336",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -4937,6 +5862,44 @@
         "confidence": "low",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Esidrex",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Idroclorotiazide",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "015094016",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Hidrosaluretil / Esidrex",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Hidroclorotiazida",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "82547",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=82547",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -5120,6 +6083,43 @@
         "confidence": "low",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Wellbutrin / Elontril",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Bupropione",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "037685056",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Elontril / Zyntabac",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "68615",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=68615",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -5299,6 +6299,42 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Fluoxeren",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Fluoxetina",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "025959026",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Sold generic as \"Fluoxetina\"",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "63499",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=63499",
+          "checked": "2026-10-09",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -5497,6 +6533,43 @@
         "confidence": "medium",
         "note": "There was a genuine global semaglutide shortage (2022–2025, driven by weight-loss demand), but the FDA has since confirmed it fully resolved; there is no Turkey-specific shortage reporting.",
         "source": null
+      },
+      "IT": {
+        "brand": "Ozempic / Wegovy",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "046128031",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Ozempic / Wegovy",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Semaglutida ",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "117251002",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=117251002",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -5694,6 +6767,42 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Singulair / Montegen",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "042170011",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Singulair",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "61980",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=61980",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -5876,6 +6985,43 @@
         "confidence": "high",
         "note": "Brand confirmed sold in Turkey (including Trittico retard and Trittico Uno formulations); generics have also been marketed there since 2018.",
         "source": "https://www.ilactr.com/atc/N06AX05.html"
+      },
+      "IT": {
+        "brand": "Trittico",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "022323012",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Deprax",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Trazodona",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "78762",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=78762",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -6073,6 +7219,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Zocor / Sinvacor / Sivastin",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Simvastatina",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "027216100",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Zocor",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Simvastatina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "58845",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=58845",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -6268,6 +7452,44 @@
         "confidence": "low",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Omnic",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Tamsulosina",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "032647012",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Omnic",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Tamsulosina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "66678",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=66678",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -6396,6 +7618,20 @@
         "status": "CONTROLLED",
         "confidence": "low",
         "note": "Controlled substance — import without authorization is risky.",
+        "source": null
+      },
+      "IT": {
+        "brand": "Not sold in Italy",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": "No hydrocodone product is marketed in Italy. The equivalents here combine tramadol or codeine with paracetamol.",
+        "source": null
+      },
+      "ES": {
+        "brand": "Not sold in Spain",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": "No hydrocodone product is marketed in Spain. The equivalents here combine tramadol or codeine with paracetamol.",
         "source": null
       }
     }
@@ -6573,6 +7809,43 @@
         "confidence": "low",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Flixonase",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "038850020",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Flixonase",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Fluticasona",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "60483",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=60483",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -6766,6 +8039,42 @@
         "confidence": "high",
         "note": "Mobic itself was confirmed discontinued in Turkey by the Turkish Pharmacists’ Association (stock cleared as of May 15, 2008); Melcam and Melox are the real, current meloxicam brands there.",
         "source": "https://www.antalyaeo.org.tr/tr/m/turk-eczacilari-birligi/mobic-7-5-mg-tb-mobic-15-mg-tb-ve-mobic-15-mg-supp-isimli-mustahzarlar-hk-.html"
+      },
+      "IT": {
+        "brand": "Mobic",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "031985157",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Movalis",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "61076",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=61076",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -6963,6 +8272,42 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Eliquis",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "041225083",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Eliquis",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "11691002",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=11691002",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -7158,6 +8503,43 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Lasix",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "020465011",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Seguril",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Furosemida",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "39968",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=39968",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -7356,6 +8738,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Lantus / Abasaglar / Toujeo",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Insulina glargine",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "035724069",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Lantus / Abasaglar / Toujeo",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Insulina glargina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "00134033",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=00134033",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -7554,6 +8974,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Humalog",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Insulina lispro",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "033637024",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Humalog",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Insulina lispro",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "196007044",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=196007044",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -7752,6 +9210,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "NovoRapid / Fiasp",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Insulina aspart",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "034498244",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "NovoRapid / Fiasp",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Insulina asparta",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "99119009",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=99119009",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -7950,6 +9446,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Actrapid / Humulin (R)",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Insulina umana",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "035932096",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Actrapid / Humulina Regular",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Insulina regular",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "02230003",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=02230003",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -8148,6 +9682,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Protaphane",
+        "status": "RX",
+        "confidence": "high",
+        "note": "Humulin I is the other NPH insulin sold here.",
+        "source": null,
+        "localName": "Insulina umana isofano",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "035935030",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Insulatard / Humulina NPH",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Insulina isófana (NPH)",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "02233014",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=02233014",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -8163,7 +9735,7 @@
         "brand": "Levemir",
         "status": "RX",
         "confidence": "high",
-        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "note": "The maker is withdrawing Levemir worldwide, so stock may be limited. Other long-acting insulins sold here: glargine (Lantus) and degludec (Tresiba).",
         "source": null,
         "verified": {
           "registry": "RxNorm (U.S. National Library of Medicine)",
@@ -8181,7 +9753,7 @@
         "brand": "Levemir",
         "status": "RX",
         "confidence": "high",
-        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "note": "The maker is withdrawing Levemir worldwide, so stock may be limited. Other long-acting insulins sold here: glargine (Lantus) and degludec (Tresiba).",
         "source": null,
         "verified": {
           "registry": "MHRA Products + NHS dm+d (UK)",
@@ -8199,14 +9771,14 @@
         "brand": "No longer sold — Levemir has been withdrawn in Canada",
         "status": "UNAVAILABLE",
         "confidence": "medium",
-        "note": "Ask your prescriber about a replacement before you travel.",
+        "note": "Levemir is no longer sold in Canada. Other long-acting insulins sold here: glargine (Lantus) and degludec (Tresiba).",
         "source": null
       },
       "DE": {
         "brand": "Levemir",
         "status": "RX",
         "confidence": "high",
-        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "note": "The maker is withdrawing Levemir worldwide, so stock may be limited. Other long-acting insulins sold here: glargine (Lantus) and degludec (Tresiba).",
         "source": null,
         "verified": {
           "registry": "AMIce drug information system (BfArM, Germany)",
@@ -8224,7 +9796,7 @@
         "brand": "Levemir",
         "status": "RX",
         "confidence": "high",
-        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "note": "The maker is withdrawing Levemir worldwide, so stock may be limited. Other long-acting insulins sold here: glargine (Lantus) and degludec (Tresiba).",
         "source": null,
         "localName": "Insuline détémir",
         "verified": {
@@ -8243,7 +9815,7 @@
         "brand": "Levemir",
         "status": "RX",
         "confidence": "high",
-        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "note": "The maker is withdrawing Levemir worldwide, so stock may be limited. Other long-acting insulins sold here: glargine (Lantus) and degludec (Tresiba).",
         "source": null,
         "localName": "Insulina detemir",
         "verified": {
@@ -8262,21 +9834,21 @@
         "brand": "Levemir",
         "status": "RX",
         "confidence": "medium",
-        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "note": "The maker is withdrawing Levemir worldwide, so stock may be limited. Other long-acting insulins sold here: glargine (Lantus, Basalog) and degludec (Tresiba).",
         "source": null
       },
       "ET": {
         "brand": "Sold generic as \"Insulin detemir\"",
         "status": "RX",
         "confidence": "low",
-        "note": "Cold-chain availability is a bigger practical concern than naming. The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "note": "Cold-chain availability is a bigger practical concern than naming. The maker is withdrawing Levemir worldwide, so stock may be limited.",
         "source": null
       },
       "JP": {
         "brand": "Levemir (レベミル)",
         "status": "RX",
         "confidence": "high",
-        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "note": "The maker is withdrawing Levemir worldwide, so stock may be limited. Other long-acting insulins sold here: glargine (Lantus) and degludec (Tresiba).",
         "source": null,
         "localName": "インスリン デテミル (insurin detemiru)",
         "verified": {
@@ -8295,14 +9867,14 @@
         "brand": "Levemir",
         "status": "RX",
         "confidence": "low",
-        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "note": "The maker is withdrawing Levemir worldwide, so stock may be limited. Other long-acting insulins sold here: glargine (Lantus) and degludec (Tresiba).",
         "source": null
       },
       "SG": {
         "brand": "Levemir",
         "status": "RX",
         "confidence": "high",
-        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "note": "The maker is withdrawing Levemir worldwide, so stock may be limited. Other long-acting insulins sold here: glargine (Lantus) and degludec (Tresiba).",
         "source": null,
         "verified": {
           "registry": "HSA Register of Therapeutic Products (Singapore)",
@@ -8320,21 +9892,47 @@
         "brand": "Levemir",
         "status": "RX",
         "confidence": "low",
-        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "note": "The maker is withdrawing Levemir worldwide, so stock may be limited. Other long-acting insulins sold here: glargine (Lantus) and degludec (Tresiba).",
         "source": null
       },
       "PT": {
         "brand": "Levemir",
         "status": "RX",
         "confidence": "medium",
-        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "note": "The maker is withdrawing Levemir worldwide, so stock may be limited. Other long-acting insulins sold here: glargine (Lantus) and degludec (Tresiba).",
         "source": null
       },
       "TR": {
         "brand": "Levemir",
         "status": "RX",
         "confidence": "medium",
-        "note": "The maker is withdrawing Levemir worldwide, so supply is running out. Ask your prescriber about a replacement before you travel.",
+        "note": "The maker is withdrawing Levemir worldwide, so stock may be limited. Other long-acting insulins sold here: glargine (Lantus) and degludec (Tresiba).",
+        "source": null
+      },
+      "IT": {
+        "brand": "Levemir",
+        "status": "RX",
+        "confidence": "high",
+        "note": "The maker is withdrawing Levemir worldwide, so stock may be limited. Other long-acting insulins sold here: glargine (Lantus, Abasaglar, Toujeo) and degludec (Tresiba).",
+        "source": null,
+        "localName": "Insulina detemir",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "036850055",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "No longer sold in Spain",
+        "status": "UNAVAILABLE",
+        "confidence": "medium",
+        "note": "Levemir is no longer sold in Spain. Other long-acting insulins sold here: glargine (Lantus, Abasaglar, Toujeo) and degludec (Tresiba).",
         "source": null
       }
     }
@@ -8534,6 +10132,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Tresiba",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Insulina degludec",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "042658017",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Tresiba",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Insulina degludec",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "112807004",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=112807004",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -8715,6 +10351,44 @@
         "confidence": "high",
         "note": "Brand confirmed sold in Turkey (unlike Canada, the UK, and France, where it has been discontinued).",
         "source": "https://www.ilacabak.com/cymbalta-30-mg-28-kapsul-7375"
+      },
+      "IT": {
+        "brand": "Cymbalta",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Duloxetina",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "047516012",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Cymbalta / Xeristar",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Duloxetina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "04296001IP",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=04296001IP",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -8901,6 +10575,42 @@
         "confidence": "low",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Sold generic as \"Famotidina\"",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "034433096",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Pepcid",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Famotidina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "62090",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=62090",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -9100,6 +10810,43 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Jardiance",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "043443136",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Jardiance",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Empagliflozina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "114930014",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=114930014",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -9294,6 +11041,43 @@
         "confidence": "high",
         "note": "Brand confirmed sold in Turkey (manufactured/distributed there by Deva Holding).",
         "source": "https://www.ilacabak.com/dilatrend-12-5-mg-30-tablet-24026"
+      },
+      "IT": {
+        "brand": "Dilatrend / Carvipress",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Carvedilolo",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "027604040",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Coropres",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "59695",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=59695",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -9487,6 +11271,43 @@
         "confidence": "low",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Contramal",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "Treated as a controlled narcotic for travelers, though most packs go on an ordinary non-repeatable prescription in Italy.",
+        "source": null,
+        "localName": "Tramadolo",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "049093014",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Adolonta / Zytram",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "61784",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=61784",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -9682,6 +11503,41 @@
         "confidence": "medium",
         "note": "Controlled substance.",
         "source": null
+      },
+      "IT": {
+        "brand": "Xanax / Frontal",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "A controlled psychotropic. In Italy it is dispensed on an ordinary prescription.",
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "038482081",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Trankimazin",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "61152",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=61152",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -9854,6 +11710,43 @@
         "confidence": "low",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Deltacortene",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "010089035",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Dacortin",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Prednisona",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "47863",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=47863",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -10051,6 +11944,42 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Plavix",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "043220019",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Plavix / Iscover",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "98069009",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=98069009",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -10240,6 +12169,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Aspirina / Cardioaspirin",
+        "status": "MIXED",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Acido acetilsalicilico",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "041962010",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Aspirina / Adiro",
+        "status": "MIXED",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Ácido acetilsalicílico",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "2011",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=2011",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -10436,6 +12403,43 @@
         "confidence": "low",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "OxyContin",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": "Treated as a controlled narcotic for travelers, though most packs go on an ordinary non-repeatable prescription in Italy.",
+        "source": null,
+        "localName": "Ossicodone",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "034435139",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "OxyContin / Oxynorm",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Oxicodona",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "63446",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=63446",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -10632,6 +12636,44 @@
         "confidence": "low",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Ritalin / Medikinet / Equasym",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Metilfenidato",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "035040017",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Concerta / Rubifen / Medikinet",
+        "status": "CONTROLLED",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Metilfenidato",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "65148",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=65148",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -10830,6 +12872,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Momendol / Synflex",
+        "status": "MIXED",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Naprossene",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "025829223",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Antalgin / Naprosyn",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Naproxeno sodico",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "57152",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=57152",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -11019,6 +13099,43 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Voltaren Emulgel",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "045625011",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Voltadol / Voltaren Emulgel",
+        "status": "MIXED",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Diclofenaco",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "78407",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=78407",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -11207,6 +13324,44 @@
         "confidence": "low",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Telfast / Fexallegra",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Fexofenadina",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "033303037",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Telfast",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Fexofenadina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "61910",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=61910",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -11396,6 +13551,44 @@
         "confidence": "low",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Vicks Tosse Fluidificante",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Guaifenesina",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "028689026",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Cinfatós Expectorante / Formulaexpec",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Guaifenesina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "78985",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=78985",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -11593,6 +13786,44 @@
         "confidence": "low",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Bronchenolo Tosse / Vicks Tosse Sedativo",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Destrometorfano",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "019771043",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Cinfatós",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Dextrometorfano",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "85817",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=85817",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -11781,6 +14012,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Vicks Sinex",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Oximetazolina",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "023198029",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Respibien / Utabon",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Oximetazolina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "75517",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=75517",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -11934,6 +14203,20 @@
         "status": "UNAVAILABLE",
         "confidence": "low",
         "note": "Bring what you need from home.",
+        "source": null
+      },
+      "IT": {
+        "brand": "Not sold in Italy",
+        "status": "UNAVAILABLE",
+        "confidence": "medium",
+        "note": null,
+        "source": null
+      },
+      "ES": {
+        "brand": "Not sold in Spain",
+        "status": "UNAVAILABLE",
+        "confidence": "medium",
+        "note": null,
         "source": null
       }
     }
@@ -12125,6 +14408,41 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Sold generic as \"Calcio carbonato\"",
+        "status": "OTC",
+        "confidence": "high",
+        "note": "Sold mainly as a calcium supplement. Rennie is not in the Italian register.",
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "033871017",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "ingredient"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Rennie",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Calcio carbonato",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "62940",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=62940",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -12311,6 +14629,43 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Mylicon / Simecrin",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "020708069",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Aero Red",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Simeticona",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "36658",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=36658",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -12455,6 +14810,33 @@
         "confidence": "low",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Dicodral / Reidrax",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": "Sold as a dietary product, so it is not in the medicines register.",
+        "source": null,
+        "localName": "Sali per reidratazione orale"
+      },
+      "ES": {
+        "brand": "Sueroral",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Multicomponente",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "55838",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=55838",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -12642,6 +15024,44 @@
         "confidence": "low",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Dulcolax",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Bisacodile",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "008997025",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Dulcolaxo",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Bisacodilo",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "9600267",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=9600267",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -12839,6 +15259,42 @@
         "confidence": "low",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Movicol / Paxabel",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "041750011",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Movicol / Casenlax",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "66557",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=66557",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -12993,6 +15449,32 @@
         "confidence": "low",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Not sold in Italy",
+        "status": "UNAVAILABLE",
+        "confidence": "medium",
+        "note": "For motion sickness, Italian pharmacies use dimenhydrinate (Xamamina, Travelgum) instead.",
+        "source": null
+      },
+      "ES": {
+        "brand": "Chiclida",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Meclozina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "33924",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=33924",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -13187,6 +15669,44 @@
         "confidence": "low",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Lenirit / Cortidro",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Idrocortisone",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "025869013",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Calmiox",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Hidrocortisona",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "60889",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=60889",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -13384,6 +15904,43 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Canesten",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Clotrimazolo",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "022760108",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Canesten",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "52626",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=52626",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -13539,6 +16096,32 @@
         "confidence": "medium",
         "note": "Thiocilline contains bacitracin with neomycin.",
         "source": null
+      },
+      "IT": {
+        "brand": "Bimixin",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Bacitracina",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "008477061",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Bactroban / Fucidine",
+        "status": "RX",
+        "confidence": "medium",
+        "note": "The US-style triple antibiotic ointment is not sold in Spain. Antibiotic ointments here are mupirocin (Bactroban) and fusidic acid (Fucidine), and they need a prescription.",
+        "source": null
       }
     }
   },
@@ -13670,6 +16253,32 @@
         "confidence": "low",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Not sold on its own",
+        "status": "UNAVAILABLE",
+        "confidence": "medium",
+        "note": "Only found combined with other medicines: in Vicks MediNait, a night-time cold remedy sold without a prescription, and with vitamin B6 for pregnancy nausea, on prescription.",
+        "source": null
+      },
+      "ES": {
+        "brand": "Dormidina",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Doxilamina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "60154",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=60154",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -13856,6 +16465,42 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Norlevo",
+        "status": "MIXED",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "034884066",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Norlevo / Postinor",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "67770",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=67770",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -14045,6 +16690,42 @@
         "confidence": "low",
         "note": "Bring your full course from home.",
         "source": null
+      },
+      "IT": {
+        "brand": "Malarone",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "033299037",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Malarone",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "65257",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=65257",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -14239,6 +16920,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Bassado / Miraclin",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Doxiciclina",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "021635065",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Vibracina / Doxiclat",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Doxiciclina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "46554",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=46554",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -14437,6 +17156,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Zitromax",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Azitromicina",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "027860042",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Zitromax",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Azitromicina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "60065",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=60065",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -14637,6 +17394,42 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Ciproxin",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Ciprofloxacina",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "026664084",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Sold generic as \"Ciprofloxacino\"",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "62768",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=62768",
+          "checked": "2026-10-09",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -14830,6 +17623,43 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Diamox",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "009277017",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Edemox",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Acetazolamida",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "24408",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=24408",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -14982,6 +17812,20 @@
         "status": "UNAVAILABLE",
         "confidence": "low",
         "note": "Bring what you need from home.",
+        "source": null
+      },
+      "IT": {
+        "brand": "No patch in Italy",
+        "status": "UNAVAILABLE",
+        "confidence": "medium",
+        "note": "The scopolamine sold here is butylscopolamine (Buscopan) for stomach cramps, not a motion-sickness patch.",
+        "source": null
+      },
+      "ES": {
+        "brand": "No patch in Spain",
+        "status": "UNAVAILABLE",
+        "confidence": "medium",
+        "note": "The register has scopolamine only as a prescription injection, not a motion-sickness patch.",
         "source": null
       }
     }
@@ -15178,6 +18022,42 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Zofran",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "027612098",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Zofran / Yatrox",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "62944",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=62944",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   },
@@ -15367,6 +18247,44 @@
         "confidence": "medium",
         "note": null,
         "source": null
+      },
+      "IT": {
+        "brand": "Fastjekt / Jext / Chenpen",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Adrenalina",
+        "verified": {
+          "registry": "AIFA medicines database (Italy)",
+          "id": "042416038",
+          "url": "https://medicinali.aifa.gov.it/",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
+      },
+      "ES": {
+        "brand": "Altellus / Jext",
+        "status": "RX",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "localName": "Epinefrina",
+        "verified": {
+          "registry": "CIMA medicines register (AEMPS, Spain)",
+          "id": "67263",
+          "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=67263",
+          "checked": "2026-10-09",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       }
     }
   }

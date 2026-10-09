@@ -8,7 +8,129 @@ type Section = { title: string; body: ReactNode; steps?: string[]; link: { label
 
 // How to bring your own supply into a country, restating what its government publishes.
 // Only countries whose rule is too involved for the one-line warning on the travel card have an entry.
+const AEMPS = 'https://www.aemps.gob.es/industria-farmaceutica/comercio-exterior/medicamentos-destinados-al-tratamiento-de-los-viajeros/';
+const SALUTE = 'https://www.salute.gov.it/new/en/tema/medicinali-stupefacenti-e-precursori-di-droghe/travelling-internationally-medicines-containing/';
+
+const BFARM = 'https://www.bfarm.de/EN/Federal-Opium-Agency/Narcotic-drugs/Travelling-with-narcotic-drugs/_node.html';
+const DOUANE = 'https://www.douane.gouv.fr/demarche/vous-voyagez-avec-des-medicaments';
+
 const GUIDES: Partial<Record<CountryCode, { intro: string; sections: Section[] }>> = {
+  DE: {
+    intro: 'Germany asks for paperwork only for narcotic medicines.',
+    sections: [
+      {
+        title: 'Narcotics',
+        body: (
+          <>
+            Oxycodone, methylphenidate, dexamfetamine and similar. Officially, you need a doctor’s certificate for
+            each one. At the least, carry the medicine in its original labeled container with your prescription.
+          </>
+        ),
+        steps: [
+          'Arriving from outside the Schengen area, such as from the US: Germany’s regulator recommends a multilingual certificate from your doctor giving the single and daily dose, the international name of the active substance and the length of your trip.',
+          'The certificate should be endorsed by the health authority where you live.',
+          'Arriving from another Schengen country: carry the Schengen certificate (Article 75), endorsed by your health authority.',
+          'Either way it covers trips of up to 30 days, with a separate certificate for each medicine.',
+        ],
+        link: { label: 'German medicines regulator: travelling with narcotics', href: BFARM },
+      },
+      {
+        title: 'Other medicines',
+        body: <>The regulator’s guidance covers narcotics only. For other medicines, carrying your prescription is sensible in case you are asked.</>,
+        link: { label: 'German medicines regulator: travelling with narcotics', href: BFARM },
+      },
+    ],
+  },
+  FR: {
+    intro: 'France asks for your original prescription, and limits how much you bring.',
+    sections: [
+      {
+        title: 'Narcotics and psychotropics',
+        body: (
+          <>
+            Oxycodone, methylphenidate, alprazolam and similar. Officially, you must carry the medicine yourself and be
+            able to show the original prescription. At the least, carry it in its original labeled container with
+            your prescription.
+          </>
+        ),
+        steps: [
+          'Bring only the amount your prescription covers. If it does not state a duration, the limit is about four weeks of treatment.',
+          'A translation of the prescription into English or French helps.',
+          'France does not require a permit of its own to enter.',
+        ],
+        link: { label: 'French customs: travelling with medicines', href: DOUANE },
+      },
+      {
+        title: 'Other medicines',
+        body: (
+          <>
+            You may bring up to a three-month supply without paperwork. For more, carry the original prescription,
+            which can cover up to one year of treatment.
+          </>
+        ),
+        link: { label: 'French customs: travelling with medicines', href: DOUANE },
+      },
+    ],
+  },
+  ES: {
+    intro: 'Spain asks for a permit only for controlled medicines.',
+    sections: [
+      {
+        title: 'Narcotics and psychotropics',
+        body: (
+          <>
+            Oxycodone, methylphenidate, lisdexamfetamine (Elvanse), alprazolam and similar. Officially, you need a
+            permit from the Spanish medicines agency (AEMPS) before you travel. At the least, carry the medicine in
+            its original labeled container with your prescription.
+          </>
+        ),
+        steps: [
+          'Email the agency’s narcotics and psychotropics unit, following the instructions on its page. Spanish consulates advise applying at least 10 days ahead.',
+          'Send the application form, a signed medical certificate giving your diagnosis, treatment and daily dose, your prescription, a copy of your passport and your travel tickets.',
+          'The permit covers up to three months of treatment and is valid for three months.',
+          'Carry the permit with the medicine and show it if asked.',
+        ],
+        link: { label: 'Spanish medicines agency: travelers’ medicines', href: AEMPS },
+      },
+      {
+        title: 'Other medicines',
+        body: (
+          <>
+            You may bring up to a three-month supply, in line with your prescription. Carry the prescription or a
+            doctor’s report, as border officials may ask for it.
+          </>
+        ),
+        link: { label: 'Spanish medicines agency: travelers’ medicines', href: AEMPS },
+      },
+    ],
+  },
+  IT: {
+    intro: 'Italy asks for paperwork only for controlled medicines.',
+    sections: [
+      {
+        title: 'Narcotics and psychotropics',
+        body: (
+          <>
+            Oxycodone, tramadol, methylphenidate, alprazolam and similar. Italy does not issue a permit in advance.
+            Officially, you need a certificate showing the medicine was lawfully prescribed. At the least, carry the
+            medicine in its original labeled container with your prescription.
+          </>
+        ),
+        steps: [
+          'The certificate is based on a valid prescription and names you, the prescriber, the medicine, its strength, the quantity and the length of treatment.',
+          'Italy asks for it to be endorsed by the health authority of your home country, and treats it as valid for up to 30 days.',
+          'If you carry only one package, a valid prescription is enough.',
+          'Keep the documents with you for your whole stay.',
+        ],
+        link: { label: 'Italian Ministry of Health: travelling with controlled medicines', href: SALUTE },
+      },
+      {
+        title: 'Other medicines',
+        body: <>Italy has no specific rule for other medicines. Carrying your prescription is sensible in case you are asked.</>,
+        link: { label: 'Italian Ministry of Health: travelling with controlled medicines', href: SALUTE },
+      },
+    ],
+  },
   JP: {
     intro: 'Japan’s rule depends on the medicine, so find yours below.',
     sections: [

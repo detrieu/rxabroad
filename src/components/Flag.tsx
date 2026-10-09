@@ -1,9 +1,11 @@
 import CA from 'country-flag-icons/react/3x2/CA';
 import DE from 'country-flag-icons/react/3x2/DE';
+import ES from 'country-flag-icons/react/3x2/ES';
 import ET from 'country-flag-icons/react/3x2/ET';
 import FR from 'country-flag-icons/react/3x2/FR';
 import GB from 'country-flag-icons/react/3x2/GB';
 import IN from 'country-flag-icons/react/3x2/IN';
+import IT from 'country-flag-icons/react/3x2/IT';
 import JP from 'country-flag-icons/react/3x2/JP';
 import MA from 'country-flag-icons/react/3x2/MA';
 import MX from 'country-flag-icons/react/3x2/MX';
@@ -16,7 +18,7 @@ import { cn } from '@/lib/utils';
 import type { CountryCode } from '@/data';
 
 // SVG flags (emoji flags don't render on Windows). Imported one by one to keep the bundle small.
-const FLAGS = { CA, DE, ET, FR, GB, IN, JP, MA, MX, PT, SG, TR, US, VN } satisfies Record<CountryCode, unknown>;
+const FLAGS = { CA, DE, ES, ET, FR, GB, IN, IT, JP, MA, MX, PT, SG, TR, US, VN } satisfies Record<CountryCode, unknown>;
 
 export function Flag({ code, className, title }: { code: CountryCode; className?: string; title?: string }) {
   const Svg = FLAGS[code];

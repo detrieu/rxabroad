@@ -56,6 +56,22 @@ const jpPsychotropic = (limit: string): Rule => ({
   source: 'https://www.ncd.mhlw.go.jp/dl_data/keitai/total.pdf',
 });
 const CONTROLLED_RULE: Partial<Record<CountryCode, Rule & { byDrug?: Record<string, Rule> }>> = {
+  DE: {
+    text: 'Controlled here — officially, you need a doctor’s certificate giving the dose, the active substance and the length of your trip, endorsed by your home health authority, for trips of up to 30 days. At the least, carry it in its original labeled container with your prescription.',
+    source: 'https://www.bfarm.de/EN/Federal-Opium-Agency/Narcotic-drugs/Travelling-with-narcotic-drugs/_node.html',
+  },
+  FR: {
+    text: 'Controlled here — officially, you must carry it yourself and be able to show the original prescription, with no more than the prescription covers (about four weeks if it gives no duration). At the least, carry it in its original labeled container with your prescription.',
+    source: 'https://www.douane.gouv.fr/demarche/vous-voyagez-avec-des-medicaments',
+  },
+  ES: {
+    text: 'Controlled here — officially, you need a permit from the Spanish medicines agency (AEMPS) before you travel, covering up to three months of treatment. At the least, carry it in its original labeled container with your prescription.',
+    source: 'https://www.aemps.gob.es/industria-farmaceutica/comercio-exterior/medicamentos-destinados-al-tratamiento-de-los-viajeros/',
+  },
+  IT: {
+    text: 'Controlled here — officially, you need a certificate based on a valid prescription, endorsed by your home health authority and valid for up to 30 days. With only one package, a valid prescription is enough. At the least, carry it in its original labeled container with your prescription.',
+    source: 'https://www.salute.gov.it/new/en/tema/medicinali-stupefacenti-e-precursori-di-droghe/travelling-internationally-medicines-containing/',
+  },
   US: {
     text: 'Controlled here — keep it in the original labeled pharmacy container and bring only what you need (as a rule of thumb, no more than a 90-day supply). Arriving from abroad, declare it at customs and carry a prescription or doctor’s note in English.',
     source: 'https://www.cbp.gov/travel/us-citizens/know-before-you-go/prohibited-and-restricted-items',
@@ -299,7 +315,7 @@ function TravelPass({ country, leg, legs, drugs, onRemove }: TravelPassProps) {
                             <>
                               {' · '}
                               <Link href={`/country/${country.slug}#${BRINGING_ANCHOR}`} className="no-print underline underline-offset-2">
-                                How to apply
+                                Details
                               </Link>
                             </>
                           )}

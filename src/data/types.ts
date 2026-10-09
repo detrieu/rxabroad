@@ -1,6 +1,6 @@
 export type CountryCode =
   | 'US' | 'GB' | 'CA' | 'DE' | 'FR' | 'MX' | 'IN'
-  | 'ET' | 'JP' | 'VN' | 'SG' | 'MA' | 'PT' | 'TR';
+  | 'ET' | 'JP' | 'VN' | 'SG' | 'MA' | 'PT' | 'TR' | 'IT' | 'ES';
 
 export type Status =
   | 'OTC' | 'RX' | 'MIXED' | 'PHARMACY'

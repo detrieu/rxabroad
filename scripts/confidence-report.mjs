@@ -18,6 +18,7 @@ const DRUGS = JSON.parse(fs.readFileSync(path.join(ROOT, 'src/data/drugs.json'),
 const COUNTRY_NAMES = {
   US: 'United States', GB: 'United Kingdom', CA: 'Canada', DE: 'Germany', FR: 'France', MX: 'Mexico',
   IN: 'India', ET: 'Ethiopia', JP: 'Japan', VN: 'Vietnam', SG: 'Singapore', MA: 'Morocco', PT: 'Portugal', TR: 'Türkiye',
+  IT: 'Italy', ES: 'Spain',
 };
 
 export const TIER_1 = [
@@ -25,7 +26,7 @@ export const TIER_1 = [
   'ansm.sante.fr', 'has-sante.fr', 'us.emb-japan.go.jp', 'info.pmda.go.jp', 'gob.mx', 'efda.gov.et',
   'ema.europa.eu', 'fda.gov', 'hweclinicalguidance.nhs.uk',
   // registries checked by scripts/verify
-  'nlm.nih.gov', 'data.gov.sg', 'mhra.gov.uk', 'isd.digital.nhs.uk', 'mhlw.go.jp', 'bfarm.de', 'cofepris.gob.mx',
+  'nlm.nih.gov', 'data.gov.sg', 'mhra.gov.uk', 'isd.digital.nhs.uk', 'mhlw.go.jp', 'bfarm.de', 'cofepris.gob.mx', 'aemps.es', 'aifa.gov.it',
 ];
 export const TIER_2 = [
   'medicines.org.uk', 'gelbe-liste.de', 'vidal.fr', 'mims.com', 'vademecum.es', 'flexikon.doccheck.com',

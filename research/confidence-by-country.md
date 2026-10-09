@@ -15,18 +15,20 @@ when the data was researched; the tiers show how much evidence actually backs th
 | 1 | US United States | 98 | 79 | 3 | 0 | 81 | 0 | 0 | 1 | 0 | 81 | 6 | 0 |
 | 2 | FR France | 98 | 78 | 4 | 0 | 75 | 1 | 1 | 5 | 2 | 75 | 4 | 0 |
 | 3 | SG Singapore | 98 | 79 | 2 | 1 | 71 | 1 | 3 | 7 | 6 | 73 | 5 | 2 |
-| 4 | CA Canada | 96 | 75 | 7 | 0 | 77 | 0 | 0 | 5 | 3 | 77 | 6 | 0 |
-| 5 | DE Germany | 95 | 74 | 7 | 1 | 68 | 8 | 3 | 3 | 0 | 77 | 3 | 0 |
-| 6 | GB United Kingdom | 95 | 74 | 8 | 0 | 65 | 8 | 6 | 3 | 3 | 77 | 6 | 2 |
-| 7 | MX Mexico | 95 | 75 | 6 | 1 | 69 | 1 | 6 | 6 | 0 | 73 | 7 | 1 |
-| 8 | JP Japan | 82 | 56 | 23 | 3 | 44 | 8 | 12 | 18 | 0 | 53 | 5 | 1 |
-| 9 | IN India | 55 | 18 | 54 | 10 | 0 | 1 | 14 | 67 | 7 | 0 | 7 | 6 |
-| 10 | PT Portugal | 50 | 12 | 58 | 12 | 4 | 2 | 4 | 72 | 6 | 0 | 5 | 4 |
-| 11 | TR Türkiye | 40 | 8 | 50 | 24 | 0 | 0 | 8 | 74 | 0 | 0 | 5 | 5 |
-| 12 | MA Morocco | 27 | 4 | 37 | 41 | 0 | 0 | 6 | 76 | 0 | 0 | 2 | 2 |
-| 13 | VN Vietnam | 21 | 7 | 20 | 55 | 0 | 0 | 6 | 76 | 1 | 0 | 3 | 3 |
-| 14 | ET Ethiopia | 9 | 0 | 15 | 67 | 1 | 0 | 0 | 81 | 0 | 0 | 0 | 0 |
-| | **All** | 68 | 639 | 294 | 215 | 555 | 30 | 69 | 494 | 28 | 586 | 64 | 26 |
+| 4 | ES Spain | 97 | 77 | 5 | 0 | 77 | 0 | 0 | 5 | 0 | 77 | 5 | 1 |
+| 5 | CA Canada | 96 | 75 | 7 | 0 | 77 | 0 | 0 | 5 | 3 | 77 | 6 | 0 |
+| 6 | IT Italy | 96 | 75 | 7 | 0 | 75 | 0 | 0 | 7 | 0 | 75 | 6 | 2 |
+| 7 | DE Germany | 95 | 74 | 7 | 1 | 68 | 8 | 3 | 3 | 0 | 77 | 3 | 0 |
+| 8 | GB United Kingdom | 95 | 74 | 8 | 0 | 65 | 8 | 6 | 3 | 3 | 77 | 6 | 2 |
+| 9 | MX Mexico | 95 | 75 | 6 | 1 | 69 | 1 | 6 | 6 | 0 | 73 | 7 | 1 |
+| 10 | JP Japan | 82 | 56 | 23 | 3 | 44 | 8 | 12 | 18 | 0 | 53 | 5 | 1 |
+| 11 | IN India | 55 | 18 | 54 | 10 | 0 | 1 | 14 | 67 | 7 | 0 | 7 | 6 |
+| 12 | PT Portugal | 50 | 12 | 58 | 12 | 4 | 2 | 4 | 72 | 6 | 0 | 5 | 4 |
+| 13 | TR Türkiye | 40 | 8 | 50 | 24 | 0 | 0 | 8 | 74 | 0 | 0 | 5 | 5 |
+| 14 | MA Morocco | 27 | 4 | 37 | 41 | 0 | 0 | 6 | 76 | 0 | 0 | 2 | 2 |
+| 15 | VN Vietnam | 21 | 7 | 20 | 55 | 0 | 0 | 6 | 76 | 1 | 0 | 3 | 3 |
+| 16 | ET Ethiopia | 9 | 0 | 15 | 67 | 1 | 0 | 0 | 81 | 0 | 0 | 0 | 0 |
+| | **All** | 72 | 791 | 306 | 215 | 707 | 30 | 69 | 506 | 28 | 738 | 75 | 29 |
 
 ## 1. United States (US) — score 98
 
@@ -295,7 +297,96 @@ when the data was researched; the tiers show how much evidence actually backs th
 | medium ✓ | Pseudoephedrine | Pharmacy-only with purchase limits | PHARMACY | T1 [data.gov.sg](https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view) |
 | low | Oral rehydration salts | Ask for oral rehydration salts | OTC | — |
 
-## 4. Canada (CA) — score 96
+## 4. Spain (ES) — score 97
+
+77 high · 5 medium · 0 low · sources: 77 official, 0 professional, 0 secondary, 5 none · 77 registry-verified
+
+| Confidence | Medicine | Sold as | Status | Source |
+|---|---|---|---|---|
+| high ✓ | Acetazolamide | Edemox | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=24408) |
+| high ✓ | Acetylsalicylic acid (Aspirin) | Aspirina / Adiro | MIXED | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=2011) |
+| high ✓ | Alprazolam | Trankimazin | CONTROLLED ⚠ | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=61152) |
+| high ✓ | Amlodipine | Norvas / Astudal | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=59160) |
+| high ✓ | Amoxicillin | Clamoxyl | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=59133) |
+| high ✓ | Amphetamine / Dextroamphetamine | Elvanse (lisdexamfetamine) | CONTROLLED ⚠ | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=82336) |
+| high ✓ | Apixaban | Eliquis | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=11691002) |
+| high ✓ | Atorvastatin | Cardyl / Zarator | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=61716) |
+| high ✓ | Atovaquone / Proguanil | Malarone | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=65257) |
+| high ✓ | Azithromycin | Zitromax | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=60065) |
+| high ✓ | Bisacodyl | Dulcolaxo | PHARMACY | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=9600267) |
+| high ✓ | Bupropion | Elontril / Zyntabac | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=68615) |
+| high ✓ | Calcium carbonate (antacid) | Rennie | PHARMACY | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=62940) |
+| high ✓ | Carvedilol | Coropres | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=59695) |
+| high ✓ | Cetirizine | Zyrtec / Alerlisin | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=60279) |
+| high ✓ | Ciprofloxacin | Sold generic as "Ciprofloxacino" | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=62768) |
+| high ✓ | Clopidogrel | Plavix / Iscover | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=98069009) |
+| high ✓ | Clotrimazole | Canesten | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=52626) |
+| high ✓ | Dextromethorphan | Cinfatós | PHARMACY | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=85817) |
+| high ✓ | Diclofenac (topical gel) | Voltadol / Voltaren Emulgel | MIXED | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=78407) |
+| high ✓ | Dimenhydrinate | Biodramina | PHARMACY | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=47497) |
+| high ✓ | Diphenhydramine | Soñodor | PHARMACY | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=38322) |
+| high ✓ | Doxycycline | Vibracina / Doxiclat | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=46554) |
+| high ✓ | Doxylamine | Dormidina | PHARMACY | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=60154) |
+| high ✓ | Duloxetine | Cymbalta / Xeristar | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=04296001IP) |
+| high ✓ | Empagliflozin | Jardiance | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=114930014) |
+| high ✓ | Epinephrine (adrenaline auto-injector) | Altellus / Jext | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=67263) |
+| high ✓ | Escitalopram | Cipralex / Esertia | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=65230) |
+| high ✓ | Famotidine | Pepcid | PHARMACY | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=62090) |
+| high ✓ | Fexofenadine | Telfast | PHARMACY | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=61910) |
+| high ✓ | Fluoxetine | Sold generic as "Fluoxetina" | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=63499) |
+| high ✓ | Fluticasone | Flixonase | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=60483) |
+| high ✓ | Furosemide | Seguril | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=39968) |
+| high ✓ | Gabapentin | Neurontin | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=60621) |
+| high ✓ | Guaifenesin | Cinfatós Expectorante / Formulaexpec | PHARMACY | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=78985) |
+| high ✓ | Hydrochlorothiazide | Hidrosaluretil / Esidrex | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=82547) |
+| high ✓ | Hydrocortisone (cream) | Calmiox | PHARMACY | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=60889) |
+| high ✓ | Ibuprofen | Espidifen / Neobrufen / Nurofen | MIXED | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=60514) |
+| high ✓ | Insulin Aspart | NovoRapid / Fiasp | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=99119009) |
+| high ✓ | Insulin Degludec | Tresiba | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=112807004) |
+| high ✓ | Insulin Glargine | Lantus / Abasaglar / Toujeo | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=00134033) |
+| high ✓ | Insulin Human (Regular) | Actrapid / Humulina Regular | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=02230003) |
+| high ✓ | Insulin Isophane (NPH) | Insulatard / Humulina NPH | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=02233014) |
+| high ✓ | Insulin Lispro | Humalog | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=196007044) |
+| high ✓ | Levonorgestrel (emergency contraception) | Norlevo / Postinor | PHARMACY | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=67770) |
+| high ✓ | Levothyroxine | Eutirox | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=64014) |
+| high ✓ | Lisinopril | Zestril / Prinivil | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=59127) |
+| high ✓ | Loperamide | Fortasec | PHARMACY | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=65349) |
+| high ✓ | Loratadine | Clarityne | PHARMACY | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=58518) |
+| high ✓ | Losartan | Cozaar | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=64971) |
+| high ✓ | Meclozine | Chiclida | PHARMACY | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=33924) |
+| high ✓ | Melatonin | Circadin | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=07392003) |
+| high ✓ | Meloxicam | Movalis | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=61076) |
+| high ✓ | Metformin | Dianben | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=55211) |
+| high ✓ | Methylphenidate | Concerta / Rubifen / Medikinet | CONTROLLED ⚠ | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=65148) |
+| high ✓ | Metoprolol | Beloken / Lopresor | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=56989) |
+| high ✓ | Montelukast | Singulair | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=61980) |
+| high ✓ | Naproxen | Antalgin / Naprosyn | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=57152) |
+| high ✓ | Omeprazole | Losec | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=58377) |
+| high ✓ | Ondansetron | Zofran / Yatrox | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=62944) |
+| high ✓ | Oral rehydration salts | Sueroral | PHARMACY | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=55838) |
+| high ✓ | Oxycodone | OxyContin / Oxynorm | CONTROLLED ⚠ | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=63446) |
+| high ✓ | Oxymetazoline (nasal spray) | Respibien / Utabon | PHARMACY | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=75517) |
+| high ✓ | Pantoprazole | Pantecta / Anagastra | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=62580) |
+| high ✓ | Paracetamol | Gelocatil / Efferalgan / Termalgin | PHARMACY | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=57131) |
+| high ✓ | Polyethylene glycol 3350 (macrogol) | Movicol / Casenlax | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=66557) |
+| high ✓ | Prednisone | Dacortin | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=47863) |
+| high ✓ | Pseudoephedrine | Frenadol Descongestivo | PHARMACY | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=56682) |
+| high ✓ | Rosuvastatin | Crestor | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=70243) |
+| high ✓ | Salbutamol | Ventolin | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=53010) |
+| high ✓ | Semaglutide | Ozempic / Wegovy | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=117251002) |
+| high ✓ | Sertraline | Besitran / Aremis | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=59718) |
+| high ✓ | Simeticone | Aero Red | PHARMACY | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=36658) |
+| high ✓ | Simvastatin | Zocor | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=58845) |
+| high ✓ | Tamsulosin | Omnic | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=66678) |
+| high ✓ | Tramadol | Adolonta / Zytram | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=61784) |
+| high ✓ | Trazodone | Deprax | RX | T1 [cima.aemps.es](https://cima.aemps.es/cima/publico/detalle.html?nregistro=78762) |
+| medium | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Bactroban / Fucidine | RX | — |
+| medium | Bismuth subsalicylate | Not sold in Spain | UNAVAILABLE | — |
+| medium | Hydrocodone / Paracetamol combination | Not sold in Spain | CONTROLLED ⚠ | — |
+| medium | Insulin Detemir | No longer sold in Spain | UNAVAILABLE | — |
+| medium | Scopolamine (motion-sickness patch) | No patch in Spain | UNAVAILABLE | — |
+
+## 5. Canada (CA) — score 96
 
 75 high · 7 medium · 0 low · sources: 77 official, 0 professional, 0 secondary, 5 none · 77 registry-verified
 
@@ -384,7 +475,96 @@ when the data was researched; the tiers show how much evidence actually backs th
 | medium | Insulin Detemir | No longer sold — Levemir has been withdrawn in Canada | UNAVAILABLE | — |
 | medium | Oral rehydration salts | Pedialyte | OTC | — |
 
-## 5. Germany (DE) — score 95
+## 6. Italy (IT) — score 96
+
+75 high · 7 medium · 0 low · sources: 75 official, 0 professional, 0 secondary, 7 none · 75 registry-verified
+
+| Confidence | Medicine | Sold as | Status | Source |
+|---|---|---|---|---|
+| high ✓ | Acetazolamide | Diamox | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Acetylsalicylic acid (Aspirin) | Aspirina / Cardioaspirin | MIXED | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Alprazolam | Xanax / Frontal | CONTROLLED ⚠ | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Amlodipine | Norvasc | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Amoxicillin | Velamox | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Apixaban | Eliquis | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Atorvastatin | Torvast / Totalip | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Atovaquone / Proguanil | Malarone | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Azithromycin | Zitromax | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Bimixin | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Bisacodyl | Dulcolax | OTC | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Bupropion | Wellbutrin / Elontril | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Calcium carbonate (antacid) | Sold generic as "Calcio carbonato" | OTC | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Carvedilol | Dilatrend / Carvipress | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Cetirizine | Zirtec | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Ciprofloxacin | Ciproxin | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Clopidogrel | Plavix | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Clotrimazole | Canesten | OTC | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Dextromethorphan | Bronchenolo Tosse / Vicks Tosse Sedativo | PHARMACY | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Diclofenac (topical gel) | Voltaren Emulgel | OTC | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Dimenhydrinate | Xamamina / Travelgum | OTC | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Diphenhydramine | Allergan | OTC | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Doxycycline | Bassado / Miraclin | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Duloxetine | Cymbalta | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Empagliflozin | Jardiance | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Epinephrine (adrenaline auto-injector) | Fastjekt / Jext / Chenpen | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Escitalopram | Cipralex / Entact | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Famotidine | Sold generic as "Famotidina" | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Fexofenadine | Telfast / Fexallegra | OTC | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Fluoxetine | Fluoxeren | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Fluticasone | Flixonase | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Furosemide | Lasix | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Gabapentin | Neurontin | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Guaifenesin | Vicks Tosse Fluidificante | OTC | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Hydrochlorothiazide | Esidrex | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Hydrocortisone (cream) | Lenirit / Cortidro | OTC | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Ibuprofen | Moment / Brufen / Nurofen | MIXED | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Insulin Aspart | NovoRapid / Fiasp | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Insulin Degludec | Tresiba | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Insulin Detemir | Levemir | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Insulin Glargine | Lantus / Abasaglar / Toujeo | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Insulin Human (Regular) | Actrapid / Humulin (R) | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Insulin Isophane (NPH) | Protaphane | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Insulin Lispro | Humalog | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Levonorgestrel (emergency contraception) | Norlevo | MIXED | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Levothyroxine | Eutirox / Tirosint | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Lisinopril | Zestril / Prinivil | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Loperamide | Imodium / Dissenten | OTC | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Loratadine | Clarityn | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Losartan | Lortaan / Losaprex | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Melatonin | Circadin | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Meloxicam | Mobic | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Metformin | Glucophage / Metforal | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Methylphenidate | Ritalin / Medikinet / Equasym | CONTROLLED ⚠ | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Metoprolol | Seloken / Lopresor | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Montelukast | Singulair / Montegen | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Naproxen | Momendol / Synflex | MIXED | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Omeprazole | Antra / Losec / Mepral | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Ondansetron | Zofran | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Oxycodone | OxyContin | CONTROLLED ⚠ | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Oxymetazoline (nasal spray) | Vicks Sinex | OTC | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Pantoprazole | Pantorc / Pantecta | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Paracetamol | Tachipirina / Efferalgan | MIXED | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Polyethylene glycol 3350 (macrogol) | Movicol / Paxabel | PHARMACY | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Prednisone | Deltacortene | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Pseudoephedrine | Actifed / Actigrip | OTC | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Rosuvastatin | Crestor / Provisacor | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Salbutamol | Ventolin / Broncovaleas | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Semaglutide | Ozempic / Wegovy | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Sertraline | Zoloft | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Simeticone | Mylicon / Simecrin | PHARMACY | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Simvastatin | Zocor / Sinvacor / Sivastin | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Tamsulosin | Omnic | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Tramadol | Contramal | CONTROLLED ⚠ | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| high ✓ | Trazodone | Trittico | RX | T1 [medicinali.aifa.gov.it](https://medicinali.aifa.gov.it/) |
+| medium | Amphetamine / Dextroamphetamine | Not sold in Italy | CONTROLLED ⚠ | — |
+| medium | Bismuth subsalicylate | Not sold in Italy | UNAVAILABLE | — |
+| medium | Doxylamine | Not sold on its own | UNAVAILABLE | — |
+| medium | Hydrocodone / Paracetamol combination | Not sold in Italy | CONTROLLED ⚠ | — |
+| medium | Meclozine | Not sold in Italy | UNAVAILABLE | — |
+| medium | Oral rehydration salts | Dicodral / Reidrax | OTC | — |
+| medium | Scopolamine (motion-sickness patch) | No patch in Italy | UNAVAILABLE | — |
+
+## 7. Germany (DE) — score 95
 
 74 high · 7 medium · 1 low · sources: 68 official, 8 professional, 3 secondary, 3 none · 77 registry-verified
 
@@ -473,7 +653,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | medium | Doxylamine | Hoggar Night / SchlafTabs-ratiopharm | PHARMACY | — |
 | low | Meclozine | Not commonly available — "Vomex A" (dimenhydrinate) covers this use | UNAVAILABLE | — |
 
-## 6. United Kingdom (GB) — score 95
+## 8. United Kingdom (GB) — score 95
 
 74 high · 8 medium · 0 low · sources: 65 official, 8 professional, 6 secondary, 3 none · 77 registry-verified
 
@@ -562,7 +742,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | medium ✓ | Naproxen | Feminax Ultra | PHARMACY | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Feminax%20Ultra&page=1) |
 | medium ✓ | Polyethylene glycol 3350 (macrogol) | Movicol / Laxido | PHARMACY | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Movicol&page=1) |
 
-## 7. Mexico (MX) — score 95
+## 9. Mexico (MX) — score 95
 
 75 high · 6 medium · 1 low · sources: 69 official, 1 professional, 6 secondary, 6 none · 73 registry-verified
 
@@ -651,7 +831,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | medium | Pantoprazole | Pantoprazol | RX | — |
 | low | Scopolamine (motion-sickness patch) | No patch in Mexico | UNAVAILABLE | — |
 
-## 8. Japan (JP) — score 82
+## 10. Japan (JP) — score 82
 
 56 high · 23 medium · 3 low · sources: 44 official, 8 professional, 12 secondary, 18 none · 53 registry-verified
 
@@ -740,7 +920,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | low | Scopolamine (motion-sickness patch) | No patch in Japan | UNAVAILABLE | — |
 | low | Simeticone | Gaspitan (ガスピタン) | OTC | — |
 
-## 9. India (IN) — score 55
+## 11. India (IN) — score 55
 
 18 high · 54 medium · 10 low · sources: 0 official, 1 professional, 14 secondary, 67 none · 0 registry-verified
 
@@ -829,7 +1009,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | low | Scopolamine (motion-sickness patch) | Not commonly available | UNAVAILABLE | — |
 | low | Simeticone | Sold generic as "Simethicone" | UNCONFIRMED | — |
 
-## 10. Portugal (PT) — score 50
+## 12. Portugal (PT) — score 50
 
 12 high · 58 medium · 12 low · sources: 4 official, 2 professional, 4 secondary, 72 none · 0 registry-verified
 
@@ -918,7 +1098,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | low | Polyethylene glycol 3350 (macrogol) | Movicol | OTC | — |
 | low | Scopolamine (motion-sickness patch) | Not commonly available | UNAVAILABLE | — |
 
-## 11. Türkiye (TR) — score 40
+## 13. Türkiye (TR) — score 40
 
 8 high · 50 medium · 24 low · sources: 0 official, 0 professional, 8 secondary, 74 none · 0 registry-verified
 
@@ -1007,7 +1187,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | low | Tamsulosin | Omnic | RX | — |
 | low | Tramadol | Availability and import rules unconfirmed — treat as tightly controlled | UNCONFIRMED | — |
 
-## 12. Morocco (MA) — score 27
+## 14. Morocco (MA) — score 27
 
 4 high · 37 medium · 41 low · sources: 0 official, 0 professional, 6 secondary, 76 none · 0 registry-verified
 
@@ -1096,7 +1276,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | low | Tamsulosin | Omix | RX | — |
 | low | Tramadol | Availability and import rules unconfirmed — treat as tightly controlled | UNCONFIRMED | — |
 
-## 13. Vietnam (VN) — score 21
+## 15. Vietnam (VN) — score 21
 
 7 high · 20 medium · 55 low · sources: 0 official, 0 professional, 6 secondary, 76 none · 0 registry-verified
 
@@ -1185,7 +1365,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | low | Tramadol | Availability and import rules unconfirmed — treat as tightly controlled | UNCONFIRMED | — |
 | low | Trazodone | Availability unconfirmed | UNCONFIRMED | — |
 
-## 14. Ethiopia (ET) — score 9
+## 16. Ethiopia (ET) — score 9
 
 0 high · 15 medium · 67 low · sources: 1 official, 0 professional, 0 secondary, 81 none · 0 registry-verified
 

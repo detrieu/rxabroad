@@ -1,6 +1,6 @@
 // Checks one country's entries in src/data/drugs.json against that country's official drug registry.
 //
-// Usage: node scripts/verify/run.mjs <US|CA|SG|FR|GB|JP|DE|MX> [--write] [--no-cache]
+// Usage: node scripts/verify/run.mjs <US|CA|SG|FR|GB|JP|DE|MX|IT|ES> [--write] [--no-cache]
 //
 // Without --write this is a dry run: it only writes research/verification/<CC>.json (the evidence and
 // every mismatch). With --write it also updates drugs.json, under these rules:
@@ -30,6 +30,8 @@ const ADAPTERS = {
   JP: './jp-mhlw.mjs',
   DE: './de-amice.mjs',
   MX: './mx-cofepris.mjs',
+  IT: './it-aifa.mjs',
+  ES: './es-cima.mjs',
 };
 
 const args = process.argv.slice(2);
