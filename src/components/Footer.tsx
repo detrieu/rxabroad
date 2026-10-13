@@ -3,7 +3,7 @@ import { StatusPill } from './StatusPill';
 import { BadgeCheckIcon, CircleHelpIcon, InfoIcon, TriangleAlertIcon } from 'lucide-react';
 
 const LEGEND: { status: string; text: string }[] = [
-  { status: 'OTC', text: 'Over the counter — take it off the shelf.' },
+  { status: 'OTC', text: 'Over the counter. Take it off the shelf.' },
   { status: 'RX', text: 'Needs a local doctor’s prescription.' },
   { status: 'MIXED', text: 'OTC or Rx depending on dose or form (e.g. nasal spray vs. inhaler).' },
   { status: 'PHARMACY', text: 'No prescription, but a pharmacist has to hand it over.' },

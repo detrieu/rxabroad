@@ -158,7 +158,7 @@ export function TripsPanel({ meds, dests, setMeds, setDests }: TripsPanelProps) 
           <p className="text-muted-foreground mt-1.5 flex items-center gap-1.5 text-xs" aria-live="polite">
             {saveState === 'saving' && <><LoaderCircleIcon className="size-3.5 animate-spin" /> Saving…</>}
             {saveState === 'saved' && <><CheckIcon className="text-ink-otc size-3.5" /> Saved to your account</>}
-            {saveState === 'error' && <span className="text-destructive">Couldn’t save — check your connection.</span>}
+            {saveState === 'error' && <span className="text-destructive">Couldn’t save. Check your connection.</span>}
             {saveState === 'idle' && 'Changes save automatically.'}
           </p>
           <Button variant="outline" size="sm" className="mt-3" onClick={() => { setActiveId(null); setSaveResult(null); }}>

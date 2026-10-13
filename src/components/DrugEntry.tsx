@@ -55,7 +55,7 @@ export function DrugEntry({ drug, countries, query, open, countryHits }: DrugEnt
               <span className="flex items-center gap-1.5 font-mono text-[0.65rem] tracking-[0.16em] uppercase">
                 <Flag code={single.code} /> {single.code}
               </span>
-              {/* The stub is narrow: let long labels ("No Rx — Ask Pharmacist") wrap inside it instead of spilling past its edges. */}
+              {/* The stub is narrow: let long labels ("No Rx: Ask Pharmacist") wrap inside it instead of spilling past its edges. */}
               <StatusPill status={singleEntry.status} size="sm" className="max-w-full justify-center text-center leading-[1.3] whitespace-normal" />
             </>
           ) : (

@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: PageProps<'/drug/[id]'>): Pro
     title: `${drug.generic} abroad${brands.length ? `: ${brands.join(', ')}…` : ''}`,
     description:
       `What ${drug.generic}${drug.usAlt ? ` (${drug.usAlt})` : ''} is called and how it's sold in ` +
-      `${COUNTRIES.length} countries — local brand names, prescription status, and travel cautions.`,
+      `${COUNTRIES.length} countries: local brand names, prescription status, and travel cautions.`,
     alternates: { canonical: `/drug/${drug.id}` },
   };
 }
@@ -54,7 +54,7 @@ export default async function DrugPage({ params }: PageProps<'/drug/[id]'>) {
       >
         {drug.usAlt && <p className="text-gold/90 mb-1 font-medium">{drug.usAlt}</p>}
         <p>
-          The international (INN) name — pharmacists everywhere recognize it, even when the local brand differs
+          The international (INN) name. Pharmacists everywhere recognize it, even when the local brand differs
           {brands.length > 0 && <> (e.g. {brands.join(', ')})</>}.
         </p>
       </PageHero>

@@ -16,7 +16,7 @@ const plexMono = IBM_Plex_Mono({ variable: '--font-plex-mono', subsets: ['latin'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: { default: `${SITE_NAME} — ${SITE_TAGLINE}`, template: `%s · ${SITE_NAME}` },
+  title: { default: `${SITE_NAME} · ${SITE_TAGLINE}`, template: `%s · ${SITE_NAME}` },
   description:
     'Look up what a medicine is called abroad. Search a brand, generic name, or destination to see the local brand, ' +
     'prescription status, and travel cautions across 16 countries.',

@@ -16,7 +16,7 @@ export const STATUS = {
     "cls": "mixed"
   },
   "PHARMACY": {
-    "label": "No Rx — Ask Pharmacist",
+    "label": "No Rx: Ask Pharmacist",
     "cls": "pharmacy"
   },
   "CONTROLLED": {
@@ -24,7 +24,7 @@ export const STATUS = {
     "cls": "controlled"
   },
   "BANNED": {
-    "label": "Banned — Do Not Bring",
+    "label": "Banned: Do Not Bring",
     "cls": "banned"
   },
   "UNCONFIRMED": {
