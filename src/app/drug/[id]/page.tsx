@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { COUNTRIES, DRUGS, getDrug, type Drug } from '@/data';
+import { COUNTRIES, DRUGS, SYMPTOMS, getDrug, type Drug } from '@/data';
 import { DrugTable } from '@/components/DrugEntry';
 import { AddMedButton } from '@/components/AddMedButton';
 import { CONTAINER } from '@/components/Masthead';
@@ -44,6 +45,7 @@ export default async function DrugPage({ params }: PageProps<'/drug/[id]'>) {
   const drug = getDrug((await params).id);
   if (!drug) notFound();
   const brands = headlineBrands(drug, 3);
+  const symptoms = SYMPTOMS.filter((s) => drug.symptoms?.includes(s.id));
 
   return (
     <main>
@@ -57,6 +59,18 @@ export default async function DrugPage({ params }: PageProps<'/drug/[id]'>) {
           The international (INN) name. Pharmacists everywhere recognize it, even when the local brand differs
           {brands.length > 0 && <> (e.g. {brands.join(', ')})</>}.
         </p>
+        {symptoms.length > 0 && (
+          <p className="mt-2">
+            Sold for:{' '}
+            {symptoms.map((s, i) => (
+              <span key={s.id}>
+                {i > 0 && ', '}
+                <Link href={`/symptom/${s.id}`} className="text-gold underline underline-offset-4">{s.title.toLowerCase()}</Link>
+              </span>
+            ))}
+            .
+          </p>
+        )}
       </PageHero>
 
       <div className={`${CONTAINER} pt-6`}>

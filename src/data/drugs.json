@@ -7,6 +7,10 @@
     "atc": "N02BE01",
     "rxcui": "161",
     "kit": "pain",
+    "symptoms": [
+      "fever",
+      "pain"
+    ],
     "countries": {
       "US": {
         "brand": "Tylenol",
@@ -143,7 +147,18 @@
         "status": "OTC",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "539100184523",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Panadol",
@@ -172,17 +187,38 @@
       },
       "PT": {
         "brand": "Ben-u-ron",
-        "status": "OTC",
+        "status": "MIXED",
         "confidence": "high",
-        "note": "Non-prescription medicine (MNSRM) under Portuguese law (Decree-Law 176/2006).",
-        "source": "https://ben-u-ron.pt/"
+        "note": "Up to 500 mg is sold over the counter; 1 g needs a prescription.",
+        "source": "https://ben-u-ron.pt/",
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "53175",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Parol",
         "status": "OTC",
         "confidence": "high",
         "note": "Turkey’s best-selling paracetamol brand, made by Atabay since 1973.",
-        "source": "https://www.atabay.com/en/ilac/parol-500-mg-tablet-30-tablet-blister-2-2/"
+        "source": "https://www.atabay.com/en/ilac/parol-500-mg-tablet-30-tablet-blister-2-2/",
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "223/58",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Tachipirina / Efferalgan",
@@ -231,6 +267,11 @@
     "atc": "M01AE01",
     "rxcui": "5640",
     "kit": "pain",
+    "symptoms": [
+      "fever",
+      "pain",
+      "sprains"
+    ],
     "countries": {
       "US": {
         "brand": "Advil / Motrin",
@@ -364,11 +405,21 @@
         "localName": "イブプロフェン (ibupurofen)"
       },
       "VN": {
-        "brand": "Advil / generic ibuprofen",
+        "brand": "Sold generic as \"Ibuprofen\"",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "890100191726",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Nurofen",
@@ -397,17 +448,38 @@
       },
       "PT": {
         "brand": "Brufen",
-        "status": "OTC",
-        "confidence": "medium",
-        "note": null,
-        "source": null
+        "status": "MIXED",
+        "confidence": "high",
+        "note": "200 and 400 mg are sold without a prescription (some 400 mg forms only in pharmacies); 600 mg needs one.",
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "1257",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Nurofen / generic ibuprofen",
         "status": "OTC",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "127/1",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Moment / Brufen / Nurofen",
@@ -457,6 +529,10 @@
     "atc": "R06AX13",
     "rxcui": "28889",
     "kit": "allergy",
+    "symptoms": [
+      "hay-fever",
+      "bites-hives"
+    ],
     "countries": {
       "US": {
         "brand": "Claritin",
@@ -591,9 +667,20 @@
       "VN": {
         "brand": "Clarityne",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "899100766524",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Clarityn",
@@ -621,18 +708,38 @@
         "source": "https://www.med.ma/medicament/clarityne-10-mg-comprime-7737"
       },
       "PT": {
-        "brand": "Clarityne",
+        "brand": "Claritine",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "1890",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Sold generic as \"Loratadin\"",
         "status": "UNCONFIRMED",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "2015/508",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Clarityn",
@@ -682,6 +789,10 @@
     "atc": "R06AE07",
     "rxcui": "20610",
     "kit": "allergy",
+    "symptoms": [
+      "hay-fever",
+      "bites-hives"
+    ],
     "countries": {
       "US": {
         "brand": "Zyrtec",
@@ -829,7 +940,17 @@
         "status": "OTC",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "800110029125",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Zyrtec",
@@ -858,17 +979,38 @@
       },
       "PT": {
         "brand": "Zyrtec",
-        "status": "OTC",
-        "confidence": "medium",
-        "note": null,
-        "source": null
+        "status": "MIXED",
+        "confidence": "high",
+        "note": "Tablets are sold over the counter; the oral solution needs a prescription.",
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "9531",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Zyrtec",
         "status": "PHARMACY",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "178/62",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Zirtec",
@@ -918,6 +1060,11 @@
     "atc": "R06AA02",
     "rxcui": "3498",
     "kit": "allergy",
+    "symptoms": [
+      "hay-fever",
+      "bites-hives",
+      "jet-lag"
+    ],
     "countries": {
       "US": {
         "brand": "Benadryl",
@@ -1051,10 +1198,20 @@
       },
       "VN": {
         "brand": "Sold generic as \"Diphenhydramine\"",
-        "status": "UNCONFIRMED",
-        "confidence": "medium",
+        "status": "OTC",
+        "confidence": "high",
         "note": "Vietnamese pharmacies use the international spelling, so the name is written the same way.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "893100022426",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Paxidorm",
@@ -1086,14 +1243,32 @@
         "status": "UNCONFIRMED",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "2842",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "TR": {
         "brand": "Sold generic as \"Difenhidramin\"",
         "status": "UNCONFIRMED",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "127/23",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Allergan",
@@ -1143,6 +1318,9 @@
     "atc": "A07DA03",
     "rxcui": "6468",
     "kit": "stomach",
+    "symptoms": [
+      "travelers-diarrhea"
+    ],
     "countries": {
       "US": {
         "brand": "Imodium",
@@ -1278,9 +1456,20 @@
       "VN": {
         "brand": "Imodium",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "560100184823",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Imodium",
@@ -1308,18 +1497,38 @@
         "source": null
       },
       "PT": {
-        "brand": "Imodium",
-        "status": "OTC",
+        "brand": "Imodium Rapid",
+        "status": "MIXED",
         "confidence": "medium",
-        "note": null,
-        "source": null
+        "note": "Imodium Rapid melt tablets are sold over the counter; Imodium capsules need a prescription.",
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "4444",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "TR": {
-        "brand": "Imodium",
+        "brand": "Lopermid",
         "status": "OTC",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "195/16",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Imodium / Dissenten",
@@ -1368,6 +1577,9 @@
     "atc": "A02BC01",
     "rxcui": "7646",
     "kit": "stomach",
+    "symptoms": [
+      "heartburn"
+    ],
     "countries": {
       "US": {
         "brand": "Prilosec",
@@ -1513,7 +1725,17 @@
         "status": "RX",
         "confidence": "high",
         "note": "Widely sold. Needs a prescription.",
-        "source": "https://nhathuoclongchau.com.vn/thuoc/losec-mups-20-1314.html"
+        "source": "https://nhathuoclongchau.com.vn/thuoc/losec-mups-20-1314.html",
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "VN-19558-16",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Promesec (pharmacy-only) / Losec (Rx)",
@@ -1543,16 +1765,37 @@
       "PT": {
         "brand": "Losec",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "5220",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
-        "brand": "Losec",
+        "brand": "Omeprol / Demeprazol",
         "status": "RX",
         "confidence": "high",
-        "note": "Sold by AstraZeneca Turkey. Antra and Omez are other brand names there.",
-        "source": "https://www.ilacabak.com/etkengoster.php?Id=525"
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "8699516153625",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Antra / Losec / Mepral",
@@ -1601,6 +1844,9 @@
     "atc": "R01BA02",
     "rxcui": "8896",
     "kit": "cold",
+    "symptoms": [
+      "blocked-nose"
+    ],
     "countries": {
       "US": {
         "brand": "Sudafed",
@@ -1718,11 +1964,20 @@
         }
       },
       "VN": {
-        "brand": "Ask by generic name",
-        "status": "CONTROLLED",
-        "confidence": "low",
-        "note": "Controlled precursor.",
-        "source": null
+        "brand": "Sold in combination cold medicines (e.g. Deconal, Rumednic)",
+        "status": "UNCONFIRMED",
+        "confidence": "medium",
+        "note": "Almost all products combine it with paracetamol or an antihistamine. Plain pseudoephedrine tablets are rare.",
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "VN-18369-14",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Pharmacy-only with purchase limits",
@@ -1753,14 +2008,34 @@
         "status": "PHARMACY",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "631342",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
-        "brand": "Ask by generic name",
-        "status": "CONTROLLED",
-        "confidence": "low",
-        "note": "Controlled precursor.",
-        "source": null
+        "brand": "Coldaway (with ibuprofen)",
+        "status": "MIXED",
+        "confidence": "medium",
+        "note": "Only combination products such as Coldaway are sold behind the counter. Products with pseudoephedrine alone need a prescription.",
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "246/81",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Actifed / Actigrip",
@@ -1810,6 +2085,9 @@
     "atc": "N05CH01",
     "rxcui": "6711",
     "kit": "motion",
+    "symptoms": [
+      "jet-lag"
+    ],
     "countries": {
       "US": {
         "brand": "Sold as a plain supplement, no brand needed",
@@ -1941,10 +2219,20 @@
       },
       "VN": {
         "brand": "Sold generic as \"Melatonin\"",
-        "status": "UNCONFIRMED",
-        "confidence": "medium",
+        "status": "RX",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "893110466525",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Prescription-only medicine (POM). Circadin is the only HSA-registered brand",
@@ -1975,14 +2263,33 @@
         "status": "MIXED",
         "confidence": "medium",
         "note": "Sold OTC as a food supplement up to roughly 2mg/day (recent guidance pushes suppliers toward ≤1mg); products at 2–3mg are regulated as INFARMED prescription medicines.",
-        "source": "https://www.infarmed.pt/web/infarmed/entidades/medicamentos-uso-humano/fronteira_sup_alimentares"
+        "source": "https://www.infarmed.pt/web/infarmed/entidades/medicamentos-uso-humano/fronteira_sup_alimentares",
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "647104",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Sold generic as \"Melatonin\"",
         "status": "UNCONFIRMED",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "2024/153",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Circadin",
@@ -2032,6 +2339,10 @@
     "atc": "R06AA11",
     "rxcui": "3444",
     "kit": "motion",
+    "symptoms": [
+      "nausea",
+      "motion-sickness"
+    ],
     "countries": {
       "US": {
         "brand": "Dramamine",
@@ -2154,10 +2465,20 @@
       },
       "VN": {
         "brand": "Sold generic as \"Dimenhydrinate\"",
-        "status": "UNCONFIRMED",
-        "confidence": "medium",
+        "status": "OTC",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "893100091400",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Novomin",
@@ -2189,14 +2510,32 @@
         "status": "UNCONFIRMED",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "3009",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "TR": {
         "brand": "Sold generic as \"Dimenhidrinat\"",
         "status": "UNCONFIRMED",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "127/28",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Xamamina / Travelgum",
@@ -2377,9 +2716,19 @@
       "VN": {
         "brand": "Sold generic",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "The prescription requirement has not been strictly enforced.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "900110192326",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Sold generic",
@@ -2410,14 +2759,33 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "612503",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Sold generic as \"Amoksisilin\"",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "184/68",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Velamox",
@@ -2613,7 +2981,17 @@
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "300110789924",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Glucophage",
@@ -2645,14 +3023,35 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "3975",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
-        "brand": "Glucophage",
+        "brand": "Glifor / Matofin",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "209/19",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Glucophage / Metforal",
@@ -2849,7 +3248,17 @@
         "status": "RX",
         "confidence": "high",
         "note": "Sold by Pfizer. Local generics go by other names (Inosert, Clealine, Asentra).",
-        "source": "https://nhathuoclongchau.com.vn/thuoc/zoloft-50mg-pfizer-3x10-21685.html"
+        "source": "https://nhathuoclongchau.com.vn/thuoc/zoloft-50mg-pfizer-3x10-21685.html",
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "400110010824",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Zoloft",
@@ -2881,14 +3290,35 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "9485",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Lustral",
         "status": "RX",
         "confidence": "high",
         "note": "The best-known sertraline brand in Turkey, and the same name as in the UK.",
-        "source": "https://www.medikalakademi.com.tr/lustral-sertralin-nedir-ne-icin-kullanilir-yan-etkileri-nelerdir/"
+        "source": "https://www.medikalakademi.com.tr/lustral-sertralin-nedir-ne-icin-kullanilir-yan-etkileri-nelerdir/",
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "194/24",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Zoloft",
@@ -3084,7 +3514,17 @@
         "status": "PHARMACY",
         "confidence": "medium",
         "note": "Commonly available without strict prescription enforcement.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "400115965324",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Ventolin",
@@ -3112,18 +3552,39 @@
         "source": null
       },
       "PT": {
-        "brand": "Ventolin",
+        "brand": "Ventilan",
         "status": "RX",
-        "confidence": "medium",
-        "note": "May also appear as \"Ventilan\".",
-        "source": null
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "9077",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Ventolin",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "85/45",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Ventolin / Broncovaleas",
@@ -3318,9 +3779,20 @@
       "VN": {
         "brand": "Lipitor",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "893110452925",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Lipitor",
@@ -3352,14 +3824,35 @@
         "status": "RX",
         "confidence": "high",
         "note": "Pfizer Portugal’s atorvastatin brand.",
-        "source": "https://www.pfizer.pt/pt-pt/zarator"
+        "source": "https://www.pfizer.pt/pt-pt/zarator",
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "51736",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Lipitor",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "233/7",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Torvast / Totalip",
@@ -3553,9 +4046,19 @@
       "VN": {
         "brand": "Sold generic as \"Levothyroxine\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "890110183826",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Eltroxin",
@@ -3585,16 +4088,37 @@
       "PT": {
         "brand": "Eutirox",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "31940",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Euthyrox",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "117/65",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Eutirox / Tirosint",
@@ -3785,9 +4309,19 @@
       "VN": {
         "brand": "Sold generic as \"Lisinopril\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "893110083026",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Sold generic",
@@ -3816,16 +4350,36 @@
       "PT": {
         "brand": "Zestril",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "9442",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Sold generic as \"Lisinopril\"",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "2017/137",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Zestril / Prinivil",
@@ -4018,9 +4572,20 @@
       "VN": {
         "brand": "Norvasc",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "893110364225",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Norvasc",
@@ -4050,16 +4615,37 @@
       "PT": {
         "brand": "Norvasc",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Sold in Portugal, though most of what pharmacies stock is generic (\"amlodipina\").",
-        "source": "https://www.indice.eu/pt/medicamentos/medicamentos/norvasc/informacao-geral"
+        "source": "https://www.indice.eu/pt/medicamentos/medicamentos/norvasc/informacao-geral",
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "6250",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Norvasc",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "158/46",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Norvasc",
@@ -4252,9 +4838,19 @@
       "VN": {
         "brand": "Betaloc",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "730110022123",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Denex (or generic metoprolol)",
@@ -4282,18 +4878,38 @@
         "source": null
       },
       "PT": {
-        "brand": "Lopresor",
+        "brand": "Sold generic as \"Metoprolol\"",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "54877",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Beloc",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "2024/476",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Seloken / Lopresor",
@@ -4485,9 +5101,19 @@
       "VN": {
         "brand": "Cozaar",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "880110035426",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Cozaar",
@@ -4517,16 +5143,36 @@
       "PT": {
         "brand": "Cozaar",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "33071",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Sold generic as \"Losartan\"",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "2022/299",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Lortaan / Losaprex",
@@ -4720,9 +5366,19 @@
       "VN": {
         "brand": "Neurontin",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "VN-16857-13",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Neurontin",
@@ -4752,16 +5408,37 @@
       "PT": {
         "brand": "Neurontin",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "6056",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Neurontin",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "110/56",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Neurontin",
@@ -4956,9 +5633,19 @@
       "VN": {
         "brand": "Crestor",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "VN-19786-16",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Crestor",
@@ -4988,16 +5675,37 @@
       "PT": {
         "brand": "Crestor",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "35075",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Crestor",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "2019/577",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Crestor / Provisacor",
@@ -5167,9 +5875,19 @@
       "VN": {
         "brand": "Pantoloc",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "400110034023",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Controloc",
@@ -5197,18 +5915,37 @@
         "source": null
       },
       "PT": {
-        "brand": "Pantoloc",
-        "status": "RX",
+        "brand": "Pantoc",
+        "status": "MIXED",
         "confidence": "medium",
-        "note": null,
-        "source": null
+        "note": "20 mg (Kairol) is sold over the counter; Pantoc and 40 mg need a prescription.",
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "9891",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "TR": {
         "brand": "Sold generic as \"Pantoprazol\"",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "2017/797",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Pantorc / Pantecta",
@@ -5399,11 +6136,22 @@
         }
       },
       "VN": {
-        "brand": "Lexapro / Cipralex",
+        "brand": "Escipra / Recita",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "890110312525",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Lexapro",
@@ -5433,16 +6181,37 @@
       "PT": {
         "brand": "Cipralex",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "34878",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Cipralex",
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": "https://www.drugs.com/international/escitalopram.html"
+        "source": "https://www.drugs.com/international/escitalopram.html",
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "2018/202",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Cipralex / Entact",
@@ -5821,9 +6590,18 @@
       "VN": {
         "brand": "Sold generic as \"Hydrochlorothiazide\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "890110197126",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Sold generic",
@@ -5852,16 +6630,35 @@
       "PT": {
         "brand": "Sold generic as \"hidroclorotiazida\"",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "631142",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Sold generic as \"Hidroklorotiyazid\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "164/88",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Esidrex",
@@ -6073,16 +6870,37 @@
       "PT": {
         "brand": "Wellbutrin XR",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "41506",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Wellbutrin",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "125/93",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Wellbutrin / Elontril",
@@ -6256,11 +7074,21 @@
         "source": "https://interacnetwork.com/antidepressants-availablity-in-japan-2/"
       },
       "VN": {
-        "brand": "Prozac",
+        "brand": "Sold generic as \"Fluoxetin\" (also Oxedep)",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "560110417625",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Sold generic (e.g. Proctin, Fluxil)",
@@ -6287,18 +7115,38 @@
         "source": "https://sahha.ma/medicaments/fluoxet-20mg-gelule-2"
       },
       "PT": {
-        "brand": "Prozac",
+        "brand": "Sold generic as \"Fluoxetina\"",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "2590",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Prozac",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "169/28",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Fluoxeren",
@@ -6491,9 +7339,19 @@
       "VN": {
         "brand": "Ozempic",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "570410174600",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Ozempic",
@@ -6523,16 +7381,37 @@
       "PT": {
         "brand": "Ozempic",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "635326",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Ozempic",
         "status": "RX",
         "confidence": "medium",
         "note": "The global semaglutide shortage of 2022–2025 has ended, and no shortage has been reported in Turkey.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "2022/271",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Ozempic / Wegovy",
@@ -6725,9 +7604,19 @@
       "VN": {
         "brand": "Singulair",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "VN-20319-17",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Singulair",
@@ -6757,16 +7646,37 @@
       "PT": {
         "brand": "Singulair",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "31637",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Singulair",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "2022/280",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Singulair / Montegen",
@@ -6973,18 +7883,39 @@
         "source": "https://medicament.ma/medicament/deprestat-50-mg-comprime/"
       },
       "PT": {
-        "brand": "Triticum (or Triticum OD / Trazone OD for extended-release)",
+        "brand": "Triticum",
         "status": "RX",
         "confidence": "high",
         "note": "Registered with INFARMED and made by Angelini Pharma and Tecnifar. Both extended-release versions had a supply shortage reported through September 2026, so check current stock.",
-        "source": "https://www.infarmed.pt/documents/15786/12277909/Indisponibilidade+de+medicamentos+contendo+Trazodona+de+liberta%C3%A7%C3%A3o+prolongada/cea23032-f5c8-86e8-60ac-841421c21922?version=1.0"
+        "source": "https://www.infarmed.pt/documents/15786/12277909/Indisponibilidade+de+medicamentos+contendo+Trazodona+de+liberta%C3%A7%C3%A3o+prolongada/cea23032-f5c8-86e8-60ac-841421c21922?version=1.0",
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "8734",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
-        "brand": "Trittico",
+        "brand": "Desyrel",
         "status": "RX",
         "confidence": "high",
-        "note": "Sold in Turkey, including as Trittico retard and Trittico Uno. Generics have been sold there since 2018.",
-        "source": "https://www.ilactr.com/atc/N06AX05.html"
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "142/5",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Trittico",
@@ -7177,9 +8108,19 @@
       "VN": {
         "brand": "Zocor",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "VN-20813-17",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Zocor",
@@ -7209,16 +8150,37 @@
       "PT": {
         "brand": "Zocor",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "9475",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
-        "brand": "Zocor",
+        "brand": "Lipvakol / Simta",
         "status": "RX",
         "confidence": "medium",
-        "note": null,
-        "source": null
+        "note": "Rarely stocked now that atorvastatin and rosuvastatin are more widely prescribed. Pharmacies usually order it as a generic.",
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "182/90",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Zocor / Sinvacor / Sivastin",
@@ -7408,11 +8370,21 @@
         }
       },
       "VN": {
-        "brand": "Flomax",
+        "brand": "Harnal",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "870110780724",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Harnal OCAS",
@@ -7442,16 +8414,37 @@
       "PT": {
         "brand": "Omnic",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "38888",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
-        "brand": "Omnic",
+        "brand": "Flomax",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "2017/324",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Omnic",
@@ -7644,6 +8637,9 @@
     "atc": "R01AD08",
     "rxcui": "41126",
     "kit": "allergy",
+    "symptoms": [
+      "hay-fever"
+    ],
     "countries": {
       "US": {
         "brand": "Flonase (nasal spray, OTC) / Flovent (inhaler, Rx)",
@@ -7769,7 +8765,17 @@
         "status": "RX",
         "confidence": "high",
         "note": "Sold at several Vietnamese pharmacy chains. Needs a prescription.",
-        "source": "https://nhathuocankhang.com/thuoc-xit-nho-mui/flixonase"
+        "source": "https://nhathuocankhang.com/thuoc-xit-nho-mui/flixonase",
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "840110178023",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Flixonase",
@@ -7797,18 +8803,39 @@
         "source": "https://medicament.ma/medicament/flixonase-suspension-pour-instillation-nasale-50-mcg/"
       },
       "PT": {
-        "brand": "Flixonase (nasal spray, OTC) / other fluticasone forms (Rx)",
+        "brand": "Vibrocil Anti-Alergias / Flutaide",
         "status": "MIXED",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "INFARMED has a pharmacy-exclusive-dispensing (Dispensa Exclusiva em Farmácia) protocol for fluticasone nasal spray, and Portuguese pharmacies list it among non-prescription (MNSRM) allergy products, as in the US, UK, Canada and Germany.",
-        "source": "https://www.infarmed.pt/documents/15786/79990/Fluticasona_2015_07_17.pdf"
+        "source": "https://www.infarmed.pt/documents/15786/79990/Fluticasona_2015_07_17.pdf",
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "585021",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Flixonase",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "92/64",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Flixonase",
@@ -7999,7 +9026,17 @@
         "status": "RX",
         "confidence": "high",
         "note": "Sold by Boehringer Ingelheim. Strictly prescription-only.",
-        "source": "https://nhathuoclongchau.com.vn/thuoc/mobic-75mg-2985.html"
+        "source": "https://nhathuoclongchau.com.vn/thuoc/mobic-75mg-2985.html",
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "400110118924",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Mobic",
@@ -8027,18 +9064,39 @@
         "source": "https://sahha.ma/medicaments/mobic-7-5-mg-comprime"
       },
       "PT": {
-        "brand": "Mobic",
+        "brand": "Movalis",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "5750",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Melcam / Melox",
         "status": "RX",
         "confidence": "high",
         "note": "Mobic was discontinued in Turkey, according to the Turkish Pharmacists’ Association (stock cleared by May 15, 2008). Melcam and Melox are the current meloxicam brands.",
-        "source": "https://www.antalyaeo.org.tr/tr/m/turk-eczacilari-birligi/mobic-7-5-mg-tb-mobic-15-mg-tb-ve-mobic-15-mg-supp-isimli-mustahzarlar-hk-.html"
+        "source": "https://www.antalyaeo.org.tr/tr/m/turk-eczacilari-birligi/mobic-7-5-mg-tb-mobic-15-mg-tb-ve-mobic-15-mg-supp-isimli-mustahzarlar-hk-.html",
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "206/18",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Mobic",
@@ -8230,9 +9288,19 @@
       "VN": {
         "brand": "Eliquis",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "539110436423",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Eliquis",
@@ -8264,14 +9332,35 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "52171",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Eliquis",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "2015/819",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Eliquis",
@@ -8460,11 +9549,21 @@
         }
       },
       "VN": {
-        "brand": "Lasix",
+        "brand": "Sold generic as \"Furosemid\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "890110185426",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Sold generic",
@@ -8493,16 +9592,37 @@
       "PT": {
         "brand": "Lasix",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "4904",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Lasix",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "197/73",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Lasix",
@@ -8694,11 +9814,21 @@
         }
       },
       "VN": {
-        "brand": "Lantus",
+        "brand": "Toujeo / Basaglar",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "400410304624",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Lantus",
@@ -8730,14 +9860,35 @@
         "status": "RX",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "10745",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Lantus",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "114/85",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Lantus / Abasaglar / Toujeo",
@@ -8932,9 +10083,19 @@
       "VN": {
         "brand": "Humalog",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "800410110524",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Humalog",
@@ -8964,16 +10125,37 @@
       "PT": {
         "brand": "Humalog",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "4327",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Humalog",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "108/55",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Humalog",
@@ -9168,9 +10350,19 @@
       "VN": {
         "brand": "NovoRapid",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "QLSP-1023-17",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "NovoRapid",
@@ -9200,16 +10392,37 @@
       "PT": {
         "brand": "NovoRapid",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "29179",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "NovoRapid",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "111/80",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "NovoRapid / Fiasp",
@@ -9404,9 +10617,19 @@
       "VN": {
         "brand": "Actrapid",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "QLSP-1030-17",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Actrapid",
@@ -9436,16 +10659,37 @@
       "PT": {
         "brand": "Actrapid / Humulin Regular",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "32423",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Actrapid / Humulin R",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "101/28",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Actrapid / Humulin (R)",
@@ -9640,9 +10884,19 @@
       "VN": {
         "brand": "Insulatard",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "300410198825",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Insulatard",
@@ -9672,16 +10926,37 @@
       "PT": {
         "brand": "Insulatard / Humulin NPH",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "33134",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Humulin N / Insulatard",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "107/25",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Protaphane",
@@ -9866,9 +11141,19 @@
       "VN": {
         "brand": "Levemir",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": "The maker is withdrawing Levemir worldwide, so stock may be limited. Other long-acting insulins sold here: glargine (Lantus) and degludec (Tresiba).",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "QLSP-1094-18",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Levemir",
@@ -9898,16 +11183,37 @@
       "PT": {
         "brand": "Levemir",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "The maker is withdrawing Levemir worldwide, so stock may be limited. Other long-acting insulins sold here: glargine (Lantus) and degludec (Tresiba).",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "35044",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Levemir",
         "status": "RX",
         "confidence": "medium",
         "note": "The maker is withdrawing Levemir worldwide, so stock may be limited. Other long-acting insulins sold here: glargine (Lantus) and degludec (Tresiba).",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "117/41",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Levemir",
@@ -10090,9 +11396,19 @@
       "VN": {
         "brand": "Tresiba",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "570410647224",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Tresiba",
@@ -10122,16 +11438,37 @@
       "PT": {
         "brand": "Tresiba",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "56991",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Tresiba",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "2016/652",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Tresiba",
@@ -10322,7 +11659,17 @@
         "status": "RX",
         "confidence": "high",
         "note": "Registered with the Vietnamese Ministry of Health (VN2-608-17).",
-        "source": "https://thuocbietduoc.com.vn/thuoc-60316/cymbalta.aspx"
+        "source": "https://thuocbietduoc.com.vn/thuoc-60316/cymbalta.aspx",
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "VN2-608-17",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Cymbalta (mostly sold as generic duloxetine)",
@@ -10339,18 +11686,38 @@
         "source": "https://www.med.ma/medicament/cymbalta-30-mg--gelule-5523"
       },
       "PT": {
-        "brand": "Cymbalta",
+        "brand": "Sold generic as \"Duloxetina\"",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "590105",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Cymbalta",
         "status": "RX",
         "confidence": "high",
         "note": "Sold in Turkey, although Canada, the UK and France have discontinued it.",
-        "source": "https://www.ilacabak.com/cymbalta-30-mg-28-kapsul-7375"
+        "source": "https://www.ilacabak.com/cymbalta-30-mg-28-kapsul-7375",
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "122/86",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Cymbalta",
@@ -10400,6 +11767,9 @@
     "atc": "A02BA03",
     "rxcui": "4278",
     "kit": "stomach",
+    "symptoms": [
+      "heartburn"
+    ],
     "countries": {
       "US": {
         "brand": "Pepcid",
@@ -10531,11 +11901,22 @@
         "localName": "ファモチジン (famochijin)"
       },
       "VN": {
-        "brand": "Pepcid",
-        "status": "OTC",
-        "confidence": "low",
-        "note": null,
-        "source": null
+        "brand": "Peptacid / Famodin",
+        "status": "RX",
+        "confidence": "high",
+        "note": "For heartburn without a prescription, ask for an antacid such as Amadolox or an alginate such as Gaviscon-type Gasta.",
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "893110016226",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Famotin / Famopsin",
@@ -10563,18 +11944,39 @@
         "source": null
       },
       "PT": {
-        "brand": "Pepcid",
-        "status": "RX",
-        "confidence": "medium",
+        "brand": "Lasa",
+        "status": "OTC",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "29925",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Famodin",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "156/38",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Sold generic as \"Famotidina\"",
@@ -10768,9 +12170,19 @@
       "VN": {
         "brand": "Jardiance",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "520110423023",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Jardiance",
@@ -10800,16 +12212,37 @@
       "PT": {
         "brand": "Jardiance",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "585383",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Jardiance",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "2017/241",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Jardiance",
@@ -10997,11 +12430,21 @@
         }
       },
       "VN": {
-        "brand": "Dilatrend",
+        "brand": "Sold generic as \"Carvedilol\"",
         "status": "RX",
         "confidence": "high",
-        "note": "Sold nationwide, although Germany has discontinued it. Local generics such as SaVi Carvedilol are also sold.",
-        "source": "https://bvnguyentriphuong.com.vn/kien-thuc-duoc-cho-cong-dong/dilatrend"
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "400110068626",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Dilatrend",
@@ -11029,18 +12472,39 @@
         "source": null
       },
       "PT": {
-        "brand": "Dilatrend",
+        "brand": "Dilbloc",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "2607",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Dilatrend",
         "status": "RX",
         "confidence": "high",
         "note": "Sold in Turkey, where Deva Holding makes and distributes it.",
-        "source": "https://www.ilacabak.com/dilatrend-12-5-mg-30-tablet-24026"
+        "source": "https://www.ilacabak.com/dilatrend-12-5-mg-30-tablet-24026",
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "2018/183",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Dilatrend / Carvipress",
@@ -11228,11 +12692,20 @@
         }
       },
       "VN": {
-        "brand": "Availability and import rules not known. Assume it is tightly controlled",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "brand": "Sold mostly combined with paracetamol",
+        "status": "CONTROLLED",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "560111187326",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Sold generic",
@@ -11263,14 +12736,34 @@
         "status": "CONTROLLED",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "6698",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "TR": {
-        "brand": "Availability and import rules not known. Assume it is tightly controlled",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "brand": "Contramal",
+        "status": "CONTROLLED",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "181/12",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "IT": {
         "brand": "Contramal",
@@ -11460,11 +12953,21 @@
         }
       },
       "VN": {
-        "brand": "Availability and import rules not known. Assume it is tightly controlled",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "brand": "Frixitas",
+        "status": "CONTROLLED",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "VN-11013-10",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Xanax",
@@ -11495,14 +12998,35 @@
         "status": "CONTROLLED",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "9314",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "TR": {
         "brand": "Xanax",
         "status": "CONTROLLED",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Controlled substance.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "214/79",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "IT": {
         "brand": "Xanax / Frontal",
@@ -11698,11 +13222,11 @@
         "source": null
       },
       "PT": {
-        "brand": "Meticorten (or Lodotra for extended-release)",
-        "status": "RX",
+        "brand": "Not marketed in Portugal",
+        "status": "UNAVAILABLE",
         "confidence": "high",
-        "note": "Cortiol and Nocasio are other prednisone brands registered in Portugal.",
-        "source": "https://www.indice.eu/pt/medicamentos/DCI/prednisona/informacao-cientifica"
+        "note": null,
+        "source": null
       },
       "TR": {
         "brand": "Deltacortril (prednisolone) is the more commonly used equivalent",
@@ -11902,9 +13426,19 @@
       "VN": {
         "brand": "Plavix",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "VN-18879-15",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Plavix",
@@ -11934,16 +13468,37 @@
       "PT": {
         "brand": "Plavix",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "6948",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Plavix",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "2017/333",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Plavix",
@@ -11991,6 +13546,10 @@
     "atc": "N02BA01",
     "rxcui": "1191",
     "kit": "pain",
+    "symptoms": [
+      "fever",
+      "pain"
+    ],
     "countries": {
       "US": {
         "brand": "Bayer Aspirin",
@@ -12127,9 +13686,20 @@
       "VN": {
         "brand": "Aspirin (spelling unchanged)",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "893100903724",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Aspirin",
@@ -12161,14 +13731,35 @@
         "status": "OTC",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "37119",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Aspirin / Ecopirin",
         "status": "OTC",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "154/58",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Aspirina / Cardioaspirin",
@@ -12360,11 +13951,21 @@
         }
       },
       "VN": {
-        "brand": "Availability and import rules not known. Assume it is tightly controlled",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "brand": "OxyContin / Oxynorm",
+        "status": "CONTROLLED",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "VN3-169-19",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "OxyContin Neo / OxyNorm",
@@ -12391,18 +13992,40 @@
         "source": null
       },
       "PT": {
-        "brand": "Oxygesic / Olbete",
+        "brand": "Olbete",
         "status": "CONTROLLED",
-        "confidence": "medium",
-        "note": "The original OxyContin was withdrawn in Portugal around 2019 for commercial reasons, as it was in Canada. Oxycodone is still sold under other brand names.",
-        "source": "https://observador.pt/2019/03/28/porque-e-que-os-museus-abriram-guerra-contra-os-sacklers-a-familia-que-e-dona-do-oxycontin/"
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "56917",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
-        "brand": "Availability and import rules not known. Assume it is tightly controlled",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "brand": "Oxopane",
+        "status": "CONTROLLED",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "136/61",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "IT": {
         "brand": "OxyContin",
@@ -12593,11 +14216,21 @@
         }
       },
       "VN": {
-        "brand": "Availability and import rules not known. Assume it is tightly controlled",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "brand": "Concerta",
+        "status": "CONTROLLED",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "001112408923",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Concerta / Ritalin",
@@ -12626,16 +14259,38 @@
       "PT": {
         "brand": "Concerta / Ritalina",
         "status": "CONTROLLED",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "34285",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Concerta / Ritalin",
         "status": "CONTROLLED",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "116/87",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "IT": {
         "brand": "Ritalin / Medikinet / Equasym",
@@ -12685,6 +14340,11 @@
     "atc": "M01AE02",
     "rxcui": "7258",
     "kit": "pain",
+    "symptoms": [
+      "fever",
+      "pain",
+      "sprains"
+    ],
     "countries": {
       "US": {
         "brand": "Aleve",
@@ -12829,10 +14489,20 @@
       },
       "VN": {
         "brand": "Sold generic as \"Naproxen\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "MIXED",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "893110120826",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Aleve",
@@ -12862,16 +14532,37 @@
       "PT": {
         "brand": "Momendol (OTC) / Naprosyn (Rx)",
         "status": "MIXED",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "33668",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Apranax / Naprosyn",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "138/76",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Momendol / Synflex",
@@ -12921,6 +14612,9 @@
     "atc": "M02AA15",
     "rxcui": "3355",
     "kit": "pain",
+    "symptoms": [
+      "sprains"
+    ],
     "countries": {
       "US": {
         "brand": "Voltaren (Arthritis Pain gel)",
@@ -13057,9 +14751,20 @@
       "VN": {
         "brand": "Voltaren Emulgel",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "760100073723",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Voltaren Emulgel",
@@ -13089,16 +14794,37 @@
       "PT": {
         "brand": "Voltaren Emulgel",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "9295",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Voltaren Emulgel",
         "status": "PHARMACY",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "2016/25",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Voltaren Emulgel",
@@ -13147,6 +14873,10 @@
     "atc": "R06AX26",
     "rxcui": "87636",
     "kit": "allergy",
+    "symptoms": [
+      "hay-fever",
+      "bites-hives"
+    ],
     "countries": {
       "US": {
         "brand": "Allegra",
@@ -13282,9 +15012,20 @@
       "VN": {
         "brand": "Telfast",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "893100404324",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Telfast",
@@ -13314,16 +15055,36 @@
       "PT": {
         "brand": "Telfast",
         "status": "OTC",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "8350",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Sold generic as \"Feksofenadin\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "OTC",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "208/43",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Telfast / Fexallegra",
@@ -13373,6 +15134,9 @@
     "atc": "R05CA03",
     "rxcui": "5032",
     "kit": "cold",
+    "symptoms": [
+      "cough"
+    ],
     "countries": {
       "US": {
         "brand": "Mucinex",
@@ -13509,9 +15273,18 @@
       "VN": {
         "brand": "Sold generic as \"Guaifenesin\"",
         "status": "UNCONFIRMED",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "893110483625",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Mucinex / Robitussin EX",
@@ -13539,18 +15312,38 @@
         "source": null
       },
       "PT": {
-        "brand": "Sold generic as \"Guaifenesina\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "brand": "Vicks Xarope Expectorante Mel",
+        "status": "OTC",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "9163",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Sold generic as \"Guaifenesin\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "PHARMACY",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "198/10",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Vicks Tosse Fluidificante",
@@ -13600,6 +15393,9 @@
     "atc": "R05DA09",
     "rxcui": "3289",
     "kit": "cold",
+    "symptoms": [
+      "cough"
+    ],
     "countries": {
       "US": {
         "brand": "Delsym",
@@ -13743,10 +15539,20 @@
       },
       "VN": {
         "brand": "Sold generic as \"Dextromethorphan\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "RX",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "560110049626",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Dexcophan / Beathorphan",
@@ -13776,16 +15582,36 @@
       "PT": {
         "brand": "Bisoltussin",
         "status": "OTC",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "51862",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Sold generic as \"Dekstrometorfan\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "PHARMACY",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "98/9",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Bronchenolo Tosse / Vicks Tosse Sedativo",
@@ -13835,6 +15661,9 @@
     "atc": "R01AA05",
     "rxcui": "7812",
     "kit": "cold",
+    "symptoms": [
+      "blocked-nose"
+    ],
     "countries": {
       "US": {
         "brand": "Afrin",
@@ -13969,10 +15798,20 @@
       },
       "VN": {
         "brand": "Sold generic as \"Oxymetazoline\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "OTC",
+        "confidence": "high",
         "note": "Xylometazoline (\"Otrivin\") is the more common decongestant spray.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "893100282725",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Iliadin",
@@ -14000,18 +15839,39 @@
         "source": null
       },
       "PT": {
-        "brand": "Nasex",
+        "brand": "Nasorhinathiol",
         "status": "OTC",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "10391",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Iliadin",
         "status": "PHARMACY",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "153/19",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Vicks Sinex",
@@ -14061,6 +15921,11 @@
     "atc": "A07BB",
     "rxcui": "19478",
     "kit": "stomach",
+    "symptoms": [
+      "travelers-diarrhea",
+      "heartburn",
+      "nausea"
+    ],
     "countries": {
       "US": {
         "brand": "Pepto-Bismol",
@@ -14171,11 +16036,22 @@
         "source": null
       },
       "VN": {
-        "brand": "Not commonly available",
-        "status": "UNAVAILABLE",
-        "confidence": "low",
-        "note": "Bring what you need from home.",
-        "source": null
+        "brand": "Amebismo / Bisoenti",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "893100099126",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Not registered in Singapore",
@@ -14199,11 +16075,21 @@
         "source": null
       },
       "TR": {
-        "brand": "Not commonly available",
-        "status": "UNAVAILABLE",
-        "confidence": "low",
-        "note": "Bring what you need from home.",
-        "source": null
+        "brand": "Bizmopeptol / Bizmopen",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "2022/321",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Not sold in Italy",
@@ -14229,6 +16115,9 @@
     "atc": "A02AC01",
     "rxcui": "1897",
     "kit": "stomach",
+    "symptoms": [
+      "heartburn"
+    ],
     "countries": {
       "US": {
         "brand": "Tums",
@@ -14365,10 +16254,20 @@
       },
       "VN": {
         "brand": "Ask for an antacid",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "OTC",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "890100032726",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Rennie",
@@ -14399,7 +16298,7 @@
         "brand": "Rennie",
         "status": "OTC",
         "confidence": "medium",
-        "note": null,
+        "note": "Rennie Digestif combines calcium and magnesium carbonate.",
         "source": null
       },
       "TR": {
@@ -14407,7 +16306,17 @@
         "status": "PHARMACY",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "209/16",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Sold generic as \"Calcio carbonato\"",
@@ -14454,6 +16363,9 @@
     "atc": "A03AX13",
     "rxcui": "9796",
     "kit": "stomach",
+    "symptoms": [
+      "gas"
+    ],
     "countries": {
       "US": {
         "brand": "Gas-X",
@@ -14587,9 +16499,20 @@
       "VN": {
         "brand": "Espumisan",
         "status": "OTC",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "594100035726",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Simcone",
@@ -14619,16 +16542,37 @@
       "PT": {
         "brand": "Aero-OM",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "47148",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Metsil",
         "status": "PHARMACY",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "187/78",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Mylicon / Simecrin",
@@ -14676,6 +16620,10 @@
     "cls": "Rehydration (diarrhea, heat, vomiting)",
     "atc": "A07CA",
     "kit": "stomach",
+    "symptoms": [
+      "travelers-diarrhea",
+      "dehydration"
+    ],
     "countries": {
       "US": {
         "brand": "Pedialyte",
@@ -14779,9 +16727,20 @@
       "VN": {
         "brand": "Oresol",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "893100269925",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Ask for oral rehydration salts",
@@ -14800,16 +16759,36 @@
       "PT": {
         "brand": "Dioralyte",
         "status": "OTC",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "2676",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Ask for \"oral rehidrasyon tuzu\" (ORS)",
         "status": "PHARMACY",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "135/63",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Dicodral / Reidrax",
@@ -14848,6 +16827,9 @@
     "atc": "A06AB02",
     "rxcui": "1596",
     "kit": "stomach",
+    "symptoms": [
+      "constipation"
+    ],
     "countries": {
       "US": {
         "brand": "Dulcolax",
@@ -14981,10 +16963,20 @@
       },
       "VN": {
         "brand": "Sold generic as \"Bisacodyl\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "MIXED",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "890110419525",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Dulcolax",
@@ -15014,16 +17006,37 @@
       "PT": {
         "brand": "Dulcolax",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "2863",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Bekunis",
         "status": "PHARMACY",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "2017/102",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Dulcolax",
@@ -15073,6 +17086,9 @@
     "atc": "A06AD15",
     "rxcui": "221147",
     "kit": "stomach",
+    "symptoms": [
+      "constipation"
+    ],
     "countries": {
       "US": {
         "brand": "Miralax",
@@ -15217,9 +17233,20 @@
       "VN": {
         "brand": "Forlax",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "300100126124",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Forlax",
@@ -15249,16 +17276,36 @@
       "PT": {
         "brand": "Movicol",
         "status": "OTC",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "598322",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Sold generic as \"Makrogol\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "OTC",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "2017/543",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Movicol / Paxabel",
@@ -15306,6 +17353,10 @@
     "atc": "R06AE05",
     "rxcui": "6676",
     "kit": "motion",
+    "symptoms": [
+      "nausea",
+      "motion-sickness"
+    ],
     "countries": {
       "US": {
         "brand": "Bonine",
@@ -15418,9 +17469,18 @@
       "VN": {
         "brand": "Sold generic as \"Meclizine\"",
         "status": "UNCONFIRMED",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "300110002625",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Not registered. \"Novomin\" (dimenhydrinate) covers this use",
@@ -15444,11 +17504,21 @@
         "source": null
       },
       "TR": {
-        "brand": "Sold generic as \"Meklizin\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "brand": "Prizin / Meklifem (with vitamin B6)",
+        "status": "OTC",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "2022/224",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Not sold in Italy",
@@ -15486,6 +17556,9 @@
     "atc": "D07AA02",
     "rxcui": "5492",
     "kit": "skin",
+    "symptoms": [
+      "bites-hives"
+    ],
     "countries": {
       "US": {
         "brand": "Cortizone-10",
@@ -15626,10 +17699,20 @@
       },
       "VN": {
         "brand": "Sold generic as \"Hydrocortisone cream\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
-        "note": null,
-        "source": null
+        "status": "MIXED",
+        "confidence": "high",
+        "note": "The 0.5% cream needs no prescription; 1% needs one. Clobetasone (Eumovate) and mometasone creams are also sold without a prescription.",
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "859110190126",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Hydroderm / H-Cort",
@@ -15658,17 +17741,37 @@
       },
       "PT": {
         "brand": "Pandermil",
-        "status": "OTC",
-        "confidence": "low",
+        "status": "PHARMACY",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "6619",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Sold generic as \"Hidrokortizon krem\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "OTC",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "61/69",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Lenirit / Cortidro",
@@ -15718,6 +17821,9 @@
     "atc": "D01AC01",
     "rxcui": "2623",
     "kit": "skin",
+    "symptoms": [
+      "fungal-skin"
+    ],
     "countries": {
       "US": {
         "brand": "Lotrimin (AF cream)",
@@ -15862,9 +17968,20 @@
       "VN": {
         "brand": "Canesten",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "400100768324",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Canesten",
@@ -15894,16 +18011,37 @@
       "PT": {
         "brand": "Canesten",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "1410",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Canesten",
         "status": "PHARMACY",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "154/35",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Canesten",
@@ -15952,6 +18090,9 @@
     "atc": "D06AX05",
     "rxcui": "1291",
     "kit": "skin",
+    "symptoms": [
+      "cuts"
+    ],
     "countries": {
       "US": {
         "brand": "Neosporin / Polysporin",
@@ -16064,10 +18205,20 @@
       },
       "VN": {
         "brand": "Ask for an antibiotic ointment",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "OTC",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "VN-16653-13",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Not sold without a prescription",
@@ -16084,18 +18235,39 @@
         "source": null
       },
       "PT": {
-        "brand": "Fucidine",
-        "status": "RX",
-        "confidence": "medium",
-        "note": "Fucidine is a different antibiotic (fusidic acid).",
-        "source": null
+        "brand": "Polisulfadê",
+        "status": "OTC",
+        "confidence": "high",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "6975",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Thiocilline",
         "status": "PHARMACY",
         "confidence": "medium",
         "note": "Thiocilline contains bacitracin with neomycin.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "101/5",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Bimixin",
@@ -16133,6 +18305,9 @@
     "atc": "R06AA09",
     "rxcui": "3642",
     "kit": "motion",
+    "symptoms": [
+      "jet-lag"
+    ],
     "countries": {
       "US": {
         "brand": "Unisom (SleepTabs)",
@@ -16222,9 +18397,18 @@
       "VN": {
         "brand": "Sold generic as \"Doxylamine\"",
         "status": "UNCONFIRMED",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "893110299924",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Not registered on its own",
@@ -16243,16 +18427,37 @@
       "PT": {
         "brand": "Dormidina",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "54576",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Unisom",
         "status": "PHARMACY",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "2022/797",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Not sold on its own",
@@ -16290,6 +18495,9 @@
     "atc": "G03AD01",
     "rxcui": "6373",
     "kit": "womens",
+    "symptoms": [
+      "emergency-contraception"
+    ],
     "countries": {
       "US": {
         "brand": "Plan B One-Step",
@@ -16423,9 +18631,20 @@
       "VN": {
         "brand": "Postinor",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "599100408123",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Postinor-2",
@@ -16455,16 +18674,37 @@
       "PT": {
         "brand": "Norlevo / Postinor",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "40160",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Norlevo",
         "status": "PHARMACY",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "2017/794",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Norlevo",
@@ -16512,6 +18752,9 @@
     "atc": "P01BB51",
     "rxcui": "60212",
     "kit": "clinic",
+    "symptoms": [
+      "malaria-prevention"
+    ],
     "countries": {
       "US": {
         "brand": "Malarone",
@@ -16646,11 +18889,21 @@
         }
       },
       "VN": {
-        "brand": "Not commonly available",
-        "status": "UNAVAILABLE",
-        "confidence": "low",
-        "note": "Bring your full course from home.",
-        "source": null
+        "brand": "Malanil",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "VN-12463-11",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Malarone",
@@ -16680,9 +18933,20 @@
       "PT": {
         "brand": "Malarone",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "40590",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Not commonly available",
@@ -16737,6 +19001,9 @@
     "atc": "J01AA02",
     "rxcui": "3640",
     "kit": "clinic",
+    "symptoms": [
+      "malaria-prevention"
+    ],
     "countries": {
       "US": {
         "brand": "Sold generic (also Vibramycin, Doryx)",
@@ -16879,9 +19146,19 @@
       "VN": {
         "brand": "Sold generic",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "890110071026",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Sold generic",
@@ -16910,16 +19187,36 @@
       "PT": {
         "brand": "Sold generic",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "69",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Tetradox / Monodoks",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "114/40",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Bassado / Miraclin",
@@ -16969,6 +19266,9 @@
     "atc": "J01FA10",
     "rxcui": "18631",
     "kit": "clinic",
+    "symptoms": [
+      "travelers-diarrhea"
+    ],
     "countries": {
       "US": {
         "brand": "Zithromax",
@@ -17116,7 +19416,17 @@
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "VN-21931-19",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Zithromax",
@@ -17146,16 +19456,37 @@
       "PT": {
         "brand": "Zithromax",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "9466",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Zitromax / Azitro",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "173/2",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Zitromax",
@@ -17205,6 +19536,9 @@
     "atc": "J01MA02",
     "rxcui": "2551",
     "kit": "clinic",
+    "symptoms": [
+      "travelers-diarrhea"
+    ],
     "countries": {
       "US": {
         "brand": "Cipro",
@@ -17354,7 +19688,17 @@
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "800115179723",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Ciprobay",
@@ -17384,16 +19728,37 @@
       "PT": {
         "brand": "Ciproxina",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "1833",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
-        "brand": "Cipro / Ciproxin",
+        "brand": "Cipro",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "152/98",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Ciproxin",
@@ -17441,6 +19806,9 @@
     "atc": "S01EC01",
     "rxcui": "167",
     "kit": "clinic",
+    "symptoms": [
+      "altitude-sickness"
+    ],
     "countries": {
       "US": {
         "brand": "Sold generic (formerly Diamox)",
@@ -17582,9 +19950,18 @@
       "VN": {
         "brand": "Sold generic as \"Acetazolamid\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "893110086125",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Sold generic",
@@ -17613,16 +19990,36 @@
       "PT": {
         "brand": "Sold generic",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "1444",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Diazomid",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "210/79",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Diamox",
@@ -17671,6 +20068,9 @@
     "atc": "A04AD01",
     "rxcui": "9601",
     "kit": "clinic",
+    "symptoms": [
+      "motion-sickness"
+    ],
     "countries": {
       "US": {
         "brand": "Transderm Scop",
@@ -17780,11 +20180,21 @@
         "source": null
       },
       "VN": {
-        "brand": "Not commonly available",
-        "status": "UNAVAILABLE",
-        "confidence": "low",
-        "note": "Bring what you need from home.",
-        "source": null
+        "brand": "Kimite (patch)",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "VN-9766-10",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "SG": {
         "brand": "Not registered as a patch",
@@ -17838,6 +20248,9 @@
     "atc": "A04AA01",
     "rxcui": "26225",
     "kit": "clinic",
+    "symptoms": [
+      "nausea"
+    ],
     "countries": {
       "US": {
         "brand": "Sold generic (formerly Zofran)",
@@ -17980,9 +20393,19 @@
       "VN": {
         "brand": "Sold generic",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Drug Administration of Vietnam register",
+          "id": "890110201326",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "checked": "2026-10-14",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "SG": {
         "brand": "Zofran",
@@ -18012,16 +20435,37 @@
       "PT": {
         "brand": "Zofran",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "9482",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
-        "brand": "Zofran / Zofer",
+        "brand": "Zofer",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "179/25",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Zofran",
@@ -18069,6 +20513,9 @@
     "atc": "C01CA24",
     "rxcui": "3992",
     "kit": "clinic",
+    "symptoms": [
+      "severe-allergy"
+    ],
     "countries": {
       "US": {
         "brand": "EpiPen / Auvi-Q",
@@ -18235,18 +20682,39 @@
         "source": null
       },
       "PT": {
-        "brand": "Anapen / EpiPen",
+        "brand": "EpiPen",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "Infomed medicines database (INFARMED, Portugal)",
+          "id": "56570",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "checked": "2026-10-14",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "TR": {
         "brand": "Penepin",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "TİTCK licensed medicines lists (Türkiye)",
+          "id": "2014/834",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "checked": "2026-10-13",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "IT": {
         "brand": "Fastjekt / Jext / Chenpen",

@@ -1,17 +1,18 @@
-import { COUNTRIES, type Country, type CountryCode, type Drug } from '@/data';
+import { COUNTRIES, SYMPTOMS, type Country, type CountryCode, type Drug } from '@/data';
 
 export interface DrugMatch {
   matches: boolean;
   /** Countries whose name, code, or local brand matched the query. */
   countryHits: Partial<Record<CountryCode, true>>;
-  /** The query matched the drug itself (generic name, US name, class, ATC code). */
+  /** The query matched the drug itself (generic name, US name, class, ATC code, or a symptom it's sold for). */
   drugLevelHit: boolean;
 }
 
 export function drugMatches(drug: Drug, query: string): DrugMatch {
   if (!query) return { matches: true, countryHits: {}, drugLevelHit: false };
   const q = query.toLowerCase();
-  const drugLevelHit = [drug.generic, drug.usAlt, drug.cls, drug.atc].some(
+  const symptoms = SYMPTOMS.filter((s) => drug.symptoms?.includes(s.id)).map((s) => `${s.title} ${s.keywords ?? ''}`);
+  const drugLevelHit = [drug.generic, drug.usAlt, drug.cls, drug.atc, ...symptoms].some(
     (f) => !!f && f.toLowerCase().includes(q),
   );
   const countryHits: DrugMatch['countryHits'] = {};

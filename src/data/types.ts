@@ -17,6 +17,22 @@ export interface Country {
 /** Travel-essentials group; unset for everything else (shown under "Other"). */
 export type KitGroup = 'pain' | 'allergy' | 'cold' | 'stomach' | 'motion' | 'skin' | 'womens' | 'clinic';
 
+/** What a traveler is trying to treat. A medicine can be sold for several. */
+export type SymptomId =
+  | 'fever' | 'pain' | 'sprains' | 'hay-fever' | 'bites-hives' | 'blocked-nose' | 'cough'
+  | 'travelers-diarrhea' | 'heartburn' | 'gas' | 'constipation' | 'dehydration' | 'nausea'
+  | 'motion-sickness' | 'jet-lag' | 'fungal-skin' | 'cuts' | 'emergency-contraception'
+  | 'malaria-prevention' | 'altitude-sickness' | 'severe-allergy';
+
+export interface Symptom {
+  /** Also the URL slug: /symptom/<id>. */
+  id: SymptomId;
+  title: string;
+  kit: KitGroup;
+  /** Other words a traveler might type for it. */
+  keywords?: string;
+}
+
 export interface StatusMeta {
   label: string;
   cls: string;
@@ -56,5 +72,6 @@ export interface Drug {
   /** RxNorm ingredient id; lets the live US-name lookup map RxNorm ingredients to this drug. */
   rxcui?: string;
   kit?: KitGroup;
+  symptoms?: SymptomId[];
   countries: Partial<Record<CountryCode, CountryEntry>>;
 }

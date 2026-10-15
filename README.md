@@ -14,10 +14,13 @@ Morocco, Portugal, Türkiye, Italy, Spain.
 
 - **Search and filter.** Search by brand ("Claritin"), generic ("paracetamol"), or country ("Ethiopia"),
   and narrow results with the country chips. Matches are highlighted.
-- **Shareable links.** The search and selected countries are kept in the URL (`/?q=claritin&c=JP,FR`).
-- **Drug and country pages.** Each drug and each country has its own statically generated page
-  (`/drug/paracetamol`, `/country/japan`), with its own title and description for search engines.
-  There is also a sitemap.
+- **Browse by symptom.** In the travel essentials view, pick what you need it for (fever, traveler's diarrhea,
+  motion sickness, 21 in all) to see only the medicines sold for it. Typing a symptom in the search box works too.
+- **Shareable links.** The search, selected countries and symptom are kept in the URL (`/?q=claritin&c=JP,FR`,
+  `/?s=cough&c=VN`).
+- **Drug, country and symptom pages.** Each drug, country and symptom has its own statically generated page
+  (`/drug/paracetamol`, `/country/japan`, `/symptom/travelers-diarrhea`), with its own title and description
+  for search engines. There is also a sitemap.
 - **My meds travel card** (`/my-meds`). Pick your medicines and a destination to get a printable one-page
   card with the local name to ask for and any cautions. Your list is saved only in your browser.
 - **Confidence markers and sources.** † means general knowledge that isn't registry-checked, and ? means
@@ -32,7 +35,7 @@ Morocco, Portugal, Türkiye, Italy, Spain.
 ```bash
 npm install
 npm run dev        # http://localhost:3000
-npm run build      # all 67 pages are statically generated
+npm run build      # every drug, country and symptom page is statically generated
 npm run lint
 ```
 
@@ -64,7 +67,7 @@ browser only.
 
 ### Registry verification and US name lookup
 
-**Offline verification.** `node scripts/verify/run.mjs <US|CA|SG|FR|GB|JP|DE|MX|IT|ES>` checks one country's entries against
+**Offline verification.** `node scripts/verify/run.mjs <US|CA|SG|FR|GB|JP|DE|MX|IT|ES|TR|VN|ET|PT>` checks one country's entries against
 its official registry and writes the evidence and every mismatch to `research/verification/<CC>.json`.
 That is a dry run; add `--write` to update `drugs.json`. Nothing here runs when the site is built or served.
 
@@ -80,8 +83,12 @@ That is a dry run; add `--write` to update `drugs.json`. Nothing here runs when 
 | MX | [COFEPRIS medicine register](https://registros.cofepris.gob.mx/BRSDM/) | Brand ↔ ingredient for current registrations, and the legal class of sale (Fracción I to VI: narcotic, psychotropic, prescription, pharmacy-only, free sale). Read from the "Base Completa" spreadsheet; the search form is behind a captcha and is not used. The file may be incomplete and uses local spellings (Elicuis, Jardianz), so a missing brand is reported but proves nothing |
 | IT | [AIFA medicines database](https://medicinali.aifa.gov.it/) | Brand ↔ ingredient for marketed packs, and the supply class of each: OTC, SOP (no prescription, behind the counter), prescription, or narcotic prescription. Searched by Italian ingredient name, 20 results a page |
 | ES | [CIMA](https://cima.aemps.es/cima/publico/home.html) (AEMPS) | Brand ↔ ingredient for marketed products, and the prescription condition: no prescription, prescription, narcotic or psychotropic. Searched by ATC code |
+| TR | TİTCK [licensed products list](https://www.titck.gov.tr/dinamikmodul/85) + [e-prescription list](https://www.titck.gov.tr/dinamikmodul/43) | Brand ↔ ingredient for licences in force, read from two spreadsheets the agency reissues every week. The e-prescription list gives each pack's prescription type, so a red or green prescription confirms a controlled status. Neither list says whether an ordinary product needs a prescription, so OTC, pharmacist-only and prescription statuses are not compared |
+| VN | [Drug Administration of Vietnam register](https://dichvucong.dav.gov.vn/congbothuoc/index) | Brand ↔ ingredient for registrations that have not expired. Registrations issued since 2023 are marked non-prescription or prescription, which confirms those two statuses; older ones carry no class. Nothing marks controlled medicines. Searched by ingredient name, in both English and Vietnamese spellings |
+| ET | [EFDA register](https://eris.efda.gov.et/public/products) + [Over-the-Counter Medicines List](https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf) | Brand ↔ ingredient for approved medicines, from the register's one-file export. Legal status comes from the OTC list (third edition, July 2022): on it means no prescription, anything else needs one. The list is a PDF, so its entries for our medicines are keyed into `et-eris.mjs` by hand. Each run checks the PDF is unchanged and refuses `--write` if EFDA has replaced it |
+| PT | [Infomed](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) (INFARMED) | Brand ↔ ingredient for marketed products, and the dispensing class: no prescription, no prescription but pharmacy only, prescription, or special prescription. It has no download, so the check runs about 330 searches on its web form; a first run takes about 12 minutes. Benzodiazepines are on an ordinary prescription there, so that class does not contradict a controlled entry |
 
-The US, Canada, Singapore, France, Japan, Germany, Mexico, Italy, Spain and UK-brand checks are free and need no key. `--write` is deliberately conservative: it never edits `brand`, `status`
+Every check is free and needs no key, apart from the UK's legal-status step. `--write` is deliberately conservative: it never edits `brand`, `status`
 or `note`; it attaches `verified` when the registry confirms the entry; and it raises confidence to `high`
 only when the registry confirms everything the entry claims (brand, ingredient and legal status; for a "sold generic" entry with no brand, ingredient and legal status). An entry marked `low` that the registry confirms only in part goes to `medium`, so nothing verified keeps the "unconfirmed" mark. It never lowers confidence. A registry shows that a
 product is *registered*, not that a given pharmacy stocks it. After a run, refresh the report with
@@ -94,8 +101,9 @@ does a dry run and reports what changed at https://claude.ai/code/routines; it c
 UK legal status. To update the data yourself:
 
 1. Open a terminal in the project folder (in VS Code: Terminal > New Terminal, or `cd ~/dev/pill-trotter`).
-2. `npm run verify` is a dry run of all ten countries. It changes no data, only the report files in
-   `research/verification/`, and takes about ten minutes on the first run, most of it Germany (results are cached for a day).
+2. `npm run verify` is a dry run of all fourteen countries. It changes no data, only the report files in
+   `research/verification/`, and takes about half an hour on the first run, most of it Germany, Portugal and Vietnam
+   (results are cached for a day).
 3. `npm run verify:write` does the same and also updates `src/data/drugs.json` and the confidence report.
 4. Read the new mismatch lists in `research/verification/` and check `git diff src/data/drugs.json`. The script
    never edits `brand`, `status` or `note`: those mismatches are yours to decide.
@@ -104,11 +112,11 @@ UK legal status. To update the data yourself:
 The UK legal-status step needs a free NHS TRUD account: subscribe to the "NHSBSA dm+d" item and put the key in
 `.env.local` as `TRUD_API_KEY=...` (the file is git-ignored). Without it a dry run still works but notes that
 legal status was skipped, and `--write` refuses for the UK so it can't overwrite the full check with a partial
-one. The other six countries (India, Ethiopia, Vietnam, Morocco, Portugal, Türkiye) have no registry check: they never refresh and need a manual review.
+one. India and Morocco have no registry check: they never refresh and need a manual review. India's Drug Registry (`drugregistry.abdm.gov.in`) refused connections when this was written, and Morocco's regulator publishes no register that could be reached.
 
 The cloud routine runs in the "Default" cloud environment, whose network access is set to Custom so it can reach the
 registries: `rxnav.nlm.nih.gov`, `api.fda.gov`, `health-products.canada.ca`, `data.gov.sg`,
-`base-donnees-publique.medicaments.gouv.fr`, `mhraproducts4853.search.windows.net`, `www.mhlw.go.jp`, `portal.bfarm.de`, `auth.bfarm.de`, `registros.cofepris.gob.mx`, `api.aifa.gov.it` and `cima.aemps.es`, plus the default package
+`base-donnees-publique.medicaments.gouv.fr`, `mhraproducts4853.search.windows.net`, `www.mhlw.go.jp`, `portal.bfarm.de`, `auth.bfarm.de`, `registros.cofepris.gob.mx`, `api.aifa.gov.it`, `cima.aemps.es`, `titck.gov.tr`, `www.titck.gov.tr`, `dichvucong.dav.gov.vn`, `api.eris.efda.gov.et`, `www.efda.gov.et` and `extranet.infarmed.pt`, plus the default package
 list. If a run reports HTTP 403 from a registry, check that list first.
 
 **Live lookup.** `GET /api/rxnorm/resolve?q=<name>` (`src/app/api/rxnorm/resolve/route.ts`, logic in
@@ -122,11 +130,11 @@ local match. The route is excluded from the Clerk matcher in `src/proxy.ts`, so 
 
 | Path | What |
 | --- | --- |
-| `src/data/drugs.json` | The formulary: 82 drugs × 16 countries. A drug's optional `kit` field puts it in a travel-essentials group (`src/data/kit.ts`); drugs without one are listed under "Other". **Edit this to change the data.** |
+| `src/data/drugs.json` | The formulary: 82 drugs × 16 countries. A drug's optional `kit` field puts it in a travel-essentials group (`src/data/kit.ts`); drugs without one are listed under "Other". Its optional `symptoms` list says what it is sold for (`src/data/symptoms.ts`). **Edit this to change the data.** |
 | `src/data/countries.ts`, `status.ts`, `types.ts` | Countries (with URL slugs), status labels, types |
 | `src/lib/search.ts` | Search matching and country narrowing |
 | `src/components/` | App components (`ui/` holds the shadcn components) |
-| `src/app/` | Routes: `/`, `/drug/[id]`, `/country/[slug]`, `/my-meds`, `/sign-in`, `/sign-up`, sitemap, robots |
+| `src/app/` | Routes: `/`, `/drug/[id]`, `/country/[slug]`, `/symptom/[slug]`, `/my-meds`, `/sign-in`, `/sign-up`, sitemap, robots |
 | `src/lib/auth.ts`, `src/lib/db.ts`, `db/migrations/` | Clerk user helper, Neon database client, schema |
 | `src/lib/rxnorm.ts`, `src/app/api/rxnorm/resolve/` | US name lookup through RxNorm |
 | `scripts/verify/` | Registry verifiers: `run.mjs`, shared `lib.mjs`, one adapter per country |

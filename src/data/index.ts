@@ -1,7 +1,8 @@
-import type { Country, CountryCode, CountryEntry, Drug } from './types';
+import type { Country, CountryCode, CountryEntry, Drug, Symptom } from './types';
 import drugsJson from './drugs.json';
 import { COUNTRIES as COUNTRY_LIST } from './countries';
 import { STATUS } from './status';
+import { SYMPTOMS as SYMPTOM_LIST } from './symptoms';
 
 export * from './types';
 export { STATUS };
@@ -9,6 +10,7 @@ export { KIT_GROUPS } from './kit';
 
 export const COUNTRIES: readonly Country[] = COUNTRY_LIST;
 export const DRUGS = drugsJson as Drug[];
+export const SYMPTOMS: readonly Symptom[] = SYMPTOM_LIST;
 
 const FALLBACK_ENTRY: CountryEntry = {
   brand: 'Unavailable', status: 'UNCONFIRMED', confidence: 'low', note: null, source: null,
@@ -31,6 +33,8 @@ export function statusMeta(status: string) {
 export const getDrug = (id: string) => DRUGS.find((d) => d.id === id);
 export const getCountryBySlug = (slug: string) => COUNTRIES.find((c) => c.slug === slug);
 export const getCountry = (code: string) => COUNTRIES.find((c) => c.code === code);
+export const getSymptom = (id: string) => SYMPTOMS.find((s) => s.id === id);
+export const drugsFor = (symptom: Symptom) => DRUGS.filter((d) => d.symptoms?.includes(symptom.id));
 
 export function isSafeSource(source: string | null): source is string {
   return !!source && /^https?:\/\//i.test(source);

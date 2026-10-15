@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { ConstructionIcon, SearchIcon, XIcon } from 'lucide-react';
-import { COUNTRIES, DRUGS, KIT_GROUPS, getCountry, isInProgress, type CountryCode, type Drug } from '@/data';
+import { COUNTRIES, DRUGS, KIT_GROUPS, SYMPTOMS, getCountry, getSymptom, isInProgress, type CountryCode, type Drug } from '@/data';
 import { drugMatches, visibleCountries } from '@/lib/search';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
@@ -18,14 +18,15 @@ import { StepNumber, StepStrip, stepStates } from './Steps';
 import { UsNameHint } from './UsNameHint';
 import { useMyDestinations, useMyMeds } from '@/lib/my-meds';
 
-/** Reads ?q= and ?c=JP,FR so a shared link restores the same view. */
+/** Reads ?q=, ?c=JP,FR and ?s=cough so a shared link restores the same view. */
 export function Formulary() {
   const params = useSearchParams();
   const initialCountries = (params.get('c') ?? '')
     .split(',')
     .map((c) => c.trim().toUpperCase())
     .filter((c): c is CountryCode => !!getCountry(c));
-  return <FormularyView initialQuery={params.get('q') ?? ''} initialCountries={initialCountries} syncUrl />;
+  const initialSymptom = getSymptom(params.get('s') ?? '')?.id ?? '';
+  return <FormularyView initialQuery={params.get('q') ?? ''} initialCountries={initialCountries} initialSymptom={initialSymptom} syncUrl />;
 }
 
 const NONE: CountryCode[] = [];
@@ -40,11 +41,13 @@ const VIEWS: { id: View; label: string; count: number; matches: (d: Drug) => boo
 interface FormularyViewProps {
   initialQuery?: string;
   initialCountries?: CountryCode[];
+  initialSymptom?: string;
   syncUrl?: boolean;
 }
 
-export function FormularyView({ initialQuery = '', initialCountries = [], syncUrl = false }: FormularyViewProps) {
+export function FormularyView({ initialQuery = '', initialCountries = [], initialSymptom = '', syncUrl = false }: FormularyViewProps) {
   const [rawQuery, setRawQuery] = useState(initialQuery);
+  const [symptomId, setSymptomId] = useState(initialSymptom);
   // Destinations are shared with the travel card. A link's ?c= wins for this view until the traveler
   // changes the selection; with no ?c=, the homepage opens on the saved destinations.
   const [dests, setDests] = useMyDestinations();
@@ -74,10 +77,12 @@ export function FormularyView({ initialQuery = '', initialCountries = [], syncUr
       const codes = COUNTRIES.filter((c) => activeSet.has(c.code)).map((c) => c.code);
       if (codes.length) url.searchParams.set('c', codes.join(','));
       else url.searchParams.delete('c');
+      if (symptomId) url.searchParams.set('s', symptomId);
+      else url.searchParams.delete('s');
       window.history.replaceState(null, '', url.pathname + url.search + url.hash);
     }, 250);
     return () => clearTimeout(t);
-  }, [query, activeSet, syncUrl]);
+  }, [query, activeSet, symptomId, syncUrl]);
 
   // "/" focuses search, like most search-first sites.
   useEffect(() => {
@@ -94,15 +99,18 @@ export function FormularyView({ initialQuery = '', initialCountries = [], syncUr
   // The view tabs narrow the browsing list; a search always looks through every medicine.
   const [view, setView] = useState<View>('essentials');
   const current = VIEWS.find((v) => v.id === view)!;
+  // A symptom narrows the travel essentials further. It is offered only while browsing them.
+  const bySymptom = view === 'essentials' && !query;
+  const symptom = bySymptom ? getSymptom(symptomId) : undefined;
   const results = useMemo(
     () =>
-      DRUGS.filter((drug) => !!query || current.matches(drug))
+      DRUGS.filter((drug) => !!query || (symptom ? !!drug.symptoms?.includes(symptom.id) : current.matches(drug)))
         .map((drug) => ({ drug, match: drugMatches(drug, query) }))
         .filter((r) => r.match.matches)
         .map((r) => ({ ...r, countries: visibleCountries(r.match, query, activeSet) })),
-    [query, activeSet, current],
+    [query, activeSet, current, symptom],
   );
-  const grouped = view === 'essentials' && !query;
+  const grouped = bySymptom && !symptom;
 
   const { meds } = useMyMeds();
   const [s1, s2, s3] = stepStates([!!query, active.length > 0, meds.length > 0]);
@@ -279,11 +287,34 @@ export function FormularyView({ initialQuery = '', initialCountries = [], syncUr
             </ToggleGroupItem>
           ))}
         </ToggleGroup>
+        {bySymptom && (
+          <div className="no-print mb-5">
+            <p id="symptom-label" className="mb-2 text-sm font-semibold">What do you need it for?</p>
+            <ToggleGroup
+              type="single"
+              value={symptomId}
+              onValueChange={setSymptomId}
+              spacing={2}
+              aria-labelledby="symptom-label"
+              className="-mx-4 w-[calc(100%+2rem)] flex-nowrap overflow-x-auto px-4 pb-1 [scrollbar-width:none] sm:mx-0 sm:w-full sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0 [&::-webkit-scrollbar]:hidden"
+            >
+              {SYMPTOMS.map((s) => (
+                <ToggleGroupItem
+                  key={s.id}
+                  value={s.id}
+                  className="data-[state=on]:bg-primary data-[state=on]:text-primary-foreground h-9 shrink-0 rounded-full border px-3 text-[0.8rem] data-[state=on]:border-transparent"
+                >
+                  {s.title}
+                </ToggleGroupItem>
+              ))}
+            </ToggleGroup>
+          </div>
+        )}
         <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
           <p className="text-muted-foreground font-mono text-xs tracking-wide" aria-live="polite">
             {query
               ? `${results.length} of ${DRUGS.length} medicines match “${query}”`
-              : `${results.length} ${view === 'essentials' ? 'travel essentials' : view === 'other' ? 'other medicines' : 'medicines'}${
+              : `${results.length} ${symptom ? `medicine${results.length === 1 ? '' : 's'} for ${symptom.title.toLowerCase()}` : view === 'essentials' ? 'travel essentials' : view === 'other' ? 'other medicines' : 'medicines'}${
                   active.length ? ` · ${active.length} destination${active.length > 1 ? 's' : ''}` : ''
                 }`}
           </p>
