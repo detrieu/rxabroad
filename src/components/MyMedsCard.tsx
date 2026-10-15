@@ -81,6 +81,14 @@ const CONTROLLED_RULE: Partial<Record<CountryCode, Rule & { byDrug?: Record<stri
     text: 'Controlled here. You need approval from Singapore’s Health Sciences Authority before you travel, and may bring at most a 3-month supply, in the original labeled container. No approval is needed if you stay inside the airport transit zone.',
     source: 'https://file.go.gov.sg/document-guide-for-bringing-in-personal-medications.pdf',
   },
+  VN: {
+    text: 'Controlled here. Without an import licence, bring no more than 7 days’ dose of a narcotic or 10 days’ dose of a psychotropic, as on your prescription, and carry the prescription.',
+    source: 'https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=123255',
+  },
+  TR: {
+    text: 'Controlled here, on a red or green prescription. Carry it in its original labeled packaging with your prescription or a doctor’s report giving the medicine and your dose, and bring only enough for your stay. Show them at customs if asked.',
+    source: 'https://www.incb.org/documents/Travellers/files/TUR_ENG_2017.pdf',
+  },
   CA: {
     text: 'Controlled here. Bring no more than a 90-day supply, in the labeled container your pharmacy dispensed it in, and declare it to customs on arrival. A doctor’s letter is optional.',
     source: 'https://www.canada.ca/en/health-canada/services/health-concerns/controlled-substances-precursor-chemicals/controlled-substances/compliance-monitoring/travelling-into-and-out-of-canada-with-prescription-medication-containing-controlled-substances.html',

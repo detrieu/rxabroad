@@ -1,0 +1,5310 @@
+{
+  "country": "VN",
+  "registry": "Drug Administration of Vietnam register",
+  "registryVersion": null,
+  "checked": "2026-10-14",
+  "summary": {
+    "entries": 82,
+    "brandEntries": 50,
+    "brandEntriesConfirmed": 50,
+    "brandNames": 55,
+    "brandNamesConfirmed": 55,
+    "verified": 76,
+    "statusAgree": 35,
+    "statusDiffer": 0,
+    "statusNotComparable": 47,
+    "confidenceRaised": 2,
+    "flagged": 1
+  },
+  "entries": [
+    {
+      "id": "paracetamol",
+      "generic": "Paracetamol",
+      "brand": "Panadol",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Panadol",
+          "id": "539100184523",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Panadol Extra",
+          "products": [
+            {
+              "registration": "539100184523",
+              "product": "Panadol Extra",
+              "ingredients": "Paracetamol, Caffeine",
+              "form": "Viên nén",
+              "legal": "NO_RX",
+              "holder": "Công ty TNHH GlaxoSmithKline Hàng Tiêu Dùng và Chăm Sóc Sức Khỏe Việt Nam"
+            },
+            {
+              "registration": "539100184423",
+              "product": "Panadol Viên Sủi",
+              "ingredients": "Paracetamol",
+              "form": "Viên sủi",
+              "legal": "NO_RX",
+              "holder": "Công ty TNHH GlaxoSmithKline Hàng Tiêu Dùng và Chăm Sóc Sức Khỏe Việt Nam"
+            },
+            {
+              "registration": "955100342525",
+              "product": "Panadol",
+              "ingredients": "Paracetamol",
+              "form": "Viên nén bao phim",
+              "legal": "NO_RX",
+              "holder": "Công ty TNHH GlaxoSmithKline Hàng tiêu dùng và Chăm sóc sức khỏe Việt Nam"
+            },
+            {
+              "registration": "893100842324",
+              "product": "Panadol cảm cúm",
+              "ingredients": "Caffeine 25mg; Paracetamol 500mg; Phenylephrine Hydrochloride 5mg",
+              "form": "Viên nén bao phim",
+              "legal": "NO_RX",
+              "holder": "Công ty TNHH GlaxoSmithKline Hàng tiêu dùng và Chăm sóc sức khỏe Việt Nam"
+            },
+            {
+              "registration": "893100700424",
+              "product": "Panadol extra",
+              "ingredients": "Caffein 65mg; Paracetamol 500mg",
+              "form": "Viên nén",
+              "legal": "NO_RX",
+              "holder": "GlaxoSmithKline Pte Ltd"
+            },
+            {
+              "registration": "VN-19964-16",
+              "product": "Panadol Extra with Optizorb",
+              "ingredients": "Paracetamol 500 mg, Cafein 65 mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Công ty TNHH GlaxoSmithKline Hàng tiêu dùng và Chăm sóc sức khỏe Việt Nam"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "955100201626",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "PARACETAMOL, ACETAMINOPHEN",
+        "currentRegistrations": 2170
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "NO_RX": 2
+          },
+          "withoutClass": 3
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "539100184523",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "ibuprofen",
+      "generic": "Ibuprofen",
+      "brand": "Sold generic as \"Ibuprofen\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "890100191726",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "IBUPROFEN",
+        "currentRegistrations": 392
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "NO_RX": 137,
+            "RX": 4
+          },
+          "withoutClass": 85
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "890100191726",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "loratadine",
+      "generic": "Loratadine",
+      "brand": "Clarityne",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Clarityne",
+          "id": "899100766524",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Clarityne",
+          "products": [
+            {
+              "registration": "899100766524",
+              "product": "Clarityne",
+              "ingredients": "Loratadine 10mg",
+              "form": "Viên nén",
+              "legal": "NO_RX",
+              "holder": "Công Ty TNHH Bayer Việt Nam"
+            },
+            {
+              "registration": "VN-21182-18",
+              "product": "Clarityne",
+              "ingredients": "Mỗi 1 ml chứa: loratadin 1mg",
+              "form": "Si rô",
+              "legal": null,
+              "holder": "Bayer (South East Asia) Pte., Ltd."
+            },
+            {
+              "registration": "VN-11320-10",
+              "product": "Clarityne Syrup",
+              "ingredients": "Loratadine",
+              "form": "Si rô",
+              "legal": null,
+              "holder": "Schering-Plough Ltd"
+            },
+            {
+              "registration": "VN-10561-10",
+              "product": "Clarityne",
+              "ingredients": "Loratadine",
+              "form": "Si rô",
+              "legal": null,
+              "holder": "Schering-Plough Ltd"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "893100107826",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "LORATADIN",
+        "currentRegistrations": 268
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "NO_RX": 1
+          },
+          "withoutClass": 3
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "899100766524",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "cetirizine",
+      "generic": "Cetirizine",
+      "brand": "Zyrtec",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zyrtec",
+          "id": "800110029125",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Zyrtec",
+          "products": [
+            {
+              "registration": "800110029125",
+              "product": "Zyrtec",
+              "ingredients": "Cetirizine dihydrochloride",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Công ty TNHH Dược phẩm GSK Việt Nam"
+            },
+            {
+              "registration": "VN-19164-15",
+              "product": "Zyrtec",
+              "ingredients": "Cetirizin dihydrochlorid 1mg/ml",
+              "form": "Dung dịch uống",
+              "legal": null,
+              "holder": "Công ty TNHH Dược phẩm GSK Việt Nam"
+            },
+            {
+              "registration": "VN-5683-10",
+              "product": "Zyrtec",
+              "ingredients": "Cetirizine Dihydrochloride",
+              "form": "Viên bao phim",
+              "legal": null,
+              "holder": "UCB Farchim SA"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "880100024826",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "CETIRIZIN",
+        "currentRegistrations": 205
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "800110029125",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "diphenhydramine",
+      "generic": "Diphenhydramine",
+      "brand": "Sold generic as \"Diphenhydramine\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "893100022426",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "DIPHENHYDRAM",
+        "currentRegistrations": 62
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "NO_RX": 9
+          },
+          "withoutClass": 22
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "893100022426",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "loperamide",
+      "generic": "Loperamide",
+      "brand": "Imodium",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Imodium",
+          "id": "560100184823",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Imodium",
+          "products": [
+            {
+              "registration": "560100184823",
+              "product": "Imodium",
+              "ingredients": "Loperamid",
+              "form": "Viên nang cứng",
+              "legal": "NO_RX",
+              "holder": "Công ty TNHH DKSH Pharma Việt Nam "
+            },
+            {
+              "registration": "VN-11119-10",
+              "product": "Imodium",
+              "ingredients": "Loperamide hydrochlorid",
+              "form": "Viên nang",
+              "legal": null,
+              "holder": "Janssen Cilag Ltd."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "893100489225",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "LOPERAMID",
+        "currentRegistrations": 88
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "NO_RX": 1
+          },
+          "withoutClass": 1
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "560100184823",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "omeprazole",
+      "generic": "Omeprazole",
+      "brand": "Losec / generic omeprazole",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Losec",
+          "id": "VN-19558-16",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Losec Mups",
+          "products": [
+            {
+              "registration": "VN-19558-16",
+              "product": "Losec Mups",
+              "ingredients": "Omeprazol 20mg",
+              "form": "Viên nén kháng dịch dạ dày",
+              "legal": null,
+              "holder": "Zuellig Pharma Pte. Ltd."
+            },
+            {
+              "registration": "VN-10733-10",
+              "product": "Losec Mups",
+              "ingredients": "Omeprazole",
+              "form": "Viên nén",
+              "legal": null,
+              "holder": "AstraZeneca Singapore Pte., Ltd."
+            },
+            {
+              "registration": "VN-9936-10",
+              "product": "Losec",
+              "ingredients": "Omeprazole Natri",
+              "form": "Bột pha tiêm",
+              "legal": null,
+              "holder": "AstraZeneca Singapore Pte., Ltd."
+            },
+            {
+              "registration": "VN-9444-10",
+              "product": "Losec",
+              "ingredients": "Omeprazole Natri",
+              "form": "Bột pha tiêm",
+              "legal": null,
+              "holder": "AstraZeneca Singapore Pte., Ltd."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "896110195426",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "OMEPRAZOL",
+        "currentRegistrations": 319
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "VN-19558-16",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "pseudoephedrine",
+      "generic": "Pseudoephedrine",
+      "brand": "Sold in combination cold medicines (e.g. Deconal, Rumednic)",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "VN-18369-14",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "PSEUDOEPHEDR",
+        "currentRegistrations": 156
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "VN-18369-14",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "melatonin",
+      "generic": "Melatonin",
+      "brand": "Sold generic as \"Melatonin\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "893110466525",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "MELATONIN",
+        "currentRegistrations": 4
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "RX": 1
+          },
+          "withoutClass": 3
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "893110466525",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "dimenhydrinate",
+      "generic": "Dimenhydrinate",
+      "brand": "Sold generic as \"Dimenhydrinate\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "893100091400",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "DIMENHYDRINA",
+        "currentRegistrations": 22
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "NO_RX": 13
+          },
+          "withoutClass": 9
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "893100091400",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amoxicillin",
+      "generic": "Amoxicillin",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "900110192326",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "AMOXICILLIN, AMOXICILIN",
+        "currentRegistrations": 711
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "RX": 21
+          },
+          "withoutClass": 249
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "900110192326",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "metformin",
+      "generic": "Metformin",
+      "brand": "Glucophage",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Glucophage",
+          "id": "300110789924",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Glucophage XR 500 mg",
+          "products": [
+            {
+              "registration": "300110789924",
+              "product": "Glucophage XR 500 mg",
+              "ingredients": "Metformin hydrochloride 500mg",
+              "form": "Viên nén phóng thích kéo dài",
+              "legal": null,
+              "holder": "Merck Export GmbH"
+            },
+            {
+              "registration": "300110016124",
+              "product": "Glucophage 500mg",
+              "ingredients": "Metformin hydrochlorid 500mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Merck Export GmbH"
+            },
+            {
+              "registration": "300110016424",
+              "product": "Glucophage XR 750mg",
+              "ingredients": "Metformin hydrochlorid 750mg",
+              "form": "Viên nén phóng thích kéo dài",
+              "legal": null,
+              "holder": "Merck Export GmbH"
+            },
+            {
+              "registration": "300110016324",
+              "product": "Glucophage XR 1000mg",
+              "ingredients": "Metformin hydrochlorid 1000mg",
+              "form": "Viên nén phóng thích kéo dài",
+              "legal": null,
+              "holder": "Merck Export GmbH"
+            },
+            {
+              "registration": "VN-21909-19",
+              "product": "Glucophage XR",
+              "ingredients": "Metformin hydrochlorid 500mg",
+              "form": "Viên nén phóng thích kéo dài",
+              "legal": null,
+              "holder": "Merck Export GmbH"
+            },
+            {
+              "registration": "300110016224",
+              "product": "Glucophage 850mg",
+              "ingredients": "Metformin hydrochlorid 850mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Merck Export GmbH"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "890110197726",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "METFORMIN",
+        "currentRegistrations": 309
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "300110789924",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "sertraline",
+      "generic": "Sertraline",
+      "brand": "Zoloft",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zoloft",
+          "id": "400110010824",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Zoloft",
+          "products": [
+            {
+              "registration": "400110010824",
+              "product": "Zoloft",
+              "ingredients": "Sertraline 50mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Công ty TNHH Viatris Việt Nam"
+            },
+            {
+              "registration": "VN-17543-13",
+              "product": "Zoloft",
+              "ingredients": "Sertraline 50mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Pfizer (Thailand) Ltd."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "890110200526",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "SERTRALIN",
+        "currentRegistrations": 57
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "400110010824",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "albuterol",
+      "generic": "Salbutamol",
+      "brand": "Ventolin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ventolin",
+          "id": "400115965324",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Ventolin Nebules 5mg/2.5ml",
+          "products": [
+            {
+              "registration": "400115965324",
+              "product": "Ventolin Nebules 5mg/2.5ml",
+              "ingredients": "Salbutamol",
+              "form": "Dung dịch khí dung",
+              "legal": null,
+              "holder": "Công ty TNHH Dược Phẩm GSK Việt Nam"
+            },
+            {
+              "registration": "400115965224",
+              "product": "Ventolin Nebules 2.5mg/2.5ml",
+              "ingredients": "Salbutamol",
+              "form": "Dung dịch khí dung",
+              "legal": null,
+              "holder": "Công ty TNHH Dược Phẩm GSK Việt Nam"
+            },
+            {
+              "registration": "VN-22568-20",
+              "product": "Ventolin Nebules",
+              "ingredients": "Mỗi 2,5ml chứa: Salbutamol 5 mg",
+              "form": "Dung dịch khí dung",
+              "legal": null,
+              "holder": "Công ty TNHH Dược Phẩm GSK Việt Nam"
+            },
+            {
+              "registration": "VN-20765-17",
+              "product": "Ventolin Nebules",
+              "ingredients": "Mỗi 2,5ml chứa: Salbutamol 2,5mg",
+              "form": "Dung dịch khí dung",
+              "legal": null,
+              "holder": "Công ty TNHH Dược Phẩm GSK Việt Nam"
+            },
+            {
+              "registration": "VN-18791-15",
+              "product": "Ventolin Inhaler",
+              "ingredients": "Salbutamol 100mcg/liều xịt",
+              "form": "Hỗn dịch xịt qua bình định liều điều áp",
+              "legal": null,
+              "holder": "Công ty TNHH Dược Phẩm GSK Việt Nam"
+            },
+            {
+              "registration": "VN-17042-13",
+              "product": "Ventolin Rotacaps 200mcg",
+              "ingredients": "Salbutamol 200mcg",
+              "form": "Thuốc bột hít đóng trong viên nang cứng",
+              "legal": null,
+              "holder": "GlaxoSmithKline Pte., Ltd."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "893115477725",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "SALBUTAMOL",
+        "currentRegistrations": 140
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "400115965324",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "atorvastatin",
+      "generic": "Atorvastatin",
+      "brand": "Lipitor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lipitor",
+          "id": "893110452925",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Lipitor",
+          "products": [
+            {
+              "registration": "893110452925",
+              "product": "Lipitor",
+              "ingredients": "Atorvastatin 40mg",
+              "form": "Viên nén bao phim",
+              "legal": "RX",
+              "holder": "Cơ sở đăng ký (Cơ sở đặt gia công có chuyển giao công nghệ sản xuất thuốc): Công ty TNHH VIATRIS Việt Nam; (Cơ sở sản xuất thuốc đặt gia công (bán thành phẩm)): Viatris Pharmaceuticals LLC; (Cơ sở đóng gói, xuất xưởng thuốc đặt gia công): Pfizer Manufacturing Deutschland GmbH"
+            },
+            {
+              "registration": "893110364425",
+              "product": "Lipitor",
+              "ingredients": "Atorvastatin",
+              "form": "Viên nén bao phim",
+              "legal": "RX",
+              "holder": "- Cơ sở đăng ký (Cơ sở đặt gia công có chuyển giao công nghệ sản xuất thuốc): Công ty TNHH Viatris Việt Nam - Cơ sở sản xuất thuốc đặt gia công (bán thành phẩm): Viatris Pharmaceuticals LLC - Cơ sở đóng gói, xuất xưởng thuốc đặt gia công: Pfizer Manufacturing Deutschland GmbH"
+            },
+            {
+              "registration": "893110364325",
+              "product": "Lipitor",
+              "ingredients": "Atorvastatin",
+              "form": "Viên nén bao phim",
+              "legal": "RX",
+              "holder": "- Cơ sở đăng ký (Cơ sở đặt gia công có chuyển giao công nghệ sản xuất thuốc): Công ty TNHH Viatris Việt Nam - Cơ sở sản xuất thuốc đặt gia công (bán thành phẩm): Viatris Pharmaceuticals LLC - Cơ sở đóng gói, xuất xưởng thuốc đặt gia công: Pfizer Manufacturing Deutschland GmbH"
+            },
+            {
+              "registration": "893710764424",
+              "product": "Lipitor",
+              "ingredients": "Atorvastatin",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Công ty TNHH Viatris Việt Nam"
+            },
+            {
+              "registration": "893710242024",
+              "product": "Lipitor",
+              "ingredients": "Atorvastatin",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Công ty TNHH Viatris Việt Nam"
+            },
+            {
+              "registration": "893710241924",
+              "product": "Lipitor",
+              "ingredients": "Atorvastatin",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Công ty TNHH Viatris Việt Nam"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "590110192126",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "ATORVASTATIN",
+        "currentRegistrations": 443
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "RX": 3
+          },
+          "withoutClass": 9
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "893110452925",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "levothyroxine",
+      "generic": "Levothyroxine",
+      "brand": "Sold generic as \"Levothyroxine\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "890110183826",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "LEVOTHYROXIN",
+        "currentRegistrations": 28
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "RX": 4
+          },
+          "withoutClass": 24
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "890110183826",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "lisinopril",
+      "generic": "Lisinopril",
+      "brand": "Sold generic as \"Lisinopril\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "893110083026",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "LISINOPRIL",
+        "currentRegistrations": 130
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "RX": 9
+          },
+          "withoutClass": 86
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "893110083026",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amlodipine",
+      "generic": "Amlodipine",
+      "brand": "Norvasc",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Norvasc",
+          "id": "893110364225",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Norvasc",
+          "products": [
+            {
+              "registration": "893110364225",
+              "product": "Norvasc",
+              "ingredients": "Amlodipine",
+              "form": "Viên nén",
+              "legal": "RX",
+              "holder": "- Cơ sở đăng ký (Cơ sở đặt gia công có chuyển giao công nghệ sản xuất thuốc): Công ty TNHH Viatris Việt Nam - Cơ sở sản xuất thuốc đặt gia công (bán thành phẩm): Viatris Pharmaceuticals LLC - Cơ sở đóng gói, xuất xưởng thuốc đặt gia công: Pfizer Manufacturing Deutschland GmbH"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "890110197826",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "AMLODIPIN",
+        "currentRegistrations": 279
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "RX": 1
+          },
+          "withoutClass": 0
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "893110364225",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "metoprolol",
+      "generic": "Metoprolol",
+      "brand": "Betaloc",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Betaloc",
+          "id": "730110022123",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Betaloc Zok 50mg",
+          "products": [
+            {
+              "registration": "730110022123",
+              "product": "Betaloc Zok 50mg",
+              "ingredients": "Metoprolol succinat 47,5mg",
+              "form": "Viên nén phóng thích kéo dài",
+              "legal": null,
+              "holder": "Công ty TNHH AstraZeneca Việt Nam"
+            },
+            {
+              "registration": "VN-17243-13",
+              "product": "Betaloc ZOK 25mg",
+              "ingredients": "Metoprolol succinat 23,75 mg",
+              "form": "Viên nén phóng thích kéo dài",
+              "legal": null,
+              "holder": "Công ty TNHH AstraZeneca Việt Nam"
+            },
+            {
+              "registration": "690110519924",
+              "product": "Betaloc 50mg",
+              "ingredients": "Metoprolol tartrate 50mg",
+              "form": "Viên nén",
+              "legal": null,
+              "holder": "Công ty TNHH AstraZeneca Việt Nam"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "VN-9390-09",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "METOPROLOL",
+        "currentRegistrations": 14
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "730110022123",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "losartan",
+      "generic": "Losartan",
+      "brand": "Cozaar",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Cozaar",
+          "id": "880110035426",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Cozaar XQ 5mg/100mg",
+          "products": [
+            {
+              "registration": "880110035426",
+              "product": "Cozaar XQ 5mg/100mg",
+              "ingredients": "Amlodipine 5mg, Losartan potassium 100mg",
+              "form": "Viên nén bao phim",
+              "legal": "RX",
+              "holder": "Organon Hong Kong Limited"
+            },
+            {
+              "registration": "VN-20570-17",
+              "product": "Cozaar 50mg",
+              "ingredients": "Losartan potassium 50mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Merck Sharp & Dohme (Asia) Ltd."
+            },
+            {
+              "registration": "VN-20027-16",
+              "product": "Cozaar 100mg",
+              "ingredients": "Losartan kali 100mg;",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Merck Sharp & Dohme (Asia) Ltd."
+            },
+            {
+              "registration": "VN-20569-17",
+              "product": "Cozaar 100mg",
+              "ingredients": "Losartan potassium 100mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Merck Sharp & Dohme (Asia) Ltd."
+            },
+            {
+              "registration": "VN-20026-16",
+              "product": "Cozaar",
+              "ingredients": "Losartan kali 50mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Merck Sharp & Dohme (Asia) Ltd."
+            },
+            {
+              "registration": "VN-19256-15",
+              "product": "Cozaar 50mg",
+              "ingredients": "Losartan kali 50mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Merck Sharp & Dohme (Asia) Ltd."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "890110197926",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "LOSARTAN",
+        "currentRegistrations": 290
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "880110035426",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "gabapentin",
+      "generic": "Gabapentin",
+      "brand": "Neurontin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Neurontin",
+          "id": "VN-16857-13",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Neurontin",
+          "products": [
+            {
+              "registration": "VN-16857-13",
+              "product": "Neurontin",
+              "ingredients": "Gabapentin 300 mg",
+              "form": "Viên nang cứng",
+              "legal": null,
+              "holder": "Pfizer (Thailand) Limited"
+            },
+            {
+              "registration": "VN-16348-13",
+              "product": "Neurontin",
+              "ingredients": "Gabapentin 300mg",
+              "form": "Viên nang cứng",
+              "legal": null,
+              "holder": "Pfizer (Thailand) Ltd."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "893110095126",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "GABAPENTIN",
+        "currentRegistrations": 142
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "VN-16857-13",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "rosuvastatin",
+      "generic": "Rosuvastatin",
+      "brand": "Crestor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Crestor",
+          "id": "VN-19786-16",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Crestor",
+          "products": [
+            {
+              "registration": "VN-19786-16",
+              "product": "Crestor",
+              "ingredients": "Rosuvastatin",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Công ty TNHH AstraZeneca Việt Nam"
+            },
+            {
+              "registration": "VN-18151-14",
+              "product": "Crestor 20mg",
+              "ingredients": "Rosuvastatin",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Công ty TNHH AstraZeneca Việt Nam"
+            },
+            {
+              "registration": "VN-18150-14",
+              "product": "Crestor 10mg",
+              "ingredients": "Rosuvastatin",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Công ty TNHH AstraZeneca Việt Nam"
+            },
+            {
+              "registration": "VN-12164-11",
+              "product": "Crestor 5mg",
+              "ingredients": "Rosuvastatin calci",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "AstraZeneca Singapore Pte., Ltd."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "893110101226",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "ROSUVASTATIN",
+        "currentRegistrations": 306
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "VN-19786-16",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "pantoprazole",
+      "generic": "Pantoprazole",
+      "brand": "Pantoloc",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Pantoloc",
+          "id": "400110034023",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Pantoloc 20mg",
+          "products": [
+            {
+              "registration": "400110034023",
+              "product": "Pantoloc 20mg",
+              "ingredients": "Pantoprazole sodium sesquihydrate 22,57mg",
+              "form": "Viên nén bao tan trong ruột",
+              "legal": null,
+              "holder": "CÔNG TY TNHH DƯỢC PHẨM TAKEDA VIỆT NAM"
+            },
+            {
+              "registration": "VN-18467-14",
+              "product": "Pantoloc i.v",
+              "ingredients": "Pantoprazole 40mg",
+              "form": "Bột đông khô pha tiêm tĩnh mạch",
+              "legal": null,
+              "holder": "Takeda Pharmaceuticals (Asia Pacific) Pte.Ltd"
+            },
+            {
+              "registration": "400110081723",
+              "product": "Pantoloc 40mg",
+              "ingredients": "Pantoprazole 40mg",
+              "form": "Viên nén bao tan trong ruột",
+              "legal": null,
+              "holder": "CÔNG TY TNHH DƯỢC PHẨM TAKEDA VIỆT NAM"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "890110185726",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "PANTOPRAZOL",
+        "currentRegistrations": 219
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "400110034023",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "escitalopram",
+      "generic": "Escitalopram",
+      "brand": "Escipra / Recita",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Escipra",
+          "id": "890110312525",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Escipra 10",
+          "products": [
+            {
+              "registration": "890110312525",
+              "product": "Escipra 10",
+              "ingredients": "Escitalopram oxalat tương đương escitalopram",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Macleods Pharmaceuticals Limited"
+            },
+            {
+              "registration": "890110189623",
+              "product": "Escipra 20",
+              "ingredients": "Escitalopram oxalate",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Macleods Pharmaceuticals Limited"
+            },
+            {
+              "registration": "890110014423",
+              "product": "Escipra 5",
+              "ingredients": "Escitalopram 5mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Macleods Pharmaceuticals Limited"
+            }
+          ]
+        },
+        {
+          "name": "Recita",
+          "id": "890110027826",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Recita-5",
+          "products": [
+            {
+              "registration": "890110027826",
+              "product": "Recita-5",
+              "ingredients": "Escitalopram oxalat tương đương với Escitalopram",
+              "form": "Viên nén bao phim",
+              "legal": "RX",
+              "holder": "Ipca Laboratories Limited"
+            },
+            {
+              "registration": "VN-20299-17",
+              "product": "Recita-20",
+              "ingredients": "Escitalopram 20mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Ipca Laboratories Ltd."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "893110100026",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "ESCITALOPRAM",
+        "currentRegistrations": 27
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "RX": 1
+          },
+          "withoutClass": 4
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "890110312525",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amphetamine",
+      "generic": "Amphetamine / Dextroamphetamine",
+      "brand": "Not commonly available",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "AMPHETAMIN, AMFETAMIN, DEXAMFETAMIN, DEXTROAMPHETAMIN",
+        "currentRegistrations": 0
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrochlorothiazide",
+      "generic": "Hydrochlorothiazide",
+      "brand": "Sold generic as \"Hydrochlorothiazide\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "890110197126",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "HYDROCHLOROT, HYDROCLOROT",
+        "currentRegistrations": 541
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "890110197126",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "bupropion",
+      "generic": "Bupropion",
+      "brand": "Availability not known",
+      "kind": "other",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "893110116500",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "BUPROPION",
+        "currentRegistrations": 4
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "fluoxetine",
+      "generic": "Fluoxetine",
+      "brand": "Sold generic as \"Fluoxetin\" (also Oxedep)",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "560110417625",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "FLUOXETIN",
+        "currentRegistrations": 32
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "RX": 2
+          },
+          "withoutClass": 30
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "560110417625",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "semaglutide",
+      "generic": "Semaglutide",
+      "brand": "Ozempic",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ozempic",
+          "id": "570410174600",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Ozempic",
+          "products": [
+            {
+              "registration": "570410174600",
+              "product": "Ozempic",
+              "ingredients": "Semaglutide",
+              "form": "Dung dịch tiêm",
+              "legal": null,
+              "holder": "Công ty TNHH Novo Nordisk Việt Nam"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "570410174600",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "SEMAGLUTID",
+        "currentRegistrations": 1
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "570410174600",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "montelukast",
+      "generic": "Montelukast",
+      "brand": "Singulair",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Singulair",
+          "id": "VN-20319-17",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Singulair 5mg",
+          "products": [
+            {
+              "registration": "VN-20319-17",
+              "product": "Singulair 5mg",
+              "ingredients": "Montelukast 5mg",
+              "form": "Viên nén nhai",
+              "legal": null,
+              "holder": "MERCK SHARP & DOHME (ASIA) LTD"
+            },
+            {
+              "registration": "VN-20318-17",
+              "product": "Singulair 4mg",
+              "ingredients": "Montelukast 4mg",
+              "form": "Viên  nén nhai",
+              "legal": null,
+              "holder": "MERCK SHARP & DOHME (ASIA) LTD"
+            },
+            {
+              "registration": "001110079323",
+              "product": "Singulair",
+              "ingredients": "Montelukast 4mg",
+              "form": "Cốm uống",
+              "legal": null,
+              "holder": "Organon Hong Kong Limited"
+            },
+            {
+              "registration": "500110412923",
+              "product": "Singulair",
+              "ingredients": "Montelukast 10mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Organon Hong Kong Limited"
+            },
+            {
+              "registration": "VN-19262-15",
+              "product": "Singulair",
+              "ingredients": "Montelukast 5mg",
+              "form": "Viên nén nhai",
+              "legal": null,
+              "holder": "Merck Sharp & Dohme (Asia) Ltd."
+            },
+            {
+              "registration": "VN-19261-15",
+              "product": "Singulair",
+              "ingredients": "Montelukast 4mg",
+              "form": "Viên nén nhai",
+              "legal": null,
+              "holder": "Merck Sharp & Dohme (Asia) Ltd."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "880110200126",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "MONTELUKAST",
+        "currentRegistrations": 285
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "VN-20319-17",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "trazodone",
+      "generic": "Trazodone",
+      "brand": "Availability not known",
+      "kind": "other",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "893110375725",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "TRAZODON",
+        "currentRegistrations": 5
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "RX": 2
+          },
+          "withoutClass": 3
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "simvastatin",
+      "generic": "Simvastatin",
+      "brand": "Zocor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zocor",
+          "id": "VN-20813-17",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Zocor 20mg",
+          "products": [
+            {
+              "registration": "VN-20813-17",
+              "product": "Zocor 20mg",
+              "ingredients": "Simvastatin 20mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Merck Sharp & Dohme (Asia) Ltd."
+            },
+            {
+              "registration": "VN-21067-18",
+              "product": "Zocor 10mg",
+              "ingredients": "Simvastatin 10mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Merck Sharp & Dohme (Asia) Ltd."
+            },
+            {
+              "registration": "VN-19265-15",
+              "product": "Zocor 40mg",
+              "ingredients": "Simvastatin 40mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Merck Sharp & Dohme (Asia) Ltd."
+            },
+            {
+              "registration": "VN-19264-15",
+              "product": "Zocor 20mg",
+              "ingredients": "Simvastatin 20mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Merck Sharp & Dohme (Asia) Ltd."
+            },
+            {
+              "registration": "VN-19263-15",
+              "product": "Zocor 10mg",
+              "ingredients": "Simvastatin 10mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Merck Sharp & Dohme (Asia) Ltd."
+            },
+            {
+              "registration": "VN-18942-15",
+              "product": "Zocor 20mg",
+              "ingredients": "Simvastatin 20mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Merck Sharp & Dohme (Asia) Ltd."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "890110048326",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "SIMVASTATIN",
+        "currentRegistrations": 199
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "VN-20813-17",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "tamsulosin",
+      "generic": "Tamsulosin",
+      "brand": "Harnal",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Harnal",
+          "id": "870110780724",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Harnal Ocas 0,4mg",
+          "products": [
+            {
+              "registration": "870110780724",
+              "product": "Harnal Ocas 0,4mg",
+              "ingredients": "Tamsulosin hydroclorid 0,4mg",
+              "form": "Viên nén bao phim phóng thích chậm",
+              "legal": null,
+              "holder": "Astellas Pharma Singapore Pte. Ltd"
+            },
+            {
+              "registration": "VN-9643-10",
+              "product": "Harnal Ocas 0,4mg",
+              "ingredients": "Tamsulosine HCl",
+              "form": "Viên nén bao phim phóng thích chậm",
+              "legal": null,
+              "holder": "Diethelm & Co., Ltd."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "890110418625",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "TAMSULOSIN",
+        "currentRegistrations": 7
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "870110780724",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrocodone",
+      "generic": "Hydrocodone / Paracetamol combination",
+      "brand": "Not commonly available",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "HYDROCODON",
+        "currentRegistrations": 0
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "fluticasone",
+      "generic": "Fluticasone",
+      "brand": "Flixonase",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Flixonase",
+          "id": "840110178023",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Flixonase",
+          "products": [
+            {
+              "registration": "840110178023",
+              "product": "Flixonase",
+              "ingredients": "Fluticason Propionat 0,05%",
+              "form": "Hỗn dịch xịt mũi",
+              "legal": null,
+              "holder": "Công ty TNHH Dược Phẩm GSK Việt Nam"
+            },
+            {
+              "registration": "VN-10263-10",
+              "product": "Flixonase",
+              "ingredients": "Fluticasone propionat",
+              "form": "Hỗn dịch xịt mũi",
+              "legal": null,
+              "holder": "GlaxoSmithKline Pte., Ltd."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "868110058926",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "FLUTICASON",
+        "currentRegistrations": 66
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "840110178023",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "meloxicam",
+      "generic": "Meloxicam",
+      "brand": "Mobic",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Mobic",
+          "id": "400110118924",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Mobic",
+          "products": [
+            {
+              "registration": "400110118924",
+              "product": "Mobic",
+              "ingredients": "Meloxicam 7,5mg",
+              "form": "Viên nén",
+              "legal": null,
+              "holder": "Boehringer Ingelheim International GmbH"
+            },
+            {
+              "registration": "400110118824",
+              "product": "Mobic",
+              "ingredients": "Meloxicam 15mg",
+              "form": "Viên nén",
+              "legal": null,
+              "holder": "Boehringer Ingelheim International GmbH"
+            },
+            {
+              "registration": "VN-22059-19",
+              "product": "Mobic",
+              "ingredients": "Meloxicam 15mg/1,5ml",
+              "form": "Dung dịch tiêm",
+              "legal": null,
+              "holder": "Boehringer Ingelheim International GmbH"
+            },
+            {
+              "registration": "VN-16962-13",
+              "product": "Mobic",
+              "ingredients": "Meloxicam 7,5mg",
+              "form": "Viên nén không bao",
+              "legal": null,
+              "holder": "Boehringer Ingelheim International GmbH"
+            },
+            {
+              "registration": "VN-16959-13",
+              "product": "Mobic",
+              "ingredients": "Meloxicam 15mg/1,5ml",
+              "form": "Dung dịch tiêm",
+              "legal": null,
+              "holder": "Boehringer Ingelheim International GmbH"
+            },
+            {
+              "registration": "VN-16961-13",
+              "product": "Mobic",
+              "ingredients": "Meloxicam 15mg",
+              "form": "Viên nén không bao",
+              "legal": null,
+              "holder": "Boehringer Ingelheim International GmbH"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "890110184926",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "MELOXICAM",
+        "currentRegistrations": 290
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "400110118924",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "apixaban",
+      "generic": "Apixaban",
+      "brand": "Eliquis",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Eliquis",
+          "id": "539110436423",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Eliquis",
+          "products": [
+            {
+              "registration": "539110436423",
+              "product": "Eliquis",
+              "ingredients": "Apixaban 2,5mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Công ty TNHH Pfizer (Việt Nam)"
+            },
+            {
+              "registration": "539110436323",
+              "product": "Eliquis",
+              "ingredients": "Apixaban 5mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Công ty TNHH Pfizer (Việt Nam)"
+            },
+            {
+              "registration": "VN2-616-17",
+              "product": "Eliquis",
+              "ingredients": "Apixaban 5 mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Pfizer (Thailand) Limited"
+            },
+            {
+              "registration": "VN2-615-17",
+              "product": "Eliquis",
+              "ingredients": "Apixaban 2,5 mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Pfizer (Thailand) Limited"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "890110198426",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "APIXABAN",
+        "currentRegistrations": 69
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "539110436423",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "furosemide",
+      "generic": "Furosemide",
+      "brand": "Sold generic as \"Furosemid\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "890110185426",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "FUROSEMID",
+        "currentRegistrations": 69
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "RX": 9
+          },
+          "withoutClass": 45
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "890110185426",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-glargine",
+      "generic": "Insulin Glargine",
+      "brand": "Toujeo / Basaglar",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Toujeo",
+          "id": "400410304624",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Toujeo Solostar",
+          "products": [
+            {
+              "registration": "400410304624",
+              "product": "Toujeo Solostar",
+              "ingredients": "Insulin glargine",
+              "form": "Dung dịch tiêm",
+              "legal": null,
+              "holder": "Công ty TNHH Sanofi-Aventis Việt Nam"
+            }
+          ]
+        },
+        {
+          "name": "Basaglar",
+          "id": "300410180200",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Basaglar",
+          "products": [
+            {
+              "registration": "300410180200",
+              "product": "Basaglar",
+              "ingredients": "Insulin glargine",
+              "form": "Dung dịch tiêm",
+              "legal": null,
+              "holder": "Công ty TNHH DKSH Pharma Việt Nam"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "400410179300",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "INSULIN GLAR, INSULINE GLARGIN",
+        "currentRegistrations": 7
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "400410304624",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-lispro",
+      "generic": "Insulin Lispro",
+      "brand": "Humalog",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Humalog",
+          "id": "800410110524",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Humalog Mix25 Kwikpen",
+          "products": [
+            {
+              "registration": "800410110524",
+              "product": "Humalog Mix25 Kwikpen",
+              "ingredients": "Insulin lispro (trong đó 25% là dung dịch insulin lispro và 75% là hỗn dịch insulin lispro protamine) 300U/3ml",
+              "form": "Hỗn dịch tiêm",
+              "legal": null,
+              "holder": "Công ty TNHH DKSH Pharma Việt Nam"
+            },
+            {
+              "registration": "QLSP-1088-18",
+              "product": "Humalog Mix 75/25 Kwikpen",
+              "ingredients": "Mỗi 3ml chứa: Insulin lispro 300U",
+              "form": "Hỗn dịch tiêm",
+              "legal": null,
+              "holder": "Eli Lilly Export S.A"
+            },
+            {
+              "registration": "300410177600",
+              "product": "Humalog Mix 50/50 Kwikpen",
+              "ingredients": "Mỗi 3ml chứa Insulin lispro 300U",
+              "form": "Hỗn dịch tiêm",
+              "legal": null,
+              "holder": "Công ty TNHH DKSH Pharma Việt Nam"
+            },
+            {
+              "registration": "QLSP-1086-18",
+              "product": "Humalog Kwikpen",
+              "ingredients": "Mỗi 3ml chứa: Insulin lispro 300U",
+              "form": "Dung dịch tiêm",
+              "legal": null,
+              "holder": "Eli Lilly Export S.A"
+            },
+            {
+              "registration": "QLSP-1084-18",
+              "product": "Humalog Mix25",
+              "ingredients": "Mỗi 3ml chứa: Insulin lispro 300U",
+              "form": "Hỗn dịch tiêm",
+              "legal": null,
+              "holder": "Eli Lilly Export S.A"
+            },
+            {
+              "registration": "800410090423",
+              "product": "Humalog Kwikpen",
+              "ingredients": "Insulin lispro 300U/3ml",
+              "form": "Dung dịch tiêm",
+              "legal": null,
+              "holder": "Công ty TNHH DKSH Pharma Việt Nam"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "800410110524",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "INSULIN LISP, INSULINE LISPRO",
+        "currentRegistrations": 9
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "800410110524",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-aspart",
+      "generic": "Insulin Aspart",
+      "brand": "NovoRapid",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "NovoRapid",
+          "id": "QLSP-1023-17",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "NovoRapid",
+          "products": [
+            {
+              "registration": "QLSP-1023-17",
+              "product": "NovoRapid",
+              "ingredients": "Insulin aspart 1000 U/10ml",
+              "form": "Dung dịch tiêm",
+              "legal": null,
+              "holder": "Novo Nordisk A/S"
+            },
+            {
+              "registration": "300410198625",
+              "product": "NovoRapid\nFlexPen",
+              "ingredients": "Insulin aspart",
+              "form": "Dung dịch tiêm",
+              "legal": null,
+              "holder": "Công ty TNHH Novo Nordisk Việt Nam"
+            },
+            {
+              "registration": "QLSP-961-16",
+              "product": "Novorapid Flexpen",
+              "ingredients": "Insulin aspart 300 IU/3ml",
+              "form": "Dung dịch  tiêm",
+              "legal": null,
+              "holder": "Công ty TNHH Novo Nordisk Việt Nam"
+            },
+            {
+              "registration": "570410305424",
+              "product": "NovoRapid Flexpen",
+              "ingredients": "Insulin aspart",
+              "form": "Dung dịch tiêm",
+              "legal": null,
+              "holder": "Công ty TNHH Novo  Nordisk Việt Nam"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "QLSP-1095-18",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "INSULIN ASPA, INSULINE ASPART",
+        "currentRegistrations": 9
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "QLSP-1023-17",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-regular",
+      "generic": "Insulin Human (Regular)",
+      "brand": "Actrapid",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Actrapid",
+          "id": "QLSP-1030-17",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Actrapid Penfill",
+          "products": [
+            {
+              "registration": "QLSP-1030-17",
+              "product": "Actrapid Penfill",
+              "ingredients": "Insulin Human 300 IU/3ml",
+              "form": "Dung dịch tiêm",
+              "legal": null,
+              "holder": "Novo Nordisk A/S"
+            },
+            {
+              "registration": "300410198725",
+              "product": "Actrapid",
+              "ingredients": "insulin human",
+              "form": "Dung dịch tiêm",
+              "legal": null,
+              "holder": "Công ty TNHH Novo Nordisk Việt Nam"
+            },
+            {
+              "registration": "QLSP-1026-17",
+              "product": "Actrapid  Penfill",
+              "ingredients": "Insulin Human 300 IU/3 ml",
+              "form": "Dung dịch tiêm",
+              "legal": null,
+              "holder": "Novo Nordisk A/S"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "QLSP-1096-18",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "INSULIN HUMA, INSULINE HUMAIN, INSULIN REGULAR, INSULIN SOLUBL, INSULIN SEMI SYNTHETIC, INSULIN INJECTION HUMAN",
+        "currentRegistrations": 26
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "QLSP-1030-17",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-nph",
+      "generic": "Insulin Isophane (NPH)",
+      "brand": "Insulatard",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Insulatard",
+          "id": "300410198825",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Insulatard",
+          "products": [
+            {
+              "registration": "300410198825",
+              "product": "Insulatard",
+              "ingredients": "Insulin human",
+              "form": "Hỗn dịch tiêm",
+              "legal": null,
+              "holder": "Công ty TNHH Novo Nordisk Việt Nam"
+            },
+            {
+              "registration": "QLSP-1032-17",
+              "product": "Insulatard Penfill",
+              "ingredients": "Insulin Human 300 IU/3 ml",
+              "form": "Hỗn dịch tiêm",
+              "legal": null,
+              "holder": "Novo Nordisk A/S"
+            },
+            {
+              "registration": "300410198925",
+              "product": "Insulatard\nFlexPen",
+              "ingredients": "Insulin human",
+              "form": "Hỗn dịch tiêm",
+              "legal": null,
+              "holder": "Công ty TNHH Novo Nordisk Việt Nam"
+            },
+            {
+              "registration": "QLSP-1027-17",
+              "product": "Insulatard Penfill",
+              "ingredients": "Insulin Human 300 IU/3ml",
+              "form": "Hỗn dịch tiêm",
+              "legal": null,
+              "holder": "Novo Nordisk A/S"
+            },
+            {
+              "registration": "QLSP-1025-17",
+              "product": "Insulatard FlexPen",
+              "ingredients": "Insulin Human 300 IU/3 ml",
+              "form": "Hỗn dịch tiêm",
+              "legal": null,
+              "holder": "Novo Nordisk A/S"
+            },
+            {
+              "registration": "VN-11009-10",
+              "product": "Insulatard  FlexPen",
+              "ingredients": "Insulin human",
+              "form": "Hỗn dịch tiêm",
+              "legal": null,
+              "holder": "Diethelm & Co., Ltd."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "590410177500",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "INSULIN ISOP, INSULINE HUMAIN, INSULINE ISOPHAN, ISOPHANE INSULIN, INSULIN HUMAN, INSULIN NPH",
+        "currentRegistrations": 29
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "300410198825",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-detemir",
+      "generic": "Insulin Detemir",
+      "brand": "Levemir",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Levemir",
+          "id": "QLSP-1094-18",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Levemir FlexPen",
+          "products": [
+            {
+              "registration": "QLSP-1094-18",
+              "product": "Levemir FlexPen",
+              "ingredients": "Mỗi 3ml chứa: Insulin detemir 300U",
+              "form": "Dung dịch tiêm",
+              "legal": null,
+              "holder": "Công ty TNHH Novo  Nordisk Việt Nam"
+            },
+            {
+              "registration": "300410179100",
+              "product": "Levemir FlexPen",
+              "ingredients": "Insulin detemir",
+              "form": "Dung dịch tiêm",
+              "legal": null,
+              "holder": "Công ty TNHH Novo Nordisk Việt Nam"
+            },
+            {
+              "registration": "QLSP-962-16",
+              "product": "Levemir  Flexpen",
+              "ingredients": "Insulin detemir 300 IU/3ml",
+              "form": "Dung dịch tiêm",
+              "legal": null,
+              "holder": "Novo Nordisk A/S"
+            },
+            {
+              "registration": "QLSP-0499-12",
+              "product": "Levemir Flexpen",
+              "ingredients": "Insulin detemir 100U/ml",
+              "form": "Dung dịch tiêm",
+              "legal": null,
+              "holder": "Công ty TNHH DKSH Việt Nam"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "QLSP-1094-18",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "INSULIN DET, INSULINE DETEMIR",
+        "currentRegistrations": 4
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "QLSP-1094-18",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-degludec",
+      "generic": "Insulin Degludec",
+      "brand": "Tresiba",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tresiba",
+          "id": "570410647224",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Tresiba\nFlexTouch\n200 U/ml",
+          "products": [
+            {
+              "registration": "570410647224",
+              "product": "Tresiba\nFlexTouch\n200 U/ml",
+              "ingredients": "Mỗi bút tiêm bơm sẵn 3ml chứa Insulin degludec 21,96mg",
+              "form": "Dung\ndịch tiêm",
+              "legal": null,
+              "holder": "Novo Nordisk A/S"
+            },
+            {
+              "registration": "570410322925",
+              "product": "Tresiba Penfill 100U/ml",
+              "ingredients": "Mỗi ống 3ml chứa 300 U insulin degludec",
+              "form": "Dung dịch tiêm",
+              "legal": null,
+              "holder": "Công ty TNHH Novo Nordisk Việt Nam"
+            },
+            {
+              "registration": "570410305524",
+              "product": "Tresiba FlexTouch 100 U/ml",
+              "ingredients": "Insulin degludec",
+              "form": "Dung dịch tiêm",
+              "legal": null,
+              "holder": "Công ty TNHH Novo  Nordisk Việt Nam"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "570410322925",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "INSULIN DEGL, INSULINE DEGLUDEC",
+        "currentRegistrations": 4
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "570410647224",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "duloxetine",
+      "generic": "Duloxetine",
+      "brand": "Cymbalta",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Cymbalta",
+          "id": "VN2-608-17",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Cymbalta",
+          "products": [
+            {
+              "registration": "VN2-608-17",
+              "product": "Cymbalta",
+              "ingredients": "Duloxetine 60mg;",
+              "form": "Viên nang cứng bao tan trong ruột",
+              "legal": null,
+              "holder": "Eli Lilly Asia, Inc-Thailand Branch"
+            },
+            {
+              "registration": "VN2-607-17",
+              "product": "Cymbalta",
+              "ingredients": "Duloxetine 30mg",
+              "form": "Viên nang cứng bao tan trong ruột",
+              "legal": null,
+              "holder": "Eli Lilly Asia, Inc-Thailand Branch"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "893110364324",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "DULOXETIN",
+        "currentRegistrations": 13
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "VN2-608-17",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "famotidine",
+      "generic": "Famotidine",
+      "brand": "Peptacid / Famodin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Peptacid",
+          "id": "893110016226",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Peptacid 40mg/5ml",
+          "products": [
+            {
+              "registration": "893110016226",
+              "product": "Peptacid 40mg/5ml",
+              "ingredients": "Mỗi 5ml hỗn dịch sau khi pha chứa Famotidine 40mg",
+              "form": "Bột pha hỗn dịch uống",
+              "legal": "RX",
+              "holder": "Công ty cổ phần Hoá - Dược phẩm Mekophar"
+            },
+            {
+              "registration": "893110096525",
+              "product": "Peptacid 40",
+              "ingredients": "Famotidine",
+              "form": "Viên nén phân tán trong miệng",
+              "legal": null,
+              "holder": "Công ty cổ phần hóa-dược phẩm Mekophar"
+            },
+            {
+              "registration": "893110096425",
+              "product": "Peptacid 20",
+              "ingredients": "Famotidine",
+              "form": "Viên nén phân tán trong miệng",
+              "legal": null,
+              "holder": "Công ty cổ phần hóa-dược phẩm Mekophar"
+            }
+          ]
+        },
+        {
+          "name": "Famodin",
+          "id": "594110768224",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Famodin 40mg",
+          "products": [
+            {
+              "registration": "594110768224",
+              "product": "Famodin 40mg",
+              "ingredients": "Famotidine 40mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Công ty Cổ phần kinh doanh thương mại Skyline"
+            },
+            {
+              "registration": "594110768124",
+              "product": "Famodin 20mg",
+              "ingredients": "Famotidine 20mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Công ty Cổ phần kinh doanh thương mại Skyline"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "893110113626",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "FAMOTIDIN",
+        "currentRegistrations": 74
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "RX": 1
+          },
+          "withoutClass": 4
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "893110016226",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "empagliflozin",
+      "generic": "Empagliflozin",
+      "brand": "Jardiance",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Jardiance",
+          "id": "520110423023",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Jardiance",
+          "products": [
+            {
+              "registration": "520110423023",
+              "product": "Jardiance",
+              "ingredients": "Empagliflozin 10mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Boehringer Ingelheim International GmbH"
+            },
+            {
+              "registration": "520110008323",
+              "product": "Jardiance",
+              "ingredients": "Empagliflozin 25mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Boehringer Ingelheim International GmbH"
+            },
+            {
+              "registration": "VN3-188-19",
+              "product": "Jardiance Duo",
+              "ingredients": "Empagliflozin 5 mg, Metformin Hydrochloride 1000 mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Boehringer Ingelheim International GmbH"
+            },
+            {
+              "registration": "VN3-187-19",
+              "product": "Jardiance Duo",
+              "ingredients": "Empagliflozin 5 mg, Metformin Hydrochloride 850 mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Boehringer Ingelheim International GmbH"
+            },
+            {
+              "registration": "VN3-186-19",
+              "product": "Jardiance Duo",
+              "ingredients": "Empagliflozin 12,5 mg, Metformin Hydrochloride 850 mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Boehringer Ingelheim International GmbH"
+            },
+            {
+              "registration": "VN3-185-19",
+              "product": "Jardiance Duo",
+              "ingredients": "Empagliflozin 12,5mg; Metformin Hydrochloride 1000mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Boehringer Ingelheim International GmbH"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "893110122926",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "EMPAGLIFLOZI",
+        "currentRegistrations": 88
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "520110423023",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "carvedilol",
+      "generic": "Carvedilol",
+      "brand": "Sold generic as \"Carvedilol\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "400110068626",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "CARVEDILOL",
+        "currentRegistrations": 93
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "RX": 3
+          },
+          "withoutClass": 87
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "400110068626",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "tramadol",
+      "generic": "Tramadol",
+      "brand": "Sold mostly combined with paracetamol",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "560111187326",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "TRAMADOL",
+        "currentRegistrations": 121
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "RX": 2
+          },
+          "withoutClass": 29
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "560111187326",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "alprazolam",
+      "generic": "Alprazolam",
+      "brand": "Frixitas",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Frixitas",
+          "id": "VN-11013-10",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Frixitas",
+          "products": [
+            {
+              "registration": "VN-11013-10",
+              "product": "Frixitas",
+              "ingredients": "Alprazolam",
+              "form": "Viên nén",
+              "legal": null,
+              "holder": "Diethelm & Co., Ltd."
+            },
+            {
+              "registration": "VN-11012-10",
+              "product": "Frixitas",
+              "ingredients": "Alprazolam",
+              "form": "Viên nén",
+              "legal": null,
+              "holder": "Diethelm & Co., Ltd."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "VN-11013-10",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "ALPRAZOLAM",
+        "currentRegistrations": 2
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "VN-11013-10",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "prednisone",
+      "generic": "Prednisone",
+      "brand": "Prednisolone is the more commonly used equivalent",
+      "kind": "other",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "840110060126",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "PREDNISON",
+        "currentRegistrations": 66
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "RX": 4
+          },
+          "withoutClass": 62
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "clopidogrel",
+      "generic": "Clopidogrel",
+      "brand": "Plavix",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Plavix",
+          "id": "VN-18879-15",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Plavix",
+          "products": [
+            {
+              "registration": "VN-18879-15",
+              "product": "Plavix",
+              "ingredients": "Clopidogrel",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Công ty TNHH Sanofi-Aventis Việt Nam"
+            },
+            {
+              "registration": "VN-16229-13",
+              "product": "Plavix 75 mg",
+              "ingredients": "Clopidogrel",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Công ty TNHH Sanofi-Aventis Việt Nam"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "893110129826",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "CLOPIDOGREL",
+        "currentRegistrations": 225
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "VN-18879-15",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "aspirin",
+      "generic": "Acetylsalicylic acid (Aspirin)",
+      "brand": "Aspirin (spelling unchanged)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Aspirin",
+          "id": "893100903724",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Aspirin pH8",
+          "products": [
+            {
+              "registration": "893100903724",
+              "product": "Aspirin pH8",
+              "ingredients": "Acid acetylsalicylic",
+              "form": "Viên nén bao phim tan trong ruột",
+              "legal": "NO_RX",
+              "holder": "Công ty cổ phần hóa-dược phẩm Mekophar"
+            },
+            {
+              "registration": "893100369223",
+              "product": "Aspirin pH8 500mg",
+              "ingredients": "Acid acetylsalicylic",
+              "form": "Viên nén bao tan trong ruột",
+              "legal": "NO_RX",
+              "holder": "Công ty cổ phần dược phẩm Quảng Bình"
+            },
+            {
+              "registration": "893100144424",
+              "product": "Aspirin 500",
+              "ingredients": "Acid acetylsalicylic",
+              "form": "Viên nén bao tan trong ruột",
+              "legal": "NO_RX",
+              "holder": "Công ty cổ phần dược phẩm Agimexpharm"
+            },
+            {
+              "registration": "893100836324",
+              "product": "Aspirin 81 mg",
+              "ingredients": "Aspirin",
+              "form": "Viên nén bao tan trong ruột",
+              "legal": "NO_RX",
+              "holder": "Công ty TNHH Dược phẩm USA - NIC"
+            },
+            {
+              "registration": "893110265125",
+              "product": "Aspirin DWP 150mg",
+              "ingredients": "Aspirin",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Công ty cổ phần dược phẩm Wealphar"
+            },
+            {
+              "registration": "893110265025",
+              "product": "Aspirin DWP 100mg",
+              "ingredients": "Aspirin",
+              "form": "Viên nén",
+              "legal": null,
+              "holder": "Công ty cổ phần dược phẩm Wealphar"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "594110133026",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "ACETYLSALICY, ASPIRIN, ACETYLSALICYLIC",
+        "currentRegistrations": 103
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "NO_RX": 4
+          },
+          "withoutClass": 30
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "893100903724",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oxycodone",
+      "generic": "Oxycodone",
+      "brand": "OxyContin / Oxynorm",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "OxyContin",
+          "id": "VN3-169-19",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "OxyContin 80mg",
+          "products": [
+            {
+              "registration": "VN3-169-19",
+              "product": "OxyContin 80mg",
+              "ingredients": "Oxycodon HCl 60mg;",
+              "form": "Viên nén giải phóng kéo dài",
+              "legal": null,
+              "holder": "Mundipharma Pharmaceuticals Pte. Ltd."
+            },
+            {
+              "registration": "VN3-168-19",
+              "product": "OxyContin 60mg",
+              "ingredients": "Oxycodon HCl 60mg;",
+              "form": "Viên nén giải phóng kéo dài",
+              "legal": null,
+              "holder": "Mundipharma Pharmaceuticals Pte. Ltd."
+            },
+            {
+              "registration": "VN3-167-19",
+              "product": "OxyContin 40mg",
+              "ingredients": "Oxycodon HCl 40mg",
+              "form": "Viên nén giải phóng kéo dài",
+              "legal": null,
+              "holder": "Mundipharma Pharmaceuticals Pte. Ltd."
+            },
+            {
+              "registration": "VN3-166-19",
+              "product": "OxyContin 30mg",
+              "ingredients": "Oxycodon HCl 30mg",
+              "form": "Viên nén giải phóng kéo dài",
+              "legal": null,
+              "holder": "Mundipharma Pharmaceuticals Pte. Ltd."
+            },
+            {
+              "registration": "VN-21915-19",
+              "product": "OxyContin 20mg",
+              "ingredients": "Oxycodon HCl 20mg",
+              "form": "Viên nén giải phóng kéo dài",
+              "legal": null,
+              "holder": "Mundipharma Pharmaceuticals Pte. Ltd."
+            },
+            {
+              "registration": "VN3-165-19",
+              "product": "OxyContin 15mg",
+              "ingredients": "Oxycodon HCl 15mg",
+              "form": "Viên nén giải phóng kéo dài",
+              "legal": null,
+              "holder": "Mundipharma Pharmaceuticals Pte. Ltd."
+            }
+          ]
+        },
+        {
+          "name": "Oxynorm",
+          "id": "VN2-470-16",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Oxynorm 20mg/2ml",
+          "products": [
+            {
+              "registration": "VN2-470-16",
+              "product": "Oxynorm 20mg/2ml",
+              "ingredients": "Oxycodone 18mg/2ml",
+              "form": "Dung dịch tiêm truyền tĩnh mạch/tiêm dưới da",
+              "legal": null,
+              "holder": "Mundipharma Pharmaceuticals Pte. Ltd."
+            },
+            {
+              "registration": "VN2-538-16",
+              "product": "Oxynorm 5mg/5ml oral solution",
+              "ingredients": "Oxycodon 4,5mg/5ml",
+              "form": "Dung dịch uống",
+              "legal": null,
+              "holder": "Mundipharma Pharmaceuticals Pte. Ltd."
+            },
+            {
+              "registration": "VN2-535-16",
+              "product": "Oxynorm 20mg",
+              "ingredients": "Oxycodon hydroclorid 20mg tương đương Oxycodon 18mg",
+              "form": "Viên nang cứng",
+              "legal": null,
+              "holder": "Mundipharma Pharmaceuticals Pte. Ltd."
+            },
+            {
+              "registration": "VN2-537-16",
+              "product": "Oxynorm 10mg/ml concentrate oral",
+              "ingredients": "Oxycodon 9 mg/ml",
+              "form": "Dung dịch uống",
+              "legal": null,
+              "holder": "Mundipharma Pharmaceuticals Pte. Ltd."
+            },
+            {
+              "registration": "VN2-469-16",
+              "product": "Oxynorm 10mg/1ml",
+              "ingredients": "Oxycodone 9mg/1ml",
+              "form": "Dung dịch tiêm truyền tĩnh mạch/tiêm dưới da",
+              "legal": null,
+              "holder": "Mundipharma Pharmaceuticals Pte. Ltd."
+            },
+            {
+              "registration": "VN2-534-16",
+              "product": "Oxynorm 10mg",
+              "ingredients": "Oxycodon hydroclorid 10mg tương đương Oxycodon 9mg",
+              "form": "Viên nang cứng",
+              "legal": null,
+              "holder": "Mundipharma Pharmaceuticals Pte. Ltd."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "VN3-169-19",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "OXYCODON",
+        "currentRegistrations": 24
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "VN3-169-19",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "methylphenidate",
+      "generic": "Methylphenidate",
+      "brand": "Concerta",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Concerta",
+          "id": "001112408923",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Concerta",
+          "products": [
+            {
+              "registration": "001112408923",
+              "product": "Concerta",
+              "ingredients": "Methylphenidat hydrochlorid 27mg",
+              "form": "Viên nén phóng thích kéo dài",
+              "legal": null,
+              "holder": "Công ty TNHH Johnson & Johnson (Việt Nam)"
+            },
+            {
+              "registration": "VN3-45-18",
+              "product": "Concerta",
+              "ingredients": "Methylphenidat hydroclorid 54mg",
+              "form": "Viên nén phóng thích kéo dài",
+              "legal": null,
+              "holder": "Janssen - Cilag Ltd."
+            },
+            {
+              "registration": "001112785724",
+              "product": "Concerta",
+              "ingredients": "Methylphenidat hydroclorid 36mg",
+              "form": "Viên nén phóng thích kéo dài",
+              "legal": null,
+              "holder": "Công ty TNHH Johnson & Johnson (Việt Nam)"
+            },
+            {
+              "registration": "001112785824",
+              "product": "Concerta",
+              "ingredients": "Methylphenidat hydroclorid 18mg",
+              "form": "Viên nén phóng thích kéo dài",
+              "legal": null,
+              "holder": "Công ty TNHH Johnson & Johnson (Việt Nam)"
+            },
+            {
+              "registration": "VN2-365-15",
+              "product": "Concerta 54 mg",
+              "ingredients": "Methylphenidate hydrochloride 54 mg",
+              "form": "Viên nén phóng thích kéo dài",
+              "legal": null,
+              "holder": "Janssen Cilag Ltd."
+            },
+            {
+              "registration": "VN2-364-15",
+              "product": "Concerta 36 mg",
+              "ingredients": "Methylphenidate hydrochloride 36mg",
+              "form": "Viên nén phóng thích kéo dài",
+              "legal": null,
+              "holder": "Janssen Cilag Ltd."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "001112408923",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "METHYLPHENID",
+        "currentRegistrations": 12
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "001112408923",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "naproxen",
+      "generic": "Naproxen",
+      "brand": "Sold generic as \"Naproxen\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "893110120826",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "NAPROXEN",
+        "currentRegistrations": 57
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "RX": 4,
+            "NO_RX": 17
+          },
+          "withoutClass": 27
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "893110120826",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "diclofenac-gel",
+      "generic": "Diclofenac (topical gel)",
+      "brand": "Voltaren Emulgel",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Voltaren Emulgel",
+          "id": "760100073723",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Voltaren Emulgel",
+          "products": [
+            {
+              "registration": "760100073723",
+              "product": "Voltaren Emulgel",
+              "ingredients": "Diclofenac diethylamine 1,16g/100g",
+              "form": "Gel bôi ngoài da",
+              "legal": "NO_RX",
+              "holder": "Công ty TNHH GlaxoSmithKline Hàng Tiêu Dùng và Chăm Sóc Sức Khỏe Việt Nam"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "893110127726",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "DICLOFENAC",
+        "currentRegistrations": 280
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "NO_RX": 1
+          },
+          "withoutClass": 0
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "760100073723",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "fexofenadine",
+      "generic": "Fexofenadine",
+      "brand": "Telfast",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Telfast",
+          "id": "893100404324",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Telfast Kids",
+          "products": [
+            {
+              "registration": "893100404324",
+              "product": "Telfast Kids",
+              "ingredients": "Fexofenadine hydrochloride",
+              "form": "Viên nén bao phim",
+              "legal": "NO_RX",
+              "holder": "Công ty Cổ phần Sanofi Việt Nam"
+            },
+            {
+              "registration": "893100313923",
+              "product": "Telfast BD",
+              "ingredients": "Fexofenadin hydrochlorid",
+              "form": "Viên nén bao phim",
+              "legal": "NO_RX",
+              "holder": "Công ty Cổ phần Sanofi Việt nam"
+            },
+            {
+              "registration": "893100314023",
+              "product": "Telfast HD",
+              "ingredients": "Fexofenadine hydrochloride",
+              "form": "Viên nén bao phim",
+              "legal": "NO_RX",
+              "holder": "Công ty Cổ phần Sanofi Việt nam"
+            },
+            {
+              "registration": "VN-12649-11",
+              "product": "Telfast HD",
+              "ingredients": "Fexofenadine Hydrochloride",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Sanofi-Synthélabo France"
+            },
+            {
+              "registration": "VN-12648-11",
+              "product": "Telfast BD",
+              "ingredients": "Fexofenadine Hydrochloride",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Sanofi-Aventis"
+            },
+            {
+              "registration": "VD-19728-13",
+              "product": "Telfast HD",
+              "ingredients": "Fexofenadin HCl 180mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Công ty TNHH Sanofi-Aventis Việt Nam"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "894100194826",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "FEXOFENADIN",
+        "currentRegistrations": 342
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "NO_RX": 3
+          },
+          "withoutClass": 3
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "893100404324",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "guaifenesin",
+      "generic": "Guaifenesin",
+      "brand": "Sold generic as \"Guaifenesin\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "893110483625",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "GUAIFENESIN, GUAIPHENESIN",
+        "currentRegistrations": 150
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "893110483625",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "dextromethorphan",
+      "generic": "Dextromethorphan",
+      "brand": "Sold generic as \"Dextromethorphan\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "560110049626",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "DEXTROMETHOR",
+        "currentRegistrations": 383
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "RX": 5
+          },
+          "withoutClass": 70
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "560110049626",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oxymetazoline",
+      "generic": "Oxymetazoline (nasal spray)",
+      "brand": "Sold generic as \"Oxymetazoline\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "893100282725",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "OXYMETAZOLIN",
+        "currentRegistrations": 18
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "NO_RX": 12
+          },
+          "withoutClass": 3
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "893100282725",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "bismuth-subsalicylate",
+      "generic": "Bismuth subsalicylate",
+      "brand": "Amebismo / Bisoenti",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Amebismo",
+          "id": "893100099126",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Amebismo Extra 525",
+          "products": [
+            {
+              "registration": "893100099126",
+              "product": "Amebismo Extra 525",
+              "ingredients": "Bismuth subsalicylate",
+              "form": "Viên nén",
+              "legal": "NO_RX",
+              "holder": "Công ty Cổ phần Dược phẩm OPV"
+            },
+            {
+              "registration": "893110630724",
+              "product": "Amebismo",
+              "ingredients": "Mỗi 15ml chứa: Bismuth subsalicylate 525mg",
+              "form": "Hỗn dịch uống",
+              "legal": null,
+              "holder": "Công ty cổ phần dược phẩm OPV"
+            },
+            {
+              "registration": "893110669724",
+              "product": "Amebismo",
+              "ingredients": "Bismuth subsalicylate",
+              "form": "Viên nén nhai",
+              "legal": null,
+              "holder": "Công ty cổ phần dược phẩm OPV"
+            },
+            {
+              "registration": "VD-12888-10",
+              "product": "Amebismo",
+              "ingredients": "Bismuth subsalicylat 525mg/15ml",
+              "form": "",
+              "legal": null,
+              "holder": "Công ty cổ phần Dược phẩm OPV"
+            },
+            {
+              "registration": "VD-10284-10",
+              "product": "Amebismo",
+              "ingredients": "Bismuth subsalicylat 262mg",
+              "form": "",
+              "legal": null,
+              "holder": "Công ty cổ phần Dược phẩm OPV"
+            }
+          ]
+        },
+        {
+          "name": "Bisoenti",
+          "id": "893100087726",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "BISOENTI",
+          "products": [
+            {
+              "registration": "893100087726",
+              "product": "BISOENTI",
+              "ingredients": "Bismuth subsalicylat",
+              "form": "Viên nén",
+              "legal": "NO_RX",
+              "holder": "Công ty Cổ phần Dược Hà Tĩnh"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "893100099126",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "BISMUTH SUBS",
+        "currentRegistrations": 41
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "NO_RX": 2
+          },
+          "withoutClass": 4
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "893100099126",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "calcium-carbonate",
+      "generic": "Calcium carbonate (antacid)",
+      "brand": "Ask for an antacid",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "890100032726",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "CALCIUM CARB, CALCI CARBONAT",
+        "currentRegistrations": 162
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "NO_RX": 9
+          },
+          "withoutClass": 10
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "890100032726",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "simeticone",
+      "generic": "Simeticone",
+      "brand": "Espumisan",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Espumisan",
+          "id": "594100035726",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Espumisan Capsules",
+          "products": [
+            {
+              "registration": "594100035726",
+              "product": "Espumisan Capsules",
+              "ingredients": "Simethicone",
+              "form": "Viên nang mềm",
+              "legal": "NO_RX",
+              "holder": "A. Menarini Singapore Pte. Ltd."
+            },
+            {
+              "registration": "400100981824",
+              "product": "Espumisan L",
+              "ingredients": "Simethicone",
+              "form": "Nhũ dịch uống",
+              "legal": "NO_RX",
+              "holder": "A. Menarini Singapore Pte. Ltd."
+            },
+            {
+              "registration": "VN-15231-12",
+              "product": "Espumisan L",
+              "ingredients": "Simethicone",
+              "form": "Nhũ dịch uống",
+              "legal": null,
+              "holder": "Berlin-Chemie AG (Menarini Group)"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "893100127326",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "SIMETICON, SIMETHICON",
+        "currentRegistrations": 212
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "NO_RX": 2
+          },
+          "withoutClass": 1
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "594100035726",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oral-rehydration-salts",
+      "generic": "Oral rehydration salts",
+      "brand": "Oresol",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Oresol",
+          "id": "893100269925",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Oresol - Hd",
+          "products": [
+            {
+              "registration": "893100269925",
+              "product": "Oresol - Hd",
+              "ingredients": "Glucose khan 2,7g; Kali clorid 0,3g; Natri citrat 0,58mg; Natri clorid 0,52g",
+              "form": "Thuốc bột pha dung dịch uống",
+              "legal": "NO_RX",
+              "holder": "Công ty cổ phần Dược Vật tư y tế Hải Dương"
+            },
+            {
+              "registration": "893100581724",
+              "product": "Oresol",
+              "ingredients": "Glucose khan 2700mg; Kali clorid 300mg; Natri citrat dihydrat 580mg; Natri clorid 520mg",
+              "form": "Thuốc bột pha dung dịch uống",
+              "legal": "NO_RX",
+              "holder": "Công ty TNHH Liên doanh Hasan – Dermapharm"
+            },
+            {
+              "registration": "893100829124",
+              "product": "Oresol",
+              "ingredients": "Glucose khan 2,7g; Kali clorid 0,3g; Natri citrat 0,58g; Natri clorid 0,52g",
+              "form": "Thuốc bột uống",
+              "legal": "NO_RX",
+              "holder": "Công ty cổ phần Dược Vật tư y tế Hải Dương"
+            },
+            {
+              "registration": "893100927124",
+              "product": "Oresol 20,5g",
+              "ingredients": "Glucose khan 13,5g; Kali clorid 1,5g; Natri citrat dihydrat 2,9g; Natri clorid 2,6g",
+              "form": "Thuốc bột uống",
+              "legal": "NO_RX",
+              "holder": "Công ty Cổ phần Dược Trung ương 3"
+            },
+            {
+              "registration": "893100928224",
+              "product": "Oresol",
+              "ingredients": "Glucose khan 14,98g; Kali clorid 1,12g; Natri citrat 2,17g; Natri clorid 2,62g",
+              "form": "Thuốc bột uống",
+              "legal": "NO_RX",
+              "holder": "Công ty Cổ phần Hóa dược Việt Nam"
+            },
+            {
+              "registration": "893100712924",
+              "product": "Oresol 4,1 g",
+              "ingredients": "Glucose khan 2,70g; Kali clorid 0,30g; Natri citrat dihydrat 0,58g; Natri clorid 0,52g",
+              "form": "Thuốc bột uống",
+              "legal": "NO_RX",
+              "holder": "Công ty Cổ phần Dược Trung ương 3"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "893100276125",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "ORAL REHYDRA, NATRI CITRAT",
+        "currentRegistrations": 52
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "NO_RX": 14
+          },
+          "withoutClass": 10
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "893100269925",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "bisacodyl",
+      "generic": "Bisacodyl",
+      "brand": "Sold generic as \"Bisacodyl\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "890110419525",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "BISACODYL",
+        "currentRegistrations": 21
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "RX": 2,
+            "NO_RX": 7
+          },
+          "withoutClass": 12
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "890110419525",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "polyethylene-glycol",
+      "generic": "Polyethylene glycol 3350 (macrogol)",
+      "brand": "Forlax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Forlax",
+          "id": "300100126124",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Forlax 4g",
+          "products": [
+            {
+              "registration": "300100126124",
+              "product": "Forlax 4g",
+              "ingredients": "Macrogol 4000 4g",
+              "form": "Bột pha dung dịch uống",
+              "legal": "NO_RX",
+              "holder": "MAYOLY PHARMA FRANCE"
+            },
+            {
+              "registration": "VN-16801-13",
+              "product": "Forlax",
+              "ingredients": "Macrogol * 4000/10 gam",
+              "form": "Bột pha dung dịch uống",
+              "legal": null,
+              "holder": "MAYOLY PHARMA FRANCE"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "893100366725",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "POLYETHYLEN, MACROGOL",
+        "currentRegistrations": 41
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "NO_RX": 1
+          },
+          "withoutClass": 1
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "300100126124",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "meclozine",
+      "generic": "Meclozine",
+      "brand": "Sold generic as \"Meclizine\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "300110002625",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "MECLOZIN, MECLIZIN",
+        "currentRegistrations": 6
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "300110002625",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrocortisone-cream",
+      "generic": "Hydrocortisone (cream)",
+      "brand": "Sold generic as \"Hydrocortisone cream\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "859110190126",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "HYDROCORTISO",
+        "currentRegistrations": 76
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "RX": 9,
+            "NO_RX": 1
+          },
+          "withoutClass": 34
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "859110190126",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "clotrimazole",
+      "generic": "Clotrimazole",
+      "brand": "Canesten",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Canesten",
+          "id": "400100768324",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Canesten 1-Day",
+          "products": [
+            {
+              "registration": "400100768324",
+              "product": "Canesten 1-Day",
+              "ingredients": "Clotrimazol 500mg",
+              "form": "Viên đặt âm đạo",
+              "legal": "NO_RX",
+              "holder": "Công Ty TNHH Bayer Việt Nam"
+            },
+            {
+              "registration": "840100118524",
+              "product": "Canesten Soft Capsule",
+              "ingredients": "Clotrimazol 500mg",
+              "form": "Viên nang mềm đặt âm đạo",
+              "legal": "NO_RX",
+              "holder": "Công Ty TNHH Bayer Việt Nam"
+            },
+            {
+              "registration": "400100422923",
+              "product": "Canesten",
+              "ingredients": "Clotrimazol 100mg",
+              "form": "Viên đặt âm đạo",
+              "legal": "NO_RX",
+              "holder": "Công Ty TNHH Bayer Việt Nam"
+            },
+            {
+              "registration": "890100002524",
+              "product": "Canesten Cream",
+              "ingredients": "Clotrimazole 1%",
+              "form": "Kem bôi da",
+              "legal": "NO_RX",
+              "holder": "Công Ty TNHH Bayer Việt Nam"
+            },
+            {
+              "registration": "VN-21367-18",
+              "product": "Canesten",
+              "ingredients": "Clotrimazol 500mg",
+              "form": "Viên đặt âm đạo",
+              "legal": null,
+              "holder": "Bayer (South East Asia) Pte., Ltd."
+            },
+            {
+              "registration": "VN-18614-15",
+              "product": "Canesten Plus",
+              "ingredients": "Mỗi tuýp 30g cream chứa: Clotrimazole 300mg; Hydrocortisone 300mg",
+              "form": "Cream bôi da",
+              "legal": null,
+              "holder": "Bayer (South East Asia) Pte., Ltd."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "890100068126",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "CLOTRIMAZOL",
+        "currentRegistrations": 260
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "NO_RX": 4
+          },
+          "withoutClass": 2
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "400100768324",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "antibiotic-ointment",
+      "generic": "Bacitracin / Neomycin / Polymyxin B (antibiotic ointment)",
+      "brand": "Ask for an antibiotic ointment",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "VN-16653-13",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "BACITRACIN",
+        "currentRegistrations": 10
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "NO_RX": 1
+          },
+          "withoutClass": 9
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "VN-16653-13",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "doxylamine",
+      "generic": "Doxylamine",
+      "brand": "Sold generic as \"Doxylamine\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "893110299924",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "DOXYLAMIN",
+        "currentRegistrations": 8
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "893110299924",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "levonorgestrel",
+      "generic": "Levonorgestrel (emergency contraception)",
+      "brand": "Postinor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Postinor",
+          "id": "599100408123",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Postinor 2",
+          "products": [
+            {
+              "registration": "599100408123",
+              "product": "Postinor 2",
+              "ingredients": "Levonorgestrel 0,75mg",
+              "form": "Viên nén",
+              "legal": "NO_RX",
+              "holder": "Gedeon Richter Plc."
+            },
+            {
+              "registration": "599100408023",
+              "product": "Postinor 1",
+              "ingredients": "Levonorgestrel 1,5mg",
+              "form": "Viên nén",
+              "legal": "NO_RX",
+              "holder": "Gedeon Richter Plc."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "400100204726",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "LEVONORGESTR",
+        "currentRegistrations": 122
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "NO_RX": 2
+          },
+          "withoutClass": 0
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "599100408123",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "atovaquone-proguanil",
+      "generic": "Atovaquone / Proguanil",
+      "brand": "Malanil",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Malanil",
+          "id": "VN-12463-11",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Malanil tablets",
+          "products": [
+            {
+              "registration": "VN-12463-11",
+              "product": "Malanil tablets",
+              "ingredients": "Atovaquone, Proguanil HCl",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "GlaxoSmithKline Pte., Ltd."
+            },
+            {
+              "registration": "VN-12462-11",
+              "product": "Malanil paediatric tablets",
+              "ingredients": "Atovaquone, Proguanil HCl",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "GlaxoSmithKline Pte., Ltd."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "VN-12463-11",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "ATOVAQUON",
+        "currentRegistrations": 2
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "VN-12463-11",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "doxycycline",
+      "generic": "Doxycycline",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "890110071026",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "DOXYCYCLIN",
+        "currentRegistrations": 53
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "RX": 3
+          },
+          "withoutClass": 50
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "890110071026",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "azithromycin",
+      "generic": "Azithromycin",
+      "brand": "Zitromax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zitromax",
+          "id": "VN-21931-19",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Zitromax",
+          "products": [
+            {
+              "registration": "VN-21931-19",
+              "product": "Zitromax",
+              "ingredients": "Azithromycin 250mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Pfizer (Thailand) Ltd."
+            },
+            {
+              "registration": "800110991624",
+              "product": "Zitromax",
+              "ingredients": "Azithromycin",
+              "form": "Bột pha hỗn dịch uống",
+              "legal": null,
+              "holder": "Công ty TNHH Pfizer (Việt Nam)"
+            },
+            {
+              "registration": "VN-20845-17",
+              "product": "Zitromax",
+              "ingredients": "Azithromycin 500mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Công ty TNHH Pfizer (Việt Nam)"
+            },
+            {
+              "registration": "VN-13300-11",
+              "product": "Zitromax",
+              "ingredients": "Azithromycin",
+              "form": "Bột pha hỗn dịch uống",
+              "legal": null,
+              "holder": "Pfizer (Thailand) Ltd."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "890110200226",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "AZITHROMYCIN",
+        "currentRegistrations": 174
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "VN-21931-19",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "ciprofloxacin",
+      "generic": "Ciprofloxacin",
+      "brand": "Ciprobay",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ciprobay",
+          "id": "800115179723",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Ciprobay 400mg",
+          "products": [
+            {
+              "registration": "800115179723",
+              "product": "Ciprobay 400mg",
+              "ingredients": "Ciprofloxacin",
+              "form": "Dung dịch truyền tĩnh mạch",
+              "legal": null,
+              "holder": "Công ty TNHH Bayer Việt Nam"
+            },
+            {
+              "registration": "800115179623",
+              "product": "Ciprobay 200",
+              "ingredients": "Ciprofloxacin",
+              "form": "Dung dịch truyền tĩnh mạch",
+              "legal": null,
+              "holder": "Công ty TNHH Bayer Việt Nam"
+            },
+            {
+              "registration": "800115179523",
+              "product": "Ciprobay 500",
+              "ingredients": "Ciprofloxacin 500mg",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Công ty TNHH Bayer Việt Nam"
+            },
+            {
+              "registration": "400115400823",
+              "product": "Ciprobay 400mg",
+              "ingredients": "Ciprofloxacin 400mg/200ml",
+              "form": "Dung dịch truyền tĩnh mạch",
+              "legal": null,
+              "holder": "Công ty TNHH Bayer Việt Nam (Bayer Vietnam Co., Ltd.)"
+            },
+            {
+              "registration": "VN-14009-11",
+              "product": "Ciprobay 500",
+              "ingredients": "Ciprofloxacin Hydrochloride",
+              "form": "Viên nén bao phim",
+              "legal": null,
+              "holder": "Bayer (South East Asia) Pte., Ltd."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "890115131526",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "CIPROFLOXACI",
+        "currentRegistrations": 329
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "800115179723",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "acetazolamide",
+      "generic": "Acetazolamide",
+      "brand": "Sold generic as \"Acetazolamid\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "893110086125",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "ACETAZOLAMID",
+        "currentRegistrations": 4
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "893110086125",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "scopolamine",
+      "generic": "Scopolamine (motion-sickness patch)",
+      "brand": "Kimite (patch)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Kimite",
+          "id": "VN-9766-10",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Kimite",
+          "products": [
+            {
+              "registration": "VN-9766-10",
+              "product": "Kimite",
+              "ingredients": "Scopolamin",
+              "form": "Cao dán",
+              "legal": null,
+              "holder": "Myungmoon Pharm Co., Ltd."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "VN-9766-10",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "SCOPOLAMIN",
+        "currentRegistrations": 2
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "VN-9766-10",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "ondansetron",
+      "generic": "Ondansetron",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "890110201326",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "ONDANSETRON",
+        "currentRegistrations": 89
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "RX": 14
+          },
+          "withoutClass": 75
+        }
+      },
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "890110201326",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "epinephrine",
+      "generic": "Epinephrine (adrenaline auto-injector)",
+      "brand": "Not commonly available",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "754110040526",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "searched": "EPINEPHRIN, ADRENALIN",
+        "currentRegistrations": 27
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "DAV medicine class (non-prescription list or prescription)",
+          "products": {
+            "RX": 1
+          },
+          "withoutClass": 15
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": [
+        "Entry says \"Not commonly available\" but the registry lists products with this ingredient"
+      ]
+    }
+  ]
+}

@@ -21,14 +21,15 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 /**
  * A polite HTTP client: throttled, retried, and disk-cached.
  * `json(url)` returns parsed JSON, or null on a 404 or an empty body (how openFDA and DPD say "no matches").
+ * `post(url, payload)` sends a JSON body and returns the parsed JSON answer, cached per body.
  * `text(url, encoding)` returns the decoded body.
  */
 export function createClient({ perSecond = 5, useCache = true } = {}) {
   const gap = 1000 / perSecond;
   let next = 0;
 
-  async function bytes(url) {
-    const file = path.join(CACHE_DIR, crypto.createHash('sha1').update(url).digest('hex'));
+  async function bytes(url, body) {
+    const file = path.join(CACHE_DIR, crypto.createHash('sha1').update(body ? `${url}\n${body}` : url).digest('hex'));
     if (useCache && fs.existsSync(file) && Date.now() - fs.statSync(file).mtimeMs < CACHE_TTL_MS) {
       return fs.readFileSync(file);
     }
@@ -37,7 +38,8 @@ export function createClient({ perSecond = 5, useCache = true } = {}) {
       next = Math.max(Date.now(), next) + gap;
       if (wait > 0) await sleep(wait);
       try {
-        const res = await fetch(url, { headers: { 'User-Agent': 'rxabroad-verify (+https://rxabroad.vercel.app)' } });
+        const headers = { 'User-Agent': 'rxabroad-verify (+https://rxabroad.vercel.app)', ...(body ? { 'Content-Type': 'application/json' } : {}) };
+        const res = await fetch(url, body ? { method: 'POST', headers, body } : { headers });
         if (res.status === 404) return null;
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const buf = Buffer.from(await res.arrayBuffer());
@@ -56,6 +58,10 @@ export function createClient({ perSecond = 5, useCache = true } = {}) {
       const body = (await bytes(url))?.toString('utf8').trim();
       return body ? JSON.parse(body) : null;
     },
+    async post(url, payload) {
+      const body = (await bytes(url, JSON.stringify(payload)))?.toString('utf8').trim();
+      return body ? JSON.parse(body) : null;
+    },
     async text(url, encoding = 'utf-8') {
       const buf = await bytes(url);
       return buf ? new TextDecoder(encoding).decode(buf) : null;
@@ -63,7 +69,7 @@ export function createClient({ perSecond = 5, useCache = true } = {}) {
   };
 }
 
-const unxml = (s) => s.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&amp;/g, '&');
+export const unxml = (s) => s.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&amp;/g, '&');
 
 /** Rows of the first sheet of an .xlsx, each as { A: ..., B: ... }, read with the system unzip. */
 export function sheetRows(file) {

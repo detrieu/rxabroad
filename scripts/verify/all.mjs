@@ -6,7 +6,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const dir = path.dirname(fileURLToPath(import.meta.url));
-const COUNTRIES = ['US', 'CA', 'SG', 'FR', 'GB', 'JP', 'DE', 'MX', 'IT', 'ES'];
+const COUNTRIES = ['US', 'CA', 'SG', 'FR', 'GB', 'JP', 'DE', 'MX', 'IT', 'ES', 'TR', 'VN', 'ET', 'PT'];
 const flags = process.argv.slice(2).filter((a) => a.startsWith('--'));
 const write = flags.includes('--write');
 

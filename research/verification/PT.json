@@ -1,0 +1,5614 @@
+{
+  "country": "PT",
+  "registry": "Infomed medicines database (INFARMED, Portugal)",
+  "registryVersion": "searched 2026-10-14",
+  "checked": "2026-10-14",
+  "summary": {
+    "entries": 82,
+    "brandEntries": 64,
+    "brandEntriesConfirmed": 63,
+    "brandNames": 70,
+    "brandNamesConfirmed": 69,
+    "verified": 75,
+    "statusAgree": 69,
+    "statusDiffer": 2,
+    "statusNotComparable": 11,
+    "confidenceRaised": 58,
+    "flagged": 3
+  },
+  "entries": [
+    {
+      "id": "paracetamol",
+      "generic": "Paracetamol",
+      "brand": "Ben-u-ron",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ben-u-ron",
+          "id": "53175",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Ben-U-Ron",
+          "products": [
+            {
+              "id": "53175",
+              "product": "Ben-U-Ron",
+              "ingredient": "Paracetamol",
+              "form": "Cápsula",
+              "strength": "500 mg",
+              "class": "MNSRM",
+              "holder": "Bene Farmacêutica, Lda."
+            },
+            {
+              "id": "886",
+              "product": "Ben-U-Ron",
+              "ingredient": "Paracetamol",
+              "form": "Comprimido",
+              "strength": "500 mg",
+              "class": "MNSRM",
+              "holder": "Bene Farmacêutica, Lda."
+            },
+            {
+              "id": "889",
+              "product": "Ben-U-Ron",
+              "ingredient": "Paracetamol",
+              "form": "Supositório",
+              "strength": "500 mg",
+              "class": "MNSRM",
+              "holder": "Bene Farmacêutica, Lda."
+            },
+            {
+              "id": "581342",
+              "product": "Ben-u-ron direct",
+              "ingredient": "Paracetamol",
+              "form": "Granulado",
+              "strength": "500 mg",
+              "class": "MNSRM",
+              "holder": "Bene Farmacêutica, Lda."
+            },
+            {
+              "id": "38279",
+              "product": "Ben-U-Ron",
+              "ingredient": "Paracetamol",
+              "form": "Comprimido",
+              "strength": "1000 mg",
+              "class": "MSRM",
+              "holder": "Bene Farmacêutica, Lda."
+            },
+            {
+              "id": "890",
+              "product": "Ben-U-Ron",
+              "ingredient": "Paracetamol",
+              "form": "Supositório",
+              "strength": "1000 mg",
+              "class": "MSRM",
+              "holder": "Bene Farmacêutica, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "53175",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "N02BE01",
+        "localName": "Paracetamol",
+        "marketedProducts": 68
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM": 4,
+            "MSRM": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "53175",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "ibuprofen",
+      "generic": "Ibuprofen",
+      "brand": "Brufen",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Brufen",
+          "id": "1257",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Brufen",
+          "products": [
+            {
+              "id": "1257",
+              "product": "Brufen",
+              "ingredient": "Ibuprofeno",
+              "form": "Comprimido revestido por película",
+              "strength": "200 mg",
+              "class": "MNSRM",
+              "holder": "Viatris Healthcare, Lda."
+            },
+            {
+              "id": "1258",
+              "product": "Brufen",
+              "ingredient": "Ibuprofeno",
+              "form": "Comprimido revestido por película",
+              "strength": "400 mg",
+              "class": "MNSRM",
+              "holder": "Viatris Healthcare, Lda."
+            },
+            {
+              "id": "672804",
+              "product": "Brufen Liq",
+              "ingredient": "Ibuprofeno",
+              "form": "Suspensão oral em saqueta",
+              "strength": "200 mg/10 ml",
+              "class": "MNSRM",
+              "holder": "Viatris Healthcare, Lda."
+            },
+            {
+              "id": "629482",
+              "product": "Brufen Sem Açúcar",
+              "ingredient": "Ibuprofeno",
+              "form": "Suspensão oral",
+              "strength": "20 mg/ml",
+              "class": "MNSRM",
+              "holder": "Viatris Healthcare, Lda."
+            },
+            {
+              "id": "652045",
+              "product": "Brufenact",
+              "ingredient": "Ibuprofeno",
+              "form": "Comprimido revestido por película",
+              "strength": "200 mg",
+              "class": "MNSRM",
+              "holder": "Viatris Healthcare, Lda."
+            },
+            {
+              "id": "54968",
+              "product": "Brufen",
+              "ingredient": "Ibuprofeno",
+              "form": "Granulado efervescente",
+              "strength": "400 mg",
+              "class": "MNSRM-EF",
+              "holder": "Viatris Healthcare, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1257",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "M01AE01",
+        "localName": "Ibuprofeno",
+        "marketedProducts": 79
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM": 5,
+            "MNSRM-EF": 3,
+            "MSRM": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "1257",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "loratadine",
+      "generic": "Loratadine",
+      "brand": "Claritine",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Claritine",
+          "id": "1890",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Claritine",
+          "products": [
+            {
+              "id": "1890",
+              "product": "Claritine",
+              "ingredient": "Loratadina",
+              "form": "Comprimido",
+              "strength": "10 mg",
+              "class": "MNSRM",
+              "holder": "Bayer Portugal, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1890",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "R06AX13",
+        "localName": "Loratadina",
+        "marketedProducts": 8
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "1890",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "cetirizine",
+      "generic": "Cetirizine",
+      "brand": "Zyrtec",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zyrtec",
+          "id": "9531",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Zyrtec",
+          "products": [
+            {
+              "id": "9531",
+              "product": "Zyrtec",
+              "ingredient": "Cetirizina",
+              "form": "Comprimido revestido por película",
+              "strength": "10 mg",
+              "class": "MNSRM",
+              "holder": "UCB Pharma (Produtos Farmacêuticos), Lda."
+            },
+            {
+              "id": "723624",
+              "product": "Zyrtec IP",
+              "ingredient": "Cetirizina",
+              "form": "Comprimido revestido por película",
+              "strength": "10 mg",
+              "class": "MNSRM",
+              "holder": "Agon Pharma, Lda."
+            },
+            {
+              "id": "9532",
+              "product": "Zyrtec",
+              "ingredient": "Cetirizina",
+              "form": "Solução oral",
+              "strength": "1 mg/ml",
+              "class": "MSRM",
+              "holder": "UCB Pharma (Produtos Farmacêuticos), Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "33443",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "R06AE07",
+        "localName": "Cetirizina",
+        "marketedProducts": 21
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM": 2,
+            "MSRM": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "9531",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "diphenhydramine",
+      "generic": "Diphenhydramine",
+      "brand": "Sold generic as \"Difenidramina\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "2842",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "R06AA02",
+        "localName": "Difenidramina",
+        "marketedProducts": 2
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "OTC",
+        "result": "na",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "2842",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "loperamide",
+      "generic": "Loperamide",
+      "brand": "Imodium Rapid",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Imodium Rapid",
+          "id": "4444",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Imodium Rapid",
+          "products": [
+            {
+              "id": "4444",
+              "product": "Imodium Rapid",
+              "ingredient": "Loperamida",
+              "form": "Comprimido orodispersível",
+              "strength": "2 mg",
+              "class": "MNSRM",
+              "holder": "JNTL Consumer Health (Portugal), Limitada"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "30948",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "A07DA03",
+        "localName": "Loperamida",
+        "marketedProducts": 11
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "OTC",
+        "result": "differ",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "4444",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Status differs: entry MIXED, registry OTC"
+      ]
+    },
+    {
+      "id": "omeprazole",
+      "generic": "Omeprazole",
+      "brand": "Losec",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Losec",
+          "id": "5220",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Losec",
+          "products": [
+            {
+              "id": "5220",
+              "product": "Losec",
+              "ingredient": "Omeprazol",
+              "form": "Cápsula gastrorresistente",
+              "strength": "20 mg",
+              "class": "MSRM",
+              "holder": "Cheplapharm Arzneimittel GmbH"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "45265",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "A02BC01",
+        "localName": "Omeprazol",
+        "marketedProducts": 42
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "5220",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "pseudoephedrine",
+      "generic": "Pseudoephedrine",
+      "brand": "Pharmacy-only",
+      "kind": "other",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "631342",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "R01BA02",
+        "localName": null,
+        "marketedProducts": 1
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "PHARMACY",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM-EF": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "631342",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "melatonin",
+      "generic": "Melatonin",
+      "brand": "Pharmacy / Rx depending on dose",
+      "kind": "other",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "647104",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "N05CH01",
+        "localName": "Melatonina",
+        "marketedProducts": 10
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM-EF": 2,
+            "MSRM": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "647104",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "dimenhydrinate",
+      "generic": "Dimenhydrinate",
+      "brand": "Sold generic as \"Dimenidrinato\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "3009",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "Dimenidrinato",
+        "localName": "Dimenidrinato",
+        "marketedProducts": 8
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "OTC",
+        "result": "na",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "3009",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "amoxicillin",
+      "generic": "Amoxicillin",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "612503",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "J01CA04",
+        "localName": "Amoxicilina",
+        "marketedProducts": 20
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 20
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "612503",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "metformin",
+      "generic": "Metformin",
+      "brand": "Glucophage",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Glucophage",
+          "id": "3975",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Glucophage",
+          "products": [
+            {
+              "id": "3975",
+              "product": "Glucophage",
+              "ingredient": "Metformina",
+              "form": "Comprimido revestido por película",
+              "strength": "500 mg",
+              "class": "MSRM",
+              "holder": "Merck, S.A."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "3975",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "A10BA02",
+        "localName": "Metformina",
+        "marketedProducts": 32
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "3975",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "sertraline",
+      "generic": "Sertraline",
+      "brand": "Zoloft",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zoloft",
+          "id": "9485",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Zoloft",
+          "products": [
+            {
+              "id": "9485",
+              "product": "Zoloft",
+              "ingredient": "Sertralina",
+              "form": "Comprimido revestido por película",
+              "strength": "100 mg",
+              "class": "MSRM",
+              "holder": "Viatris Healthcare, Lda."
+            },
+            {
+              "id": "9484",
+              "product": "Zoloft",
+              "ingredient": "Sertralina",
+              "form": "Comprimido revestido por película",
+              "strength": "50 mg",
+              "class": "MSRM",
+              "holder": "Viatris Healthcare, Lda."
+            },
+            {
+              "id": "12535",
+              "product": "Zoloft",
+              "ingredient": "Sertralina",
+              "form": "Concentrado para solução oral",
+              "strength": "20 mg/ml",
+              "class": "MSRM",
+              "holder": "Viatris Healthcare, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "640983",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "N06AB06",
+        "localName": "Sertralina",
+        "marketedProducts": 38
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "9485",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "albuterol",
+      "generic": "Salbutamol",
+      "brand": "Ventilan",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ventilan",
+          "id": "9077",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Ventilan",
+          "products": [
+            {
+              "id": "9077",
+              "product": "Ventilan",
+              "ingredient": "Salbutamol",
+              "form": "Solução para inalação por nebulização",
+              "strength": "5 mg/ml",
+              "class": "MSRM",
+              "holder": "Glaxo Wellcome Farmacêutica, Lda."
+            },
+            {
+              "id": "9078",
+              "product": "Ventilan-Inalador",
+              "ingredient": "Salbutamol",
+              "form": "Suspensão pressurizada para inalação",
+              "strength": "100 µg/dose",
+              "class": "MSRM",
+              "holder": "Glaxo Wellcome Farmacêutica, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "39027",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "R03AC02",
+        "localName": "Salbutamol",
+        "marketedProducts": 4
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "9077",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "atorvastatin",
+      "generic": "Atorvastatin",
+      "brand": "Zarator",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zarator",
+          "id": "51736",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Zarator",
+          "products": [
+            {
+              "id": "51736",
+              "product": "Zarator",
+              "ingredient": "Atorvastatina",
+              "form": "Comprimido para mastigar",
+              "strength": "10 mg",
+              "class": "MSRM",
+              "holder": "Viatris Healthcare, Lda."
+            },
+            {
+              "id": "9410",
+              "product": "Zarator",
+              "ingredient": "Atorvastatina",
+              "form": "Comprimido revestido por película",
+              "strength": "10 mg",
+              "class": "MSRM",
+              "holder": "Viatris Healthcare, Lda."
+            },
+            {
+              "id": "9411",
+              "product": "Zarator",
+              "ingredient": "Atorvastatina",
+              "form": "Comprimido revestido por película",
+              "strength": "20 mg",
+              "class": "MSRM",
+              "holder": "Viatris Healthcare, Lda."
+            },
+            {
+              "id": "9412",
+              "product": "Zarator",
+              "ingredient": "Atorvastatina",
+              "form": "Comprimido revestido por película",
+              "strength": "40 mg",
+              "class": "MSRM",
+              "holder": "Viatris Healthcare, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "680964",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "C10AA05",
+        "localName": "Atorvastatina",
+        "marketedProducts": 89
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "51736",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "levothyroxine",
+      "generic": "Levothyroxine",
+      "brand": "Eutirox",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Eutirox",
+          "id": "31940",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Eutirox",
+          "products": [
+            {
+              "id": "31940",
+              "product": "Eutirox",
+              "ingredient": "Levotiroxina sódica",
+              "form": "Comprimido",
+              "strength": "0.025 mg",
+              "class": "MSRM",
+              "holder": "Merck, S.A."
+            },
+            {
+              "id": "33201",
+              "product": "Eutirox",
+              "ingredient": "Levotiroxina sódica",
+              "form": "Comprimido",
+              "strength": "0.05 mg",
+              "class": "MSRM",
+              "holder": "Merck, S.A."
+            },
+            {
+              "id": "33202",
+              "product": "Eutirox",
+              "ingredient": "Levotiroxina sódica",
+              "form": "Comprimido",
+              "strength": "0.075 mg",
+              "class": "MSRM",
+              "holder": "Merck, S.A."
+            },
+            {
+              "id": "42118",
+              "product": "Eutirox",
+              "ingredient": "Levotiroxina sódica",
+              "form": "Comprimido",
+              "strength": "0.088 mg",
+              "class": "MSRM",
+              "holder": "Merck, S.A."
+            },
+            {
+              "id": "33203",
+              "product": "Eutirox",
+              "ingredient": "Levotiroxina sódica",
+              "form": "Comprimido",
+              "strength": "0.1 mg",
+              "class": "MSRM",
+              "holder": "Merck, S.A."
+            },
+            {
+              "id": "42119",
+              "product": "Eutirox",
+              "ingredient": "Levotiroxina sódica",
+              "form": "Comprimido",
+              "strength": "0.112 mg",
+              "class": "MSRM",
+              "holder": "Merck, S.A."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "31940",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "H03AA01",
+        "localName": "Levotiroxina sódica",
+        "marketedProducts": 19
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 11
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "31940",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "lisinopril",
+      "generic": "Lisinopril",
+      "brand": "Zestril",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zestril",
+          "id": "9442",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Zestril",
+          "products": [
+            {
+              "id": "9442",
+              "product": "Zestril",
+              "ingredient": "Lisinopril",
+              "form": "Comprimido",
+              "strength": "20 mg",
+              "class": "MSRM",
+              "holder": "Atnahs Pharma Netherlands B.V."
+            },
+            {
+              "id": "9443",
+              "product": "Zestril - 5",
+              "ingredient": "Lisinopril",
+              "form": "Comprimido",
+              "strength": "5 mg",
+              "class": "MSRM",
+              "holder": "Atnahs Pharma Netherlands B.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "10229",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "C09AA03",
+        "localName": "Lisinopril",
+        "marketedProducts": 26
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "9442",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amlodipine",
+      "generic": "Amlodipine",
+      "brand": "Norvasc",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Norvasc",
+          "id": "6250",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Norvasc",
+          "products": [
+            {
+              "id": "6250",
+              "product": "Norvasc",
+              "ingredient": "Amlodipina",
+              "form": "Comprimido",
+              "strength": "10 mg",
+              "class": "MSRM",
+              "holder": "Viatris Healthcare, Lda."
+            },
+            {
+              "id": "6249",
+              "product": "Norvasc",
+              "ingredient": "Amlodipina",
+              "form": "Comprimido",
+              "strength": "5 mg",
+              "class": "MSRM",
+              "holder": "Viatris Healthcare, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "33352",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "C08CA01",
+        "localName": "Amlodipina",
+        "marketedProducts": 41
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "6250",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "metoprolol",
+      "generic": "Metoprolol",
+      "brand": "Sold generic as \"Metoprolol\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "54877",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "C07AB02",
+        "localName": "Metoprolol",
+        "marketedProducts": 1
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "54877",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "losartan",
+      "generic": "Losartan",
+      "brand": "Cozaar",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Cozaar",
+          "id": "33071",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Cozaar 100 mg",
+          "products": [
+            {
+              "id": "33071",
+              "product": "Cozaar 100 mg",
+              "ingredient": "Losartan",
+              "form": "Comprimido revestido por película",
+              "strength": "100 mg",
+              "class": "MSRM",
+              "holder": "Organon Portugal, Sociedade Unipessoal, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "33071",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "C09CA01",
+        "localName": "Losartan",
+        "marketedProducts": 42
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "33071",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "gabapentin",
+      "generic": "Gabapentin",
+      "brand": "Neurontin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Neurontin",
+          "id": "6056",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Neurontin",
+          "products": [
+            {
+              "id": "6056",
+              "product": "Neurontin",
+              "ingredient": "Gabapentina",
+              "form": "Cápsula",
+              "strength": "100 mg",
+              "class": "MSRM",
+              "holder": "Viatris Healthcare, Lda."
+            },
+            {
+              "id": "6057",
+              "product": "Neurontin",
+              "ingredient": "Gabapentina",
+              "form": "Cápsula",
+              "strength": "300 mg",
+              "class": "MSRM",
+              "holder": "Viatris Healthcare, Lda."
+            },
+            {
+              "id": "6058",
+              "product": "Neurontin",
+              "ingredient": "Gabapentina",
+              "form": "Cápsula",
+              "strength": "400 mg",
+              "class": "MSRM",
+              "holder": "Viatris Healthcare, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "32579",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "N02BF01",
+        "localName": "Gabapentina",
+        "marketedProducts": 56
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "6056",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "rosuvastatin",
+      "generic": "Rosuvastatin",
+      "brand": "Crestor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Crestor",
+          "id": "35075",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Crestor 10 mg",
+          "products": [
+            {
+              "id": "35075",
+              "product": "Crestor 10 mg",
+              "ingredient": "Rosuvastatina",
+              "form": "Comprimido revestido por película",
+              "strength": "10 mg",
+              "class": "MSRM",
+              "holder": "Grünenthal, S.A."
+            },
+            {
+              "id": "703244",
+              "product": "Crestor 10 mg IP",
+              "ingredient": "Rosuvastatina",
+              "form": "Comprimido revestido por película",
+              "strength": "10 mg",
+              "class": "MSRM",
+              "holder": "Agon Pharma, Lda."
+            },
+            {
+              "id": "35082",
+              "product": "Crestor 20 mg",
+              "ingredient": "Rosuvastatina",
+              "form": "Comprimido revestido por película",
+              "strength": "20 mg",
+              "class": "MSRM",
+              "holder": "Grünenthal, S.A."
+            },
+            {
+              "id": "703304",
+              "product": "Crestor 20 mg IP",
+              "ingredient": "Rosuvastatina",
+              "form": "Comprimido revestido por película",
+              "strength": "20 mg",
+              "class": "MSRM",
+              "holder": "Agon Pharma, Lda."
+            },
+            {
+              "id": "38694",
+              "product": "Crestor 5 mg",
+              "ingredient": "Rosuvastatina",
+              "form": "Comprimido revestido por película",
+              "strength": "5 mg",
+              "class": "MSRM",
+              "holder": "Grünenthal, S.A."
+            },
+            {
+              "id": "717904",
+              "product": "Crestor 5 mg IP",
+              "ingredient": "Rosuvastatina",
+              "form": "Comprimido revestido por película",
+              "strength": "5 mg",
+              "class": "MSRM",
+              "holder": "Agon Pharma, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "35075",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "C10AA07",
+        "localName": "Rosuvastatina",
+        "marketedProducts": 72
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 6
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "35075",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "pantoprazole",
+      "generic": "Pantoprazole",
+      "brand": "Pantoc",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Pantoc",
+          "id": "9891",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Pantoc",
+          "products": [
+            {
+              "id": "9891",
+              "product": "Pantoc",
+              "ingredient": "Pantoprazol",
+              "form": "Comprimido gastrorresistente",
+              "strength": "20 mg",
+              "class": "MSRM",
+              "holder": "Takeda - Farmacêuticos Portugal, Lda."
+            },
+            {
+              "id": "6635",
+              "product": "Pantoc 40 mg",
+              "ingredient": "Pantoprazol",
+              "form": "Comprimido gastrorresistente",
+              "strength": "40 mg",
+              "class": "MSRM",
+              "holder": "Takeda - Farmacêuticos Portugal, Lda."
+            },
+            {
+              "id": "6636",
+              "product": "Pantoc IV",
+              "ingredient": "Pantoprazol",
+              "form": "Pó para solução injetável",
+              "strength": "40 mg",
+              "class": "MSRM",
+              "holder": "Takeda - Farmacêuticos Portugal, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "53137",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "A02BC02",
+        "localName": "Pantoprazol",
+        "marketedProducts": 57
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "RX",
+        "result": "differ",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "9891",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Status differs: entry MIXED, registry RX"
+      ]
+    },
+    {
+      "id": "escitalopram",
+      "generic": "Escitalopram",
+      "brand": "Cipralex",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Cipralex",
+          "id": "34878",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Cipralex",
+          "products": [
+            {
+              "id": "34878",
+              "product": "Cipralex",
+              "ingredient": "Escitalopram",
+              "form": "Comprimido revestido por película",
+              "strength": "10 mg",
+              "class": "MSRM",
+              "holder": "H. Lundbeck A/S"
+            },
+            {
+              "id": "34880",
+              "product": "Cipralex",
+              "ingredient": "Escitalopram",
+              "form": "Comprimido revestido por película",
+              "strength": "20 mg",
+              "class": "MSRM",
+              "holder": "H. Lundbeck A/S"
+            },
+            {
+              "id": "44201",
+              "product": "Cipralex",
+              "ingredient": "Escitalopram",
+              "form": "Gotas orais, solução",
+              "strength": "20 mg/ml",
+              "class": "MSRM",
+              "holder": "H. Lundbeck A/S"
+            },
+            {
+              "id": "700124",
+              "product": "Cipralex IP",
+              "ingredient": "Escitalopram",
+              "form": "Comprimido revestido por película",
+              "strength": "10 mg",
+              "class": "MSRM",
+              "holder": "Agon Pharma, Lda."
+            },
+            {
+              "id": "726524",
+              "product": "Cipralex IP",
+              "ingredient": "Escitalopram",
+              "form": "Comprimido revestido por película",
+              "strength": "10 mg",
+              "class": "MSRM",
+              "holder": "Abacus Medicine A/S"
+            },
+            {
+              "id": "700144",
+              "product": "Cipralex IP",
+              "ingredient": "Escitalopram",
+              "form": "Comprimido revestido por película",
+              "strength": "20 mg",
+              "class": "MSRM",
+              "holder": "Agon Pharma, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "34878",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "N06AB10",
+        "localName": "Escitalopram",
+        "marketedProducts": 53
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 7
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "34878",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amphetamine",
+      "generic": "Amphetamine / Dextroamphetamine",
+      "brand": "Not commonly available. Portugal uses Elvanse (lisdexamfetamine) for ADHD",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "Anfetamina",
+        "localName": "Anfetamina",
+        "marketedProducts": 0
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrochlorothiazide",
+      "generic": "Hydrochlorothiazide",
+      "brand": "Sold generic as \"hidroclorotiazida\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "631142",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "C03AA03",
+        "localName": "Hidroclorotiazida",
+        "marketedProducts": 1
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "631142",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "bupropion",
+      "generic": "Bupropion",
+      "brand": "Wellbutrin XR",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Wellbutrin XR",
+          "id": "41506",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Wellbutrin XR",
+          "products": [
+            {
+              "id": "41506",
+              "product": "Wellbutrin XR",
+              "ingredient": "Bupropiom",
+              "form": "Comprimido de libertação modificada",
+              "strength": "150 mg",
+              "class": "MSRM",
+              "holder": "GlaxoSmithkline Produtos Farmacêuticos, Lda."
+            },
+            {
+              "id": "41508",
+              "product": "Wellbutrin XR",
+              "ingredient": "Bupropiom",
+              "form": "Comprimido de libertação modificada",
+              "strength": "300 mg",
+              "class": "MSRM",
+              "holder": "GlaxoSmithkline Produtos Farmacêuticos, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "600825",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "N06AX12",
+        "localName": "Bupropiom",
+        "marketedProducts": 7
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "41506",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "fluoxetine",
+      "generic": "Fluoxetine",
+      "brand": "Sold generic as \"Fluoxetina\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "2590",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "N06AB03",
+        "localName": "Fluoxetina",
+        "marketedProducts": 16
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 16
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "2590",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "semaglutide",
+      "generic": "Semaglutide",
+      "brand": "Ozempic",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ozempic",
+          "id": "635326",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Ozempic",
+          "products": [
+            {
+              "id": "635326",
+              "product": "Ozempic",
+              "ingredient": "Semaglutido",
+              "form": "Solução injetável em caneta pré-cheia",
+              "strength": "0.25 mg/0.19 ml",
+              "class": "MSRM",
+              "holder": "Novo Nordisk, A/S"
+            },
+            {
+              "id": "731664",
+              "product": "Ozempic",
+              "ingredient": "Semaglutido",
+              "form": "Solução injetável em caneta pré-cheia",
+              "strength": "0.5 mg/0.74 ml",
+              "class": "MSRM",
+              "holder": "Novo Nordisk, A/S"
+            },
+            {
+              "id": "635329",
+              "product": "Ozempic",
+              "ingredient": "Semaglutido",
+              "form": "Solução injetável em caneta pré-cheia",
+              "strength": "1 mg/0.74 ml",
+              "class": "MSRM",
+              "holder": "Novo Nordisk, A/S"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "635326",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "A10BJ06",
+        "localName": "Semaglutido",
+        "marketedProducts": 12
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "635326",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "montelukast",
+      "generic": "Montelukast",
+      "brand": "Singulair",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Singulair",
+          "id": "31637",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Singulair",
+          "products": [
+            {
+              "id": "31637",
+              "product": "Singulair",
+              "ingredient": "Montelucaste",
+              "form": "Comprimido para mastigar",
+              "strength": "4 mg",
+              "class": "MSRM",
+              "holder": "Organon Portugal, Sociedade Unipessoal, Lda."
+            },
+            {
+              "id": "7901",
+              "product": "Singulair",
+              "ingredient": "Montelucaste",
+              "form": "Comprimido para mastigar",
+              "strength": "5 mg",
+              "class": "MSRM",
+              "holder": "Organon Portugal, Sociedade Unipessoal, Lda."
+            },
+            {
+              "id": "7900",
+              "product": "Singulair",
+              "ingredient": "Montelucaste",
+              "form": "Comprimido revestido por película",
+              "strength": "10 mg",
+              "class": "MSRM",
+              "holder": "Organon Portugal, Sociedade Unipessoal, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "47982",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "R03DC03",
+        "localName": "Montelucaste",
+        "marketedProducts": 37
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "31637",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "trazodone",
+      "generic": "Trazodone",
+      "brand": "Triticum",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Triticum",
+          "id": "8734",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Triticum",
+          "products": [
+            {
+              "id": "8734",
+              "product": "Triticum",
+              "ingredient": "Trazodona",
+              "form": "Comprimido revestido por película",
+              "strength": "100 mg",
+              "class": "MSRM",
+              "holder": "Angelini Pharma Portugal, Unipessoal Lda"
+            },
+            {
+              "id": "9533",
+              "product": "Triticum AC",
+              "ingredient": "Trazodona",
+              "form": "Comprimido de libertação modificada",
+              "strength": "150 mg",
+              "class": "MSRM",
+              "holder": "Angelini Pharma Portugal, Unipessoal Lda"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "44742",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "N06AX05",
+        "localName": "Trazodona",
+        "marketedProducts": 7
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "8734",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "simvastatin",
+      "generic": "Simvastatin",
+      "brand": "Zocor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zocor",
+          "id": "9475",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Zocor",
+          "products": [
+            {
+              "id": "9475",
+              "product": "Zocor",
+              "ingredient": "Sinvastatina",
+              "form": "Comprimido revestido por película",
+              "strength": "20 mg",
+              "class": "MSRM",
+              "holder": "Organon Portugal, Sociedade Unipessoal, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "32764",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "C10AA01",
+        "localName": "Sinvastatina",
+        "marketedProducts": 54
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "9475",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "tamsulosin",
+      "generic": "Tamsulosin",
+      "brand": "Omnic",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Omnic",
+          "id": "38888",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Omnic",
+          "products": [
+            {
+              "id": "38888",
+              "product": "Omnic",
+              "ingredient": "Tansulosina",
+              "form": "Comprimido de libertação prolongada revestido por película",
+              "strength": "0.4 mg",
+              "class": "MSRM",
+              "holder": "Astellas Farma Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "38888",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "G04CA02",
+        "localName": "Tansulosina",
+        "marketedProducts": 20
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "38888",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrocodone",
+      "generic": "Hydrocodone / Paracetamol combination",
+      "brand": "Not marketed in Portugal. No hydrocodone product is registered with INFARMED",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "Hidrocodona",
+        "localName": "Hidrocodona",
+        "marketedProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "fluticasone",
+      "generic": "Fluticasone",
+      "brand": "Vibrocil Anti-Alergias / Flutaide",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Vibrocil Anti-Alergias",
+          "id": "585021",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Vibrocil Anti-Alergias",
+          "products": [
+            {
+              "id": "585021",
+              "product": "Vibrocil Anti-Alergias",
+              "ingredient": "Fluticasona",
+              "form": "Suspensão para pulverização nasal",
+              "strength": "50 µg/dose",
+              "class": "MNSRM",
+              "holder": "Haleon Portugal, Lda."
+            }
+          ]
+        },
+        {
+          "name": "Flutaide",
+          "id": "3578",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Flutaide",
+          "products": [
+            {
+              "id": "3578",
+              "product": "Flutaide",
+              "ingredient": "Fluticasona",
+              "form": "Suspensão para pulverização nasal",
+              "strength": "50 µg/dose",
+              "class": "MSRM",
+              "holder": "GlaxoSmithkline Produtos Farmacêuticos, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "585021",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "R01AD08",
+        "localName": "Fluticasona",
+        "marketedProducts": 3
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM": 1,
+            "MSRM": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "585021",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "meloxicam",
+      "generic": "Meloxicam",
+      "brand": "Movalis",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Movalis",
+          "id": "5750",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Movalis",
+          "products": [
+            {
+              "id": "5750",
+              "product": "Movalis",
+              "ingredient": "Meloxicam",
+              "form": "Comprimido",
+              "strength": "15 mg",
+              "class": "MSRM",
+              "holder": "Boehringer Ingelheim, Portugal Lda."
+            },
+            {
+              "id": "10305",
+              "product": "Movalis",
+              "ingredient": "Meloxicam",
+              "form": "Comprimido",
+              "strength": "7.5 mg",
+              "class": "MSRM",
+              "holder": "Boehringer Ingelheim, Portugal Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "51277",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "M01AC06",
+        "localName": "Meloxicam",
+        "marketedProducts": 9
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "5750",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "apixaban",
+      "generic": "Apixaban",
+      "brand": "Eliquis",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Eliquis",
+          "id": "52171",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Eliquis",
+          "products": [
+            {
+              "id": "52171",
+              "product": "Eliquis",
+              "ingredient": "Apixabano",
+              "form": "Comprimido revestido por película",
+              "strength": "2.5 mg",
+              "class": "MSRM",
+              "holder": "Bristol-Myers Squibb / Pfizer EEIG"
+            },
+            {
+              "id": "56943",
+              "product": "Eliquis",
+              "ingredient": "Apixabano",
+              "form": "Comprimido revestido por película",
+              "strength": "5 mg",
+              "class": "MSRM",
+              "holder": "Bristol-Myers Squibb / Pfizer EEIG"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "52171",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "B01AF02",
+        "localName": "Apixabano",
+        "marketedProducts": 2
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "52171",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "furosemide",
+      "generic": "Furosemide",
+      "brand": "Lasix",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lasix",
+          "id": "4904",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Lasix",
+          "products": [
+            {
+              "id": "4904",
+              "product": "Lasix",
+              "ingredient": "Furosemida",
+              "form": "Comprimido",
+              "strength": "40 mg",
+              "class": "MSRM",
+              "holder": "Sanofi - Produtos Farmacêuticos, Lda."
+            },
+            {
+              "id": "4905",
+              "product": "Lasix",
+              "ingredient": "Furosemida",
+              "form": "Solução injetável ou para perfusão",
+              "strength": "20 mg/2 ml",
+              "class": "MSRM",
+              "holder": "Sanofi - Produtos Farmacêuticos, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "603242",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "C03CA01",
+        "localName": "Furosemida",
+        "marketedProducts": 10
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "4904",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-glargine",
+      "generic": "Insulin Glargine",
+      "brand": "Lantus",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lantus",
+          "id": "10745",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Lantus",
+          "products": [
+            {
+              "id": "10745",
+              "product": "Lantus",
+              "ingredient": "Insulina glargina",
+              "form": "Solução injetável",
+              "strength": "100 U/ml",
+              "class": "MSRM",
+              "holder": "Sanofi Aventis Deutschland GmbH"
+            },
+            {
+              "id": "32213",
+              "product": "Lantus",
+              "ingredient": "Insulina glargina",
+              "form": "Solução injetável",
+              "strength": "100 U/ml",
+              "class": "MSRM",
+              "holder": "Sanofi Aventis Deutschland GmbH"
+            },
+            {
+              "id": "33945",
+              "product": "Lantus",
+              "ingredient": "Insulina glargina",
+              "form": "Solução injetável",
+              "strength": "100 U/ml",
+              "class": "MSRM",
+              "holder": "Sanofi Aventis Deutschland GmbH"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "588949",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "A10AE04",
+        "localName": "Insulina glargina",
+        "marketedProducts": 6
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "10745",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-lispro",
+      "generic": "Insulin Lispro",
+      "brand": "Humalog",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Humalog",
+          "id": "4327",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Humalog",
+          "products": [
+            {
+              "id": "4327",
+              "product": "Humalog",
+              "ingredient": "Insulina lispro (solúvel)",
+              "form": "Solução injetável",
+              "strength": "100 U/ml",
+              "class": "MSRM",
+              "holder": "Eli Lilly Nederland, B.V."
+            },
+            {
+              "id": "4326",
+              "product": "Humalog",
+              "ingredient": "Insulina lispro (solúvel)",
+              "form": "Solução injetável em cartucho",
+              "strength": "100 U/ml",
+              "class": "MSRM",
+              "holder": "Eli Lilly Nederland, B.V."
+            },
+            {
+              "id": "624246",
+              "product": "Humalog Junior KwikPen",
+              "ingredient": "Insulina lispro (solúvel)",
+              "form": "Solução injetável em caneta pré-cheia",
+              "strength": "100 U/ml",
+              "class": "MSRM",
+              "holder": "Eli Lilly Nederland, B.V."
+            },
+            {
+              "id": "41294",
+              "product": "Humalog KwikPen",
+              "ingredient": "Insulina lispro (solúvel)",
+              "form": "Solução injetável em caneta pré-cheia",
+              "strength": "100 U/ml",
+              "class": "MSRM",
+              "holder": "Eli Lilly Nederland, B.V."
+            },
+            {
+              "id": "589441",
+              "product": "Humalog KwikPen",
+              "ingredient": "Insulina lispro (solúvel)",
+              "form": "Solução injetável em caneta pré-cheia",
+              "strength": "200 U/ml",
+              "class": "MSRM",
+              "holder": "Eli Lilly Nederland, B.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "4327",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "A10AB04",
+        "localName": "Insulina lispro (solúvel)",
+        "marketedProducts": 10
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 5
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "4327",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-aspart",
+      "generic": "Insulin Aspart",
+      "brand": "NovoRapid",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "NovoRapid",
+          "id": "29179",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "NovoRapid Penfill",
+          "products": [
+            {
+              "id": "29179",
+              "product": "NovoRapid Penfill",
+              "ingredient": "Insulina aspártico (solúvel)",
+              "form": "Solução injetável em cartucho",
+              "strength": "100 U/ml",
+              "class": "MSRM",
+              "holder": "Novo Nordisk, A/S"
+            },
+            {
+              "id": "582982",
+              "product": "NovoRapid PumpCart",
+              "ingredient": "Insulina aspártico (solúvel)",
+              "form": "Solução injetável em cartucho",
+              "strength": "100 U/ml",
+              "class": "MSRM",
+              "holder": "Novo Nordisk, A/S"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "614782",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "A10AB05",
+        "localName": "Insulina aspártico (solúvel)",
+        "marketedProducts": 5
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "29179",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-regular",
+      "generic": "Insulin Human (Regular)",
+      "brand": "Actrapid / Humulin Regular",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Actrapid",
+          "id": "32423",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Actrapid",
+          "products": [
+            {
+              "id": "32423",
+              "product": "Actrapid",
+              "ingredient": "Insulina humana (solúvel)",
+              "form": "Solução injetável",
+              "strength": "100 U.I./ml",
+              "class": "MSRM",
+              "holder": "Novo Nordisk, A/S"
+            },
+            {
+              "id": "33095",
+              "product": "Actrapid Penfill",
+              "ingredient": "Insulina humana (solúvel)",
+              "form": "Solução injetável em cartucho",
+              "strength": "100 U.I./ml",
+              "class": "MSRM",
+              "holder": "Novo Nordisk, A/S"
+            }
+          ]
+        },
+        {
+          "name": "Humulin Regular",
+          "id": "4360",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Humulin Regular",
+          "products": [
+            {
+              "id": "4360",
+              "product": "Humulin Regular",
+              "ingredient": "Insulina humana (solúvel)",
+              "form": "Solução injetável",
+              "strength": "100 U.I./ml",
+              "class": "MSRM",
+              "holder": "Lilly-Portugal, Produtos Farmacêuticos, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "32423",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "A10AB01",
+        "localName": "Insulina humana (solúvel)",
+        "marketedProducts": 3
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "32423",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-nph",
+      "generic": "Insulin Isophane (NPH)",
+      "brand": "Insulatard / Humulin NPH",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Insulatard",
+          "id": "33134",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Insulatard",
+          "products": [
+            {
+              "id": "33134",
+              "product": "Insulatard",
+              "ingredient": "Insulina humana (isofânica)",
+              "form": "Suspensão injetável",
+              "strength": "100 U.I./ml",
+              "class": "MSRM",
+              "holder": "Novo Nordisk, A/S"
+            },
+            {
+              "id": "33131",
+              "product": "Insulatard Penfill",
+              "ingredient": "Insulina humana (isofânica)",
+              "form": "Suspensão injetável",
+              "strength": "100 U.I./ml",
+              "class": "MSRM",
+              "holder": "Novo Nordisk, A/S"
+            }
+          ]
+        },
+        {
+          "name": "Humulin NPH",
+          "id": "4357",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Humulin Nph",
+          "products": [
+            {
+              "id": "4357",
+              "product": "Humulin Nph",
+              "ingredient": "Insulina humana (isofânica)",
+              "form": "Suspensão injetável",
+              "strength": "100 U.I./ml",
+              "class": "MSRM",
+              "holder": "Lilly-Portugal, Produtos Farmacêuticos, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "4357",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "A10AC01",
+        "localName": "Insulina humana (isofânica)",
+        "marketedProducts": 3
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "33134",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-detemir",
+      "generic": "Insulin Detemir",
+      "brand": "Levemir",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Levemir",
+          "id": "35044",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Levemir",
+          "products": [
+            {
+              "id": "35044",
+              "product": "Levemir",
+              "ingredient": "Insulina detemir",
+              "form": "Solução injetável",
+              "strength": "100 U/ml",
+              "class": "MSRM",
+              "holder": "Novo Nordisk, A/S"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "35044",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "A10AE05",
+        "localName": "Insulina detemir",
+        "marketedProducts": 1
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "35044",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-degludec",
+      "generic": "Insulin Degludec",
+      "brand": "Tresiba",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tresiba",
+          "id": "56991",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Tresiba",
+          "products": [
+            {
+              "id": "56991",
+              "product": "Tresiba",
+              "ingredient": "Insulina degludec",
+              "form": "Solução injetável em caneta pré-cheia",
+              "strength": "100 U/ml",
+              "class": "MSRM",
+              "holder": "Novo Nordisk, A/S"
+            },
+            {
+              "id": "643203",
+              "product": "Tresiba",
+              "ingredient": "Insulina degludec",
+              "form": "Solução injetável em cartucho",
+              "strength": "100 U/ml",
+              "class": "MSRM",
+              "holder": "Novo Nordisk, A/S"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "56991",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "A10AE06",
+        "localName": "Insulina degludec",
+        "marketedProducts": 2
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "56991",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "duloxetine",
+      "generic": "Duloxetine",
+      "brand": "Sold generic as \"Duloxetina\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "590105",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "N06AX21",
+        "localName": "Duloxetina",
+        "marketedProducts": 24
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 24
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "590105",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "famotidine",
+      "generic": "Famotidine",
+      "brand": "Lasa",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lasa",
+          "id": "29925",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Lasa",
+          "products": [
+            {
+              "id": "29925",
+              "product": "Lasa",
+              "ingredient": "Famotidina",
+              "form": "Comprimido",
+              "strength": "10 mg",
+              "class": "MNSRM",
+              "holder": "Aristo Pharma Iberia, SL"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "29925",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "A02BA03",
+        "localName": "Famotidina",
+        "marketedProducts": 1
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "29925",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "empagliflozin",
+      "generic": "Empagliflozin",
+      "brand": "Jardiance",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Jardiance",
+          "id": "585383",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Jardiance",
+          "products": [
+            {
+              "id": "585383",
+              "product": "Jardiance",
+              "ingredient": "Empagliflozina",
+              "form": "Comprimido revestido por película",
+              "strength": "10 mg",
+              "class": "MSRM",
+              "holder": "Boehringer Ingelheim International GmbH"
+            },
+            {
+              "id": "585401",
+              "product": "Jardiance",
+              "ingredient": "Empagliflozina",
+              "form": "Comprimido revestido por película",
+              "strength": "25 mg",
+              "class": "MSRM",
+              "holder": "Boehringer Ingelheim International GmbH"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "585383",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "A10BK03",
+        "localName": "Empagliflozina",
+        "marketedProducts": 2
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "585383",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "carvedilol",
+      "generic": "Carvedilol",
+      "brand": "Dilbloc",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Dilbloc",
+          "id": "2607",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Dilbloc",
+          "products": [
+            {
+              "id": "2607",
+              "product": "Dilbloc",
+              "ingredient": "Carvedilol",
+              "form": "Comprimido",
+              "strength": "25 mg",
+              "class": "MSRM",
+              "holder": "Cheplapharm Arzneimittel GmbH"
+            },
+            {
+              "id": "2608",
+              "product": "Dilbloc IC",
+              "ingredient": "Carvedilol",
+              "form": "Comprimido",
+              "strength": "6.25 mg",
+              "class": "MSRM",
+              "holder": "Cheplapharm Arzneimittel GmbH"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "591446",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "C07AG02",
+        "localName": "Carvedilol",
+        "marketedProducts": 31
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "2607",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "tramadol",
+      "generic": "Tramadol",
+      "brand": "Sold generic, prescription-only",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "6698",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "N02AX02",
+        "localName": "Tramadol",
+        "marketedProducts": 35
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": null,
+        "result": "na",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 34
+          },
+          "note": "on an ordinary prescription, which does not rule out a controlled substance"
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "6698",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "alprazolam",
+      "generic": "Alprazolam",
+      "brand": "Xanax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Xanax",
+          "id": "9314",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Xanax",
+          "products": [
+            {
+              "id": "9314",
+              "product": "Xanax",
+              "ingredient": "Alprazolam",
+              "form": "Comprimido",
+              "strength": "0.25 mg",
+              "class": "MSRM",
+              "holder": "Viatris Healthcare, Lda."
+            },
+            {
+              "id": "9313",
+              "product": "Xanax",
+              "ingredient": "Alprazolam",
+              "form": "Comprimido",
+              "strength": "0.5 mg",
+              "class": "MSRM",
+              "holder": "Viatris Healthcare, Lda."
+            },
+            {
+              "id": "9312",
+              "product": "Xanax",
+              "ingredient": "Alprazolam",
+              "form": "Comprimido",
+              "strength": "1 mg",
+              "class": "MSRM",
+              "holder": "Viatris Healthcare, Lda."
+            },
+            {
+              "id": "9318",
+              "product": "Xanax Xr",
+              "ingredient": "Alprazolam",
+              "form": "Comprimido de libertação modificada",
+              "strength": "0.5 mg",
+              "class": "MSRM",
+              "holder": "Viatris Healthcare, Lda."
+            },
+            {
+              "id": "9315",
+              "product": "Xanax Xr",
+              "ingredient": "Alprazolam",
+              "form": "Comprimido de libertação modificada",
+              "strength": "1 mg",
+              "class": "MSRM",
+              "holder": "Viatris Healthcare, Lda."
+            },
+            {
+              "id": "9316",
+              "product": "Xanax Xr",
+              "ingredient": "Alprazolam",
+              "form": "Comprimido de libertação modificada",
+              "strength": "2 mg",
+              "class": "MSRM",
+              "holder": "Viatris Healthcare, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "697024",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "N05BA12",
+        "localName": "Alprazolam",
+        "marketedProducts": 51
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": null,
+        "result": "na",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 7
+          },
+          "note": "on an ordinary prescription, which does not rule out a controlled substance"
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "9314",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "prednisone",
+      "generic": "Prednisone",
+      "brand": "Not marketed in Portugal",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "H02AB07",
+        "localName": null,
+        "marketedProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "clopidogrel",
+      "generic": "Clopidogrel",
+      "brand": "Plavix",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Plavix",
+          "id": "6948",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Plavix",
+          "products": [
+            {
+              "id": "6948",
+              "product": "Plavix",
+              "ingredient": "Clopidogrel",
+              "form": "Comprimido revestido por película",
+              "strength": "75 mg",
+              "class": "MSRM",
+              "holder": "Sanofi Winthrop Industrie"
+            },
+            {
+              "id": "746067",
+              "product": "Plavix (DP Abacus Medicine)",
+              "ingredient": "Clopidogrel",
+              "form": "Comprimido revestido por película",
+              "strength": "75 mg",
+              "class": "MSRM",
+              "holder": "Sanofi Winthrop Industrie"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "47549",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "B01AC04",
+        "localName": "Clopidogrel",
+        "marketedProducts": 27
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "6948",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "aspirin",
+      "generic": "Acetylsalicylic acid (Aspirin)",
+      "brand": "Aspirina",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Aspirina",
+          "id": "37119",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Aspirina Direkt",
+          "products": [
+            {
+              "id": "37119",
+              "product": "Aspirina Direkt",
+              "ingredient": "Ácido acetilsalicílico",
+              "form": "Granulado",
+              "strength": "500 mg",
+              "class": "MNSRM",
+              "holder": "Bayer Portugal, Lda."
+            },
+            {
+              "id": "55377",
+              "product": "Aspirina Xpress",
+              "ingredient": "Ácido acetilsalicílico",
+              "form": "Comprimido revestido",
+              "strength": "500 mg",
+              "class": "MNSRM",
+              "holder": "Bayer Portugal, Lda."
+            },
+            {
+              "id": "593221",
+              "product": "Aspirina Xpress",
+              "ingredient": "Ácido acetilsalicílico",
+              "form": "Comprimido revestido",
+              "strength": "1000 mg",
+              "class": "MNSRM-EF",
+              "holder": "Bayer Portugal, Lda."
+            },
+            {
+              "id": "631342",
+              "product": "Aspirinagripe",
+              "ingredient": "Ácido acetilsalicílico + Pseudoefedrina",
+              "form": "Granulado para suspensão oral",
+              "strength": "500 mg + 30 mg",
+              "class": "MNSRM-EF",
+              "holder": "Bayer Portugal, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "37119",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "N02BA01",
+        "localName": "Ácido acetilsalicílico",
+        "marketedProducts": 7
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM": 2,
+            "MNSRM-EF": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "37119",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oxycodone",
+      "generic": "Oxycodone",
+      "brand": "Olbete",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Olbete",
+          "id": "56917",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Olbete",
+          "products": [
+            {
+              "id": "56917",
+              "product": "Olbete",
+              "ingredient": "Oxicodona",
+              "form": "Comprimido de libertação prolongada",
+              "strength": "20 mg",
+              "class": "MSRM especial",
+              "holder": "Tecnimede - Sociedade Técnico-Medicinal, S.A."
+            },
+            {
+              "id": "56918",
+              "product": "Olbete",
+              "ingredient": "Oxicodona",
+              "form": "Comprimido de libertação prolongada",
+              "strength": "40 mg",
+              "class": "MSRM especial",
+              "holder": "Tecnimede - Sociedade Técnico-Medicinal, S.A."
+            },
+            {
+              "id": "56915",
+              "product": "Olbete",
+              "ingredient": "Oxicodona",
+              "form": "Comprimido de libertação prolongada",
+              "strength": "5 mg",
+              "class": "MSRM especial",
+              "holder": "Tecnimede - Sociedade Técnico-Medicinal, S.A."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "56917",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "N02AA05",
+        "localName": "Oxicodona",
+        "marketedProducts": 3
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM especial": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "56917",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "methylphenidate",
+      "generic": "Methylphenidate",
+      "brand": "Concerta / Ritalina",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Concerta",
+          "id": "34285",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Concerta",
+          "products": [
+            {
+              "id": "34285",
+              "product": "Concerta",
+              "ingredient": "Metilfenidato",
+              "form": "Comprimido de libertação prolongada",
+              "strength": "18 mg",
+              "class": "MSRM especial",
+              "holder": "Janssen-Cilag Farmacêutica, Lda"
+            },
+            {
+              "id": "46203",
+              "product": "Concerta",
+              "ingredient": "Metilfenidato",
+              "form": "Comprimido de libertação prolongada",
+              "strength": "27 mg",
+              "class": "MSRM especial",
+              "holder": "Janssen-Cilag Farmacêutica, Lda"
+            },
+            {
+              "id": "34289",
+              "product": "Concerta",
+              "ingredient": "Metilfenidato",
+              "form": "Comprimido de libertação prolongada",
+              "strength": "36 mg",
+              "class": "MSRM especial",
+              "holder": "Janssen-Cilag Farmacêutica, Lda"
+            },
+            {
+              "id": "34292",
+              "product": "Concerta",
+              "ingredient": "Metilfenidato",
+              "form": "Comprimido de libertação prolongada",
+              "strength": "54 mg",
+              "class": "MSRM especial",
+              "holder": "Janssen-Cilag Farmacêutica, Lda"
+            }
+          ]
+        },
+        {
+          "name": "Ritalina",
+          "id": "32229",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Ritalina LA",
+          "products": [
+            {
+              "id": "32229",
+              "product": "Ritalina LA",
+              "ingredient": "Metilfenidato",
+              "form": "Cápsula de libertação modificada",
+              "strength": "20 mg",
+              "class": "MSRM especial",
+              "holder": "Infectopharm Arzneimittel und Consilium GmbH"
+            },
+            {
+              "id": "32230",
+              "product": "Ritalina LA",
+              "ingredient": "Metilfenidato",
+              "form": "Cápsula de libertação modificada",
+              "strength": "30 mg",
+              "class": "MSRM especial",
+              "holder": "Infectopharm Arzneimittel und Consilium GmbH"
+            },
+            {
+              "id": "32231",
+              "product": "Ritalina LA",
+              "ingredient": "Metilfenidato",
+              "form": "Cápsula de libertação modificada",
+              "strength": "40 mg",
+              "class": "MSRM especial",
+              "holder": "Infectopharm Arzneimittel und Consilium GmbH"
+            },
+            {
+              "id": "579640",
+              "product": "Ritalina LA",
+              "ingredient": "Metilfenidato",
+              "form": "Cápsula de libertação modificada",
+              "strength": "60 mg",
+              "class": "MSRM especial",
+              "holder": "Infectopharm Arzneimittel und Consilium GmbH"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "734949",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "N06BA04",
+        "localName": "Metilfenidato",
+        "marketedProducts": 47
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": "CONTROLLED",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM especial": 8
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "34285",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "naproxen",
+      "generic": "Naproxen",
+      "brand": "Momendol (OTC) / Naprosyn (Rx)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Momendol",
+          "id": "33668",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Momendol",
+          "products": [
+            {
+              "id": "33668",
+              "product": "Momendol",
+              "ingredient": "Naproxeno",
+              "form": "Comprimido revestido por película",
+              "strength": "200 mg",
+              "class": "MNSRM",
+              "holder": "Angelini Pharma Portugal, Unipessoal Lda"
+            },
+            {
+              "id": "48910",
+              "product": "Momendol",
+              "ingredient": "Naproxeno",
+              "form": "Gel",
+              "strength": "100 mg/g",
+              "class": "MNSRM",
+              "holder": "Angelini Pharma Portugal, Unipessoal Lda"
+            }
+          ]
+        },
+        {
+          "name": "Naprosyn",
+          "id": "5872",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Naprosyn",
+          "products": [
+            {
+              "id": "5872",
+              "product": "Naprosyn",
+              "ingredient": "Naproxeno",
+              "form": "Comprimido",
+              "strength": "250 mg",
+              "class": "MSRM",
+              "holder": "Atnahs Pharma Netherlands B.V."
+            },
+            {
+              "id": "10368",
+              "product": "Naprosyn",
+              "ingredient": "Naproxeno",
+              "form": "Comprimido revestido",
+              "strength": "500 mg",
+              "class": "MSRM",
+              "holder": "Atnahs Pharma Netherlands B.V."
+            },
+            {
+              "id": "10372",
+              "product": "Naprosyn Ec",
+              "ingredient": "Naproxeno",
+              "form": "Comprimido gastrorresistente",
+              "strength": "500 mg",
+              "class": "MSRM",
+              "holder": "Atnahs Pharma Netherlands B.V."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "646105",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "M01AE02",
+        "localName": "Naproxeno",
+        "marketedProducts": 16
+      },
+      "status": {
+        "entry": "MIXED",
+        "registry": "MIXED",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM": 2,
+            "MSRM": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "33668",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "diclofenac-gel",
+      "generic": "Diclofenac (topical gel)",
+      "brand": "Voltaren Emulgel",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Voltaren Emulgel",
+          "id": "9295",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Voltaren Emulgel",
+          "products": [
+            {
+              "id": "9295",
+              "product": "Voltaren Emulgel",
+              "ingredient": "Diclofenac",
+              "form": "Gel",
+              "strength": "10 mg/g",
+              "class": "MNSRM",
+              "holder": "Haleon Portugal, Lda."
+            },
+            {
+              "id": "51997",
+              "product": "Voltaren Emulgelex",
+              "ingredient": "Diclofenac",
+              "form": "Gel",
+              "strength": "20 mg/g",
+              "class": "MNSRM",
+              "holder": "Haleon Portugal, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "41049",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "M02AA15",
+        "localName": "Diclofenac",
+        "marketedProducts": 28
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "9295",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "fexofenadine",
+      "generic": "Fexofenadine",
+      "brand": "Telfast",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Telfast",
+          "id": "8350",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Telfast 120",
+          "products": [
+            {
+              "id": "8350",
+              "product": "Telfast 120",
+              "ingredient": "Fexofenadina",
+              "form": "Comprimido revestido por película",
+              "strength": "120 mg",
+              "class": "MNSRM",
+              "holder": "Opella Healthcare Portugal, Unipessoal Lda"
+            },
+            {
+              "id": "8351",
+              "product": "Telfast 180",
+              "ingredient": "Fexofenadina",
+              "form": "Comprimido revestido por película",
+              "strength": "180 mg",
+              "class": "MNSRM",
+              "holder": "Opella Healthcare Portugal, Unipessoal Lda"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "44778",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "R06AX26",
+        "localName": "Fexofenadina",
+        "marketedProducts": 6
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "8350",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "guaifenesin",
+      "generic": "Guaifenesin",
+      "brand": "Vicks Xarope Expectorante Mel",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Vicks Xarope Expectorante Mel",
+          "id": "9163",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Vicks Xarope Expectorante Mel",
+          "products": [
+            {
+              "id": "9163",
+              "product": "Vicks Xarope Expectorante Mel",
+              "ingredient": "Guaifenesina",
+              "form": "Xarope",
+              "strength": "13.33 mg/ml",
+              "class": "MNSRM",
+              "holder": "Laboratorios Vicks, S.L."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "9163",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "Guaifenesina",
+        "localName": "Guaifenesina",
+        "marketedProducts": 4
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "9163",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "dextromethorphan",
+      "generic": "Dextromethorphan",
+      "brand": "Bisoltussin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Bisoltussin",
+          "id": "51862",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Bisoltussin",
+          "products": [
+            {
+              "id": "51862",
+              "product": "Bisoltussin",
+              "ingredient": "Dextrometorfano",
+              "form": "Pastilha mole",
+              "strength": "10.5 mg",
+              "class": "MNSRM",
+              "holder": "Opella Healthcare Portugal, Unipessoal Lda"
+            },
+            {
+              "id": "31323",
+              "product": "Bisoltussin Tosse Seca",
+              "ingredient": "Dextrometorfano",
+              "form": "Solução oral",
+              "strength": "2 mg/ml",
+              "class": "MNSRM",
+              "holder": "Opella Healthcare Portugal, Unipessoal Lda"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "606503",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "R05DA09",
+        "localName": "Dextrometorfano",
+        "marketedProducts": 9
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "51862",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oxymetazoline",
+      "generic": "Oxymetazoline (nasal spray)",
+      "brand": "Nasorhinathiol",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Nasorhinathiol",
+          "id": "10391",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Nasorhinathiol",
+          "products": [
+            {
+              "id": "10391",
+              "product": "Nasorhinathiol",
+              "ingredient": "Oximetazolina",
+              "form": "Gotas nasais, solução",
+              "strength": "0.25 mg/ml",
+              "class": "MNSRM",
+              "holder": "Opella Healthcare Portugal, Unipessoal Lda"
+            },
+            {
+              "id": "6014",
+              "product": "Nasorhinathiol",
+              "ingredient": "Oximetazolina",
+              "form": "Gotas nasais, solução",
+              "strength": "0.5 mg/ml",
+              "class": "MNSRM",
+              "holder": "Opella Healthcare Portugal, Unipessoal Lda"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "51259",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "R01AA05",
+        "localName": "Oximetazolina",
+        "marketedProducts": 9
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "10391",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "bismuth-subsalicylate",
+      "generic": "Bismuth subsalicylate",
+      "brand": "Not commonly available",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "Subsalicilato de bismuto",
+        "localName": "Subsalicilato de bismuto",
+        "marketedProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "calcium-carbonate",
+      "generic": "Calcium carbonate (antacid)",
+      "brand": "Rennie",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Rennie",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "marketed under this name with Carbonato de cálcio + Carbonato de magnésio, not this ingredient",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "A02AC01",
+        "localName": null,
+        "marketedProducts": 0
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Brand \"Rennie\" not confirmed: marketed under this name with Carbonato de cálcio + Carbonato de magnésio, not this ingredient"
+      ]
+    },
+    {
+      "id": "simeticone",
+      "generic": "Simeticone",
+      "brand": "Aero-OM",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Aero-OM",
+          "id": "47148",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Aero-OM",
+          "products": [
+            {
+              "id": "47148",
+              "product": "Aero-OM",
+              "ingredient": "Simeticone",
+              "form": "Cápsula mole",
+              "strength": "125 mg",
+              "class": "MNSRM",
+              "holder": "Medinfar Consumer Health - Produtos Farmacêuticos, Lda."
+            },
+            {
+              "id": "143",
+              "product": "Aero-Om",
+              "ingredient": "Simeticone",
+              "form": "Comprimido para mastigar",
+              "strength": "42 mg",
+              "class": "MNSRM",
+              "holder": "Medinfar Consumer Health - Produtos Farmacêuticos, Lda."
+            },
+            {
+              "id": "144",
+              "product": "Aero-Om",
+              "ingredient": "Simeticone",
+              "form": "Emulsão oral",
+              "strength": "105 mg/ml",
+              "class": "MNSRM",
+              "holder": "Medinfar Consumer Health - Produtos Farmacêuticos, Lda."
+            },
+            {
+              "id": "735446",
+              "product": "Aero-OM sem açúcar",
+              "ingredient": "Simeticone",
+              "form": "Emulsão oral",
+              "strength": "105 mg/ml",
+              "class": "MNSRM",
+              "holder": "Medinfar Consumer Health - Produtos Farmacêuticos, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "47148",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "A03AX13",
+        "localName": "Simeticone",
+        "marketedProducts": 7
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM": 4
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "47148",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oral-rehydration-salts",
+      "generic": "Oral rehydration salts",
+      "brand": "Dioralyte",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Dioralyte",
+          "id": "2676",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Dioralyte (Sabor Groselha)",
+          "products": [
+            {
+              "id": "2676",
+              "product": "Dioralyte (Sabor Groselha)",
+              "ingredient": "Electrólitos + Glucose",
+              "form": "Pó para solução oral",
+              "strength": "Associação",
+              "class": "MNSRM",
+              "holder": "Korangi - Produtos Farmacêuticos, Lda."
+            },
+            {
+              "id": "2677",
+              "product": "Dioralyte (Sabor Limão)",
+              "ingredient": "Electrólitos + Glucose",
+              "form": "Pó para solução oral",
+              "strength": "Associação",
+              "class": "MNSRM",
+              "holder": "Korangi - Produtos Farmacêuticos, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2676",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "A07CA",
+        "localName": null,
+        "marketedProducts": 2
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "2676",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "bisacodyl",
+      "generic": "Bisacodyl",
+      "brand": "Dulcolax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Dulcolax",
+          "id": "2863",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Dulcolax",
+          "products": [
+            {
+              "id": "2863",
+              "product": "Dulcolax",
+              "ingredient": "Bisacodilo",
+              "form": "Comprimido revestido",
+              "strength": "5 mg",
+              "class": "MNSRM",
+              "holder": "Opella Healthcare Portugal, Unipessoal Lda"
+            },
+            {
+              "id": "2864",
+              "product": "Dulcolax",
+              "ingredient": "Bisacodilo",
+              "form": "Supositório",
+              "strength": "10 mg",
+              "class": "MNSRM",
+              "holder": "Opella Healthcare Portugal, Unipessoal Lda"
+            },
+            {
+              "id": "725312",
+              "product": "Dulcolax IP",
+              "ingredient": "Bisacodilo",
+              "form": "Comprimido revestido",
+              "strength": "5 mg",
+              "class": "MNSRM",
+              "holder": "Agon Pharma, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "716644",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "A06AB02",
+        "localName": "Bisacodilo",
+        "marketedProducts": 7
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "2863",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "polyethylene-glycol",
+      "generic": "Polyethylene glycol 3350 (macrogol)",
+      "brand": "Movicol",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Movicol",
+          "id": "598322",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Movicol",
+          "products": [
+            {
+              "id": "598322",
+              "product": "Movicol",
+              "ingredient": "Macrogol + Bicarbonato de sódio + Cloreto de potássio + Cloreto de sódio",
+              "form": "Solução oral em saqueta",
+              "strength": "Associação",
+              "class": "MNSRM",
+              "holder": "Norgine Portugal Farmacêutica Unipessoal, Lda."
+            },
+            {
+              "id": "50451",
+              "product": "Movicol Laranja",
+              "ingredient": "Macrogol + Bicarbonato de sódio + Cloreto de potássio + Cloreto de sódio",
+              "form": "Concentrado para solução oral",
+              "strength": "Associação",
+              "class": "MNSRM",
+              "holder": "Norgine Portugal Farmacêutica Unipessoal, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "50071",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "A06AD15",
+        "localName": "Macrogol",
+        "marketedProducts": 7
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "598322",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "meclozine",
+      "generic": "Meclozine",
+      "brand": "Not commonly available",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "R06AE05",
+        "localName": null,
+        "marketedProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrocortisone-cream",
+      "generic": "Hydrocortisone (cream)",
+      "brand": "Pandermil",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Pandermil",
+          "id": "6619",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Pandermil",
+          "products": [
+            {
+              "id": "6619",
+              "product": "Pandermil",
+              "ingredient": "Hidrocortisona",
+              "form": "Creme",
+              "strength": "10 mg/g",
+              "class": "MNSRM-EF",
+              "holder": "Laboratório Edol - Produtos Farmacêuticos, S.A."
+            },
+            {
+              "id": "6621",
+              "product": "Pandermil",
+              "ingredient": "Hidrocortisona",
+              "form": "Pomada",
+              "strength": "10 mg/g",
+              "class": "MNSRM-EF",
+              "holder": "Laboratório Edol - Produtos Farmacêuticos, S.A."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "46332",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "D07AA02",
+        "localName": "Hidrocortisona",
+        "marketedProducts": 4
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "PHARMACY",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM-EF": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "6619",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "clotrimazole",
+      "generic": "Clotrimazole",
+      "brand": "Canesten",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Canesten",
+          "id": "1410",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Canesten",
+          "products": [
+            {
+              "id": "1410",
+              "product": "Canesten",
+              "ingredient": "Clotrimazol",
+              "form": "Creme",
+              "strength": "10 mg/g",
+              "class": "MNSRM",
+              "holder": "Bayer Portugal, Lda."
+            },
+            {
+              "id": "29618",
+              "product": "Canesten",
+              "ingredient": "Clotrimazol",
+              "form": "Pó cutâneo",
+              "strength": "10 mg/g",
+              "class": "MNSRM",
+              "holder": "Bayer Portugal, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1410",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "D01AC01",
+        "localName": "Clotrimazol",
+        "marketedProducts": 16
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "1410",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "antibiotic-ointment",
+      "generic": "Bacitracin / Neomycin / Polymyxin B (antibiotic ointment)",
+      "brand": "Polisulfadê",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Polisulfadê",
+          "id": "6975",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Polisulfadê",
+          "products": [
+            {
+              "id": "6975",
+              "product": "Polisulfadê",
+              "ingredient": "Bacitracina + Polimixina B",
+              "form": "Pomada",
+              "strength": "500 U.I./g + 10000 U.I./g",
+              "class": "MNSRM",
+              "holder": "Sanóbia - Centro de Saúde e Estética, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "6975",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "D06AX05",
+        "localName": null,
+        "marketedProducts": 2
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "6975",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "doxylamine",
+      "generic": "Doxylamine",
+      "brand": "Dormidina",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Dormidina",
+          "id": "54576",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Dormidina",
+          "products": [
+            {
+              "id": "54576",
+              "product": "Dormidina",
+              "ingredient": "Doxilamina",
+              "form": "Comprimido revestido por película",
+              "strength": "12.5 mg",
+              "class": "MNSRM",
+              "holder": "Esteve Phamaceuticals - Laboratório Farmacêutico, Lda."
+            },
+            {
+              "id": "54577",
+              "product": "Dormidina",
+              "ingredient": "Doxilamina",
+              "form": "Comprimido revestido por película",
+              "strength": "25 mg",
+              "class": "MNSRM",
+              "holder": "Esteve Phamaceuticals - Laboratório Farmacêutico, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "54576",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "R06AA09",
+        "localName": "Doxilamina",
+        "marketedProducts": 3
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "54576",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "levonorgestrel",
+      "generic": "Levonorgestrel (emergency contraception)",
+      "brand": "Norlevo / Postinor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Norlevo",
+          "id": "40160",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Norlevo",
+          "products": [
+            {
+              "id": "40160",
+              "product": "Norlevo",
+              "ingredient": "Levonorgestrel",
+              "form": "Comprimido",
+              "strength": "1.5 mg",
+              "class": "MNSRM",
+              "holder": "Laboratoire HRA Pharma"
+            }
+          ]
+        },
+        {
+          "name": "Postinor",
+          "id": "39678",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Postinor",
+          "products": [
+            {
+              "id": "39678",
+              "product": "Postinor",
+              "ingredient": "Levonorgestrel",
+              "form": "Comprimido",
+              "strength": "1.5 mg",
+              "class": "MNSRM",
+              "holder": "Gedeon Richter, Plc."
+            },
+            {
+              "id": "651045",
+              "product": "Postinor Odis",
+              "ingredient": "Levonorgestrel",
+              "form": "Comprimido orodispersível",
+              "strength": "1.5 mg",
+              "class": "MNSRM",
+              "holder": "Gedeon Richter, Plc."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "652264",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "G03AD01",
+        "localName": "Levonorgestrel",
+        "marketedProducts": 6
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "OTC",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MNSRM": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "40160",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "atovaquone-proguanil",
+      "generic": "Atovaquone / Proguanil",
+      "brand": "Malarone",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Malarone",
+          "id": "40590",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Malarone",
+          "products": [
+            {
+              "id": "40590",
+              "product": "Malarone",
+              "ingredient": "Atovaquona + Proguanilo",
+              "form": "Comprimido revestido por película",
+              "strength": "250 mg + 100 mg",
+              "class": "MSRM",
+              "holder": "GlaxoSmithkline Produtos Farmacêuticos, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "40590",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "P01BB51",
+        "localName": null,
+        "marketedProducts": 1
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "40590",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "doxycycline",
+      "generic": "Doxycycline",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "69",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "J01AA02",
+        "localName": "Doxiciclina",
+        "marketedProducts": 3
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 3
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "69",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "azithromycin",
+      "generic": "Azithromycin",
+      "brand": "Zithromax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zithromax",
+          "id": "9466",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Zithromax",
+          "products": [
+            {
+              "id": "9466",
+              "product": "Zithromax",
+              "ingredient": "Azitromicina",
+              "form": "Comprimido revestido por película",
+              "strength": "500 mg",
+              "class": "MSRM",
+              "holder": "Laboratórios Pfizer, Lda."
+            },
+            {
+              "id": "9471",
+              "product": "Zithromax",
+              "ingredient": "Azitromicina",
+              "form": "Pó para suspensão oral",
+              "strength": "40 mg/ml",
+              "class": "MSRM",
+              "holder": "Laboratórios Pfizer, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "698764",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "J01FA10",
+        "localName": "Azitromicina",
+        "marketedProducts": 31
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "9466",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "ciprofloxacin",
+      "generic": "Ciprofloxacin",
+      "brand": "Ciproxina",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ciproxina",
+          "id": "1833",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Ciproxina",
+          "products": [
+            {
+              "id": "1833",
+              "product": "Ciproxina",
+              "ingredient": "Ciprofloxacina",
+              "form": "Comprimido revestido por película",
+              "strength": "500 mg",
+              "class": "MSRM",
+              "holder": "Bayer Portugal, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1819",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "J01MA02",
+        "localName": "Ciprofloxacina",
+        "marketedProducts": 43
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "1833",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "acetazolamide",
+      "generic": "Acetazolamide",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "1444",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "S01EC01",
+        "localName": "Acetazolamida",
+        "marketedProducts": 1
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "1444",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "scopolamine",
+      "generic": "Scopolamine (motion-sickness patch)",
+      "brand": "Not commonly available",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "Escopolamina",
+        "localName": "Escopolamina",
+        "marketedProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "ondansetron",
+      "generic": "Ondansetron",
+      "brand": "Zofran",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zofran",
+          "id": "9482",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Zofran",
+          "products": [
+            {
+              "id": "9482",
+              "product": "Zofran",
+              "ingredient": "Ondansetrom",
+              "form": "Xarope",
+              "strength": "0.8 mg/ml",
+              "class": "MSRM",
+              "holder": "Sandoz Farmacêutica, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "720144",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "A04AA01",
+        "localName": "Ondansetrom",
+        "marketedProducts": 16
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 1
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "9482",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "epinephrine",
+      "generic": "Epinephrine (adrenaline auto-injector)",
+      "brand": "EpiPen",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "EpiPen",
+          "id": "56570",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Epipen",
+          "products": [
+            {
+              "id": "56570",
+              "product": "Epipen",
+              "ingredient": "Adrenalina",
+              "form": "Solução injetável em seringa pré-cheia",
+              "strength": "0.15 mg/0.3 ml",
+              "class": "MSRM",
+              "holder": "Viatris Healthcare, Lda."
+            },
+            {
+              "id": "56569",
+              "product": "Epipen",
+              "ingredient": "Adrenalina",
+              "form": "Solução injetável em seringa pré-cheia",
+              "strength": "0.3 mg/0.3 ml",
+              "class": "MSRM",
+              "holder": "Viatris Healthcare, Lda."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "56570",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "searched": "C01CA24",
+        "localName": "Adrenalina",
+        "marketedProducts": 2
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "Infomed dispensing class (classificação quanto à dispensa)",
+          "products": {
+            "MSRM": 2
+          }
+        }
+      },
+      "verified": {
+        "registry": "Infomed medicines database (INFARMED, Portugal)",
+        "id": "56570",
+        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+        "checked": "2026-10-14",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    }
+  ]
+}

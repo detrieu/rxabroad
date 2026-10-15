@@ -21,14 +21,14 @@ when the data was researched; the tiers show how much evidence actually backs th
 | 7 | DE Germany | 95 | 74 | 7 | 1 | 68 | 8 | 3 | 3 | 0 | 77 | 3 | 0 |
 | 8 | GB United Kingdom | 95 | 74 | 8 | 0 | 65 | 8 | 6 | 3 | 3 | 77 | 6 | 2 |
 | 9 | MX Mexico | 95 | 75 | 6 | 1 | 69 | 1 | 6 | 6 | 0 | 73 | 7 | 1 |
-| 10 | JP Japan | 82 | 56 | 23 | 3 | 44 | 8 | 12 | 18 | 0 | 53 | 5 | 1 |
-| 11 | IN India | 55 | 18 | 54 | 10 | 0 | 1 | 14 | 67 | 7 | 0 | 7 | 6 |
-| 12 | PT Portugal | 50 | 12 | 58 | 12 | 4 | 2 | 4 | 72 | 6 | 0 | 5 | 4 |
-| 13 | TR Türkiye | 40 | 8 | 50 | 24 | 0 | 0 | 8 | 74 | 0 | 0 | 5 | 5 |
-| 14 | MA Morocco | 27 | 4 | 37 | 41 | 0 | 0 | 6 | 76 | 0 | 0 | 2 | 2 |
-| 15 | VN Vietnam | 21 | 7 | 20 | 55 | 0 | 0 | 6 | 76 | 1 | 0 | 3 | 3 |
+| 10 | PT Portugal | 91 | 70 | 9 | 3 | 73 | 2 | 2 | 5 | 1 | 75 | 5 | 0 |
+| 11 | JP Japan | 82 | 56 | 23 | 3 | 44 | 8 | 12 | 18 | 0 | 53 | 5 | 1 |
+| 12 | VN Vietnam | 71 | 40 | 36 | 6 | 0 | 0 | 76 | 6 | 0 | 76 | 6 | 6 |
+| 13 | IN India | 55 | 18 | 54 | 10 | 0 | 1 | 14 | 67 | 7 | 0 | 7 | 6 |
+| 14 | TR Türkiye | 54 | 12 | 65 | 5 | 0 | 0 | 77 | 5 | 0 | 77 | 6 | 6 |
+| 15 | MA Morocco | 27 | 4 | 37 | 41 | 0 | 0 | 6 | 76 | 0 | 0 | 2 | 2 |
 | 16 | ET Ethiopia | 9 | 0 | 15 | 67 | 1 | 0 | 0 | 81 | 0 | 0 | 0 | 0 |
-| | **All** | 72 | 791 | 306 | 215 | 707 | 30 | 69 | 506 | 28 | 738 | 75 | 29 |
+| | **All** | 79 | 886 | 288 | 138 | 776 | 30 | 206 | 300 | 22 | 966 | 79 | 29 |
 
 ## 1. United States (US) — score 98
 
@@ -89,7 +89,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | high ✓ | Loratadine | Claritin | OTC | T1 [mor.nlm.nih.gov](https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203576) |
 | high ✓ | Losartan | Cozaar (mostly sold generic) | RX | T1 [mor.nlm.nih.gov](https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=151558) |
 | high ✓ | Meclozine | Bonine | OTC | T1 [mor.nlm.nih.gov](https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1694) |
-| high ✓ | Melatonin | Sold as a plain supplement — no brand needed | OTC | T1 [mor.nlm.nih.gov](https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=6711) |
+| high ✓ | Melatonin | Sold as a plain supplement, no brand needed | OTC | T1 [mor.nlm.nih.gov](https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=6711) |
 | high ✓ | Meloxicam | Sold generic (formerly Mobic) | RX | T1 [mor.nlm.nih.gov](https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=41493) |
 | high ✓ | Metformin | Sold generic (formerly Glucophage) | RX | T1 [mor.nlm.nih.gov](https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=6809) |
 | high ✓ | Methylphenidate | Ritalin / Concerta | CONTROLLED ⚠ | T1 [mor.nlm.nih.gov](https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=224917) |
@@ -106,7 +106,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | high ✓ | Prednisone | Sold generic (formerly Deltasone) | RX | T1 [mor.nlm.nih.gov](https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=8640) |
 | high ✓ | Pseudoephedrine | Sudafed | PHARMACY | T1 [mor.nlm.nih.gov](https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203302) |
 | high ✓ | Rosuvastatin | Crestor (mostly sold generic) | RX | T1 [mor.nlm.nih.gov](https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=320864) |
-| high ✓ | Salbutamol | Ventolin / ProAir — labeled "albuterol" | RX | T1 [mor.nlm.nih.gov](https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=8887) |
+| high ✓ | Salbutamol | Ventolin / ProAir | RX | T1 [mor.nlm.nih.gov](https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=8887) |
 | high ✓ | Scopolamine (motion-sickness patch) | Transderm Scop | RX | T1 [mor.nlm.nih.gov](https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=220372) |
 | high ✓ | Semaglutide | Ozempic (diabetes) / Wegovy (weight management) | RX | T1 [fda.gov](https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/medications-containing-semaglutide-marketed-type-2-diabetes-or-weight-loss) |
 | high ✓ | Sertraline | Zoloft | RX | T1 [mor.nlm.nih.gov](https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=82728) |
@@ -188,12 +188,12 @@ when the data was researched; the tiers show how much evidence actually backs th
 | high ✓ | Pantoprazole | Eupantol / Inipomp | RX | T1 [base-donnees-publique.medicaments.gouv.fr](https://base-donnees-publique.medicaments.gouv.fr/medicament/60550568/extrait) |
 | high ✓ | Paracetamol | Doliprane | OTC | T1 [base-donnees-publique.medicaments.gouv.fr](https://base-donnees-publique.medicaments.gouv.fr/medicament/66057393/extrait) |
 | high ✓ | Polyethylene glycol 3350 (macrogol) | Forlax / Transipeg | OTC | T1 [base-donnees-publique.medicaments.gouv.fr](https://base-donnees-publique.medicaments.gouv.fr/medicament/69298346/extrait) |
-| high ✓ | Prednisone | Cortancyl — prednisolone is also commonly used instead | RX | T1 [base-donnees-publique.medicaments.gouv.fr](https://base-donnees-publique.medicaments.gouv.fr/medicament/60118715/extrait) |
+| high ✓ | Prednisone | Cortancyl | RX | T1 [base-donnees-publique.medicaments.gouv.fr](https://base-donnees-publique.medicaments.gouv.fr/medicament/60118715/extrait) |
 | high | Pseudoephedrine | Prescription required for any pseudoephedrine-containing product | RX | T1 [ansm.sante.fr](https://ansm.sante.fr/actualites/rhume-ordonnance-obligatoire-pour-toute-dispensation-de-medicament-a-base-de-pseudoephedrine) |
 | high ✓ | Rosuvastatin | Crestor | RX | T1 [base-donnees-publique.medicaments.gouv.fr](https://base-donnees-publique.medicaments.gouv.fr/medicament/68479386/extrait) |
 | high ✓ | Salbutamol | Ventoline | RX | T1 [base-donnees-publique.medicaments.gouv.fr](https://base-donnees-publique.medicaments.gouv.fr/medicament/69077942/extrait) |
 | high ✓ | Scopolamine (motion-sickness patch) | Scopoderm TTS | RX | T1 [base-donnees-publique.medicaments.gouv.fr](https://base-donnees-publique.medicaments.gouv.fr/medicament/63958849/extrait) |
-| high ✓ | Semaglutide | Ozempic — Wegovy availability may lag behind other markets | RX | T1 [base-donnees-publique.medicaments.gouv.fr](https://base-donnees-publique.medicaments.gouv.fr/medicament/65766192/extrait) |
+| high ✓ | Semaglutide | Ozempic | RX | T1 [base-donnees-publique.medicaments.gouv.fr](https://base-donnees-publique.medicaments.gouv.fr/medicament/65766192/extrait) |
 | high ✓ | Sertraline | Zoloft | RX | T1 [base-donnees-publique.medicaments.gouv.fr](https://base-donnees-publique.medicaments.gouv.fr/medicament/60155788/extrait) |
 | high ✓ | Simeticone | Siligaz | OTC | T1 [base-donnees-publique.medicaments.gouv.fr](https://base-donnees-publique.medicaments.gouv.fr/medicament/63660735/extrait) |
 | high ✓ | Simvastatin | Zocor | RX | T1 [base-donnees-publique.medicaments.gouv.fr](https://base-donnees-publique.medicaments.gouv.fr/medicament/67037301/extrait) |
@@ -201,10 +201,10 @@ when the data was researched; the tiers show how much evidence actually backs th
 | high ✓ | Tramadol | Topalgic | CONTROLLED ⚠ | T1 [base-donnees-publique.medicaments.gouv.fr](https://base-donnees-publique.medicaments.gouv.fr/medicament/62355702/extrait) |
 | high ✓ | Loratadine | Sold generic | MIXED | T2 [vidal.fr](https://www.vidal.fr/medicaments/clarityne-10-mg-cp-4037.html) |
 | high | Melatonin | OTC as a food supplement under 2mg per dose; 2mg and above is a prescription medicine | MIXED | T3 [scienceinsights.org](https://scienceinsights.org/is-melatonin-legal-in-europe-country-by-country-rules/) |
-| high | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Not sold without a prescription — ask for an antiseptic such as "Biseptine" | RX | — |
+| high | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Not sold without a prescription. Ask for an antiseptic such as "Biseptine" | RX | — |
 | high | Bismuth subsalicylate | Not sold in France | UNAVAILABLE | — |
 | medium ✓ | Bupropion | Marketed mainly as Zyban for smoking cessation, not routinely used as an antidepressant | RX | T1 [base-donnees-publique.medicaments.gouv.fr](https://base-donnees-publique.medicaments.gouv.fr/medicament/64556383/extrait) |
-| medium | Hydrocodone / Paracetamol combination | Dafalgan Codéiné (codeine/paracetamol) — closest equivalent to Norco | UNAVAILABLE | — |
+| medium | Hydrocodone / Paracetamol combination | Dafalgan Codéiné (codeine with paracetamol, the closest equivalent to Norco) | UNAVAILABLE | — |
 | medium | Oral rehydration salts | Ask for "soluté de réhydratation orale" (SRO), e.g. Adiaril | OTC | — |
 | medium | Trazodone | Not sold in France | UNAVAILABLE | — |
 
@@ -286,12 +286,12 @@ when the data was researched; the tiers show how much evidence actually backs th
 | high ✓ | Meloxicam | Mobic | RX | T2 [mims.com](https://www.mims.com/singapore/drug/info/mobic?type=full) |
 | high | Amphetamine / Dextroamphetamine | Not sold in Singapore | CONTROLLED ⚠ | T3 [file.go.gov.sg](https://file.go.gov.sg/document-guide-for-bringing-in-personal-medications.pdf) |
 | high | Hydrocodone / Paracetamol combination | Not sold in Singapore | CONTROLLED ⚠ | T3 [file.go.gov.sg](https://file.go.gov.sg/document-guide-for-bringing-in-personal-medications.pdf) |
-| high ✓ | Melatonin | Prescription-only medicine (POM) — Circadin is the only HSA-registered brand | RX | T3 [qnwellness.com](https://qnwellness.com/blogs/article/is-melatonin-legal-in-singapore-understanding-the-current-regulations) |
+| high ✓ | Melatonin | Prescription-only medicine (POM). Circadin is the only HSA-registered brand | RX | T3 [qnwellness.com](https://qnwellness.com/blogs/article/is-melatonin-legal-in-singapore-understanding-the-current-regulations) |
 | high | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Not sold without a prescription | RX | — |
 | high | Bismuth subsalicylate | Not registered in Singapore | UNAVAILABLE | — |
 | high | Doxylamine | Not registered on its own | UNAVAILABLE | — |
 | high | Duloxetine | Cymbalta (mostly sold as generic duloxetine) | RX | — |
-| high | Meclozine | Not registered — "Novomin" (dimenhydrinate) covers this use | UNAVAILABLE | — |
+| high | Meclozine | Not registered. "Novomin" (dimenhydrinate) covers this use | UNAVAILABLE | — |
 | high | Scopolamine (motion-sickness patch) | Not registered as a patch | UNAVAILABLE | — |
 | medium ✓ | Methylphenidate | Concerta / Ritalin | CONTROLLED ⚠ | T1 [data.gov.sg](https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view) |
 | medium ✓ | Pseudoephedrine | Pharmacy-only with purchase limits | PHARMACY | T1 [data.gov.sg](https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view) |
@@ -464,15 +464,15 @@ when the data was researched; the tiers show how much evidence actually backs th
 | high ✓ | Tamsulosin | Sold generic | RX | T1 [health-products.canada.ca](https://health-products.canada.ca/dpd-bdpp/info.do?code=75550&lang=en) |
 | high ✓ | Tramadol | Sold generic | CONTROLLED ⚠ | T1 [health-products.canada.ca](https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=103980) |
 | high ✓ | Trazodone | Sold generic | RX | T1 [health-products.canada.ca](https://health-products.canada.ca/dpd-bdpp/info.do?code=5119&lang=en) |
-| high | Doxylamine | Not sold on its own — found in nighttime cold remedies such as "NyQuil" | UNAVAILABLE | — |
-| high | Meclozine | Not commonly available — "Gravol" (dimenhydrinate) covers this use | UNAVAILABLE | — |
+| high | Doxylamine | Not sold on its own. It is found in nighttime cold remedies such as "NyQuil" | UNAVAILABLE | — |
+| high | Meclozine | Not commonly available. "Gravol" (dimenhydrinate) covers this use | UNAVAILABLE | — |
 | high | Scopolamine (motion-sickness patch) | Not commonly available | UNAVAILABLE | — |
 | medium ✓ | Insulin Aspart | NovoRapid / Fiasp | RX | T1 [health-products.canada.ca](https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=68321) |
 | medium ✓ | Insulin Degludec | Tresiba | RX | T1 [health-products.canada.ca](https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=95622) |
 | medium ✓ | Insulin Human (Regular) | Humulin R / Novolin ge Toronto | PHARMACY | T1 [health-products.canada.ca](https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=12569) |
 | medium ✓ | Insulin Isophane (NPH) | Humulin N / Novolin ge NPH | PHARMACY | T1 [health-products.canada.ca](https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=5326) |
 | medium ✓ | Insulin Lispro | Humalog / Admelog | RX | T1 [health-products.canada.ca](https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=47871) |
-| medium | Insulin Detemir | No longer sold — Levemir has been withdrawn in Canada | UNAVAILABLE | — |
+| medium | Insulin Detemir | No longer sold in Canada | UNAVAILABLE | — |
 | medium | Oral rehydration salts | Pedialyte | OTC | — |
 
 ## 6. Italy (IT) — score 96
@@ -571,7 +571,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | Confidence | Medicine | Sold as | Status | Source |
 |---|---|---|---|---|
 | high ✓ | Acetazolamide | Glaupax / Acemit | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
-| high ✓ | Acetylsalicylic acid (Aspirin) | Aspirin — the brand originated here (Bayer) | PHARMACY | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
+| high ✓ | Acetylsalicylic acid (Aspirin) | Aspirin | PHARMACY | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
 | high ✓ | Alprazolam | Tafil | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
 | high ✓ | Amlodipine | Norvasc | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
 | high ✓ | Amoxicillin | Amoxi / Amoxicillin-ratiopharm | RX | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
@@ -637,8 +637,8 @@ when the data was researched; the tiers show how much evidence actually backs th
 | high ✓ | Duloxetine | Cymbalta | RX | T2 [gelbe-liste.de](https://www.gelbe-liste.de/wirkstoffe/Duloxetin-hydrochlorid_48490) |
 | high | Fluticasone | Flutide (nasal spray, OTC) / Flutide inhaler (Rx) | MIXED | T2 [deutsche-apotheker-zeitung.de](https://www.deutsche-apotheker-zeitung.de/news/artikel/2016/09/23/nasensprays-mit-mometason-und-fluticason-rezeptfrei) |
 | high ✓ | Furosemide | Lasix | RX | T2 [gelbe-liste.de](https://www.gelbe-liste.de/wirkstoffe/Furosemid_283) |
-| high | Hydrocodone / Paracetamol combination | Dicodid (the German brand) was discontinued years ago — no hydrocodone product is currently marketed | UNAVAILABLE | T2 [flexikon.doccheck.com](https://flexikon.doccheck.com/de/Hydrocodon) |
-| high ✓ | Loratadine | Lorano (akut) — or generic "Loratadin STADA / AL" | PHARMACY | T2 [loranopro.de](https://www.loranopro.de/loranoakut-produktinformationen.html) |
+| high | Hydrocodone / Paracetamol combination | Dicodid (the German brand) was discontinued years ago. No hydrocodone product is sold now | UNAVAILABLE | T2 [flexikon.doccheck.com](https://flexikon.doccheck.com/de/Hydrocodon) |
+| high ✓ | Loratadine | Lorano (akut) | PHARMACY | T2 [loranopro.de](https://www.loranopro.de/loranoakut-produktinformationen.html) |
 | high ✓ | Meloxicam | Mobec | RX | T2 [gelbe-liste.de](https://www.gelbe-liste.de/wirkstoffe/Meloxicam_22498) |
 | high ✓ | Trazodone | Sold generic | RX | T2 [gelbe-liste.de](https://www.gelbe-liste.de/wirkstoffe/Trazodon_3145) |
 | high ✓ | Carvedilol | Sold generic | RX | T3 [fitundgesund.at](https://www.fitundgesund.at/dilatrend-artikel-2125) |
@@ -651,7 +651,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | medium ✓ | Polyethylene glycol 3350 (macrogol) | Movicol / Macrogol-ratiopharm | PHARMACY | T1 [portal.bfarm.de](https://portal.bfarm.de/amguifree/) |
 | medium | Bismuth subsalicylate | Not commonly available | UNAVAILABLE | — |
 | medium | Doxylamine | Hoggar Night / SchlafTabs-ratiopharm | PHARMACY | — |
-| low | Meclozine | Not commonly available — "Vomex A" (dimenhydrinate) covers this use | UNAVAILABLE | — |
+| low | Meclozine | Not commonly available. "Vomex A" (dimenhydrinate) covers this use | UNAVAILABLE | — |
 
 ## 8. United Kingdom (GB) — score 95
 
@@ -663,7 +663,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | high ✓ | Alprazolam | Xanax | CONTROLLED ⚠ | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Xanax&page=1) |
 | high ✓ | Amlodipine | Istin (mostly sold generic) | RX | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Istin&page=1) |
 | high ✓ | Amoxicillin | Sold generic | RX | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=amoxicillin&page=1) |
-| high ✓ | Amphetamine / Dextroamphetamine | Amfexa (dexamfetamine) — Adderall itself is not licensed | CONTROLLED ⚠ | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Amfexa&page=1) |
+| high ✓ | Amphetamine / Dextroamphetamine | Amfexa (dexamfetamine) | CONTROLLED ⚠ | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Amfexa&page=1) |
 | high ✓ | Apixaban | Eliquis | RX | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Eliquis&page=1) |
 | high ✓ | Atorvastatin | Lipitor (mostly sold generic now) | RX | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Lipitor&page=1) |
 | high ✓ | Atovaquone / Proguanil | Malarone (Rx) / Maloff Protect (pharmacy) | MIXED | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Malarone&page=1) |
@@ -708,7 +708,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | high ✓ | Oxymetazoline (nasal spray) | Vicks Sinex | OTC | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Vicks%20Sinex&page=1) |
 | high ✓ | Pantoprazole | Sold generic | RX | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=pantoprazole&page=1) |
 | high ✓ | Paracetamol | Panadol | OTC | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Panadol&page=1) |
-| high | Prednisone | Not sold — prednisolone is used instead | UNAVAILABLE | T1 [hweclinicalguidance.nhs.uk](https://www.hweclinicalguidance.nhs.uk/prescribing-guidance/prednisolone/) |
+| high | Prednisone | Not sold. Prednisolone is used instead | UNAVAILABLE | T1 [hweclinicalguidance.nhs.uk](https://www.hweclinicalguidance.nhs.uk/prescribing-guidance/prednisolone/) |
 | high ✓ | Pseudoephedrine | Sudafed | PHARMACY | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Sudafed&page=1) |
 | high ✓ | Rosuvastatin | Crestor (mostly sold generic) | RX | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Crestor&page=1) |
 | high ✓ | Salbutamol | Ventolin | RX | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Ventolin&page=1) |
@@ -721,21 +721,21 @@ when the data was researched; the tiers show how much evidence actually backs th
 | high ✓ | Escitalopram | Cipralex | RX | T2 [medicines.org.uk](https://www.medicines.org.uk/emc/product/7716/smpc) |
 | high ✓ | Meloxicam | Sold generic | RX | T2 [medicines.org.uk](https://www.medicines.org.uk/emc/ingredient/754) |
 | high ✓ | Omeprazole | Pyrocalm Control (OTC) / Losec (Rx) | MIXED | T2 [pyrocalmcontrol.co.uk](https://www.pyrocalmcontrol.co.uk/) |
-| high ✓ | Oxycodone | OxyContin — tightly controlled | CONTROLLED ⚠ | T2 [medicines.org.uk](https://www.medicines.org.uk/emc/product/7675/smpc) |
+| high ✓ | Oxycodone | OxyContin | CONTROLLED ⚠ | T2 [medicines.org.uk](https://www.medicines.org.uk/emc/product/7675/smpc) |
 | high ✓ | Tamsulosin | Flomaxtra XL | RX | T2 [medicines.org.uk](https://www.medicines.org.uk/emc/product/97/smpc) |
 | high ✓ | Trazodone | Sold generic | RX | T2 [medicines.org.uk](https://www.medicines.org.uk/emc/product/4194/smpc) |
 | high ✓ | Diphenhydramine | Nytol (sold as a sleep aid, not for allergy) | PHARMACY | T3 [medxdrg.com](https://medxdrg.com/is-diphenhydramine-available-in-the-uk-your-guide-to-uk-brands-and-uses) |
 | high ✓ | Gabapentin | Neurontin (mostly sold generic) | CONTROLLED ⚠ | T3 [singlecare.com](https://www.singlecare.com/blog/is-gabapentin-a-controlled-substance/) |
-| high | Hydrocodone / Paracetamol combination | Not licensed for prescription in the UK at all — it isn’t on the NHS medicine list | UNAVAILABLE | T3 [castlecraig.co.uk](https://www.castlecraig.co.uk/rehab-treatment/drug-rehab/prescription/hydrocodone/) |
+| high | Hydrocodone / Paracetamol combination | Not licensed in the UK. It isn’t on the NHS medicine list | UNAVAILABLE | T3 [castlecraig.co.uk](https://www.castlecraig.co.uk/rehab-treatment/drug-rehab/prescription/hydrocodone/) |
 | high ✓ | Melatonin | Circadin | RX | T3 [ukmeds.co.uk](https://www.ukmeds.co.uk/blog/circadin-prescription-requirements-uk) |
 | high ✓ | Sertraline | Lustral | RX | T3 [drugs.com](https://www.drugs.com/uk/lustral-50mg-tablets-leaflet.html) |
 | high ✓ | Tramadol | Sold generic | CONTROLLED ⚠ | T3 [theconversation.com](https://theconversation.com/what-is-tramadol-how-dangerous-is-it-and-where-is-it-illegal-86982) |
-| high | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Not sold without a prescription — ask for an antiseptic cream such as "Savlon" or "Germolene" | RX | — |
-| high | Dimenhydrinate | Not sold on UK shelves — "Kwells" (hyoscine) or "Stugeron" (cinnarizine) cover this use instead | UNAVAILABLE | — |
-| high | Doxylamine | Not sold on its own — "Nytol" (diphenhydramine) is the usual sleep aid | UNAVAILABLE | — |
+| high | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Not sold without a prescription. Ask for an antiseptic cream such as "Savlon" or "Germolene" | RX | — |
+| high | Dimenhydrinate | Not sold on UK shelves. "Kwells" (hyoscine) or "Stugeron" (cinnarizine) cover this use | UNAVAILABLE | — |
+| high | Doxylamine | Not sold on its own. "Nytol" (diphenhydramine) is the usual sleep aid | UNAVAILABLE | — |
 | medium ✓ | Acetazolamide | Diamox | RX | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Diamox&page=1) |
 | medium ✓ | Bisacodyl | Dulcolax | OTC | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Dulcolax&page=1) |
-| medium ✓ | Bupropion | Zyban — marketed there mainly as a smoking-cessation aid, not an antidepressant | RX | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Zyban&page=1) |
+| medium ✓ | Bupropion | Zyban | RX | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Zyban&page=1) |
 | medium ✓ | Diclofenac (topical gel) | Voltarol | OTC | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Voltarol&page=1) |
 | medium ✓ | Levonorgestrel (emergency contraception) | Levonelle | PHARMACY | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Levonelle&page=1) |
 | medium ✓ | Meclozine | Sea-Legs / Traveleeze | PHARMACY | T1 [products.mhra.gov.uk](https://products.mhra.gov.uk/search/?search=Sea-Legs&page=1) |
@@ -831,7 +831,96 @@ when the data was researched; the tiers show how much evidence actually backs th
 | medium | Pantoprazole | Pantoprazol | RX | — |
 | low | Scopolamine (motion-sickness patch) | No patch in Mexico | UNAVAILABLE | — |
 
-## 10. Japan (JP) — score 82
+## 10. Portugal (PT) — score 91
+
+70 high · 9 medium · 3 low · sources: 73 official, 2 professional, 2 secondary, 5 none · 75 registry-verified
+
+| Confidence | Medicine | Sold as | Status | Source |
+|---|---|---|---|---|
+| high ✓ | Acetazolamide | Sold generic | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Acetylsalicylic acid (Aspirin) | Aspirina | OTC | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Amoxicillin | Sold generic | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high | Amphetamine / Dextroamphetamine | Not commonly available. Portugal uses Elvanse (lisdexamfetamine) for ADHD | CONTROLLED ⚠ | T1 [infarmed.pt](https://www.infarmed.pt/web/infarmed/profissionais-de-saude/-/journal_content/56/15786/3063240) |
+| high ✓ | Apixaban | Eliquis | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Atovaquone / Proguanil | Malarone | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Azithromycin | Zithromax | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Polisulfadê | OTC | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Bisacodyl | Dulcolax | OTC | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Bupropion | Wellbutrin XR | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Carvedilol | Dilbloc | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Cetirizine | Zyrtec | MIXED | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Ciprofloxacin | Ciproxina | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Clopidogrel | Plavix | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Clotrimazole | Canesten | OTC | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Dextromethorphan | Bisoltussin | OTC | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Diclofenac (topical gel) | Voltaren Emulgel | OTC | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Doxycycline | Sold generic | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Doxylamine | Dormidina | OTC | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Duloxetine | Sold generic as "Duloxetina" | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Empagliflozin | Jardiance | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Epinephrine (adrenaline auto-injector) | EpiPen | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Escitalopram | Cipralex | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Famotidine | Lasa | OTC | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Fexofenadine | Telfast | OTC | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Fluoxetine | Sold generic as "Fluoxetina" | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Fluticasone | Vibrocil Anti-Alergias / Flutaide | MIXED | T1 [infarmed.pt](https://www.infarmed.pt/documents/15786/79990/Fluticasona_2015_07_17.pdf) |
+| high ✓ | Furosemide | Lasix | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Gabapentin | Neurontin | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Guaifenesin | Vicks Xarope Expectorante Mel | OTC | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Hydrochlorothiazide | Sold generic as "hidroclorotiazida" | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Hydrocortisone (cream) | Pandermil | PHARMACY | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Ibuprofen | Brufen | MIXED | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Insulin Aspart | NovoRapid | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Insulin Degludec | Tresiba | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Insulin Detemir | Levemir | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Insulin Glargine | Lantus | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Insulin Human (Regular) | Actrapid / Humulin Regular | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Insulin Isophane (NPH) | Insulatard / Humulin NPH | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Insulin Lispro | Humalog | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Levonorgestrel (emergency contraception) | Norlevo / Postinor | OTC | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Levothyroxine | Eutirox | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Lisinopril | Zestril | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Loratadine | Claritine | OTC | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Losartan | Cozaar | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Meloxicam | Movalis | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Metformin | Glucophage | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Methylphenidate | Concerta / Ritalina | CONTROLLED ⚠ | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Metoprolol | Sold generic as "Metoprolol" | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Montelukast | Singulair | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Naproxen | Momendol (OTC) / Naprosyn (Rx) | MIXED | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Omeprazole | Losec | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Ondansetron | Zofran | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Oral rehydration salts | Dioralyte | OTC | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Oxycodone | Olbete | CONTROLLED ⚠ | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Oxymetazoline (nasal spray) | Nasorhinathiol | OTC | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Polyethylene glycol 3350 (macrogol) | Movicol | OTC | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Rosuvastatin | Crestor | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Salbutamol | Ventilan | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Semaglutide | Ozempic | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Sertraline | Zoloft | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Simeticone | Aero-OM | OTC | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Simvastatin | Zocor | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Tamsulosin | Omnic | RX | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| high ✓ | Trazodone | Triticum | RX | T1 [infarmed.pt](https://www.infarmed.pt/documents/15786/12277909/Indisponibilidade+de+medicamentos+contendo+Trazodona+de+liberta%C3%A7%C3%A3o+prolongada/cea23032-f5c8-86e8-60ac-841421c21922?version=1.0) |
+| high ✓ | Atorvastatin | Zarator | RX | T2 [pfizer.pt](https://www.pfizer.pt/pt-pt/zarator) |
+| high ✓ | Paracetamol | Ben-u-ron | MIXED | T2 [ben-u-ron.pt](https://ben-u-ron.pt/) |
+| high ✓ | Amlodipine | Norvasc | RX | T3 [indice.eu](https://www.indice.eu/pt/medicamentos/medicamentos/norvasc/informacao-geral) |
+| high | Hydrocodone / Paracetamol combination | Not marketed in Portugal. No hydrocodone product is registered with INFARMED | UNAVAILABLE | T3 [indice.eu](https://www.indice.eu/pt/medicamentos/DCI/hidrocodona/informacao-geral) |
+| high | Prednisone | Not marketed in Portugal | UNAVAILABLE | — |
+| medium ✓ | Alprazolam | Xanax | CONTROLLED ⚠ | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| medium ✓ | Dimenhydrinate | Sold generic as "Dimenidrinato" | UNCONFIRMED | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| medium ✓ | Diphenhydramine | Sold generic as "Difenidramina" | UNCONFIRMED | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| medium ✓ | Loperamide | Imodium Rapid | MIXED | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| medium ✓ | Melatonin | Pharmacy / Rx depending on dose | MIXED | T1 [infarmed.pt](https://www.infarmed.pt/web/infarmed/entidades/medicamentos-uso-humano/fronteira_sup_alimentares) |
+| medium ✓ | Pantoprazole | Pantoc | MIXED | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| medium ✓ | Pseudoephedrine | Pharmacy-only | PHARMACY | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| medium ✓ | Tramadol | Sold generic, prescription-only | CONTROLLED ⚠ | T1 [extranet.infarmed.pt](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) |
+| medium | Calcium carbonate (antacid) | Rennie | OTC | — |
+| low | Bismuth subsalicylate | Not commonly available | UNAVAILABLE | — |
+| low | Meclozine | Not commonly available | UNAVAILABLE | — |
+| low | Scopolamine (motion-sickness patch) | Not commonly available | UNAVAILABLE | — |
+
+## 11. Japan (JP) — score 82
 
 56 high · 23 medium · 3 low · sources: 44 official, 8 professional, 12 secondary, 18 none · 53 registry-verified
 
@@ -884,13 +973,13 @@ when the data was researched; the tiers show how much evidence actually backs th
 | high ✓ | Salbutamol | Sultanol | RX | T2 [rad-ar.or.jp](https://www.rad-ar.or.jp/siori/english/search/result?n=38384) |
 | high | Amphetamine / Dextroamphetamine | Not sold | BANNED ⚠ | T3 [fodors.com](https://www.fodors.com/world/asia/japan/experiences/news/my-prescription-for-adderall-for-adhd-is-banned-in-japan-what-to-know) |
 | high | Bupropion | Not approved for any use by Japan’s Ministry of Health, Labour and Welfare | UNAVAILABLE | T3 [legalclarity.org](https://legalclarity.org/is-bupropion-legal-in-japan-rules-for-personal-use/) |
-| high | Diphenhydramine | Drewell (50mg diphenhydramine, Class 2 OTC sleep aid) — not an allergy product | OTC | T3 [otcguidejapan.com](https://otcguidejapan.com/guides/sleeping-pills-in-japan/) |
-| high | Fluoxetine | Not approved for use in Japan — the manufacturer withdrew it after disappointing local trials | UNAVAILABLE | T3 [interacnetwork.com](https://interacnetwork.com/antidepressants-availablity-in-japan-2/) |
+| high | Diphenhydramine | Drewell (50mg diphenhydramine, Class 2 OTC sleep aid) | OTC | T3 [otcguidejapan.com](https://otcguidejapan.com/guides/sleeping-pills-in-japan/) |
+| high | Fluoxetine | Not approved for use in Japan. The manufacturer withdrew it after disappointing local trials | UNAVAILABLE | T3 [interacnetwork.com](https://interacnetwork.com/antidepressants-availablity-in-japan-2/) |
 | high ✓ | Hydrochlorothiazide | Sold generic (ヒドロクロロチアジド) | RX | T3 [clinicaltrials.gov](https://clinicaltrials.gov/study/NCT03205137) |
 | high ✓ | Lisinopril | Sold generic (e.g. Mylan) | RX | T3 [drugs.com](https://www.drugs.com/international/lisinopril.html) |
 | high ✓ | Meloxicam | Mobic | RX | T3 [qlife.jp](https://www.qlife.jp/meds/rx18262.html) |
-| high | Paracetamol | Tylenol A — often called "Calonal" instead, an equally common Japanese name for the same ingredient | OTC | T3 [otcguidejapan.com](https://otcguidejapan.com/guides/acetaminophen-in-japan/) |
-| high | Prednisone | Not sold — Japan uses prednisolone instead: Predonine (プレドニン), prescription-only | UNAVAILABLE | T3 [sugamo-sengoku-hifu.jp](https://sugamo-sengoku-hifu.jp/medicines/predonin.html) |
+| high | Paracetamol | Tylenol A | OTC | T3 [otcguidejapan.com](https://otcguidejapan.com/guides/acetaminophen-in-japan/) |
+| high | Prednisone | Not sold. Japan uses prednisolone instead: Predonine (プレドニン), prescription-only | UNAVAILABLE | T3 [sugamo-sengoku-hifu.jp](https://sugamo-sengoku-hifu.jp/medicines/predonin.html) |
 | high ✓ | Sertraline | Jzoloft | RX | T3 [clinicaltrials.gov](https://clinicaltrials.gov/study/NCT01699724) |
 | high ✓ | Trazodone | Reslin (レスリン) | RX | T3 [ja.wikipedia.org](https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A9%E3%82%BE%E3%83%89%E3%83%B3) |
 | medium ✓ | Clotrimazole | Empecid (エンペシド) | OTC | T1 [mhlw.go.jp](https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html) |
@@ -907,7 +996,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | medium | Bismuth subsalicylate | Not commonly available | UNAVAILABLE | — |
 | medium | Diclofenac (topical gel) | Voltaren EX (ボルタレンEX) | OTC | — |
 | medium | Dimenhydrinate | Dramamine (ドラマミン) / Travelmin (トラベルミン) | MIXED | — |
-| medium | Doxylamine | Not sold — "Drewell" (diphenhydramine) is the OTC sleep aid | UNAVAILABLE | — |
+| medium | Doxylamine | Not sold. "Drewell" (diphenhydramine) is the OTC sleep aid | UNAVAILABLE | — |
 | medium | Famotidine | Gaster (ガスター) / Gaster 10 (ガスター10) | MIXED | — |
 | medium | Fexofenadine | Allegra FX (アレグラFX) | OTC | — |
 | medium | Guaifenesin | Sold generic as "グアイフェネシン (guaifenesin)" | OTC | — |
@@ -920,15 +1009,104 @@ when the data was researched; the tiers show how much evidence actually backs th
 | low | Scopolamine (motion-sickness patch) | No patch in Japan | UNAVAILABLE | — |
 | low | Simeticone | Gaspitan (ガスピタン) | OTC | — |
 
-## 11. India (IN) — score 55
+## 12. Vietnam (VN) — score 71
+
+40 high · 36 medium · 6 low · sources: 0 official, 0 professional, 76 secondary, 6 none · 76 registry-verified
+
+| Confidence | Medicine | Sold as | Status | Source |
+|---|---|---|---|---|
+| high ✓ | Acetylsalicylic acid (Aspirin) | Aspirin (spelling unchanged) | OTC | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Amlodipine | Norvasc | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Amoxicillin | Sold generic | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Atorvastatin | Lipitor | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Ask for an antibiotic ointment | OTC | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Bisacodyl | Sold generic as "Bisacodyl" | MIXED | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Bismuth subsalicylate | Amebismo / Bisoenti | OTC | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Calcium carbonate (antacid) | Ask for an antacid | OTC | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Carvedilol | Sold generic as "Carvedilol" | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Clotrimazole | Canesten | OTC | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Dextromethorphan | Sold generic as "Dextromethorphan" | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Diclofenac (topical gel) | Voltaren Emulgel | OTC | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Dimenhydrinate | Sold generic as "Dimenhydrinate" | OTC | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Diphenhydramine | Sold generic as "Diphenhydramine" | OTC | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Doxycycline | Sold generic | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Duloxetine | Cymbalta | RX | T3 [thuocbietduoc.com.vn](https://thuocbietduoc.com.vn/thuoc-60316/cymbalta.aspx) |
+| high ✓ | Escitalopram | Escipra / Recita | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Famotidine | Peptacid / Famodin | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Fexofenadine | Telfast | OTC | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Fluoxetine | Sold generic as "Fluoxetin" (also Oxedep) | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Fluticasone | Flixonase | RX | T3 [nhathuocankhang.com](https://nhathuocankhang.com/thuoc-xit-nho-mui/flixonase) |
+| high ✓ | Furosemide | Sold generic as "Furosemid" | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Hydrocortisone (cream) | Sold generic as "Hydrocortisone cream" | MIXED | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Ibuprofen | Sold generic as "Ibuprofen" | OTC | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Levonorgestrel (emergency contraception) | Postinor | OTC | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Levothyroxine | Sold generic as "Levothyroxine" | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Lisinopril | Sold generic as "Lisinopril" | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Loperamide | Imodium | OTC | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Loratadine | Clarityne | OTC | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Melatonin | Sold generic as "Melatonin" | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Meloxicam | Mobic | RX | T3 [nhathuoclongchau.com.vn](https://nhathuoclongchau.com.vn/thuoc/mobic-75mg-2985.html) |
+| high ✓ | Naproxen | Sold generic as "Naproxen" | MIXED | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Omeprazole | Losec / generic omeprazole | RX | T3 [nhathuoclongchau.com.vn](https://nhathuoclongchau.com.vn/thuoc/losec-mups-20-1314.html) |
+| high ✓ | Ondansetron | Sold generic | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Oral rehydration salts | Oresol | OTC | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Oxymetazoline (nasal spray) | Sold generic as "Oxymetazoline" | OTC | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Paracetamol | Panadol | OTC | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Polyethylene glycol 3350 (macrogol) | Forlax | OTC | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| high ✓ | Sertraline | Zoloft | RX | T3 [nhathuoclongchau.com.vn](https://nhathuoclongchau.com.vn/thuoc/zoloft-50mg-pfizer-3x10-21685.html) |
+| high ✓ | Simeticone | Espumisan | OTC | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Acetazolamide | Sold generic as "Acetazolamid" | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Alprazolam | Frixitas | CONTROLLED ⚠ | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Apixaban | Eliquis | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Atovaquone / Proguanil | Malanil | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Azithromycin | Zitromax | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Cetirizine | Zyrtec | OTC | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Ciprofloxacin | Ciprobay | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Clopidogrel | Plavix | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Doxylamine | Sold generic as "Doxylamine" | UNCONFIRMED | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Empagliflozin | Jardiance | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Gabapentin | Neurontin | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Guaifenesin | Sold generic as "Guaifenesin" | UNCONFIRMED | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Hydrochlorothiazide | Sold generic as "Hydrochlorothiazide" | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Insulin Aspart | NovoRapid | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Insulin Degludec | Tresiba | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Insulin Detemir | Levemir | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Insulin Glargine | Toujeo / Basaglar | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Insulin Human (Regular) | Actrapid | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Insulin Isophane (NPH) | Insulatard | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Insulin Lispro | Humalog | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Losartan | Cozaar | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Meclozine | Sold generic as "Meclizine" | UNCONFIRMED | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Metformin | Glucophage | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Methylphenidate | Concerta | CONTROLLED ⚠ | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Metoprolol | Betaloc | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Montelukast | Singulair | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Oxycodone | OxyContin / Oxynorm | CONTROLLED ⚠ | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Pantoprazole | Pantoloc | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Pseudoephedrine | Sold in combination cold medicines (e.g. Deconal, Rumednic) | UNCONFIRMED | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Rosuvastatin | Crestor | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Salbutamol | Ventolin | PHARMACY | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Scopolamine (motion-sickness patch) | Kimite (patch) | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Semaglutide | Ozempic | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Simvastatin | Zocor | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Tamsulosin | Harnal | RX | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| medium ✓ | Tramadol | Sold mostly combined with paracetamol | CONTROLLED ⚠ | T3 [dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn/congbothuoc/index) |
+| low | Amphetamine / Dextroamphetamine | Not commonly available | CONTROLLED ⚠ | — |
+| low | Bupropion | Availability not known | UNCONFIRMED | — |
+| low | Epinephrine (adrenaline auto-injector) | Not commonly available | UNAVAILABLE | — |
+| low | Hydrocodone / Paracetamol combination | Not commonly available | CONTROLLED ⚠ | — |
+| low | Prednisone | Prednisolone is the more commonly used equivalent | UNCONFIRMED | — |
+| low | Trazodone | Availability not known | UNCONFIRMED | — |
+
+## 13. India (IN) — score 55
 
 18 high · 54 medium · 10 low · sources: 0 official, 1 professional, 14 secondary, 67 none · 0 registry-verified
 
 | Confidence | Medicine | Sold as | Status | Source |
 |---|---|---|---|---|
 | high | Alprazolam | Alprax | CONTROLLED ⚠ | T3 [yashodahospitals.com](https://www.yashodahospitals.com/medicine-faqs/alprazolam/) |
-| high | Amlodipine | Stamlo — India’s most recognized amlodipine brand (Dr. Reddy’s); Amlopres / Amlodac are also real alternatives | RX | T3 [drugs.com](https://www.drugs.com/international/amlodipine.html) |
-| high | Amphetamine / Dextroamphetamine | Not available — Adderall has never been approved by CDSCO; amphetamine is notified-prohibited under the NDPS Act. Methylphenidate (Ritalin, Addwize, Instalert — Schedule X) or atomoxetine (Strattera) are what Indian doctors substitute instead | BANNED ⚠ | T3 [nomedic.co](https://nomedic.co/travel/india/medication/adderall) |
+| high | Amlodipine | Stamlo | RX | T3 [drugs.com](https://www.drugs.com/international/amlodipine.html) |
+| high | Amphetamine / Dextroamphetamine | Not available | BANNED ⚠ | T3 [nomedic.co](https://nomedic.co/travel/india/medication/adderall) |
 | high | Bupropion | Bupron SR / Bupron XL | RX | T3 [bigmountaindrugs.com](https://www.bigmountaindrugs.com/Generic_Wellbutrin+XL_150+mg) |
 | high | Carvedilol | Carvipress | RX | T3 [medindia.net](https://www.medindia.net/drug-price/carvedilol/carvipress-12-5-mg.htm) |
 | high | Dimenhydrinate | Dramamine (or Draminate / Gravol) | OTC | T3 [medindia.net](https://www.medindia.net/drugs/trade-names/dimenhydrinate.htm) |
@@ -944,17 +1122,17 @@ when the data was researched; the tiers show how much evidence actually backs th
 | high | Omeprazole | Omez | OTC | — |
 | high | Pantoprazole | Pan / Pantocid | OTC | — |
 | high | Paracetamol | Crocin / Dolo | OTC | — |
-| medium | Oxycodone | OXYCONTEX II (oxycodone/paracetamol combo) exists on paper, but real-world retail stocking is patchy | CONTROLLED ⚠ | T2 [annalsofoncology.org](https://www.annalsofoncology.org/article/S0923-7534(19)37455-1/pdf) |
-| medium | Atorvastatin | Atorva / Storvas — India’s generic market is fragmented, with several other brands (e.g. Atocor, Atorlip) also in circulation | RX | T3 [drugs.com](https://www.drugs.com/ingredient/atorvastatin.html) |
+| medium | Oxycodone | OXYCONTEX II (oxycodone with paracetamol) | CONTROLLED ⚠ | T2 [annalsofoncology.org](https://www.annalsofoncology.org/article/S0923-7534(19)37455-1/pdf) |
+| medium | Atorvastatin | Atorva / Storvas | RX | T3 [drugs.com](https://www.drugs.com/ingredient/atorvastatin.html) |
 | medium | Fluticasone | Nazomac-F or Flutiflo (nasal spray) | RX | T3 [nutrarespiro.com](https://www.nutrarespiro.com/Nasal-Spray-Lists-In-India) |
-| medium | Hydrocodone / Paracetamol combination | On India's Essential Narcotic Drugs list and manufactured domestically (Government Opium & Alkaloids Works), but no confirmed retail brand name and real-world pharmacy stocking is inconsistent | CONTROLLED ⚠ | T3 [palliumindia.org](https://palliumindia.org/wp-content/uploads/2020/05/Guidelines-for-stocking-and-Dispensing-ENDs-in-Medical-Institutions.pdf) |
+| medium | Hydrocodone / Paracetamol combination | No retail brand known. Pharmacies rarely stock it | CONTROLLED ⚠ | T3 [palliumindia.org](https://palliumindia.org/wp-content/uploads/2020/05/Guidelines-for-stocking-and-Dispensing-ENDs-in-Medical-Institutions.pdf) |
 | medium | Acetazolamide | Diamox | RX | — |
 | medium | Amoxicillin | Novamox / Mox | RX | — |
 | medium | Apixaban | Eliquis | RX | — |
 | medium | Azithromycin | Azithral / Azee | RX | — |
 | medium | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Neosporin | OTC | — |
 | medium | Bisacodyl | Dulcoflex | OTC | — |
-| medium | Calcium carbonate (antacid) | Not common as an antacid — "Digene" and "Gelusil" (other antacids) cover this use | UNCONFIRMED | — |
+| medium | Calcium carbonate (antacid) | Not common as an antacid. "Digene" and "Gelusil" (other antacids) cover this use | UNCONFIRMED | — |
 | medium | Ciprofloxacin | Ciplox / Cifran | RX | — |
 | medium | Clopidogrel | Clopilet | RX | — |
 | medium | Clotrimazole | Candid / Canesten | OTC | — |
@@ -991,7 +1169,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | medium | Ondansetron | Emeset / Ondem | RX | — |
 | medium | Oral rehydration salts | Electral | OTC | — |
 | medium | Oxymetazoline (nasal spray) | Nasivion | OTC | — |
-| medium | Prednisone | Wysolone — note this is actually prednisolone, a common substitution | UNCONFIRMED | — |
+| medium | Prednisone | Wysolone | UNCONFIRMED | — |
 | medium | Rosuvastatin | Rosuvas / Rozat | RX | — |
 | medium | Salbutamol | Asthalin / Ventorlin | OTC | — |
 | medium | Semaglutide | Ozempic; Rybelsus (oral form) also available | RX | — |
@@ -1009,185 +1187,96 @@ when the data was researched; the tiers show how much evidence actually backs th
 | low | Scopolamine (motion-sickness patch) | Not commonly available | UNAVAILABLE | — |
 | low | Simeticone | Sold generic as "Simethicone" | UNCONFIRMED | — |
 
-## 12. Portugal (PT) — score 50
+## 14. Türkiye (TR) — score 54
 
-12 high · 58 medium · 12 low · sources: 4 official, 2 professional, 4 secondary, 72 none · 0 registry-verified
-
-| Confidence | Medicine | Sold as | Status | Source |
-|---|---|---|---|---|
-| high | Amphetamine / Dextroamphetamine | Not commonly available — Elvanse (lisdexamfetamine) is the actual stimulant Portugal reaches for in ADHD treatment | CONTROLLED ⚠ | T1 [infarmed.pt](https://www.infarmed.pt/web/infarmed/profissionais-de-saude/-/journal_content/56/15786/3063240) |
-| high | Trazodone | Triticum (or Triticum OD / Trazone OD for extended-release) | RX | T1 [infarmed.pt](https://www.infarmed.pt/documents/15786/12277909/Indisponibilidade+de+medicamentos+contendo+Trazodona+de+liberta%C3%A7%C3%A3o+prolongada/cea23032-f5c8-86e8-60ac-841421c21922?version=1.0) |
-| high | Atorvastatin | Zarator | RX | T2 [pfizer.pt](https://www.pfizer.pt/pt-pt/zarator) |
-| high | Paracetamol | Ben-u-ron | OTC | T2 [ben-u-ron.pt](https://ben-u-ron.pt/) |
-| high | Hydrocodone / Paracetamol combination | Not marketed in Portugal — no registered hydrocodone product found in INFARMED's database | UNAVAILABLE | T3 [indice.eu](https://www.indice.eu/pt/medicamentos/DCI/hidrocodona/informacao-geral) |
-| high | Prednisone | Meticorten (or Lodotra for extended-release) — Cortiol and Nocasio are other registered names | RX | T3 [indice.eu](https://www.indice.eu/pt/medicamentos/DCI/prednisona/informacao-cientifica) |
-| high | Acetylsalicylic acid (Aspirin) | Aspirina | OTC | — |
-| high | Amoxicillin | Sold generic | RX | — |
-| high | Apixaban | Eliquis | RX | — |
-| high | Insulin Glargine | Lantus | RX | — |
-| high | Metformin | Glucophage | RX | — |
-| high | Sertraline | Zoloft | RX | — |
-| medium | Fluticasone | Flixonase (nasal spray, OTC) / other fluticasone forms (Rx) | MIXED | T1 [infarmed.pt](https://www.infarmed.pt/documents/15786/79990/Fluticasona_2015_07_17.pdf) |
-| medium | Melatonin | Pharmacy / Rx depending on dose | MIXED | T1 [infarmed.pt](https://www.infarmed.pt/web/infarmed/entidades/medicamentos-uso-humano/fronteira_sup_alimentares) |
-| medium | Amlodipine | Norvasc | RX | T3 [indice.eu](https://www.indice.eu/pt/medicamentos/medicamentos/norvasc/informacao-geral) |
-| medium | Oxycodone | Oxygesic / Olbete | CONTROLLED ⚠ | T3 [observador.pt](https://observador.pt/2019/03/28/porque-e-que-os-museus-abriram-guerra-contra-os-sacklers-a-familia-que-e-dona-do-oxycontin/) |
-| medium | Alprazolam | Xanax | CONTROLLED ⚠ | — |
-| medium | Atovaquone / Proguanil | Malarone | RX | — |
-| medium | Azithromycin | Zithromax | RX | — |
-| medium | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Fucidine | RX | — |
-| medium | Bisacodyl | Dulcolax | OTC | — |
-| medium | Bupropion | Wellbutrin XR | RX | — |
-| medium | Calcium carbonate (antacid) | Rennie | OTC | — |
-| medium | Carvedilol | Dilatrend | RX | — |
-| medium | Cetirizine | Zyrtec | OTC | — |
-| medium | Ciprofloxacin | Ciproxina | RX | — |
-| medium | Clopidogrel | Plavix | RX | — |
-| medium | Clotrimazole | Canesten | OTC | — |
-| medium | Diclofenac (topical gel) | Voltaren Emulgel | OTC | — |
-| medium | Dimenhydrinate | Sold generic as "Dimenidrinato" | UNCONFIRMED | — |
-| medium | Diphenhydramine | Sold generic as "Difenidramina" | UNCONFIRMED | — |
-| medium | Doxycycline | Sold generic | RX | — |
-| medium | Doxylamine | Dormidina | OTC | — |
-| medium | Duloxetine | Cymbalta | RX | — |
-| medium | Empagliflozin | Jardiance | RX | — |
-| medium | Epinephrine (adrenaline auto-injector) | Anapen / EpiPen | RX | — |
-| medium | Escitalopram | Cipralex | RX | — |
-| medium | Famotidine | Pepcid | RX | — |
-| medium | Fluoxetine | Prozac | RX | — |
-| medium | Furosemide | Lasix | RX | — |
-| medium | Gabapentin | Neurontin | RX | — |
-| medium | Hydrochlorothiazide | Sold generic as "hidroclorotiazida" | RX | — |
-| medium | Ibuprofen | Brufen | OTC | — |
-| medium | Insulin Aspart | NovoRapid | RX | — |
-| medium | Insulin Degludec | Tresiba | RX | — |
-| medium | Insulin Detemir | Levemir | RX | — |
-| medium | Insulin Human (Regular) | Actrapid / Humulin Regular | RX | — |
-| medium | Insulin Isophane (NPH) | Insulatard / Humulin NPH | RX | — |
-| medium | Insulin Lispro | Humalog | RX | — |
-| medium | Levonorgestrel (emergency contraception) | Norlevo / Postinor | OTC | — |
-| medium | Levothyroxine | Eutirox | RX | — |
-| medium | Lisinopril | Zestril | RX | — |
-| medium | Loperamide | Imodium | OTC | — |
-| medium | Loratadine | Clarityne | OTC | — |
-| medium | Losartan | Cozaar | RX | — |
-| medium | Meloxicam | Mobic | RX | — |
-| medium | Methylphenidate | Concerta / Ritalina | CONTROLLED ⚠ | — |
-| medium | Metoprolol | Lopresor | RX | — |
-| medium | Montelukast | Singulair | RX | — |
-| medium | Omeprazole | Losec | RX | — |
-| medium | Ondansetron | Zofran | RX | — |
-| medium | Pantoprazole | Pantoloc | RX | — |
-| medium | Pseudoephedrine | Pharmacy-only | PHARMACY | — |
-| medium | Rosuvastatin | Crestor | RX | — |
-| medium | Salbutamol | Ventolin — "Ventilan" is a lower-confidence alternate name, provenance unclear | RX | — |
-| medium | Semaglutide | Ozempic | RX | — |
-| medium | Simeticone | Aero-OM | OTC | — |
-| medium | Simvastatin | Zocor | RX | — |
-| medium | Tamsulosin | Omnic | RX | — |
-| medium | Tramadol | Sold generic, prescription-only | CONTROLLED ⚠ | — |
-| low | Acetazolamide | Sold generic | RX | — |
-| low | Bismuth subsalicylate | Not commonly available | UNAVAILABLE | — |
-| low | Dextromethorphan | Bisoltussin | OTC | — |
-| low | Fexofenadine | Telfast | OTC | — |
-| low | Guaifenesin | Sold generic as "Guaifenesina" | UNCONFIRMED | — |
-| low | Hydrocortisone (cream) | Pandermil | OTC | — |
-| low | Meclozine | Not commonly available | UNAVAILABLE | — |
-| low | Naproxen | Momendol (OTC) / Naprosyn (Rx) | MIXED | — |
-| low | Oral rehydration salts | Dioralyte | OTC | — |
-| low | Oxymetazoline (nasal spray) | Nasex | OTC | — |
-| low | Polyethylene glycol 3350 (macrogol) | Movicol | OTC | — |
-| low | Scopolamine (motion-sickness patch) | Not commonly available | UNAVAILABLE | — |
-
-## 13. Türkiye (TR) — score 40
-
-8 high · 50 medium · 24 low · sources: 0 official, 0 professional, 8 secondary, 74 none · 0 registry-verified
+12 high · 65 medium · 5 low · sources: 0 official, 0 professional, 77 secondary, 5 none · 77 registry-verified
 
 | Confidence | Medicine | Sold as | Status | Source |
 |---|---|---|---|---|
-| high | Carvedilol | Dilatrend | RX | T3 [ilacabak.com](https://www.ilacabak.com/dilatrend-12-5-mg-30-tablet-24026) |
-| high | Duloxetine | Cymbalta | RX | T3 [ilacabak.com](https://www.ilacabak.com/cymbalta-30-mg-28-kapsul-7375) |
-| high | Escitalopram | Cipralex | RX | T3 [drugs.com](https://www.drugs.com/international/escitalopram.html) |
-| high | Meloxicam | Melcam / Melox | RX | T3 [antalyaeo.org.tr](https://www.antalyaeo.org.tr/tr/m/turk-eczacilari-birligi/mobic-7-5-mg-tb-mobic-15-mg-tb-ve-mobic-15-mg-supp-isimli-mustahzarlar-hk-.html) |
-| high | Omeprazole | Losec | RX | T3 [ilacabak.com](https://www.ilacabak.com/etkengoster.php?Id=525) |
-| high | Paracetamol | Parol | OTC | T3 [atabay.com](https://www.atabay.com/en/ilac/parol-500-mg-tablet-30-tablet-blister-2-2/) |
-| high | Sertraline | Lustral | RX | T3 [medikalakademi.com.tr](https://www.medikalakademi.com.tr/lustral-sertralin-nedir-ne-icin-kullanilir-yan-etkileri-nelerdir/) |
-| high | Trazodone | Trittico | RX | T3 [ilactr.com](https://www.ilactr.com/atc/N06AX05.html) |
-| medium | Acetazolamide | Diazomid | RX | — |
-| medium | Acetylsalicylic acid (Aspirin) | Aspirin / Ecopirin | OTC | — |
-| medium | Alprazolam | Xanax | CONTROLLED ⚠ | — |
-| medium | Amlodipine | Norvasc | RX | — |
-| medium | Amoxicillin | Sold generic as "Amoksisilin" | RX | — |
-| medium | Apixaban | Eliquis | RX | — |
-| medium | Atorvastatin | Lipitor | RX | — |
-| medium | Azithromycin | Zitromax / Azitro | RX | — |
-| medium | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Thiocilline | PHARMACY | — |
-| medium | Calcium carbonate (antacid) | Rennie | PHARMACY | — |
-| medium | Cetirizine | Zyrtec | PHARMACY | — |
-| medium | Ciprofloxacin | Cipro / Ciproxin | RX | — |
-| medium | Clopidogrel | Plavix | RX | — |
-| medium | Clotrimazole | Canesten | PHARMACY | — |
-| medium | Diclofenac (topical gel) | Voltaren Emulgel | PHARMACY | — |
-| medium | Dimenhydrinate | Sold generic as "Dimenhidrinat" | UNCONFIRMED | — |
-| medium | Diphenhydramine | Sold generic as "Difenhidramin" | UNCONFIRMED | — |
-| medium | Doxycycline | Tetradox / Monodoks | RX | — |
-| medium | Empagliflozin | Jardiance | RX | — |
-| medium | Epinephrine (adrenaline auto-injector) | Penepin | RX | — |
-| medium | Fluoxetine | Prozac | RX | — |
-| medium | Furosemide | Lasix | RX | — |
-| medium | Gabapentin | Neurontin | RX | — |
-| medium | Ibuprofen | Nurofen / generic ibuprofen | OTC | — |
-| medium | Insulin Aspart | NovoRapid | RX | — |
-| medium | Insulin Degludec | Tresiba | RX | — |
-| medium | Insulin Detemir | Levemir | RX | — |
-| medium | Insulin Glargine | Lantus | RX | — |
-| medium | Insulin Human (Regular) | Actrapid / Humulin R | RX | — |
-| medium | Insulin Isophane (NPH) | Humulin N / Insulatard | RX | — |
-| medium | Insulin Lispro | Humalog | RX | — |
-| medium | Levonorgestrel (emergency contraception) | Norlevo | PHARMACY | — |
-| medium | Levothyroxine | Euthyrox | RX | — |
-| medium | Lisinopril | Sold generic as "Lisinopril" | RX | — |
-| medium | Loperamide | Imodium | OTC | — |
-| medium | Loratadine | Sold generic as "Loratadin" | UNCONFIRMED | — |
-| medium | Losartan | Sold generic as "Losartan" | RX | — |
-| medium | Melatonin | Sold generic as "Melatonin" | UNCONFIRMED | — |
-| medium | Metformin | Glucophage | RX | — |
-| medium | Metoprolol | Beloc | RX | — |
-| medium | Montelukast | Singulair | RX | — |
-| medium | Naproxen | Apranax / Naprosyn | RX | — |
-| medium | Ondansetron | Zofran / Zofer | RX | — |
-| medium | Oxymetazoline (nasal spray) | Iliadin | PHARMACY | — |
-| medium | Pantoprazole | Sold generic as "Pantoprazol" | RX | — |
-| medium | Rosuvastatin | Crestor | RX | — |
-| medium | Salbutamol | Ventolin | RX | — |
-| medium | Semaglutide | Ozempic | RX | — |
-| medium | Simeticone | Metsil | PHARMACY | — |
-| medium | Simvastatin | Zocor | RX | — |
+| high ✓ | Alprazolam | Xanax | CONTROLLED ⚠ | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| high ✓ | Carvedilol | Dilatrend | RX | T3 [ilacabak.com](https://www.ilacabak.com/dilatrend-12-5-mg-30-tablet-24026) |
+| high ✓ | Duloxetine | Cymbalta | RX | T3 [ilacabak.com](https://www.ilacabak.com/cymbalta-30-mg-28-kapsul-7375) |
+| high ✓ | Escitalopram | Cipralex | RX | T3 [drugs.com](https://www.drugs.com/international/escitalopram.html) |
+| high ✓ | Meloxicam | Melcam / Melox | RX | T3 [antalyaeo.org.tr](https://www.antalyaeo.org.tr/tr/m/turk-eczacilari-birligi/mobic-7-5-mg-tb-mobic-15-mg-tb-ve-mobic-15-mg-supp-isimli-mustahzarlar-hk-.html) |
+| high ✓ | Methylphenidate | Concerta / Ritalin | CONTROLLED ⚠ | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| high ✓ | Omeprazole | Omeprol / Demeprazol | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| high ✓ | Oxycodone | Oxopane | CONTROLLED ⚠ | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| high ✓ | Paracetamol | Parol | OTC | T3 [atabay.com](https://www.atabay.com/en/ilac/parol-500-mg-tablet-30-tablet-blister-2-2/) |
+| high ✓ | Sertraline | Lustral | RX | T3 [medikalakademi.com.tr](https://www.medikalakademi.com.tr/lustral-sertralin-nedir-ne-icin-kullanilir-yan-etkileri-nelerdir/) |
+| high ✓ | Tramadol | Contramal | CONTROLLED ⚠ | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| high ✓ | Trazodone | Desyrel | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Acetazolamide | Diazomid | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Acetylsalicylic acid (Aspirin) | Aspirin / Ecopirin | OTC | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Amlodipine | Norvasc | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Amoxicillin | Sold generic as "Amoksisilin" | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Apixaban | Eliquis | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Atorvastatin | Lipitor | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Azithromycin | Zitromax / Azitro | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Thiocilline | PHARMACY | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Bisacodyl | Bekunis | PHARMACY | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Bismuth subsalicylate | Bizmopeptol / Bizmopen | OTC | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Bupropion | Wellbutrin | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Calcium carbonate (antacid) | Rennie | PHARMACY | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Cetirizine | Zyrtec | PHARMACY | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Ciprofloxacin | Cipro | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Clopidogrel | Plavix | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Clotrimazole | Canesten | PHARMACY | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Dextromethorphan | Sold generic as "Dekstrometorfan" | PHARMACY | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Diclofenac (topical gel) | Voltaren Emulgel | PHARMACY | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Dimenhydrinate | Sold generic as "Dimenhidrinat" | UNCONFIRMED | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Diphenhydramine | Sold generic as "Difenhidramin" | UNCONFIRMED | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Doxycycline | Tetradox / Monodoks | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Doxylamine | Unisom | PHARMACY | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Empagliflozin | Jardiance | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Epinephrine (adrenaline auto-injector) | Penepin | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Famotidine | Famodin | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Fexofenadine | Sold generic as "Feksofenadin" | OTC | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Fluoxetine | Prozac | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Fluticasone | Flixonase | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Furosemide | Lasix | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Gabapentin | Neurontin | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Guaifenesin | Sold generic as "Guaifenesin" | PHARMACY | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Hydrochlorothiazide | Sold generic as "Hidroklorotiyazid" | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Hydrocortisone (cream) | Sold generic as "Hidrokortizon krem" | OTC | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Ibuprofen | Nurofen / generic ibuprofen | OTC | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Insulin Aspart | NovoRapid | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Insulin Degludec | Tresiba | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Insulin Detemir | Levemir | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Insulin Glargine | Lantus | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Insulin Human (Regular) | Actrapid / Humulin R | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Insulin Isophane (NPH) | Humulin N / Insulatard | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Insulin Lispro | Humalog | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Levonorgestrel (emergency contraception) | Norlevo | PHARMACY | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Levothyroxine | Euthyrox | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Lisinopril | Sold generic as "Lisinopril" | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Loperamide | Lopermid | OTC | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Loratadine | Sold generic as "Loratadin" | UNCONFIRMED | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Losartan | Sold generic as "Losartan" | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Meclozine | Prizin / Meklifem (with vitamin B6) | OTC | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Melatonin | Sold generic as "Melatonin" | UNCONFIRMED | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Metformin | Glifor / Matofin | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Metoprolol | Beloc | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Montelukast | Singulair | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Naproxen | Apranax / Naprosyn | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Ondansetron | Zofer | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Oral rehydration salts | Ask for "oral rehidrasyon tuzu" (ORS) | PHARMACY | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Oxymetazoline (nasal spray) | Iliadin | PHARMACY | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Pantoprazole | Sold generic as "Pantoprazol" | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Polyethylene glycol 3350 (macrogol) | Sold generic as "Makrogol" | OTC | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Pseudoephedrine | Coldaway (with ibuprofen) | MIXED | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Rosuvastatin | Crestor | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Salbutamol | Ventolin | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Semaglutide | Ozempic | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Simeticone | Metsil | PHARMACY | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Simvastatin | Lipvakol / Simta | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
+| medium ✓ | Tamsulosin | Flomax | RX | T3 [titck.gov.tr](https://www.titck.gov.tr/dinamikmodul/85) |
 | low | Amphetamine / Dextroamphetamine | Not commonly available | CONTROLLED ⚠ | — |
 | low | Atovaquone / Proguanil | Not commonly available | UNAVAILABLE | — |
-| low | Bisacodyl | Bekunis | PHARMACY | — |
-| low | Bismuth subsalicylate | Not commonly available | UNAVAILABLE | — |
-| low | Bupropion | Wellbutrin | RX | — |
-| low | Dextromethorphan | Sold generic as "Dekstrometorfan" | UNCONFIRMED | — |
-| low | Doxylamine | Unisom | PHARMACY | — |
-| low | Famotidine | Famodin | RX | — |
-| low | Fexofenadine | Sold generic as "Feksofenadin" | UNCONFIRMED | — |
-| low | Fluticasone | Flixonase | RX | — |
-| low | Guaifenesin | Sold generic as "Guaifenesin" | UNCONFIRMED | — |
-| low | Hydrochlorothiazide | Sold generic as "Hidroklorotiyazid" | RX | — |
 | low | Hydrocodone / Paracetamol combination | Not commonly available | CONTROLLED ⚠ | — |
-| low | Hydrocortisone (cream) | Sold generic as "Hidrokortizon krem" | UNCONFIRMED | — |
-| low | Meclozine | Sold generic as "Meklizin" | UNCONFIRMED | — |
-| low | Methylphenidate | Concerta / Ritalin — controlled | CONTROLLED ⚠ | — |
-| low | Oral rehydration salts | Ask for "oral rehidrasyon tuzu" (ORS) | PHARMACY | — |
-| low | Oxycodone | Availability and import rules unconfirmed — treat as tightly controlled | UNCONFIRMED | — |
-| low | Polyethylene glycol 3350 (macrogol) | Sold generic as "Makrogol" | UNCONFIRMED | — |
 | low | Prednisone | Deltacortril (prednisolone) is the more commonly used equivalent | UNCONFIRMED | — |
-| low | Pseudoephedrine | Ask by generic name | CONTROLLED ⚠ | — |
 | low | Scopolamine (motion-sickness patch) | Not commonly available | UNAVAILABLE | — |
-| low | Tamsulosin | Omnic | RX | — |
-| low | Tramadol | Availability and import rules unconfirmed — treat as tightly controlled | UNCONFIRMED | — |
 
-## 14. Morocco (MA) — score 27
+## 15. Morocco (MA) — score 27
 
 4 high · 37 medium · 41 low · sources: 0 official, 0 professional, 6 secondary, 76 none · 0 registry-verified
 
@@ -1235,7 +1324,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | medium | Sertraline | Zoloft | RX | — |
 | medium | Simvastatin | Zocor | RX | — |
 | low | Acetazolamide | Diamox | RX | — |
-| low | Alprazolam | Availability and import rules unconfirmed — treat as tightly controlled | UNCONFIRMED | — |
+| low | Alprazolam | Availability and import rules not known. Assume it is tightly controlled | UNCONFIRMED | — |
 | low | Amphetamine / Dextroamphetamine | Not commonly available | CONTROLLED ⚠ | — |
 | low | Atovaquone / Proguanil | Not commonly available | UNAVAILABLE | — |
 | low | Azithromycin | Zithromax | RX | — |
@@ -1263,107 +1352,18 @@ when the data was researched; the tiers show how much evidence actually backs th
 | low | Insulin Isophane (NPH) | Insulatard | RX | — |
 | low | Insulin Lispro | Humalog | RX | — |
 | low | Meclozine | Agyrax | PHARMACY | — |
-| low | Methylphenidate | Availability and import rules unconfirmed — treat as tightly controlled | UNCONFIRMED | — |
+| low | Methylphenidate | Availability and import rules not known. Assume it is tightly controlled | UNCONFIRMED | — |
 | low | Naproxen | Apranax | RX | — |
 | low | Ondansetron | Zophren | RX | — |
 | low | Oral rehydration salts | Ask for "sels de réhydratation orale" (SRO) | PHARMACY | — |
-| low | Oxycodone | Availability and import rules unconfirmed — treat as tightly controlled | UNCONFIRMED | — |
+| low | Oxycodone | Availability and import rules not known. Assume it is tightly controlled | UNCONFIRMED | — |
 | low | Oxymetazoline (nasal spray) | Sold generic as "Oxymétazoline" | UNCONFIRMED | — |
 | low | Prednisone | Cortancyl | RX | — |
 | low | Scopolamine (motion-sickness patch) | Not commonly available | UNAVAILABLE | — |
 | low | Semaglutide | Ozempic | RX | — |
 | low | Simeticone | Sold generic as "Siméticone" | UNCONFIRMED | — |
 | low | Tamsulosin | Omix | RX | — |
-| low | Tramadol | Availability and import rules unconfirmed — treat as tightly controlled | UNCONFIRMED | — |
-
-## 15. Vietnam (VN) — score 21
-
-7 high · 20 medium · 55 low · sources: 0 official, 0 professional, 6 secondary, 76 none · 0 registry-verified
-
-| Confidence | Medicine | Sold as | Status | Source |
-|---|---|---|---|---|
-| high | Carvedilol | Dilatrend | RX | T3 [bvnguyentriphuong.com.vn](https://bvnguyentriphuong.com.vn/kien-thuc-duoc-cho-cong-dong/dilatrend) |
-| high | Duloxetine | Cymbalta | RX | T3 [thuocbietduoc.com.vn](https://thuocbietduoc.com.vn/thuoc-60316/cymbalta.aspx) |
-| high | Fluticasone | Flixonase | RX | T3 [nhathuocankhang.com](https://nhathuocankhang.com/thuoc-xit-nho-mui/flixonase) |
-| high | Meloxicam | Mobic | RX | T3 [nhathuoclongchau.com.vn](https://nhathuoclongchau.com.vn/thuoc/mobic-75mg-2985.html) |
-| high | Omeprazole | Losec / generic omeprazole | RX | T3 [nhathuoclongchau.com.vn](https://nhathuoclongchau.com.vn/thuoc/losec-mups-20-1314.html) |
-| high | Sertraline | Zoloft | RX | T3 [nhathuoclongchau.com.vn](https://nhathuoclongchau.com.vn/thuoc/zoloft-50mg-pfizer-3x10-21685.html) |
-| high | Paracetamol | Panadol | OTC | — |
-| medium | Acetylsalicylic acid (Aspirin) | Aspirin (spelling unchanged) | OTC | — |
-| medium | Amoxicillin | Sold generic — enforcement of the Rx requirement has historically been loose | RX | — |
-| medium | Azithromycin | Zitromax | RX | — |
-| medium | Cetirizine | Zyrtec | OTC | — |
-| medium | Ciprofloxacin | Ciprobay | RX | — |
-| medium | Clotrimazole | Canesten | OTC | — |
-| medium | Diclofenac (topical gel) | Voltaren Emulgel | OTC | — |
-| medium | Dimenhydrinate | Sold generic as "Dimenhydrinate" | UNCONFIRMED | — |
-| medium | Diphenhydramine | Sold generic as "Diphenhydramine" | UNCONFIRMED | — |
-| medium | Doxycycline | Sold generic | RX | — |
-| medium | Fexofenadine | Telfast | OTC | — |
-| medium | Ibuprofen | Advil / generic ibuprofen | OTC | — |
-| medium | Levonorgestrel (emergency contraception) | Postinor | OTC | — |
-| medium | Loperamide | Imodium | OTC | — |
-| medium | Loratadine | Clarityne | OTC | — |
-| medium | Melatonin | Sold generic as "Melatonin" | UNCONFIRMED | — |
-| medium | Metformin | Glucophage | RX | — |
-| medium | Oral rehydration salts | Oresol | OTC | — |
-| medium | Polyethylene glycol 3350 (macrogol) | Forlax | OTC | — |
-| medium | Salbutamol | Ventolin | PHARMACY | — |
-| low | Acetazolamide | Sold generic as "Acetazolamid" | RX | — |
-| low | Alprazolam | Availability and import rules unconfirmed — treat as tightly controlled | UNCONFIRMED | — |
-| low | Amlodipine | Norvasc | RX | — |
-| low | Amphetamine / Dextroamphetamine | Not commonly available | CONTROLLED ⚠ | — |
-| low | Apixaban | Eliquis | RX | — |
-| low | Atorvastatin | Lipitor | RX | — |
-| low | Atovaquone / Proguanil | Not commonly available | UNAVAILABLE | — |
-| low | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Ask for an antibiotic ointment | UNCONFIRMED | — |
-| low | Bisacodyl | Sold generic as "Bisacodyl" | UNCONFIRMED | — |
-| low | Bismuth subsalicylate | Not commonly available | UNAVAILABLE | — |
-| low | Bupropion | Availability unconfirmed | UNCONFIRMED | — |
-| low | Calcium carbonate (antacid) | Ask for an antacid | UNCONFIRMED | — |
-| low | Clopidogrel | Plavix | RX | — |
-| low | Dextromethorphan | Sold generic as "Dextromethorphan" | UNCONFIRMED | — |
-| low | Doxylamine | Sold generic as "Doxylamine" | UNCONFIRMED | — |
-| low | Empagliflozin | Jardiance | RX | — |
-| low | Epinephrine (adrenaline auto-injector) | Not commonly available | UNAVAILABLE | — |
-| low | Escitalopram | Lexapro / Cipralex | RX | — |
-| low | Famotidine | Pepcid | OTC | — |
-| low | Fluoxetine | Prozac | RX | — |
-| low | Furosemide | Lasix | RX | — |
-| low | Gabapentin | Neurontin | RX | — |
-| low | Guaifenesin | Sold generic as "Guaifenesin" | UNCONFIRMED | — |
-| low | Hydrochlorothiazide | Sold generic as "Hydrochlorothiazide" | RX | — |
-| low | Hydrocodone / Paracetamol combination | Not commonly available | CONTROLLED ⚠ | — |
-| low | Hydrocortisone (cream) | Sold generic as "Hydrocortisone cream" | UNCONFIRMED | — |
-| low | Insulin Aspart | NovoRapid | RX | — |
-| low | Insulin Degludec | Tresiba | RX | — |
-| low | Insulin Detemir | Levemir | RX | — |
-| low | Insulin Glargine | Lantus | RX | — |
-| low | Insulin Human (Regular) | Actrapid | RX | — |
-| low | Insulin Isophane (NPH) | Insulatard | RX | — |
-| low | Insulin Lispro | Humalog | RX | — |
-| low | Levothyroxine | Sold generic as "Levothyroxine" | RX | — |
-| low | Lisinopril | Sold generic as "Lisinopril" | RX | — |
-| low | Losartan | Cozaar | RX | — |
-| low | Meclozine | Sold generic as "Meclizine" | UNCONFIRMED | — |
-| low | Methylphenidate | Availability and import rules unconfirmed — treat as tightly controlled | UNCONFIRMED | — |
-| low | Metoprolol | Betaloc | RX | — |
-| low | Montelukast | Singulair | RX | — |
-| low | Naproxen | Sold generic as "Naproxen" | UNCONFIRMED | — |
-| low | Ondansetron | Sold generic | RX | — |
-| low | Oxycodone | Availability and import rules unconfirmed — treat as tightly controlled | UNCONFIRMED | — |
-| low | Oxymetazoline (nasal spray) | Sold generic as "Oxymetazoline" | UNCONFIRMED | — |
-| low | Pantoprazole | Pantoloc | RX | — |
-| low | Prednisone | Prednisolone is the more commonly used equivalent | UNCONFIRMED | — |
-| low | Pseudoephedrine | Ask by generic name | CONTROLLED ⚠ | — |
-| low | Rosuvastatin | Crestor | RX | — |
-| low | Scopolamine (motion-sickness patch) | Not commonly available | UNAVAILABLE | — |
-| low | Semaglutide | Ozempic | RX | — |
-| low | Simeticone | Espumisan | OTC | — |
-| low | Simvastatin | Zocor | RX | — |
-| low | Tamsulosin | Flomax | RX | — |
-| low | Tramadol | Availability and import rules unconfirmed — treat as tightly controlled | UNCONFIRMED | — |
-| low | Trazodone | Availability unconfirmed | UNCONFIRMED | — |
+| low | Tramadol | Availability and import rules not known. Assume it is tightly controlled | UNCONFIRMED | — |
 
 ## 16. Ethiopia (ET) — score 9
 
@@ -1387,9 +1387,9 @@ when the data was researched; the tiers show how much evidence actually backs th
 | medium | Oral rehydration salts | Ask for "ORS" sachets | OTC | — |
 | medium | Sertraline | Sold generic as "Sertraline" | RX | — |
 | low | Acetazolamide | Sold generic as "Acetazolamide" | RX | — |
-| low | Alprazolam | Availability and import rules unconfirmed — treat as tightly controlled | UNCONFIRMED | — |
+| low | Alprazolam | Availability and import rules not known. Assume it is tightly controlled | UNCONFIRMED | — |
 | low | Amlodipine | Sold generic as "Amlodipine" | RX | — |
-| low | Amphetamine / Dextroamphetamine | Availability and import rules unconfirmed — treat as tightly controlled | UNCONFIRMED | — |
+| low | Amphetamine / Dextroamphetamine | Availability and import rules not known. Assume it is tightly controlled | UNCONFIRMED | — |
 | low | Apixaban | Sold generic as "Apixaban" | RX | — |
 | low | Atorvastatin | Sold generic as "Atorvastatin" | RX | — |
 | low | Atovaquone / Proguanil | Not commonly available | UNAVAILABLE | — |
@@ -1416,7 +1416,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | low | Gabapentin | Sold generic as "Gabapentin" | UNCONFIRMED | — |
 | low | Guaifenesin | Sold generic as "Guaifenesin" | UNCONFIRMED | — |
 | low | Hydrochlorothiazide | Sold generic as "Hydrochlorothiazide" | RX | — |
-| low | Hydrocodone / Paracetamol combination | Availability and import rules unconfirmed — treat as tightly controlled | UNCONFIRMED | — |
+| low | Hydrocodone / Paracetamol combination | Availability and import rules not known. Assume it is tightly controlled | UNCONFIRMED | — |
 | low | Hydrocortisone (cream) | Sold generic as "Hydrocortisone cream" | UNCONFIRMED | — |
 | low | Insulin Aspart | Sold generic as "Insulin aspart" | RX | — |
 | low | Insulin Degludec | Sold generic as "Insulin degludec" | RX | — |
@@ -1433,12 +1433,12 @@ when the data was researched; the tiers show how much evidence actually backs th
 | low | Meclozine | Sold generic as "Meclizine" | UNCONFIRMED | — |
 | low | Melatonin | Sold generic as "Melatonin" | UNCONFIRMED | — |
 | low | Meloxicam | Sold generic as "Meloxicam" | RX | — |
-| low | Methylphenidate | Availability and import rules unconfirmed — treat as tightly controlled | UNCONFIRMED | — |
+| low | Methylphenidate | Availability and import rules not known. Assume it is tightly controlled | UNCONFIRMED | — |
 | low | Metoprolol | Sold generic as "Metoprolol" | RX | — |
 | low | Montelukast | Sold generic as "Montelukast" | RX | — |
 | low | Naproxen | Sold generic as "Naproxen" | UNCONFIRMED | — |
 | low | Ondansetron | Sold under the generic name "Ondansetron" | RX | — |
-| low | Oxycodone | Availability and import rules unconfirmed — treat as tightly controlled | UNCONFIRMED | — |
+| low | Oxycodone | Availability and import rules not known. Assume it is tightly controlled | UNCONFIRMED | — |
 | low | Oxymetazoline (nasal spray) | Sold generic as "Oxymetazoline" | UNCONFIRMED | — |
 | low | Pantoprazole | Sold generic as "Pantoprazole" | UNCONFIRMED | — |
 | low | Polyethylene glycol 3350 (macrogol) | Not commonly available | UNAVAILABLE | — |
@@ -1451,6 +1451,6 @@ when the data was researched; the tiers show how much evidence actually backs th
 | low | Simeticone | Sold generic as "Simethicone" | UNCONFIRMED | — |
 | low | Simvastatin | Sold generic as "Simvastatin" | RX | — |
 | low | Tamsulosin | Sold generic as "Tamsulosin" | RX | — |
-| low | Tramadol | Availability and import rules unconfirmed — treat as tightly controlled | UNCONFIRMED | — |
+| low | Tramadol | Availability and import rules not known. Assume it is tightly controlled | UNCONFIRMED | — |
 | low | Trazodone | Sold generic as "Trazodone" | RX | — |
 

@@ -1,0 +1,3480 @@
+{
+  "country": "ET",
+  "registry": "EFDA register of approved medicines (Ethiopia)",
+  "registryVersion": "4733 products, exported 2026-10-13; over-the-counter list, third edition, July 2022",
+  "checked": "2026-10-13",
+  "summary": {
+    "entries": 82,
+    "brandEntries": 2,
+    "brandEntriesConfirmed": 1,
+    "brandNames": 2,
+    "brandNamesConfirmed": 1,
+    "verified": 61,
+    "statusAgree": 43,
+    "statusDiffer": 2,
+    "statusNotComparable": 37,
+    "confidenceRaised": 56,
+    "flagged": 14
+  },
+  "entries": [
+    {
+      "id": "paracetamol",
+      "generic": "Paracetamol",
+      "brand": "Cadimol (Cadila Pharmaceuticals Ethiopia) or generic \"Paracetamol\"",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Cadimol",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "not in the EFDA register (for this ingredient it lists FIZZOPAR, ADOL, PARA, OPTIMOL, PORO, ARFEN)",
+          "products": []
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "11061/VAR/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "PARACETAMOL, ACETAMINOPHEN",
+        "currentRegistrations": 121,
+        "soldAs": [
+          "FIZZOPAR",
+          "ADOL",
+          "PARA",
+          "OPTIMOL",
+          "PORO",
+          "ARFEN"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "tablets, syrup, drops and suppositories"
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Brand \"Cadimol\" not confirmed: not in the EFDA register (for this ingredient it lists FIZZOPAR, ADOL, PARA, OPTIMOL, PORO, ARFEN)"
+      ]
+    },
+    {
+      "id": "ibuprofen",
+      "generic": "Ibuprofen",
+      "brand": "Sold under the generic name \"Ibuprofen\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "12190/NMR/2024",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "IBUPROFEN",
+        "currentRegistrations": 61,
+        "soldAs": [
+          "PROMED",
+          "IBUPROFEN",
+          "IBUT",
+          "IBUKANT",
+          "AXCEL",
+          "GOFEN"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "200 to 400 mg tablets or capsules, suspension and suppositories"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "12190/NMR/2024",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "loratadine",
+      "generic": "Loratadine",
+      "brand": "Sold generic as \"Loratadine\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "09906/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "LORATADINE",
+        "currentRegistrations": 19,
+        "soldAs": [
+          "TIDILOR",
+          "LORATYN",
+          "LORADINE",
+          "LOREZE",
+          "REMIDINE",
+          "XYDILOR"
+        ]
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "NO_RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "10 mg tablets and syrup"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "09906/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "cetirizine",
+      "generic": "Cetirizine",
+      "brand": "Sold under the generic name \"Cetirizine\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10488/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "CETIRIZINE",
+        "currentRegistrations": 15,
+        "soldAs": [
+          "CETRIPINN",
+          "ZIRIN",
+          "CETRISCOT",
+          "ENCOCET",
+          "AXCEL",
+          "CETMED"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "RX",
+        "result": "differ",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10488/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Status differs: entry OTC, registry RX"
+      ]
+    },
+    {
+      "id": "diphenhydramine",
+      "generic": "Diphenhydramine",
+      "brand": "Sold generic as \"Diphenhydramine\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10371/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "DIPHENHYDRAM",
+        "currentRegistrations": 7,
+        "soldAs": [
+          "DIPHENHYDRAMINE",
+          "KOFDRYL"
+        ]
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "only in combinations: a cough syrup with sodium citrate and ammonium chloride, and a cold tablet with paracetamol and pseudoephedrine"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10371/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "loperamide",
+      "generic": "Loperamide",
+      "brand": "Sold under the generic name \"Loperamide\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10287/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "LOPERAMIDE",
+        "currentRegistrations": 4,
+        "soldAs": [
+          "LOPA",
+          "COLODIUM",
+          "KOMIDE"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "RX",
+        "result": "differ",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10287/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Status differs: entry OTC, registry RX"
+      ]
+    },
+    {
+      "id": "omeprazole",
+      "generic": "Omeprazole",
+      "brand": "Sold generic as \"Omeprazole\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "09984/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "OMEPRAZOLE",
+        "currentRegistrations": 54,
+        "soldAs": [
+          "OMEPRAZOLE",
+          "MEDOPRAZOLE",
+          "PYLORID",
+          "RISEK",
+          "OMENOR",
+          "OMESCOT"
+        ]
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "09984/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "pseudoephedrine",
+      "generic": "Pseudoephedrine",
+      "brand": "Sold generic as \"Pseudoephedrine\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "09707/REN/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "PSEUDOEPHEDR",
+        "currentRegistrations": 9,
+        "soldAs": []
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "only in combinations: cold and allergy combinations (with loratadine, paracetamol, ibuprofen or cough medicines)"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "09707/REN/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "melatonin",
+      "generic": "Melatonin",
+      "brand": "Sold generic as \"Melatonin\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "MELATONIN",
+        "currentRegistrations": 0,
+        "soldAs": []
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": [
+        "Ingredient not found in this registry"
+      ]
+    },
+    {
+      "id": "dimenhydrinate",
+      "generic": "Dimenhydrinate",
+      "brand": "Sold generic as \"Dimenhydrinate\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "DIMENHYDRINA",
+        "currentRegistrations": 0,
+        "soldAs": []
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "NO_RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "50 mg tablets"
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": [
+        "Ingredient not found in this registry"
+      ]
+    },
+    {
+      "id": "amoxicillin",
+      "generic": "Amoxicillin",
+      "brand": "Sold under the generic name \"Amoxicillin\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "14140/NMR/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "AMOXICILLIN",
+        "currentRegistrations": 140,
+        "soldAs": [
+          "AMOXICILLIN",
+          "MOXICOR",
+          "MOXVID",
+          "AMYN",
+          "MILOXY",
+          "MOXIPIL"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "14140/NMR/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "metformin",
+      "generic": "Metformin",
+      "brand": "Sold generic as \"Metformin\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10267/VAR/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "METFORMIN",
+        "currentRegistrations": 115,
+        "soldAs": [
+          "GLUCOPHAGE",
+          "DIALON",
+          "METSAFE",
+          "AARTMIN",
+          "MF",
+          "METFORMIN"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10267/VAR/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "sertraline",
+      "generic": "Sertraline",
+      "brand": "Sold generic as \"Sertraline\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "13863/NMR/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "SERTRALINE",
+        "currentRegistrations": 5,
+        "soldAs": [
+          "ANDEP",
+          "AURASERT",
+          "ZENSETRA",
+          "SETROF"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "13863/NMR/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "albuterol",
+      "generic": "Salbutamol",
+      "brand": "Sold under the generic name \"Salbutamol\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10019/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "SALBUTAMOL",
+        "currentRegistrations": 26,
+        "soldAs": [
+          "LEBASMA",
+          "SALBESCOT",
+          "CYNVENT",
+          "SALBUTAMOL",
+          "AZMASOL",
+          "VENTOLIN"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "inhaler (0.1 mg a dose) and syrup"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10019/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "atorvastatin",
+      "generic": "Atorvastatin",
+      "brand": "Sold generic as \"Atorvastatin\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10925/VAR/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "ATORVASTATIN",
+        "currentRegistrations": 38,
+        "soldAs": [
+          "ATSTAT",
+          "COLESTOP",
+          "ATROX",
+          "SCOLIP",
+          "ATORKEY",
+          "ATEROZ"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10925/VAR/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "levothyroxine",
+      "generic": "Levothyroxine",
+      "brand": "Sold generic as \"Levothyroxine\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "11404/NMR/2023",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "LEVOTHYROXIN",
+        "currentRegistrations": 12,
+        "soldAs": [
+          "THYROAPT",
+          "EUTHYROX",
+          "LEVOTHEX",
+          "THYROX"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "11404/NMR/2023",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "lisinopril",
+      "generic": "Lisinopril",
+      "brand": "Sold generic as \"Lisinopril\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "09358/VAR/2024",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "LISINOPRIL",
+        "currentRegistrations": 6,
+        "soldAs": [
+          "DAPRIL",
+          "AUROLIZA"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "09358/VAR/2024",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amlodipine",
+      "generic": "Amlodipine",
+      "brand": "Sold generic as \"Amlodipine\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "09853/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "AMLODIPINE",
+        "currentRegistrations": 70,
+        "soldAs": [
+          "AMLO",
+          "AMLIBON",
+          "LOTENSE",
+          "KARDAM",
+          "AMLOZ",
+          "AMLOTRIX"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "09853/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "metoprolol",
+      "generic": "Metoprolol",
+      "brand": "Sold generic as \"Metoprolol\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10688/VAR/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "METOPROLOL",
+        "currentRegistrations": 15,
+        "soldAs": [
+          "BETALOC",
+          "XIELOL",
+          "BETABLOK",
+          "METOSTOP",
+          "JUVETA",
+          "MET"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10688/VAR/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "losartan",
+      "generic": "Losartan",
+      "brand": "Sold generic as \"Losartan\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10357/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "LOSARTAN",
+        "currentRegistrations": 21,
+        "soldAs": [
+          "LOSAR",
+          "CZARTAN",
+          "LOSAN",
+          "LOSALIP",
+          "LOSACOR",
+          "LOSIUM"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10357/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "gabapentin",
+      "generic": "Gabapentin",
+      "brand": "Sold generic as \"Gabapentin\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10261/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "GABAPENTIN",
+        "currentRegistrations": 10,
+        "soldAs": [
+          "CONVENTIN",
+          "GABALIN",
+          "NURONA",
+          "ONEGABA",
+          "ABLEPT",
+          "NEURAN"
+        ]
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10261/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "rosuvastatin",
+      "generic": "Rosuvastatin",
+      "brand": "Sold generic as \"Rosuvastatin\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10299/VAR/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "ROSUVASTATIN",
+        "currentRegistrations": 54,
+        "soldAs": [
+          "LDNIL",
+          "CRESTOR",
+          "STATINOR",
+          "ROSUNOR",
+          "ROFAST",
+          "ROSUVASTATIN"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10299/VAR/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "pantoprazole",
+      "generic": "Pantoprazole",
+      "brand": "Sold generic as \"Pantoprazole\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10211/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "PANTOPRAZOLE",
+        "currentRegistrations": 44,
+        "soldAs": [
+          "PANDEV",
+          "PANTONOR",
+          "PANTOPRAZOLE",
+          "ULTOP",
+          "PANTO",
+          "TOPRAZ"
+        ]
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10211/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "escitalopram",
+      "generic": "Escitalopram",
+      "brand": "Sold generic as \"Escitalopram\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10045/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "ESCITALOPRAM",
+        "currentRegistrations": 4,
+        "soldAs": [
+          "ESLOZ",
+          "ESCIPRA",
+          "ASITALOX"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10045/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "amphetamine",
+      "generic": "Amphetamine / Dextroamphetamine",
+      "brand": "Availability and import rules not known. Assume it is tightly controlled",
+      "kind": "other",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "AMPHETAMINE, AMFETAMINE, DEXAMFETAMINE, DEXTROAMPHETAMINE",
+        "currentRegistrations": 0,
+        "soldAs": []
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrochlorothiazide",
+      "generic": "Hydrochlorothiazide",
+      "brand": "Sold generic as \"Hydrochlorothiazide\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10305/NMR/2022",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "HYDROCHLOROT",
+        "currentRegistrations": 40,
+        "soldAs": [
+          "EMCHLOROTHIAZIDE",
+          "CORZIDE",
+          "LIRPLAN",
+          "HYDROCHLOTHIADE"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10305/NMR/2022",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "bupropion",
+      "generic": "Bupropion",
+      "brand": "Sold generic as \"Bupropion\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "BUPROPION",
+        "currentRegistrations": 0,
+        "soldAs": []
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": [
+        "Ingredient not found in this registry"
+      ]
+    },
+    {
+      "id": "fluoxetine",
+      "generic": "Fluoxetine",
+      "brand": "Sold generic as \"Fluoxetine\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "13599/NMR/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "FLUOXETINE",
+        "currentRegistrations": 12,
+        "soldAs": [
+          "FLOTIUM",
+          "SHICK",
+          "PRONIL",
+          "FLUOXE",
+          "ADEP",
+          "FLUXISCOT"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "13599/NMR/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "semaglutide",
+      "generic": "Semaglutide",
+      "brand": "Sold generic as \"Semaglutide\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "SEMAGLUTIDE",
+        "currentRegistrations": 0,
+        "soldAs": []
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": [
+        "Ingredient not found in this registry"
+      ]
+    },
+    {
+      "id": "montelukast",
+      "generic": "Montelukast",
+      "brand": "Sold generic as \"Montelukast\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "09481/VAR/2024",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "MONTELUKAST",
+        "currentRegistrations": 33,
+        "soldAs": [
+          "BREATHEZY",
+          "M",
+          "LUKAST",
+          "ZESPIRA",
+          "DENK",
+          "PULMINAIR"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "09481/VAR/2024",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "trazodone",
+      "generic": "Trazodone",
+      "brand": "Sold generic as \"Trazodone\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "TRAZODONE",
+        "currentRegistrations": 0,
+        "soldAs": []
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": [
+        "Ingredient not found in this registry"
+      ]
+    },
+    {
+      "id": "simvastatin",
+      "generic": "Simvastatin",
+      "brand": "Sold generic as \"Simvastatin\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "09121/REN/2024",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "SIMVASTATIN",
+        "currentRegistrations": 7,
+        "soldAs": [
+          "SIMVASTATIN",
+          "SIMVA"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "09121/REN/2024",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "tamsulosin",
+      "generic": "Tamsulosin",
+      "brand": "Sold generic as \"Tamsulosin\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "09998/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "TAMSULOSIN",
+        "currentRegistrations": 7,
+        "soldAs": [
+          "FLOEZY",
+          "RELIZ",
+          "TAMSUMAC",
+          "OD"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "09998/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrocodone",
+      "generic": "Hydrocodone / Paracetamol combination",
+      "brand": "Availability and import rules not known. Assume it is tightly controlled",
+      "kind": "other",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "HYDROCODONE",
+        "currentRegistrations": 0,
+        "soldAs": []
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "fluticasone",
+      "generic": "Fluticasone",
+      "brand": "Sold generic as \"Fluticasone\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10763/NMR/2023",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "FLUTICASONE",
+        "currentRegistrations": 13,
+        "soldAs": [
+          "FLIXISONE"
+        ]
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10763/NMR/2023",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "meloxicam",
+      "generic": "Meloxicam",
+      "brand": "Sold generic as \"Meloxicam\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10259/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "MELOXICAM",
+        "currentRegistrations": 11,
+        "soldAs": [
+          "MOBYLE",
+          "MOBITIL",
+          "MELOCAM",
+          "ZIARTH",
+          "MELORIV",
+          "ZELOXIM"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10259/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "apixaban",
+      "generic": "Apixaban",
+      "brand": "Sold generic as \"Apixaban\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "12315/NMR/2024",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "APIXABAN",
+        "currentRegistrations": 22,
+        "soldAs": [
+          "APIBAN",
+          "APILTOX",
+          "FIXABAN",
+          "PIXAB",
+          "THROMBAN",
+          "AXIXA"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "12315/NMR/2024",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "furosemide",
+      "generic": "Furosemide",
+      "brand": "Sold generic as \"Furosemide\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "09950/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "FUROSEMIDE",
+        "currentRegistrations": 15,
+        "soldAs": [
+          "FURO",
+          "FERMI",
+          "LASIN",
+          "FUROMINN",
+          "FUROSCOT",
+          "UTENCORE"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "09950/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-glargine",
+      "generic": "Insulin Glargine",
+      "brand": "Sold generic as \"Insulin glargine\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "11265/VAR/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "INSULIN GLAR, INSULINE GLARGINE",
+        "currentRegistrations": 7,
+        "soldAs": [
+          "BASALIN",
+          "UNIGLAR",
+          "LANTUS",
+          "SEMGLEETM"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "11265/VAR/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-lispro",
+      "generic": "Insulin Lispro",
+      "brand": "Sold generic as \"Insulin lispro\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "INSULIN LISP, INSULINE LISPRO",
+        "currentRegistrations": 0,
+        "soldAs": []
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": [
+        "Ingredient not found in this registry"
+      ]
+    },
+    {
+      "id": "insulin-aspart",
+      "generic": "Insulin Aspart",
+      "brand": "Sold generic as \"Insulin aspart\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "14624/NMR/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "INSULIN ASPA, INSULINE ASPART",
+        "currentRegistrations": 3,
+        "soldAs": [
+          "RAPILIN",
+          "NOVORAPID",
+          "NOVOMIX"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "14624/NMR/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-regular",
+      "generic": "Insulin Human (Regular)",
+      "brand": "Sold generic as \"Soluble (regular) insulin\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "09521/VAR/2024",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "INSULIN HUMA, INSULINE HUMAINE, INSULIN REGULAR, INSULIN SOLUBLE, INSULIN SEMI SYNTHETIC, INSULIN INJECTION HUMAN",
+        "currentRegistrations": 14,
+        "soldAs": [
+          "ACTRAPID",
+          "INSULATARD",
+          "MIXTARD"
+        ]
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "09521/VAR/2024",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-nph",
+      "generic": "Insulin Isophane (NPH)",
+      "brand": "Sold generic as \"NPH (isophane) insulin\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "09521/VAR/2024",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "INSULIN ISOP, INSULINE HUMAINE, INSULINE ISOPHANE, ISOPHANE INSULIN, INSULIN HUMAN, INSULIN NPH",
+        "currentRegistrations": 13,
+        "soldAs": [
+          "ACTRAPID",
+          "INSULATARD",
+          "MIXTARD"
+        ]
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "09521/VAR/2024",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-detemir",
+      "generic": "Insulin Detemir",
+      "brand": "Sold generic as \"Insulin detemir\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "08116/VAR/2022",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "INSULIN DETE, INSULINE DETEMIR",
+        "currentRegistrations": 2,
+        "soldAs": [
+          "LEVEMIR"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "08116/VAR/2022",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-degludec",
+      "generic": "Insulin Degludec",
+      "brand": "Sold generic as \"Insulin degludec\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "INSULIN DEGL, INSULINE DEGLUDEC",
+        "currentRegistrations": 0,
+        "soldAs": []
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": [
+        "Ingredient not found in this registry"
+      ]
+    },
+    {
+      "id": "duloxetine",
+      "generic": "Duloxetine",
+      "brand": "Sold generic as \"Duloxetine\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "13616/NMR/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "DULOXETINE",
+        "currentRegistrations": 4,
+        "soldAs": [
+          "DULOCYM",
+          "DULOTOR"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "13616/NMR/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "famotidine",
+      "generic": "Famotidine",
+      "brand": "Sold generic as \"Famotidine\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "FAMOTIDINE",
+        "currentRegistrations": 0,
+        "soldAs": []
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": [
+        "Ingredient not found in this registry"
+      ]
+    },
+    {
+      "id": "empagliflozin",
+      "generic": "Empagliflozin",
+      "brand": "Sold generic as \"Empagliflozin\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "13536/NMR/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "EMPAGLIFLOZI",
+        "currentRegistrations": 20,
+        "soldAs": [
+          "EMPARAN",
+          "XIGPA",
+          "EMPALIZ",
+          "EFLOZIN",
+          "MELLITOFIX",
+          "OMPAGLIF"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "13536/NMR/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "carvedilol",
+      "generic": "Carvedilol",
+      "brand": "Sold generic as \"Carvedilol\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10137/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "CARVEDILOL",
+        "currentRegistrations": 12,
+        "soldAs": [
+          "CARCET",
+          "CORONIS",
+          "CARVIDOL",
+          "CARVE",
+          "CARVEDI",
+          "CARVEDILOL"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10137/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "tramadol",
+      "generic": "Tramadol",
+      "brand": "Availability and import rules not known. Assume it is tightly controlled",
+      "kind": "other",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "14074/NMR/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "TRAMADOL",
+        "currentRegistrations": 36,
+        "soldAs": [
+          "TRAMEX",
+          "RAMGIC",
+          "MABRON",
+          "TRAMADOL",
+          "T",
+          "TOLAX"
+        ]
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "alprazolam",
+      "generic": "Alprazolam",
+      "brand": "Availability and import rules not known. Assume it is tightly controlled",
+      "kind": "other",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "ALPRAZOLAM",
+        "currentRegistrations": 0,
+        "soldAs": []
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "prednisone",
+      "generic": "Prednisone",
+      "brand": "Sold generic as \"Prednisone\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "09530/REN/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "PREDNISONE",
+        "currentRegistrations": 4,
+        "soldAs": [
+          "PROCORTISONE",
+          "ROMEZON"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "09530/REN/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "clopidogrel",
+      "generic": "Clopidogrel",
+      "brand": "Sold generic as \"Clopidogrel\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10231/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "CLOPIDOGREL",
+        "currentRegistrations": 22,
+        "soldAs": [
+          "CLOPIX",
+          "CLOPI",
+          "PLASEP",
+          "CAPLOR",
+          "PEDOVEX",
+          "PLAVIX"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10231/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "aspirin",
+      "generic": "Acetylsalicylic acid (Aspirin)",
+      "brand": "Sold under the generic name \"Aspirin\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "14353/NMR/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "ACETYLSALICY, ASPIRIN",
+        "currentRegistrations": 3,
+        "soldAs": [
+          "ASPIRIN",
+          "ASPI"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "300 and 500 mg tablets"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "14353/NMR/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "oxycodone",
+      "generic": "Oxycodone",
+      "brand": "Availability and import rules not known. Assume it is tightly controlled",
+      "kind": "other",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "OXYCODONE",
+        "currentRegistrations": 0,
+        "soldAs": []
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "methylphenidate",
+      "generic": "Methylphenidate",
+      "brand": "Availability and import rules not known. Assume it is tightly controlled",
+      "kind": "other",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "METHYLPHENID",
+        "currentRegistrations": 0,
+        "soldAs": []
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "naproxen",
+      "generic": "Naproxen",
+      "brand": "Sold generic as \"Naproxen\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10440/NMR/2022",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "NAPROXEN",
+        "currentRegistrations": 2,
+        "soldAs": [
+          "NAPROFF",
+          "ALEVE"
+        ]
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10440/NMR/2022",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "diclofenac-gel",
+      "generic": "Diclofenac (topical gel)",
+      "brand": "Sold generic as \"Diclofenac gel\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10919/VAR/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "DICLOFENAC",
+        "currentRegistrations": 94,
+        "soldAs": [
+          "DICLOFENAC",
+          "VOLTAREN",
+          "DICLOSAFE",
+          "DITS",
+          "DOFEC",
+          "RELAXO"
+        ]
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "NO_RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "gel, 1% to 2.32%"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10919/VAR/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "fexofenadine",
+      "generic": "Fexofenadine",
+      "brand": "Sold generic as \"Fexofenadine\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "09758/NMR/2022",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "FEXOFENADINE",
+        "currentRegistrations": 2,
+        "soldAs": [
+          "FEXOSWIFT"
+        ]
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "09758/NMR/2022",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "guaifenesin",
+      "generic": "Guaifenesin",
+      "brand": "Sold generic as \"Guaifenesin\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10023/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "GUAIFENESIN, GUAIPHENESIN",
+        "currentRegistrations": 15,
+        "soldAs": [
+          "GUAIFENESIN",
+          "GUAIFEN",
+          "GUSUP"
+        ]
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "NO_RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "tablets, capsules and syrup"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10023/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "dextromethorphan",
+      "generic": "Dextromethorphan",
+      "brand": "Sold generic as \"Dextromethorphan\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "13875/NMR/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "DEXTROMETHOR",
+        "currentRegistrations": 13,
+        "soldAs": [
+          "DEPHAN",
+          "EASCOF",
+          "DEXGLO",
+          "SCOTTUS",
+          "MEDORPHAN"
+        ]
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "NO_RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "syrup"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "13875/NMR/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "oxymetazoline",
+      "generic": "Oxymetazoline (nasal spray)",
+      "brand": "Sold generic as \"Oxymetazoline\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "07120/NMR/2018",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "OXYMETAZOLIN",
+        "currentRegistrations": 1,
+        "soldAs": []
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "07120/NMR/2018",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "bismuth-subsalicylate",
+      "generic": "Bismuth subsalicylate",
+      "brand": "Not commonly available",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "BISMUTH SUBS",
+        "currentRegistrations": 0,
+        "soldAs": []
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "calcium-carbonate",
+      "generic": "Calcium carbonate (antacid)",
+      "brand": "Ask for an antacid",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "12889/NMR/2024",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "CALCIUM CARB",
+        "currentRegistrations": 9,
+        "soldAs": [
+          "ROCAL"
+        ]
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "NO_RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "chewable tablets"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "12889/NMR/2024",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "simeticone",
+      "generic": "Simeticone",
+      "brand": "Sold generic as \"Simethicone\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "09712/REN/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "SIMETICONE, SIMETHICONE",
+        "currentRegistrations": 21,
+        "soldAs": [
+          "NO",
+          "COLIZA",
+          "REVISPAS",
+          "COLINIL"
+        ]
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "NO_RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "chewable tablets, capsules and oral drops"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "09712/REN/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "oral-rehydration-salts",
+      "generic": "Oral rehydration salts",
+      "brand": "Ask for \"ORS\" sachets",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "11113/NMR/2023",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "ORAL REHYDRA",
+        "currentRegistrations": 2,
+        "soldAs": [
+          "OSMOLYTE"
+        ]
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "sachets"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "11113/NMR/2023",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "bisacodyl",
+      "generic": "Bisacodyl",
+      "brand": "Sold generic as \"Bisacodyl\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10200/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "BISACODYL",
+        "currentRegistrations": 16,
+        "soldAs": [
+          "GUTBLESS",
+          "CONLAX",
+          "VESILAC",
+          "LAXIN",
+          "BISACODYL",
+          "LAX"
+        ]
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "NO_RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "5 and 10 mg tablets and suppositories"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10200/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "polyethylene-glycol",
+      "generic": "Polyethylene glycol 3350 (macrogol)",
+      "brand": "Not commonly available",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "13284/NMR/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "POLYETHYLENE, MACROGOL",
+        "currentRegistrations": 1,
+        "soldAs": [
+          "MACROSWIFT"
+        ]
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": "NO_RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "10 g and 17 g sachets"
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": [
+        "Entry says \"Not commonly available\" but the registry lists products with this ingredient"
+      ]
+    },
+    {
+      "id": "meclozine",
+      "generic": "Meclozine",
+      "brand": "Sold generic as \"Meclizine\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "MECLOZINE, MECLIZINE, MECLOZINE",
+        "currentRegistrations": 0,
+        "soldAs": []
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": [
+        "Ingredient not found in this registry"
+      ]
+    },
+    {
+      "id": "hydrocortisone-cream",
+      "generic": "Hydrocortisone (cream)",
+      "brand": "Sold generic as \"Hydrocortisone cream\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10833/VAR/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "HYDROCORTISO",
+        "currentRegistrations": 33,
+        "soldAs": [
+          "HYDROCORTISONE",
+          "CORTILEB",
+          "NETRACORT",
+          "HYCORLIN",
+          "SUCCICORT",
+          "DROXIDERM"
+        ]
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10833/VAR/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "clotrimazole",
+      "generic": "Clotrimazole",
+      "brand": "Sold generic as \"Clotrimazole\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "12565/NMR/2024",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "CLOTRIMAZOLE",
+        "currentRegistrations": 58,
+        "soldAs": [
+          "CANDID",
+          "CANDIGO",
+          "VAGID",
+          "CLOTRIMAZOLE",
+          "CLOTRILIN",
+          "CANESTEN"
+        ]
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "12565/NMR/2024",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "antibiotic-ointment",
+      "generic": "Bacitracin / Neomycin / Polymyxin B (antibiotic ointment)",
+      "brand": "Ask for an antibiotic ointment",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "09044/REN/2024",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "BACITRACIN",
+        "currentRegistrations": 1,
+        "soldAs": []
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "09044/REN/2024",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "doxylamine",
+      "generic": "Doxylamine",
+      "brand": "Sold generic as \"Doxylamine\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "09812/NMR/2022",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "DOXYLAMINE",
+        "currentRegistrations": 2,
+        "soldAs": []
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "09812/NMR/2022",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "levonorgestrel",
+      "generic": "Levonorgestrel (emergency contraception)",
+      "brand": "Postpill",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Postpill",
+          "id": "09913/VAR/2025",
+          "url": "https://eris.efda.gov.et/public/products",
+          "confirmed": true,
+          "note": null,
+          "matched": "POSTPILL",
+          "products": [
+            {
+              "maNumber": "09913/VAR/2025",
+              "product": "POSTPILL - LEVONORGESTREL - 0.75 mg - TABLET",
+              "expires": "2027-08-01",
+              "holder": "Senador Laboratories Pvt. Ltd."
+            },
+            {
+              "maNumber": "09913/VAR/2025",
+              "product": "POSTPILL - LEVONORGESTREL - 0.75 mg - TABLET",
+              "expires": "2027-08-01",
+              "holder": "Senador Laboratories Pvt. Ltd."
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "09913/VAR/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "LEVONORGESTR",
+        "currentRegistrations": 24,
+        "soldAs": [
+          "I",
+          "POSTPILL",
+          "MIRENA",
+          "LEVOPLANT",
+          "MELA",
+          "BACK"
+        ]
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": "NO_RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "0.75 mg and 1.5 mg tablets"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "09913/VAR/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "atovaquone-proguanil",
+      "generic": "Atovaquone / Proguanil",
+      "brand": "Not commonly available",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "ATOVAQUONE",
+        "currentRegistrations": 0,
+        "soldAs": []
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "doxycycline",
+      "generic": "Doxycycline",
+      "brand": "Sold under the generic name \"Doxycycline\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10192/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "DOXYCYCLINE",
+        "currentRegistrations": 17,
+        "soldAs": [
+          "DOXICON",
+          "DOXYLEB",
+          "MEDOMYCIN",
+          "DOXYMYCIN",
+          "DOXYZIM",
+          "EDOXY"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10192/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "azithromycin",
+      "generic": "Azithromycin",
+      "brand": "Sold under the generic name \"Azithromycin\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10467/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "AZITHROMYCIN",
+        "currentRegistrations": 78,
+        "soldAs": [
+          "AZITHROMYCIN",
+          "AZILEB",
+          "CAZITHRO",
+          "CORZIT",
+          "ZIMYCIN",
+          "SWAZI"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10467/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "ciprofloxacin",
+      "generic": "Ciprofloxacin",
+      "brand": "Sold under the generic name \"Ciprofloxacin\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "10855/VAR/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "CIPROFLOXACI",
+        "currentRegistrations": 75,
+        "soldAs": [
+          "CIPRO",
+          "CIPROBAY",
+          "CIPROSCOT",
+          "CIPROFAR",
+          "BRUCIPRO",
+          "CIPROCON"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "10855/VAR/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "acetazolamide",
+      "generic": "Acetazolamide",
+      "brand": "Sold generic as \"Acetazolamide\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "14857/NMR/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "ACETAZOLAMID",
+        "currentRegistrations": 2,
+        "soldAs": [
+          "LAMITAZ",
+          "ACETAZOLAMIDE"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "14857/NMR/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "scopolamine",
+      "generic": "Scopolamine (motion-sickness patch)",
+      "brand": "Not commonly available",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "SCOPOLAMINE",
+        "currentRegistrations": 0,
+        "soldAs": []
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": "NO_RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "0.6 mg tablets (hyoscine hydrobromide)"
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "ondansetron",
+      "generic": "Ondansetron",
+      "brand": "Sold under the generic name \"Ondansetron\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "09887/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "ONDANSETRON",
+        "currentRegistrations": 20,
+        "soldAs": [
+          "IMATOX",
+          "OBEREM",
+          "ONDANFIL",
+          "ONSETRON",
+          "VOMISTAT",
+          "ONDESCOT"
+        ]
+      },
+      "status": {
+        "entry": "RX",
+        "registry": "RX",
+        "result": "agree",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": {
+        "registry": "EFDA register of approved medicines (Ethiopia)",
+        "id": "09887/REN/2026",
+        "url": "https://eris.efda.gov.et/public/products",
+        "checked": "2026-10-13",
+        "checks": [
+          "ingredient",
+          "status"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "epinephrine",
+      "generic": "Epinephrine (adrenaline auto-injector)",
+      "brand": "Not commonly available",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "09714/VAR/2025",
+        "url": "https://eris.efda.gov.et/public/products",
+        "searched": "EPINEPHRINE, ADRENALIN",
+        "currentRegistrations": 15,
+        "soldAs": [
+          "ADRENALINE",
+          "ARONEP",
+          "ADRIVIT"
+        ]
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": "RX",
+        "result": "na",
+        "evidence": {
+          "source": "EFDA Over-the-Counter Medicines List, third edition, July 2022",
+          "url": "https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf",
+          "listed": "not on the list"
+        }
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": [
+        "Entry says \"Not commonly available\" but the registry lists products with this ingredient"
+      ]
+    }
+  ]
+}
