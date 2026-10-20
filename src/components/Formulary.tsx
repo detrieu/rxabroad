@@ -188,7 +188,7 @@ export function FormularyView({ initialQuery = '', initialCountries = [], initia
           </div>
 
           <p id="search-hint" className="text-navy-foreground/60 mt-2 text-xs">
-            Brand (Claritin), generic (loratadine), or a country name all work.
+            A brand from any country (Claritin, Clarityne), the generic (loratadine), or a country name.
           </p>
 
           <div className="mt-6">

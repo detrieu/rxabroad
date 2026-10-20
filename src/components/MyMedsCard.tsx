@@ -5,6 +5,7 @@ import { useState, type ReactNode } from 'react';
 import { BanIcon, PlaneIcon, SearchIcon, ShieldAlertIcon, Trash2Icon } from 'lucide-react';
 import { COUNTRIES, DRUGS, IN_PROGRESS_NOTE, entryFor, getCountry, getDrug, isInProgress, type Country, type CountryCode, type Drug } from '@/data';
 import { useMyDestinations, useMyMeds } from '@/lib/my-meds';
+import { drugMatches } from '@/lib/search';
 import { Button } from '@/components/ui/button';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Input } from '@/components/ui/input';
@@ -23,11 +24,7 @@ import { SaveExportGuide } from './SaveExportGuide';
 
 function matchesFilter(drug: Drug, q: string) {
   if (!q) return true;
-  const hay = [drug.generic, drug.usAlt, drug.cls, ...Object.values(drug.countries).map((e) => e?.brand)]
-    .filter(Boolean)
-    .join(' ')
-    .toLowerCase();
-  return hay.includes(q.toLowerCase());
+  return drugMatches(drug, q).matches;
 }
 
 const CAUTION: Partial<Record<string, { icon: typeof BanIcon; ink: string; text: string }>> = {
