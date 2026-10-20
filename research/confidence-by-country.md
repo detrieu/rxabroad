@@ -23,12 +23,12 @@ when the data was researched; the tiers show how much evidence actually backs th
 | 9 | MX Mexico | 95 | 75 | 6 | 1 | 69 | 1 | 6 | 6 | 0 | 73 | 7 | 1 |
 | 10 | PT Portugal | 91 | 70 | 9 | 3 | 73 | 2 | 2 | 5 | 1 | 75 | 5 | 0 |
 | 11 | JP Japan | 82 | 56 | 23 | 3 | 44 | 8 | 12 | 18 | 0 | 53 | 5 | 1 |
-| 12 | VN Vietnam | 71 | 40 | 36 | 6 | 0 | 0 | 76 | 6 | 0 | 76 | 6 | 6 |
-| 13 | IN India | 55 | 18 | 54 | 10 | 0 | 1 | 14 | 67 | 7 | 0 | 7 | 6 |
-| 14 | TR Türkiye | 54 | 12 | 65 | 5 | 0 | 0 | 77 | 5 | 0 | 77 | 6 | 6 |
-| 15 | MA Morocco | 27 | 4 | 37 | 41 | 0 | 0 | 6 | 76 | 0 | 0 | 2 | 2 |
-| 16 | ET Ethiopia | 9 | 0 | 15 | 67 | 1 | 0 | 0 | 81 | 0 | 0 | 0 | 0 |
-| | **All** | 79 | 886 | 288 | 138 | 776 | 30 | 206 | 300 | 22 | 966 | 79 | 29 |
+| 12 | ET Ethiopia | 76 | 60 | 4 | 18 | 64 | 0 | 0 | 18 | 0 | 64 | 6 | 5 |
+| 13 | VN Vietnam | 71 | 40 | 36 | 6 | 0 | 0 | 76 | 6 | 0 | 76 | 6 | 6 |
+| 14 | IN India | 55 | 18 | 54 | 10 | 0 | 1 | 14 | 67 | 7 | 0 | 7 | 6 |
+| 15 | TR Türkiye | 54 | 12 | 65 | 5 | 0 | 0 | 77 | 5 | 0 | 77 | 6 | 6 |
+| 16 | MA Morocco | 27 | 4 | 37 | 41 | 0 | 0 | 6 | 76 | 0 | 0 | 2 | 2 |
+| | **All** | 83 | 946 | 277 | 89 | 839 | 30 | 206 | 237 | 22 | 1030 | 85 | 34 |
 
 ## 1. United States (US) — score 98
 
@@ -1009,7 +1009,96 @@ when the data was researched; the tiers show how much evidence actually backs th
 | low | Scopolamine (motion-sickness patch) | No patch in Japan | UNAVAILABLE | — |
 | low | Simeticone | Gaspitan (ガスピタン) | OTC | — |
 
-## 12. Vietnam (VN) — score 71
+## 12. Ethiopia (ET) — score 76
+
+60 high · 4 medium · 18 low · sources: 64 official, 0 professional, 0 secondary, 18 none · 64 registry-verified
+
+| Confidence | Medicine | Sold as | Status | Source |
+|---|---|---|---|---|
+| high ✓ | Acetazolamide | Sold generic as "Acetazolamide" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Acetylsalicylic acid (Aspirin) | Sold under the generic name "Aspirin" | OTC | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Amlodipine | Sold generic as "Amlodipine" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Amoxicillin | Sold under the generic name "Amoxicillin" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Apixaban | Sold generic as "Apixaban" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Atorvastatin | Sold generic as "Atorvastatin" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Azithromycin | Sold under the generic name "Azithromycin" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Ask for an antibiotic ointment | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Calcium carbonate (antacid) | Rocal | OTC | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Carvedilol | Sold generic as "Carvedilol" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Cetirizine | Sold under the generic name "Cetirizine" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Ciprofloxacin | Sold under the generic name "Ciprofloxacin" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Clopidogrel | Sold generic as "Clopidogrel" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Clotrimazole | Sold generic as "Clotrimazole" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Dextromethorphan | Sold generic as "Dextromethorphan" | OTC | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Diclofenac (topical gel) | Sold generic as "Diclofenac gel" | OTC | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Doxycycline | Sold under the generic name "Doxycycline" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Doxylamine | Sold generic as "Doxylamine" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Duloxetine | Sold generic as "Duloxetine" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Empagliflozin | Sold generic as "Empagliflozin" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Escitalopram | Sold generic as "Escitalopram" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Fexofenadine | Sold generic as "Fexofenadine" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Fluoxetine | Sold generic as "Fluoxetine" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Fluticasone | Sold generic as "Fluticasone" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Furosemide | Sold generic as "Furosemide" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Gabapentin | Sold generic as "Gabapentin" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Guaifenesin | Sold generic as "Guaifenesin" | OTC | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Hydrochlorothiazide | Sold generic as "Hydrochlorothiazide" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Hydrocortisone (cream) | Sold generic as "Hydrocortisone cream" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Ibuprofen | Sold under the generic name "Ibuprofen" | OTC | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Insulin Aspart | Sold generic as "Insulin aspart" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Insulin Detemir | Sold generic as "Insulin detemir" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Insulin Glargine | Sold generic as "Insulin glargine" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Insulin Human (Regular) | Sold generic as "Soluble (regular) insulin" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Insulin Isophane (NPH) | Sold generic as "NPH (isophane) insulin" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Levonorgestrel (emergency contraception) | Postpill | PHARMACY | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Levothyroxine | Sold generic as "Levothyroxine" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Lisinopril | Sold generic as "Lisinopril" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Loperamide | Sold under the generic name "Loperamide" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Loratadine | Sold generic as "Loratadine" | OTC | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Losartan | Sold generic as "Losartan" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Meloxicam | Sold generic as "Meloxicam" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Metformin | Sold generic as "Metformin" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Metoprolol | Sold generic as "Metoprolol" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Montelukast | Sold generic as "Montelukast" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Naproxen | Sold generic as "Naproxen" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Omeprazole | Sold generic as "Omeprazole" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Ondansetron | Sold under the generic name "Ondansetron" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Oral rehydration salts | Ask for "ORS" sachets | OTC | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Oxymetazoline (nasal spray) | Sold generic as "Oxymetazoline" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Pantoprazole | Sold generic as "Pantoprazole" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Paracetamol | Panadol, or generic "Paracetamol" | OTC | T1 [efda.gov.et](https://www.efda.gov.et/wp-content/uploads/2023/08/Cadimol_Paracetamol_Cadila-Pharmaceuticals-Ethiopia-PLC.pdf) |
+| high ✓ | Polyethylene glycol 3350 (macrogol) | Macroswift (with electrolytes) | OTC | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Prednisone | Sold generic as "Prednisone" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Rosuvastatin | Sold generic as "Rosuvastatin" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Salbutamol | Sold under the generic name "Salbutamol" | OTC | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Sertraline | Sold generic as "Sertraline" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Simeticone | Sold generic as "Simethicone" | OTC | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Simvastatin | Sold generic as "Simvastatin" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| high ✓ | Tamsulosin | Sold generic as "Tamsulosin" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| medium ✓ | Bisacodyl | Sold generic as "Bisacodyl" | MIXED | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| medium ✓ | Diphenhydramine | Sold generic as "Diphenhydramine" | MIXED | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| medium ✓ | Pseudoephedrine | Sold in combination cold medicines (e.g. Clarinase, Snip) | OTC | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| medium ✓ | Tramadol | Sold generic as "Tramadol" | CONTROLLED ⚠ | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
+| low | Alprazolam | Not registered in Ethiopia | CONTROLLED ⚠ | — |
+| low | Amphetamine / Dextroamphetamine | Not registered in Ethiopia | CONTROLLED ⚠ | — |
+| low | Atovaquone / Proguanil | Not registered in Ethiopia | UNAVAILABLE | — |
+| low | Bismuth subsalicylate | Not registered in Ethiopia | UNAVAILABLE | — |
+| low | Bupropion | Not registered in Ethiopia | UNAVAILABLE | — |
+| low | Dimenhydrinate | Not registered in Ethiopia | UNAVAILABLE | — |
+| low | Epinephrine (adrenaline auto-injector) | Not registered in Ethiopia as an auto-injector | UNAVAILABLE | — |
+| low | Famotidine | Not registered in Ethiopia | UNAVAILABLE | — |
+| low | Hydrocodone / Paracetamol combination | Not registered in Ethiopia | CONTROLLED ⚠ | — |
+| low | Insulin Degludec | Not registered in Ethiopia | UNAVAILABLE | — |
+| low | Insulin Lispro | Not registered in Ethiopia | UNAVAILABLE | — |
+| low | Meclozine | Not registered in Ethiopia | UNAVAILABLE | — |
+| low | Melatonin | Not registered in Ethiopia | UNAVAILABLE | — |
+| low | Methylphenidate | Not registered in Ethiopia | CONTROLLED ⚠ | — |
+| low | Oxycodone | Not registered in Ethiopia | CONTROLLED ⚠ | — |
+| low | Scopolamine (motion-sickness patch) | Not registered in Ethiopia | UNAVAILABLE | — |
+| low | Semaglutide | Not registered in Ethiopia | UNAVAILABLE | — |
+| low | Trazodone | Not registered in Ethiopia | UNAVAILABLE | — |
+
+## 13. Vietnam (VN) — score 71
 
 40 high · 36 medium · 6 low · sources: 0 official, 0 professional, 76 secondary, 6 none · 76 registry-verified
 
@@ -1098,7 +1187,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | low | Prednisone | Prednisolone is the more commonly used equivalent | UNCONFIRMED | — |
 | low | Trazodone | Availability not known | UNCONFIRMED | — |
 
-## 13. India (IN) — score 55
+## 14. India (IN) — score 55
 
 18 high · 54 medium · 10 low · sources: 0 official, 1 professional, 14 secondary, 67 none · 0 registry-verified
 
@@ -1187,7 +1276,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | low | Scopolamine (motion-sickness patch) | Not commonly available | UNAVAILABLE | — |
 | low | Simeticone | Sold generic as "Simethicone" | UNCONFIRMED | — |
 
-## 14. Türkiye (TR) — score 54
+## 15. Türkiye (TR) — score 54
 
 12 high · 65 medium · 5 low · sources: 0 official, 0 professional, 77 secondary, 5 none · 77 registry-verified
 
@@ -1276,7 +1365,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | low | Prednisone | Deltacortril (prednisolone) is the more commonly used equivalent | UNCONFIRMED | — |
 | low | Scopolamine (motion-sickness patch) | Not commonly available | UNAVAILABLE | — |
 
-## 15. Morocco (MA) — score 27
+## 16. Morocco (MA) — score 27
 
 4 high · 37 medium · 41 low · sources: 0 official, 0 professional, 6 secondary, 76 none · 0 registry-verified
 
@@ -1364,93 +1453,4 @@ when the data was researched; the tiers show how much evidence actually backs th
 | low | Simeticone | Sold generic as "Siméticone" | UNCONFIRMED | — |
 | low | Tamsulosin | Omix | RX | — |
 | low | Tramadol | Availability and import rules not known. Assume it is tightly controlled | UNCONFIRMED | — |
-
-## 16. Ethiopia (ET) — score 9
-
-0 high · 15 medium · 67 low · sources: 1 official, 0 professional, 0 secondary, 81 none · 0 registry-verified
-
-| Confidence | Medicine | Sold as | Status | Source |
-|---|---|---|---|---|
-| medium | Paracetamol | Cadimol (Cadila Pharmaceuticals Ethiopia) or generic "Paracetamol" | OTC | T1 [efda.gov.et](https://www.efda.gov.et/wp-content/uploads/2023/08/Cadimol_Paracetamol_Cadila-Pharmaceuticals-Ethiopia-PLC.pdf) |
-| medium | Acetylsalicylic acid (Aspirin) | Sold under the generic name "Aspirin" | OTC | — |
-| medium | Amoxicillin | Sold under the generic name "Amoxicillin" | RX | — |
-| medium | Azithromycin | Sold under the generic name "Azithromycin" | RX | — |
-| medium | Cetirizine | Sold under the generic name "Cetirizine" | OTC | — |
-| medium | Ciprofloxacin | Sold under the generic name "Ciprofloxacin" | RX | — |
-| medium | Clotrimazole | Sold generic as "Clotrimazole" | UNCONFIRMED | — |
-| medium | Diphenhydramine | Sold generic as "Diphenhydramine" | UNCONFIRMED | — |
-| medium | Doxycycline | Sold under the generic name "Doxycycline" | RX | — |
-| medium | Ibuprofen | Sold under the generic name "Ibuprofen" | OTC | — |
-| medium | Loperamide | Sold under the generic name "Loperamide" | OTC | — |
-| medium | Metformin | Sold generic as "Metformin" | RX | — |
-| medium | Omeprazole | Sold generic as "Omeprazole" | UNCONFIRMED | — |
-| medium | Oral rehydration salts | Ask for "ORS" sachets | OTC | — |
-| medium | Sertraline | Sold generic as "Sertraline" | RX | — |
-| low | Acetazolamide | Sold generic as "Acetazolamide" | RX | — |
-| low | Alprazolam | Availability and import rules not known. Assume it is tightly controlled | UNCONFIRMED | — |
-| low | Amlodipine | Sold generic as "Amlodipine" | RX | — |
-| low | Amphetamine / Dextroamphetamine | Availability and import rules not known. Assume it is tightly controlled | UNCONFIRMED | — |
-| low | Apixaban | Sold generic as "Apixaban" | RX | — |
-| low | Atorvastatin | Sold generic as "Atorvastatin" | RX | — |
-| low | Atovaquone / Proguanil | Not commonly available | UNAVAILABLE | — |
-| low | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Ask for an antibiotic ointment | UNCONFIRMED | — |
-| low | Bisacodyl | Sold generic as "Bisacodyl" | UNCONFIRMED | — |
-| low | Bismuth subsalicylate | Not commonly available | UNAVAILABLE | — |
-| low | Bupropion | Sold generic as "Bupropion" | RX | — |
-| low | Calcium carbonate (antacid) | Ask for an antacid | UNCONFIRMED | — |
-| low | Carvedilol | Sold generic as "Carvedilol" | RX | — |
-| low | Clopidogrel | Sold generic as "Clopidogrel" | RX | — |
-| low | Dextromethorphan | Sold generic as "Dextromethorphan" | UNCONFIRMED | — |
-| low | Diclofenac (topical gel) | Sold generic as "Diclofenac gel" | UNCONFIRMED | — |
-| low | Dimenhydrinate | Sold generic as "Dimenhydrinate" | UNCONFIRMED | — |
-| low | Doxylamine | Sold generic as "Doxylamine" | UNCONFIRMED | — |
-| low | Duloxetine | Sold generic as "Duloxetine" | RX | — |
-| low | Empagliflozin | Sold generic as "Empagliflozin" | RX | — |
-| low | Epinephrine (adrenaline auto-injector) | Not commonly available | UNAVAILABLE | — |
-| low | Escitalopram | Sold generic as "Escitalopram" | RX | — |
-| low | Famotidine | Sold generic as "Famotidine" | UNCONFIRMED | — |
-| low | Fexofenadine | Sold generic as "Fexofenadine" | UNCONFIRMED | — |
-| low | Fluoxetine | Sold generic as "Fluoxetine" | RX | — |
-| low | Fluticasone | Sold generic as "Fluticasone" | UNCONFIRMED | — |
-| low | Furosemide | Sold generic as "Furosemide" | RX | — |
-| low | Gabapentin | Sold generic as "Gabapentin" | UNCONFIRMED | — |
-| low | Guaifenesin | Sold generic as "Guaifenesin" | UNCONFIRMED | — |
-| low | Hydrochlorothiazide | Sold generic as "Hydrochlorothiazide" | RX | — |
-| low | Hydrocodone / Paracetamol combination | Availability and import rules not known. Assume it is tightly controlled | UNCONFIRMED | — |
-| low | Hydrocortisone (cream) | Sold generic as "Hydrocortisone cream" | UNCONFIRMED | — |
-| low | Insulin Aspart | Sold generic as "Insulin aspart" | RX | — |
-| low | Insulin Degludec | Sold generic as "Insulin degludec" | RX | — |
-| low | Insulin Detemir | Sold generic as "Insulin detemir" | RX | — |
-| low | Insulin Glargine | Sold generic as "Insulin glargine" | RX | — |
-| low | Insulin Human (Regular) | Sold generic as "Soluble (regular) insulin" | UNCONFIRMED | — |
-| low | Insulin Isophane (NPH) | Sold generic as "NPH (isophane) insulin" | UNCONFIRMED | — |
-| low | Insulin Lispro | Sold generic as "Insulin lispro" | RX | — |
-| low | Levonorgestrel (emergency contraception) | Postpill | PHARMACY | — |
-| low | Levothyroxine | Sold generic as "Levothyroxine" | RX | — |
-| low | Lisinopril | Sold generic as "Lisinopril" | RX | — |
-| low | Loratadine | Sold generic as "Loratadine" | UNCONFIRMED | — |
-| low | Losartan | Sold generic as "Losartan" | RX | — |
-| low | Meclozine | Sold generic as "Meclizine" | UNCONFIRMED | — |
-| low | Melatonin | Sold generic as "Melatonin" | UNCONFIRMED | — |
-| low | Meloxicam | Sold generic as "Meloxicam" | RX | — |
-| low | Methylphenidate | Availability and import rules not known. Assume it is tightly controlled | UNCONFIRMED | — |
-| low | Metoprolol | Sold generic as "Metoprolol" | RX | — |
-| low | Montelukast | Sold generic as "Montelukast" | RX | — |
-| low | Naproxen | Sold generic as "Naproxen" | UNCONFIRMED | — |
-| low | Ondansetron | Sold under the generic name "Ondansetron" | RX | — |
-| low | Oxycodone | Availability and import rules not known. Assume it is tightly controlled | UNCONFIRMED | — |
-| low | Oxymetazoline (nasal spray) | Sold generic as "Oxymetazoline" | UNCONFIRMED | — |
-| low | Pantoprazole | Sold generic as "Pantoprazole" | UNCONFIRMED | — |
-| low | Polyethylene glycol 3350 (macrogol) | Not commonly available | UNAVAILABLE | — |
-| low | Prednisone | Sold generic as "Prednisone" | RX | — |
-| low | Pseudoephedrine | Sold generic as "Pseudoephedrine" | UNCONFIRMED | — |
-| low | Rosuvastatin | Sold generic as "Rosuvastatin" | RX | — |
-| low | Salbutamol | Sold under the generic name "Salbutamol" | OTC | — |
-| low | Scopolamine (motion-sickness patch) | Not commonly available | UNAVAILABLE | — |
-| low | Semaglutide | Sold generic as "Semaglutide" | RX | — |
-| low | Simeticone | Sold generic as "Simethicone" | UNCONFIRMED | — |
-| low | Simvastatin | Sold generic as "Simvastatin" | RX | — |
-| low | Tamsulosin | Sold generic as "Tamsulosin" | RX | — |
-| low | Tramadol | Availability and import rules not known. Assume it is tightly controlled | UNCONFIRMED | — |
-| low | Trazodone | Sold generic as "Trazodone" | RX | — |
 

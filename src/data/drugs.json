@@ -128,11 +128,22 @@
         "source": null
       },
       "ET": {
-        "brand": "Cadimol (Cadila Pharmaceuticals Ethiopia) or generic \"Paracetamol\"",
+        "brand": "Panadol, or generic \"Paracetamol\"",
         "status": "OTC",
-        "confidence": "medium",
-        "note": "Cadimol is registered with the Ethiopian regulator (EFDA), but imported brands come and go. Asking for paracetamol by its generic name is more reliable.",
-        "source": "https://www.efda.gov.et/wp-content/uploads/2023/08/Cadimol_Paracetamol_Cadila-Pharmaceuticals-Ethiopia-PLC.pdf"
+        "confidence": "high",
+        "note": null,
+        "source": "https://www.efda.gov.et/wp-content/uploads/2023/08/Cadimol_Paracetamol_Cadila-Pharmaceuticals-Ethiopia-PLC.pdf",
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "10763/VAR/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Tylenol A",
@@ -392,9 +403,19 @@
       "ET": {
         "brand": "Sold under the generic name \"Ibuprofen\"",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "12190/NMR/2024",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "EVE A (150mg ibuprofen per tablet)",
@@ -651,10 +672,20 @@
       },
       "ET": {
         "brand": "Sold generic as \"Loratadine\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "OTC",
+        "confidence": "high",
         "note": "Cetirizine tablets are easier to find than loratadine.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "09906/REN/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Claritin EX",
@@ -911,10 +942,20 @@
       },
       "ET": {
         "brand": "Sold under the generic name \"Cetirizine\"",
-        "status": "OTC",
-        "confidence": "medium",
+        "status": "RX",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "10488/REN/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Zyrtec (ジルテック)",
@@ -1183,10 +1224,19 @@
       },
       "ET": {
         "brand": "Sold generic as \"Diphenhydramine\"",
-        "status": "UNCONFIRMED",
+        "status": "MIXED",
         "confidence": "medium",
-        "note": null,
-        "source": null
+        "note": "Sold without a prescription only in combination cough syrups. Plain diphenhydramine needs a prescription.",
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "10371/REN/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "JP": {
         "brand": "Drewell (50mg diphenhydramine, Class 2 OTC sleep aid)",
@@ -1440,10 +1490,20 @@
       },
       "ET": {
         "brand": "Sold under the generic name \"Loperamide\"",
-        "status": "OTC",
-        "confidence": "medium",
+        "status": "RX",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "10287/REN/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Lopemin (ロペミン) / Tomedine Kowa (トメダインコーワ)",
@@ -1697,10 +1757,20 @@
       },
       "ET": {
         "brand": "Sold generic as \"Omeprazole\"",
-        "status": "UNCONFIRMED",
-        "confidence": "medium",
+        "status": "RX",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "09984/REN/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Prescription-only; OTC PPIs are uncommon in Japan",
@@ -1940,11 +2010,20 @@
         "source": "https://en.wikipedia.org/wiki/Misuse_of_Drugs_(Pseudoephedrine)_Amendment_Act_2024"
       },
       "ET": {
-        "brand": "Sold generic as \"Pseudoephedrine\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
-        "note": "The local rules are not known. Assume it is restricted until you can check.",
-        "source": null
+        "brand": "Sold in combination cold medicines (e.g. Clarinase, Snip)",
+        "status": "OTC",
+        "confidence": "medium",
+        "note": "Combined with an antihistamine or paracetamol. Plain pseudoephedrine is not registered.",
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "09707/REN/2025",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "JP": {
         "brand": "Ask by generic name",
@@ -2192,8 +2271,8 @@
         "source": null
       },
       "ET": {
-        "brand": "Sold generic as \"Melatonin\"",
-        "status": "UNCONFIRMED",
+        "brand": "Not registered in Ethiopia",
+        "status": "UNAVAILABLE",
         "confidence": "low",
         "note": null,
         "source": null
@@ -2449,8 +2528,8 @@
         "source": "https://www.medindia.net/drugs/trade-names/dimenhydrinate.htm"
       },
       "ET": {
-        "brand": "Sold generic as \"Dimenhydrinate\"",
-        "status": "UNCONFIRMED",
+        "brand": "Not registered in Ethiopia",
+        "status": "UNAVAILABLE",
         "confidence": "low",
         "note": null,
         "source": null
@@ -2691,9 +2770,19 @@
       "ET": {
         "brand": "Sold under the generic name \"Amoxicillin\"",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Officially prescription-only, but pharmacies often sell it without one.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "11312/VAR/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Sold generic (\"Amoxicillin\")",
@@ -2953,9 +3042,19 @@
       "ET": {
         "brand": "Sold generic as \"Metformin\"",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "10966/VAR/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Metgluco",
@@ -3220,9 +3319,19 @@
       "ET": {
         "brand": "Sold generic as \"Sertraline\"",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "13863/NMR/2025",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Jzoloft",
@@ -3486,9 +3595,19 @@
       "ET": {
         "brand": "Sold under the generic name \"Salbutamol\"",
         "status": "OTC",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "10019/REN/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Sultanol",
@@ -3753,9 +3872,19 @@
       "ET": {
         "brand": "Sold generic as \"Atorvastatin\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "10925/VAR/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Lipitor",
@@ -4020,9 +4149,19 @@
       "ET": {
         "brand": "Sold generic as \"Levothyroxine\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "11404/NMR/2023",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Thyradin S",
@@ -4284,9 +4423,19 @@
       "ET": {
         "brand": "Sold generic as \"Lisinopril\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "09358/VAR/2024",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Sold generic (e.g. Mylan)",
@@ -4546,9 +4695,19 @@
       "ET": {
         "brand": "Sold generic as \"Amlodipine\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "09853/REN/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Norvasc / Amlodin",
@@ -4812,9 +4971,19 @@
       "ET": {
         "brand": "Sold generic as \"Metoprolol\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "10688/VAR/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Seloken / Lopresor",
@@ -5075,9 +5244,19 @@
       "ET": {
         "brand": "Sold generic as \"Losartan\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "10357/REN/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Nu-Lotan",
@@ -5339,10 +5518,20 @@
       },
       "ET": {
         "brand": "Sold generic as \"Gabapentin\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "RX",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "10261/REN/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Gabapen",
@@ -5607,9 +5796,19 @@
       "ET": {
         "brand": "Sold generic as \"Rosuvastatin\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "10299/VAR/2025",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Crestor",
@@ -5860,10 +6059,20 @@
       },
       "ET": {
         "brand": "Sold generic as \"Pantoprazole\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "RX",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "12756/NMR/2024",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Not sold in Japan",
@@ -6112,9 +6321,19 @@
       "ET": {
         "brand": "Sold generic as \"Escitalopram\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "10045/REN/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Lexapro",
@@ -6377,8 +6596,8 @@
         "source": "https://nomedic.co/travel/india/medication/adderall"
       },
       "ET": {
-        "brand": "Availability and import rules not known. Assume it is tightly controlled",
-        "status": "UNCONFIRMED",
+        "brand": "Not registered in Ethiopia",
+        "status": "CONTROLLED",
         "confidence": "low",
         "note": null,
         "source": null
@@ -6565,9 +6784,19 @@
       "ET": {
         "brand": "Sold generic as \"Hydrochlorothiazide\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "10305/NMR/2022",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Sold generic (ヒドロクロロチアジド)",
@@ -6822,8 +7051,8 @@
         "source": "https://www.bigmountaindrugs.com/Generic_Wellbutrin+XL_150+mg"
       },
       "ET": {
-        "brand": "Sold generic as \"Bupropion\"",
-        "status": "RX",
+        "brand": "Not registered in Ethiopia",
+        "status": "UNAVAILABLE",
         "confidence": "low",
         "note": null,
         "source": null
@@ -7062,9 +7291,19 @@
       "ET": {
         "brand": "Sold generic as \"Fluoxetine\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "13599/NMR/2025",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Not approved for use in Japan. The manufacturer withdrew it after disappointing local trials",
@@ -7311,10 +7550,10 @@
         "source": null
       },
       "ET": {
-        "brand": "Sold generic as \"Semaglutide\"",
-        "status": "RX",
+        "brand": "Not registered in Ethiopia",
+        "status": "UNAVAILABLE",
         "confidence": "low",
-        "note": "Probably hard to find.",
+        "note": null,
         "source": null
       },
       "JP": {
@@ -7578,9 +7817,19 @@
       "ET": {
         "brand": "Sold generic as \"Montelukast\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "09481/VAR/2024",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Kipres / Singulair",
@@ -7826,8 +8075,8 @@
         "source": "https://www.medindia.net/drug-price/trazodone/trazalon-50-mg.htm"
       },
       "ET": {
-        "brand": "Sold generic as \"Trazodone\"",
-        "status": "RX",
+        "brand": "Not registered in Ethiopia",
+        "status": "UNAVAILABLE",
         "confidence": "low",
         "note": null,
         "source": null
@@ -8082,9 +8331,19 @@
       "ET": {
         "brand": "Sold generic as \"Simvastatin\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "09121/REN/2024",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Lipovas",
@@ -8346,9 +8605,19 @@
       "ET": {
         "brand": "Sold generic as \"Tamsulosin\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "09998/REN/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Harnal",
@@ -8565,8 +8834,8 @@
         "source": "https://palliumindia.org/wp-content/uploads/2020/05/Guidelines-for-stocking-and-Dispensing-ENDs-in-Medical-Institutions.pdf"
       },
       "ET": {
-        "brand": "Availability and import rules not known. Assume it is tightly controlled",
-        "status": "UNCONFIRMED",
+        "brand": "Not registered in Ethiopia",
+        "status": "CONTROLLED",
         "confidence": "low",
         "note": null,
         "source": null
@@ -8747,10 +9016,20 @@
       },
       "ET": {
         "brand": "Sold generic as \"Fluticasone\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "RX",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "10763/NMR/2023",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Flunase (フルナーゼ) / Allermist (アラミスト) / Flutide (フルタイド)",
@@ -8998,9 +9277,19 @@
       "ET": {
         "brand": "Sold generic as \"Meloxicam\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "10259/REN/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Mobic",
@@ -9262,9 +9551,19 @@
       "ET": {
         "brand": "Sold generic as \"Apixaban\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": "Probably hard to find.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "12315/NMR/2024",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Eliquis",
@@ -9525,9 +9824,19 @@
       "ET": {
         "brand": "Sold generic as \"Furosemide\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "09950/REN/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Lasix",
@@ -9790,9 +10099,19 @@
       "ET": {
         "brand": "Sold generic as \"Insulin glargine\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "11265/VAR/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Lantus",
@@ -10055,8 +10374,8 @@
         "source": null
       },
       "ET": {
-        "brand": "Sold generic as \"Insulin lispro\"",
-        "status": "RX",
+        "brand": "Not registered in Ethiopia",
+        "status": "UNAVAILABLE",
         "confidence": "low",
         "note": null,
         "source": null
@@ -10324,9 +10643,19 @@
       "ET": {
         "brand": "Sold generic as \"Insulin aspart\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "14624/NMR/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "NovoRapid (ノボラピッド)",
@@ -10590,10 +10919,20 @@
       },
       "ET": {
         "brand": "Sold generic as \"Soluble (regular) insulin\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "RX",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "09521/VAR/2024",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Humulin R (ヒューマリンR) / Novolin R (ノボリンR)",
@@ -10857,10 +11196,20 @@
       },
       "ET": {
         "brand": "Sold generic as \"NPH (isophane) insulin\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "RX",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "09521/VAR/2024",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Humulin N (ヒューマリンN) / Novolin N (ノボリンN)",
@@ -11115,9 +11464,19 @@
       "ET": {
         "brand": "Sold generic as \"Insulin detemir\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": "The maker is withdrawing Levemir worldwide, so stock may be limited.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "08116/VAR/2022",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Levemir (レベミル)",
@@ -11368,8 +11727,8 @@
         "source": null
       },
       "ET": {
-        "brand": "Sold generic as \"Insulin degludec\"",
-        "status": "RX",
+        "brand": "Not registered in Ethiopia",
+        "status": "UNAVAILABLE",
         "confidence": "low",
         "note": null,
         "source": null
@@ -11631,9 +11990,19 @@
       "ET": {
         "brand": "Sold generic as \"Duloxetine\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "13616/NMR/2025",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Cymbalta",
@@ -11886,10 +12255,10 @@
         "source": null
       },
       "ET": {
-        "brand": "Sold generic as \"Famotidine\"",
-        "status": "UNCONFIRMED",
+        "brand": "Not registered in Ethiopia",
+        "status": "UNAVAILABLE",
         "confidence": "low",
-        "note": null,
+        "note": "Antacids (aluminium or magnesium hydroxide) are sold without a prescription.",
         "source": null
       },
       "JP": {
@@ -12144,9 +12513,19 @@
       "ET": {
         "brand": "Sold generic as \"Empagliflozin\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "13534/NMR/2025",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Jardiance",
@@ -12406,9 +12785,19 @@
       "ET": {
         "brand": "Sold generic as \"Carvedilol\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "10137/REN/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Artist",
@@ -12666,11 +13055,20 @@
         "source": "https://worldtradescanner.com/73-JNCH%20PN-08.05.2018.htm"
       },
       "ET": {
-        "brand": "Availability and import rules not known. Assume it is tightly controlled",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
-        "note": null,
-        "source": null
+        "brand": "Sold generic as \"Tramadol\"",
+        "status": "CONTROLLED",
+        "confidence": "medium",
+        "note": "Needs a special prescription since 2022.",
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "14074/NMR/2025",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "JP": {
         "brand": "Tramal (トラマール)",
@@ -12928,8 +13326,8 @@
         "source": "https://www.yashodahospitals.com/medicine-faqs/alprazolam/"
       },
       "ET": {
-        "brand": "Availability and import rules not known. Assume it is tightly controlled",
-        "status": "UNCONFIRMED",
+        "brand": "Not registered in Ethiopia",
+        "status": "CONTROLLED",
         "confidence": "low",
         "note": null,
         "source": null
@@ -13179,9 +13577,19 @@
       "ET": {
         "brand": "Sold generic as \"Prednisone\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": "Prednisolone is more commonly used internationally.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "09530/REN/2025",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Not sold. Japan uses prednisolone instead: Predonine (プレドニン), prescription-only",
@@ -13400,9 +13808,19 @@
       "ET": {
         "brand": "Sold generic as \"Clopidogrel\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "10963/VAR/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Plavix",
@@ -13671,9 +14089,19 @@
       "ET": {
         "brand": "Sold under the generic name \"Aspirin\"",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "14353/NMR/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Bayer Aspirin",
@@ -13926,8 +14354,8 @@
         "source": "https://www.annalsofoncology.org/article/S0923-7534(19)37455-1/pdf"
       },
       "ET": {
-        "brand": "Availability and import rules not known. Assume it is tightly controlled",
-        "status": "UNCONFIRMED",
+        "brand": "Not registered in Ethiopia",
+        "status": "CONTROLLED",
         "confidence": "low",
         "note": null,
         "source": null
@@ -14191,8 +14619,8 @@
         "source": null
       },
       "ET": {
-        "brand": "Availability and import rules not known. Assume it is tightly controlled",
-        "status": "UNCONFIRMED",
+        "brand": "Not registered in Ethiopia",
+        "status": "CONTROLLED",
         "confidence": "low",
         "note": null,
         "source": null
@@ -14463,10 +14891,20 @@
       },
       "ET": {
         "brand": "Sold generic as \"Naproxen\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "RX",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "10440/NMR/2022",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Naixan (ナイキサン)",
@@ -14735,10 +15173,20 @@
       },
       "ET": {
         "brand": "Sold generic as \"Diclofenac gel\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "OTC",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "10919/VAR/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Voltaren EX (ボルタレンEX)",
@@ -14996,10 +15444,20 @@
       },
       "ET": {
         "brand": "Sold generic as \"Fexofenadine\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "RX",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "09758/NMR/2022",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Allegra FX (アレグラFX)",
@@ -15257,10 +15715,20 @@
       },
       "ET": {
         "brand": "Sold generic as \"Guaifenesin\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "OTC",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "10023/REN/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Sold generic as \"グアイフェネシン (guaifenesin)\"",
@@ -15514,10 +15982,20 @@
       },
       "ET": {
         "brand": "Sold generic as \"Dextromethorphan\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "OTC",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "13875/NMR/2025",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Medicon (メジコン)",
@@ -15783,10 +16261,20 @@
       },
       "ET": {
         "brand": "Sold generic as \"Oxymetazoline\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "RX",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "07120/NMR/2018",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Nasivin (ナシビン)",
@@ -16022,7 +16510,7 @@
         "source": null
       },
       "ET": {
-        "brand": "Not commonly available",
+        "brand": "Not registered in Ethiopia",
         "status": "UNAVAILABLE",
         "confidence": "low",
         "note": "Bring what you need from home.",
@@ -16238,11 +16726,22 @@
         "source": null
       },
       "ET": {
-        "brand": "Ask for an antacid",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "brand": "Rocal",
+        "status": "OTC",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "12889/NMR/2024",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Ohta Isan (太田胃散)",
@@ -16483,10 +16982,20 @@
       },
       "ET": {
         "brand": "Sold generic as \"Simethicone\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "OTC",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "09712/REN/2025",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Gaspitan (ガスピタン)",
@@ -16712,9 +17221,19 @@
       "ET": {
         "brand": "Ask for \"ORS\" sachets",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "11113/NMR/2023",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "OS-1 (オーエスワン)",
@@ -16948,10 +17467,19 @@
       },
       "ET": {
         "brand": "Sold generic as \"Bisacodyl\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
-        "note": null,
-        "source": null
+        "status": "MIXED",
+        "confidence": "medium",
+        "note": "Suppositories are sold without a prescription. Tablets need one.",
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "10200/REN/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "JP": {
         "brand": "Colac (コーラック)",
@@ -17205,11 +17733,22 @@
         "source": null
       },
       "ET": {
-        "brand": "Not commonly available",
-        "status": "UNAVAILABLE",
-        "confidence": "low",
+        "brand": "Macroswift (with electrolytes)",
+        "status": "OTC",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "13284/NMR/2025",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Movicol (モビコール)",
@@ -17452,8 +17991,8 @@
         "source": null
       },
       "ET": {
-        "brand": "Sold generic as \"Meclizine\"",
-        "status": "UNCONFIRMED",
+        "brand": "Not registered in Ethiopia",
+        "status": "UNAVAILABLE",
         "confidence": "low",
         "note": null,
         "source": null
@@ -17674,10 +18213,20 @@
       },
       "ET": {
         "brand": "Sold generic as \"Hydrocortisone cream\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "RX",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "11652/NMR/2024",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Terra-Cortril (テラ・コートリル)",
@@ -17942,10 +18491,20 @@
       },
       "ET": {
         "brand": "Sold generic as \"Clotrimazole\"",
-        "status": "UNCONFIRMED",
-        "confidence": "medium",
+        "status": "RX",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "12565/NMR/2024",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Empecid (エンペシド)",
@@ -18190,10 +18749,20 @@
       },
       "ET": {
         "brand": "Ask for an antibiotic ointment",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "RX",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "09044/REN/2024",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Dolmycin (ドルマイシン軟膏)",
@@ -18382,10 +18951,20 @@
       },
       "ET": {
         "brand": "Sold generic as \"Doxylamine\"",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "status": "RX",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "09812/NMR/2022",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Not sold. \"Drewell\" (diphenhydramine) is the OTC sleep aid",
@@ -18616,9 +19195,20 @@
       "ET": {
         "brand": "Postpill",
         "status": "PHARMACY",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "09913/VAR/2025",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "brand",
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Norlevo (ノルレボ)",
@@ -18863,7 +19453,7 @@
         "source": null
       },
       "ET": {
-        "brand": "Not commonly available",
+        "brand": "Not registered in Ethiopia",
         "status": "UNAVAILABLE",
         "confidence": "low",
         "note": "Bring your full course from home.",
@@ -19120,9 +19710,19 @@
       "ET": {
         "brand": "Sold under the generic name \"Doxycycline\"",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "10192/REN/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Vibramycin (ビブラマイシン)",
@@ -19388,9 +19988,19 @@
       "ET": {
         "brand": "Sold under the generic name \"Azithromycin\"",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "10467/REN/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Zithromac (ジスロマック)",
@@ -19660,9 +20270,19 @@
       "ET": {
         "brand": "Sold under the generic name \"Ciprofloxacin\"",
         "status": "RX",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "10855/VAR/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Ciproxan (シプロキサン)",
@@ -19924,9 +20544,19 @@
       "ET": {
         "brand": "Sold generic as \"Acetazolamide\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "14857/NMR/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Diamox (ダイアモックス)",
@@ -20166,7 +20796,7 @@
         "source": null
       },
       "ET": {
-        "brand": "Not commonly available",
+        "brand": "Not registered in Ethiopia",
         "status": "UNAVAILABLE",
         "confidence": "low",
         "note": "Bring what you need from home.",
@@ -20368,9 +20998,19 @@
       "ET": {
         "brand": "Sold under the generic name \"Ondansetron\"",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "EFDA register of approved medicines (Ethiopia)",
+          "id": "09887/REN/2026",
+          "url": "https://eris.efda.gov.et/public/products",
+          "checked": "2026-10-19",
+          "checks": [
+            "ingredient",
+            "status"
+          ]
+        }
       },
       "JP": {
         "brand": "Sold generic (\"オンダンセトロン\")",
@@ -20624,10 +21264,10 @@
         "source": null
       },
       "ET": {
-        "brand": "Not commonly available",
+        "brand": "Not registered in Ethiopia as an auto-injector",
         "status": "UNAVAILABLE",
         "confidence": "low",
-        "note": "Auto-injectors are hard to find. Bring at least two from home.",
+        "note": "Only ampoules for clinic use are registered. Bring at least two auto-injectors from home.",
         "source": null
       },
       "JP": {
