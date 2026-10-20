@@ -7,6 +7,7 @@ import { Highlight } from './Highlight';
 import { inkClass, StatusPill } from './StatusPill';
 import { EntryBadges } from './ConfBadge';
 import { AddMedButton } from './AddMedButton';
+import { ReportProblem } from './ReportProblem';
 
 type CountryHits = Partial<Record<CountryCode, true>>;
 
@@ -150,7 +151,10 @@ function CountryRow({
         <StatusPill status={entry.status} className="sm:max-w-full sm:justify-center sm:text-center sm:leading-[1.3] sm:whitespace-normal" />
       </span>
       {entry.note && <p className="text-muted-foreground col-span-full text-[0.82rem] leading-relaxed">{entry.note}</p>}
-      <SourceLink source={entry.source ?? entry.verified?.url ?? null} />
+      <div className="col-span-full flex flex-wrap items-center gap-x-4 gap-y-1">
+        <SourceLink source={entry.source ?? entry.verified?.url ?? null} />
+        <ReportProblem drug={drug} country={country} />
+      </div>
     </div>
   );
 }

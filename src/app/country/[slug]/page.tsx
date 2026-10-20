@@ -8,6 +8,7 @@ import { StatusPill } from '@/components/StatusPill';
 import { EntryBadges } from '@/components/ConfBadge';
 import { LocalName, SourceLink } from '@/components/DrugEntry';
 import { InProgressBanner } from '@/components/InProgressBanner';
+import { ReportProblem } from '@/components/ReportProblem';
 import { BringingGuide } from '@/components/BringingGuide';
 import { Flag } from '@/components/Flag';
 import { CONTAINER } from '@/components/Masthead';
@@ -132,7 +133,10 @@ export default async function CountryPage({ params }: PageProps<'/country/[slug]
                 <StatusPill status={entry.status} />
               </span>
               {entry.note && <p className="text-muted-foreground col-span-full text-[0.82rem] leading-relaxed">{entry.note}</p>}
-              <SourceLink source={entry.source ?? entry.verified?.url ?? null} />
+              <div className="col-span-full flex flex-wrap items-center gap-x-4 gap-y-1">
+                <SourceLink source={entry.source ?? entry.verified?.url ?? null} />
+                <ReportProblem drug={drug} country={country} />
+              </div>
             </div>
           ))}
         </div>

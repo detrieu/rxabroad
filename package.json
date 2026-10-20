@@ -9,7 +9,8 @@
     "lint": "eslint",
     "verify": "node scripts/verify/all.mjs",
     "verify:write": "node scripts/verify/all.mjs --write",
-    "db:migrate": "node --env-file=.env.local scripts/migrate.mjs"
+    "db:migrate": "node --env-file=.env.local scripts/migrate.mjs",
+    "feedback": "node --env-file=.env.local scripts/feedback.mjs"
   },
   "dependencies": {
     "@clerk/nextjs": "^7.9.11",

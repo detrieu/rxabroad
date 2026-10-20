@@ -5,17 +5,36 @@ import { ArrowRightIcon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import type { UsNameMatch } from '@/lib/rxnorm';
 
+/** Searches already counted in this visit. */
+const logged = new Set<string>();
+
 /** The form the API route normalises to, so the same medicine always hits the same cached answer. */
 const normalise = (q: string) => q.trim().replace(/\s+/g, ' ').toLowerCase();
 
 /**
  * Shown when a search matches nothing in the formulary. Asks RxNorm what the name is in the US
  * ("Zestoretic" → lisinopril + hydrochlorothiazide) and points to the ingredients we do cover.
- * Renders nothing while loading, when RxNorm has no answer, or if the lookup fails.
+ * Renders nothing while loading, when RxNorm has no answer, or if the lookup fails. Also counts the miss
+ * (anonymously, see /api/search-miss) so the medicines people look for get added next.
  */
 export function UsNameHint({ query, onSearch }: { query: string; onSearch: (generic: string) => void }) {
   const q = normalise(query);
   const [result, setResult] = useState<{ q: string; match: UsNameMatch | null } | null>(null);
+
+  // Count the miss once the person stops typing, so "zol", "zolo"... aren't each recorded.
+  useEffect(() => {
+    if (q.length < 3 || logged.has(q)) return;
+    const t = setTimeout(() => {
+      logged.add(q);
+      fetch('/api/search-miss', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ q }),
+        keepalive: true,
+      }).catch(() => {});
+    }, 2000);
+    return () => clearTimeout(t);
+  }, [q]);
 
   useEffect(() => {
     if (q.length < 3) return;

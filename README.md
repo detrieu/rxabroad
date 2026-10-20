@@ -65,6 +65,12 @@ browser only.
   `user.deleted`) in the Clerk Dashboard → Webhooks, and set the secret in Vercel.
 - Clerk CLI: `npx clerk doctor` checks the setup; `npx clerk config pull` shows sign-in settings.
 
+### Search misses and reported problems
+
+- Searches that match nothing are counted in `public.search_misses` (search text and a count only), so the next medicines added are the ones people look for.
+- "Report a problem" under each entry saves the medicine, country and message to `public.feedback`.
+- Both are anonymous: no user id, IP or session is stored. Read them with `npm run feedback` (last 30 days; `-- --days 90` for more).
+
 ### Registry verification and US name lookup
 
 **Offline verification.** `node scripts/verify/run.mjs <US|CA|SG|FR|GB|JP|DE|MX|IT|ES|TR|VN|ET|PT>` checks one country's entries against
