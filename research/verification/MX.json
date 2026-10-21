@@ -1,8 +1,8 @@
 {
   "country": "MX",
   "registry": "COFEPRIS medicine register (Mexico)",
-  "registryVersion": "14948 registrations, file of 2026-10-09",
-  "checked": "2026-10-09",
+  "registryVersion": "14966 registrations, file of 2026-10-20",
+  "checked": "2026-10-20",
   "summary": {
     "entries": 82,
     "brandEntries": 67,
@@ -13,7 +13,7 @@
     "statusAgree": 72,
     "statusDiffer": 1,
     "statusNotComparable": 9,
-    "confidenceRaised": 1,
+    "confidenceRaised": 0,
     "flagged": 8
   },
   "entries": [
@@ -122,7 +122,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "48607 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -178,7 +178,7 @@
         "id": "156M2021 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
         "searched": "M01AE01",
-        "currentRegistrations": 80
+        "currentRegistrations": 81
       },
       "status": {
         "entry": "MIXED",
@@ -196,7 +196,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "390M90 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -266,7 +266,7 @@
         "id": "062M2020 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
         "searched": "R06AX13",
-        "currentRegistrations": 106
+        "currentRegistrations": 107
       },
       "status": {
         "entry": "OTC",
@@ -283,7 +283,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "001M89 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -356,7 +356,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "130M2018 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -429,7 +429,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "078M2007 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -488,7 +488,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "83335 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -547,7 +547,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "245M2003 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -563,7 +563,7 @@
     {
       "id": "pseudoephedrine",
       "generic": "Pseudoephedrine",
-      "brand": "Not sold",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -616,7 +616,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "581M97 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -688,7 +688,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "51373 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -791,7 +791,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "075M2012 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -857,7 +857,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "208M92 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -930,7 +930,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "72948 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -989,7 +989,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "413M97 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1065,7 +1065,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "297M89 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1124,7 +1124,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "043M88 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1173,7 +1173,7 @@
         "id": "099M2020 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
         "searched": "C08CA01",
-        "currentRegistrations": 59
+        "currentRegistrations": 60
       },
       "status": {
         "entry": "RX",
@@ -1190,7 +1190,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "108M90 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1256,7 +1256,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "87525 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1322,7 +1322,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "237M2013 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1388,7 +1388,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "310M2000 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1447,7 +1447,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "177M2003 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1543,7 +1543,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "282M2002 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1602,7 +1602,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "124M2014 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1635,7 +1635,7 @@
         "id": "010M2021 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
         "searched": "C03AA03",
-        "currentRegistrations": 85
+        "currentRegistrations": 86
       },
       "status": {
         "entry": "RX",
@@ -1698,7 +1698,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "132M2020 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient"
@@ -1740,7 +1740,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "133M2021 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -1798,7 +1798,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "096M2019 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1864,7 +1864,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "357M97 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1923,7 +1923,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "446M79 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1964,7 +1964,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "310M2018 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -2004,7 +2004,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "005M2021 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -2090,7 +2090,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "441M95 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2132,7 +2132,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "041M2020 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -2173,7 +2173,7 @@
         "id": "044M2013 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
         "searched": "B01AF02",
-        "currentRegistrations": 3
+        "currentRegistrations": 4
       },
       "status": {
         "entry": "RX",
@@ -2190,7 +2190,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "044M2013 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2256,7 +2256,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "62267 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2315,7 +2315,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "189M2001 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2381,7 +2381,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "144M97 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2440,7 +2440,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "102M2004 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2516,7 +2516,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "225M92 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2575,7 +2575,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "075M90 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2634,7 +2634,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "372M2005 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2693,7 +2693,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "284M2012 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2734,7 +2734,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "033M2016 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -2810,7 +2810,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "597M2001 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2883,7 +2883,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "432M2015 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2942,7 +2942,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "034M92 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3012,7 +3012,7 @@
         "id": "353M2018 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
         "searched": "N02AX02",
-        "currentRegistrations": 81
+        "currentRegistrations": 82
       },
       "status": {
         "entry": "CONTROLLED",
@@ -3030,7 +3030,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "191M2020 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3096,7 +3096,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "259M80 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3155,7 +3155,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "44942 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3214,7 +3214,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "474M98 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3302,7 +3302,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "57607 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3375,7 +3375,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "048M2014 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3458,7 +3458,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "136M2002 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3539,7 +3539,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "036M2022 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3598,7 +3598,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "016M87 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3671,7 +3671,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "041M99 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3730,7 +3730,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "66744 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3772,7 +3772,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "016M2020 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -3851,7 +3851,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "63955 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3924,7 +3924,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "091M88 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3983,7 +3983,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "159M94 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4007,7 +4007,7 @@
         "id": "011M2020 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
         "searched": "A03AX13",
-        "currentRegistrations": 96
+        "currentRegistrations": 97
       },
       "status": {
         "entry": "MIXED",
@@ -4025,14 +4025,14 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "011M2020 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -4114,7 +4114,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "90127 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4173,7 +4173,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "47191 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4232,7 +4232,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "137M2004 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4298,7 +4298,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "45910 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4339,7 +4339,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "364M2018 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -4411,7 +4411,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "78664 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4470,7 +4470,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "54730 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4486,7 +4486,7 @@
     {
       "id": "doxylamine",
       "generic": "Doxylamine",
-      "brand": "Not sold on its own",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -4513,7 +4513,7 @@
         "to": "medium"
       },
       "flags": [
-        "Entry says \"Not sold on its own\" but the registry lists products with this ingredient"
+        "Entry says \"Not sold here\" but the registry lists products with this ingredient"
       ]
     },
     {
@@ -4562,7 +4562,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "409M2002 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4658,7 +4658,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "68267 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4731,7 +4731,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "175M93 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4804,7 +4804,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "261M87 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4845,7 +4845,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "111M2021 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -4860,7 +4860,7 @@
     {
       "id": "scopolamine",
       "generic": "Scopolamine (motion-sickness patch)",
-      "brand": "No patch in Mexico",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -4936,7 +4936,7 @@
         "registry": "COFEPRIS medicine register (Mexico)",
         "id": "215M91 SSA",
         "url": "https://registros.cofepris.gob.mx/BRSDM/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4952,7 +4952,7 @@
     {
       "id": "epinephrine",
       "generic": "Epinephrine (adrenaline auto-injector)",
-      "brand": "No auto-injector sold",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -4979,7 +4979,7 @@
         "to": "medium"
       },
       "flags": [
-        "Entry says \"No auto-injector sold\" but the registry lists products with this ingredient"
+        "Entry says \"Not sold here\" but the registry lists products with this ingredient"
       ]
     }
   ]

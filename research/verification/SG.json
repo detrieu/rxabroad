@@ -2,18 +2,18 @@
   "country": "SG",
   "registry": "HSA Register of Therapeutic Products (Singapore)",
   "registryVersion": "5511 registered products",
-  "checked": "2026-10-09",
+  "checked": "2026-10-20",
   "summary": {
     "entries": 82,
-    "brandEntries": 62,
-    "brandEntriesConfirmed": 61,
-    "brandNames": 69,
-    "brandNamesConfirmed": 68,
+    "brandEntries": 65,
+    "brandEntriesConfirmed": 63,
+    "brandNames": 75,
+    "brandNamesConfirmed": 73,
     "verified": 73,
     "statusAgree": 71,
     "statusDiffer": 0,
     "statusNotComparable": 11,
-    "confidenceRaised": 0,
+    "confidenceRaised": 1,
     "flagged": 5
   },
   "entries": [
@@ -85,7 +85,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN14833P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -168,7 +168,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN14587P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -239,7 +239,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN16091P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -321,7 +321,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN15437P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -377,7 +377,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN10851P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -433,7 +433,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN06212P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -510,7 +510,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN16251P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -526,9 +526,60 @@
     {
       "id": "pseudoephedrine",
       "generic": "Pseudoephedrine",
-      "brand": "Pharmacy-only with purchase limits",
-      "kind": "other",
-      "brands": [],
+      "brand": "Clarityn-D / Zyrtec-D / Telfast D (combinations)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Clarityn-D",
+          "id": "SIN12246P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "CLARITYN-D 24HOUR EXTENDED RELEASE TABLET",
+          "products": [
+            {
+              "licence": "SIN12246P",
+              "product": "CLARITYN-D 24HOUR EXTENDED RELEASE TABLET",
+              "legal": "PHARMACY"
+            },
+            {
+              "licence": "SIN07282P",
+              "product": "CLARITYN-D 12HOUR REPETABS",
+              "legal": "PHARMACY"
+            }
+          ]
+        },
+        {
+          "name": "Zyrtec-D",
+          "id": "SIN13139P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZYRTEC-D",
+          "products": [
+            {
+              "licence": "SIN13139P",
+              "product": "ZYRTEC-D",
+              "legal": "PHARMACY"
+            }
+          ]
+        },
+        {
+          "name": "Telfast D",
+          "id": "SIN12071P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "TELFAST D TABLET",
+          "products": [
+            {
+              "licence": "SIN12071P",
+              "product": "TELFAST D TABLET",
+              "legal": "PHARMACY"
+            }
+          ]
+        }
+      ],
       "ingredient": {
         "registered": true,
         "id": "SIN11488P",
@@ -542,33 +593,49 @@
         "evidence": {
           "source": "HSA forensic classification",
           "products": {
-            "Pharmacy Only": 25,
-            "Prescription Only": 1
+            "Pharmacy Only": 4
           }
         }
       },
       "verified": {
         "registry": "HSA Register of Therapeutic Products (Singapore)",
-        "id": "SIN11488P",
+        "id": "SIN12246P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
+          "brand",
           "ingredient",
           "status"
         ]
       },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
     {
       "id": "melatonin",
       "generic": "Melatonin",
-      "brand": "Prescription-only medicine (POM) — Circadin is the only HSA-registered brand",
-      "kind": "other",
-      "brands": [],
+      "brand": "Circadin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Circadin",
+          "id": "SIN13954P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "CIRCADIN™ PROLONGED RELEASE TABLETS 2MG",
+          "products": [
+            {
+              "licence": "SIN13954P",
+              "product": "CIRCADIN™ PROLONGED RELEASE TABLETS 2MG",
+              "legal": "RX"
+            }
+          ]
+        }
+      ],
       "ingredient": {
         "registered": true,
         "id": "SIN13954P",
@@ -590,8 +657,9 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN13954P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
+          "brand",
           "ingredient",
           "status"
         ]
@@ -650,7 +718,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN03550P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -692,7 +760,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN11417P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -772,7 +840,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN13994P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -828,7 +896,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN07301P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -900,7 +968,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN02988P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -966,7 +1034,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN09550P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1027,7 +1095,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN13252P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1067,7 +1135,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN12037P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -1127,7 +1195,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN05277P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1183,7 +1251,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN01331P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1254,7 +1322,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN14192P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1315,7 +1383,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN08303P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1381,7 +1449,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN12157P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1447,7 +1515,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN08843P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1518,7 +1586,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN12365P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1534,7 +1602,7 @@
     {
       "id": "amphetamine",
       "generic": "Amphetamine / Dextroamphetamine",
-      "brand": "Not sold in Singapore",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -1583,7 +1651,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN06552P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -1638,7 +1706,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN10983P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1678,7 +1746,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN09317P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -1738,7 +1806,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN16165P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1809,7 +1877,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN12460P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1849,7 +1917,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN10777P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -1909,7 +1977,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN03789P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1965,7 +2033,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN13696P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1981,7 +2049,7 @@
     {
       "id": "hydrocodone",
       "generic": "Hydrocodone / Paracetamol combination",
-      "brand": "Not sold in Singapore",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -2046,7 +2114,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN07090P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2102,7 +2170,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN09554P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2163,7 +2231,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN14407P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2203,7 +2271,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN00064P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -2263,7 +2331,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN11934P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2334,7 +2402,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN13719P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2395,7 +2463,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN11394P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2456,7 +2524,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN02397P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2517,7 +2585,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN08654P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2578,7 +2646,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN13115P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2639,7 +2707,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN15704P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2756,7 +2824,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN07569P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2837,7 +2905,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN15061P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2898,7 +2966,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN10335P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2938,7 +3006,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN08953P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -3008,7 +3076,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN01984P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3047,7 +3115,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN04379P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -3102,7 +3170,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN09828P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3158,7 +3226,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN05373P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3244,7 +3312,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN14885P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3334,7 +3402,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN12098P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3389,7 +3457,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN12440P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3445,7 +3513,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN03962P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3517,7 +3585,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN11699P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3593,7 +3661,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN14588P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3679,7 +3747,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN02657P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3750,7 +3818,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN03163P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3766,7 +3834,7 @@
     {
       "id": "bismuth-subsalicylate",
       "generic": "Bismuth subsalicylate",
-      "brand": "Not registered in Singapore",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -3831,7 +3899,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN08733P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3887,7 +3955,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN11621P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3903,7 +3971,7 @@
     {
       "id": "oral-rehydration-salts",
       "generic": "Oral rehydration salts",
-      "brand": "Ask for oral rehydration salts",
+      "brand": "Sold generic as \"oral rehydration salts\"",
       "kind": "generic",
       "brands": [],
       "ingredient": {
@@ -3975,7 +4043,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN02663P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4036,7 +4104,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN12419P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4052,7 +4120,7 @@
     {
       "id": "meclozine",
       "generic": "Meclozine",
-      "brand": "Not registered — \"Novomin\" (dimenhydrinate) covers this use",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -4142,7 +4210,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN08804P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4209,7 +4277,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN03585P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4225,9 +4293,33 @@
     {
       "id": "antibiotic-ointment",
       "generic": "Bacitracin / Neomycin / Polymyxin B (antibiotic ointment)",
-      "brand": "Not sold without a prescription",
-      "kind": "unavailable",
-      "brands": [],
+      "brand": "Polybamycin / Fucidin (Rx)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Polybamycin",
+          "id": "SIN04413P",
+          "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+          "confirmed": true,
+          "note": null,
+          "matched": "POLYBAMYCIN OINT.",
+          "products": [
+            {
+              "licence": "SIN04413P",
+              "product": "POLYBAMYCIN OINT.",
+              "legal": "RX"
+            }
+          ]
+        },
+        {
+          "name": "Fucidin",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "registered under this name with SODIUM FUSIDATE, not this ingredient",
+          "products": []
+        }
+      ],
       "ingredient": {
         "registered": true,
         "id": "SIN04413P",
@@ -4241,7 +4333,7 @@
         "evidence": {
           "source": "HSA forensic classification",
           "products": {
-            "Prescription Only": 2
+            "Prescription Only": 1
           }
         }
       },
@@ -4251,13 +4343,13 @@
         "to": "high"
       },
       "flags": [
-        "Entry says \"Not sold without a prescription\" but the registry lists products with this ingredient"
+        "Brand \"Fucidin\" not confirmed: registered under this name with SODIUM FUSIDATE, not this ingredient"
       ]
     },
     {
       "id": "doxylamine",
       "generic": "Doxylamine",
-      "brand": "Not registered on its own",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -4283,7 +4375,7 @@
         "to": "high"
       },
       "flags": [
-        "Entry says \"Not registered on its own\" but the registry lists products with this ingredient"
+        "Entry says \"Not sold here\" but the registry lists products with this ingredient"
       ]
     },
     {
@@ -4329,7 +4421,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN11836P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4385,7 +4477,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN09761P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4425,7 +4517,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN08536P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -4490,7 +4582,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN10911P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4561,7 +4653,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN03028P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4601,7 +4693,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN01140P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -4616,7 +4708,7 @@
     {
       "id": "scopolamine",
       "generic": "Scopolamine (motion-sickness patch)",
-      "brand": "Not registered as a patch",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -4686,7 +4778,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN05135P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4747,7 +4839,7 @@
         "registry": "HSA Register of Therapeutic Products (Singapore)",
         "id": "SIN13288P",
         "url": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",

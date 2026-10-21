@@ -33,6 +33,9 @@ export function statusMeta(status: string) {
 export const getDrug = (id: string) => DRUGS.find((d) => d.id === id);
 export const getCountryBySlug = (slug: string) => COUNTRIES.find((c) => c.slug === slug);
 export const getCountry = (code: string) => COUNTRIES.find((c) => c.code === code);
+/** False when there is no name to ask for: "Not sold here" or "Not known". */
+export const hasName = (entry: CountryEntry) => !/^Not (sold here|known)$/.test(entry.brand);
+
 export const getSymptom = (id: string) => SYMPTOMS.find((s) => s.id === (MERGED_SYMPTOMS[id] ?? id));
 export const drugsFor = (symptom: Symptom) => DRUGS.filter((d) => d.symptoms?.includes(symptom.id));
 

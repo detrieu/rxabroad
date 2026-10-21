@@ -1,20 +1,20 @@
 {
   "country": "ET",
   "registry": "EFDA register of approved medicines (Ethiopia)",
-  "registryVersion": "4689 products, exported 2026-10-19; over-the-counter list, third edition, July 2022",
-  "checked": "2026-10-19",
+  "registryVersion": "4688 products, exported 2026-10-20; over-the-counter list, third edition, July 2022",
+  "checked": "2026-10-20",
   "summary": {
     "entries": 82,
-    "brandEntries": 4,
-    "brandEntriesConfirmed": 4,
-    "brandNames": 4,
-    "brandNamesConfirmed": 4,
-    "verified": 64,
+    "brandEntries": 7,
+    "brandEntriesConfirmed": 6,
+    "brandNames": 9,
+    "brandNamesConfirmed": 7,
+    "verified": 63,
     "statusAgree": 60,
     "statusDiffer": 1,
     "statusNotComparable": 21,
-    "confidenceRaised": 63,
-    "flagged": 2
+    "confidenceRaised": 0,
+    "flagged": 3
   },
   "entries": [
     {
@@ -24,7 +24,7 @@
       "kind": "brand",
       "brands": [
         {
-          "name": "Panadol,",
+          "name": "Panadol",
           "id": "10763/VAR/2026",
           "url": "https://eris.efda.gov.et/public/products",
           "confirmed": true,
@@ -87,7 +87,7 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "10763/VAR/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -95,7 +95,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -135,14 +135,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "12190/NMR/2024",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -182,14 +182,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "09906/REN/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -229,14 +229,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "10488/REN/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -272,7 +272,7 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "10371/REN/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient"
         ]
@@ -315,14 +315,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "10287/REN/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -362,14 +362,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "09984/REN/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -377,9 +377,42 @@
     {
       "id": "pseudoephedrine",
       "generic": "Pseudoephedrine",
-      "brand": "Sold in combination cold medicines (e.g. Clarinase, Snip)",
-      "kind": "generic",
-      "brands": [],
+      "brand": "Clarinase / Snip (combinations)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Clarinase",
+          "id": "09573/REN/2025",
+          "url": "https://eris.efda.gov.et/public/products",
+          "confirmed": true,
+          "note": null,
+          "matched": "CLARINASE REPETABS",
+          "products": [
+            {
+              "maNumber": "09573/REN/2025",
+              "product": "CLARINASE REPETABS - LORATADINE AND PSEUDOEPHEDRINE - 5/120 mg - TABLET",
+              "expires": "2030-08-13",
+              "holder": "Bayer consumer care AG"
+            }
+          ]
+        },
+        {
+          "name": "Snip",
+          "id": "09643/REN/2025",
+          "url": "https://eris.efda.gov.et/public/products",
+          "confirmed": true,
+          "note": null,
+          "matched": "SNIP",
+          "products": [
+            {
+              "maNumber": "09643/REN/2025",
+              "product": "SNIP - PARACETAMOL + PSEUDOEPHEDRINE + CHLORPHENIRAMINE MALEATE - 325/15/1 mg - TABLET",
+              "expires": "2030-10-11",
+              "holder": "MEDOCHEMIE LIMITED"
+            }
+          ]
+        }
+      ],
       "ingredient": {
         "registered": true,
         "id": "09707/REN/2025",
@@ -400,15 +433,16 @@
       },
       "verified": {
         "registry": "EFDA register of approved medicines (Ethiopia)",
-        "id": "09707/REN/2025",
+        "id": "09573/REN/2025",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
+          "brand",
           "ingredient"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": [
@@ -418,7 +452,7 @@
     {
       "id": "melatonin",
       "generic": "Melatonin",
-      "brand": "Not registered in Ethiopia",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -449,7 +483,7 @@
     {
       "id": "dimenhydrinate",
       "generic": "Dimenhydrinate",
-      "brand": "Not registered in Ethiopia",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -512,14 +546,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "11312/VAR/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -559,14 +593,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "10966/VAR/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -604,14 +638,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "13863/NMR/2025",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -651,14 +685,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "10019/REN/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -698,14 +732,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "10925/VAR/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -743,14 +777,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "11404/NMR/2023",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -786,14 +820,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "09358/VAR/2024",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -833,14 +867,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "09853/REN/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -880,14 +914,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "10688/VAR/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -927,14 +961,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "10357/REN/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -974,14 +1008,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "10261/REN/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1021,14 +1055,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "10299/VAR/2025",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1068,14 +1102,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "12756/NMR/2024",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1112,14 +1146,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "10045/REN/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1127,7 +1161,7 @@
     {
       "id": "amphetamine",
       "generic": "Amphetamine / Dextroamphetamine",
-      "brand": "Not registered in Ethiopia",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -1188,14 +1222,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "10305/NMR/2022",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1203,7 +1237,7 @@
     {
       "id": "bupropion",
       "generic": "Bupropion",
-      "brand": "Not registered in Ethiopia",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -1266,14 +1300,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "13599/NMR/2025",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1281,7 +1315,7 @@
     {
       "id": "semaglutide",
       "generic": "Semaglutide",
-      "brand": "Not registered in Ethiopia",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -1344,14 +1378,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "09481/VAR/2024",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1359,7 +1393,7 @@
     {
       "id": "trazodone",
       "generic": "Trazodone",
-      "brand": "Not registered in Ethiopia",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -1418,14 +1452,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "09121/REN/2024",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1462,14 +1496,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "09998/REN/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1477,7 +1511,7 @@
     {
       "id": "hydrocodone",
       "generic": "Hydrocodone / Paracetamol combination",
-      "brand": "Not registered in Ethiopia",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -1535,14 +1569,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "10763/NMR/2023",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1582,14 +1616,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "10259/REN/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1629,14 +1663,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "12315/NMR/2024",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1676,14 +1710,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "09950/REN/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1721,14 +1755,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "11265/VAR/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1736,7 +1770,7 @@
     {
       "id": "insulin-lispro",
       "generic": "Insulin Lispro",
-      "brand": "Not registered in Ethiopia",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -1796,14 +1830,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "14624/NMR/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1840,14 +1874,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "09521/VAR/2024",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1884,14 +1918,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "09521/VAR/2024",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1926,14 +1960,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "08116/VAR/2022",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1941,7 +1975,7 @@
     {
       "id": "insulin-degludec",
       "generic": "Insulin Degludec",
-      "brand": "Not registered in Ethiopia",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -2000,14 +2034,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "13616/NMR/2025",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2015,7 +2049,7 @@
     {
       "id": "famotidine",
       "generic": "Famotidine",
-      "brand": "Not registered in Ethiopia",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -2078,14 +2112,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "13534/NMR/2025",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2125,14 +2159,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "10137/REN/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2172,13 +2206,13 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "14074/NMR/2025",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -2186,7 +2220,7 @@
     {
       "id": "alprazolam",
       "generic": "Alprazolam",
-      "brand": "Not registered in Ethiopia",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -2245,14 +2279,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "09530/REN/2025",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2292,14 +2326,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "10963/VAR/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2335,14 +2369,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "14353/NMR/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2350,7 +2384,7 @@
     {
       "id": "oxycodone",
       "generic": "Oxycodone",
-      "brand": "Not registered in Ethiopia",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -2381,7 +2415,7 @@
     {
       "id": "methylphenidate",
       "generic": "Methylphenidate",
-      "brand": "Not registered in Ethiopia",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -2440,14 +2474,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "10440/NMR/2022",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2487,14 +2521,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "10919/VAR/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2529,14 +2563,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "09758/NMR/2022",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2573,14 +2607,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "10023/REN/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2619,14 +2653,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "13875/NMR/2025",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2659,14 +2693,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "07120/NMR/2018",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2674,7 +2708,7 @@
     {
       "id": "bismuth-subsalicylate",
       "generic": "Bismuth subsalicylate",
-      "brand": "Not registered in Ethiopia",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -2755,7 +2789,7 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "12889/NMR/2024",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2763,7 +2797,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2801,14 +2835,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "09712/REN/2025",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2816,9 +2850,32 @@
     {
       "id": "oral-rehydration-salts",
       "generic": "Oral rehydration salts",
-      "brand": "Ask for \"ORS\" sachets",
-      "kind": "generic",
-      "brands": [],
+      "brand": "Osmolyte, or generic \"ORS\"",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Osmolyte",
+          "id": "11113/NMR/2023",
+          "url": "https://eris.efda.gov.et/public/products",
+          "confirmed": true,
+          "note": null,
+          "matched": "OSMOLYTE 20.5 gm",
+          "products": [
+            {
+              "maNumber": "11113/NMR/2023",
+              "product": "OSMOLYTE 20.5 gm - oral rehydration salts BP - 20.5 gm gm - POWDER",
+              "expires": "2029-02-03",
+              "holder": "SAGA LIFESCIENCE LIMITED"
+            },
+            {
+              "maNumber": "08400/NMR/2020",
+              "product": "OSMOLYTE - ORAL REHYDRATION SALTS - 3.5gm +1.5gm + 2.9gm + 20.0gm + Q.S gm - POWDER",
+              "expires": "2026-12-27",
+              "holder": "SAGA LIFESCIENCE LIMITED"
+            }
+          ]
+        }
+      ],
       "ingredient": {
         "registered": true,
         "id": "11113/NMR/2023",
@@ -2843,14 +2900,15 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "11113/NMR/2023",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
+          "brand",
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2890,13 +2948,13 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "10200/REN/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -2948,7 +3006,7 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "13284/NMR/2025",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2956,7 +3014,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2964,7 +3022,7 @@
     {
       "id": "meclozine",
       "generic": "Meclozine",
-      "brand": "Not registered in Ethiopia",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -3027,14 +3085,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "11652/NMR/2024",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3074,14 +3132,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "12565/NMR/2024",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3089,9 +3147,26 @@
     {
       "id": "antibiotic-ointment",
       "generic": "Bacitracin / Neomycin / Polymyxin B (antibiotic ointment)",
-      "brand": "Ask for an antibiotic ointment",
-      "kind": "generic",
-      "brands": [],
+      "brand": "Fusibran / Dermocin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Fusibran",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "registered under this name with FUSIDIC ACID, not this ingredient",
+          "products": []
+        },
+        {
+          "name": "Dermocin",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "registered under this name with MUPIROCIN OINTMENT, not this ingredient",
+          "products": []
+        }
+      ],
       "ingredient": {
         "registered": true,
         "id": "09044/REN/2024",
@@ -3110,21 +3185,15 @@
           "listed": "not on the list"
         }
       },
-      "verified": {
-        "registry": "EFDA register of approved medicines (Ethiopia)",
-        "id": "09044/REN/2024",
-        "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
-        "checks": [
-          "ingredient",
-          "status"
-        ]
-      },
+      "verified": null,
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
-      "flags": []
+      "flags": [
+        "Brand \"Fusibran\" not confirmed: registered under this name with FUSIDIC ACID, not this ingredient",
+        "Brand \"Dermocin\" not confirmed: registered under this name with MUPIROCIN OINTMENT, not this ingredient"
+      ]
     },
     {
       "id": "doxylamine",
@@ -3154,14 +3223,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "09812/NMR/2022",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3224,7 +3293,7 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "09913/VAR/2025",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3232,7 +3301,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3240,7 +3309,7 @@
     {
       "id": "atovaquone-proguanil",
       "generic": "Atovaquone / Proguanil",
-      "brand": "Not registered in Ethiopia",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -3303,14 +3372,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "10192/REN/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3350,14 +3419,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "10467/REN/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3397,14 +3466,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "10855/VAR/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3440,14 +3509,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "14857/NMR/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3455,7 +3524,7 @@
     {
       "id": "scopolamine",
       "generic": "Scopolamine (motion-sickness patch)",
-      "brand": "Not registered in Ethiopia",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -3518,14 +3587,14 @@
         "registry": "EFDA register of approved medicines (Ethiopia)",
         "id": "09887/REN/2026",
         "url": "https://eris.efda.gov.et/public/products",
-        "checked": "2026-10-19",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3533,7 +3602,7 @@
     {
       "id": "epinephrine",
       "generic": "Epinephrine (adrenaline auto-injector)",
-      "brand": "Not registered in Ethiopia as an auto-injector",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -3564,7 +3633,7 @@
         "to": "low"
       },
       "flags": [
-        "Entry says \"Not registered in Ethiopia as an auto-injector\" but the registry lists products with this ingredient"
+        "Entry says \"Not sold here\" but the registry lists products with this ingredient"
       ]
     }
   ]

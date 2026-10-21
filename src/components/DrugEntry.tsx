@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { ChevronDownIcon } from 'lucide-react';
-import { entryFor, isSafeSource, statusMeta, type Country, type CountryCode, type CountryEntry, type Drug } from '@/data';
+import { entryFor, hasName, isSafeSource, statusMeta, type Country, type CountryCode, type CountryEntry, type Drug } from '@/data';
 import { cn } from '@/lib/utils';
 import { Flag } from './Flag';
 import { Highlight } from './Highlight';
@@ -142,7 +142,7 @@ function CountryRow({
       </span>
       <span role="cell" className="col-span-2 row-start-2 min-w-0 sm:col-span-1 sm:row-start-auto">
         <span className="text-muted-foreground mr-2 font-mono text-[0.6rem] tracking-[0.16em] uppercase">Ask for</span>
-        <span className="font-semibold"><Highlight text={entry.brand} query={query} /></span>
+        <span className={hasName(entry) ? 'font-semibold' : 'text-muted-foreground'}><Highlight text={entry.brand} query={query} /></span>
         <EntryBadges entry={entry} />
         <LocalName entry={entry} />
       </span>

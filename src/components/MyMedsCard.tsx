@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useState, type ReactNode } from 'react';
 import { BanIcon, PlaneIcon, SearchIcon, ShieldAlertIcon, Trash2Icon } from 'lucide-react';
-import { COUNTRIES, DRUGS, IN_PROGRESS_NOTE, entryFor, getCountry, getDrug, isInProgress, type Country, type CountryCode, type Drug } from '@/data';
+import { COUNTRIES, DRUGS, IN_PROGRESS_NOTE, entryFor, hasName, getCountry, getDrug, isInProgress, type Country, type CountryCode, type Drug } from '@/data';
 import { useMyDestinations, useMyMeds } from '@/lib/my-meds';
 import { drugMatches } from '@/lib/search';
 import { Button } from '@/components/ui/button';
@@ -303,7 +303,7 @@ function TravelPass({ country, leg, legs, drugs, onRemove }: TravelPassProps) {
                     </div>
                     <p className="mt-2 text-base">
                       <span className="text-muted-foreground mr-2 font-mono text-[0.6rem] tracking-[0.16em] uppercase">Ask for</span>
-                      <span className="font-semibold">{entry.brand}</span>
+                      <span className={hasName(entry) ? 'font-semibold' : 'text-muted-foreground'}>{entry.brand}</span>
                     </p>
                     <LocalName entry={entry} />
                     {entry.note && <p className="text-muted-foreground mt-1 text-[0.82rem] leading-relaxed">{entry.note}</p>}

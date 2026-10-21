@@ -174,12 +174,14 @@ const OTHER_RE = /^(prescription|pharmacy|otc\b|marketed|availability|labeled)/i
 export function parseBrand(text) {
   const head = text.split(/\s+—\s+|;/)[0].trim();
   if (GENERIC_RE.test(head)) return { kind: 'generic', names: [] };
+  if (/^not known\b/i.test(head)) return { kind: 'other', names: [] };
   if (UNAVAILABLE_RE.test(head)) return { kind: 'unavailable', names: [] };
   if (OTHER_RE.test(head)) return { kind: 'other', names: [] };
   const names = head
-    .split(/\s+\/\s+|\s+or\s+/)
+    .split(/\s+\/\s+|,?\s+or\s+/)
     .map((part) => part.replace(/\s*\(.*?\)/g, '').trim())
-    .filter((n) => n && n.split(/\s+/).length <= 4 && !GENERIC_RE.test(n) && !UNAVAILABLE_RE.test(n) && !OTHER_RE.test(n));
+    // A quoted name is the local generic ("mélatonine" supplements), not a brand.
+    .filter((n) => n && !n.startsWith('"') && n.split(/\s+/).length <= 4 && !GENERIC_RE.test(n) && !UNAVAILABLE_RE.test(n) && !OTHER_RE.test(n));
   return names.length ? { kind: 'brand', names } : { kind: 'other', names: [] };
 }
 

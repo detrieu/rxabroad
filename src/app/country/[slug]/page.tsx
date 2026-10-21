@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { SearchIcon } from 'lucide-react';
-import { COUNTRIES, DRUGS, IN_PROGRESS_NOTE, entryFor, getCountryBySlug, isInProgress, type CountryCode, type Status } from '@/data';
+import { COUNTRIES, DRUGS, IN_PROGRESS_NOTE, entryFor, hasName, getCountryBySlug, isInProgress, type CountryCode, type Status } from '@/data';
 import { Button } from '@/components/ui/button';
 import { StatusPill } from '@/components/StatusPill';
 import { EntryBadges } from '@/components/ConfBadge';
@@ -125,7 +125,7 @@ export default async function CountryPage({ params }: PageProps<'/country/[slug]
               </span>
               <span role="cell" className="col-span-2 row-start-2 min-w-0 sm:col-span-1 sm:row-start-auto">
                 <span className="text-muted-foreground mr-2 font-mono text-[0.6rem] tracking-[0.16em] uppercase">Ask for</span>
-                <span className="font-semibold">{entry.brand}</span>
+                <span className={hasName(entry) ? 'font-semibold' : 'text-muted-foreground'}>{entry.brand}</span>
                 <EntryBadges entry={entry} />
                 <LocalName entry={entry} />
               </span>

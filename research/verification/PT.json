@@ -1,20 +1,20 @@
 {
   "country": "PT",
   "registry": "Infomed medicines database (INFARMED, Portugal)",
-  "registryVersion": "searched 2026-10-14",
-  "checked": "2026-10-14",
+  "registryVersion": "searched 2026-10-20",
+  "checked": "2026-10-20",
   "summary": {
     "entries": 82,
-    "brandEntries": 64,
-    "brandEntriesConfirmed": 63,
-    "brandNames": 70,
-    "brandNamesConfirmed": 69,
-    "verified": 75,
-    "statusAgree": 69,
-    "statusDiffer": 2,
-    "statusNotComparable": 11,
-    "confidenceRaised": 58,
-    "flagged": 3
+    "brandEntries": 65,
+    "brandEntriesConfirmed": 64,
+    "brandNames": 71,
+    "brandNamesConfirmed": 70,
+    "verified": 74,
+    "statusAgree": 67,
+    "statusDiffer": 3,
+    "statusNotComparable": 12,
+    "confidenceRaised": 1,
+    "flagged": 5
   },
   "entries": [
     {
@@ -94,7 +94,7 @@
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
         "searched": "N02BE01",
         "localName": "Paracetamol",
-        "marketedProducts": 68
+        "marketedProducts": 67
       },
       "status": {
         "entry": "MIXED",
@@ -112,7 +112,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "53175",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -185,11 +185,11 @@
               "holder": "Viatris Healthcare, Lda."
             },
             {
-              "id": "54968",
-              "product": "Brufen",
+              "id": "672805",
+              "product": "Brufen Liq",
               "ingredient": "Ibuprofeno",
-              "form": "Granulado efervescente",
-              "strength": "400 mg",
+              "form": "Suspensão oral em saqueta",
+              "strength": "400 mg/10 ml",
               "class": "MNSRM-EF",
               "holder": "Viatris Healthcare, Lda."
             }
@@ -202,7 +202,7 @@
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
         "searched": "M01AE01",
         "localName": "Ibuprofeno",
-        "marketedProducts": 79
+        "marketedProducts": 78
       },
       "status": {
         "entry": "MIXED",
@@ -212,7 +212,7 @@
           "source": "Infomed dispensing class (classificação quanto à dispensa)",
           "products": {
             "MNSRM": 5,
-            "MNSRM-EF": 3,
+            "MNSRM-EF": 2,
             "MSRM": 3
           }
         }
@@ -221,7 +221,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "1257",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -229,7 +229,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -283,7 +283,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "1890",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -291,7 +291,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -364,7 +364,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "9531",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -372,7 +372,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -406,7 +406,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "2842",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient"
         ]
@@ -466,7 +466,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "4444",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient"
@@ -512,7 +512,7 @@
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
         "searched": "A02BC01",
         "localName": "Omeprazol",
-        "marketedProducts": 42
+        "marketedProducts": 43
       },
       "status": {
         "entry": "RX",
@@ -529,7 +529,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "5220",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -537,7 +537,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -545,9 +545,29 @@
     {
       "id": "pseudoephedrine",
       "generic": "Pseudoephedrine",
-      "brand": "Pharmacy-only",
-      "kind": "other",
-      "brands": [],
+      "brand": "Aspirinagripe (with aspirin)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Aspirinagripe",
+          "id": "631342",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Aspirinagripe",
+          "products": [
+            {
+              "id": "631342",
+              "product": "Aspirinagripe",
+              "ingredient": "Ácido acetilsalicílico + Pseudoefedrina",
+              "form": "Granulado para suspensão oral",
+              "strength": "500 mg + 30 mg",
+              "class": "MNSRM-EF",
+              "holder": "Bayer Portugal, Lda."
+            }
+          ]
+        }
+      ],
       "ingredient": {
         "registered": true,
         "id": "631342",
@@ -571,24 +591,45 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "631342",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
+          "brand",
           "ingredient",
           "status"
         ]
       },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
     {
       "id": "melatonin",
       "generic": "Melatonin",
-      "brand": "Pharmacy / Rx depending on dose",
-      "kind": "other",
-      "brands": [],
+      "brand": "Circadin (Rx), or \"melatonina\" supplements",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Circadin",
+          "id": "40881",
+          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+          "confirmed": true,
+          "note": null,
+          "matched": "Circadin",
+          "products": [
+            {
+              "id": "40881",
+              "product": "Circadin",
+              "ingredient": "Melatonina",
+              "form": "Comprimido de libertação prolongada",
+              "strength": "2 mg",
+              "class": "MSRM",
+              "holder": "RAD Neurim Pharmaceuticals EEC SARL"
+            }
+          ]
+        }
+      ],
       "ingredient": {
         "registered": true,
         "id": "647104",
@@ -599,31 +640,32 @@
       },
       "status": {
         "entry": "MIXED",
-        "registry": "MIXED",
-        "result": "agree",
+        "registry": "RX",
+        "result": "differ",
         "evidence": {
           "source": "Infomed dispensing class (classificação quanto à dispensa)",
           "products": {
-            "MNSRM-EF": 2,
-            "MSRM": 8
+            "MSRM": 1
           }
         }
       },
       "verified": {
         "registry": "Infomed medicines database (INFARMED, Portugal)",
-        "id": "647104",
+        "id": "40881",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
-          "ingredient",
-          "status"
+          "brand",
+          "ingredient"
         ]
       },
       "confidence": {
         "from": "medium",
         "to": "medium"
       },
-      "flags": []
+      "flags": [
+        "Status differs: entry MIXED, registry RX"
+      ]
     },
     {
       "id": "dimenhydrinate",
@@ -654,7 +696,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "3009",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient"
         ]
@@ -694,7 +736,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "612503",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -755,7 +797,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "3975",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -835,7 +877,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "9485",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -906,7 +948,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "9077",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -914,7 +956,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -995,7 +1037,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "51736",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1102,7 +1144,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "31940",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1110,7 +1152,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1173,7 +1215,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "9442",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1181,7 +1223,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1244,7 +1286,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "6250",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1252,7 +1294,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1286,14 +1328,14 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "54877",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1306,18 +1348,27 @@
       "brands": [
         {
           "name": "Cozaar",
-          "id": "33071",
+          "id": "39991",
           "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
           "confirmed": true,
           "note": null,
-          "matched": "Cozaar 100 mg",
+          "matched": "Cozaar Plus",
           "products": [
             {
-              "id": "33071",
-              "product": "Cozaar 100 mg",
-              "ingredient": "Losartan",
+              "id": "39991",
+              "product": "Cozaar Plus",
+              "ingredient": "Losartan + Hidroclorotiazida",
               "form": "Comprimido revestido por película",
-              "strength": "100 mg",
+              "strength": "100 mg + 12.5 mg",
+              "class": "MSRM",
+              "holder": "Organon Portugal, Sociedade Unipessoal, Lda."
+            },
+            {
+              "id": "29547",
+              "product": "Cozaar Plus",
+              "ingredient": "Losartan + Hidroclorotiazida",
+              "form": "Comprimido revestido por película",
+              "strength": "50 mg + 12.5 mg",
               "class": "MSRM",
               "holder": "Organon Portugal, Sociedade Unipessoal, Lda."
             }
@@ -1326,11 +1377,11 @@
       ],
       "ingredient": {
         "registered": true,
-        "id": "33071",
+        "id": "39042",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
         "searched": "C09CA01",
         "localName": "Losartan",
-        "marketedProducts": 42
+        "marketedProducts": 41
       },
       "status": {
         "entry": "RX",
@@ -1339,15 +1390,15 @@
         "evidence": {
           "source": "Infomed dispensing class (classificação quanto à dispensa)",
           "products": {
-            "MSRM": 1
+            "MSRM": 2
           }
         }
       },
       "verified": {
         "registry": "Infomed medicines database (INFARMED, Portugal)",
-        "id": "33071",
+        "id": "39991",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1355,7 +1406,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1427,7 +1478,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "6056",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1435,7 +1486,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1517,7 +1568,7 @@
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
         "searched": "C10AA07",
         "localName": "Rosuvastatina",
-        "marketedProducts": 72
+        "marketedProducts": 73
       },
       "status": {
         "entry": "RX",
@@ -1534,7 +1585,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "35075",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1542,7 +1593,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1614,7 +1665,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "9891",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient"
@@ -1722,7 +1773,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "34878",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1730,7 +1781,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1738,7 +1789,7 @@
     {
       "id": "amphetamine",
       "generic": "Amphetamine / Dextroamphetamine",
-      "brand": "Not commonly available. Portugal uses Elvanse (lisdexamfetamine) for ADHD",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -1791,14 +1842,14 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "631142",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1861,7 +1912,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "41506",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1869,7 +1920,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1903,14 +1954,14 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "2590",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -1982,7 +2033,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "635326",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1990,7 +2041,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2062,7 +2113,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "31637",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2070,7 +2121,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2106,6 +2157,24 @@
               "strength": "150 mg",
               "class": "MSRM",
               "holder": "Angelini Pharma Portugal, Unipessoal Lda"
+            },
+            {
+              "id": "54195",
+              "product": "Triticum OD",
+              "ingredient": "Trazodona",
+              "form": "Comprimido de libertação prolongada",
+              "strength": "150 mg",
+              "class": "MSRM",
+              "holder": "Angelini Pharma Portugal, Unipessoal Lda"
+            },
+            {
+              "id": "54196",
+              "product": "Triticum OD",
+              "ingredient": "Trazodona",
+              "form": "Comprimido de libertação prolongada",
+              "strength": "300 mg",
+              "class": "MSRM",
+              "holder": "Angelini Pharma Portugal, Unipessoal Lda"
             }
           ]
         }
@@ -2116,7 +2185,7 @@
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
         "searched": "N06AX05",
         "localName": "Trazodona",
-        "marketedProducts": 7
+        "marketedProducts": 9
       },
       "status": {
         "entry": "RX",
@@ -2125,7 +2194,7 @@
         "evidence": {
           "source": "Infomed dispensing class (classificação quanto à dispensa)",
           "products": {
-            "MSRM": 2
+            "MSRM": 4
           }
         }
       },
@@ -2133,7 +2202,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "8734",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2178,7 +2247,7 @@
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
         "searched": "C10AA01",
         "localName": "Sinvastatina",
-        "marketedProducts": 54
+        "marketedProducts": 55
       },
       "status": {
         "entry": "RX",
@@ -2195,7 +2264,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "9475",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2203,7 +2272,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2257,7 +2326,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "38888",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2265,7 +2334,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2273,7 +2342,7 @@
     {
       "id": "hydrocodone",
       "generic": "Hydrocodone / Paracetamol combination",
-      "brand": "Not marketed in Portugal. No hydrocodone product is registered with INFARMED",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -2366,7 +2435,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "585021",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2374,7 +2443,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2437,7 +2506,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "5750",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2445,7 +2514,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2508,7 +2577,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "52171",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2579,7 +2648,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "4904",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2587,7 +2656,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2659,7 +2728,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "10745",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2757,7 +2826,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "4327",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2765,7 +2834,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2828,7 +2897,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "29179",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2836,7 +2905,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -2918,7 +2987,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "32423",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2926,7 +2995,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3008,7 +3077,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "33134",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3016,7 +3085,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3070,7 +3139,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "35044",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3078,7 +3147,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3141,7 +3210,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "56991",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3149,7 +3218,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3166,7 +3235,7 @@
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
         "searched": "N06AX21",
         "localName": "Duloxetina",
-        "marketedProducts": 24
+        "marketedProducts": 25
       },
       "status": {
         "entry": "RX",
@@ -3175,7 +3244,7 @@
         "evidence": {
           "source": "Infomed dispensing class (classificação quanto à dispensa)",
           "products": {
-            "MSRM": 24
+            "MSRM": 25
           }
         }
       },
@@ -3183,14 +3252,14 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "590105",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3198,64 +3267,31 @@
     {
       "id": "famotidine",
       "generic": "Famotidine",
-      "brand": "Lasa",
-      "kind": "brand",
-      "brands": [
-        {
-          "name": "Lasa",
-          "id": "29925",
-          "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-          "confirmed": true,
-          "note": null,
-          "matched": "Lasa",
-          "products": [
-            {
-              "id": "29925",
-              "product": "Lasa",
-              "ingredient": "Famotidina",
-              "form": "Comprimido",
-              "strength": "10 mg",
-              "class": "MNSRM",
-              "holder": "Aristo Pharma Iberia, SL"
-            }
-          ]
-        }
-      ],
+      "brand": "Sold generic as \"Famotidina\"",
+      "kind": "generic",
+      "brands": [],
       "ingredient": {
-        "registered": true,
-        "id": "29925",
+        "registered": false,
+        "id": null,
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
         "searched": "A02BA03",
-        "localName": "Famotidina",
-        "marketedProducts": 1
+        "localName": null,
+        "marketedProducts": 0
       },
       "status": {
         "entry": "OTC",
-        "registry": "OTC",
-        "result": "agree",
-        "evidence": {
-          "source": "Infomed dispensing class (classificação quanto à dispensa)",
-          "products": {
-            "MNSRM": 1
-          }
-        }
+        "registry": null,
+        "result": "na",
+        "evidence": null
       },
-      "verified": {
-        "registry": "Infomed medicines database (INFARMED, Portugal)",
-        "id": "29925",
-        "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
-        "checks": [
-          "brand",
-          "ingredient",
-          "status"
-        ]
-      },
+      "verified": null,
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
-      "flags": []
+      "flags": [
+        "Ingredient not found in this registry"
+      ]
     },
     {
       "id": "empagliflozin",
@@ -3315,7 +3351,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "585383",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3323,7 +3359,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3386,7 +3422,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "2607",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3394,7 +3430,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3429,7 +3465,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "6698",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient"
         ]
@@ -3535,7 +3571,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "9314",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3550,7 +3586,7 @@
     {
       "id": "prednisone",
       "generic": "Prednisone",
-      "brand": "Not marketed in Portugal",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -3632,7 +3668,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "6948",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3640,7 +3676,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3722,7 +3758,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "37119",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3802,7 +3838,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "56917",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3810,7 +3846,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3920,7 +3956,7 @@
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
         "searched": "N06BA04",
         "localName": "Metilfenidato",
-        "marketedProducts": 47
+        "marketedProducts": 48
       },
       "status": {
         "entry": "CONTROLLED",
@@ -3937,7 +3973,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "34285",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3945,7 +3981,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -4046,7 +4082,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "33668",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4054,7 +4090,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -4117,7 +4153,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "9295",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4125,7 +4161,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -4188,7 +4224,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "8350",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4196,7 +4232,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -4250,7 +4286,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "9163",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4258,7 +4294,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -4321,7 +4357,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "51862",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4329,7 +4365,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -4392,7 +4428,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "10391",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4400,7 +4436,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -4408,7 +4444,7 @@
     {
       "id": "bismuth-subsalicylate",
       "generic": "Bismuth subsalicylate",
-      "brand": "Not commonly available",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -4546,7 +4582,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "47148",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4554,7 +4590,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -4617,7 +4653,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "2676",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4625,7 +4661,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -4697,7 +4733,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "2863",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4705,7 +4741,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -4768,7 +4804,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "598322",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4776,7 +4812,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -4784,7 +4820,7 @@
     {
       "id": "meclozine",
       "generic": "Meclozine",
-      "brand": "Not commonly available",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -4866,7 +4902,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "6619",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4874,7 +4910,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -4937,7 +4973,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "1410",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4945,7 +4981,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -4999,7 +5035,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "6975",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5007,7 +5043,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -5070,7 +5106,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "54576",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5078,7 +5114,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -5160,7 +5196,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "40160",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5168,7 +5204,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -5222,7 +5258,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "40590",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5230,7 +5266,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -5264,14 +5300,14 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "69",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -5334,7 +5370,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "9466",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5342,7 +5378,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -5396,7 +5432,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "1833",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5404,7 +5440,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -5438,14 +5474,14 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "1444",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -5453,7 +5489,7 @@
     {
       "id": "scopolamine",
       "generic": "Scopolamine (motion-sickness patch)",
-      "brand": "Not commonly available",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -5526,7 +5562,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "9482",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5534,7 +5570,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -5597,7 +5633,7 @@
         "registry": "Infomed medicines database (INFARMED, Portugal)",
         "id": "56570",
         "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
-        "checked": "2026-10-14",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5605,7 +5641,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []

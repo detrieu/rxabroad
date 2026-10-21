@@ -1,4 +1,4 @@
-import { COUNTRIES, DRUGS, SYMPTOMS, type Country, type CountryCode, type Drug } from '@/data';
+import { COUNTRIES, DRUGS, SYMPTOMS, hasName, type Country, type CountryCode, type Drug } from '@/data';
 
 export interface DrugMatch {
   matches: boolean;
@@ -71,7 +71,7 @@ function matchDrug(drug: Drug, query: string, loose: boolean): DrugMatch {
   const countryHits: DrugMatch['countryHits'] = {};
   for (const co of COUNTRIES) {
     const entry = drug.countries[co.code];
-    if (finds(`${co.name} ${co.code} ${entry?.brand ?? ''} ${entry?.localName ?? ''}`, q, loose)) countryHits[co.code] = true;
+    if (finds(`${co.name} ${co.code} ${entry && hasName(entry) ? entry.brand : ''} ${entry?.localName ?? ''}`, q, loose)) countryHits[co.code] = true;
   }
   return { matches: drugLevelHit || Object.keys(countryHits).length > 0, countryHits, drugLevelHit };
 }

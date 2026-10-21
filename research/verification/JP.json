@@ -1,26 +1,26 @@
 {
   "country": "JP",
   "registry": "MHLW drug price list (Japan, prescription medicines)",
-  "registryVersion": "list of 2026-08-13",
-  "checked": "2026-10-09",
+  "registryVersion": "list of 2026-10-14",
+  "checked": "2026-10-20",
   "summary": {
     "entries": 82,
-    "brandEntries": 65,
-    "brandEntriesConfirmed": 47,
-    "brandNames": 77,
-    "brandNamesConfirmed": 58,
+    "brandEntries": 66,
+    "brandEntriesConfirmed": 48,
+    "brandNames": 78,
+    "brandNamesConfirmed": 59,
     "verified": 53,
     "statusAgree": 46,
     "statusDiffer": 0,
     "statusNotComparable": 36,
-    "confidenceRaised": 0,
+    "confidenceRaised": 1,
     "flagged": 23
   },
   "entries": [
     {
       "id": "paracetamol",
       "generic": "Paracetamol",
-      "brand": "Tylenol A — often called \"Calonal\" instead, an equally common Japanese name for the same ingredient",
+      "brand": "Tylenol A",
       "kind": "brand",
       "brands": [
         {
@@ -44,7 +44,7 @@
         "registry": null,
         "result": "na",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 47
           }
@@ -86,7 +86,7 @@
         "registry": null,
         "result": "na",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 12
           }
@@ -128,7 +128,7 @@
         "registry": null,
         "result": "na",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 20
           }
@@ -190,7 +190,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 20
           }
@@ -200,7 +200,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "4490020F1020",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -216,7 +216,7 @@
     {
       "id": "diphenhydramine",
       "generic": "Diphenhydramine",
-      "brand": "Drewell (50mg diphenhydramine, Class 2 OTC sleep aid) — not an allergy product",
+      "brand": "Drewell (50mg diphenhydramine, Class 2 OTC sleep aid)",
       "kind": "brand",
       "brands": [
         {
@@ -240,7 +240,7 @@
         "registry": null,
         "result": "na",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 9
           }
@@ -310,7 +310,7 @@
         "registry": "RX",
         "result": "na",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 6
           }
@@ -328,9 +328,32 @@
     {
       "id": "omeprazole",
       "generic": "Omeprazole",
-      "brand": "Prescription-only; OTC PPIs are uncommon in Japan",
-      "kind": "other",
-      "brands": [],
+      "brand": "Omepral (オメプラール)",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Omepral",
+          "id": "2329022H1043",
+          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
+          "confirmed": true,
+          "note": null,
+          "matched": "オメプラール錠20",
+          "products": [
+            {
+              "code": "2329022H1043",
+              "product": "オメプラール錠20",
+              "ingredient": "オメプラゾール",
+              "maker": "太陽ファルマ"
+            },
+            {
+              "code": "2329022H2023",
+              "product": "オメプラール錠10",
+              "ingredient": "オメプラゾール",
+              "maker": "太陽ファルマ"
+            }
+          ]
+        }
+      ],
       "ingredient": {
         "registered": true,
         "id": "2329022H1019",
@@ -343,7 +366,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 13
           }
@@ -351,24 +374,25 @@
       },
       "verified": {
         "registry": "MHLW drug price list (Japan, prescription medicines)",
-        "id": "2329022H1019",
+        "id": "2329022H1043",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
+          "brand",
           "ingredient",
           "status"
         ]
       },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
     {
       "id": "pseudoephedrine",
       "generic": "Pseudoephedrine",
-      "brand": "Ask by generic name",
+      "brand": "Sold generic as \"Pseudoephedrine\"",
       "kind": "generic",
       "brands": [],
       "ingredient": {
@@ -383,7 +407,7 @@
         "registry": "RX",
         "result": "na",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 3
           }
@@ -393,7 +417,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "4490100F1021",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient"
         ]
@@ -451,7 +475,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 3
           }
@@ -461,7 +485,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "1190028D1026",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -509,7 +533,7 @@
         "registry": null,
         "result": "na",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 1
           }
@@ -543,7 +567,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 20
           }
@@ -553,7 +577,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "6131001C1210",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -606,7 +630,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 17
           }
@@ -616,7 +640,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "3962002F2027",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -694,7 +718,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 20
           }
@@ -704,7 +728,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "1179046F1028",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -752,7 +776,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 4
           }
@@ -762,7 +786,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2254700G4037",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -816,7 +840,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 40
           }
@@ -826,7 +850,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2189015F1023",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -892,7 +916,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 9
           }
@@ -902,7 +926,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2431004B1038",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -933,7 +957,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 8
           }
@@ -943,7 +967,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2144006F1014",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -1066,7 +1090,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 169
           }
@@ -1076,7 +1100,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2171022F1029",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1158,7 +1182,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 7
           }
@@ -1168,7 +1192,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2149010F1025",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1228,7 +1252,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 49
           }
@@ -1238,7 +1262,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2149039F1031",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1304,7 +1328,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 5
           }
@@ -1314,7 +1338,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "1139007F1022",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1368,7 +1392,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 27
           }
@@ -1378,7 +1402,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2189017F1022",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1394,7 +1418,7 @@
     {
       "id": "pantoprazole",
       "generic": "Pantoprazole",
-      "brand": "Not sold in Japan",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -1458,7 +1482,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 26
           }
@@ -1468,7 +1492,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "1179054F1022",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1484,7 +1508,7 @@
     {
       "id": "amphetamine",
       "generic": "Amphetamine / Dextroamphetamine",
-      "brand": "Not sold",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -1525,7 +1549,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 68
           }
@@ -1535,7 +1559,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2132004F1103",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -1550,7 +1574,7 @@
     {
       "id": "bupropion",
       "generic": "Bupropion",
-      "brand": "Not approved for any use by Japan’s Ministry of Health, Labour and Welfare",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -1576,7 +1600,7 @@
     {
       "id": "fluoxetine",
       "generic": "Fluoxetine",
-      "brand": "Not approved for use in Japan — the manufacturer withdrew it after disappointing local trials",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -1634,7 +1658,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 14
           }
@@ -1644,7 +1668,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2499418G4027",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1756,7 +1780,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 49
           }
@@ -1766,7 +1790,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "4490026C1021",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1820,7 +1844,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 4
           }
@@ -1830,7 +1854,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "1179037F1029",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1890,7 +1914,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 19
           }
@@ -1900,7 +1924,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2189011F1025",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1954,7 +1978,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 21
           }
@@ -1964,7 +1988,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2590008F1026",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1980,7 +2004,7 @@
     {
       "id": "hydrocodone",
       "generic": "Hydrocodone / Paracetamol combination",
-      "brand": "Not sold in Japan",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -2092,7 +2116,7 @@
         "registry": "RX",
         "result": "na",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 55
           }
@@ -2148,7 +2172,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 13
           }
@@ -2158,7 +2182,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "1149035F1020",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2212,7 +2236,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 2
           }
@@ -2222,7 +2246,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "3339004F1029",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2294,7 +2318,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 10
           }
@@ -2304,7 +2328,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2139005F1052",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2370,7 +2394,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 8
           }
@@ -2380,7 +2404,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2492416A1033",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2458,7 +2482,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 15
           }
@@ -2468,7 +2492,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2492414A1026",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2546,7 +2570,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 14
           }
@@ -2556,7 +2580,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2492415A2035",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2638,7 +2662,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 13
           }
@@ -2648,7 +2672,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2492403A4051",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2724,7 +2748,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 13
           }
@@ -2734,7 +2758,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2492403A3047",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2788,7 +2812,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 2
           }
@@ -2798,7 +2822,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2492417A1038",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2852,7 +2876,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 4
           }
@@ -2862,7 +2886,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2492419A1029",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2916,7 +2940,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 41
           }
@@ -2926,7 +2950,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "1179052M1022",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3012,7 +3036,7 @@
         "registry": "RX",
         "result": "na",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 23
           }
@@ -3068,7 +3092,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 4
           }
@@ -3078,7 +3102,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "3969023F1023",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3144,7 +3168,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 13
           }
@@ -3154,7 +3178,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2149032F1021",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3214,7 +3238,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 23
           }
@@ -3224,7 +3248,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "1149038F1024",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3300,7 +3324,7 @@
         "registry": "RX",
         "result": "na",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 7
           }
@@ -3310,7 +3334,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "1124023F1037",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3325,7 +3349,7 @@
     {
       "id": "prednisone",
       "generic": "Prednisone",
-      "brand": "Not sold — Japan uses prednisolone instead: Predonine (プレドニン), prescription-only",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -3389,7 +3413,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 37
           }
@@ -3399,7 +3423,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "3399008F1025",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3439,7 +3463,7 @@
         "registry": null,
         "result": "na",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 13
           }
@@ -3541,7 +3565,7 @@
         "registry": "RX",
         "result": "na",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 28
           }
@@ -3551,7 +3575,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "8119002G5020",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3610,7 +3634,7 @@
         "registry": "RX",
         "result": "na",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 4
           }
@@ -3620,7 +3644,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "1179009G1022",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3667,7 +3691,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 1
           }
@@ -3677,7 +3701,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "1149007F1142",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3717,7 +3741,7 @@
         "registry": null,
         "result": "na",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 32
           }
@@ -3759,7 +3783,7 @@
         "registry": null,
         "result": "na",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 28
           }
@@ -3795,8 +3819,8 @@
       },
       "verified": null,
       "confidence": {
-        "from": "low",
-        "to": "low"
+        "from": "medium",
+        "to": "medium"
       },
       "flags": [
         "Ingredient not found in this registry"
@@ -3849,7 +3873,7 @@
         "registry": "RX",
         "result": "na",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 7
           }
@@ -3859,7 +3883,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2223001B1210",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3911,7 +3935,7 @@
     {
       "id": "bismuth-subsalicylate",
       "generic": "Bismuth subsalicylate",
-      "brand": "Not commonly available",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -3961,7 +3985,7 @@
         "registry": null,
         "result": "na",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 12
           }
@@ -4003,7 +4027,7 @@
         "registry": null,
         "result": "na",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 9
           }
@@ -4082,7 +4106,7 @@
         "registry": null,
         "result": "na",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 2
           }
@@ -4138,7 +4162,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 16
           }
@@ -4148,7 +4172,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2359110B1037",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4182,8 +4206,8 @@
       },
       "verified": null,
       "confidence": {
-        "from": "low",
-        "to": "low"
+        "from": "medium",
+        "to": "medium"
       },
       "flags": [
         "Ingredient not found in this registry"
@@ -4224,7 +4248,7 @@
         "registry": "RX",
         "result": "na",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 18
           }
@@ -4234,7 +4258,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2647705M1023",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient"
@@ -4283,7 +4307,7 @@
         "registry": "RX",
         "result": "na",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 3
           }
@@ -4293,7 +4317,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2655700N1176",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient"
@@ -4334,7 +4358,7 @@
         "registry": null,
         "result": "na",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 1
           }
@@ -4352,7 +4376,7 @@
     {
       "id": "doxylamine",
       "generic": "Doxylamine",
-      "brand": "Not sold — \"Drewell\" (diphenhydramine) is the OTC sleep aid",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -4402,7 +4426,7 @@
         "registry": null,
         "result": "na",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 3
           }
@@ -4458,7 +4482,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 3
           }
@@ -4468,7 +4492,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "6419101F1020",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4522,7 +4546,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 2
           }
@@ -4532,7 +4556,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "6152004F1074",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4604,7 +4628,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 14
           }
@@ -4614,7 +4638,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "6149004C1030",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4680,7 +4704,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 6
           }
@@ -4690,7 +4714,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "6241008F1023",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4744,7 +4768,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 3
           }
@@ -4754,7 +4778,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2134002F1109",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4770,7 +4794,7 @@
     {
       "id": "scopolamine",
       "generic": "Scopolamine (motion-sickness patch)",
-      "brand": "No patch in Japan",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -4785,7 +4809,7 @@
         "registry": "RX",
         "result": "na",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 2
           }
@@ -4797,7 +4821,7 @@
         "to": "low"
       },
       "flags": [
-        "Entry says \"No patch in Japan\" but the registry lists products with this ingredient"
+        "Entry says \"Not sold here\" but the registry lists products with this ingredient"
       ]
     },
     {
@@ -4818,7 +4842,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 4
           }
@@ -4828,7 +4852,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2391001F3023",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -4881,7 +4905,7 @@
         "registry": "RX",
         "result": "agree",
         "evidence": {
-          "source": "MHLW price list 20260813",
+          "source": "MHLW price list 20261014",
           "products": {
             "RX": 10
           }
@@ -4891,7 +4915,7 @@
         "registry": "MHLW drug price list (Japan, prescription medicines)",
         "id": "2451402G2020",
         "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",

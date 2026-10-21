@@ -2,7 +2,7 @@
   "country": "IT",
   "registry": "AIFA medicines database (Italy)",
   "registryVersion": null,
-  "checked": "2026-10-09",
+  "checked": "2026-10-20",
   "summary": {
     "entries": 82,
     "brandEntries": 74,
@@ -133,7 +133,7 @@
         "id": "029811039",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Paracetamolo",
-        "marketedForms": 162
+        "marketedForms": 163
       },
       "status": {
         "entry": "MIXED",
@@ -142,7 +142,7 @@
         "evidence": {
           "source": "AIFA supply class (classe di fornitura), per marketed pack",
           "products": {
-            "RR": 13,
+            "RR": 14,
             "SOP": 24,
             "RNR": 1,
             "OTC": 10
@@ -153,7 +153,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "012745143",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -188,7 +188,7 @@
               "classes": "OTC"
             },
             {
-              "aic": "035618204",
+              "aic": "035618026",
               "product": "MOMENTACT",
               "form": "400 mg COMPRESSA RIVESTITA",
               "ingredients": "IBUPROFENE",
@@ -299,7 +299,7 @@
               "classes": "SOP"
             },
             {
-              "aic": "035677145",
+              "aic": "035677044",
               "product": "NUROFENTEEN",
               "form": "200 mg COMPRESSA ORODISPERSIBILE",
               "ingredients": "IBUPROFENE",
@@ -353,7 +353,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "035618038",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -412,7 +412,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "027075011",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -506,7 +506,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "043629029",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -565,7 +565,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "001740063",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -683,7 +683,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "046757035",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -797,7 +797,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "028245114",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -894,7 +894,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "018723080",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -974,7 +974,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "038264014",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1092,7 +1092,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "002955108",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1165,7 +1165,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "023097037",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1273,7 +1273,7 @@
         "id": "045018076",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Metformina",
-        "marketedForms": 140
+        "marketedForms": 143
       },
       "status": {
         "entry": "RX",
@@ -1290,7 +1290,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "017758044",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1384,7 +1384,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "027753045",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1482,7 +1482,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "022984052",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1621,7 +1621,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "033007410",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1760,7 +1760,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "024402152",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1864,7 +1864,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "026834022",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1958,7 +1958,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "027428022",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2056,7 +2056,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "023616028",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2143,7 +2143,7 @@
         "id": "038098707",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Losartan",
-        "marketedForms": 74
+        "marketedForms": 75
       },
       "status": {
         "entry": "RX",
@@ -2160,7 +2160,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "029384043",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2247,7 +2247,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "028740037",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2334,7 +2334,7 @@
               "classes": "RR"
             },
             {
-              "aic": "035883432",
+              "aic": "035883356",
               "product": "PROVISACOR",
               "form": "40 mg COMPRESSA RIVESTITA CON FILM",
               "ingredients": "ROSUVASTATINA SALE DI CALCIO + ROSUVASTATINA",
@@ -2348,7 +2348,7 @@
         "id": "044577017",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Rosuvastatina",
-        "marketedForms": 192
+        "marketedForms": 191
       },
       "status": {
         "entry": "RX",
@@ -2365,7 +2365,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "035885351",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2483,7 +2483,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "041972023",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2591,7 +2591,7 @@
         "id": "042116222",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Escitalopram",
-        "marketedForms": 64
+        "marketedForms": 65
       },
       "status": {
         "entry": "RX",
@@ -2600,7 +2600,7 @@
         "evidence": {
           "source": "AIFA supply class (classe di fornitura), per marketed pack",
           "products": {
-            "RR": 8
+            "RR": 9
           }
         }
       },
@@ -2608,7 +2608,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "035767146",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2624,7 +2624,7 @@
     {
       "id": "amphetamine",
       "generic": "Amphetamine / Dextroamphetamine",
-      "brand": "Not sold in Italy",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -2676,7 +2676,7 @@
         "id": "047245016",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Idroclorotiazide",
-        "marketedForms": 437
+        "marketedForms": 438
       },
       "status": {
         "entry": "RX",
@@ -2693,7 +2693,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "015094016",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2804,7 +2804,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "037685056",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2870,7 +2870,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "025959026",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2962,6 +2962,13 @@
               "form": "0.25 mg SOLUZIONE INIETTABILE IN PENNA PRE-RIEMPITA",
               "ingredients": "SEMAGLUTIDE",
               "classes": "RR"
+            },
+            {
+              "aic": "049883236",
+              "product": "WEGOVY",
+              "form": "25 mg COMPRESSA",
+              "ingredients": "SEMAGLUTIDE",
+              "classes": "RR"
             }
           ]
         }
@@ -2971,7 +2978,7 @@
         "id": "046128031",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Semaglutide",
-        "marketedForms": 15
+        "marketedForms": 20
       },
       "status": {
         "entry": "RX",
@@ -2980,7 +2987,7 @@
         "evidence": {
           "source": "AIFA supply class (classe di fornitura), per marketed pack",
           "products": {
-            "RR": 8
+            "RR": 13
           }
         }
       },
@@ -2988,7 +2995,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "046128031",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3113,7 +3120,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "042170011",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3207,7 +3214,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "022323012",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3356,7 +3363,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "027216100",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3433,7 +3440,7 @@
         "id": "036950018",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Tamsulosina",
-        "marketedForms": 37
+        "marketedForms": 36
       },
       "status": {
         "entry": "RX",
@@ -3450,7 +3457,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "032647012",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3466,7 +3473,7 @@
     {
       "id": "hydrocodone",
       "generic": "Hydrocodone / Paracetamol combination",
-      "brand": "Not sold in Italy",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -3570,7 +3577,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "038850020",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3636,7 +3643,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "031985157",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3703,7 +3710,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "041225083",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3790,7 +3797,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "020465011",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3890,7 +3897,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "035724069",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3984,7 +3991,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "033637024",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4005,14 +4012,14 @@
       "brands": [
         {
           "name": "NovoRapid",
-          "id": "034498244",
+          "id": "034498030",
           "url": "https://medicinali.aifa.gov.it/",
           "confirmed": true,
           "note": null,
           "matched": "NOVORAPID",
           "products": [
             {
-              "aic": "034498244",
+              "aic": "034498030",
               "product": "NOVORAPID",
               "form": "100 U/ml SOLUZIONE INIETTABILE",
               "ingredients": "INSULINA ASPART",
@@ -4022,14 +4029,14 @@
         },
         {
           "name": "Fiasp",
-          "id": "045249101",
+          "id": "045249051",
           "url": "https://medicinali.aifa.gov.it/",
           "confirmed": true,
           "note": null,
           "matched": "FIASP",
           "products": [
             {
-              "aic": "045249101",
+              "aic": "045249051",
               "product": "FIASP",
               "form": "100 U/ml SOLUZIONE INIETTABILE",
               "ingredients": "INSULINA ASPART",
@@ -4058,9 +4065,9 @@
       },
       "verified": {
         "registry": "AIFA medicines database (Italy)",
-        "id": "034498244",
+        "id": "034498030",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4081,14 +4088,14 @@
       "brands": [
         {
           "name": "Actrapid",
-          "id": "035932096",
+          "id": "035932033",
           "url": "https://medicinali.aifa.gov.it/",
           "confirmed": true,
           "note": null,
           "matched": "ACTRAPID",
           "products": [
             {
-              "aic": "035932096",
+              "aic": "035932033",
               "product": "ACTRAPID",
               "form": "100 IU SOLUZIONE INIETTABILE",
               "ingredients": "INSULINA UMANA",
@@ -4134,9 +4141,9 @@
       },
       "verified": {
         "registry": "AIFA medicines database (Italy)",
-        "id": "035932096",
+        "id": "035932033",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4195,7 +4202,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "035935030",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4254,7 +4261,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "036850055",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4314,7 +4321,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "042658017",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4401,7 +4408,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "047516012",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4442,7 +4449,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "034433096",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient",
           "status"
@@ -4508,7 +4515,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "043443136",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4591,7 +4598,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "027604040",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4686,7 +4693,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "049093014",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4818,7 +4825,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "038482081",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient"
@@ -4885,7 +4892,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "010089035",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4979,7 +4986,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "043220019",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5000,14 +5007,14 @@
       "brands": [
         {
           "name": "Aspirina",
-          "id": "041962010",
+          "id": "041962034",
           "url": "https://medicinali.aifa.gov.it/",
           "confirmed": true,
           "note": null,
           "matched": "ASPIRINA DOLORE E INFIAMMAZIONE",
           "products": [
             {
-              "aic": "041962010",
+              "aic": "041962034",
               "product": "ASPIRINA DOLORE E INFIAMMAZIONE",
               "form": "500 mg COMPRESSA RIVESTITA",
               "ingredients": "ACIDO ACETILSALICILICO",
@@ -5082,7 +5089,7 @@
         "evidence": {
           "source": "AIFA supply class (classe di fornitura), per marketed pack",
           "products": {
-            "OTC": 2,
+            "OTC": 1,
             "SOP": 1,
             "RR": 1
           }
@@ -5090,9 +5097,9 @@
       },
       "verified": {
         "registry": "AIFA medicines database (Italy)",
-        "id": "041962010",
+        "id": "041962034",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5179,7 +5186,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "034435139",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient"
@@ -5343,7 +5350,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "035040017",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5434,7 +5441,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "025829223",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5483,7 +5490,7 @@
               "classes": "OTC"
             },
             {
-              "aic": "034548230",
+              "aic": "034548141",
               "product": "VOLTAREN EMULGEL",
               "form": "2 % GEL",
               "ingredients": "DICLOFENAC + DICLOFENAC SODICO",
@@ -5528,7 +5535,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "045625011",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5653,7 +5660,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "033303037",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5712,7 +5719,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "028689026",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5788,7 +5795,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "019771043",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5868,7 +5875,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "023198029",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5884,7 +5891,7 @@
     {
       "id": "bismuth-subsalicylate",
       "generic": "Bismuth subsalicylate",
-      "brand": "Not sold in Italy",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -5936,7 +5943,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "033871017",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "ingredient"
         ]
@@ -6026,7 +6033,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "020708069",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6158,7 +6165,7 @@
         "evidence": {
           "source": "AIFA supply class (classe di fornitura), per marketed pack",
           "products": {
-            "OTC": 19
+            "OTC": 20
           }
         }
       },
@@ -6166,7 +6173,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "008997025",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6229,7 +6236,7 @@
               "classes": "RR"
             },
             {
-              "aic": "029851021",
+              "aic": "029851262",
               "product": "MOVICOL",
               "form": "13.125 g , 0.0466 g , 0.3507 g , 0.1785 g POLVERE PER SOLUZIONE ORALE",
               "ingredients": "POTASSIO CLORURO + SODIO CLORURO + SODIO IDROGENO CARBONATO + MACROGOL 3350",
@@ -6298,7 +6305,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "041750011",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6314,7 +6321,7 @@
     {
       "id": "meclozine",
       "generic": "Meclozine",
-      "brand": "Not sold in Italy",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -6400,7 +6407,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "025869013",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6494,7 +6501,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "022760108",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6553,7 +6560,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "008477061",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6569,7 +6576,7 @@
     {
       "id": "doxylamine",
       "generic": "Doxylamine",
-      "brand": "Not sold on its own",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -6597,7 +6604,7 @@
         "to": "medium"
       },
       "flags": [
-        "Entry says \"Not sold on its own\" but the registry lists products with this ingredient"
+        "Entry says \"Not sold here\" but the registry lists products with this ingredient"
       ]
     },
     {
@@ -6664,7 +6671,7 @@
         "id": "034884066",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Levonorgestrel",
-        "marketedForms": 42
+        "marketedForms": 43
       },
       "status": {
         "entry": "MIXED",
@@ -6673,8 +6680,8 @@
         "evidence": {
           "source": "AIFA supply class (classe di fornitura), per marketed pack",
           "products": {
-            "RNR": 8,
-            "SOP": 8
+            "RNR": 9,
+            "SOP": 9
           }
         }
       },
@@ -6682,7 +6689,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "034884066",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6776,7 +6783,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "033299037",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6852,7 +6859,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "021635065",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6873,12 +6880,19 @@
       "brands": [
         {
           "name": "Zitromax",
-          "id": "027860042",
+          "id": "027860143",
           "url": "https://medicinali.aifa.gov.it/",
           "confirmed": true,
           "note": null,
           "matched": "ZITROMAX",
           "products": [
+            {
+              "aic": "027860143",
+              "product": "ZITROMAX",
+              "form": "600 mg COMPRESSA RIVESTITA CON FILM",
+              "ingredients": "AZITROMICINA + AZITROMICINA DIIDRATO",
+              "classes": "RR"
+            },
             {
               "aic": "027860042",
               "product": "ZITROMAX",
@@ -6890,13 +6904,6 @@
               "aic": "027860028",
               "product": "ZITROMAX",
               "form": "200 mg / 5 ml POLVERE PER SOSPENSIONE ORALE",
-              "ingredients": "AZITROMICINA + AZITROMICINA DIIDRATO",
-              "classes": "RR"
-            },
-            {
-              "aic": "027860143",
-              "product": "ZITROMAX",
-              "form": "600 mg COMPRESSA RIVESTITA CON FILM",
               "ingredients": "AZITROMICINA + AZITROMICINA DIIDRATO",
               "classes": "RR"
             },
@@ -6931,9 +6938,9 @@
       },
       "verified": {
         "registry": "AIFA medicines database (Italy)",
-        "id": "027860042",
+        "id": "027860143",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -7027,7 +7034,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "026664084",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -7086,7 +7093,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "009277017",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -7102,7 +7109,7 @@
     {
       "id": "scopolamine",
       "generic": "Scopolamine (motion-sickness patch)",
-      "brand": "No patch in Italy",
+      "brand": "Not sold here",
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
@@ -7131,7 +7138,7 @@
         "to": "medium"
       },
       "flags": [
-        "Entry says \"No patch in Italy\" but the registry lists products with this ingredient"
+        "Entry says \"Not sold here\" but the registry lists products with this ingredient"
       ]
     },
     {
@@ -7215,7 +7222,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "027612098",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
@@ -7284,12 +7291,19 @@
         },
         {
           "name": "Chenpen",
-          "id": "040864023",
+          "id": "040864050",
           "url": "https://medicinali.aifa.gov.it/",
           "confirmed": true,
           "note": null,
           "matched": "CHENPEN",
           "products": [
+            {
+              "aic": "040864050",
+              "product": "CHENPEN",
+              "form": "500 mcg / 0.3 ml SOLUZIONE INIETTABILE IN SIRINGA PRE-RIEMPITA",
+              "ingredients": "EPINEFRINA",
+              "classes": "RR"
+            },
             {
               "aic": "040864023",
               "product": "CHENPEN",
@@ -7312,7 +7326,7 @@
         "id": "052464017",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Adrenalina",
-        "marketedForms": 50
+        "marketedForms": 51
       },
       "status": {
         "entry": "RX",
@@ -7321,7 +7335,7 @@
         "evidence": {
           "source": "AIFA supply class (classe di fornitura), per marketed pack",
           "products": {
-            "RR": 6
+            "RR": 7
           }
         }
       },
@@ -7329,7 +7343,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "042416038",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-09",
+        "checked": "2026-10-20",
         "checks": [
           "brand",
           "ingredient",
