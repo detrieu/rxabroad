@@ -8,7 +8,6 @@
     "rxcui": "161",
     "kit": "pain",
     "symptoms": [
-      "fever",
       "pain"
     ],
     "countries": {
@@ -279,7 +278,6 @@
     "rxcui": "5640",
     "kit": "pain",
     "symptoms": [
-      "fever",
       "pain",
       "sprains"
     ],
@@ -1915,7 +1913,7 @@
     "rxcui": "8896",
     "kit": "cold",
     "symptoms": [
-      "blocked-nose"
+      "cold"
     ],
     "countries": {
       "US": {
@@ -2419,7 +2417,6 @@
     "rxcui": "3444",
     "kit": "motion",
     "symptoms": [
-      "nausea",
       "motion-sickness"
     ],
     "countries": {
@@ -13965,7 +13962,6 @@
     "rxcui": "1191",
     "kit": "pain",
     "symptoms": [
-      "fever",
       "pain"
     ],
     "countries": {
@@ -14769,7 +14765,6 @@
     "rxcui": "7258",
     "kit": "pain",
     "symptoms": [
-      "fever",
       "pain",
       "sprains"
     ],
@@ -15593,7 +15588,7 @@
     "rxcui": "5032",
     "kit": "cold",
     "symptoms": [
-      "cough"
+      "cold"
     ],
     "countries": {
       "US": {
@@ -15862,7 +15857,7 @@
     "rxcui": "3289",
     "kit": "cold",
     "symptoms": [
-      "cough"
+      "cold"
     ],
     "countries": {
       "US": {
@@ -16140,7 +16135,7 @@
     "rxcui": "7812",
     "kit": "cold",
     "symptoms": [
-      "blocked-nose"
+      "cold"
     ],
     "countries": {
       "US": {
@@ -16412,7 +16407,7 @@
     "symptoms": [
       "travelers-diarrhea",
       "heartburn",
-      "nausea"
+      "motion-sickness"
     ],
     "countries": {
       "US": {
@@ -16863,7 +16858,7 @@
     "rxcui": "9796",
     "kit": "stomach",
     "symptoms": [
-      "gas"
+      "heartburn"
     ],
     "countries": {
       "US": {
@@ -17130,8 +17125,7 @@
     "atc": "A07CA",
     "kit": "stomach",
     "symptoms": [
-      "travelers-diarrhea",
-      "dehydration"
+      "travelers-diarrhea"
     ],
     "countries": {
       "US": {
@@ -17893,7 +17887,6 @@
     "rxcui": "6676",
     "kit": "motion",
     "symptoms": [
-      "nausea",
       "motion-sickness"
     ],
     "countries": {
@@ -20879,7 +20872,7 @@
     "rxcui": "26225",
     "kit": "clinic",
     "symptoms": [
-      "nausea"
+      "motion-sickness"
     ],
     "countries": {
       "US": {

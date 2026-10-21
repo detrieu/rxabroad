@@ -19,8 +19,8 @@ export type KitGroup = 'pain' | 'allergy' | 'cold' | 'stomach' | 'motion' | 'ski
 
 /** What a traveler is trying to treat. A medicine can be sold for several. */
 export type SymptomId =
-  | 'fever' | 'pain' | 'sprains' | 'hay-fever' | 'bites-hives' | 'blocked-nose' | 'cough'
-  | 'travelers-diarrhea' | 'heartburn' | 'gas' | 'constipation' | 'dehydration' | 'nausea'
+  | 'pain' | 'sprains' | 'hay-fever' | 'bites-hives' | 'cold'
+  | 'travelers-diarrhea' | 'heartburn' | 'constipation'
   | 'motion-sickness' | 'jet-lag' | 'fungal-skin' | 'cuts' | 'emergency-contraception'
   | 'malaria-prevention' | 'altitude-sickness' | 'severe-allergy';
 

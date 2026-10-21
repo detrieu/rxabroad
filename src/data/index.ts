@@ -2,7 +2,7 @@ import type { Country, CountryCode, CountryEntry, Drug, Symptom } from './types'
 import drugsJson from './drugs.json';
 import { COUNTRIES as COUNTRY_LIST } from './countries';
 import { STATUS } from './status';
-import { SYMPTOMS as SYMPTOM_LIST } from './symptoms';
+import { MERGED_SYMPTOMS, SYMPTOMS as SYMPTOM_LIST } from './symptoms';
 
 export * from './types';
 export { STATUS };
@@ -33,7 +33,7 @@ export function statusMeta(status: string) {
 export const getDrug = (id: string) => DRUGS.find((d) => d.id === id);
 export const getCountryBySlug = (slug: string) => COUNTRIES.find((c) => c.slug === slug);
 export const getCountry = (code: string) => COUNTRIES.find((c) => c.code === code);
-export const getSymptom = (id: string) => SYMPTOMS.find((s) => s.id === id);
+export const getSymptom = (id: string) => SYMPTOMS.find((s) => s.id === (MERGED_SYMPTOMS[id] ?? id));
 export const drugsFor = (symptom: Symptom) => DRUGS.filter((d) => d.symptoms?.includes(symptom.id));
 
 export function isSafeSource(source: string | null): source is string {
