@@ -1,0 +1,6119 @@
+{
+  "country": "MA",
+  "registry": "AMMPS Liste Marocaine des Médicaments",
+  "registryVersion": null,
+  "checked": "2026-10-27",
+  "summary": {
+    "entries": 82,
+    "brandEntries": 54,
+    "brandEntriesConfirmed": 54,
+    "brandNames": 64,
+    "brandNamesConfirmed": 64,
+    "verified": 62,
+    "statusAgree": 0,
+    "statusDiffer": 0,
+    "statusNotComparable": 82,
+    "confidenceRaised": 25,
+    "flagged": 5
+  },
+  "entries": [
+    {
+      "id": "paracetamol",
+      "generic": "Paracetamol",
+      "brand": "Doliprane",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Doliprane",
+          "id": "563",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Doliprane",
+          "confirmed": true,
+          "note": null,
+          "matched": "DOLIPRANE",
+          "products": [
+            {
+              "id": "563",
+              "product": "DOLIPRANE",
+              "strength": "1 G",
+              "form": "COMPRIME EFFERVESCENT SECABLE",
+              "ingredients": "PARACETAMOL",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "564",
+              "product": "DOLIPRANE",
+              "strength": "1 G",
+              "form": "COMPRIME SECABLE",
+              "ingredients": "PARACETAMOL",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "565",
+              "product": "DOLIPRANE",
+              "strength": "100 MG",
+              "form": "SACHET",
+              "ingredients": "PARACETAMOL",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "566",
+              "product": "DOLIPRANE",
+              "strength": "150 MG",
+              "form": "SACHET",
+              "ingredients": "PARACETAMOL",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "567",
+              "product": "DOLIPRANE",
+              "strength": "150 MG",
+              "form": "SUPPOSITOIRE",
+              "ingredients": "PARACETAMOL",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "568",
+              "product": "DOLIPRANE",
+              "strength": "200 MG",
+              "form": "SACHET",
+              "ingredients": "PARACETAMOL",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "7259",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=PARACETAMOL",
+        "searched": "PARACETAMOL, ACETAMINOPHEN",
+        "marketedProducts": 122,
+        "otherProducts": 102
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "563",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Doliprane",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "ibuprofen",
+      "generic": "Ibuprofen",
+      "brand": "Brufen / Nurodol",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Brufen",
+          "id": "802",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Brufen",
+          "confirmed": true,
+          "note": null,
+          "matched": "BRUFEN",
+          "products": [
+            {
+              "id": "802",
+              "product": "BRUFEN",
+              "strength": "100 MG",
+              "form": "SUSPENSION PEDIATRIQUE",
+              "ingredients": "IBUPROFENE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "COOPER PHARMA"
+            },
+            {
+              "id": "803",
+              "product": "BRUFEN",
+              "strength": "400 MG",
+              "form": "COMPRIME ENROBE",
+              "ingredients": "IBUPROFENE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "COOPER PHARMA"
+            },
+            {
+              "id": "802",
+              "product": "BRUFEN",
+              "strength": "100 MG",
+              "form": "SUSPENSION PEDIATRIQUE",
+              "ingredients": "IBUPROFENE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "COOPER PHARMA"
+            },
+            {
+              "id": "803",
+              "product": "BRUFEN",
+              "strength": "400 MG",
+              "form": "COMPRIME ENROBE",
+              "ingredients": "IBUPROFENE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "COOPER PHARMA"
+            }
+          ]
+        },
+        {
+          "name": "Nurodol",
+          "id": "6470",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Nurodol",
+          "confirmed": true,
+          "note": null,
+          "matched": "NURODOL",
+          "products": [
+            {
+              "id": "6470",
+              "product": "NURODOL",
+              "strength": "200 MG",
+              "form": "COMPRIME ENROBE",
+              "ingredients": "IBUPROFENE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SYNTHEMEDIC"
+            },
+            {
+              "id": "6471",
+              "product": "NURODOL",
+              "strength": "400 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "IBUPROFENE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SYNTHEMEDIC"
+            },
+            {
+              "id": "6472",
+              "product": "NURODOL ENF ET NOUR",
+              "strength": "20 MG / ML",
+              "form": "SUSPENSION BUVABLE",
+              "ingredients": "IBUPROFENE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SYNTHEMEDIC"
+            },
+            {
+              "id": "6470",
+              "product": "NURODOL",
+              "strength": "200 MG",
+              "form": "COMPRIME ENROBE",
+              "ingredients": "IBUPROFENE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SYNTHEMEDIC"
+            },
+            {
+              "id": "6471",
+              "product": "NURODOL",
+              "strength": "400 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "IBUPROFENE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SYNTHEMEDIC"
+            },
+            {
+              "id": "6472",
+              "product": "NURODOL ENF ET NOUR",
+              "strength": "20 MG / ML",
+              "form": "SUSPENSION BUVABLE",
+              "ingredients": "IBUPROFENE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SYNTHEMEDIC"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "4398",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=IBUPROFEN",
+        "searched": "IBUPROFEN",
+        "marketedProducts": 25,
+        "otherProducts": 35
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "802",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Brufen",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "loratadine",
+      "generic": "Loratadine",
+      "brand": "Clartec / Lorix",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Clartec",
+          "id": "3910",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Clartec",
+          "confirmed": true,
+          "note": null,
+          "matched": "CLARTEC",
+          "products": [
+            {
+              "id": "3910",
+              "product": "CLARTEC",
+              "strength": "10 MG",
+              "form": "COMPRIME",
+              "ingredients": "LORATADINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "PHARMA 5"
+            },
+            {
+              "id": "3911",
+              "product": "CLARTEC",
+              "strength": "10 MG",
+              "form": "COMPRIME",
+              "ingredients": "LORATADINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "PHARMA 5"
+            },
+            {
+              "id": "3912",
+              "product": "CLARTEC",
+              "strength": "10 MG",
+              "form": "COMPRIME",
+              "ingredients": "LORATADINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "PHARMA 5"
+            },
+            {
+              "id": "3913",
+              "product": "CLARTEC",
+              "strength": "5 MG / 5 ML",
+              "form": "SUSPENSION BUVABLE",
+              "ingredients": "LORATADINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "PHARMA 5"
+            },
+            {
+              "id": "3914",
+              "product": "CLARTEC",
+              "strength": "5 MG / 5 ML",
+              "form": "SUSPENSION BUVABLE",
+              "ingredients": "LORATADINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "PHARMA 5"
+            },
+            {
+              "id": "3910",
+              "product": "CLARTEC",
+              "strength": "10 MG",
+              "form": "COMPRIME",
+              "ingredients": "LORATADINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "PHARMA 5"
+            }
+          ]
+        },
+        {
+          "name": "Lorix",
+          "id": "6099",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Lorix",
+          "confirmed": true,
+          "note": null,
+          "matched": "LORIX",
+          "products": [
+            {
+              "id": "6099",
+              "product": "LORIX",
+              "strength": "10 MG",
+              "form": "COMPRIME",
+              "ingredients": "LORATADINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "STERIPHARMA"
+            },
+            {
+              "id": "6099",
+              "product": "LORIX",
+              "strength": "10 MG",
+              "form": "COMPRIME",
+              "ingredients": "LORATADINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "STERIPHARMA"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "778",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=LORATADINE",
+        "searched": "LORATADINE",
+        "marketedProducts": 13,
+        "otherProducts": 8
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "3910",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Clartec",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "cetirizine",
+      "generic": "Cetirizine",
+      "brand": "Zyrtec",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zyrtec",
+          "id": "6040",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Zyrtec",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZYRTEC",
+          "products": [
+            {
+              "id": "6040",
+              "product": "ZYRTEC",
+              "strength": "1 MG / ML",
+              "form": "SOLUTION BUVABLE",
+              "ingredients": "CETIRIZINE (DICHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SOTHEMA"
+            },
+            {
+              "id": "6041",
+              "product": "ZYRTEC",
+              "strength": "10 MG / ML",
+              "form": "GOUTTE BUVABLE",
+              "ingredients": "CETIRIZINE (DICHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SOTHEMA"
+            },
+            {
+              "id": "6042",
+              "product": "ZYRTEC",
+              "strength": "10 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "CETIRIZINE (DICHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SOTHEMA"
+            },
+            {
+              "id": "6040",
+              "product": "ZYRTEC",
+              "strength": "1 MG / ML",
+              "form": "SOLUTION BUVABLE",
+              "ingredients": "CETIRIZINE (DICHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SOTHEMA"
+            },
+            {
+              "id": "6041",
+              "product": "ZYRTEC",
+              "strength": "10 MG / ML",
+              "form": "GOUTTE BUVABLE",
+              "ingredients": "CETIRIZINE (DICHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SOTHEMA"
+            },
+            {
+              "id": "6042",
+              "product": "ZYRTEC",
+              "strength": "10 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "CETIRIZINE (DICHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SOTHEMA"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "4399",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=CETIRIZINE",
+        "searched": "CETIRIZINE",
+        "marketedProducts": 28,
+        "otherProducts": 4
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "6040",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Zyrtec",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "diphenhydramine",
+      "generic": "Diphenhydramine",
+      "brand": "Sold generic as \"Diphénhydramine\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "5356",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=DIPHENHYDRAM",
+        "searched": "DIPHENHYDRAM",
+        "marketedProducts": 1,
+        "otherProducts": 1
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "5356",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=DIPHENHYDRAM",
+        "checked": "2026-10-27",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "loperamide",
+      "generic": "Loperamide",
+      "brand": "Loperium",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Loperium",
+          "id": "620",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Loperium",
+          "confirmed": true,
+          "note": null,
+          "matched": "LOPERIUM",
+          "products": [
+            {
+              "id": "620",
+              "product": "LOPERIUM",
+              "strength": "2 MG",
+              "form": "GELULE",
+              "ingredients": "LOPERAMIDE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "620",
+              "product": "LOPERIUM",
+              "strength": "2 MG",
+              "form": "GELULE",
+              "ingredients": "LOPERAMIDE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "BOTTU"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "620",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=LOPERAMIDE",
+        "searched": "LOPERAMIDE",
+        "marketedProducts": 1,
+        "otherProducts": 5
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "620",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Loperium",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "omeprazole",
+      "generic": "Omeprazole",
+      "brand": "Omepral / IPP",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Omepral",
+          "id": "4960",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Omepral",
+          "confirmed": true,
+          "note": null,
+          "matched": "OMEPRAL",
+          "products": [
+            {
+              "id": "4960",
+              "product": "OMEPRAL",
+              "strength": "20 MG",
+              "form": "GELULE",
+              "ingredients": "OMEPRAZOLE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "PROMOPHARM"
+            },
+            {
+              "id": "4961",
+              "product": "OMEPRAL",
+              "strength": "20 MG",
+              "form": "GELULE",
+              "ingredients": "OMEPRAZOLE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "PROMOPHARM"
+            },
+            {
+              "id": "4962",
+              "product": "OMEPRAL",
+              "strength": "20 MG",
+              "form": "GELULE",
+              "ingredients": "OMEPRAZOLE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "PROMOPHARM"
+            },
+            {
+              "id": "4960",
+              "product": "OMEPRAL",
+              "strength": "20 MG",
+              "form": "GELULE",
+              "ingredients": "OMEPRAZOLE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "PROMOPHARM"
+            },
+            {
+              "id": "4961",
+              "product": "OMEPRAL",
+              "strength": "20 MG",
+              "form": "GELULE",
+              "ingredients": "OMEPRAZOLE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "PROMOPHARM"
+            },
+            {
+              "id": "4962",
+              "product": "OMEPRAL",
+              "strength": "20 MG",
+              "form": "GELULE",
+              "ingredients": "OMEPRAZOLE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "PROMOPHARM"
+            }
+          ]
+        },
+        {
+          "name": "IPP",
+          "id": "1448",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=IPP",
+          "confirmed": true,
+          "note": null,
+          "matched": "IPP",
+          "products": [
+            {
+              "id": "1448",
+              "product": "IPP",
+              "strength": "20 MG",
+              "form": "GELULE",
+              "ingredients": "OMEPRAZOLE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "GALENICA"
+            },
+            {
+              "id": "1449",
+              "product": "IPP",
+              "strength": "20 MG",
+              "form": "GELULE",
+              "ingredients": "OMEPRAZOLE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "GALENICA"
+            },
+            {
+              "id": "1445",
+              "product": "I P P",
+              "strength": "20 MG",
+              "form": "GELULE",
+              "ingredients": "OMEPRAZOLE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "GALENICA"
+            },
+            {
+              "id": "1446",
+              "product": "I P P",
+              "strength": "20 MG",
+              "form": "GELULE",
+              "ingredients": "OMEPRAZOLE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "GALENICA"
+            },
+            {
+              "id": "1448",
+              "product": "IPP",
+              "strength": "20 MG",
+              "form": "GELULE",
+              "ingredients": "OMEPRAZOLE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "GALENICA"
+            },
+            {
+              "id": "1449",
+              "product": "IPP",
+              "strength": "20 MG",
+              "form": "GELULE",
+              "ingredients": "OMEPRAZOLE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "GALENICA"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "4403",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=OMEPRAZOLE",
+        "searched": "OMEPRAZOLE",
+        "marketedProducts": 68,
+        "otherProducts": 32
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "4960",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Omepral",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "pseudoephedrine",
+      "generic": "Pseudoephedrine",
+      "brand": "Sold generic as \"Pseudoéphédrine\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "580",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=PSEUDOEPHEDR",
+        "searched": "PSEUDOEPHEDR",
+        "marketedProducts": 6,
+        "otherProducts": 4
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "580",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=PSEUDOEPHEDR",
+        "checked": "2026-10-27",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "melatonin",
+      "generic": "Melatonin",
+      "brand": "Sold generic as \"Mélatonine\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=MELATONIN",
+        "searched": "MELATONIN",
+        "marketedProducts": 0,
+        "otherProducts": 0
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Ingredient not found in this registry"
+      ]
+    },
+    {
+      "id": "dimenhydrinate",
+      "generic": "Dimenhydrinate",
+      "brand": "Sold generic as \"Diménhydrinate\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=DIMENHYDRINA",
+        "searched": "DIMENHYDRINA",
+        "marketedProducts": 0,
+        "otherProducts": 1
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": [
+        "Ingredient not found in this registry"
+      ]
+    },
+    {
+      "id": "amoxicillin",
+      "generic": "Amoxicillin",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "3808",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=AMOXICILLIN",
+        "searched": "AMOXICILLIN",
+        "marketedProducts": 164,
+        "otherProducts": 158
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "3808",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=AMOXICILLIN",
+        "checked": "2026-10-27",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "metformin",
+      "generic": "Metformin",
+      "brand": "Glucophage",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Glucophage",
+          "id": "924",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Glucophage",
+          "confirmed": true,
+          "note": null,
+          "matched": "GLUCOPHAGE",
+          "products": [
+            {
+              "id": "924",
+              "product": "GLUCOPHAGE",
+              "strength": "1000 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "METFORMINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "COOPER PHARMA"
+            },
+            {
+              "id": "925",
+              "product": "GLUCOPHAGE",
+              "strength": "500 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "METFORMINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "COOPER PHARMA"
+            },
+            {
+              "id": "926",
+              "product": "GLUCOPHAGE",
+              "strength": "850 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "METFORMINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "COOPER PHARMA"
+            },
+            {
+              "id": "927",
+              "product": "GLUCOPHAGE",
+              "strength": "850 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "METFORMINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "COOPER PHARMA"
+            },
+            {
+              "id": "924",
+              "product": "GLUCOPHAGE",
+              "strength": "1000 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "METFORMINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "COOPER PHARMA"
+            },
+            {
+              "id": "925",
+              "product": "GLUCOPHAGE",
+              "strength": "500 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "METFORMINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "COOPER PHARMA"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "4262",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=METFORMIN",
+        "searched": "METFORMIN",
+        "marketedProducts": 39,
+        "otherProducts": 45
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "924",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Glucophage",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "sertraline",
+      "generic": "Sertraline",
+      "brand": "Zoloft",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zoloft",
+          "id": "3791",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Zoloft",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZOLOFT",
+          "products": [
+            {
+              "id": "3791",
+              "product": "ZOLOFT",
+              "strength": "50 MG",
+              "form": "GELULE",
+              "ingredients": "SERTRALINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "VIATRIS PHARMACEUTICALS"
+            },
+            {
+              "id": "3792",
+              "product": "ZOLOFT",
+              "strength": "50 MG",
+              "form": "GELULE",
+              "ingredients": "SERTRALINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "VIATRIS PHARMACEUTICALS"
+            },
+            {
+              "id": "3793",
+              "product": "ZOLOFT",
+              "strength": "50 MG",
+              "form": "GELULE",
+              "ingredients": "SERTRALINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "VIATRIS PHARMACEUTICALS"
+            },
+            {
+              "id": "3791",
+              "product": "ZOLOFT",
+              "strength": "50 MG",
+              "form": "GELULE",
+              "ingredients": "SERTRALINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "VIATRIS PHARMACEUTICALS"
+            },
+            {
+              "id": "3792",
+              "product": "ZOLOFT",
+              "strength": "50 MG",
+              "form": "GELULE",
+              "ingredients": "SERTRALINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "VIATRIS PHARMACEUTICALS"
+            },
+            {
+              "id": "3793",
+              "product": "ZOLOFT",
+              "strength": "50 MG",
+              "form": "GELULE",
+              "ingredients": "SERTRALINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "VIATRIS PHARMACEUTICALS"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2255",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=SERTRALINE",
+        "searched": "SERTRALINE",
+        "marketedProducts": 18,
+        "otherProducts": 3
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "3791",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Zoloft",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "albuterol",
+      "generic": "Salbutamol",
+      "brand": "Ventoline",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ventoline",
+          "id": "1971",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Ventoline",
+          "confirmed": true,
+          "note": null,
+          "matched": "VENTOLINE",
+          "products": [
+            {
+              "id": "1971",
+              "product": "VENTOLINE",
+              "strength": "0,5 MG / ML",
+              "form": "SOLUTION INJECTABLE",
+              "ingredients": "SALBUTAMOL (SULFATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "GSK"
+            },
+            {
+              "id": "1972",
+              "product": "VENTOLINE",
+              "strength": "100 µG / DOSE",
+              "form": "SUSPENSION POUR INHALATION EN FLACON PRESSURISE",
+              "ingredients": "SALBUTAMOL (SULFATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "GSK"
+            },
+            {
+              "id": "1975",
+              "product": "VENTOLINE",
+              "strength": "50 MG / 10 ML",
+              "form": "SOLUTION POUR INHALATION PAR NEBULISEUR",
+              "ingredients": "SALBUTAMOL (SULFATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "GSK"
+            },
+            {
+              "id": "1971",
+              "product": "VENTOLINE",
+              "strength": "0,5 MG / ML",
+              "form": "SOLUTION INJECTABLE",
+              "ingredients": "SALBUTAMOL (SULFATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "GSK"
+            },
+            {
+              "id": "1972",
+              "product": "VENTOLINE",
+              "strength": "100 µG / DOSE",
+              "form": "SUSPENSION POUR INHALATION EN FLACON PRESSURISE",
+              "ingredients": "SALBUTAMOL (SULFATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "GSK"
+            },
+            {
+              "id": "1975",
+              "product": "VENTOLINE",
+              "strength": "50 MG / 10 ML",
+              "form": "SOLUTION POUR INHALATION PAR NEBULISEUR",
+              "ingredients": "SALBUTAMOL (SULFATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "GSK"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "8203",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=SALBUTAMOL",
+        "searched": "SALBUTAMOL",
+        "marketedProducts": 12,
+        "otherProducts": 26
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "1971",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Ventoline",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "atorvastatin",
+      "generic": "Atorvastatin",
+      "brand": "Tahor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tahor",
+          "id": "3748",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Tahor",
+          "confirmed": true,
+          "note": null,
+          "matched": "TAHOR",
+          "products": [
+            {
+              "id": "3748",
+              "product": "TAHOR",
+              "strength": "10 MG",
+              "form": "COMPRIME",
+              "ingredients": "ATORVASTATINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "VIATRIS PHARMACEUTICALS"
+            },
+            {
+              "id": "3749",
+              "product": "TAHOR",
+              "strength": "10 MG",
+              "form": "COMPRIME",
+              "ingredients": "ATORVASTATINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "VIATRIS PHARMACEUTICALS"
+            },
+            {
+              "id": "3750",
+              "product": "TAHOR",
+              "strength": "20 MG",
+              "form": "COMPRIME",
+              "ingredients": "ATORVASTATINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "VIATRIS PHARMACEUTICALS"
+            },
+            {
+              "id": "3751",
+              "product": "TAHOR",
+              "strength": "40 MG",
+              "form": "COMPRIME",
+              "ingredients": "ATORVASTATINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "VIATRIS PHARMACEUTICALS"
+            },
+            {
+              "id": "3752",
+              "product": "TAHOR",
+              "strength": "80 MG",
+              "form": "COMPRIME",
+              "ingredients": "ATORVASTATINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "VIATRIS PHARMACEUTICALS"
+            },
+            {
+              "id": "3748",
+              "product": "TAHOR",
+              "strength": "10 MG",
+              "form": "COMPRIME",
+              "ingredients": "ATORVASTATINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "VIATRIS PHARMACEUTICALS"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "3119",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=ATORVASTATIN",
+        "searched": "ATORVASTATIN",
+        "marketedProducts": 27,
+        "otherProducts": 37
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "3748",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Tahor",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "levothyroxine",
+      "generic": "Levothyroxine",
+      "brand": "Levothyrox",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Levothyrox",
+          "id": "966",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Levothyrox",
+          "confirmed": true,
+          "note": null,
+          "matched": "LEVOTHYROX",
+          "products": [
+            {
+              "id": "966",
+              "product": "LEVOTHYROX",
+              "strength": "100 µG",
+              "form": "COMPRIME SECABLE",
+              "ingredients": "LEVOTHYROXINE SODIQUE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "COOPER PHARMA"
+            },
+            {
+              "id": "968",
+              "product": "LEVOTHYROX",
+              "strength": "25 µG",
+              "form": "COMPRIME SECABLE",
+              "ingredients": "LEVOTHYROXINE SODIQUE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "COOPER PHARMA"
+            },
+            {
+              "id": "969",
+              "product": "LEVOTHYROX",
+              "strength": "50 µG",
+              "form": "COMPRIME SECABLE",
+              "ingredients": "LEVOTHYROXINE SODIQUE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "COOPER PHARMA"
+            },
+            {
+              "id": "966",
+              "product": "LEVOTHYROX",
+              "strength": "100 µG",
+              "form": "COMPRIME SECABLE",
+              "ingredients": "LEVOTHYROXINE SODIQUE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "COOPER PHARMA"
+            },
+            {
+              "id": "968",
+              "product": "LEVOTHYROX",
+              "strength": "25 µG",
+              "form": "COMPRIME SECABLE",
+              "ingredients": "LEVOTHYROXINE SODIQUE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "COOPER PHARMA"
+            },
+            {
+              "id": "969",
+              "product": "LEVOTHYROX",
+              "strength": "50 µG",
+              "form": "COMPRIME SECABLE",
+              "ingredients": "LEVOTHYROXINE SODIQUE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "COOPER PHARMA"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "966",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=LEVOTHYROXIN",
+        "searched": "LEVOTHYROXIN",
+        "marketedProducts": 4,
+        "otherProducts": 11
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "966",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Levothyrox",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "lisinopril",
+      "generic": "Lisinopril",
+      "brand": "Lisor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lisor",
+          "id": "7308",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Lisor",
+          "confirmed": true,
+          "note": null,
+          "matched": "LISOR",
+          "products": [
+            {
+              "id": "7308",
+              "product": "LISOR",
+              "strength": "10 MG / 5 MG",
+              "form": "COMPRIME",
+              "ingredients": "LISINOPRIL DIHYDRATE // AMILODIPINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "ATLAS PHARM"
+            },
+            {
+              "id": "7309",
+              "product": "LISOR",
+              "strength": "20 MG / 10 MG",
+              "form": "COMPRIME",
+              "ingredients": "LISINOPRIL DIHYDRATE // AMILODIPINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "ATLAS PHARM"
+            },
+            {
+              "id": "7308",
+              "product": "LISOR",
+              "strength": "10 MG / 5 MG",
+              "form": "COMPRIME",
+              "ingredients": "LISINOPRIL DIHYDRATE // AMILODIPINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "ATLAS PHARM"
+            },
+            {
+              "id": "7309",
+              "product": "LISOR",
+              "strength": "20 MG / 10 MG",
+              "form": "COMPRIME",
+              "ingredients": "LISINOPRIL DIHYDRATE // AMILODIPINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "ATLAS PHARM"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "7308",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=LISINOPRIL",
+        "searched": "LISINOPRIL",
+        "marketedProducts": 2,
+        "otherProducts": 0
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "7308",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Lisor",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "amlodipine",
+      "generic": "Amlodipine",
+      "brand": "Amlor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Amlor",
+          "id": "3576",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Amlor",
+          "confirmed": true,
+          "note": null,
+          "matched": "AMLOR",
+          "products": [
+            {
+              "id": "3576",
+              "product": "AMLOR",
+              "strength": "10 MG",
+              "form": "COMPRIME",
+              "ingredients": "AMLODIPINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "VIATRIS PHARMACEUTICALS"
+            },
+            {
+              "id": "3579",
+              "product": "AMLOR",
+              "strength": "5 MG",
+              "form": "COMPRIME",
+              "ingredients": "AMLODIPINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "VIATRIS PHARMACEUTICALS"
+            },
+            {
+              "id": "3580",
+              "product": "AMLOR",
+              "strength": "5 MG",
+              "form": "COMPRIME",
+              "ingredients": "AMLODIPINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "VIATRIS PHARMACEUTICALS"
+            },
+            {
+              "id": "3581",
+              "product": "AMLOR PLUS",
+              "strength": "10 MG / 10 MG",
+              "form": "COMPRIME",
+              "ingredients": "AMLODIPINE // ATROVASTATINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "VIATRIS PHARMACEUTICALS"
+            },
+            {
+              "id": "3582",
+              "product": "AMLOR PLUS",
+              "strength": "5 MG / 10 MG",
+              "form": "COMPRIME",
+              "ingredients": "AMLODIPINE // ATROVASTATINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "VIATRIS PHARMACEUTICALS"
+            },
+            {
+              "id": "3576",
+              "product": "AMLOR",
+              "strength": "10 MG",
+              "form": "COMPRIME",
+              "ingredients": "AMLODIPINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "VIATRIS PHARMACEUTICALS"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "6050",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=AMLODIPINE",
+        "searched": "AMLODIPINE",
+        "marketedProducts": 135,
+        "otherProducts": 98
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "3576",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Amlor",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "metoprolol",
+      "generic": "Metoprolol",
+      "brand": "Not sold here",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=METOPROLOL",
+        "searched": "METOPROLOL",
+        "marketedProducts": 0,
+        "otherProducts": 1
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "losartan",
+      "generic": "Losartan",
+      "brand": "Tanzaar / Prezar",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tanzaar",
+          "id": "214",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Tanzaar",
+          "confirmed": true,
+          "note": null,
+          "matched": "TANZAAR",
+          "products": [
+            {
+              "id": "214",
+              "product": "TANZAAR",
+              "strength": "100 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "LOSARTAN (POTASSIQUE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "AFRIC PHAR"
+            },
+            {
+              "id": "215",
+              "product": "TANZAAR",
+              "strength": "50 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "LOSARTAN (POTASSIQUE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "AFRIC PHAR"
+            },
+            {
+              "id": "216",
+              "product": "TANZAAR",
+              "strength": "50 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "LOSARTAN (POTASSIQUE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "AFRIC PHAR"
+            },
+            {
+              "id": "214",
+              "product": "TANZAAR",
+              "strength": "100 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "LOSARTAN (POTASSIQUE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "AFRIC PHAR"
+            },
+            {
+              "id": "215",
+              "product": "TANZAAR",
+              "strength": "50 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "LOSARTAN (POTASSIQUE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "AFRIC PHAR"
+            },
+            {
+              "id": "216",
+              "product": "TANZAAR",
+              "strength": "50 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "LOSARTAN (POTASSIQUE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "AFRIC PHAR"
+            }
+          ]
+        },
+        {
+          "name": "Prezar",
+          "id": "661",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Prezar",
+          "confirmed": true,
+          "note": null,
+          "matched": "PREZAR",
+          "products": [
+            {
+              "id": "661",
+              "product": "PREZAR",
+              "strength": "100 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "LOSARTAN (POTASSIQUE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "663",
+              "product": "PREZAR",
+              "strength": "50 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "LOSARTAN (POTASSIQUE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "665",
+              "product": "PREZAR",
+              "strength": "50 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "LOSARTAN (POTASSIQUE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "661",
+              "product": "PREZAR",
+              "strength": "100 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "LOSARTAN (POTASSIQUE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "663",
+              "product": "PREZAR",
+              "strength": "50 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "LOSARTAN (POTASSIQUE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "665",
+              "product": "PREZAR",
+              "strength": "50 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "LOSARTAN (POTASSIQUE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "BOTTU"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "3452",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=LOSARTAN",
+        "searched": "LOSARTAN",
+        "marketedProducts": 45,
+        "otherProducts": 57
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "214",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Tanzaar",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "gabapentin",
+      "generic": "Gabapentin",
+      "brand": "Neurontin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Neurontin",
+          "id": "3718",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Neurontin",
+          "confirmed": true,
+          "note": null,
+          "matched": "NEURONTIN",
+          "products": [
+            {
+              "id": "3718",
+              "product": "NEURONTIN",
+              "strength": "300 MG",
+              "form": "GELULE",
+              "ingredients": "GABAPENTINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "VIATRIS PHARMACEUTICALS"
+            },
+            {
+              "id": "3718",
+              "product": "NEURONTIN",
+              "strength": "300 MG",
+              "form": "GELULE",
+              "ingredients": "GABAPENTINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "VIATRIS PHARMACEUTICALS"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "280",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=GABAPENTIN",
+        "searched": "GABAPENTIN",
+        "marketedProducts": 8,
+        "otherProducts": 1
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "3718",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Neurontin",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "rosuvastatin",
+      "generic": "Rosuvastatin",
+      "brand": "Crestor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Crestor",
+          "id": "2752",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Crestor",
+          "confirmed": true,
+          "note": null,
+          "matched": "CRESTOR",
+          "products": [
+            {
+              "id": "2752",
+              "product": "CRESTOR",
+              "strength": "10 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "ROSUVASTATINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "MAPHAR"
+            },
+            {
+              "id": "2753",
+              "product": "CRESTOR",
+              "strength": "20 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "ROSUVASTATINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "MAPHAR"
+            },
+            {
+              "id": "2754",
+              "product": "CRESTOR",
+              "strength": "5 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "ROSUVASTATINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "MAPHAR"
+            },
+            {
+              "id": "2752",
+              "product": "CRESTOR",
+              "strength": "10 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "ROSUVASTATINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "MAPHAR"
+            },
+            {
+              "id": "2753",
+              "product": "CRESTOR",
+              "strength": "20 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "ROSUVASTATINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "MAPHAR"
+            },
+            {
+              "id": "2754",
+              "product": "CRESTOR",
+              "strength": "5 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "ROSUVASTATINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "MAPHAR"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "6998",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=ROSUVASTATIN",
+        "searched": "ROSUVASTATIN",
+        "marketedProducts": 44,
+        "otherProducts": 33
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "2752",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Crestor",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "pantoprazole",
+      "generic": "Pantoprazole",
+      "brand": "Razon",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Razon",
+          "id": "3538",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Razon",
+          "confirmed": true,
+          "note": null,
+          "matched": "RAZON",
+          "products": [
+            {
+              "id": "3538",
+              "product": "RAZON",
+              "strength": "40 MG",
+              "form": "COMPRIME ENROBE GASTRO-RESISTANT",
+              "ingredients": "PANTOPRAZOLE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "NOVOPHARMA"
+            },
+            {
+              "id": "3539",
+              "product": "RAZON",
+              "strength": "40 MG",
+              "form": "COMPRIME ENROBE GASTRO-RESISTANT",
+              "ingredients": "PANTOPRAZOLE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "NOVOPHARMA"
+            },
+            {
+              "id": "3538",
+              "product": "RAZON",
+              "strength": "40 MG",
+              "form": "COMPRIME ENROBE GASTRO-RESISTANT",
+              "ingredients": "PANTOPRAZOLE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "NOVOPHARMA"
+            },
+            {
+              "id": "3539",
+              "product": "RAZON",
+              "strength": "40 MG",
+              "form": "COMPRIME ENROBE GASTRO-RESISTANT",
+              "ingredients": "PANTOPRAZOLE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "NOVOPHARMA"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "309",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=PANTOPRAZOLE",
+        "searched": "PANTOPRAZOLE",
+        "marketedProducts": 7,
+        "otherProducts": 14
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "3538",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Razon",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "escitalopram",
+      "generic": "Escitalopram",
+      "brand": "Seroplex",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Seroplex",
+          "id": "5418",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Seroplex",
+          "confirmed": true,
+          "note": null,
+          "matched": "SEROPLEX",
+          "products": [
+            {
+              "id": "5418",
+              "product": "SEROPLEX",
+              "strength": "10 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "ESCITALOPRAM",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "MAPHAR"
+            },
+            {
+              "id": "5418",
+              "product": "SEROPLEX",
+              "strength": "10 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "ESCITALOPRAM",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "MAPHAR"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "6184",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=ESCITALOPRAM",
+        "searched": "ESCITALOPRAM",
+        "marketedProducts": 31,
+        "otherProducts": 78
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "5418",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Seroplex",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "amphetamine",
+      "generic": "Amphetamine / Dextroamphetamine",
+      "brand": "Not sold here",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=AMPHETAMINE",
+        "searched": "AMPHETAMINE, AMFETAMINE, DEXAMFETAMINE, DEXTROAMPHETAMINE",
+        "marketedProducts": 0,
+        "otherProducts": 0
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrochlorothiazide",
+      "generic": "Hydrochlorothiazide",
+      "brand": "Esidrex",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Esidrex",
+          "id": "3343",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Esidrex",
+          "confirmed": true,
+          "note": null,
+          "matched": "ESIDREX",
+          "products": [
+            {
+              "id": "3343",
+              "product": "ESIDREX",
+              "strength": "25 MG",
+              "form": "COMPRIME",
+              "ingredients": "HYDROCHLOROTHIAZIDE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SYNTHEMEDIC"
+            },
+            {
+              "id": "3343",
+              "product": "ESIDREX",
+              "strength": "25 MG",
+              "form": "COMPRIME",
+              "ingredients": "HYDROCHLOROTHIAZIDE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SYNTHEMEDIC"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "3454",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=HYDROCHLOROT",
+        "searched": "HYDROCHLOROT",
+        "marketedProducts": 108,
+        "otherProducts": 101
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "3343",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Esidrex",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "bupropion",
+      "generic": "Bupropion",
+      "brand": "Wellbutrin XR",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Wellbutrin XR",
+          "id": "1981",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Wellbutrin%20XR",
+          "confirmed": true,
+          "note": null,
+          "matched": "WELLBUTRIN XR",
+          "products": [
+            {
+              "id": "1981",
+              "product": "WELLBUTRIN XR",
+              "strength": "150 MG",
+              "form": "COMPRIME A LIBERATION MODIFIEE",
+              "ingredients": "BUPROPION (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "GSK"
+            },
+            {
+              "id": "1984",
+              "product": "WELLBUTRIN XR",
+              "strength": "300 MG",
+              "form": "COMPRIME A LIBERATION MODIFIEE",
+              "ingredients": "BUPROPION (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "GSK"
+            },
+            {
+              "id": "1981",
+              "product": "WELLBUTRIN XR",
+              "strength": "150 MG",
+              "form": "COMPRIME A LIBERATION MODIFIEE",
+              "ingredients": "BUPROPION (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "GSK"
+            },
+            {
+              "id": "1984",
+              "product": "WELLBUTRIN XR",
+              "strength": "300 MG",
+              "form": "COMPRIME A LIBERATION MODIFIEE",
+              "ingredients": "BUPROPION (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "GSK"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1981",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=BUPROPION",
+        "searched": "BUPROPION",
+        "marketedProducts": 2,
+        "otherProducts": 5
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "1981",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Wellbutrin%20XR",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "fluoxetine",
+      "generic": "Fluoxetine",
+      "brand": "Fluoxet",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Fluoxet",
+          "id": "5571",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Fluoxet",
+          "confirmed": true,
+          "note": null,
+          "matched": "FLUOXET",
+          "products": [
+            {
+              "id": "5571",
+              "product": "FLUOXET",
+              "strength": "20 MG",
+              "form": "GELULE",
+              "ingredients": "FLUOXETINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SOTHEMA"
+            },
+            {
+              "id": "5759",
+              "product": "FLUOXET",
+              "strength": "20 MG",
+              "form": "GELULE",
+              "ingredients": "FLUOXETINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SOTHEMA"
+            },
+            {
+              "id": "5761",
+              "product": "FLUOXET",
+              "strength": "20 MG",
+              "form": "GELULE",
+              "ingredients": "FLUOXETINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SOTHEMA"
+            },
+            {
+              "id": "5571",
+              "product": "FLUOXET",
+              "strength": "20 MG",
+              "form": "GELULE",
+              "ingredients": "FLUOXETINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SOTHEMA"
+            },
+            {
+              "id": "5759",
+              "product": "FLUOXET",
+              "strength": "20 MG",
+              "form": "GELULE",
+              "ingredients": "FLUOXETINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SOTHEMA"
+            },
+            {
+              "id": "5761",
+              "product": "FLUOXET",
+              "strength": "20 MG",
+              "form": "GELULE",
+              "ingredients": "FLUOXETINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SOTHEMA"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "8018",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=FLUOXETINE",
+        "searched": "FLUOXETINE",
+        "marketedProducts": 12,
+        "otherProducts": 13
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "5571",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Fluoxet",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "semaglutide",
+      "generic": "Semaglutide",
+      "brand": "Ozempic",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Ozempic",
+          "id": "9145",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Ozempic",
+          "confirmed": true,
+          "note": null,
+          "matched": "OZEMPIC",
+          "products": [
+            {
+              "id": "9145",
+              "product": "OZEMPIC",
+              "strength": "0.5 MG",
+              "form": "SOLUTION INJECTABLE (SC) EN STYLO PRE-REMPLI DE 1.5 ML",
+              "ingredients": "SEMAGLUTIDE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "LAPROPHAN"
+            },
+            {
+              "id": "9146",
+              "product": "OZEMPIC",
+              "strength": "0.25 MG",
+              "form": "SOLUTION INJECTABLE (SC) EN STYLO PRE-REMPLI DE 1.5 ML",
+              "ingredients": "SEMAGLUTIDE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "LAPROPHAN"
+            },
+            {
+              "id": "9147",
+              "product": "OZEMPIC",
+              "strength": "1 MG",
+              "form": "SOLUTION INJECTABLE (SC) EN STYLO PRE-REMPLI DE 3 ML",
+              "ingredients": "SEMAGLUTIDE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "LAPROPHAN"
+            },
+            {
+              "id": "9145",
+              "product": "OZEMPIC",
+              "strength": "0.5 MG",
+              "form": "SOLUTION INJECTABLE (SC) EN STYLO PRE-REMPLI DE 1.5 ML",
+              "ingredients": "SEMAGLUTIDE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "LAPROPHAN"
+            },
+            {
+              "id": "9146",
+              "product": "OZEMPIC",
+              "strength": "0.25 MG",
+              "form": "SOLUTION INJECTABLE (SC) EN STYLO PRE-REMPLI DE 1.5 ML",
+              "ingredients": "SEMAGLUTIDE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "LAPROPHAN"
+            },
+            {
+              "id": "9147",
+              "product": "OZEMPIC",
+              "strength": "1 MG",
+              "form": "SOLUTION INJECTABLE (SC) EN STYLO PRE-REMPLI DE 3 ML",
+              "ingredients": "SEMAGLUTIDE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "LAPROPHAN"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "9145",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=SEMAGLUTIDE",
+        "searched": "SEMAGLUTIDE",
+        "marketedProducts": 3,
+        "otherProducts": 0
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "9145",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Ozempic",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "montelukast",
+      "generic": "Montelukast",
+      "brand": "Singulair",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Singulair",
+          "id": "3266",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Singulair",
+          "confirmed": true,
+          "note": null,
+          "matched": "SINGULAIR",
+          "products": [
+            {
+              "id": "3266",
+              "product": "SINGULAIR",
+              "strength": "10 MG",
+              "form": "COMPRIME",
+              "ingredients": "MONTELUKAST",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "MAPHAR"
+            },
+            {
+              "id": "3267",
+              "product": "SINGULAIR",
+              "strength": "4 MG",
+              "form": "SACHET",
+              "ingredients": "MONTELUKAST",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "MAPHAR"
+            },
+            {
+              "id": "3268",
+              "product": "SINGULAIR",
+              "strength": "5 MG",
+              "form": "COMPRIME",
+              "ingredients": "MONTELUKAST",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "MAPHAR"
+            },
+            {
+              "id": "3266",
+              "product": "SINGULAIR",
+              "strength": "10 MG",
+              "form": "COMPRIME",
+              "ingredients": "MONTELUKAST",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "MAPHAR"
+            },
+            {
+              "id": "3267",
+              "product": "SINGULAIR",
+              "strength": "4 MG",
+              "form": "SACHET",
+              "ingredients": "MONTELUKAST",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "MAPHAR"
+            },
+            {
+              "id": "3268",
+              "product": "SINGULAIR",
+              "strength": "5 MG",
+              "form": "COMPRIME",
+              "ingredients": "MONTELUKAST",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "MAPHAR"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "6890",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=MONTELUKAST",
+        "searched": "MONTELUKAST",
+        "marketedProducts": 8,
+        "otherProducts": 13
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "3266",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Singulair",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "trazodone",
+      "generic": "Trazodone",
+      "brand": "Not sold here",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=TRAZODONE",
+        "searched": "TRAZODONE",
+        "marketedProducts": 0,
+        "otherProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "simvastatin",
+      "generic": "Simvastatin",
+      "brand": "Zovas / Simvacol",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zovas",
+          "id": "6162",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Zovas",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZOVAS",
+          "products": [
+            {
+              "id": "6162",
+              "product": "ZOVAS",
+              "strength": "20 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "SIMVASTATINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "STERIPHARMA"
+            },
+            {
+              "id": "6162",
+              "product": "ZOVAS",
+              "strength": "20 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "SIMVASTATINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "STERIPHARMA"
+            }
+          ]
+        },
+        {
+          "name": "Simvacol",
+          "id": "5045",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Simvacol",
+          "confirmed": true,
+          "note": null,
+          "matched": "SIMVACOL",
+          "products": [
+            {
+              "id": "5045",
+              "product": "SIMVACOL",
+              "strength": "40 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "SIMVASTATINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "RIM PHARMA"
+            },
+            {
+              "id": "5045",
+              "product": "SIMVACOL",
+              "strength": "40 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "SIMVASTATINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "RIM PHARMA"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "534",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=SIMVASTATIN",
+        "searched": "SIMVASTATIN",
+        "marketedProducts": 20,
+        "otherProducts": 50
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "6162",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Zovas",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "tamsulosin",
+      "generic": "Tamsulosin",
+      "brand": "Umax / Contiflo",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Umax",
+          "id": "1125",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Umax",
+          "confirmed": true,
+          "note": null,
+          "matched": "UMAX",
+          "products": [
+            {
+              "id": "1125",
+              "product": "UMAX",
+              "strength": "400 µG",
+              "form": "GELULE",
+              "ingredients": "TAMSULOSINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "COOPER PHARMA"
+            },
+            {
+              "id": "1126",
+              "product": "UMAX LP",
+              "strength": "400 µG",
+              "form": "GELULE",
+              "ingredients": "TAMSULOSINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "COOPER PHARMA"
+            },
+            {
+              "id": "1127",
+              "product": "UMAX LP",
+              "strength": "400 µG",
+              "form": "GELULE",
+              "ingredients": "TAMSULOSINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "COOPER PHARMA"
+            },
+            {
+              "id": "1125",
+              "product": "UMAX",
+              "strength": "400 µG",
+              "form": "GELULE",
+              "ingredients": "TAMSULOSINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "COOPER PHARMA"
+            },
+            {
+              "id": "1126",
+              "product": "UMAX LP",
+              "strength": "400 µG",
+              "form": "GELULE",
+              "ingredients": "TAMSULOSINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "COOPER PHARMA"
+            },
+            {
+              "id": "1127",
+              "product": "UMAX LP",
+              "strength": "400 µG",
+              "form": "GELULE",
+              "ingredients": "TAMSULOSINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "COOPER PHARMA"
+            }
+          ]
+        },
+        {
+          "name": "Contiflo",
+          "id": "6186",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Contiflo",
+          "confirmed": true,
+          "note": null,
+          "matched": "CONTIFLO OD",
+          "products": [
+            {
+              "id": "6186",
+              "product": "CONTIFLO OD",
+              "strength": "0,4 MG",
+              "form": "GELULE A LIBERATION PROLONGEE",
+              "ingredients": "TAMSULOSINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SUN PHARMACEUTICALS NORTH AFRICA"
+            },
+            {
+              "id": "6187",
+              "product": "CONTIFLO OD",
+              "strength": "0,4 MG",
+              "form": "GELULE A LIBERATION PROLONGEE",
+              "ingredients": "TAMSULOSINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SUN PHARMACEUTICALS NORTH AFRICA"
+            },
+            {
+              "id": "6188",
+              "product": "CONTIFLO OD",
+              "strength": "0,4 MG",
+              "form": "GELULE A LIBERATION PROLONGEE",
+              "ingredients": "TAMSULOSINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SUN PHARMACEUTICALS NORTH AFRICA"
+            },
+            {
+              "id": "6186",
+              "product": "CONTIFLO OD",
+              "strength": "0,4 MG",
+              "form": "GELULE A LIBERATION PROLONGEE",
+              "ingredients": "TAMSULOSINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SUN PHARMACEUTICALS NORTH AFRICA"
+            },
+            {
+              "id": "6187",
+              "product": "CONTIFLO OD",
+              "strength": "0,4 MG",
+              "form": "GELULE A LIBERATION PROLONGEE",
+              "ingredients": "TAMSULOSINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SUN PHARMACEUTICALS NORTH AFRICA"
+            },
+            {
+              "id": "6188",
+              "product": "CONTIFLO OD",
+              "strength": "0,4 MG",
+              "form": "GELULE A LIBERATION PROLONGEE",
+              "ingredients": "TAMSULOSINE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SUN PHARMACEUTICALS NORTH AFRICA"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1842",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=TAMSULOSIN",
+        "searched": "TAMSULOSIN",
+        "marketedProducts": 12,
+        "otherProducts": 10
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "1125",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Umax",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrocodone",
+      "generic": "Hydrocodone / Paracetamol combination",
+      "brand": "Not sold here",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=HYDROCODONE",
+        "searched": "HYDROCODONE",
+        "marketedProducts": 0,
+        "otherProducts": 0
+      },
+      "status": {
+        "entry": "CONTROLLED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "fluticasone",
+      "generic": "Fluticasone",
+      "brand": "Flixonase",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Flixonase",
+          "id": "1858",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Flixonase",
+          "confirmed": true,
+          "note": null,
+          "matched": "FLIXONASE",
+          "products": [
+            {
+              "id": "1858",
+              "product": "FLIXONASE",
+              "strength": "50 µG",
+              "form": "SUSPENSION POUR INSTILLATION NASALE",
+              "ingredients": "FLUTICASONE (PROPIONATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "GSK"
+            },
+            {
+              "id": "1859",
+              "product": "FLIXONASE",
+              "strength": "50 µG",
+              "form": "SUSPENSION POUR INSTILLATION NASALE",
+              "ingredients": "FLUTICASONE (PROPIONATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "GSK"
+            },
+            {
+              "id": "1858",
+              "product": "FLIXONASE",
+              "strength": "50 µG",
+              "form": "SUSPENSION POUR INSTILLATION NASALE",
+              "ingredients": "FLUTICASONE (PROPIONATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "GSK"
+            },
+            {
+              "id": "1859",
+              "product": "FLIXONASE",
+              "strength": "50 µG",
+              "form": "SUSPENSION POUR INSTILLATION NASALE",
+              "ingredients": "FLUTICASONE (PROPIONATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "GSK"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1800",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=FLUTICASONE",
+        "searched": "FLUTICASONE",
+        "marketedProducts": 22,
+        "otherProducts": 24
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "1858",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Flixonase",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "meloxicam",
+      "generic": "Meloxicam",
+      "brand": "Mobic",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Mobic",
+          "id": "634",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Mobic",
+          "confirmed": true,
+          "note": null,
+          "matched": "MOBIC",
+          "products": [
+            {
+              "id": "634",
+              "product": "MOBIC",
+              "strength": "15 MG",
+              "form": "COMPRIME SECABLE",
+              "ingredients": "MELOXICAM",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "635",
+              "product": "MOBIC",
+              "strength": "7,5 MG",
+              "form": "COMPRIME",
+              "ingredients": "MELOXICAM",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "7498",
+              "product": "MOBIC",
+              "strength": "7,5 MG",
+              "form": "COMPRIME",
+              "ingredients": "MELOXICAM",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "7499",
+              "product": "MOBIC",
+              "strength": "15 MG",
+              "form": "COMPRIME",
+              "ingredients": "MELOXICAM",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "634",
+              "product": "MOBIC",
+              "strength": "15 MG",
+              "form": "COMPRIME SECABLE",
+              "ingredients": "MELOXICAM",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "635",
+              "product": "MOBIC",
+              "strength": "7,5 MG",
+              "form": "COMPRIME",
+              "ingredients": "MELOXICAM",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "7415",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=MELOXICAM",
+        "searched": "MELOXICAM",
+        "marketedProducts": 44,
+        "otherProducts": 10
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "634",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Mobic",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "apixaban",
+      "generic": "Apixaban",
+      "brand": "Eliquis",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Eliquis",
+          "id": "3646",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Eliquis",
+          "confirmed": true,
+          "note": null,
+          "matched": "ELIQUIS",
+          "products": [
+            {
+              "id": "3646",
+              "product": "ELIQUIS",
+              "strength": "5 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "APIXABAN",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "PFIZER"
+            },
+            {
+              "id": "3648",
+              "product": "ELIQUIS",
+              "strength": "5 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "APIXABAN",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "PFIZER"
+            },
+            {
+              "id": "3796",
+              "product": "ELIQUIS",
+              "strength": "2,5 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "APIXABAN",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "PFIZER"
+            },
+            {
+              "id": "3797",
+              "product": "ELIQUIS",
+              "strength": "2,5 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "APIXABAN",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "PFIZER"
+            },
+            {
+              "id": "3646",
+              "product": "ELIQUIS",
+              "strength": "5 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "APIXABAN",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "PFIZER"
+            },
+            {
+              "id": "3648",
+              "product": "ELIQUIS",
+              "strength": "5 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "APIXABAN",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "PFIZER"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "9191",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=APIXABAN",
+        "searched": "APIXABAN",
+        "marketedProducts": 14,
+        "otherProducts": 21
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "3646",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Eliquis",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "furosemide",
+      "generic": "Furosemide",
+      "brand": "Lasilix",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lasilix",
+          "id": "5325",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Lasilix",
+          "confirmed": true,
+          "note": null,
+          "matched": "LASILIX",
+          "products": [
+            {
+              "id": "5325",
+              "product": "LASILIX",
+              "strength": "20 MG / 2 ML",
+              "form": "SOLUTION INJECTABLE",
+              "ingredients": "FUROSEMIDE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SANOFI AVENTIS"
+            },
+            {
+              "id": "5326",
+              "product": "LASILIX",
+              "strength": "40 MG",
+              "form": "COMPRIME",
+              "ingredients": "FUROSEMIDE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SANOFI AVENTIS"
+            },
+            {
+              "id": "5325",
+              "product": "LASILIX",
+              "strength": "20 MG / 2 ML",
+              "form": "SOLUTION INJECTABLE",
+              "ingredients": "FUROSEMIDE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SANOFI AVENTIS"
+            },
+            {
+              "id": "5326",
+              "product": "LASILIX",
+              "strength": "40 MG",
+              "form": "COMPRIME",
+              "ingredients": "FUROSEMIDE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SANOFI AVENTIS"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "3963",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=FUROSEMIDE",
+        "searched": "FUROSEMIDE",
+        "marketedProducts": 8,
+        "otherProducts": 3
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "5325",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Lasilix",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-glargine",
+      "generic": "Insulin Glargine",
+      "brand": "Lantus",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Lantus",
+          "id": "5319",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Lantus",
+          "confirmed": true,
+          "note": null,
+          "matched": "LANTUS SOLOSTAR",
+          "products": [
+            {
+              "id": "5319",
+              "product": "LANTUS SOLOSTAR",
+              "strength": "100 UI / ML",
+              "form": "SOLUTION INJECTABLE",
+              "ingredients": "INSULINE GLARGINE (LENTE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SANOFI AVENTIS"
+            },
+            {
+              "id": "5322",
+              "product": "LANTUS SOLOSTAR",
+              "strength": "100 UI / ML",
+              "form": "SOLUTION INJECTABLE",
+              "ingredients": "INSULINE GLARGINE (LENTE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SANOFI AVENTIS"
+            },
+            {
+              "id": "5319",
+              "product": "LANTUS SOLOSTAR",
+              "strength": "100 UI / ML",
+              "form": "SOLUTION INJECTABLE",
+              "ingredients": "INSULINE GLARGINE (LENTE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SANOFI AVENTIS"
+            },
+            {
+              "id": "5322",
+              "product": "LANTUS SOLOSTAR",
+              "strength": "100 UI / ML",
+              "form": "SOLUTION INJECTABLE",
+              "ingredients": "INSULINE GLARGINE (LENTE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SANOFI AVENTIS"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "8031",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=INSULIN%20GLAR",
+        "searched": "INSULIN GLAR, INSULINE GLARGINE",
+        "marketedProducts": 10,
+        "otherProducts": 15
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "5319",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Lantus",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-lispro",
+      "generic": "Insulin Lispro",
+      "brand": "Humalog",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Humalog",
+          "id": "5771",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Humalog",
+          "confirmed": true,
+          "note": null,
+          "matched": "HUMALOG",
+          "products": [
+            {
+              "id": "5771",
+              "product": "HUMALOG",
+              "strength": "100 UI / ML",
+              "form": "SOLUTION POUR USAGE PARENTERAL",
+              "ingredients": "INSULINE LISPRO (RAPIDE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SOTHEMA"
+            },
+            {
+              "id": "5772",
+              "product": "HUMALOG KWIK PEN",
+              "strength": "100 UI / ML",
+              "form": "SOLUTION POUR USAGE PARENTERAL",
+              "ingredients": "INSULINE LISPRO (RAPIDE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SOTHEMA"
+            },
+            {
+              "id": "5773",
+              "product": "HUMALOG KWIK PEN MIX 25",
+              "strength": "100 UI / ML",
+              "form": "SOLUTION POUR USAGE PARENTERAL",
+              "ingredients": "INSULINE LISPRO (RAPIDE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SOTHEMA"
+            },
+            {
+              "id": "5774",
+              "product": "HUMALOG MIX 25",
+              "strength": "100 UI / ML",
+              "form": "SUSPENSION INJECTABLE",
+              "ingredients": "INSULINE LISPRO (INTERMEDIAIRE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SOTHEMA"
+            },
+            {
+              "id": "5775",
+              "product": "HUMALOG MIX 50 KWIKPEN",
+              "strength": "100 UI / ML",
+              "form": "SUSPENSION INJECTABLE",
+              "ingredients": "INSULINE LISPRO (INTERMEDIAIRE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SOTHEMA"
+            },
+            {
+              "id": "5771",
+              "product": "HUMALOG",
+              "strength": "100 UI / ML",
+              "form": "SOLUTION POUR USAGE PARENTERAL",
+              "ingredients": "INSULINE LISPRO (RAPIDE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SOTHEMA"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "5771",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=INSULIN%20LISP",
+        "searched": "INSULIN LISP, INSULINE LISPRO",
+        "marketedProducts": 5,
+        "otherProducts": 3
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "5771",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Humalog",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-aspart",
+      "generic": "Insulin Aspart",
+      "brand": "NovoRapid",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "NovoRapid",
+          "id": "2577",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=NovoRapid",
+          "confirmed": true,
+          "note": null,
+          "matched": "NOVO RAPID FLEXPEN",
+          "products": [
+            {
+              "id": "2577",
+              "product": "NOVO RAPID FLEXPEN",
+              "strength": "100 UI / ML",
+              "form": "SOLUTION INJECTABLE",
+              "ingredients": "INSULINE ASPART (RAPIDE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "LAPROPHAN"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2577",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=INSULIN%20ASPA",
+        "searched": "INSULIN ASPA, INSULINE ASPART",
+        "marketedProducts": 1,
+        "otherProducts": 13
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "2577",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=NovoRapid",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-regular",
+      "generic": "Insulin Human (Regular)",
+      "brand": "Actrapid",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Actrapid",
+          "id": "2310",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Actrapid",
+          "confirmed": true,
+          "note": null,
+          "matched": "ACTRAPID HM",
+          "products": [
+            {
+              "id": "2310",
+              "product": "ACTRAPID HM",
+              "strength": "100 UI / ML",
+              "form": "SOLUTION INJECTABLE",
+              "ingredients": "INSULINE HUMAINE BIOGENETIQUE (RAPIDE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "LAPROPHAN"
+            },
+            {
+              "id": "2310",
+              "product": "ACTRAPID HM",
+              "strength": "100 UI / ML",
+              "form": "SOLUTION INJECTABLE",
+              "ingredients": "INSULINE HUMAINE BIOGENETIQUE (RAPIDE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "LAPROPHAN"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2310",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=INSULIN%20HUMA",
+        "searched": "INSULIN HUMA, INSULINE HUMAINE, INSULIN REGULAR, INSULIN SOLUBLE, INSULIN SEMI SYNTHETIC, INSULIN INJECTION HUMAN",
+        "marketedProducts": 7,
+        "otherProducts": 27
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "2310",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Actrapid",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-nph",
+      "generic": "Insulin Isophane (NPH)",
+      "brand": "Insulatard",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Insulatard",
+          "id": "2494",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Insulatard",
+          "confirmed": true,
+          "note": null,
+          "matched": "INSULATARD HM",
+          "products": [
+            {
+              "id": "2494",
+              "product": "INSULATARD HM",
+              "strength": "100 UI / ML",
+              "form": "SUSPENSION INJECTABLE",
+              "ingredients": "INSULINE HUMAINE BIOGENETIQUE ISOPHANE (LENTE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "LAPROPHAN"
+            },
+            {
+              "id": "2494",
+              "product": "INSULATARD HM",
+              "strength": "100 UI / ML",
+              "form": "SUSPENSION INJECTABLE",
+              "ingredients": "INSULINE HUMAINE BIOGENETIQUE ISOPHANE (LENTE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "LAPROPHAN"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2310",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=INSULIN%20ISOP",
+        "searched": "INSULIN ISOP, INSULINE HUMAINE, INSULINE ISOPHANE, ISOPHANE INSULIN, INSULIN HUMAN, INSULIN NPH",
+        "marketedProducts": 7,
+        "otherProducts": 27
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "2494",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Insulatard",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-detemir",
+      "generic": "Insulin Detemir",
+      "brand": "Levemir",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Levemir",
+          "id": "2520",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Levemir",
+          "confirmed": true,
+          "note": null,
+          "matched": "LEVEMIR FLEXPEN",
+          "products": [
+            {
+              "id": "2520",
+              "product": "LEVEMIR FLEXPEN",
+              "strength": "100 UI / ML",
+              "form": "SOLUTION INJECTABLE",
+              "ingredients": "INSULINE DETEMIR (LENTE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "LAPROPHAN"
+            },
+            {
+              "id": "2520",
+              "product": "LEVEMIR FLEXPEN",
+              "strength": "100 UI / ML",
+              "form": "SOLUTION INJECTABLE",
+              "ingredients": "INSULINE DETEMIR (LENTE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "LAPROPHAN"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2520",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=INSULIN%20DETE",
+        "searched": "INSULIN DETE, INSULINE DETEMIR",
+        "marketedProducts": 1,
+        "otherProducts": 1
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "2520",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Levemir",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "insulin-degludec",
+      "generic": "Insulin Degludec",
+      "brand": "Tresiba",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tresiba",
+          "id": "7177",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Tresiba",
+          "confirmed": true,
+          "note": null,
+          "matched": "TRESIBA FLEXTOUCH",
+          "products": [
+            {
+              "id": "7177",
+              "product": "TRESIBA FLEXTOUCH",
+              "strength": "100 UI / ML",
+              "form": "SOLUTION INJECTABLE",
+              "ingredients": "INSULINE DEGLUDEC (LENTE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "LAPROPHAN"
+            },
+            {
+              "id": "7518",
+              "product": "TRESIBA FLEXTOUCH",
+              "strength": "100 UI / ML",
+              "form": "SOLUTION INJECTABLE EN STYLO PREREMPLI",
+              "ingredients": "INSULINE DEGLUDEC (LENTE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "LAPROPHAN"
+            },
+            {
+              "id": "7177",
+              "product": "TRESIBA FLEXTOUCH",
+              "strength": "100 UI / ML",
+              "form": "SOLUTION INJECTABLE",
+              "ingredients": "INSULINE DEGLUDEC (LENTE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "LAPROPHAN"
+            },
+            {
+              "id": "7518",
+              "product": "TRESIBA FLEXTOUCH",
+              "strength": "100 UI / ML",
+              "form": "SOLUTION INJECTABLE EN STYLO PREREMPLI",
+              "ingredients": "INSULINE DEGLUDEC (LENTE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "LAPROPHAN"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "6867",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=INSULIN%20DEGL",
+        "searched": "INSULIN DEGL, INSULINE DEGLUDEC",
+        "marketedProducts": 4,
+        "otherProducts": 7
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "7177",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Tresiba",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "duloxetine",
+      "generic": "Duloxetine",
+      "brand": "Dulophi / Welin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Dulophi",
+          "id": "4445",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Dulophi",
+          "confirmed": true,
+          "note": null,
+          "matched": "DULOPHI",
+          "products": [
+            {
+              "id": "4445",
+              "product": "DULOPHI",
+              "strength": "30 MG",
+              "form": "GELULE GASTRORESISTANTE",
+              "ingredients": "DULOXETINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "PHI"
+            },
+            {
+              "id": "4446",
+              "product": "DULOPHI",
+              "strength": "60 MG",
+              "form": "GELULE GASTRORESISTANTE",
+              "ingredients": "DULOXETINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "PHI"
+            },
+            {
+              "id": "4445",
+              "product": "DULOPHI",
+              "strength": "30 MG",
+              "form": "GELULE GASTRORESISTANTE",
+              "ingredients": "DULOXETINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "PHI"
+            },
+            {
+              "id": "4446",
+              "product": "DULOPHI",
+              "strength": "60 MG",
+              "form": "GELULE GASTRORESISTANTE",
+              "ingredients": "DULOXETINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "PHI"
+            }
+          ]
+        },
+        {
+          "name": "Welin",
+          "id": "7475",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Welin",
+          "confirmed": true,
+          "note": null,
+          "matched": "WELIN",
+          "products": [
+            {
+              "id": "7475",
+              "product": "WELIN",
+              "strength": "30 MG",
+              "form": "CAPSULE GASTRO-RESISTANTE",
+              "ingredients": "DULOXETINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "ZENITH PHARMA"
+            },
+            {
+              "id": "7475",
+              "product": "WELIN",
+              "strength": "30 MG",
+              "form": "CAPSULE GASTRO-RESISTANTE",
+              "ingredients": "DULOXETINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "ZENITH PHARMA"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "4445",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=DULOXETINE",
+        "searched": "DULOXETINE",
+        "marketedProducts": 3,
+        "otherProducts": 4
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "4445",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Dulophi",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "high",
+        "to": "high"
+      },
+      "flags": []
+    },
+    {
+      "id": "famotidine",
+      "generic": "Famotidine",
+      "brand": "Not sold here",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=FAMOTIDINE",
+        "searched": "FAMOTIDINE",
+        "marketedProducts": 0,
+        "otherProducts": 7
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "empagliflozin",
+      "generic": "Empagliflozin",
+      "brand": "Jardiance",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Jardiance",
+          "id": "485",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Jardiance",
+          "confirmed": true,
+          "note": null,
+          "matched": "JARDIANCE",
+          "products": [
+            {
+              "id": "485",
+              "product": "JARDIANCE",
+              "strength": "10 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "EMPAGLIFLOZINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "486",
+              "product": "JARDIANCE",
+              "strength": "25 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "EMPAGLIFLOZINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=EMPAGLIFLOZI",
+        "searched": "EMPAGLIFLOZI",
+        "marketedProducts": 0,
+        "otherProducts": 0
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "485",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Jardiance",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "carvedilol",
+      "generic": "Carvedilol",
+      "brand": "Dilatrend / Cardinor",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Dilatrend",
+          "id": "5065",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Dilatrend",
+          "confirmed": true,
+          "note": null,
+          "matched": "DILATREND",
+          "products": [
+            {
+              "id": "5065",
+              "product": "DILATREND",
+              "strength": "25 MG",
+              "form": "COMPRIME",
+              "ingredients": "CARVEDILOL",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "5066",
+              "product": "DILATREND",
+              "strength": "6,25 MG",
+              "form": "COMPRIME",
+              "ingredients": "CARVEDILOL",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "5065",
+              "product": "DILATREND",
+              "strength": "25 MG",
+              "form": "COMPRIME",
+              "ingredients": "CARVEDILOL",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "5066",
+              "product": "DILATREND",
+              "strength": "6,25 MG",
+              "form": "COMPRIME",
+              "ingredients": "CARVEDILOL",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            }
+          ]
+        },
+        {
+          "name": "Cardinor",
+          "id": "815",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Cardinor",
+          "confirmed": true,
+          "note": null,
+          "matched": "CARDINOR",
+          "products": [
+            {
+              "id": "815",
+              "product": "CARDINOR",
+              "strength": "25 MG",
+              "form": "COMPRIME SECABLE",
+              "ingredients": "CARVEDILOL",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "COOPER PHARMA"
+            },
+            {
+              "id": "816",
+              "product": "CARDINOR",
+              "strength": "25 MG",
+              "form": "COMPRIME SECABLE",
+              "ingredients": "CARVEDILOL",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "COOPER PHARMA"
+            },
+            {
+              "id": "818",
+              "product": "CARDINOR",
+              "strength": "6,25 MG",
+              "form": "COMPRIME SECABLE",
+              "ingredients": "CARVEDILOL",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "COOPER PHARMA"
+            },
+            {
+              "id": "819",
+              "product": "CARDINOR",
+              "strength": "6,25 MG",
+              "form": "COMPRIME SECABLE",
+              "ingredients": "CARVEDILOL",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "COOPER PHARMA"
+            },
+            {
+              "id": "815",
+              "product": "CARDINOR",
+              "strength": "25 MG",
+              "form": "COMPRIME SECABLE",
+              "ingredients": "CARVEDILOL",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "COOPER PHARMA"
+            },
+            {
+              "id": "816",
+              "product": "CARDINOR",
+              "strength": "25 MG",
+              "form": "COMPRIME SECABLE",
+              "ingredients": "CARVEDILOL",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "COOPER PHARMA"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "7603",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=CARVEDILOL",
+        "searched": "CARVEDILOL",
+        "marketedProducts": 22,
+        "otherProducts": 18
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "5065",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Dilatrend",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "tramadol",
+      "generic": "Tramadol",
+      "brand": "Not known",
+      "kind": "other",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "581",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=TRAMADOL",
+        "searched": "TRAMADOL",
+        "marketedProducts": 13,
+        "otherProducts": 34
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "alprazolam",
+      "generic": "Alprazolam",
+      "brand": "Not known",
+      "kind": "other",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "5635",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=ALPRAZOLAM",
+        "searched": "ALPRAZOLAM",
+        "marketedProducts": 4,
+        "otherProducts": 0
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "prednisone",
+      "generic": "Prednisone",
+      "brand": "Cortancyl",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Cortancyl",
+          "id": "5253",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Cortancyl",
+          "confirmed": true,
+          "note": null,
+          "matched": "CORTANCYL",
+          "products": [
+            {
+              "id": "5253",
+              "product": "CORTANCYL",
+              "strength": "1 MG",
+              "form": "COMPRIME",
+              "ingredients": "PREDNISONE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "5254",
+              "product": "CORTANCYL",
+              "strength": "20 MG",
+              "form": "COMPRIME",
+              "ingredients": "PREDNISONE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "5255",
+              "product": "CORTANCYL",
+              "strength": "5 MG",
+              "form": "COMPRIME SECABLE",
+              "ingredients": "PREDNISONE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "5253",
+              "product": "CORTANCYL",
+              "strength": "1 MG",
+              "form": "COMPRIME",
+              "ingredients": "PREDNISONE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "5254",
+              "product": "CORTANCYL",
+              "strength": "20 MG",
+              "form": "COMPRIME",
+              "ingredients": "PREDNISONE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "5255",
+              "product": "CORTANCYL",
+              "strength": "5 MG",
+              "form": "COMPRIME SECABLE",
+              "ingredients": "PREDNISONE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "5253",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=PREDNISONE",
+        "searched": "PREDNISONE",
+        "marketedProducts": 5,
+        "otherProducts": 3
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "5253",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Cortancyl",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "clopidogrel",
+      "generic": "Clopidogrel",
+      "brand": "Plavix",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Plavix",
+          "id": "5386",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Plavix",
+          "confirmed": true,
+          "note": null,
+          "matched": "PLAVIX",
+          "products": [
+            {
+              "id": "5386",
+              "product": "PLAVIX",
+              "strength": "300 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "CLOPIDOGREL",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SANOFI AVENTIS"
+            },
+            {
+              "id": "5388",
+              "product": "PLAVIX",
+              "strength": "75 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "CLOPIDOGREL",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SANOFI AVENTIS"
+            },
+            {
+              "id": "5386",
+              "product": "PLAVIX",
+              "strength": "300 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "CLOPIDOGREL",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SANOFI AVENTIS"
+            },
+            {
+              "id": "5388",
+              "product": "PLAVIX",
+              "strength": "75 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "CLOPIDOGREL",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SANOFI AVENTIS"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "3834",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=CLOPIDOGREL",
+        "searched": "CLOPIDOGREL",
+        "marketedProducts": 17,
+        "otherProducts": 26
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "5386",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Plavix",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "aspirin",
+      "generic": "Acetylsalicylic acid (Aspirin)",
+      "brand": "Aspégic",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Aspégic",
+          "id": "5211",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Asp%C3%A9gic",
+          "confirmed": true,
+          "note": null,
+          "matched": "ASPEGIC",
+          "products": [
+            {
+              "id": "5211",
+              "product": "ASPEGIC",
+              "strength": "500 MG",
+              "form": "SACHET",
+              "ingredients": "ACETYLSALICYLATE DE LYSINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SANOFI AVENTIS"
+            },
+            {
+              "id": "5214",
+              "product": "ASPEGIC AD",
+              "strength": "1000 MG",
+              "form": "SACHET",
+              "ingredients": "ACETYLSALICYLATE DE LYSINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SANOFI AVENTIS"
+            },
+            {
+              "id": "5215",
+              "product": "ASPEGIC AD",
+              "strength": "1000 MG",
+              "form": "SACHET",
+              "ingredients": "ACETYLSALICYLATE DE LYSINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SANOFI AVENTIS"
+            },
+            {
+              "id": "5212",
+              "product": "ASPEGIC ENF",
+              "strength": "250 MG",
+              "form": "SACHET",
+              "ingredients": "ACETYLSALICYLATE DE LYSINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SANOFI AVENTIS"
+            },
+            {
+              "id": "5216",
+              "product": "ASPEGIC NOUR",
+              "strength": "100 MG",
+              "form": "SACHET",
+              "ingredients": "ACETYLSALICYLATE DE LYSINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SANOFI AVENTIS"
+            },
+            {
+              "id": "5211",
+              "product": "ASPEGIC",
+              "strength": "500 MG",
+              "form": "SACHET",
+              "ingredients": "ACETYLSALICYLATE DE LYSINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SANOFI AVENTIS"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2303",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=ACETYLSALICY",
+        "searched": "ACETYLSALICY, ASPIRIN",
+        "marketedProducts": 23,
+        "otherProducts": 33
+      },
+      "status": {
+        "entry": "OTC",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "5211",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Asp%C3%A9gic",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "oxycodone",
+      "generic": "Oxycodone",
+      "brand": "Not known",
+      "kind": "other",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=OXYCODONE",
+        "searched": "OXYCODONE",
+        "marketedProducts": 0,
+        "otherProducts": 14
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "methylphenidate",
+      "generic": "Methylphenidate",
+      "brand": "Not known",
+      "kind": "other",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=METHYLPHENID",
+        "searched": "METHYLPHENID",
+        "marketedProducts": 0,
+        "otherProducts": 3
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "naproxen",
+      "generic": "Naproxen",
+      "brand": "Algixene",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Algixene",
+          "id": "2129",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Algixene",
+          "confirmed": true,
+          "note": null,
+          "matched": "ALGIXENE",
+          "products": [
+            {
+              "id": "2129",
+              "product": "ALGIXENE",
+              "strength": "250 MG",
+              "form": "GELULE",
+              "ingredients": "NAPROXENE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "IBERMA"
+            },
+            {
+              "id": "2130",
+              "product": "ALGIXENE",
+              "strength": "500 MG",
+              "form": "SUPPOSITOIRE",
+              "ingredients": "NAPROXENE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "IBERMA"
+            },
+            {
+              "id": "2129",
+              "product": "ALGIXENE",
+              "strength": "250 MG",
+              "form": "GELULE",
+              "ingredients": "NAPROXENE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "IBERMA"
+            },
+            {
+              "id": "2130",
+              "product": "ALGIXENE",
+              "strength": "500 MG",
+              "form": "SUPPOSITOIRE",
+              "ingredients": "NAPROXENE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "IBERMA"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2129",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=NAPROXEN",
+        "searched": "NAPROXEN",
+        "marketedProducts": 2,
+        "otherProducts": 9
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "2129",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Algixene",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "diclofenac-gel",
+      "generic": "Diclofenac (topical gel)",
+      "brand": "Voltarène Emulgel",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Voltarène Emulgel",
+          "id": "1774",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Voltar%C3%A8ne%20Emulgel",
+          "confirmed": true,
+          "note": null,
+          "matched": "VOLTARENE EMULGEL",
+          "products": [
+            {
+              "id": "1774",
+              "product": "VOLTARENE EMULGEL",
+              "strength": "0.01",
+              "form": "GEL EMULSION",
+              "ingredients": "DICLOFENAC (DIETHYLAMINE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SOTHEMA"
+            },
+            {
+              "id": "1774",
+              "product": "VOLTARENE EMULGEL",
+              "strength": "0.01",
+              "form": "GEL EMULSION",
+              "ingredients": "DICLOFENAC (DIETHYLAMINE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "SOTHEMA"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "6365",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=DICLOFENAC",
+        "searched": "DICLOFENAC",
+        "marketedProducts": 8,
+        "otherProducts": 5
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "1774",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Voltar%C3%A8ne%20Emulgel",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "fexofenadine",
+      "generic": "Fexofenadine",
+      "brand": "Not sold here",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=FEXOFENADINE",
+        "searched": "FEXOFENADINE",
+        "marketedProducts": 0,
+        "otherProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "guaifenesin",
+      "generic": "Guaifenesin",
+      "brand": "Sold generic as \"Guaïfénésine\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "1037",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=GUAIFENESIN",
+        "searched": "GUAIFENESIN, GUAIPHENESIN",
+        "marketedProducts": 2,
+        "otherProducts": 4
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "1037",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=GUAIFENESIN",
+        "checked": "2026-10-27",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "dextromethorphan",
+      "generic": "Dextromethorphan",
+      "brand": "Sold generic as \"Dextrométhorphane\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "6044",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=DEXTROMETHOR",
+        "searched": "DEXTROMETHOR",
+        "marketedProducts": 2,
+        "otherProducts": 4
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "6044",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=DEXTROMETHOR",
+        "checked": "2026-10-27",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "oxymetazoline",
+      "generic": "Oxymetazoline (nasal spray)",
+      "brand": "Sold generic as \"Oxymétazoline\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=OXYMETAZOLIN",
+        "searched": "OXYMETAZOLIN",
+        "marketedProducts": 0,
+        "otherProducts": 0
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": [
+        "Ingredient not found in this registry"
+      ]
+    },
+    {
+      "id": "bismuth-subsalicylate",
+      "generic": "Bismuth subsalicylate",
+      "brand": "Not sold here",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=BISMUTH%20SUBS",
+        "searched": "BISMUTH SUBS",
+        "marketedProducts": 0,
+        "otherProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "calcium-carbonate",
+      "generic": "Calcium carbonate (antacid)",
+      "brand": "Not sold here",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=CALCIUM%20CARB",
+        "searched": "CALCIUM CARB, CARBONATE DE CALCIUM, CALCIUM CARBONATE",
+        "marketedProducts": 0,
+        "otherProducts": 4
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "simeticone",
+      "generic": "Simeticone",
+      "brand": "Sold generic as \"Siméticone\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "984",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=SIMETICONE",
+        "searched": "SIMETICONE, SIMETHICONE",
+        "marketedProducts": 1,
+        "otherProducts": 0
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "984",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=SIMETICONE",
+        "checked": "2026-10-27",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "oral-rehydration-salts",
+      "generic": "Oral rehydration salts",
+      "brand": "Sold generic as \"sels de réhydratation orale\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=ORAL%20REHYDRA",
+        "searched": "ORAL REHYDRA, SODIUM CITRATE, CITRATE DE SODIUM",
+        "marketedProducts": 0,
+        "otherProducts": 1
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": [
+        "Ingredient not found in this registry"
+      ]
+    },
+    {
+      "id": "bisacodyl",
+      "generic": "Bisacodyl",
+      "brand": "Contalax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Contalax",
+          "id": "2750",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Contalax",
+          "confirmed": true,
+          "note": null,
+          "matched": "CONTALAX",
+          "products": [
+            {
+              "id": "2750",
+              "product": "CONTALAX",
+              "strength": "5 MG",
+              "form": "COMPRIME GASTRO-RESISTANT",
+              "ingredients": "BISACODYL",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "MAPHAR"
+            },
+            {
+              "id": "2750",
+              "product": "CONTALAX",
+              "strength": "5 MG",
+              "form": "COMPRIME GASTRO-RESISTANT",
+              "ingredients": "BISACODYL",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "MAPHAR"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2750",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=BISACODYL",
+        "searched": "BISACODYL",
+        "marketedProducts": 1,
+        "otherProducts": 1
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "2750",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Contalax",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "polyethylene-glycol",
+      "generic": "Polyethylene glycol 3350 (macrogol)",
+      "brand": "Forlax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Forlax",
+          "id": "2829",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Forlax",
+          "confirmed": true,
+          "note": null,
+          "matched": "FORLAX",
+          "products": [
+            {
+              "id": "2829",
+              "product": "FORLAX",
+              "strength": "10 G",
+              "form": "POUDRE POUR SOLUTION BUVABLE",
+              "ingredients": "MACROGOL 4000",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "MAPHAR"
+            },
+            {
+              "id": "2829",
+              "product": "FORLAX",
+              "strength": "10 G",
+              "form": "POUDRE POUR SOLUTION BUVABLE",
+              "ingredients": "MACROGOL 4000",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "MAPHAR"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2829",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=POLYETHYLENE",
+        "searched": "POLYETHYLENE, MACROGOL",
+        "marketedProducts": 2,
+        "otherProducts": 10
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "2829",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Forlax",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "meclozine",
+      "generic": "Meclozine",
+      "brand": "Not sold here",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=MECLOZINE",
+        "searched": "MECLOZINE, MECLIZINE",
+        "marketedProducts": 0,
+        "otherProducts": 1
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "hydrocortisone-cream",
+      "generic": "Hydrocortisone (cream)",
+      "brand": "Sold generic as \"Hydrocortisone crème\"",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "6322",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=HYDROCORTISO",
+        "searched": "HYDROCORTISO, HYDROCORTISONE",
+        "marketedProducts": 5,
+        "otherProducts": 0
+      },
+      "status": {
+        "entry": "UNCONFIRMED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "6322",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=HYDROCORTISO",
+        "checked": "2026-10-27",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "clotrimazole",
+      "generic": "Clotrimazole",
+      "brand": "Clomiter / Mycohydralin",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Clomiter",
+          "id": "60",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Clomiter",
+          "confirmed": true,
+          "note": null,
+          "matched": "CLOMITER",
+          "products": [
+            {
+              "id": "60",
+              "product": "CLOMITER",
+              "strength": "0.01",
+              "form": "CREME",
+              "ingredients": "CLOTRIMAZOLE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "AFRIC PHAR"
+            },
+            {
+              "id": "61",
+              "product": "CLOMITER",
+              "strength": "0.01",
+              "form": "SOLUTION TOPIQUE",
+              "ingredients": "CLOTRIMAZOLE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "AFRIC PHAR"
+            },
+            {
+              "id": "60",
+              "product": "CLOMITER",
+              "strength": "0.01",
+              "form": "CREME",
+              "ingredients": "CLOTRIMAZOLE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "AFRIC PHAR"
+            },
+            {
+              "id": "61",
+              "product": "CLOMITER",
+              "strength": "0.01",
+              "form": "SOLUTION TOPIQUE",
+              "ingredients": "CLOTRIMAZOLE",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "AFRIC PHAR"
+            }
+          ]
+        },
+        {
+          "name": "Mycohydralin",
+          "id": "364",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Mycohydralin",
+          "confirmed": true,
+          "note": null,
+          "matched": "MYCOHYDRALIN",
+          "products": [
+            {
+              "id": "364",
+              "product": "MYCOHYDRALIN",
+              "strength": "0.01",
+              "form": "CREME",
+              "ingredients": "CLOTRIMAZOLE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BAYER"
+            },
+            {
+              "id": "364",
+              "product": "MYCOHYDRALIN",
+              "strength": "0.01",
+              "form": "CREME",
+              "ingredients": "CLOTRIMAZOLE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BAYER"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "358",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=CLOTRIMAZOLE",
+        "searched": "CLOTRIMAZOLE",
+        "marketedProducts": 4,
+        "otherProducts": 3
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "60",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Clomiter",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "antibiotic-ointment",
+      "generic": "Bacitracin / Neomycin / Polymyxin B (antibiotic ointment)",
+      "brand": "Not sold here",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "1352",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=BACITRACIN",
+        "searched": "BACITRACIN, NEOMYCINE, BACITRACINE",
+        "marketedProducts": 8,
+        "otherProducts": 10
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": [
+        "Entry says \"Not sold here\" but the registry lists products with this ingredient"
+      ]
+    },
+    {
+      "id": "doxylamine",
+      "generic": "Doxylamine",
+      "brand": "Cariban",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Cariban",
+          "id": "7872",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Cariban",
+          "confirmed": true,
+          "note": null,
+          "matched": "CARIBAN",
+          "products": [
+            {
+              "id": "7872",
+              "product": "CARIBAN",
+              "strength": "10 MG / 10 MG",
+              "form": "GELULE A LIBERATION PROLONGEE",
+              "ingredients": "DOXYLAMINE SUCCINATE // VITAMINE B6 (PYRIDOXINE CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "VERSALYA"
+            },
+            {
+              "id": "7872",
+              "product": "CARIBAN",
+              "strength": "10 MG / 10 MG",
+              "form": "GELULE A LIBERATION PROLONGEE",
+              "ingredients": "DOXYLAMINE SUCCINATE // VITAMINE B6 (PYRIDOXINE CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "VERSALYA"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "7872",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=DOXYLAMINE",
+        "searched": "DOXYLAMINE",
+        "marketedProducts": 1,
+        "otherProducts": 3
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "7872",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Cariban",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "levonorgestrel",
+      "generic": "Levonorgestrel (emergency contraception)",
+      "brand": "Aconcept / Levo",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Aconcept",
+          "id": "8112",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Aconcept",
+          "confirmed": true,
+          "note": null,
+          "matched": "ACONCEPT",
+          "products": [
+            {
+              "id": "8112",
+              "product": "ACONCEPT",
+              "strength": "1.5 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "LEVONORGESTREL",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "ZENITH PHARMA"
+            },
+            {
+              "id": "8112",
+              "product": "ACONCEPT",
+              "strength": "1.5 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "LEVONORGESTREL",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "ZENITH PHARMA"
+            }
+          ]
+        },
+        {
+          "name": "Levo",
+          "id": "8588",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Levo",
+          "confirmed": true,
+          "note": null,
+          "matched": "LEVO",
+          "products": [
+            {
+              "id": "8588",
+              "product": "LEVO",
+              "strength": "1,5 MG",
+              "form": "COMPRIME",
+              "ingredients": "LÉVONORGESTREL",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "GYNEBIO PHARMA"
+            },
+            {
+              "id": "8588",
+              "product": "LEVO",
+              "strength": "1,5 MG",
+              "form": "COMPRIME",
+              "ingredients": "LÉVONORGESTREL",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "GYNEBIO PHARMA"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "8112",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=LEVONORGESTR",
+        "searched": "LEVONORGESTR",
+        "marketedProducts": 10,
+        "otherProducts": 20
+      },
+      "status": {
+        "entry": "PHARMACY",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "8112",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Aconcept",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "medium",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "atovaquone-proguanil",
+      "generic": "Atovaquone / Proguanil",
+      "brand": "Malanil",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Malanil",
+          "id": "1883",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Malanil",
+          "confirmed": true,
+          "note": null,
+          "matched": "MALANIL",
+          "products": [
+            {
+              "id": "1883",
+              "product": "MALANIL",
+              "strength": "250 MG / 100 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "ATOVAQUONE // PROGUANIL (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "GSK"
+            },
+            {
+              "id": "1883",
+              "product": "MALANIL",
+              "strength": "250 MG / 100 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "ATOVAQUONE // PROGUANIL (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "GSK"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1883",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=ATOVAQUONE",
+        "searched": "ATOVAQUONE",
+        "marketedProducts": 1,
+        "otherProducts": 1
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "1883",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Malanil",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "doxycycline",
+      "generic": "Doxycycline",
+      "brand": "Sold generic",
+      "kind": "generic",
+      "brands": [],
+      "ingredient": {
+        "registered": true,
+        "id": "2409",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=DOXYCYCLINE",
+        "searched": "DOXYCYCLINE",
+        "marketedProducts": 9,
+        "otherProducts": 5
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "2409",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=DOXYCYCLINE",
+        "checked": "2026-10-27",
+        "checks": [
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "azithromycin",
+      "generic": "Azithromycin",
+      "brand": "Zithromax",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Zithromax",
+          "id": "3786",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Zithromax",
+          "confirmed": true,
+          "note": null,
+          "matched": "ZITHROMAX",
+          "products": [
+            {
+              "id": "3786",
+              "product": "ZITHROMAX",
+              "strength": "200 MG / 5 ML",
+              "form": "POUDRE POUR SOLUTION ORALE",
+              "ingredients": "AZITHROMYCINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "PFIZER"
+            },
+            {
+              "id": "3790",
+              "product": "ZITHROMAX",
+              "strength": "500 MG",
+              "form": "COMPRIME",
+              "ingredients": "AZITHROMYCINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "PFIZER"
+            },
+            {
+              "id": "3786",
+              "product": "ZITHROMAX",
+              "strength": "200 MG / 5 ML",
+              "form": "POUDRE POUR SOLUTION ORALE",
+              "ingredients": "AZITHROMYCINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "PFIZER"
+            },
+            {
+              "id": "3790",
+              "product": "ZITHROMAX",
+              "strength": "500 MG",
+              "form": "COMPRIME",
+              "ingredients": "AZITHROMYCINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "PFIZER"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "1333",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=AZITHROMYCIN",
+        "searched": "AZITHROMYCIN",
+        "marketedProducts": 19,
+        "otherProducts": 26
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "3786",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Zithromax",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "ciprofloxacin",
+      "generic": "Ciprofloxacin",
+      "brand": "Cifloxine",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Cifloxine",
+          "id": "2253",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Cifloxine",
+          "confirmed": true,
+          "note": null,
+          "matched": "CIFLOXINE",
+          "products": [
+            {
+              "id": "2253",
+              "product": "CIFLOXINE",
+              "strength": "500 MG",
+              "form": "COMPRIME ENROBE",
+              "ingredients": "CIPROFLOXACINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SPIMACO MAROC"
+            },
+            {
+              "id": "2254",
+              "product": "CIFLOXINE",
+              "strength": "500 MG",
+              "form": "COMPRIME ENROBE",
+              "ingredients": "CIPROFLOXACINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SPIMACO MAROC"
+            },
+            {
+              "id": "2253",
+              "product": "CIFLOXINE",
+              "strength": "500 MG",
+              "form": "COMPRIME ENROBE",
+              "ingredients": "CIPROFLOXACINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SPIMACO MAROC"
+            },
+            {
+              "id": "2254",
+              "product": "CIFLOXINE",
+              "strength": "500 MG",
+              "form": "COMPRIME ENROBE",
+              "ingredients": "CIPROFLOXACINE (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SPIMACO MAROC"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "6297",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=CIPROFLOXACI",
+        "searched": "CIPROFLOXACI",
+        "marketedProducts": 62,
+        "otherProducts": 54
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "2253",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Cifloxine",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "acetazolamide",
+      "generic": "Acetazolamide",
+      "brand": "Diamox",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Diamox",
+          "id": "2770",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Diamox",
+          "confirmed": true,
+          "note": null,
+          "matched": "DIAMOX",
+          "products": [
+            {
+              "id": "2770",
+              "product": "DIAMOX",
+              "strength": "250 MG",
+              "form": "COMPRIME SECABLE",
+              "ingredients": "ACETAZOLAMIDE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "MAPHAR"
+            },
+            {
+              "id": "2770",
+              "product": "DIAMOX",
+              "strength": "250 MG",
+              "form": "COMPRIME SECABLE",
+              "ingredients": "ACETAZOLAMIDE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "MAPHAR"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "2770",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=ACETAZOLAMID",
+        "searched": "ACETAZOLAMID",
+        "marketedProducts": 1,
+        "otherProducts": 0
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "2770",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Diamox",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "scopolamine",
+      "generic": "Scopolamine (motion-sickness patch)",
+      "brand": "Not sold here",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=SCOPOLAMINE",
+        "searched": "SCOPOLAMINE",
+        "marketedProducts": 0,
+        "otherProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    },
+    {
+      "id": "ondansetron",
+      "generic": "Ondansetron",
+      "brand": "Onset",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Onset",
+          "id": "3531",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Onset",
+          "confirmed": true,
+          "note": null,
+          "matched": "ONSET",
+          "products": [
+            {
+              "id": "3531",
+              "product": "ONSET",
+              "strength": "8 MG / 4 ML",
+              "form": "SOLUTION INJECTABLE",
+              "ingredients": "ONDANSETRON (CHLOHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "NOVOPHARMA"
+            },
+            {
+              "id": "3532",
+              "product": "ONSET",
+              "strength": "8 MG",
+              "form": "COMPRIME",
+              "ingredients": "ONDANSETRON (CHLOHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "NOVOPHARMA"
+            },
+            {
+              "id": "3531",
+              "product": "ONSET",
+              "strength": "8 MG / 4 ML",
+              "form": "SOLUTION INJECTABLE",
+              "ingredients": "ONDANSETRON (CHLOHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "NOVOPHARMA"
+            },
+            {
+              "id": "3532",
+              "product": "ONSET",
+              "strength": "8 MG",
+              "form": "COMPRIME",
+              "ingredients": "ONDANSETRON (CHLOHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "NOVOPHARMA"
+            }
+          ]
+        }
+      ],
+      "ingredient": {
+        "registered": true,
+        "id": "51",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=ONDANSETRON",
+        "searched": "ONDANSETRON",
+        "marketedProducts": 7,
+        "otherProducts": 43
+      },
+      "status": {
+        "entry": "RX",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "3531",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Onset",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
+      "confidence": {
+        "from": "low",
+        "to": "medium"
+      },
+      "flags": []
+    },
+    {
+      "id": "epinephrine",
+      "generic": "Epinephrine (adrenaline auto-injector)",
+      "brand": "Not sold here",
+      "kind": "unavailable",
+      "brands": [],
+      "ingredient": {
+        "registered": false,
+        "id": null,
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=EPINEPHRINE",
+        "searched": "EPINEPHRINE, ADRENALIN, ADRENALINE",
+        "marketedProducts": 0,
+        "otherProducts": 0
+      },
+      "status": {
+        "entry": "UNAVAILABLE",
+        "registry": null,
+        "result": "na",
+        "evidence": null
+      },
+      "verified": null,
+      "confidence": {
+        "from": "low",
+        "to": "low"
+      },
+      "flags": []
+    }
+  ]
+}

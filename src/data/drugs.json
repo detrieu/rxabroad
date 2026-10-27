@@ -193,7 +193,17 @@
         "status": "OTC",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "563",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Doliprane",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Ben-u-ron",
@@ -459,11 +469,21 @@
         }
       },
       "MA": {
-        "brand": "Nurofen / Advil",
+        "brand": "Brufen / Nurodol",
         "status": "OTC",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "802",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Brufen",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Brufen",
@@ -730,11 +750,21 @@
         }
       },
       "MA": {
-        "brand": "Clarityne",
+        "brand": "Clartec / Lorix",
         "status": "PHARMACY",
         "confidence": "high",
-        "note": "Sold under this brand in Morocco, although France discontinued it in 2020-2021.",
-        "source": "https://www.med.ma/medicament/clarityne-10-mg-comprime-7737"
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "3910",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Clartec",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Claritine",
@@ -1014,7 +1044,17 @@
         "status": "PHARMACY",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "6040",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Zyrtec",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Zyrtec",
@@ -1284,7 +1324,16 @@
         "status": "UNCONFIRMED",
         "confidence": "medium",
         "note": "Pharmacies in Morocco work in French, so use the French name. Spoken Darija uses the same word.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "5356",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=DIPHENHYDRAM",
+          "checked": "2026-10-27",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Sold generic as \"Difenidramina\"",
@@ -1548,11 +1597,21 @@
         }
       },
       "MA": {
-        "brand": "Imodium",
+        "brand": "Loperium",
         "status": "OTC",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "620",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Loperium",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Imodium Rapid",
@@ -1825,11 +1884,21 @@
         }
       },
       "MA": {
-        "brand": "Mopral",
+        "brand": "Omepral / IPP",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "4960",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Omepral",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Losec",
@@ -2082,7 +2151,16 @@
         "status": "UNCONFIRMED",
         "confidence": "medium",
         "note": "The local rules are not known. Many countries have tightened controls on this ingredient because it can be used to make methamphetamine, so it may not be freely sold.",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "580",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=PSEUDOEPHEDR",
+          "checked": "2026-10-27",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Aspirinagripe (with aspirin)",
@@ -2855,7 +2933,16 @@
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "3808",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=AMOXICILLIN",
+          "checked": "2026-10-27",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Sold generic",
@@ -3129,7 +3216,17 @@
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "924",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Glucophage",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Glucophage",
@@ -3406,7 +3503,17 @@
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "3791",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Zoloft",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Zoloft",
@@ -3682,7 +3789,17 @@
         "status": "PHARMACY",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "1971",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Ventoline",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Ventilan",
@@ -3960,7 +4077,17 @@
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "3748",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Tahor",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Zarator",
@@ -4236,7 +4363,17 @@
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "966",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Levothyrox",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Eutirox",
@@ -4504,11 +4641,21 @@
         }
       },
       "MA": {
-        "brand": "Zestril",
+        "brand": "Lisor",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "7308",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Lisor",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Zestril",
@@ -4783,7 +4930,17 @@
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "3576",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Amlor",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Norvasc",
@@ -5054,10 +5211,10 @@
         }
       },
       "MA": {
-        "brand": "Seloken",
-        "status": "RX",
+        "brand": "Not sold here",
+        "status": "UNAVAILABLE",
         "confidence": "medium",
-        "note": null,
+        "note": "Bring what you need from home.",
         "source": null
       },
       "PT": {
@@ -5327,11 +5484,21 @@
         }
       },
       "MA": {
-        "brand": "Cozaar",
+        "brand": "Tanzaar / Prezar",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "214",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Tanzaar",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Cozaar",
@@ -5606,7 +5773,17 @@
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "3718",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Neurontin",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Neurontin",
@@ -5883,7 +6060,17 @@
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "2752",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Crestor",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Crestor",
@@ -6131,11 +6318,21 @@
         }
       },
       "MA": {
-        "brand": "Eupantol",
+        "brand": "Razon",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "3538",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Razon",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Pantoc",
@@ -6409,7 +6606,17 @@
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "5418",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Seroplex",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Cipralex",
@@ -6868,7 +7075,17 @@
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "3343",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Esidrex",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Sold generic as \"hidroclorotiazida\"",
@@ -7114,11 +7331,21 @@
         }
       },
       "MA": {
-        "brand": "Zyban",
+        "brand": "Wellbutrin XR",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "1981",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Wellbutrin%20XR",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Wellbutrin XR",
@@ -7371,11 +7598,21 @@
         }
       },
       "MA": {
-        "brand": "Fluoxet (Sothema) / Prozac",
+        "brand": "Fluoxet",
         "status": "RX",
         "confidence": "high",
-        "note": "Fluoxet is the Moroccan-marketed, Ministry of Health-referenced product widely stocked nationwide; original Prozac also appears registered.",
-        "source": "https://sahha.ma/medicaments/fluoxet-20mg-gelule-2"
+        "note": null,
+        "source": "https://sahha.ma/medicaments/fluoxet-20mg-gelule-2",
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "5571",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Fluoxet",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Sold generic as \"Fluoxetina\"",
@@ -7637,9 +7874,19 @@
       "MA": {
         "brand": "Ozempic",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "9145",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Ozempic",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Ozempic",
@@ -7914,7 +8161,17 @@
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "3266",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Singulair",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Singulair",
@@ -8159,11 +8416,11 @@
         }
       },
       "MA": {
-        "brand": "Deprestat",
-        "status": "RX",
+        "brand": "Not sold here",
+        "status": "UNAVAILABLE",
         "confidence": "medium",
-        "note": "Deprestat is a Moroccan trazodone brand. Trittico was not found there.",
-        "source": "https://medicament.ma/medicament/deprestat-50-mg-comprime/"
+        "note": "Bring what you need from home.",
+        "source": null
       },
       "PT": {
         "brand": "Triticum",
@@ -8434,11 +8691,21 @@
         }
       },
       "MA": {
-        "brand": "Zocor",
+        "brand": "Zovas / Simvacol",
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "6162",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Zovas",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Zocor",
@@ -8708,11 +8975,21 @@
         }
       },
       "MA": {
-        "brand": "Omix",
+        "brand": "Umax / Contiflo",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "1125",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Umax",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Omnic",
@@ -9113,7 +9390,17 @@
         "status": "RX",
         "confidence": "medium",
         "note": "Sold in Morocco. Its exact prescription class there is not known.",
-        "source": "https://medicament.ma/medicament/flixonase-suspension-pour-instillation-nasale-50-mcg/"
+        "source": "https://medicament.ma/medicament/flixonase-suspension-pour-instillation-nasale-50-mcg/",
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "1858",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Flixonase",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Vibrocil Anti-Alergias / Flutaide",
@@ -9384,7 +9671,17 @@
         "status": "RX",
         "confidence": "high",
         "note": "Stocked nationwide in several forms, including suppository and injection.",
-        "source": "https://sahha.ma/medicaments/mobic-7-5-mg-comprime"
+        "source": "https://sahha.ma/medicaments/mobic-7-5-mg-comprime",
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "634",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Mobic",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Movalis",
@@ -9658,7 +9955,17 @@
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "3646",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Eliquis",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Eliquis",
@@ -9930,7 +10237,17 @@
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "5325",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Lasilix",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Lasix",
@@ -10206,7 +10523,17 @@
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "5319",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Lantus",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Lantus",
@@ -10471,9 +10798,19 @@
       "MA": {
         "brand": "Humalog",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "5771",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Humalog",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Humalog",
@@ -10748,9 +11085,19 @@
       "MA": {
         "brand": "NovoRapid",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "2577",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=NovoRapid",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "NovoRapid",
@@ -11025,9 +11372,19 @@
       "MA": {
         "brand": "Actrapid",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "2310",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Actrapid",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Actrapid / Humulin Regular",
@@ -11302,9 +11659,19 @@
       "MA": {
         "brand": "Insulatard",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "2494",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Insulatard",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Insulatard / Humulin NPH",
@@ -11569,9 +11936,19 @@
       "MA": {
         "brand": "Levemir",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": "The maker is withdrawing Levemir worldwide, so stock may be limited. Other long-acting insulins sold here: glargine (Lantus) and degludec (Tresiba).",
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "2520",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Levemir",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Levemir",
@@ -11824,9 +12201,19 @@
       "MA": {
         "brand": "Tresiba",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "7177",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Tresiba",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Tresiba",
@@ -12082,11 +12469,21 @@
         "source": null
       },
       "MA": {
-        "brand": "Cymbalta",
+        "brand": "Dulophi / Welin",
         "status": "RX",
         "confidence": "high",
-        "note": "Sold in Morocco, although Canada, the UK and France have discontinued it. A generic (Dulophi) is also available.",
-        "source": "https://www.med.ma/medicament/cymbalta-30-mg--gelule-5523"
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "4445",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Dulophi",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Sold generic as \"Duloxetina\"",
@@ -12340,10 +12737,10 @@
         }
       },
       "MA": {
-        "brand": "Pepcid",
-        "status": "PHARMACY",
+        "brand": "Not sold here",
+        "status": "UNAVAILABLE",
         "confidence": "low",
-        "note": null,
+        "note": "Bring what you need from home.",
         "source": null
       },
       "PT": {
@@ -12607,9 +13004,19 @@
       "MA": {
         "brand": "Jardiance",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "485",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Jardiance",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Jardiance",
@@ -12877,11 +13284,21 @@
         }
       },
       "MA": {
-        "brand": "Kredex",
+        "brand": "Dilatrend / Cardinor",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "5065",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Dilatrend",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Dilbloc",
@@ -13649,9 +14066,19 @@
       "MA": {
         "brand": "Cortancyl",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "5253",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Cortancyl",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Not sold here",
@@ -13905,7 +14332,17 @@
         "status": "RX",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "5386",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Plavix",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Plavix",
@@ -14165,7 +14602,17 @@
         "status": "OTC",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "5211",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Asp%C3%A9gic",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Aspirina",
@@ -14973,11 +15420,21 @@
         }
       },
       "MA": {
-        "brand": "Apranax",
+        "brand": "Algixene",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "2129",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Algixene",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Momendol (OTC) / Naprosyn (Rx)",
@@ -15249,7 +15706,17 @@
         "status": "PHARMACY",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "1774",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Voltar%C3%A8ne%20Emulgel",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Voltaren Emulgel",
@@ -15505,10 +15972,10 @@
         }
       },
       "MA": {
-        "brand": "Telfast",
-        "status": "PHARMACY",
+        "brand": "Not sold here",
+        "status": "UNAVAILABLE",
         "confidence": "low",
-        "note": null,
+        "note": "Bring what you need from home.",
         "source": null
       },
       "PT": {
@@ -15776,9 +16243,18 @@
       "MA": {
         "brand": "Sold generic as \"Guaïfénésine\"",
         "status": "UNCONFIRMED",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "1037",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=GUAIFENESIN",
+          "checked": "2026-10-27",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Vicks Xarope Expectorante Mel",
@@ -16054,9 +16530,18 @@
       "MA": {
         "brand": "Sold generic as \"Dextrométhorphane\"",
         "status": "UNCONFIRMED",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "6044",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=DEXTROMETHOR",
+          "checked": "2026-10-27",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Bisoltussin",
@@ -16789,10 +17274,10 @@
         }
       },
       "MA": {
-        "brand": "Rennie",
-        "status": "PHARMACY",
+        "brand": "Not sold here",
+        "status": "UNAVAILABLE",
         "confidence": "low",
-        "note": null,
+        "note": "Bring what you need from home.",
         "source": null
       },
       "PT": {
@@ -17046,9 +17531,18 @@
       "MA": {
         "brand": "Sold generic as \"Siméticone\"",
         "status": "UNCONFIRMED",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "984",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=SIMETICONE",
+          "checked": "2026-10-27",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Aero-OM",
@@ -17528,11 +18022,21 @@
         }
       },
       "MA": {
-        "brand": "Dulcolax",
+        "brand": "Contalax",
         "status": "PHARMACY",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "2750",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Contalax",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Dulcolax",
@@ -17813,7 +18317,17 @@
         "status": "PHARMACY",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "2829",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Forlax",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Movicol",
@@ -18031,10 +18545,10 @@
         "source": null
       },
       "MA": {
-        "brand": "Agyrax",
-        "status": "PHARMACY",
+        "brand": "Not sold here",
+        "status": "UNAVAILABLE",
         "confidence": "low",
-        "note": null,
+        "note": "Bring what you need from home.",
         "source": null
       },
       "PT": {
@@ -18286,9 +18800,18 @@
       "MA": {
         "brand": "Sold generic as \"Hydrocortisone crème\"",
         "status": "UNCONFIRMED",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "6322",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=HYDROCORTISO",
+          "checked": "2026-10-27",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Pandermil",
@@ -18563,11 +19086,21 @@
         }
       },
       "MA": {
-        "brand": "Canesten",
+        "brand": "Clomiter / Mycohydralin",
         "status": "PHARMACY",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "60",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Clomiter",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Canesten",
@@ -18779,8 +19312,8 @@
         "source": null
       },
       "MA": {
-        "brand": "Fucidine",
-        "status": "RX",
+        "brand": "Not sold here",
+        "status": "UNAVAILABLE",
         "confidence": "low",
         "note": "Fucidine is a different antibiotic (fusidic acid).",
         "source": null
@@ -18979,11 +19512,21 @@
         "source": null
       },
       "MA": {
-        "brand": "Donormyl",
+        "brand": "Cariban",
         "status": "PHARMACY",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "7872",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Cariban",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Dormidina",
@@ -19237,11 +19780,21 @@
         }
       },
       "MA": {
-        "brand": "Norlevo",
+        "brand": "Aconcept / Levo",
         "status": "PHARMACY",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "8112",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Aconcept",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Norlevo / Postinor",
@@ -19496,11 +20049,21 @@
         }
       },
       "MA": {
-        "brand": "Not sold here",
-        "status": "UNAVAILABLE",
-        "confidence": "low",
-        "note": "Bring your full course from home.",
-        "source": null
+        "brand": "Malanil",
+        "status": "RX",
+        "confidence": "medium",
+        "note": null,
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "1883",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Malanil",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Malarone",
@@ -19762,9 +20325,18 @@
       "MA": {
         "brand": "Sold generic",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "2409",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=DOXYCYCLINE",
+          "checked": "2026-10-27",
+          "checks": [
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Sold generic",
@@ -20041,9 +20613,19 @@
       "MA": {
         "brand": "Zithromax",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "3786",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Zithromax",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Zithromax",
@@ -20321,11 +20903,21 @@
         }
       },
       "MA": {
-        "brand": "Ciproxine",
+        "brand": "Cifloxine",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "2253",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Cifloxine",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Ciproxina",
@@ -20595,9 +21187,19 @@
       "MA": {
         "brand": "Diamox",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "2770",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Diamox",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Sold generic",
@@ -21048,11 +21650,21 @@
         }
       },
       "MA": {
-        "brand": "Zophren",
+        "brand": "Onset",
         "status": "RX",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "3531",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Onset",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Zofran",

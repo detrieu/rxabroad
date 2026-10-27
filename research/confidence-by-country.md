@@ -27,8 +27,8 @@ when the data was researched; the tiers show how much evidence actually backs th
 | 13 | VN Vietnam | 72 | 40 | 38 | 4 | 0 | 0 | 77 | 5 | 1 | 77 | 6 | 6 |
 | 14 | IN India | 55 | 18 | 54 | 10 | 0 | 1 | 14 | 67 | 7 | 0 | 7 | 6 |
 | 15 | TR Türkiye | 54 | 12 | 65 | 5 | 0 | 0 | 77 | 5 | 0 | 77 | 6 | 6 |
-| 16 | MA Morocco | 27 | 4 | 37 | 41 | 0 | 0 | 6 | 76 | 0 | 0 | 2 | 2 |
-| | **All** | 83 | 950 | 275 | 87 | 835 | 30 | 207 | 240 | 27 | 1028 | 85 | 34 |
+| 16 | MA Morocco | 43 | 4 | 62 | 16 | 0 | 0 | 62 | 20 | 0 | 62 | 2 | 2 |
+| | **All** | 84 | 950 | 300 | 62 | 835 | 30 | 263 | 184 | 27 | 1090 | 85 | 34 |
 
 ## 1. United States (US) — score 98
 
@@ -1365,92 +1365,92 @@ when the data was researched; the tiers show how much evidence actually backs th
 | low | Prednisone | Deltacortril (prednisolone) is the more commonly used equivalent | UNCONFIRMED | — |
 | low | Scopolamine (motion-sickness patch) | Not sold here | UNAVAILABLE | — |
 
-## 16. Morocco (MA) — score 27
+## 16. Morocco (MA) — score 43
 
-4 high · 37 medium · 41 low · sources: 0 official, 0 professional, 6 secondary, 76 none · 0 registry-verified
+4 high · 62 medium · 16 low · sources: 0 official, 0 professional, 62 secondary, 20 none · 62 registry-verified
 
 | Confidence | Medicine | Sold as | Status | Source |
 |---|---|---|---|---|
-| high | Duloxetine | Cymbalta | RX | T3 [med.ma](https://www.med.ma/medicament/cymbalta-30-mg--gelule-5523) |
-| high | Fluoxetine | Fluoxet (Sothema) / Prozac | RX | T3 [sahha.ma](https://sahha.ma/medicaments/fluoxet-20mg-gelule-2) |
-| high | Loratadine | Clarityne | PHARMACY | T3 [med.ma](https://www.med.ma/medicament/clarityne-10-mg-comprime-7737) |
-| high | Meloxicam | Mobic | RX | T3 [sahha.ma](https://sahha.ma/medicaments/mobic-7-5-mg-comprime) |
-| medium | Fluticasone | Flixonase | RX | T3 [medicament.ma](https://medicament.ma/medicament/flixonase-suspension-pour-instillation-nasale-50-mcg/) |
-| medium | Trazodone | Deprestat | RX | T3 [medicament.ma](https://medicament.ma/medicament/deprestat-50-mg-comprime/) |
-| medium | Acetylsalicylic acid (Aspirin) | Aspégic | OTC | — |
-| medium | Amlodipine | Amlor | RX | — |
-| medium | Amoxicillin | Sold generic | RX | — |
-| medium | Apixaban | Eliquis | RX | — |
-| medium | Atorvastatin | Tahor | RX | — |
-| medium | Cetirizine | Zyrtec | PHARMACY | — |
-| medium | Clopidogrel | Plavix | RX | — |
-| medium | Diclofenac (topical gel) | Voltarène Emulgel | PHARMACY | — |
+| high ✓ | Duloxetine | Dulophi / Welin | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Dulophi) |
+| high ✓ | Fluoxetine | Fluoxet | RX | T3 [sahha.ma](https://sahha.ma/medicaments/fluoxet-20mg-gelule-2) |
+| high ✓ | Loratadine | Clartec / Lorix | PHARMACY | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Clartec) |
+| high ✓ | Meloxicam | Mobic | RX | T3 [sahha.ma](https://sahha.ma/medicaments/mobic-7-5-mg-comprime) |
+| medium ✓ | Acetazolamide | Diamox | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Diamox) |
+| medium ✓ | Acetylsalicylic acid (Aspirin) | Aspégic | OTC | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Asp%C3%A9gic) |
+| medium ✓ | Amlodipine | Amlor | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Amlor) |
+| medium ✓ | Amoxicillin | Sold generic | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=AMOXICILLIN) |
+| medium ✓ | Apixaban | Eliquis | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Eliquis) |
+| medium ✓ | Atorvastatin | Tahor | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Tahor) |
+| medium ✓ | Atovaquone / Proguanil | Malanil | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Malanil) |
+| medium ✓ | Azithromycin | Zithromax | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Zithromax) |
+| medium ✓ | Bisacodyl | Contalax | PHARMACY | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Contalax) |
+| medium ✓ | Bupropion | Wellbutrin XR | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Wellbutrin%20XR) |
+| medium ✓ | Carvedilol | Dilatrend / Cardinor | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Dilatrend) |
+| medium ✓ | Cetirizine | Zyrtec | PHARMACY | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Zyrtec) |
+| medium ✓ | Ciprofloxacin | Cifloxine | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Cifloxine) |
+| medium ✓ | Clopidogrel | Plavix | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Plavix) |
+| medium ✓ | Clotrimazole | Clomiter / Mycohydralin | PHARMACY | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Clomiter) |
+| medium ✓ | Dextromethorphan | Sold generic as "Dextrométhorphane" | UNCONFIRMED | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=DEXTROMETHOR) |
+| medium ✓ | Diclofenac (topical gel) | Voltarène Emulgel | PHARMACY | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Voltar%C3%A8ne%20Emulgel) |
+| medium ✓ | Diphenhydramine | Sold generic as "Diphénhydramine" | UNCONFIRMED | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=DIPHENHYDRAM) |
+| medium ✓ | Doxycycline | Sold generic | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=DOXYCYCLINE) |
+| medium ✓ | Doxylamine | Cariban | PHARMACY | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Cariban) |
+| medium ✓ | Empagliflozin | Jardiance | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Jardiance) |
+| medium ✓ | Escitalopram | Seroplex | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Seroplex) |
+| medium ✓ | Fluticasone | Flixonase | RX | T3 [medicament.ma](https://medicament.ma/medicament/flixonase-suspension-pour-instillation-nasale-50-mcg/) |
+| medium ✓ | Furosemide | Lasilix | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Lasilix) |
+| medium ✓ | Gabapentin | Neurontin | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Neurontin) |
+| medium ✓ | Guaifenesin | Sold generic as "Guaïfénésine" | UNCONFIRMED | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=GUAIFENESIN) |
+| medium ✓ | Hydrochlorothiazide | Esidrex | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Esidrex) |
+| medium ✓ | Hydrocortisone (cream) | Sold generic as "Hydrocortisone crème" | UNCONFIRMED | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=HYDROCORTISO) |
+| medium ✓ | Ibuprofen | Brufen / Nurodol | OTC | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Brufen) |
+| medium ✓ | Insulin Aspart | NovoRapid | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=NovoRapid) |
+| medium ✓ | Insulin Degludec | Tresiba | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Tresiba) |
+| medium ✓ | Insulin Detemir | Levemir | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Levemir) |
+| medium ✓ | Insulin Glargine | Lantus | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Lantus) |
+| medium ✓ | Insulin Human (Regular) | Actrapid | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Actrapid) |
+| medium ✓ | Insulin Isophane (NPH) | Insulatard | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Insulatard) |
+| medium ✓ | Insulin Lispro | Humalog | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Humalog) |
+| medium ✓ | Levonorgestrel (emergency contraception) | Aconcept / Levo | PHARMACY | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Aconcept) |
+| medium ✓ | Levothyroxine | Levothyrox | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Levothyrox) |
+| medium ✓ | Lisinopril | Lisor | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Lisor) |
+| medium ✓ | Loperamide | Loperium | OTC | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Loperium) |
+| medium ✓ | Losartan | Tanzaar / Prezar | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Tanzaar) |
+| medium ✓ | Metformin | Glucophage | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Glucophage) |
+| medium ✓ | Montelukast | Singulair | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Singulair) |
+| medium ✓ | Naproxen | Algixene | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Algixene) |
+| medium ✓ | Omeprazole | Omepral / IPP | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Omepral) |
+| medium ✓ | Ondansetron | Onset | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Onset) |
+| medium ✓ | Pantoprazole | Razon | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Razon) |
+| medium ✓ | Paracetamol | Doliprane | OTC | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Doliprane) |
+| medium ✓ | Polyethylene glycol 3350 (macrogol) | Forlax | PHARMACY | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Forlax) |
+| medium ✓ | Prednisone | Cortancyl | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Cortancyl) |
+| medium ✓ | Pseudoephedrine | Sold generic as "Pseudoéphédrine" | UNCONFIRMED | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=PSEUDOEPHEDR) |
+| medium ✓ | Rosuvastatin | Crestor | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Crestor) |
+| medium ✓ | Salbutamol | Ventoline | PHARMACY | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Ventoline) |
+| medium ✓ | Semaglutide | Ozempic | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Ozempic) |
+| medium ✓ | Sertraline | Zoloft | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Zoloft) |
+| medium ✓ | Simeticone | Sold generic as "Siméticone" | UNCONFIRMED | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=SIMETICONE) |
+| medium ✓ | Simvastatin | Zovas / Simvacol | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Zovas) |
+| medium ✓ | Tamsulosin | Umax / Contiflo | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Umax) |
 | medium | Dimenhydrinate | Sold generic as "Diménhydrinate" | UNCONFIRMED | — |
-| medium | Diphenhydramine | Sold generic as "Diphénhydramine" | UNCONFIRMED | — |
-| medium | Doxylamine | Donormyl | PHARMACY | — |
-| medium | Escitalopram | Seroplex | RX | — |
-| medium | Furosemide | Lasilix | RX | — |
-| medium | Gabapentin | Neurontin | RX | — |
-| medium | Hydrochlorothiazide | Esidrex | RX | — |
-| medium | Ibuprofen | Nurofen / Advil | OTC | — |
-| medium | Insulin Glargine | Lantus | RX | — |
-| medium | Levonorgestrel (emergency contraception) | Norlevo | PHARMACY | — |
-| medium | Levothyroxine | Levothyrox | RX | — |
-| medium | Lisinopril | Zestril | RX | — |
-| medium | Loperamide | Imodium | OTC | — |
-| medium | Losartan | Cozaar | RX | — |
 | medium | Melatonin | Sold generic as "Mélatonine" | UNCONFIRMED | — |
-| medium | Metformin | Glucophage | RX | — |
-| medium | Metoprolol | Seloken | RX | — |
-| medium | Montelukast | Singulair | RX | — |
-| medium | Omeprazole | Mopral | RX | — |
-| medium | Pantoprazole | Eupantol | RX | — |
-| medium | Paracetamol | Doliprane | OTC | — |
-| medium | Polyethylene glycol 3350 (macrogol) | Forlax | PHARMACY | — |
-| medium | Pseudoephedrine | Sold generic as "Pseudoéphédrine" | UNCONFIRMED | — |
-| medium | Rosuvastatin | Crestor | RX | — |
-| medium | Salbutamol | Ventoline | PHARMACY | — |
-| medium | Sertraline | Zoloft | RX | — |
-| medium | Simvastatin | Zocor | RX | — |
-| low | Acetazolamide | Diamox | RX | — |
+| medium | Metoprolol | Not sold here | UNAVAILABLE | — |
+| medium | Trazodone | Not sold here | UNAVAILABLE | — |
 | low | Alprazolam | Not known | UNCONFIRMED | — |
 | low | Amphetamine / Dextroamphetamine | Not sold here | CONTROLLED ⚠ | — |
-| low | Atovaquone / Proguanil | Not sold here | UNAVAILABLE | — |
-| low | Azithromycin | Zithromax | RX | — |
-| low | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Fucidine | RX | — |
-| low | Bisacodyl | Dulcolax | PHARMACY | — |
+| low | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Not sold here | UNAVAILABLE | — |
 | low | Bismuth subsalicylate | Not sold here | UNAVAILABLE | — |
-| low | Bupropion | Zyban | RX | — |
-| low | Calcium carbonate (antacid) | Rennie | PHARMACY | — |
-| low | Carvedilol | Kredex | RX | — |
-| low | Ciprofloxacin | Ciproxine | RX | — |
-| low | Clotrimazole | Canesten | PHARMACY | — |
-| low | Dextromethorphan | Sold generic as "Dextrométhorphane" | UNCONFIRMED | — |
-| low | Doxycycline | Sold generic | RX | — |
-| low | Empagliflozin | Jardiance | RX | — |
+| low | Calcium carbonate (antacid) | Not sold here | UNAVAILABLE | — |
 | low | Epinephrine (adrenaline auto-injector) | Not sold here | UNAVAILABLE | — |
-| low | Famotidine | Pepcid | PHARMACY | — |
-| low | Fexofenadine | Telfast | PHARMACY | — |
-| low | Guaifenesin | Sold generic as "Guaïfénésine" | UNCONFIRMED | — |
+| low | Famotidine | Not sold here | UNAVAILABLE | — |
+| low | Fexofenadine | Not sold here | UNAVAILABLE | — |
 | low | Hydrocodone / Paracetamol combination | Not sold here | CONTROLLED ⚠ | — |
-| low | Hydrocortisone (cream) | Sold generic as "Hydrocortisone crème" | UNCONFIRMED | — |
-| low | Insulin Aspart | NovoRapid | RX | — |
-| low | Insulin Degludec | Tresiba | RX | — |
-| low | Insulin Detemir | Levemir | RX | — |
-| low | Insulin Human (Regular) | Actrapid | RX | — |
-| low | Insulin Isophane (NPH) | Insulatard | RX | — |
-| low | Insulin Lispro | Humalog | RX | — |
-| low | Meclozine | Agyrax | PHARMACY | — |
+| low | Meclozine | Not sold here | UNAVAILABLE | — |
 | low | Methylphenidate | Not known | UNCONFIRMED | — |
-| low | Naproxen | Apranax | RX | — |
-| low | Ondansetron | Zophren | RX | — |
 | low | Oral rehydration salts | Sold generic as "sels de réhydratation orale" | PHARMACY | — |
 | low | Oxycodone | Not known | UNCONFIRMED | — |
 | low | Oxymetazoline (nasal spray) | Sold generic as "Oxymétazoline" | UNCONFIRMED | — |
-| low | Prednisone | Cortancyl | RX | — |
 | low | Scopolamine (motion-sickness patch) | Not sold here | UNAVAILABLE | — |
-| low | Semaglutide | Ozempic | RX | — |
-| low | Simeticone | Sold generic as "Siméticone" | UNCONFIRMED | — |
-| low | Tamsulosin | Omix | RX | — |
 | low | Tramadol | Not known | UNCONFIRMED | — |
 

@@ -7,8 +7,8 @@ Rx Abroad covers 82 common medicines across 15 destinations (India is hidden for
 country to see what to ask for at the pharmacy counter and whether it's OTC, prescription-only,
 pharmacist-only, controlled, or banned.
 
-Destinations: US, UK, Canada, Germany, France, Mexico, India, Ethiopia, Japan, Vietnam, Singapore,
-Morocco, Portugal, Türkiye, Italy, Spain.
+Destinations: US, UK, Canada, Germany, France, Mexico, Ethiopia, Japan, Vietnam, Singapore,
+Morocco, Portugal, Türkiye, Italy, Spain. (India's entries are kept but hidden.)
 
 ## Features
 
@@ -93,6 +93,7 @@ That is a dry run; add `--write` to update `drugs.json`. Nothing here runs when 
 | VN | [Drug Administration of Vietnam register](https://dichvucong.dav.gov.vn/congbothuoc/index) | Brand ↔ ingredient for registrations that have not expired. Registrations issued since 2023 are marked non-prescription or prescription, which confirms those two statuses; older ones carry no class. Nothing marks controlled medicines. Searched by ingredient name, in both English and Vietnamese spellings |
 | ET | [EFDA register](https://eris.efda.gov.et/public/products) + [Over-the-Counter Medicines List](https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf) | Brand ↔ ingredient for approved medicines, from the register's one-file export. Legal status comes from the OTC list (third edition, July 2022): on it means no prescription, anything else needs one. The list is a PDF, so its entries for our medicines are keyed into `et-eris.mjs` by hand. Each run checks the PDF is unchanged and refuses `--write` if EFDA has replaced it |
 | PT | [Infomed](https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml) (INFARMED) | Brand ↔ ingredient for marketed products, and the dispensing class: no prescription, no prescription but pharmacy only, prescription, or special prescription. It has no download, so the check runs about 330 searches on its web form; a first run takes about 12 minutes. Benzodiazepines are on an ordinary prescription there, so that class does not contradict a controlled entry |
+| MA | [Liste Marocaine des Médicaments](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments) (AMMPS) | Brand ↔ ingredient, and whether a product is on sale ("Commercialisé"). Rows marked "Commercialisé AO" or "Commercialisé Export" don't count. It has no legal class, so status is not checked. A public search page, about 6 minutes uncached |
 
 Every check is free and needs no key, apart from the UK's legal-status step. `--write` is deliberately conservative: it never edits `brand`, `status`
 or `note`; it attaches `verified` when the registry confirms the entry; and it raises confidence to `high`
@@ -107,7 +108,7 @@ does a dry run and reports what changed at https://claude.ai/code/routines; it c
 UK legal status. To update the data yourself:
 
 1. Open a terminal in the project folder (in VS Code: Terminal > New Terminal, or `cd ~/dev/pill-trotter`).
-2. `npm run verify` is a dry run of all fourteen countries. It changes no data, only the report files in
+2. `npm run verify` is a dry run of all fifteen checked countries. It changes no data, only the report files in
    `research/verification/`, and takes about half an hour on the first run, most of it Germany, Portugal and Vietnam
    (results are cached for a day).
 3. `npm run verify:write` does the same and also updates `src/data/drugs.json` and the confidence report.
@@ -118,11 +119,11 @@ UK legal status. To update the data yourself:
 The UK legal-status step needs a free NHS TRUD account: subscribe to the "NHSBSA dm+d" item and put the key in
 `.env.local` as `TRUD_API_KEY=...` (the file is git-ignored). Without it a dry run still works but notes that
 legal status was skipped, and `--write` refuses for the UK so it can't overwrite the full check with a partial
-one. India and Morocco have no registry check: they never refresh and need a manual review. India's Drug Registry (`drugregistry.abdm.gov.in`) refused connections when this was written, and Morocco's regulator publishes no register that could be reached.
+one. India has no registry check and is hidden from the site: every `abdm.gov.in` host, including the Drug Registry, blocks connections from outside India.
 
 The cloud routine runs in the "Default" cloud environment, whose network access is set to Custom so it can reach the
 registries: `rxnav.nlm.nih.gov`, `api.fda.gov`, `health-products.canada.ca`, `data.gov.sg`,
-`base-donnees-publique.medicaments.gouv.fr`, `mhraproducts4853.search.windows.net`, `www.mhlw.go.jp`, `portal.bfarm.de`, `auth.bfarm.de`, `registros.cofepris.gob.mx`, `api.aifa.gov.it`, `cima.aemps.es`, `titck.gov.tr`, `www.titck.gov.tr`, `dichvucong.dav.gov.vn`, `api.eris.efda.gov.et`, `www.efda.gov.et` and `extranet.infarmed.pt`, plus the default package
+`base-donnees-publique.medicaments.gouv.fr`, `mhraproducts4853.search.windows.net`, `www.mhlw.go.jp`, `portal.bfarm.de`, `auth.bfarm.de`, `registros.cofepris.gob.mx`, `api.aifa.gov.it`, `cima.aemps.es`, `titck.gov.tr`, `www.titck.gov.tr`, `dichvucong.dav.gov.vn`, `api.eris.efda.gov.et`, `www.efda.gov.et`, `extranet.infarmed.pt` and `www.ammps.gov.ma`, plus the default package
 list. If a run reports HTTP 403 from a registry, check that list first.
 
 **Live lookup.** `GET /api/rxnorm/resolve?q=<name>` (`src/app/api/rxnorm/resolve/route.ts`, logic in
