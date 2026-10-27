@@ -12,6 +12,8 @@ export interface Country {
   code: CountryCode;
   name: string;
   slug: string;
+  /** Kept in the data but left off the site, e.g. while no official registry can be checked. */
+  hidden?: boolean;
 }
 
 /** Travel-essentials group; unset for everything else (shown under "Other"). */

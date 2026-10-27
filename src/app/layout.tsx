@@ -7,6 +7,7 @@ import { Footer } from '@/components/Footer';
 import { Toaster } from 'sonner';
 import { headInitScript } from '@/lib/theme';
 import { SITE_NAME, SITE_TAGLINE, SITE_URL } from '@/lib/site';
+import { COUNTRIES } from '@/data';
 import { cn } from '@/lib/utils';
 import './globals.css';
 
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
   title: { default: `${SITE_NAME} · ${SITE_TAGLINE}`, template: `%s · ${SITE_NAME}` },
   description:
     'Look up what a medicine is called abroad. Search a brand, generic name, or destination to see the local brand, ' +
-    'prescription status, and travel cautions across 16 countries.',
+    `prescription status, and travel cautions across ${COUNTRIES.length} countries.`,
   openGraph: { siteName: SITE_NAME, type: 'website' },
 };
 

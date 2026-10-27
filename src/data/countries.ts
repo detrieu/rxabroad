@@ -36,7 +36,8 @@ export const COUNTRIES = [
   {
     "code": "IN",
     "name": "India",
-    "slug": "india"
+    "slug": "india",
+    "hidden": true
   },
   {
     "code": "ET",

@@ -8,8 +8,13 @@ export * from './types';
 export { STATUS };
 export { KIT_GROUPS } from './kit';
 
-export const COUNTRIES: readonly Country[] = COUNTRY_LIST;
-export const DRUGS = drugsJson as Drug[];
+export const COUNTRIES: readonly Country[] = COUNTRY_LIST.filter((c: Country) => !c.hidden);
+const HIDDEN = new Set<string>(COUNTRY_LIST.filter((c: Country) => c.hidden).map((c) => c.code));
+// Hidden countries' entries stay in drugs.json but never reach a page.
+export const DRUGS = (drugsJson as Drug[]).map((d) => ({
+  ...d,
+  countries: Object.fromEntries(Object.entries(d.countries).filter(([code]) => !HIDDEN.has(code))),
+})) as Drug[];
 export const SYMPTOMS: readonly Symptom[] = SYMPTOM_LIST;
 
 const FALLBACK_ENTRY: CountryEntry = {
@@ -21,7 +26,7 @@ export function entryFor(drug: Drug, code: CountryCode): CountryEntry {
 }
 
 // Countries not yet checked against an official registry: none of their entries carry a registry check.
-const IN_PROGRESS = new Set(COUNTRY_LIST.map((c) => c.code).filter((code) => !DRUGS.some((d) => d.countries[code]?.verified)));
+const IN_PROGRESS = new Set(COUNTRIES.map((c) => c.code).filter((code) => !DRUGS.some((d) => d.countries[code]?.verified)));
 export const isInProgress = (code: CountryCode) => IN_PROGRESS.has(code);
 export const IN_PROGRESS_NOTE =
   'These entries have not been checked against the official medicines registry yet. Confirm with a local pharmacist before relying on them.';

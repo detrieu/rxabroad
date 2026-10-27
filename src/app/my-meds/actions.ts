@@ -2,6 +2,7 @@
 
 import { currentUserId } from '@/lib/auth';
 import { sql } from '@/lib/db';
+import { getCountry } from '@/data';
 import { cleanTripInput, isTripId, MAX_TRIPS_PER_USER, type Trip, type TripInput } from '@/lib/trips';
 
 // Every action re-checks the session and scopes queries to the caller's user id,
@@ -11,7 +12,7 @@ type Row = { id: string; name: string; destinations: string[]; meds: string[]; u
 const toTrip = (r: Row): Trip => ({
   id: r.id,
   name: r.name,
-  destinations: r.destinations as Trip['destinations'],
+  destinations: r.destinations.filter((c) => getCountry(c)) as Trip['destinations'],
   meds: r.meds,
   updatedAt: new Date(r.updated_at).toISOString(),
 });

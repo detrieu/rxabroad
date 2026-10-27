@@ -3,7 +3,7 @@
 **Know what to ask for, wherever you land.** — live at https://rxabroad.vercel.app
 
 Every drug has one international name (its INN) and a different local brand name almost everywhere you go.
-Rx Abroad covers 82 common medicines across 16 destinations. Search a brand, a generic name, or a
+Rx Abroad covers 82 common medicines across 15 destinations (India is hidden for now). Search a brand, a generic name, or a
 country to see what to ask for at the pharmacy counter and whether it's OTC, prescription-only,
 pharmacist-only, controlled, or banned.
 
@@ -136,7 +136,7 @@ local match. The route is excluded from the Clerk matcher in `src/proxy.ts`, so 
 
 | Path | What |
 | --- | --- |
-| `src/data/drugs.json` | The formulary: 82 drugs × 16 countries. A drug's optional `kit` field puts it in a travel-essentials group (`src/data/kit.ts`); drugs without one are listed under "Other". Its optional `symptoms` list says what it is sold for (`src/data/symptoms.ts`). **Edit this to change the data.** |
+| `src/data/drugs.json` | The formulary: 82 drugs × 16 countries (India's entries are kept but hidden from the site: `hidden` in `src/data/countries.ts`). A drug's optional `kit` field puts it in a travel-essentials group (`src/data/kit.ts`); drugs without one are listed under "Other". Its optional `symptoms` list says what it is sold for (`src/data/symptoms.ts`). **Edit this to change the data.** |
 | `src/data/countries.ts`, `status.ts`, `types.ts` | Countries (with URL slugs), status labels, types |
 | `src/lib/search.ts` | Search matching and country narrowing |
 | `src/components/` | App components (`ui/` holds the shadcn components) |
