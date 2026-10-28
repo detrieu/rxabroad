@@ -2365,7 +2365,7 @@
       "ET": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
         "source": null
       },
@@ -2622,7 +2622,7 @@
       "ET": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
         "source": null
       },
@@ -6819,7 +6819,7 @@
       "ET": {
         "brand": "Not sold here",
         "status": "CONTROLLED",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
         "source": null
       },
@@ -7284,7 +7284,7 @@
       "ET": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
         "source": null
       },
@@ -7813,7 +7813,7 @@
       "ET": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
         "source": null
       },
@@ -8358,7 +8358,7 @@
       "ET": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
         "source": null
       },
@@ -9147,7 +9147,7 @@
       "ET": {
         "brand": "Not sold here",
         "status": "CONTROLLED",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
         "source": null
       },
@@ -10737,7 +10737,7 @@
       "ET": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
         "source": null
       },
@@ -12140,7 +12140,7 @@
       "ET": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
         "source": null
       },
@@ -12688,7 +12688,7 @@
       "ET": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "low",
+        "confidence": "medium",
         "note": "Antacids (aluminium or magnesium hydroxide) are sold without a prescription.",
         "source": null
       },
@@ -13769,7 +13769,7 @@
       "ET": {
         "brand": "Not sold here",
         "status": "CONTROLLED",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
         "source": null
       },
@@ -14816,7 +14816,7 @@
       "ET": {
         "brand": "Not sold here",
         "status": "CONTROLLED",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
         "source": null
       },
@@ -15081,7 +15081,7 @@
       "ET": {
         "brand": "Not sold here",
         "status": "CONTROLLED",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
         "source": null
       },
@@ -16998,7 +16998,7 @@
       "ET": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "low",
+        "confidence": "medium",
         "note": "Bring what you need from home.",
         "source": null
       },
@@ -18509,7 +18509,7 @@
       "ET": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
         "source": null
       },
@@ -19283,10 +19283,10 @@
         "source": null
       },
       "ET": {
-        "brand": "Fusibran / Dermocin",
-        "status": "RX",
-        "confidence": "high",
-        "note": "Fusibran is fusidic acid and Dermocin is mupirocin: different antibiotics for the same use.",
+        "brand": "Not sold here",
+        "status": "UNAVAILABLE",
+        "confidence": "medium",
+        "note": "Fusibran (fusidic acid) and Dermocin (mupirocin) are different antibiotics for the same use.",
         "source": null
       },
       "JP": {
@@ -19990,7 +19990,7 @@
       "ET": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "low",
+        "confidence": "medium",
         "note": "Bring your full course from home.",
         "source": null
       },
@@ -21382,7 +21382,7 @@
       "ET": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "low",
+        "confidence": "medium",
         "note": "Bring what you need from home.",
         "source": null
       },
@@ -21860,7 +21860,7 @@
       "ET": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "low",
+        "confidence": "medium",
         "note": "Only ampoules for clinic use are registered. Bring at least two auto-injectors from home.",
         "source": null
       },

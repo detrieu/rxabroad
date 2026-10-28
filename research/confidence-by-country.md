@@ -23,12 +23,12 @@ when the data was researched; the tiers show how much evidence actually backs th
 | 9 | GB United Kingdom | 95 | 74 | 8 | 0 | 64 | 8 | 6 | 4 | 4 | 76 | 6 | 2 |
 | 10 | MX Mexico | 95 | 75 | 6 | 1 | 69 | 1 | 6 | 6 | 0 | 73 | 7 | 1 |
 | 11 | PT Portugal | 91 | 71 | 8 | 3 | 72 | 2 | 2 | 6 | 2 | 74 | 5 | 0 |
-| 12 | ET Ethiopia | 76 | 60 | 4 | 18 | 63 | 0 | 0 | 19 | 1 | 63 | 6 | 5 |
+| 12 | ET Ethiopia | 86 | 59 | 23 | 0 | 63 | 0 | 0 | 19 | 0 | 63 | 6 | 5 |
 | 13 | VN Vietnam | 72 | 40 | 38 | 4 | 0 | 0 | 77 | 5 | 1 | 77 | 6 | 6 |
 | 14 | IN India | 55 | 18 | 54 | 10 | 0 | 1 | 14 | 67 | 7 | 0 | 7 | 6 |
 | 15 | TR Türkiye | 54 | 12 | 65 | 5 | 0 | 0 | 77 | 5 | 0 | 77 | 6 | 6 |
 | 16 | MA Morocco | 43 | 4 | 62 | 16 | 0 | 0 | 62 | 20 | 0 | 62 | 2 | 2 |
-| | **All** | 85 | 970 | 283 | 59 | 835 | 30 | 263 | 184 | 45 | 1090 | 85 | 34 |
+| | **All** | 85 | 969 | 302 | 41 | 835 | 30 | 263 | 184 | 44 | 1090 | 85 | 34 |
 
 ## 1. United States (US) — score 98
 
@@ -1009,9 +1009,9 @@ when the data was researched; the tiers show how much evidence actually backs th
 | low | Meclozine | Not sold here | UNAVAILABLE | — |
 | low | Scopolamine (motion-sickness patch) | Not sold here | UNAVAILABLE | — |
 
-## 12. Ethiopia (ET) — score 76
+## 12. Ethiopia (ET) — score 86
 
-60 high · 4 medium · 18 low · sources: 63 official, 0 professional, 0 secondary, 19 none · 63 registry-verified
+59 high · 23 medium · 0 low · sources: 63 official, 0 professional, 0 secondary, 19 none · 63 registry-verified
 
 | Confidence | Medicine | Sold as | Status | Source |
 |---|---|---|---|---|
@@ -1074,29 +1074,29 @@ when the data was researched; the tiers show how much evidence actually backs th
 | high ✓ | Simeticone | Sold generic as "Simethicone" | OTC | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
 | high ✓ | Simvastatin | Sold generic as "Simvastatin" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
 | high ✓ | Tamsulosin | Sold generic as "Tamsulosin" | RX | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
-| high | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Fusibran / Dermocin | RX | — |
 | medium ✓ | Bisacodyl | Sold generic as "Bisacodyl" | MIXED | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
 | medium ✓ | Diphenhydramine | Sold generic as "Diphenhydramine" | MIXED | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
 | medium ✓ | Pseudoephedrine | Clarinase / Snip (combinations) | OTC | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
 | medium ✓ | Tramadol | Sold generic as "Tramadol" | CONTROLLED ⚠ | T1 [eris.efda.gov.et](https://eris.efda.gov.et/public/products) |
-| low | Alprazolam | Not sold here | CONTROLLED ⚠ | — |
-| low | Amphetamine / Dextroamphetamine | Not sold here | CONTROLLED ⚠ | — |
-| low | Atovaquone / Proguanil | Not sold here | UNAVAILABLE | — |
-| low | Bismuth subsalicylate | Not sold here | UNAVAILABLE | — |
-| low | Bupropion | Not sold here | UNAVAILABLE | — |
-| low | Dimenhydrinate | Not sold here | UNAVAILABLE | — |
-| low | Epinephrine (adrenaline auto-injector) | Not sold here | UNAVAILABLE | — |
-| low | Famotidine | Not sold here | UNAVAILABLE | — |
-| low | Hydrocodone / Paracetamol combination | Not sold here | CONTROLLED ⚠ | — |
-| low | Insulin Degludec | Not sold here | UNAVAILABLE | — |
-| low | Insulin Lispro | Not sold here | UNAVAILABLE | — |
-| low | Meclozine | Not sold here | UNAVAILABLE | — |
-| low | Melatonin | Not sold here | UNAVAILABLE | — |
-| low | Methylphenidate | Not sold here | CONTROLLED ⚠ | — |
-| low | Oxycodone | Not sold here | CONTROLLED ⚠ | — |
-| low | Scopolamine (motion-sickness patch) | Not sold here | UNAVAILABLE | — |
-| low | Semaglutide | Not sold here | UNAVAILABLE | — |
-| low | Trazodone | Not sold here | UNAVAILABLE | — |
+| medium | Alprazolam | Not sold here | CONTROLLED ⚠ | — |
+| medium | Amphetamine / Dextroamphetamine | Not sold here | CONTROLLED ⚠ | — |
+| medium | Atovaquone / Proguanil | Not sold here | UNAVAILABLE | — |
+| medium | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Not sold here | UNAVAILABLE | — |
+| medium | Bismuth subsalicylate | Not sold here | UNAVAILABLE | — |
+| medium | Bupropion | Not sold here | UNAVAILABLE | — |
+| medium | Dimenhydrinate | Not sold here | UNAVAILABLE | — |
+| medium | Epinephrine (adrenaline auto-injector) | Not sold here | UNAVAILABLE | — |
+| medium | Famotidine | Not sold here | UNAVAILABLE | — |
+| medium | Hydrocodone / Paracetamol combination | Not sold here | CONTROLLED ⚠ | — |
+| medium | Insulin Degludec | Not sold here | UNAVAILABLE | — |
+| medium | Insulin Lispro | Not sold here | UNAVAILABLE | — |
+| medium | Meclozine | Not sold here | UNAVAILABLE | — |
+| medium | Melatonin | Not sold here | UNAVAILABLE | — |
+| medium | Methylphenidate | Not sold here | CONTROLLED ⚠ | — |
+| medium | Oxycodone | Not sold here | CONTROLLED ⚠ | — |
+| medium | Scopolamine (motion-sickness patch) | Not sold here | UNAVAILABLE | — |
+| medium | Semaglutide | Not sold here | UNAVAILABLE | — |
+| medium | Trazodone | Not sold here | UNAVAILABLE | — |
 
 ## 13. Vietnam (VN) — score 72
 

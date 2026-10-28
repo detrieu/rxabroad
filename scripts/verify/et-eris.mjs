@@ -15,7 +15,7 @@ import { execFileSync } from 'node:child_process';
 import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
-import { ROOT, brandMatches, hasIngredient, leadingNames, unxml } from './lib.mjs';
+import { ROOT, brandMatches, hasIngredient, leadingNames, norm, unxml } from './lib.mjs';
 
 const API = 'https://api.eris.efda.gov.et/api/Public/Product';
 const PAGE = 'https://eris.efda.gov.et/public/products';
@@ -123,10 +123,12 @@ export const checkGap = () =>
   (table?.otcList === 'changed' ? `EFDA has replaced its over-the-counter list (this check was written from the ${OTC_LIST.edition}). Re-read ${OTC_LIST.url} and update OTC_LIST in et-eris.mjs.` : null);
 
 const isSingle = (p) => p.single;
+// Entries about one form only: clinic adrenaline ampoules are not auto-injectors.
+const ET_FORM = { epinephrine: /AUTO ?INJECT|\bPEN\b/ };
 const summarise = (p) => ({ maNumber: p.ma, product: p.name, expires: p.expires, holder: p.holder });
 
 export async function verify({ drug, parsed, keys }) {
-  const contains = (p) => hasIngredient(p.ingredient, keys);
+  const contains = (p) => hasIngredient(p.ingredient, keys) && (ET_FORM[drug.id]?.test(norm(p.name)) ?? true);
   const current = table.products.filter((p) => p.current && contains(p));
 
   const brands = parsed.names.map((name) => {
