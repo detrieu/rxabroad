@@ -27,8 +27,8 @@ when the data was researched; the tiers show how much evidence actually backs th
 | 13 | VN Vietnam | 72 | 40 | 38 | 4 | 0 | 0 | 77 | 5 | 1 | 77 | 6 | 6 |
 | 14 | IN India | 55 | 18 | 54 | 10 | 0 | 1 | 14 | 67 | 7 | 0 | 7 | 6 |
 | 15 | TR Türkiye | 54 | 12 | 65 | 5 | 0 | 0 | 77 | 5 | 0 | 77 | 6 | 6 |
-| 16 | MA Morocco | 49 | 4 | 72 | 6 | 0 | 0 | 62 | 20 | 0 | 62 | 2 | 2 |
-| | **All** | 86 | 969 | 312 | 31 | 835 | 30 | 263 | 184 | 44 | 1090 | 85 | 34 |
+| 16 | MA Morocco | 51 | 4 | 76 | 2 | 0 | 0 | 64 | 18 | 0 | 64 | 2 | 2 |
+| | **All** | 86 | 969 | 316 | 27 | 835 | 30 | 265 | 182 | 44 | 1092 | 85 | 34 |
 
 ## 1. United States (US) — score 98
 
@@ -1365,9 +1365,9 @@ when the data was researched; the tiers show how much evidence actually backs th
 | low | Prednisone | Deltacortril (prednisolone) is the more commonly used equivalent | UNCONFIRMED | — |
 | low | Scopolamine (motion-sickness patch) | Not sold here | UNAVAILABLE | — |
 
-## 16. Morocco (MA) — score 49
+## 16. Morocco (MA) — score 51
 
-4 high · 72 medium · 6 low · sources: 0 official, 0 professional, 62 secondary, 20 none · 62 registry-verified
+4 high · 76 medium · 2 low · sources: 0 official, 0 professional, 64 secondary, 18 none · 64 registry-verified
 
 | Confidence | Medicine | Sold as | Status | Source |
 |---|---|---|---|---|
@@ -1377,6 +1377,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | high ✓ | Meloxicam | Mobic | RX | T3 [sahha.ma](https://sahha.ma/medicaments/mobic-7-5-mg-comprime) |
 | medium ✓ | Acetazolamide | Diamox | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Diamox) |
 | medium ✓ | Acetylsalicylic acid (Aspirin) | Aspégic | OTC | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Asp%C3%A9gic) |
+| medium ✓ | Alprazolam | Xanax / Alpraz | UNCONFIRMED | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Xanax) |
 | medium ✓ | Amlodipine | Amlor | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Amlor) |
 | medium ✓ | Amoxicillin | Sold generic | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=AMOXICILLIN) |
 | medium ✓ | Apixaban | Eliquis | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Eliquis) |
@@ -1433,6 +1434,7 @@ when the data was researched; the tiers show how much evidence actually backs th
 | medium ✓ | Simeticone | Sold generic as "Siméticone" | UNCONFIRMED | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=SIMETICONE) |
 | medium ✓ | Simvastatin | Zovas / Simvacol | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Zovas) |
 | medium ✓ | Tamsulosin | Umax / Contiflo | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Umax) |
+| medium ✓ | Tramadol | Tramal | UNCONFIRMED | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Tramal) |
 | medium | Amphetamine / Dextroamphetamine | Not sold here | CONTROLLED ⚠ | — |
 | medium | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Not sold here | UNAVAILABLE | — |
 | medium | Bismuth subsalicylate | Not sold here | UNAVAILABLE | — |
@@ -1444,13 +1446,11 @@ when the data was researched; the tiers show how much evidence actually backs th
 | medium | Hydrocodone / Paracetamol combination | Not sold here | CONTROLLED ⚠ | — |
 | medium | Meclozine | Not sold here | UNAVAILABLE | — |
 | medium | Melatonin | Sold generic as "Mélatonine" | UNCONFIRMED | — |
+| medium | Methylphenidate | Not sold here | UNAVAILABLE | — |
 | medium | Metoprolol | Not sold here | UNAVAILABLE | — |
+| medium | Oxycodone | Not sold here | UNAVAILABLE | — |
 | medium | Scopolamine (motion-sickness patch) | Not sold here | UNAVAILABLE | — |
 | medium | Trazodone | Not sold here | UNAVAILABLE | — |
-| low | Alprazolam | Not known | UNCONFIRMED | — |
-| low | Methylphenidate | Not known | UNCONFIRMED | — |
 | low | Oral rehydration salts | Sold generic as "sels de réhydratation orale" | PHARMACY | — |
-| low | Oxycodone | Not known | UNCONFIRMED | — |
 | low | Oxymetazoline (nasal spray) | Sold generic as "Oxymétazoline" | UNCONFIRMED | — |
-| low | Tramadol | Not known | UNCONFIRMED | — |
 

@@ -13564,11 +13564,21 @@
         }
       },
       "MA": {
-        "brand": "Not known",
+        "brand": "Tramal",
         "status": "UNCONFIRMED",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "728",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Tramal",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Sold generic, prescription-only",
@@ -13826,11 +13836,21 @@
         }
       },
       "MA": {
-        "brand": "Not known",
+        "brand": "Xanax / Alpraz",
         "status": "UNCONFIRMED",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "verified": {
+          "registry": "AMMPS Liste Marocaine des Médicaments",
+          "id": "1173",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Xanax",
+          "checked": "2026-10-27",
+          "checks": [
+            "brand",
+            "ingredient"
+          ]
+        }
       },
       "PT": {
         "brand": "Xanax",
@@ -14873,9 +14893,9 @@
         }
       },
       "MA": {
-        "brand": "Not known",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "brand": "Not sold here",
+        "status": "UNAVAILABLE",
+        "confidence": "medium",
         "note": null,
         "source": null
       },
@@ -15138,9 +15158,9 @@
         }
       },
       "MA": {
-        "brand": "Not known",
-        "status": "UNCONFIRMED",
-        "confidence": "low",
+        "brand": "Not sold here",
+        "status": "UNAVAILABLE",
+        "confidence": "medium",
         "note": null,
         "source": null
       },

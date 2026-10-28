@@ -5,15 +5,15 @@
   "checked": "2026-10-27",
   "summary": {
     "entries": 82,
-    "brandEntries": 54,
-    "brandEntriesConfirmed": 54,
-    "brandNames": 64,
-    "brandNamesConfirmed": 64,
-    "verified": 62,
+    "brandEntries": 56,
+    "brandEntriesConfirmed": 56,
+    "brandNames": 67,
+    "brandNamesConfirmed": 67,
+    "verified": 64,
     "statusAgree": 0,
     "statusDiffer": 0,
     "statusNotComparable": 82,
-    "confidenceRaised": 25,
+    "confidenceRaised": 2,
     "flagged": 5
   },
   "entries": [
@@ -2215,8 +2215,8 @@
       },
       "verified": null,
       "confidence": {
-        "from": "low",
-        "to": "low"
+        "from": "medium",
+        "to": "medium"
       },
       "flags": []
     },
@@ -2369,7 +2369,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -2583,7 +2583,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -2991,7 +2991,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -3018,8 +3018,8 @@
       },
       "verified": null,
       "confidence": {
-        "from": "low",
-        "to": "low"
+        "from": "medium",
+        "to": "medium"
       },
       "flags": []
     },
@@ -3600,7 +3600,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -3657,7 +3657,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -3724,7 +3724,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -3791,7 +3791,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -3858,7 +3858,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -3945,7 +3945,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -4089,8 +4089,8 @@
       },
       "verified": null,
       "confidence": {
-        "from": "low",
-        "to": "low"
+        "from": "medium",
+        "to": "medium"
       },
       "flags": []
     },
@@ -4156,7 +4156,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -4313,7 +4313,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -4321,9 +4321,80 @@
     {
       "id": "tramadol",
       "generic": "Tramadol",
-      "brand": "Not known",
-      "kind": "other",
-      "brands": [],
+      "brand": "Tramal",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Tramal",
+          "id": "728",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Tramal",
+          "confirmed": true,
+          "note": null,
+          "matched": "TRAMAL",
+          "products": [
+            {
+              "id": "728",
+              "product": "TRAMAL",
+              "strength": "100 MG / ML",
+              "form": "SOLUTION BUVABLE",
+              "ingredients": "TRAMADOL (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "731",
+              "product": "TRAMAL",
+              "strength": "100 MG",
+              "form": "SUPPOSITOIRE",
+              "ingredients": "TRAMADOL (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "733",
+              "product": "TRAMAL",
+              "strength": "150 MG",
+              "form": "COMPRIME A LIBERATION PROLONGEE",
+              "ingredients": "TRAMADOL (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "734",
+              "product": "TRAMAL",
+              "strength": "200 MG",
+              "form": "COMPRIME A LIBERATION PROLONGEE",
+              "ingredients": "TRAMADOL (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "735",
+              "product": "TRAMAL",
+              "strength": "200 MG",
+              "form": "COMPRIME A LIBERATION PROLONGEE",
+              "ingredients": "TRAMADOL (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "736",
+              "product": "TRAMAL",
+              "strength": "50 MG",
+              "form": "GELULE",
+              "ingredients": "TRAMADOL (CHLORHYDRATE)",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            }
+          ]
+        }
+      ],
       "ingredient": {
         "registered": true,
         "id": "581",
@@ -4338,19 +4409,129 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "728",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Tramal",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
       "confidence": {
         "from": "low",
-        "to": "low"
+        "to": "medium"
       },
       "flags": []
     },
     {
       "id": "alprazolam",
       "generic": "Alprazolam",
-      "brand": "Not known",
-      "kind": "other",
-      "brands": [],
+      "brand": "Xanax / Alpraz",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Xanax",
+          "id": "1173",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Xanax",
+          "confirmed": true,
+          "note": null,
+          "matched": "XANAX",
+          "products": [
+            {
+              "id": "1173",
+              "product": "XANAX",
+              "strength": "0,5 MG",
+              "form": "COMPRIME SECABLE",
+              "ingredients": "ALPRAZOLAM",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "COOPER PHARMA"
+            },
+            {
+              "id": "1173",
+              "product": "XANAX",
+              "strength": "0,5 MG",
+              "form": "COMPRIME SECABLE",
+              "ingredients": "ALPRAZOLAM",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "COOPER PHARMA"
+            }
+          ]
+        },
+        {
+          "name": "Alpraz",
+          "id": "5635",
+          "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Alpraz",
+          "confirmed": true,
+          "note": null,
+          "matched": "ALPRAZ",
+          "products": [
+            {
+              "id": "5635",
+              "product": "ALPRAZ",
+              "strength": "0,5 MG",
+              "form": "COMPRIME",
+              "ingredients": "ALPRAZOLAM",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SOTHEMA"
+            },
+            {
+              "id": "5636",
+              "product": "ALPRAZ",
+              "strength": "1 MG",
+              "form": "COMPRIME",
+              "ingredients": "ALPRAZOLAM",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SOTHEMA"
+            },
+            {
+              "id": "5179",
+              "product": "ALPRAZOLAM MAPHAR",
+              "strength": "0,5 MG",
+              "form": "COMPRIME SECABLE",
+              "ingredients": "ALPRAZOLAM",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "MAPHAR"
+            },
+            {
+              "id": "5635",
+              "product": "ALPRAZ",
+              "strength": "0,5 MG",
+              "form": "COMPRIME",
+              "ingredients": "ALPRAZOLAM",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SOTHEMA"
+            },
+            {
+              "id": "5636",
+              "product": "ALPRAZ",
+              "strength": "1 MG",
+              "form": "COMPRIME",
+              "ingredients": "ALPRAZOLAM",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "SOTHEMA"
+            },
+            {
+              "id": "5179",
+              "product": "ALPRAZOLAM MAPHAR",
+              "strength": "0,5 MG",
+              "form": "COMPRIME SECABLE",
+              "ingredients": "ALPRAZOLAM",
+              "marketing": "Commercialisé",
+              "origin": "GN",
+              "holder": "MAPHAR"
+            }
+          ]
+        }
+      ],
       "ingredient": {
         "registered": true,
         "id": "5635",
@@ -4365,10 +4546,19 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "1173",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Xanax",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
       "confidence": {
         "from": "low",
-        "to": "low"
+        "to": "medium"
       },
       "flags": []
     },
@@ -4474,7 +4664,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -4676,8 +4866,8 @@
     {
       "id": "oxycodone",
       "generic": "Oxycodone",
-      "brand": "Not known",
-      "kind": "other",
+      "brand": "Not sold here",
+      "kind": "unavailable",
       "brands": [],
       "ingredient": {
         "registered": false,
@@ -4688,23 +4878,23 @@
         "otherProducts": 14
       },
       "status": {
-        "entry": "UNCONFIRMED",
+        "entry": "UNAVAILABLE",
         "registry": null,
         "result": "na",
         "evidence": null
       },
       "verified": null,
       "confidence": {
-        "from": "low",
-        "to": "low"
+        "from": "medium",
+        "to": "medium"
       },
       "flags": []
     },
     {
       "id": "methylphenidate",
       "generic": "Methylphenidate",
-      "brand": "Not known",
-      "kind": "other",
+      "brand": "Not sold here",
+      "kind": "unavailable",
       "brands": [],
       "ingredient": {
         "registered": false,
@@ -4715,15 +4905,15 @@
         "otherProducts": 3
       },
       "status": {
-        "entry": "UNCONFIRMED",
+        "entry": "UNAVAILABLE",
         "registry": null,
         "result": "na",
         "evidence": null
       },
       "verified": null,
       "confidence": {
-        "from": "low",
-        "to": "low"
+        "from": "medium",
+        "to": "medium"
       },
       "flags": []
     },
@@ -4809,7 +4999,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -4903,8 +5093,8 @@
       },
       "verified": null,
       "confidence": {
-        "from": "low",
-        "to": "low"
+        "from": "medium",
+        "to": "medium"
       },
       "flags": []
     },
@@ -4938,7 +5128,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -4973,7 +5163,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -5029,8 +5219,8 @@
       },
       "verified": null,
       "confidence": {
-        "from": "low",
-        "to": "low"
+        "from": "medium",
+        "to": "medium"
       },
       "flags": []
     },
@@ -5056,8 +5246,8 @@
       },
       "verified": null,
       "confidence": {
-        "from": "low",
-        "to": "low"
+        "from": "medium",
+        "to": "medium"
       },
       "flags": []
     },
@@ -5091,7 +5281,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -5187,7 +5377,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -5281,8 +5471,8 @@
       },
       "verified": null,
       "confidence": {
-        "from": "low",
-        "to": "low"
+        "from": "medium",
+        "to": "medium"
       },
       "flags": []
     },
@@ -5316,7 +5506,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -5433,7 +5623,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -5460,8 +5650,8 @@
       },
       "verified": null,
       "confidence": {
-        "from": "low",
-        "to": "low"
+        "from": "medium",
+        "to": "medium"
       },
       "flags": [
         "Entry says \"Not sold here\" but the registry lists products with this ingredient"
@@ -5693,7 +5883,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -5728,7 +5918,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -5815,7 +6005,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -5902,7 +6092,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -5969,7 +6159,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -5996,8 +6186,8 @@
       },
       "verified": null,
       "confidence": {
-        "from": "low",
-        "to": "low"
+        "from": "medium",
+        "to": "medium"
       },
       "flags": []
     },
@@ -6083,7 +6273,7 @@
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -6110,8 +6300,8 @@
       },
       "verified": null,
       "confidence": {
-        "from": "low",
-        "to": "low"
+        "from": "medium",
+        "to": "medium"
       },
       "flags": []
     }
