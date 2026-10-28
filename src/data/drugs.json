@@ -148,7 +148,7 @@
         "brand": "Tylenol A",
         "status": "OTC",
         "confidence": "high",
-        "note": "Also widely sold as \"Calonal\", which is the same ingredient. Japanese Tylenol is a lower dose (300 mg per tablet) than the 500 mg standard elsewhere, so one tablet does not equal one of yours.",
+        "note": "Also sold as Calonal A (カロナールA), the same ingredient; plain Calonal is prescription-only. Japanese Tylenol is a lower dose (300 mg per tablet) than the 500 mg standard elsewhere, so one tablet does not equal one of yours.",
         "source": "https://otcguidejapan.com/guides/acetaminophen-in-japan/",
         "localName": "アセトアミノフェン (asetoaminofen)"
       },
@@ -426,10 +426,10 @@
         }
       },
       "JP": {
-        "brand": "EVE A (150mg ibuprofen per tablet)",
+        "brand": "EVE A (イブA)",
         "status": "OTC",
         "confidence": "high",
-        "note": "Loxoprofen (brand \"Loxonin S\") is the more common OTC pain reliever in Japan.",
+        "note": "EVE A has 75 mg ibuprofen per tablet (adult dose 2 tablets), plus caffeine and a sedative (allylisopropylacetylurea). Loxoprofen (brand \"Loxonin S\") is the more common OTC pain reliever in Japan.",
         "source": "https://www.ssp.co.jp/eve/en/",
         "localName": "イブプロフェン (ibupurofen)"
       },
@@ -1277,10 +1277,10 @@
         }
       },
       "JP": {
-        "brand": "Drewell (50mg diphenhydramine, Class 2 OTC sleep aid)",
+        "brand": "Drewell (ドリエル)",
         "status": "OTC",
         "confidence": "high",
-        "note": "Sold as a sleep aid, not for allergies. Look in the sleep section of the pharmacy.",
+        "note": "Sold as a sleep aid, not for allergies. Look in the sleep section of the pharmacy. 25 mg per tablet (adult dose 2 tablets).",
         "source": "https://otcguidejapan.com/guides/sleeping-pills-in-japan/",
         "localName": "ジフェンヒドラミン (jifenhidoramin)"
       },
@@ -1555,7 +1555,7 @@
       "JP": {
         "brand": "Lopemin (ロペミン) / Tomedine Kowa (トメダインコーワ)",
         "status": "MIXED",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Lopemin is prescription-only. Over the counter, look for Tomedine Kowa or the Stoppa (ストッパ) range. These are brand families with more than one formulation, so confirm loperamide (ロペラミド) is the active ingredient on the pack.",
         "source": null,
         "localName": "ロペラミド (roperamido)"
@@ -2629,7 +2629,7 @@
       "JP": {
         "brand": "Dramamine (ドラマミン) / Travelmin (トラベルミン)",
         "status": "MIXED",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Dramamine (dimenhydrinate) is prescription-only. Over the counter, look for the Travelmin range: it is a brand family whose products use different active ingredients for different needs, so check the ingredients on the pack.",
         "source": null,
         "localName": "ジメンヒドリナート (jimenhidorināto)"
@@ -6278,7 +6278,7 @@
       "JP": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Pantoprazole is not on Japan’s prescription list. Japan uses omeprazole (Omepral), esomeprazole (Nexium), lansoprazole (Takepron), rabeprazole (Pariet) and vonoprazan (Takecab) instead, all prescription-only, so bring your own supply.",
         "source": "https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AD%E3%83%88%E3%83%B3%E3%83%9D%E3%83%B3%E3%83%97%E9%98%BB%E5%AE%B3%E8%96%AC"
       },
@@ -9154,7 +9154,7 @@
       "JP": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Not marketed in Japan. It is a narcotic under Japanese law, so bringing your own supply follows the same rule as oxycodone: written permission from a Regional Bureau of Health and Welfare before you travel, for any quantity, applied for at least 14 days ahead with a doctor’s certificate.",
         "source": "https://www.ncd.mhlw.go.jp/en/application2.html"
       },
@@ -12695,7 +12695,7 @@
       "JP": {
         "brand": "Gaster (ガスター) / Gaster 10 (ガスター10)",
         "status": "MIXED",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Gaster is prescription-only. Gaster 10 is the non-prescription version, sold only after a consultation with the pharmacist.",
         "source": null,
         "localName": "ファモチジン (famochijin)"
@@ -14554,9 +14554,9 @@
         }
       },
       "JP": {
-        "brand": "Bayer Aspirin",
+        "brand": "Bufferin A (バファリンA) / Bayer Aspirin",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
         "source": null,
         "localName": "アスピリン (asupirin)"
@@ -15660,7 +15660,7 @@
       "JP": {
         "brand": "Voltaren EX (ボルタレンEX)",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
         "source": null,
         "localName": "ジクロフェナク (jikurofenaku)"
@@ -15930,7 +15930,7 @@
       "JP": {
         "brand": "Allegra FX (アレグラFX)",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
         "source": null,
         "localName": "フェキソフェナジン (fekisofenajin)"
@@ -16201,7 +16201,7 @@
       "JP": {
         "brand": "Sold generic as \"グアイフェネシン (guaifenesin)\"",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Usually one ingredient among several in OTC cold remedies rather than sold on its own.",
         "source": null,
         "localName": "グアイフェネシン (guaifeneshin)"
@@ -16765,7 +16765,7 @@
       "JP": {
         "brand": "Nasivin (ナシビン)",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
         "source": null,
         "localName": "オキシメタゾリン (okishimetazorin)"
@@ -17005,7 +17005,7 @@
       "JP": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Bring what you need from home.",
         "source": null
       },
@@ -17232,7 +17232,7 @@
       "JP": {
         "brand": "Ohta Isan (太田胃散)",
         "status": "OTC",
-        "confidence": "low",
+        "confidence": "high",
         "note": "A mixed antacid powder that includes calcium carbonate among other ingredients.",
         "source": null,
         "localName": "炭酸カルシウム (tansan karushiumu)"
@@ -17487,7 +17487,7 @@
       "JP": {
         "brand": "Gaspitan (ガスピタン)",
         "status": "OTC",
-        "confidence": "low",
+        "confidence": "high",
         "note": null,
         "source": null,
         "localName": "ジメチコン (jimechikon)"
@@ -17734,7 +17734,7 @@
       "JP": {
         "brand": "OS-1 (オーエスワン)",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
         "source": null,
         "localName": "経口補水液 (keikō hosuieki)"
@@ -17981,7 +17981,7 @@
       "JP": {
         "brand": "Colac (コーラック)",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": null,
         "source": null,
         "localName": "ビサコジル (bisakojiru)"
@@ -18516,7 +18516,7 @@
       "JP": {
         "brand": "Sold generic as \"メクリジン (meclizine)\"",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Found in some OTC motion-sickness (酔い止め) tablets alongside other ingredients.",
         "source": null,
         "localName": "メクリジン (mekurijin)"
@@ -19292,7 +19292,7 @@
       "JP": {
         "brand": "Dolmycin (ドルマイシン軟膏)",
         "status": "OTC",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Dolmycin contains bacitracin with colistin.",
         "source": null,
         "localName": "バシトラシン (bashitorashin)"
@@ -19484,7 +19484,7 @@
       "JP": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "medium",
+        "confidence": "high",
         "note": "Drewell (diphenhydramine) is the OTC sleep aid.",
         "source": null
       },
@@ -19737,9 +19737,9 @@
       },
       "JP": {
         "brand": "Norlevo (ノルレボ)",
-        "status": "RX",
-        "confidence": "medium",
-        "note": "Has needed a prescription; sales through pharmacists without one are being introduced, so check locally.",
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": "Sold without a prescription, but only by a pharmacist, who may ask you to take the tablet in front of them.",
         "source": null,
         "localName": "レボノルゲストレル (rebonorugesutoreru)"
       },
@@ -21389,7 +21389,7 @@
       "JP": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "low",
+        "confidence": "high",
         "note": "Scopolamine patches are not sold in Japan, so bring what you need from home. The nearest prescription product is Buscopan (ブスコパン, butylscopolamine). Over the counter, some products in the Travelmin (トラベルミン) motion-sickness range include scopolamine as one of several ingredients.",
         "source": null
       },
