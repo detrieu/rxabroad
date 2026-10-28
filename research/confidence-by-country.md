@@ -27,8 +27,8 @@ when the data was researched; the tiers show how much evidence actually backs th
 | 13 | VN Vietnam | 72 | 40 | 38 | 4 | 0 | 0 | 77 | 5 | 1 | 77 | 6 | 6 |
 | 14 | IN India | 55 | 18 | 54 | 10 | 0 | 1 | 14 | 67 | 7 | 0 | 7 | 6 |
 | 15 | TR Türkiye | 54 | 12 | 65 | 5 | 0 | 0 | 77 | 5 | 0 | 77 | 6 | 6 |
-| 16 | MA Morocco | 43 | 4 | 62 | 16 | 0 | 0 | 62 | 20 | 0 | 62 | 2 | 2 |
-| | **All** | 85 | 969 | 302 | 41 | 835 | 30 | 263 | 184 | 44 | 1090 | 85 | 34 |
+| 16 | MA Morocco | 49 | 4 | 72 | 6 | 0 | 0 | 62 | 20 | 0 | 62 | 2 | 2 |
+| | **All** | 86 | 969 | 312 | 31 | 835 | 30 | 263 | 184 | 44 | 1090 | 85 | 34 |
 
 ## 1. United States (US) — score 98
 
@@ -1365,9 +1365,9 @@ when the data was researched; the tiers show how much evidence actually backs th
 | low | Prednisone | Deltacortril (prednisolone) is the more commonly used equivalent | UNCONFIRMED | — |
 | low | Scopolamine (motion-sickness patch) | Not sold here | UNAVAILABLE | — |
 
-## 16. Morocco (MA) — score 43
+## 16. Morocco (MA) — score 49
 
-4 high · 62 medium · 16 low · sources: 0 official, 0 professional, 62 secondary, 20 none · 62 registry-verified
+4 high · 72 medium · 6 low · sources: 0 official, 0 professional, 62 secondary, 20 none · 62 registry-verified
 
 | Confidence | Medicine | Sold as | Status | Source |
 |---|---|---|---|---|
@@ -1433,24 +1433,24 @@ when the data was researched; the tiers show how much evidence actually backs th
 | medium ✓ | Simeticone | Sold generic as "Siméticone" | UNCONFIRMED | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=SIMETICONE) |
 | medium ✓ | Simvastatin | Zovas / Simvacol | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Zovas) |
 | medium ✓ | Tamsulosin | Umax / Contiflo | RX | T3 [ammps.gov.ma](https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Umax) |
+| medium | Amphetamine / Dextroamphetamine | Not sold here | CONTROLLED ⚠ | — |
+| medium | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Not sold here | UNAVAILABLE | — |
+| medium | Bismuth subsalicylate | Not sold here | UNAVAILABLE | — |
+| medium | Calcium carbonate (antacid) | Not sold here | UNAVAILABLE | — |
 | medium | Dimenhydrinate | Sold generic as "Diménhydrinate" | UNCONFIRMED | — |
+| medium | Epinephrine (adrenaline auto-injector) | Not sold here | UNAVAILABLE | — |
+| medium | Famotidine | Not sold here | UNAVAILABLE | — |
+| medium | Fexofenadine | Not sold here | UNAVAILABLE | — |
+| medium | Hydrocodone / Paracetamol combination | Not sold here | CONTROLLED ⚠ | — |
+| medium | Meclozine | Not sold here | UNAVAILABLE | — |
 | medium | Melatonin | Sold generic as "Mélatonine" | UNCONFIRMED | — |
 | medium | Metoprolol | Not sold here | UNAVAILABLE | — |
+| medium | Scopolamine (motion-sickness patch) | Not sold here | UNAVAILABLE | — |
 | medium | Trazodone | Not sold here | UNAVAILABLE | — |
 | low | Alprazolam | Not known | UNCONFIRMED | — |
-| low | Amphetamine / Dextroamphetamine | Not sold here | CONTROLLED ⚠ | — |
-| low | Bacitracin / Neomycin / Polymyxin B (antibiotic ointment) | Not sold here | UNAVAILABLE | — |
-| low | Bismuth subsalicylate | Not sold here | UNAVAILABLE | — |
-| low | Calcium carbonate (antacid) | Not sold here | UNAVAILABLE | — |
-| low | Epinephrine (adrenaline auto-injector) | Not sold here | UNAVAILABLE | — |
-| low | Famotidine | Not sold here | UNAVAILABLE | — |
-| low | Fexofenadine | Not sold here | UNAVAILABLE | — |
-| low | Hydrocodone / Paracetamol combination | Not sold here | CONTROLLED ⚠ | — |
-| low | Meclozine | Not sold here | UNAVAILABLE | — |
 | low | Methylphenidate | Not known | UNCONFIRMED | — |
 | low | Oral rehydration salts | Sold generic as "sels de réhydratation orale" | PHARMACY | — |
 | low | Oxycodone | Not known | UNCONFIRMED | — |
 | low | Oxymetazoline (nasal spray) | Sold generic as "Oxymétazoline" | UNCONFIRMED | — |
-| low | Scopolamine (motion-sickness patch) | Not sold here | UNAVAILABLE | — |
 | low | Tramadol | Not known | UNCONFIRMED | — |
 

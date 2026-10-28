@@ -6847,7 +6847,7 @@
       "MA": {
         "brand": "Not sold here",
         "status": "CONTROLLED",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
         "source": null
       },
@@ -9175,7 +9175,7 @@
       "MA": {
         "brand": "Not sold here",
         "status": "CONTROLLED",
-        "confidence": "low",
+        "confidence": "medium",
         "note": null,
         "source": null
       },
@@ -12739,7 +12739,7 @@
       "MA": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "low",
+        "confidence": "medium",
         "note": "Bring what you need from home.",
         "source": null
       },
@@ -15974,7 +15974,7 @@
       "MA": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "low",
+        "confidence": "medium",
         "note": "Bring what you need from home.",
         "source": null
       },
@@ -17037,7 +17037,7 @@
       "MA": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "low",
+        "confidence": "medium",
         "note": "Bring what you need from home.",
         "source": null
       },
@@ -17276,7 +17276,7 @@
       "MA": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "low",
+        "confidence": "medium",
         "note": "Bring what you need from home.",
         "source": null
       },
@@ -18547,7 +18547,7 @@
       "MA": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "low",
+        "confidence": "medium",
         "note": "Bring what you need from home.",
         "source": null
       },
@@ -19314,7 +19314,7 @@
       "MA": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "low",
+        "confidence": "medium",
         "note": "Fucidine is a different antibiotic (fusidic acid).",
         "source": null
       },
@@ -21420,7 +21420,7 @@
       "MA": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "low",
+        "confidence": "medium",
         "note": "Bring what you need from home.",
         "source": null
       },
@@ -21911,7 +21911,7 @@
       "MA": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
-        "confidence": "low",
+        "confidence": "medium",
         "note": "Auto-injectors are hard to find. Bring at least two from home.",
         "source": null
       },
