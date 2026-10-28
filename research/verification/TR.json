@@ -1,19 +1,19 @@
 {
   "country": "TR",
   "registry": "TİTCK licensed medicines lists (Türkiye)",
-  "registryVersion": "23906 products, lists of 2026-10-16 and 2026-10-20",
-  "checked": "2026-10-20",
+  "registryVersion": "23907 products, lists of 2026-10-16 and 2026-10-27",
+  "checked": "2026-10-27",
   "summary": {
     "entries": 82,
-    "brandEntries": 63,
-    "brandEntriesConfirmed": 63,
-    "brandNames": 76,
-    "brandNamesConfirmed": 76,
-    "verified": 77,
+    "brandEntries": 64,
+    "brandEntriesConfirmed": 64,
+    "brandNames": 77,
+    "brandNamesConfirmed": 77,
+    "verified": 78,
     "statusAgree": 4,
     "statusDiffer": 0,
     "statusNotComparable": 78,
-    "confidenceRaised": 0,
+    "confidenceRaised": 1,
     "flagged": 4
   },
   "entries": [
@@ -88,7 +88,7 @@
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
         "searched": "N02BE01",
         "currentProducts": 383,
-        "onSale": 99
+        "onSale": 100
       },
       "status": {
         "entry": "OTC",
@@ -105,7 +105,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "223/58",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -200,7 +200,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "127/1",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -241,7 +241,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "2015/508",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "ingredient"
         ]
@@ -316,7 +316,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "178/62",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -357,7 +357,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "127/23",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "ingredient"
         ]
@@ -416,7 +416,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "195/16",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -518,7 +518,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "8699516153625",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -602,7 +602,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "246/81",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -643,7 +643,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "2024/153",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "ingredient"
         ]
@@ -683,7 +683,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "127/28",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "ingredient"
         ]
@@ -723,7 +723,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "184/68",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "ingredient"
         ]
@@ -863,7 +863,7 @@
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
         "searched": "A10BA02",
         "currentProducts": 318,
-        "onSale": 77
+        "onSale": 80
       },
       "status": {
         "entry": "RX",
@@ -880,7 +880,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "209/19",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -980,7 +980,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "194/24",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -1056,7 +1056,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "85/45",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -1156,7 +1156,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "233/7",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -1256,7 +1256,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "117/65",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -1297,7 +1297,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "2017/137",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "ingredient"
         ]
@@ -1396,7 +1396,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "158/46",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -1496,7 +1496,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "2024/476",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -1537,7 +1537,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "2022/299",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "ingredient"
         ]
@@ -1628,7 +1628,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "110/56",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -1728,7 +1728,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "2019/577",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -1769,7 +1769,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "2017/797",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "ingredient"
         ]
@@ -1868,7 +1868,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "2018/202",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -1902,8 +1902,8 @@
       },
       "verified": null,
       "confidence": {
-        "from": "low",
-        "to": "low"
+        "from": "medium",
+        "to": "medium"
       },
       "flags": []
     },
@@ -1936,7 +1936,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "164/88",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "ingredient"
         ]
@@ -2003,7 +2003,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "125/93",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -2071,7 +2071,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "169/28",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -2163,7 +2163,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "2022/271",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -2239,7 +2239,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "2022/280",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -2339,7 +2339,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "142/5",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -2460,7 +2460,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "182/90",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -2531,7 +2531,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "2017/324",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -2565,8 +2565,8 @@
       },
       "verified": null,
       "confidence": {
-        "from": "low",
-        "to": "low"
+        "from": "medium",
+        "to": "medium"
       },
       "flags": []
     },
@@ -2618,7 +2618,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "92/64",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -2752,7 +2752,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "206/18",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -2852,7 +2852,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "2015/819",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -2944,7 +2944,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "197/73",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -3012,7 +3012,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "114/85",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -3112,7 +3112,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "108/55",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -3188,7 +3188,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "111/80",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -3282,7 +3282,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "101/28",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -3376,7 +3376,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "107/25",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -3444,7 +3444,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "117/41",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -3539,7 +3539,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "2016/652",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -3601,7 +3601,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "122/86",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -3701,7 +3701,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "156/38",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -3769,7 +3769,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "2017/241",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -3853,7 +3853,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "2018/183",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -3953,7 +3953,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "181/12",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient",
@@ -4046,7 +4046,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "214/79",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient",
@@ -4062,9 +4062,44 @@
     {
       "id": "prednisone",
       "generic": "Prednisone",
-      "brand": "Deltacortril (prednisolone) is the more commonly used equivalent",
-      "kind": "other",
-      "brands": [],
+      "brand": "Romezon",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Romezon",
+          "id": "2017/709",
+          "url": "https://www.titck.gov.tr/dinamikmodul/85",
+          "confirmed": true,
+          "note": null,
+          "matched": "ROMEZON DR 1 MG TABLET, 30 ADET",
+          "products": [
+            {
+              "licence": "2017/709",
+              "barcode": "8699680030265",
+              "product": "ROMEZON DR 1 MG TABLET, 30 ADET",
+              "ingredient": "PREDNIZON + PREDNISONE",
+              "prescription": "NORMAL",
+              "holder": "İLKO İLAÇ SAN.VE TİC. A.Ş."
+            },
+            {
+              "licence": "2017/710",
+              "barcode": "8699680030272",
+              "product": "ROMEZON DR 2 MG TABLET, 30 ADET",
+              "ingredient": "PREDNIZON + PREDNISONE",
+              "prescription": "NORMAL",
+              "holder": "İLKO İLAÇ SAN.VE TİC. A.Ş."
+            },
+            {
+              "licence": "2017/708",
+              "barcode": "8699680030289",
+              "product": "ROMEZON DR 5 MG TABLET, 30 ADET",
+              "ingredient": "PREDNIZON + PREDNISONE",
+              "prescription": "NORMAL",
+              "holder": "İLKO İLAÇ SAN.VE TİC. A.Ş."
+            }
+          ]
+        }
+      ],
       "ingredient": {
         "registered": true,
         "id": "2017/709",
@@ -4084,10 +4119,19 @@
           }
         }
       },
-      "verified": null,
+      "verified": {
+        "registry": "TİTCK licensed medicines lists (Türkiye)",
+        "id": "2017/709",
+        "url": "https://www.titck.gov.tr/dinamikmodul/85",
+        "checked": "2026-10-27",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
       "confidence": {
         "from": "low",
-        "to": "low"
+        "to": "medium"
       },
       "flags": []
     },
@@ -4147,7 +4191,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "2017/333",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -4305,7 +4349,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "154/58",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -4405,7 +4449,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "136/61",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient",
@@ -4508,7 +4552,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "116/87",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient",
@@ -4667,7 +4711,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "138/76",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -4743,7 +4787,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "2016/25",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -4784,7 +4828,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "208/43",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "ingredient"
         ]
@@ -4819,7 +4863,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "198/10",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "ingredient"
         ]
@@ -4854,7 +4898,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "98/9",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "ingredient"
         ]
@@ -4929,7 +4973,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "153/19",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -5031,7 +5075,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "2022/321",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -5115,7 +5159,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "209/16",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -5215,7 +5259,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "187/78",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -5275,7 +5319,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "135/63",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -5335,7 +5379,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "2017/102",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -5376,7 +5420,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "2017/543",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "ingredient"
         ]
@@ -5453,7 +5497,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "2022/224",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -5496,7 +5540,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "61/69",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "ingredient"
         ]
@@ -5555,7 +5599,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "154/35",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -5623,7 +5667,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "101/5",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -5683,7 +5727,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "2022/797",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -5738,7 +5782,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "2017/794",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -5774,8 +5818,8 @@
       },
       "verified": null,
       "confidence": {
-        "from": "low",
-        "to": "low"
+        "from": "medium",
+        "to": "medium"
       },
       "flags": []
     },
@@ -5845,7 +5889,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "114/40",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -5979,7 +6023,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "173/2",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -6079,7 +6123,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "152/98",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -6139,7 +6183,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "210/79",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -6173,8 +6217,8 @@
       },
       "verified": null,
       "confidence": {
-        "from": "low",
-        "to": "low"
+        "from": "medium",
+        "to": "medium"
       },
       "flags": []
     },
@@ -6266,7 +6310,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "179/25",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"
@@ -6350,7 +6394,7 @@
         "registry": "TİTCK licensed medicines lists (Türkiye)",
         "id": "2014/834",
         "url": "https://www.titck.gov.tr/dinamikmodul/85",
-        "checked": "2026-10-20",
+        "checked": "2026-10-27",
         "checks": [
           "brand",
           "ingredient"

@@ -20,7 +20,10 @@ export const cannotDetect = ['CONTROLLED'];
 // are found by their sodium citrate, which little else contains.
 const VN_NAMES = { 'calcium-carbonate': ['CALCI CARBONAT'], 'oral-rehydration-salts': ['NATRI CITRAT'], aspirin: ['ACETYLSALICYLIC'] };
 // Scopolamine butylbromide is a different medicine (for cramps) from the motion-sickness patch.
-const VN_NOT = { scopolamine: /BUTYL/ };
+// Prednisone loses its final "e" in the search below, which would also match prednisolone.
+const VN_NOT = { scopolamine: /BUTYL/, prednisone: /PREDNISOLON/ };
+// Entries about one form only: adrenaline ampoules are not auto-injectors ("bút tiêm" is a pen).
+const VN_FORM = { epinephrine: /BUT TIEM|AUTO/ };
 
 const LEGAL = { 1: 'NO_RX', 0: 'RX' };
 
@@ -67,7 +70,7 @@ const summarise = (p) => ({ registration: p.id, product: p.name.replace(/\s*\(.*
 
 export async function verify({ drug, parsed, keys }) {
   const stems = spellings([...keys, ...(VN_NAMES[drug.id] ?? [])]);
-  const contains = (p) => hasIngredient(p.text, stems) && !VN_NOT[drug.id]?.test(norm(p.text));
+  const contains = (p) => hasIngredient(p.text, stems) && !VN_NOT[drug.id]?.test(norm(p.text)) && (VN_FORM[drug.id]?.test(norm(p.form)) ?? true);
   const found = new Map();
   for (const stem of stems) for (const p of await search({ HoatChatChinh: stem })) if (p.current && contains(p)) found.set(`${p.id} ${p.name}`, p);
   const current = [...found.values()];
