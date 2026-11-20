@@ -6,16 +6,16 @@
   "summary": {
     "entries": 82,
     "brandEntries": 66,
-    "brandEntriesConfirmed": 48,
-    "brandNames": 79,
-    "brandNamesConfirmed": 59,
-    "verified": 53,
+    "brandEntriesConfirmed": 46,
+    "brandNames": 81,
+    "brandNamesConfirmed": 58,
+    "verified": 50,
     "verifiedAbsent": 0,
-    "statusAgree": 46,
+    "statusAgree": 44,
     "statusDiffer": 0,
-    "statusNotComparable": 36,
+    "statusNotComparable": 38,
     "confidenceRaised": 0,
-    "flagged": 23
+    "flagged": 25
   },
   "entries": [
     {
@@ -147,9 +147,17 @@
     {
       "id": "cetirizine",
       "generic": "Cetirizine",
-      "brand": "Zyrtec (ジルテック)",
+      "brand": "Contac Rhinitis Z (新コンタック鼻炎Z) / Zyrtec (ジルテック)",
       "kind": "brand",
       "brands": [
+        {
+          "name": "Contac Rhinitis Z",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "新コンタック鼻炎Z is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has セチリジン塩酸塩, ジルテック)",
+          "products": []
+        },
         {
           "name": "Zyrtec",
           "id": "4490020F1020",
@@ -187,9 +195,9 @@
         "listedProducts": 20
       },
       "status": {
-        "entry": "RX",
+        "entry": "OTC",
         "registry": "RX",
-        "result": "agree",
+        "result": "na",
         "evidence": {
           "source": "MHLW price list 20261113",
           "products": {
@@ -197,22 +205,15 @@
           }
         }
       },
-      "verified": {
-        "registry": "MHLW drug price list (Japan, prescription medicines)",
-        "id": "4490020F1020",
-        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-11-20",
-        "checks": [
-          "brand",
-          "ingredient",
-          "status"
-        ]
-      },
+      "verified": null,
       "confidence": {
         "from": "high",
         "to": "high"
       },
-      "flags": []
+      "flags": [
+        "Entry says it is sold without a prescription, but this brand is on the prescription list",
+        "Brand \"Contac Rhinitis Z\" not confirmed: 新コンタック鼻炎Z is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has セチリジン塩酸塩, ジルテック)"
+      ]
     },
     {
       "id": "diphenhydramine",
@@ -329,30 +330,24 @@
     {
       "id": "omeprazole",
       "generic": "Omeprazole",
-      "brand": "Omepral (オメプラール)",
+      "brand": "Omepral S (オメプラールS) / Omepral (オメプラール)",
       "kind": "brand",
       "brands": [
         {
+          "name": "Omepral S",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "オメプラールS is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has オメプラゾール, オメプラール, オメプラゾールナトリウム)",
+          "products": []
+        },
+        {
           "name": "Omepral",
-          "id": "2329022H1043",
-          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "confirmed": true,
-          "note": null,
-          "matched": "オメプラール錠20",
-          "products": [
-            {
-              "code": "2329022H1043",
-              "product": "オメプラール錠20",
-              "ingredient": "オメプラゾール",
-              "maker": "太陽ファルマ"
-            },
-            {
-              "code": "2329022H2023",
-              "product": "オメプラール錠10",
-              "ingredient": "オメプラゾール",
-              "maker": "太陽ファルマ"
-            }
-          ]
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "no Japanese spelling to look up (for this ingredient the list has オメプラゾール, オメプラール, オメプラゾールナトリウム)",
+          "products": []
         }
       ],
       "ingredient": {
@@ -363,9 +358,9 @@
         "listedProducts": 13
       },
       "status": {
-        "entry": "RX",
-        "registry": "RX",
-        "result": "agree",
+        "entry": "PHARMACY",
+        "registry": null,
+        "result": "na",
         "evidence": {
           "source": "MHLW price list 20261113",
           "products": {
@@ -373,28 +368,21 @@
           }
         }
       },
-      "verified": {
-        "registry": "MHLW drug price list (Japan, prescription medicines)",
-        "id": "2329022H1043",
-        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-11-20",
-        "checks": [
-          "brand",
-          "ingredient",
-          "status"
-        ]
-      },
+      "verified": null,
       "confidence": {
         "from": "high",
         "to": "high"
       },
-      "flags": []
+      "flags": [
+        "Brand \"Omepral S\" not confirmed: オメプラールS is not on the prescription list, as expected for an over-the-counter product; this list can't confirm it (for this ingredient the list has オメプラゾール, オメプラール, オメプラゾールナトリウム)",
+        "Brand \"Omepral\" not confirmed: no Japanese spelling to look up (for this ingredient the list has オメプラゾール, オメプラール, オメプラゾールナトリウム)"
+      ]
     },
     {
       "id": "pseudoephedrine",
       "generic": "Pseudoephedrine",
-      "brand": "Sold generic as \"Pseudoephedrine\"",
-      "kind": "generic",
+      "brand": "New Contac 600 Plus S (新コンタック600プラスs)",
+      "kind": "other",
       "brands": [],
       "ingredient": {
         "registered": true,
@@ -414,18 +402,10 @@
           }
         }
       },
-      "verified": {
-        "registry": "MHLW drug price list (Japan, prescription medicines)",
-        "id": "4490100F1021",
-        "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-        "checked": "2026-11-20",
-        "checks": [
-          "ingredient"
-        ]
-      },
+      "verified": null,
       "confidence": {
-        "from": "medium",
-        "to": "medium"
+        "from": "high",
+        "to": "high"
       },
       "flags": []
     },
@@ -4313,7 +4293,7 @@
         "listedProducts": 3
       },
       "status": {
-        "entry": "OTC",
+        "entry": "PHARMACY",
         "registry": "RX",
         "result": "na",
         "evidence": {
@@ -4334,8 +4314,8 @@
         ]
       },
       "confidence": {
-        "from": "medium",
-        "to": "medium"
+        "from": "high",
+        "to": "high"
       },
       "flags": [
         "Entry says it is sold without a prescription, but this brand is on the prescription list"

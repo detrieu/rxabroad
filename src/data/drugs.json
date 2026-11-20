@@ -986,23 +986,12 @@
         }
       },
       "JP": {
-        "brand": "Zyrtec (ジルテック)",
-        "status": "RX",
+        "brand": "Contac Rhinitis Z (新コンタック鼻炎Z) / Zyrtec (ジルテック)",
+        "status": "OTC",
         "confidence": "high",
-        "note": "Prescription-only. The common over-the-counter antihistamine is fexofenadine (Allegra FX).",
-        "source": null,
-        "localName": "セチリジン (sechirijin)",
-        "verified": {
-          "registry": "MHLW drug price list (Japan, prescription medicines)",
-          "id": "4490020F1020",
-          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-11-20",
-          "checks": [
-            "brand",
-            "ingredient",
-            "status"
-          ]
-        }
+        "note": "Contac Rhinitis Z is sold over the counter (Class 2). Zyrtec is prescription-only.",
+        "source": "https://otcguidejapan.com/products/contac-rhinitis-z/",
+        "localName": "セチリジン (sechirijin)"
       },
       "VN": {
         "brand": "Zyrtec",
@@ -1556,8 +1545,8 @@
         "brand": "Lopemin (ロペミン) / Tomedine Kowa (トメダインコーワ)",
         "status": "MIXED",
         "confidence": "high",
-        "note": "Lopemin is prescription-only. Over the counter, look for Tomedine Kowa or the Stoppa (ストッパ) range. These are brand families with more than one formulation, so confirm loperamide (ロペラミド) is the active ingredient on the pack.",
-        "source": null,
+        "note": "Lopemin is prescription-only. Over the counter, look for Loperamac Satto (ロペラマックサット) or Tomedine Kowa (トメダインコーワ). Tomedine Kowa tablets also contain other ingredients.",
+        "source": "https://otcguidejapan.com/products/loperamac-satto-tablets/",
         "localName": "ロペラミド (roperamido)"
       },
       "VN": {
@@ -1830,23 +1819,12 @@
         }
       },
       "JP": {
-        "brand": "Omepral (オメプラール)",
-        "status": "RX",
+        "brand": "Omepral S (オメプラールS) / Omepral (オメプラール)",
+        "status": "PHARMACY",
         "confidence": "high",
-        "note": "Prescription only. Over-the-counter PPIs are uncommon in Japan.",
-        "source": null,
-        "localName": "オメプラゾール (omepurazōru)",
-        "verified": {
-          "registry": "MHLW drug price list (Japan, prescription medicines)",
-          "id": "2329022H1043",
-          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-11-20",
-          "checks": [
-            "brand",
-            "ingredient",
-            "status"
-          ]
-        }
+        "note": "Omepral S is sold only by a pharmacist (要指導医薬品). Omepral is prescription-only.",
+        "source": "https://otcguidejapan.com/products/omepral-s/",
+        "localName": "オメプラゾール (omepurazōru)"
       },
       "VN": {
         "brand": "Losec / generic omeprazole",
@@ -2104,21 +2082,12 @@
         }
       },
       "JP": {
-        "brand": "Sold generic as \"Pseudoephedrine\"",
+        "brand": "New Contac 600 Plus S (新コンタック600プラスs)",
         "status": "CONTROLLED",
-        "confidence": "medium",
-        "note": "A stimulant raw material under Japanese law. Products with more than 10% pseudoephedrine need written permission before you travel; products with 10% or less are excluded from that rule.",
-        "source": "https://www.ncd.mhlw.go.jp/dl_data/keitai/cotrolled_substances_list20241212%20.pdf",
-        "localName": "プソイドエフェドリン (pusoidoefedorin)",
-        "verified": {
-          "registry": "MHLW drug price list (Japan, prescription medicines)",
-          "id": "4490100F1021",
-          "url": "https://www.mhlw.go.jp/topics/2026/04/tp20260401-01.html",
-          "checked": "2026-11-20",
-          "checks": [
-            "ingredient"
-          ]
-        }
+        "confidence": "high",
+        "note": "Not sold on its own, only in combination cold and nasal medicines such as this one. A stimulant raw material under Japanese law. Products with more than 10% pseudoephedrine need written permission before you travel; products with 10% or less are excluded from that rule.",
+        "source": "https://otcguidejapan.com/products/new-contac-600-plus-s/",
+        "localName": "プソイドエフェドリン (pusoidoefedorin)"
       },
       "VN": {
         "brand": "Deconal / Rumednic (combinations)",
@@ -2657,8 +2626,8 @@
         "brand": "Dramamine (ドラマミン) / Travelmin (トラベルミン)",
         "status": "MIXED",
         "confidence": "high",
-        "note": "Dramamine (dimenhydrinate) is prescription-only. Over the counter, look for the Travelmin range: it is a brand family whose products use different active ingredients for different needs, so check the ingredients on the pack.",
-        "source": null,
+        "note": "Dramamine (dimenhydrinate) is prescription-only. Over the counter, Travelmin (トラベルミン) contains diphenhydramine salicylate and diprophylline, the two parts of dimenhydrinate. Other Travelmin products use different ingredients, so check the pack.",
+        "source": "https://otcguidejapan.com/products/travelmin/",
         "localName": "ジメンヒドリナート (jimenhidorināto)"
       },
       "VN": {
@@ -16354,7 +16323,7 @@
         "status": "OTC",
         "confidence": "high",
         "note": null,
-        "source": null,
+        "source": "https://otcguidejapan.com/products/allegra-fx/",
         "localName": "フェキソフェナジン (fekisofenajin)"
       },
       "VN": {
@@ -16634,7 +16603,7 @@
         "status": "OTC",
         "confidence": "high",
         "note": "Usually one ingredient among several in OTC cold remedies rather than sold on its own.",
-        "source": null,
+        "source": "https://otcguidejapan.com/products/new-contac-cough-suppressant-liquid-double-attack/",
         "localName": "グアイフェネシン (guaifeneshin)"
       },
       "VN": {
@@ -18486,7 +18455,7 @@
         "status": "OTC",
         "confidence": "high",
         "note": null,
-        "source": null,
+        "source": "https://otcguidejapan.com/products/colac-tablets/",
         "localName": "ビサコジル (bisakojiru)"
       },
       "VN": {
@@ -19590,10 +19559,10 @@
       },
       "JP": {
         "brand": "Empecid (エンペシド)",
-        "status": "OTC",
-        "confidence": "medium",
-        "note": "Sold over the counter. Empecid contains clotrimazole (クロトリマゾール) as its only active ingredient.",
-        "source": null,
+        "status": "PHARMACY",
+        "confidence": "high",
+        "note": "Over the counter, Empecid L (エンペシドL) is sold only by a pharmacist (Class 1). It contains clotrimazole (クロトリマゾール) as its only active ingredient.",
+        "source": "https://otcguidejapan.com/products/empecid-l/",
         "localName": "クロトリマゾール (kurotorimazōru)",
         "verified": {
           "registry": "MHLW drug price list (Japan, prescription medicines)",
