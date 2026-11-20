@@ -6829,9 +6829,9 @@
       },
       "FR": {
         "brand": "Not sold here",
-        "status": "BANNED",
+        "status": "CONTROLLED",
         "confidence": "high",
-        "note": "Not dispensed in France. Doctors prescribe methylphenidate (Ritalin) instead.",
+        "note": "Not dispensed in France. Doctors prescribe methylphenidate (Ritalin) instead. You can bring your own supply for up to 28 days. To renew it, you need to see a French doctor.",
         "source": null,
         "verified": {
           "registry": "Base de données publique des médicaments (France)",
@@ -12985,7 +12985,7 @@
         "status": "MIXED",
         "confidence": "high",
         "note": "Gaster is prescription-only. Gaster 10 is the non-prescription version, sold only after a consultation with the pharmacist.",
-        "source": null,
+        "source": "https://www.pmda.go.jp/PmdaSearch/otcDetail/430549_K1103000023_07_01",
         "localName": "ファモチジン (famochijin)"
       },
       "VN": {
@@ -14933,7 +14933,7 @@
         "status": "OTC",
         "confidence": "high",
         "note": null,
-        "source": null,
+        "source": "https://www.pmda.go.jp/PmdaSearch/otcDetail/840001_J0601001404_06_01",
         "localName": "アスピリン (asupirin)"
       },
       "VN": {
@@ -17198,7 +17198,7 @@
         "status": "OTC",
         "confidence": "high",
         "note": null,
-        "source": null,
+        "source": "https://www.pmda.go.jp/PmdaSearch/otcDetail/300089_J1101000048_03_01",
         "localName": "オキシメタゾリン (okishimetazorin)"
       },
       "VN": {
@@ -17992,7 +17992,7 @@
         "status": "OTC",
         "confidence": "high",
         "note": null,
-        "source": null,
+        "source": "https://www.pmda.go.jp/PmdaSearch/otcDetail/780014_J0607000504_03_03",
         "localName": "ジメチコン (jimechikon)"
       },
       "VN": {
@@ -18137,7 +18137,7 @@
         "status": "OTC",
         "confidence": "medium",
         "note": "No prescription needed. Sold as a drink or powder rather than a medicine; look in the baby or sports-drink aisle.",
-        "source": null
+        "source": "https://www.pedialyte.com/"
       },
       "GB": {
         "brand": "Dioralyte",
@@ -18162,7 +18162,7 @@
         "status": "OTC",
         "confidence": "medium",
         "note": "No prescription needed. Often classed as a supplement or food rather than a medicine, so brands vary and it may be shelved away from the pharmacy counter.",
-        "source": null
+        "source": "https://www.pedialyte.ca/en/home"
       },
       "DE": {
         "brand": "Elotrans",
@@ -18188,7 +18188,7 @@
         "status": "OTC",
         "confidence": "medium",
         "note": "No prescription needed. Often classed as a supplement or food rather than a medicine, so brands vary and it may be shelved away from the pharmacy counter.",
-        "source": null
+        "source": "https://www.vidal.fr/actualites/23815-sacolene-nouveau-solute-de-rehydratation-orale.html"
       },
       "MX": {
         "brand": "Electrolit / Pedialyte",
@@ -18239,7 +18239,7 @@
         "status": "OTC",
         "confidence": "high",
         "note": null,
-        "source": null,
+        "source": "https://www.os-1.jp/",
         "localName": "経口補水液 (keikō hosuieki)"
       },
       "VN": {
@@ -18314,7 +18314,7 @@
         "status": "OTC",
         "confidence": "medium",
         "note": "Sold as a dietary product, so it is not in the medicines register.",
-        "source": null,
+        "source": "https://dicofarm.com/en/pediatric-line/products/oral-rehydration-solutions/dicodral/",
         "localName": "Sali per reidratazione orale"
       },
       "ES": {
@@ -19851,7 +19851,7 @@
         "status": "OTC",
         "confidence": "high",
         "note": "Dolmycin contains bacitracin with colistin.",
-        "source": null,
+        "source": "https://www.pmda.go.jp/PmdaSearch/otcDetail/380077_J0601006266_02_02",
         "localName": "バシトラシン (bashitorashin)"
       },
       "VN": {
