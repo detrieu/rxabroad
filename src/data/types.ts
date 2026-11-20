@@ -40,13 +40,14 @@ export interface StatusMeta {
   cls: string;
 }
 
-export type VerificationCheck = 'brand' | 'ingredient' | 'status';
+/** 'absent': the register lists no product with this ingredient, which confirms "Not sold here". */
+export type VerificationCheck = 'brand' | 'ingredient' | 'status' | 'absent';
 
 /** Written by scripts/verify/run.mjs when an official registry confirms the entry. */
 export interface Verification {
   /** Display name of the registry, e.g. "Health Canada DPD". */
   registry: string;
-  /** The registry's own id for the matched record (RxCUI, DPD drug code, licence no., CIS). */
+  /** The registry's own id for the matched record (RxCUI, DPD drug code, licence no., CIS), or the term searched for an absence. */
   id: string;
   url: string;
   /** ISO date (YYYY-MM-DD) of the check. */

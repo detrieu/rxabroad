@@ -43,6 +43,7 @@ export function ConfBadge({ confidence }: { confidence: Confidence }) {
 }
 
 function whatWasChecked({ checks }: Verification) {
+  if (checks.includes('absent')) return 'It lists no medicine with this ingredient.';
   const subject = checks.includes('brand')
     ? 'This name is registered there with this ingredient'
     : 'Medicines with this ingredient are registered there';
@@ -64,7 +65,9 @@ export function VerifiedBadge({ verified }: { verified: Verification }) {
         <p className="text-muted-foreground mt-1">
           Checked against {verified.registry} on {date}. {whatWasChecked(verified)}
         </p>
-        <p className="text-muted-foreground mt-1.5">Registered doesn’t mean every pharmacy stocks it.</p>
+        {!verified.checks.includes('absent') && (
+          <p className="text-muted-foreground mt-1.5">Registered doesn’t mean every pharmacy stocks it.</p>
+        )}
       </PopoverContent>
     </Popover>
   );

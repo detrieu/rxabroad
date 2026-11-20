@@ -13,6 +13,8 @@ const LIST = 'https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicam
 
 export const registry = { code: 'MA', name: 'AMMPS Liste Marocaine des Médicaments' };
 export const cannotDetect = ['OTC', 'PHARMACY', 'RX', 'CONTROLLED'];
+// The register lists every medicine on sale here, so finding nothing with an ingredient shows it isn't sold.
+export const provesAbsence = true;
 
 // The substance as the list writes it, where the English name doesn't lead to it.
 const MA_NAMES = {
@@ -31,6 +33,8 @@ const MA_NOT = { scopolamine: /BUTYL/ };
 const MA_FORM = {
   epinephrine: /STYLO|AUTO ?INJECT/, scopolamine: /PATCH|TRANSDERM/, oxymetazoline: /NASAL/,
   'hydrocortisone-cream': /CREME|POMMADE/, 'diclofenac-gel': /GEL/,
+  // Skin ointments only: the eye, ear and vaginal products with these antibiotics are other medicines.
+  'antibiotic-ointment': /^(POMMADE|CREME)$|CUTANEE/,
 };
 
 let client;

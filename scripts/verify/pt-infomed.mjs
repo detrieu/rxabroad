@@ -28,6 +28,8 @@ const TIMEOUT_MS = 90_000;
 
 export const registry = { code: 'PT', name: 'Infomed medicines database (INFARMED, Portugal)' };
 export const cannotDetect = [];
+// The register lists every medicine on sale here, so finding nothing with an ingredient shows it isn't sold.
+export const provesAbsence = true;
 
 // Classificação quanto à dispensa, as numbered in the search form, and the status each stands for.
 const CLASS_CODE = { MNSRM: '001', 'MNSRM-EF': '008', MSRM: '006', 'MSRM especial': '004' };

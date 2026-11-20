@@ -21,6 +21,8 @@ const UA = { 'User-Agent': 'rxabroad-verify (+https://rxabroad.vercel.app)' };
 
 export const registry = { code: 'TR', name: 'TİTCK licensed medicines lists (Türkiye)' };
 export const cannotDetect = ['OTC', 'PHARMACY', 'MIXED', 'RX'];
+// The register lists every medicine on sale here, so finding nothing with an ingredient shows it isn't sold.
+export const provesAbsence = true;
 
 // Prescription type → status. Purple and orange prescriptions are for blood products and similar, not for
 // narcotics or psychotropics.

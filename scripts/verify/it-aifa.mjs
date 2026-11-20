@@ -14,6 +14,8 @@ const PAGE_SIZE = 20; // the most the service allows
 
 export const registry = { code: 'IT', name: 'AIFA medicines database (Italy)' };
 export const cannotDetect = [];
+// The register lists every medicine on sale here, so finding nothing with an ingredient shows it isn't sold.
+export const provesAbsence = true;
 
 // The ingredient as AIFA writes it.
 export const IT_NAMES = {

@@ -10,8 +10,10 @@ import { aggregateStatus, brandMatches, leadingNames, norm, statusPool } from '.
 const REST = 'https://cima.aemps.es/cima/rest/medicamentos';
 const PAGE_SIZE = 200;
 
-export const registry = { code: 'ES', name: 'CIMA medicines register (AEMPS, Spain)' };
+export const registry = { code: 'ES', name: 'CIMA medicines register (AEMPS, Spain)', url: 'https://cima.aemps.es/cima/publico/home.html' };
 export const cannotDetect = [];
+// The register lists every medicine on sale here, so finding nothing with an ingredient shows it isn't sold.
+export const provesAbsence = true;
 
 // Medicines CIMA files under another ATC code than ours, or shares a code between two ingredients
 // (dimenhydrinate sits under diphenhydramine's). These are searched by their Spanish ingredient name instead.

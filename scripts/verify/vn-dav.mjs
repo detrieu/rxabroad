@@ -15,6 +15,8 @@ const PAGE_SIZE = 1000;
 
 export const registry = { code: 'VN', name: 'Drug Administration of Vietnam register' };
 export const cannotDetect = ['CONTROLLED'];
+// The register lists every medicine on sale here, so finding nothing with an ingredient shows it isn't sold.
+export const provesAbsence = true;
 
 // The ingredient as the register writes it, where the English name doesn't lead to it. Oral rehydration salts
 // are found by their sodium citrate, which little else contains.

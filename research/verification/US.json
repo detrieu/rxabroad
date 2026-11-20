@@ -1,8 +1,8 @@
 {
   "country": "US",
   "registry": "RxNorm (U.S. National Library of Medicine)",
-  "registryVersion": "RxNorm 05-Oct-2026",
-  "checked": "2026-10-20",
+  "registryVersion": "RxNorm 02-Nov-2026",
+  "checked": "2026-11-20",
   "summary": {
     "entries": 82,
     "brandEntries": 69,
@@ -10,6 +10,7 @@
     "brandNames": 84,
     "brandNamesConfirmed": 82,
     "verified": 81,
+    "verifiedAbsent": 0,
     "statusAgree": 78,
     "statusDiffer": 0,
     "statusNotComparable": 4,
@@ -54,7 +55,7 @@
           "source": "openFDA NDC directory",
           "scope": "brand",
           "products": {
-            "OTC": 45
+            "OTC": 47
           }
         }
       },
@@ -62,7 +63,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "202433",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=202433",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -136,7 +137,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "153010",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=153010",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -194,7 +195,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "203576",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203576",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -253,7 +254,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "58930",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=58930",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -312,7 +313,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "203457",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203457",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -370,7 +371,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "151889",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=151889",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -420,8 +421,8 @@
           "source": "openFDA NDC directory",
           "scope": "brand",
           "products": {
-            "RX": 2,
-            "OTC": 4
+            "OTC": 4,
+            "RX": 2
           }
         }
       },
@@ -429,7 +430,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "203345",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203345",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -487,7 +488,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "203302",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203302",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -531,7 +532,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "6711",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=6711",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -588,7 +589,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "151666",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=151666",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -625,7 +626,7 @@
           "source": "openFDA NDC directory",
           "scope": "ingredient",
           "products": {
-            "RX": 53
+            "RX": 56
           }
         }
       },
@@ -633,7 +634,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "723",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=723",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -669,7 +670,7 @@
           "source": "openFDA NDC directory",
           "scope": "ingredient",
           "products": {
-            "RX": 70
+            "RX": 68
           }
         }
       },
@@ -677,7 +678,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "6809",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=6809",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -734,7 +735,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "82728",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=82728",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -805,7 +806,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "8887",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=8887",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -863,7 +864,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "153165",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=153165",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -919,7 +920,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "224920",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=224920",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -979,7 +980,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "196472",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=196472",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1037,7 +1038,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "58927",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=58927",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1107,7 +1108,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "203344",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203344",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1165,7 +1166,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "151558",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=151558",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1223,7 +1224,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "196498",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=196498",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1281,7 +1282,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "320864",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=320864",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1339,7 +1340,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "261624",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=261624",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1397,7 +1398,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "352741",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=352741",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1456,7 +1457,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "84815",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=84815",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1493,7 +1494,7 @@
           "source": "openFDA NDC directory",
           "scope": "ingredient",
           "products": {
-            "RX": 16
+            "RX": 25
           }
         }
       },
@@ -1501,7 +1502,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "5487",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=5487",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -1558,7 +1559,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "42568",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=42568",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1616,7 +1617,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "58827",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=58827",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1686,7 +1687,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "1991307",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1991307",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1744,7 +1745,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "153889",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=153889",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1781,7 +1782,7 @@
           "source": "openFDA NDC directory",
           "scope": "ingredient",
           "products": {
-            "RX": 88
+            "RX": 81
           }
         }
       },
@@ -1789,7 +1790,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "10737",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=10737",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -1846,7 +1847,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "196503",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=196503",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1891,7 +1892,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "77492",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=77492",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -1961,7 +1962,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "218772",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=218772",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2036,7 +2037,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "83373",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=83373",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2073,7 +2074,7 @@
           "source": "openFDA NDC directory",
           "scope": "ingredient",
           "products": {
-            "RX": 81
+            "RX": 84
           }
         }
       },
@@ -2081,7 +2082,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "41493",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=41493",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -2138,7 +2139,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "1364436",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1364436",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2196,7 +2197,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "202991",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=202991",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2254,7 +2255,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "261551",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=261551",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2326,7 +2327,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "135805",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=135805",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2397,7 +2398,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "284810",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=284810",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2472,7 +2473,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "92881",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=92881",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -2539,7 +2540,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "92880",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=92880",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -2598,7 +2599,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "400560",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=400560",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2656,7 +2657,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "1670012",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1670012",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2693,7 +2694,7 @@
           "source": "openFDA NDC directory",
           "scope": "ingredient",
           "products": {
-            "RX": 87
+            "RX": 91
           }
         }
       },
@@ -2701,7 +2702,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "72625",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=72625",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -2759,7 +2760,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "196458",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=196458",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2817,7 +2818,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "1545659",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1545659",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2875,7 +2876,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "216221",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=216221",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2912,7 +2913,7 @@
           "source": "openFDA NDC directory",
           "scope": "ingredient",
           "products": {
-            "CONTROLLED": 72
+            "CONTROLLED": 78
           }
         }
       },
@@ -2920,7 +2921,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "10689",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=10689",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -2969,7 +2970,7 @@
           "source": "openFDA NDC directory",
           "scope": "brand",
           "products": {
-            "CONTROLLED": 9
+            "CONTROLLED": 7
           }
         }
       },
@@ -2977,7 +2978,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "202363",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=202363",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3015,7 +3016,7 @@
           "source": "openFDA NDC directory",
           "scope": "ingredient",
           "products": {
-            "RX": 94
+            "RX": 98
           }
         }
       },
@@ -3023,7 +3024,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "8640",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=8640",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -3080,7 +3081,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "174742",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=174742",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3140,7 +3141,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "215568",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=215568",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3223,7 +3224,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "218986",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=218986",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3285,7 +3286,7 @@
           "source": "openFDA NDC directory",
           "scope": "brand",
           "products": {
-            "CONTROLLED": 11
+            "CONTROLLED": 7
           }
         }
       },
@@ -3293,7 +3294,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "224917",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=224917",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3353,7 +3354,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "215101",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=215101",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3414,7 +3415,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "202976",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=202976",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3472,7 +3473,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "324026",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=324026",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3530,7 +3531,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "352777",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=352777",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3588,7 +3589,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "3146",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=3146",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3649,7 +3650,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "215051",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=215051",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3705,7 +3706,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "54536",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=54536",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3758,7 +3759,7 @@
           "source": "openFDA NDC directory",
           "scope": "brand",
           "products": {
-            "OTC": 53
+            "OTC": 54
           }
         }
       },
@@ -3766,7 +3767,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "220508",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=220508",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3822,7 +3823,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "217263",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=217263",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3920,7 +3921,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "151672",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=151672",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3976,7 +3977,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "261575",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=261575",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4036,7 +4037,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "1694",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1694",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4102,7 +4103,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "1987140",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1987140",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4162,7 +4163,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "202859",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=202859",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4234,7 +4235,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "1291",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1291",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -4293,7 +4294,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "220672",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=220672",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4352,7 +4353,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "858076",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=858076",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4411,7 +4412,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "153767",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=153767",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4451,7 +4452,7 @@
           "source": "openFDA NDC directory",
           "scope": "ingredient",
           "products": {
-            "RX": 93
+            "RX": 96
           }
         }
       },
@@ -4459,7 +4460,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "3640",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=3640",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -4517,7 +4518,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "196474",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=196474",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4578,7 +4579,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "203563",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=203563",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4623,7 +4624,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "167",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=167",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -4682,7 +4683,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "220372",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=220372",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4719,7 +4720,7 @@
           "source": "openFDA NDC directory",
           "scope": "ingredient",
           "products": {
-            "RX": 85
+            "RX": 90
           }
         }
       },
@@ -4727,7 +4728,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "26225",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=26225",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -4801,7 +4802,7 @@
         "registry": "RxNorm (U.S. National Library of Medicine)",
         "id": "727341",
         "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=727341",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",

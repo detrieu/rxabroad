@@ -12,6 +12,8 @@ const PUBLIC_QUERY_KEY = '17CCFC430C1A78A169B392A35A99C49D';
 
 export const registry = { code: 'GB', name: 'MHRA Products (UK medicines regulator)' };
 export const cannotDetect = [];
+// The register lists every medicine on sale here, so finding nothing with an ingredient shows it isn't sold.
+export const provesAbsence = true;
 
 /** Without dm+d the check can't read legal status; run.mjs refuses to --write in that state. */
 export const checkGap = () =>

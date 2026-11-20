@@ -5,8 +5,10 @@ import { aggregateStatus, brandMatches, hasIngredient, primaryIngredient, status
 
 const API = 'https://health-products.canada.ca/api/drug';
 
-export const registry = { code: 'CA', name: 'Health Canada Drug Product Database' };
+export const registry = { code: 'CA', name: 'Health Canada Drug Product Database', url: 'https://health-products.canada.ca/dpd-bdpp/?lang=eng' };
 export const cannotDetect = [];
+// The register lists every medicine on sale here, so finding nothing with an ingredient shows it isn't sold.
+export const provesAbsence = true;
 
 // How many products to look at per brand or ingredient. Each one costs up to three requests.
 const MAX_SCANNED = 20;

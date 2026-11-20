@@ -10,6 +10,7 @@ const DATASET_URL = `https://data.gov.sg/datasets/${DATASET}/view`;
 export const registry = { code: 'SG', name: 'HSA Register of Therapeutic Products (Singapore)' };
 // Controlled drugs appear as plain "Prescription Only"; the register has no separate class for them.
 export const cannotDetect = ['CONTROLLED'];
+// The data.gov.sg copy of the register is incomplete (it has no duloxetine), so an empty search proves nothing.
 
 const LEGAL = { 'General Sale List': 'OTC', 'Pharmacy Only': 'PHARMACY', 'Prescription Only': 'RX' };
 const ATC_RE = /^[A-Z]\d{2}[A-Z]{2}\d{2}$/;

@@ -1,20 +1,21 @@
 {
   "country": "FR",
   "registry": "Base de données publique des médicaments (France)",
-  "registryVersion": "15883 specialities",
-  "checked": "2026-10-20",
+  "registryVersion": "15799 specialities",
+  "checked": "2026-11-20",
   "summary": {
     "entries": 82,
-    "brandEntries": 73,
-    "brandEntriesConfirmed": 71,
-    "brandNames": 90,
-    "brandNamesConfirmed": 87,
-    "verified": 76,
-    "statusAgree": 75,
+    "brandEntries": 70,
+    "brandEntriesConfirmed": 70,
+    "brandNames": 86,
+    "brandNamesConfirmed": 86,
+    "verified": 80,
+    "verifiedAbsent": 5,
+    "statusAgree": 74,
     "statusDiffer": 1,
-    "statusNotComparable": 6,
-    "confidenceRaised": 0,
-    "flagged": 4
+    "statusNotComparable": 7,
+    "confidenceRaised": 2,
+    "flagged": 3
   },
   "entries": [
     {
@@ -74,7 +75,7 @@
         "registered": true,
         "id": "62040674",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62040674/extrait",
-        "marketedProducts": 163
+        "marketedProducts": 165
       },
       "status": {
         "entry": "OTC",
@@ -91,7 +92,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "66057393",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66057393/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -209,7 +210,7 @@
         "registered": true,
         "id": "68634000",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68634000/extrait",
-        "marketedProducts": 79
+        "marketedProducts": 78
       },
       "status": {
         "entry": "OTC",
@@ -218,7 +219,7 @@
         "evidence": {
           "source": "BDPM prescription and dispensing conditions",
           "products": {
-            "NO_RX": 13,
+            "NO_RX": 14,
             "RX": 1
           }
         }
@@ -227,7 +228,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "60305960",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60305960/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -268,7 +269,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "68728738",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68728738/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -343,7 +344,7 @@
         "registered": true,
         "id": "64367347",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64367347/extrait",
-        "marketedProducts": 25
+        "marketedProducts": 26
       },
       "status": {
         "entry": "MIXED",
@@ -361,7 +362,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "62636293",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62636293/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -418,7 +419,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "62444574",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62444574/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -499,7 +500,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "61203061",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61203061/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -589,7 +590,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "69606819",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69606819/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -620,7 +621,15 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "Pseudoephedrine",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "high",
         "to": "high"
@@ -656,7 +665,7 @@
         "registered": true,
         "id": "67474429",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67474429/extrait",
-        "marketedProducts": 11
+        "marketedProducts": 10
       },
       "status": {
         "entry": "MIXED",
@@ -673,7 +682,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "68578854",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68578854/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -743,7 +752,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "69806008",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69806008/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -817,7 +826,7 @@
         "registered": true,
         "id": "64550843",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64550843/extrait",
-        "marketedProducts": 113
+        "marketedProducts": 109
       },
       "status": {
         "entry": "RX",
@@ -834,7 +843,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "64539416",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64539416/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -900,7 +909,7 @@
         "registered": true,
         "id": "60892792",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60892792/extrait",
-        "marketedProducts": 69
+        "marketedProducts": 71
       },
       "status": {
         "entry": "RX",
@@ -917,7 +926,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "61052830",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61052830/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -967,7 +976,7 @@
         "registered": true,
         "id": "68728154",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68728154/extrait",
-        "marketedProducts": 19
+        "marketedProducts": 22
       },
       "status": {
         "entry": "RX",
@@ -984,7 +993,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "60155788",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60155788/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1083,7 +1092,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "69077942",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69077942/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1157,7 +1166,7 @@
         "registered": true,
         "id": "60519117",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60519117/extrait",
-        "marketedProducts": 110
+        "marketedProducts": 115
       },
       "status": {
         "entry": "RX",
@@ -1174,7 +1183,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "67143532",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67143532/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1273,7 +1282,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "68416845",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68416845/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1340,7 +1349,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "66729161",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66729161/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1390,7 +1399,7 @@
         "registered": true,
         "id": "69622809",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69622809/extrait",
-        "marketedProducts": 142
+        "marketedProducts": 146
       },
       "status": {
         "entry": "RX",
@@ -1407,7 +1416,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "61939921",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61939921/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1444,7 +1453,7 @@
             },
             {
               "cis": "68679426",
-              "product": "SELOKEN LP 200 mg, comprimé à libération prolongée",
+              "product": "SELOKEN L P 200 mg, comprimé à libération prolongée",
               "legal": "RX",
               "conditions": [
                 "liste I"
@@ -1470,7 +1479,7 @@
             },
             {
               "cis": "69376930",
-              "product": "LOPRESSOR LP 200 mg, comprimé sécable à libération prolongée",
+              "product": "LOPRESSOR L.P. 200 mg, comprimé sécable à libération prolongée",
               "legal": "RX",
               "conditions": [
                 "liste I"
@@ -1500,7 +1509,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "68179830",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68179830/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1567,7 +1576,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "66928996",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66928996/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1649,7 +1658,7 @@
         "registered": true,
         "id": "65629489",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65629489/extrait",
-        "marketedProducts": 59
+        "marketedProducts": 52
       },
       "status": {
         "entry": "RX",
@@ -1666,7 +1675,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "62678755",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62678755/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1724,7 +1733,7 @@
         "registered": true,
         "id": "68479386",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68479386/extrait",
-        "marketedProducts": 72
+        "marketedProducts": 69
       },
       "status": {
         "entry": "RX",
@@ -1741,7 +1750,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "68479386",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68479386/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1762,12 +1771,28 @@
       "brands": [
         {
           "name": "Eupantol",
-          "id": "60550568",
-          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60550568/extrait",
+          "id": "67232155",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67232155/extrait",
           "confirmed": true,
           "note": null,
-          "matched": "EUPANTOL 40 mg, poudre pour solution injectable (IV)",
+          "matched": "EUPANTOL 20 mg, comprimé gastro-résistant",
           "products": [
+            {
+              "cis": "67232155",
+              "product": "EUPANTOL 20 mg, comprimé gastro-résistant",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "60071952",
+              "product": "EUPANTOL 40 mg, comprimé gastro-résistant",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
             {
               "cis": "60550568",
               "product": "EUPANTOL 40 mg, poudre pour solution injectable (IV)",
@@ -1809,15 +1834,23 @@
               "conditions": [
                 "liste II"
               ]
+            },
+            {
+              "cis": "68729174",
+              "product": "INIPOMP 40 mg, poudre pour solution injectable (IV)",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
             }
           ]
         }
       ],
       "ingredient": {
         "registered": true,
-        "id": "60550568",
-        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60550568/extrait",
-        "marketedProducts": 44
+        "id": "67232155",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67232155/extrait",
+        "marketedProducts": 46
       },
       "status": {
         "entry": "RX",
@@ -1826,15 +1859,15 @@
         "evidence": {
           "source": "BDPM prescription and dispensing conditions",
           "products": {
-            "RX": 4
+            "RX": 7
           }
         }
       },
       "verified": {
         "registry": "Base de données publique des médicaments (France)",
-        "id": "60550568",
-        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60550568/extrait",
-        "checked": "2026-10-20",
+        "id": "67232155",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67232155/extrait",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1925,7 +1958,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "67219535",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67219535/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1941,91 +1974,28 @@
     {
       "id": "amphetamine",
       "generic": "Amphetamine / Dextroamphetamine",
-      "brand": "Tentin (dexamfetamine)",
-      "kind": "brand",
-      "brands": [
-        {
-          "name": "Tentin",
-          "id": "61746712",
-          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61746712/extrait",
-          "confirmed": true,
-          "note": null,
-          "matched": "TENTIN 10 mg, comprimé",
-          "products": [
-            {
-              "cis": "61746712",
-              "product": "TENTIN 10 mg, comprimé",
-              "legal": "CONTROLLED",
-              "conditions": [
-                "prescription réservée aux spécialistes et services NEUROLOGIE",
-                "prescription réservée aux spécialistes et services PEDIATRIE",
-                "prescription réservée aux spécialistes et services PSYCHIATRIE",
-                "prescription limitée à 4 semaines",
-                "prescription initiale annuelle réservée à certains spécialistes",
-                "prescription en toutes lettres sur ordonnance sécurisée",
-                "stupéfiants",
-                "renouvellement non restreint"
-              ]
-            },
-            {
-              "cis": "69054203",
-              "product": "TENTIN 20 mg, comprimé",
-              "legal": "CONTROLLED",
-              "conditions": [
-                "prescription réservée aux spécialistes et services NEUROLOGIE",
-                "prescription réservée aux spécialistes et services PEDIATRIE",
-                "prescription réservée aux spécialistes et services PSYCHIATRIE",
-                "prescription limitée à 4 semaines",
-                "prescription initiale annuelle réservée à certains spécialistes",
-                "prescription en toutes lettres sur ordonnance sécurisée",
-                "stupéfiants",
-                "renouvellement non restreint"
-              ]
-            },
-            {
-              "cis": "61899925",
-              "product": "TENTIN 5 mg, comprimé",
-              "legal": "CONTROLLED",
-              "conditions": [
-                "prescription réservée aux spécialistes et services NEUROLOGIE",
-                "prescription réservée aux spécialistes et services PEDIATRIE",
-                "prescription réservée aux spécialistes et services PSYCHIATRIE",
-                "prescription limitée à 4 semaines",
-                "prescription initiale annuelle réservée à certains spécialistes",
-                "prescription en toutes lettres sur ordonnance sécurisée",
-                "stupéfiants",
-                "renouvellement non restreint"
-              ]
-            }
-          ]
-        }
-      ],
+      "brand": "Not sold here",
+      "kind": "unavailable",
+      "brands": [],
       "ingredient": {
-        "registered": true,
-        "id": "61746712",
-        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61746712/extrait",
-        "marketedProducts": 3
+        "registered": false,
+        "id": null,
+        "url": null,
+        "marketedProducts": 0
       },
       "status": {
-        "entry": "CONTROLLED",
-        "registry": "CONTROLLED",
-        "result": "agree",
-        "evidence": {
-          "source": "BDPM prescription and dispensing conditions",
-          "products": {
-            "CONTROLLED": 3
-          }
-        }
+        "entry": "BANNED",
+        "registry": null,
+        "result": "na",
+        "evidence": null
       },
       "verified": {
         "registry": "Base de données publique des médicaments (France)",
-        "id": "61746712",
-        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61746712/extrait",
-        "checked": "2026-10-20",
+        "id": "Amphetamine / Dextroamphetamine",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/",
+        "checked": "2026-11-20",
         "checks": [
-          "brand",
-          "ingredient",
-          "status"
+          "absent"
         ]
       },
       "confidence": {
@@ -2063,7 +2033,7 @@
         "registered": true,
         "id": "63791663",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63791663/extrait",
-        "marketedProducts": 233
+        "marketedProducts": 238
       },
       "status": {
         "entry": "RX",
@@ -2080,7 +2050,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "66153192",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66153192/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2120,7 +2090,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "64556383",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64556383/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -2142,7 +2112,7 @@
         "registered": true,
         "id": "63686057",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63686057/extrait",
-        "marketedProducts": 21
+        "marketedProducts": 23
       },
       "status": {
         "entry": "RX",
@@ -2151,7 +2121,7 @@
         "evidence": {
           "source": "BDPM prescription and dispensing conditions",
           "products": {
-            "RX": 21
+            "RX": 23
           }
         }
       },
@@ -2159,7 +2129,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "63686057",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63686057/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -2233,7 +2203,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "65766192",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65766192/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2277,6 +2247,14 @@
               ]
             },
             {
+              "cis": "63842168",
+              "product": "SINGULAIR 4 mg, granulés",
+              "legal": "RX",
+              "conditions": [
+                "liste I"
+              ]
+            },
+            {
               "cis": "65324797",
               "product": "SINGULAIR 5 mg, comprimé à croquer",
               "legal": "RX",
@@ -2291,7 +2269,7 @@
         "registered": true,
         "id": "69265638",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69265638/extrait",
-        "marketedProducts": 33
+        "marketedProducts": 35
       },
       "status": {
         "entry": "RX",
@@ -2300,7 +2278,7 @@
         "evidence": {
           "source": "BDPM prescription and dispensing conditions",
           "products": {
-            "RX": 3
+            "RX": 4
           }
         }
       },
@@ -2308,7 +2286,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "69863646",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69863646/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2339,10 +2317,18 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "Trazodone",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
@@ -2383,7 +2369,7 @@
         "registered": true,
         "id": "69366854",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69366854/extrait",
-        "marketedProducts": 59
+        "marketedProducts": 62
       },
       "status": {
         "entry": "RX",
@@ -2400,7 +2386,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "67037301",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67037301/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2442,7 +2428,7 @@
         "registered": true,
         "id": "65913639",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65913639/extrait",
-        "marketedProducts": 32
+        "marketedProducts": 31
       },
       "status": {
         "entry": "RX",
@@ -2459,7 +2445,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "63729537",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63729537/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2475,18 +2461,9 @@
     {
       "id": "hydrocodone",
       "generic": "Hydrocodone / Paracetamol combination",
-      "brand": "Dafalgan Codéiné (codeine with paracetamol, the closest equivalent to Norco)",
-      "kind": "brand",
-      "brands": [
-        {
-          "name": "Dafalgan Codéiné",
-          "id": null,
-          "url": null,
-          "confirmed": false,
-          "note": "registered under this name with PARACÉTAMOL + CODÉINE (PHOSPHATE DE), not this ingredient",
-          "products": []
-        }
-      ],
+      "brand": "Not sold here",
+      "kind": "unavailable",
+      "brands": [],
       "ingredient": {
         "registered": false,
         "id": null,
@@ -2499,14 +2476,20 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "Hydrocodone / Paracetamol combination",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
-      "flags": [
-        "Brand \"Dafalgan Codéiné\" not confirmed: registered under this name with PARACÉTAMOL + CODÉINE (PHOSPHATE DE), not this ingredient"
-      ]
+      "flags": []
     },
     {
       "id": "fluticasone",
@@ -2537,7 +2520,7 @@
         "registered": true,
         "id": "66921927",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66921927/extrait",
-        "marketedProducts": 69
+        "marketedProducts": 63
       },
       "status": {
         "entry": "RX",
@@ -2554,7 +2537,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "61748649",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61748649/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2621,7 +2604,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "65217119",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65217119/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2642,44 +2625,12 @@
       "brands": [
         {
           "name": "Eliquis",
-          "id": "62111096",
-          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62111096/extrait",
+          "id": "69340279",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69340279/extrait",
           "confirmed": true,
           "note": null,
-          "matched": "ELIQUIS 0,15 mg, granulés en gélule à ouvrir",
+          "matched": "ELIQUIS 2,5 mg, comprimé pelliculé",
           "products": [
-            {
-              "cis": "62111096",
-              "product": "ELIQUIS 0,15 mg, granulés en gélule à ouvrir",
-              "legal": "RX",
-              "conditions": [
-                "liste I"
-              ]
-            },
-            {
-              "cis": "63078845",
-              "product": "ELIQUIS 0,5 mg, granulés enrobés en sachet",
-              "legal": "RX",
-              "conditions": [
-                "liste I"
-              ]
-            },
-            {
-              "cis": "69815128",
-              "product": "ELIQUIS 1,5 mg, granulés enrobés en sachet",
-              "legal": "RX",
-              "conditions": [
-                "liste I"
-              ]
-            },
-            {
-              "cis": "61425336",
-              "product": "ELIQUIS 2 mg, granulés enrobés en sachet",
-              "legal": "RX",
-              "conditions": [
-                "liste I"
-              ]
-            },
             {
               "cis": "69340279",
               "product": "ELIQUIS 2,5 mg, comprimé pelliculé",
@@ -2701,9 +2652,9 @@
       ],
       "ingredient": {
         "registered": true,
-        "id": "62111096",
-        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62111096/extrait",
-        "marketedProducts": 6
+        "id": "69340279",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69340279/extrait",
+        "marketedProducts": 2
       },
       "status": {
         "entry": "RX",
@@ -2712,15 +2663,15 @@
         "evidence": {
           "source": "BDPM prescription and dispensing conditions",
           "products": {
-            "RX": 6
+            "RX": 2
           }
         }
       },
       "verified": {
         "registry": "Base de données publique des médicaments (France)",
-        "id": "62111096",
-        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62111096/extrait",
-        "checked": "2026-10-20",
+        "id": "69340279",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69340279/extrait",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2772,6 +2723,14 @@
               ]
             },
             {
+              "cis": "69304938",
+              "product": "LASILIX FAIBLE 20 mg, comprimé",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
               "cis": "67537203",
               "product": "LASILIX SPECIAL 250 mg/25 ml, solution injectable en ampoule",
               "legal": "RX",
@@ -2796,7 +2755,7 @@
         "registered": true,
         "id": "65449480",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65449480/extrait",
-        "marketedProducts": 28
+        "marketedProducts": 29
       },
       "status": {
         "entry": "RX",
@@ -2805,7 +2764,7 @@
         "evidence": {
           "source": "BDPM prescription and dispensing conditions",
           "products": {
-            "RX": 5
+            "RX": 6
           }
         }
       },
@@ -2813,7 +2772,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "63736250",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63736250/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2869,8 +2828,8 @@
       ],
       "ingredient": {
         "registered": true,
-        "id": "64332894",
-        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64332894/extrait",
+        "id": "66513085",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66513085/extrait",
         "marketedProducts": 7
       },
       "status": {
@@ -2888,7 +2847,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "64745003",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64745003/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2970,7 +2929,7 @@
         "registered": true,
         "id": "65132156",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65132156/extrait",
-        "marketedProducts": 10
+        "marketedProducts": 13
       },
       "status": {
         "entry": "RX",
@@ -2979,7 +2938,7 @@
         "evidence": {
           "source": "BDPM prescription and dispensing conditions",
           "products": {
-            "RX": 7
+            "RX": 9
           }
         }
       },
@@ -2987,7 +2946,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "65132156",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65132156/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3112,7 +3071,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "69482353",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69482353/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3154,7 +3113,7 @@
         "registered": true,
         "id": "62809126",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62809126/extrait",
-        "marketedProducts": 6
+        "marketedProducts": 12
       },
       "status": {
         "entry": "RX",
@@ -3171,7 +3130,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "62809126",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62809126/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3210,12 +3169,28 @@
         },
         {
           "name": "Umuline NPH",
-          "id": "60464222",
-          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60464222/extrait",
+          "id": "62832089",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62832089/extrait",
           "confirmed": true,
           "note": null,
-          "matched": "UMULINE NPH KWIKPEN 100 UI/1 mL, suspension injectable",
+          "matched": "UMULINE NPH 100 UI/mL, suspension injectable en cartouche",
           "products": [
+            {
+              "cis": "62832089",
+              "product": "UMULINE NPH 100 UI/mL, suspension injectable en cartouche",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
+            {
+              "cis": "67340490",
+              "product": "UMULINE NPH 100 UI/mL, suspension injectable en flacon",
+              "legal": "RX",
+              "conditions": [
+                "liste II"
+              ]
+            },
             {
               "cis": "60464222",
               "product": "UMULINE NPH KWIKPEN 100 UI/1 mL, suspension injectable",
@@ -3231,7 +3206,7 @@
         "registered": true,
         "id": "62809126",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62809126/extrait",
-        "marketedProducts": 6
+        "marketedProducts": 12
       },
       "status": {
         "entry": "RX",
@@ -3240,7 +3215,7 @@
         "evidence": {
           "source": "BDPM prescription and dispensing conditions",
           "products": {
-            "RX": 2
+            "RX": 4
           }
         }
       },
@@ -3248,7 +3223,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "69704932",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69704932/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3315,7 +3290,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "64529525",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64529525/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3382,7 +3357,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "60791754",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60791754/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3422,7 +3397,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "60457719",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60457719/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -3461,7 +3436,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "60005856",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60005856/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -3527,7 +3502,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "67947145",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67947145/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3614,7 +3589,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "61271735",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61271735/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3711,7 +3686,7 @@
         "registered": true,
         "id": "68106394",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68106394/extrait",
-        "marketedProducts": 87
+        "marketedProducts": 88
       },
       "status": {
         "entry": "CONTROLLED",
@@ -3728,7 +3703,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "62355702",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62355702/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3780,7 +3755,7 @@
         "registered": true,
         "id": "63372551",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63372551/extrait",
-        "marketedProducts": 25
+        "marketedProducts": 26
       },
       "status": {
         "entry": "RX",
@@ -3797,7 +3772,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "69847791",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69847791/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3872,7 +3847,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "60118715",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60118715/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3939,7 +3914,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "60562855",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60562855/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4025,7 +4000,7 @@
         "registered": true,
         "id": "66313736",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66313736/extrait",
-        "marketedProducts": 36
+        "marketedProducts": 32
       },
       "status": {
         "entry": "OTC",
@@ -4042,7 +4017,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "61162942",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61162942/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4085,8 +4060,8 @@
               "legal": "CONTROLLED",
               "conditions": [
                 "prescription limitée à 4 semaines",
-                "stupéfiants",
-                "prescription sur ordonnance sécurisée"
+                "prescription en toutes lettres sur ordonnance sécurisée",
+                "stupéfiants"
               ]
             },
             {
@@ -4095,8 +4070,8 @@
               "legal": "CONTROLLED",
               "conditions": [
                 "prescription limitée à 4 semaines",
-                "stupéfiants",
-                "prescription sur ordonnance sécurisée"
+                "prescription en toutes lettres sur ordonnance sécurisée",
+                "stupéfiants"
               ]
             },
             {
@@ -4115,8 +4090,8 @@
               "legal": "CONTROLLED",
               "conditions": [
                 "prescription limitée à 4 semaines",
-                "stupéfiants",
-                "prescription sur ordonnance sécurisée"
+                "prescription en toutes lettres sur ordonnance sécurisée",
+                "stupéfiants"
               ]
             },
             {
@@ -4153,7 +4128,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "61200108",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61200108/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4221,9 +4196,9 @@
                 "prescription réservée aux spécialistes et services PSYCHIATRIE",
                 "prescription limitée à 4 semaines",
                 "prescription initiale annuelle réservée à certains spécialistes",
+                "prescription en toutes lettres sur ordonnance sécurisée",
                 "stupéfiants",
-                "renouvellement non restreint",
-                "prescription sur ordonnance sécurisée"
+                "renouvellement non restreint"
               ]
             },
             {
@@ -4236,9 +4211,9 @@
                 "prescription réservée aux spécialistes et services PSYCHIATRIE",
                 "prescription limitée à 4 semaines",
                 "prescription initiale annuelle réservée à certains spécialistes",
+                "prescription en toutes lettres sur ordonnance sécurisée",
                 "stupéfiants",
-                "renouvellement non restreint",
-                "prescription sur ordonnance sécurisée"
+                "renouvellement non restreint"
               ]
             },
             {
@@ -4251,9 +4226,9 @@
                 "prescription réservée aux spécialistes et services PSYCHIATRIE",
                 "prescription limitée à 4 semaines",
                 "prescription initiale annuelle réservée à certains spécialistes",
+                "prescription en toutes lettres sur ordonnance sécurisée",
                 "stupéfiants",
-                "renouvellement non restreint",
-                "prescription sur ordonnance sécurisée"
+                "renouvellement non restreint"
               ]
             }
           ]
@@ -4280,7 +4255,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "60059081",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60059081/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4389,7 +4364,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "67849644",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67849644/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4441,7 +4416,7 @@
         "registered": true,
         "id": "68266388",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68266388/extrait",
-        "marketedProducts": 57
+        "marketedProducts": 55
       },
       "status": {
         "entry": "OTC",
@@ -4458,7 +4433,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "60851678",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60851678/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4534,7 +4509,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "68712285",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68712285/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4591,7 +4566,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "63320939",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63320939/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4692,7 +4667,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "66819541",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66819541/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4732,9 +4707,9 @@
       ],
       "ingredient": {
         "registered": true,
-        "id": "65639939",
-        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65639939/extrait",
-        "marketedProducts": 1
+        "id": "63581266",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63581266/extrait",
+        "marketedProducts": 2
       },
       "status": {
         "entry": "RX",
@@ -4751,7 +4726,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "65639939",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65639939/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4782,7 +4757,15 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "Base de données publique des médicaments (France)",
+        "id": "Bismuth subsalicylate",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "high",
         "to": "high"
@@ -4839,7 +4822,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "63674254",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63674254/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4896,7 +4879,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "63660735",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63660735/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4998,7 +4981,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "64835956",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64835956/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5089,7 +5072,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "69298346",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69298346/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5146,7 +5129,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "60456535",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60456535/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5219,7 +5202,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "67981927",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67981927/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5300,7 +5283,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "67301480",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67301480/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5316,26 +5299,9 @@
     {
       "id": "antibiotic-ointment",
       "generic": "Bacitracin / Neomycin / Polymyxin B (antibiotic ointment)",
-      "brand": "Fucidine / Mupiderm (Rx)",
-      "kind": "brand",
-      "brands": [
-        {
-          "name": "Fucidine",
-          "id": null,
-          "url": null,
-          "confirmed": false,
-          "note": "registered under this name with FUSIDIQUE (ACIDE), not this ingredient",
-          "products": []
-        },
-        {
-          "name": "Mupiderm",
-          "id": null,
-          "url": null,
-          "confirmed": false,
-          "note": "registered under this name with MUPIROCINE, not this ingredient",
-          "products": []
-        }
-      ],
+      "brand": "Not sold here",
+      "kind": "unavailable",
+      "brands": [],
       "ingredient": {
         "registered": true,
         "id": "64835493",
@@ -5343,10 +5309,15 @@
         "marketedProducts": 1
       },
       "status": {
-        "entry": "RX",
-        "registry": null,
+        "entry": "UNAVAILABLE",
+        "registry": "RX",
         "result": "na",
-        "evidence": null
+        "evidence": {
+          "source": "BDPM prescription and dispensing conditions",
+          "products": {
+            "RX": 1
+          }
+        }
       },
       "verified": null,
       "confidence": {
@@ -5354,8 +5325,7 @@
         "to": "high"
       },
       "flags": [
-        "Brand \"Fucidine\" not confirmed: registered under this name with FUSIDIQUE (ACIDE), not this ingredient",
-        "Brand \"Mupiderm\" not confirmed: registered under this name with MUPIROCINE, not this ingredient"
+        "Entry says \"Not sold here\" but the registry lists products with this ingredient"
       ]
     },
     {
@@ -5408,7 +5378,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "67103299",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67103299/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5465,7 +5435,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "60812935",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60812935/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5532,7 +5502,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "61638010",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61638010/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5600,7 +5570,7 @@
         "registered": true,
         "id": "61722191",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61722191/extrait",
-        "marketedProducts": 13
+        "marketedProducts": 14
       },
       "status": {
         "entry": "RX",
@@ -5617,7 +5587,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "63307856",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63307856/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5700,7 +5670,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "65740799",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65740799/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5759,7 +5729,7 @@
         "registered": true,
         "id": "65126598",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65126598/extrait",
-        "marketedProducts": 29
+        "marketedProducts": 30
       },
       "status": {
         "entry": "RX",
@@ -5776,7 +5746,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "65126598",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65126598/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5843,7 +5813,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "68693244",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68693244/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5910,7 +5880,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "63958849",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63958849/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6009,7 +5979,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "65991171",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65991171/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6080,7 +6050,7 @@
             },
             {
               "cis": "66223317",
-              "product": "ANAPEN 500 microgrammes/0,3 mL, solution injectable en seringue préremplie",
+              "product": "ANAPEN 500 microgrammes/0,3 ml, solution injectable en seringue préremplie",
               "legal": "RX",
               "conditions": [
                 "liste I"
@@ -6136,7 +6106,7 @@
         "registry": "Base de données publique des médicaments (France)",
         "id": "61846627",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61846627/extrait",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",

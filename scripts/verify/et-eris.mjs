@@ -26,6 +26,8 @@ const UA = { 'User-Agent': 'rxabroad-verify (+https://rxabroad.vercel.app)' };
 
 export const registry = { code: 'ET', name: 'EFDA register of approved medicines (Ethiopia)' };
 export const cannotDetect = ['MIXED', 'CONTROLLED'];
+// The register lists every medicine on sale here, so finding nothing with an ingredient shows it isn't sold.
+export const provesAbsence = true;
 
 const OTC_LIST = {
   url: 'https://www.efda.gov.et/wp-content/uploads/2022/09/OTC-medicines-list.pdf',

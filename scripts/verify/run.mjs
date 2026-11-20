@@ -6,6 +6,8 @@
 // every mismatch). With --write it also updates drugs.json, under these rules:
 //   - `brand`, `status` and `note` are never edited. Mismatches are reported for a person to decide.
 //   - `verified` is attached when the registry confirms the entry, and removed when it no longer does.
+//   - A "Not sold here" entry is verified when a register that lists everything on sale (`provesAbsence`)
+//     has no product with the ingredient. It goes to high only when its status is UNAVAILABLE.
 //   - US only: an entry whose brand is withdrawn or doubtful is verified on its generic ingredient instead.
 //   - `confidence` goes to high only when the registry confirms everything the entry claims: brand, ingredient and
 //     legal status for a branded entry, or ingredient and legal status for a "sold generic" entry that names no brand.
@@ -80,12 +82,18 @@ for (const drug of drugs) {
   if (parsed.kind === 'brand') checks = brandsSolid ? ['brand', 'ingredient'] : onIngredient ? ['ingredient'] : [];
   else if (parsed.kind === 'generic') checks = res.ingredient.registered ? ['ingredient'] : [];
   else if (parsed.kind === 'other') checks = res.ingredient.registered && statusResult === 'agree' ? ['ingredient'] : [];
+  // "Not sold here" is confirmed by an empty search, but only in a register that lists everything on sale.
+  else if (parsed.kind === 'unavailable') checks = adapter.provesAbsence && !res.ingredient.registered ? ['absent'] : [];
   if (checks.length && statusResult === 'agree') checks.push('status');
 
+  const absent = checks[0] === 'absent';
   const anchor = (onIngredient ? null : res.brands.find((b) => b.confirmed)) ?? res.ingredient;
-  const verified = checks.length && anchor.id
-    ? { registry: adapter.registry.name, id: String(anchor.id), url: anchor.url, checked, checks }
-    : null;
+  // An absence has no record to point to, so it keeps the term searched and the page to search it on.
+  const verified = absent
+    ? { registry: adapter.registry.name, id: String(res.ingredient.searched ?? drug.generic), url: res.ingredient.url ?? adapter.registry.url, checked, checks }
+    : checks.length && anchor.id
+      ? { registry: adapter.registry.name, id: String(anchor.id), url: anchor.url, checked, checks }
+      : null;
 
   const flags = [...(res.flags ?? [])];
   for (const b of res.brands) if (!b.confirmed) flags.push(`Brand "${b.name}" not confirmed: ${b.note ?? 'not found'}`);
@@ -97,7 +105,7 @@ for (const drug of drugs) {
 
   // A generic-only entry makes no brand claim, so there is no brand to confirm.
   const genericConfirmed = parsed.kind === 'generic' && checks.includes('ingredient');
-  const confirmed = (brandsSolid || genericConfirmed) && statusResult === 'agree';
+  const confirmed = ((brandsSolid || genericConfirmed) && statusResult === 'agree') || (absent && entry.status === 'UNAVAILABLE');
   // A registry-verified entry never keeps the "unconfirmed" (low) label: fully confirmed goes to high,
   // partly confirmed (say, the ingredient but not the legal status) to medium.
   const to = confirmed && entry.confidence !== 'high' ? 'high' : verified && entry.confidence === 'low' ? 'medium' : entry.confidence;
@@ -134,6 +142,7 @@ const summary = {
   brandNames: brandEntries.reduce((n, e) => n + e.brands.length, 0),
   brandNamesConfirmed: brandEntries.reduce((n, e) => n + e.brands.filter((b) => b.confirmed).length, 0),
   verified: count((e) => e.verified),
+  verifiedAbsent: count((e) => e.verified?.checks.includes('absent')),
   statusAgree: count((e) => e.status.result === 'agree'),
   statusDiffer: count((e) => e.status.result === 'differ'),
   statusNotComparable: count((e) => e.status.result === 'na'),
@@ -157,7 +166,7 @@ if (write) {
 
 console.log(`${code} · ${adapter.registry.name}${session?.version ? ` (${session.version})` : ''}`);
 console.log(`  brand names confirmed   ${summary.brandNamesConfirmed} of ${summary.brandNames} (${summary.brandEntriesConfirmed} of ${summary.brandEntries} entries fully)`);
-console.log(`  entries verified        ${summary.verified} of ${summary.entries}`);
+console.log(`  entries verified        ${summary.verified} of ${summary.entries} (${summary.verifiedAbsent} as not sold here)`);
 console.log(`  legal status            ${summary.statusAgree} agree · ${summary.statusDiffer} differ · ${summary.statusNotComparable} not comparable`);
 console.log(`  confidence raised       ${summary.confidenceRaised}`);
 console.log(`\n  Needs a look (${summary.flagged}):`);

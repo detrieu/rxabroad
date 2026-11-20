@@ -2,19 +2,20 @@
   "country": "MA",
   "registry": "AMMPS Liste Marocaine des Médicaments",
   "registryVersion": null,
-  "checked": "2026-10-27",
+  "checked": "2026-11-20",
   "summary": {
     "entries": 82,
-    "brandEntries": 56,
+    "brandEntries": 57,
     "brandEntriesConfirmed": 56,
-    "brandNames": 67,
+    "brandNames": 68,
     "brandNamesConfirmed": 67,
-    "verified": 64,
+    "verified": 79,
+    "verifiedAbsent": 15,
     "statusAgree": 0,
     "statusDiffer": 0,
     "statusNotComparable": 82,
-    "confidenceRaised": 2,
-    "flagged": 5
+    "confidenceRaised": 13,
+    "flagged": 3
   },
   "entries": [
     {
@@ -112,7 +113,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "563",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Doliprane",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -269,7 +270,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "802",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Brufen",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -406,7 +407,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "3910",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Clartec",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -513,7 +514,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "6040",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Zyrtec",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -549,7 +550,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "5356",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=DIPHENHYDRAM",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient"
         ]
@@ -615,7 +616,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "620",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Loperium",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -792,7 +793,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "4960",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Omepral",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -828,7 +829,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "580",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=PSEUDOEPHEDR",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient"
         ]
@@ -854,15 +855,15 @@
         "otherProducts": 0
       },
       "status": {
-        "entry": "UNCONFIRMED",
+        "entry": "OTC",
         "registry": null,
         "result": "na",
         "evidence": null
       },
       "verified": null,
       "confidence": {
-        "from": "medium",
-        "to": "medium"
+        "from": "high",
+        "to": "high"
       },
       "flags": [
         "Ingredient not found in this registry"
@@ -871,8 +872,8 @@
     {
       "id": "dimenhydrinate",
       "generic": "Dimenhydrinate",
-      "brand": "Sold generic as \"Diménhydrinate\"",
-      "kind": "generic",
+      "brand": "Not sold here",
+      "kind": "unavailable",
       "brands": [],
       "ingredient": {
         "registered": false,
@@ -883,19 +884,25 @@
         "otherProducts": 1
       },
       "status": {
-        "entry": "UNCONFIRMED",
+        "entry": "UNAVAILABLE",
         "registry": null,
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "DIMENHYDRINA",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=DIMENHYDRINA",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
-      "flags": [
-        "Ingredient not found in this registry"
-      ]
+      "flags": []
     },
     {
       "id": "amoxicillin",
@@ -908,8 +915,8 @@
         "id": "3808",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=AMOXICILLIN",
         "searched": "AMOXICILLIN",
-        "marketedProducts": 164,
-        "otherProducts": 158
+        "marketedProducts": 168,
+        "otherProducts": 154
       },
       "status": {
         "entry": "RX",
@@ -921,7 +928,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "3808",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=AMOXICILLIN",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient"
         ]
@@ -1027,7 +1034,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "924",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Glucophage",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -1134,7 +1141,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "3791",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Zoloft",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -1241,7 +1248,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "1971",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Ventoline",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -1335,8 +1342,8 @@
         "id": "3119",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=ATORVASTATIN",
         "searched": "ATORVASTATIN",
-        "marketedProducts": 27,
-        "otherProducts": 37
+        "marketedProducts": 29,
+        "otherProducts": 35
       },
       "status": {
         "entry": "RX",
@@ -1348,7 +1355,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "3748",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Tahor",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -1455,7 +1462,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "966",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Levothyrox",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -1542,7 +1549,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "7308",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Lisor",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -1649,7 +1656,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "3576",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Amlor",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -1681,10 +1688,18 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "METOPROLOL",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=METOPROLOL",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
@@ -1853,7 +1868,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "214",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Tanzaar",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -1920,7 +1935,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "3718",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Neurontin",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -2027,7 +2042,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "2752",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Crestor",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -2114,7 +2129,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "3538",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Razon",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -2181,7 +2196,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "5418",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Seroplex",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -2213,7 +2228,15 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "AMPHETAMINE, AMFETAMINE, DEXAMFETAMINE, DEXTROAMPHETAMINE",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=AMPHETAMINE",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
         "to": "medium"
@@ -2262,8 +2285,8 @@
         "id": "3454",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=HYDROCHLOROT",
         "searched": "HYDROCHLOROT",
-        "marketedProducts": 108,
-        "otherProducts": 101
+        "marketedProducts": 107,
+        "otherProducts": 102
       },
       "status": {
         "entry": "RX",
@@ -2275,7 +2298,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "3343",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Esidrex",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -2362,7 +2385,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "1981",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Wellbutrin%20XR",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -2469,7 +2492,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "5571",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Fluoxet",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -2576,7 +2599,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "9145",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Ozempic",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -2683,7 +2706,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "3266",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Singulair",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -2715,10 +2738,18 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "TRAZODONE",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=TRAZODONE",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
@@ -2807,7 +2838,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "6162",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Zovas",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -2984,7 +3015,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "1125",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Umax",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3016,7 +3047,15 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "HYDROCODONE",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=HYDROCODONE",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
         "to": "medium"
@@ -3098,7 +3137,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "1858",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Flixonase",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3205,7 +3244,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "634",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Mobic",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3312,7 +3351,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "3646",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Eliquis",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3399,7 +3438,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "5325",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Lasilix",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3486,7 +3525,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "5319",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Lantus",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3593,7 +3632,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "5771",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Humalog",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3650,7 +3689,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "2577",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=NovoRapid",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3717,7 +3756,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "2310",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Actrapid",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3784,7 +3823,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "2494",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Insulatard",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3851,7 +3890,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "2520",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Levemir",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3938,7 +3977,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "7177",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Tresiba",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -4055,7 +4094,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "4445",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Dulophi",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -4087,10 +4126,18 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "FAMOTIDINE",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=FAMOTIDINE",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
@@ -4127,17 +4174,37 @@
               "marketing": "Commercialisé",
               "origin": "PP",
               "holder": "BOTTU"
+            },
+            {
+              "id": "485",
+              "product": "JARDIANCE",
+              "strength": "10 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "EMPAGLIFLOZINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
+            },
+            {
+              "id": "486",
+              "product": "JARDIANCE",
+              "strength": "25 MG",
+              "form": "COMPRIME PELLICULE",
+              "ingredients": "EMPAGLIFLOZINE",
+              "marketing": "Commercialisé",
+              "origin": "PP",
+              "holder": "BOTTU"
             }
           ]
         }
       ],
       "ingredient": {
-        "registered": false,
-        "id": null,
+        "registered": true,
+        "id": "485",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=EMPAGLIFLOZI",
         "searched": "EMPAGLIFLOZI",
-        "marketedProducts": 0,
-        "otherProducts": 0
+        "marketedProducts": 4,
+        "otherProducts": 2
       },
       "status": {
         "entry": "RX",
@@ -4149,7 +4216,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "485",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Jardiance",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -4293,8 +4360,8 @@
         "id": "7603",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=CARVEDILOL",
         "searched": "CARVEDILOL",
-        "marketedProducts": 22,
-        "otherProducts": 18
+        "marketedProducts": 21,
+        "otherProducts": 19
       },
       "status": {
         "entry": "RX",
@@ -4306,7 +4373,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "5065",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Dilatrend",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -4413,14 +4480,14 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "728",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Tramal",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -4550,14 +4617,14 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "1173",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Xanax",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "medium",
         "to": "medium"
       },
       "flags": []
@@ -4657,7 +4724,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "5253",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Cortancyl",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -4744,7 +4811,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "5386",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Plavix",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -4778,7 +4845,7 @@
               "ingredients": "ACETYLSALICYLATE DE LYSINE",
               "marketing": "Commercialisé",
               "origin": "PP",
-              "holder": "SANOFI AVENTIS"
+              "holder": "MAPHAR"
             },
             {
               "id": "5214",
@@ -4788,7 +4855,7 @@
               "ingredients": "ACETYLSALICYLATE DE LYSINE",
               "marketing": "Commercialisé",
               "origin": "PP",
-              "holder": "SANOFI AVENTIS"
+              "holder": "MAPHAR"
             },
             {
               "id": "5215",
@@ -4798,7 +4865,7 @@
               "ingredients": "ACETYLSALICYLATE DE LYSINE",
               "marketing": "Commercialisé",
               "origin": "PP",
-              "holder": "SANOFI AVENTIS"
+              "holder": "MAPHAR"
             },
             {
               "id": "5212",
@@ -4808,7 +4875,7 @@
               "ingredients": "ACETYLSALICYLATE DE LYSINE",
               "marketing": "Commercialisé",
               "origin": "PP",
-              "holder": "SANOFI AVENTIS"
+              "holder": "MAPHAR"
             },
             {
               "id": "5216",
@@ -4818,7 +4885,7 @@
               "ingredients": "ACETYLSALICYLATE DE LYSINE",
               "marketing": "Commercialisé",
               "origin": "PP",
-              "holder": "SANOFI AVENTIS"
+              "holder": "MAPHAR"
             },
             {
               "id": "5211",
@@ -4828,7 +4895,7 @@
               "ingredients": "ACETYLSALICYLATE DE LYSINE",
               "marketing": "Commercialisé",
               "origin": "PP",
-              "holder": "SANOFI AVENTIS"
+              "holder": "MAPHAR"
             }
           ]
         }
@@ -4851,7 +4918,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "5211",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Asp%C3%A9gic",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -4883,10 +4950,18 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "OXYCODONE",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=OXYCODONE",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
@@ -4910,10 +4985,18 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "METHYLPHENID",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=METHYLPHENID",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
@@ -4992,7 +5075,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "2129",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Algixene",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -5059,7 +5142,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "1774",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Voltar%C3%A8ne%20Emulgel",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -5091,10 +5174,18 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "FEXOFENADINE",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=FEXOFENADINE",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
@@ -5122,7 +5213,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "1037",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=GUAIFENESIN",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient"
         ]
@@ -5157,7 +5248,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "6044",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=DEXTROMETHOR",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient"
         ]
@@ -5171,9 +5262,18 @@
     {
       "id": "oxymetazoline",
       "generic": "Oxymetazoline (nasal spray)",
-      "brand": "Sold generic as \"Oxymétazoline\"",
-      "kind": "generic",
-      "brands": [],
+      "brand": "Nasivine",
+      "kind": "brand",
+      "brands": [
+        {
+          "name": "Nasivine",
+          "id": null,
+          "url": null,
+          "confirmed": false,
+          "note": "not in the list",
+          "products": []
+        }
+      ],
       "ingredient": {
         "registered": false,
         "id": null,
@@ -5190,11 +5290,11 @@
       },
       "verified": null,
       "confidence": {
-        "from": "low",
-        "to": "low"
+        "from": "medium",
+        "to": "medium"
       },
       "flags": [
-        "Ingredient not found in this registry"
+        "Brand \"Nasivine\" not confirmed: not in the list"
       ]
     },
     {
@@ -5217,10 +5317,18 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "BISMUTH SUBS",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=BISMUTH%20SUBS",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
@@ -5244,10 +5352,18 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "CALCIUM CARB, CARBONATE DE CALCIUM, CALCIUM CARBONATE",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=CALCIUM%20CARB",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
@@ -5275,7 +5391,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "984",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=SIMETICONE",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient"
         ]
@@ -5308,8 +5424,8 @@
       },
       "verified": null,
       "confidence": {
-        "from": "low",
-        "to": "low"
+        "from": "medium",
+        "to": "medium"
       },
       "flags": [
         "Ingredient not found in this registry"
@@ -5370,7 +5486,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "2750",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Contalax",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -5437,7 +5553,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "2829",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Forlax",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -5469,10 +5585,18 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "MECLOZINE, MECLIZINE",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=MECLOZINE",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
@@ -5500,7 +5624,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "6322",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=HYDROCORTISO",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient"
         ]
@@ -5616,7 +5740,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "60",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Clomiter",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -5635,12 +5759,12 @@
       "kind": "unavailable",
       "brands": [],
       "ingredient": {
-        "registered": true,
-        "id": "1352",
+        "registered": false,
+        "id": null,
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=BACITRACIN",
         "searched": "BACITRACIN, NEOMYCINE, BACITRACINE",
-        "marketedProducts": 8,
-        "otherProducts": 10
+        "marketedProducts": 0,
+        "otherProducts": 4
       },
       "status": {
         "entry": "UNAVAILABLE",
@@ -5648,14 +5772,20 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "BACITRACIN, NEOMYCINE, BACITRACINE",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=BACITRACIN",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
-      "flags": [
-        "Entry says \"Not sold here\" but the registry lists products with this ingredient"
-      ]
+      "flags": []
     },
     {
       "id": "doxylamine",
@@ -5712,7 +5842,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "7872",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Cariban",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -5809,7 +5939,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "8112",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Aconcept",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -5876,7 +6006,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "1883",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Malanil",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -5912,7 +6042,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "2409",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=DOXYCYCLINE",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient"
         ]
@@ -5998,7 +6128,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "3786",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Zithromax",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -6085,7 +6215,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "2253",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Cifloxine",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -6152,7 +6282,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "2770",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Diamox",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -6184,10 +6314,18 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "SCOPOLAMINE",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=SCOPOLAMINE",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
@@ -6266,7 +6404,7 @@
         "registry": "AMMPS Liste Marocaine des Médicaments",
         "id": "3531",
         "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=Onset",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -6298,10 +6436,18 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "AMMPS Liste Marocaine des Médicaments",
+        "id": "EPINEPHRINE, ADRENALIN, ADRENALINE",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?search=EPINEPHRINE",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     }

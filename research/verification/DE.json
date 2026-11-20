@@ -1,19 +1,20 @@
 {
   "country": "DE",
   "registry": "AMIce drug information system (BfArM, Germany)",
-  "registryVersion": "searched 2026-10-20",
-  "checked": "2026-10-20",
+  "registryVersion": "searched 2026-11-20",
+  "checked": "2026-11-20",
   "summary": {
     "entries": 82,
     "brandEntries": 72,
     "brandEntriesConfirmed": 70,
     "brandNames": 99,
     "brandNamesConfirmed": 97,
-    "verified": 77,
+    "verified": 79,
+    "verifiedAbsent": 2,
     "statusAgree": 74,
     "statusDiffer": 5,
     "statusNotComparable": 3,
-    "confidenceRaised": 1,
+    "confidenceRaised": 2,
     "flagged": 6
   },
   "entries": [
@@ -97,7 +98,7 @@
         "id": "3599.99.98",
         "url": "https://portal.bfarm.de/amguifree/",
         "searched": "N02BE01",
-        "marketedProducts": 1063
+        "marketedProducts": 1067
       },
       "status": {
         "entry": "PHARMACY",
@@ -115,7 +116,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "2697.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -232,7 +233,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "50464.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -291,7 +292,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "47097.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -326,14 +327,14 @@
             },
             {
               "product": "Zyrtec",
-              "holder": "ACA Müller ADAG Pharma Aktiengesellschaft",
-              "authorisation": "28005.00.00",
+              "holder": "kohlpharma GmbH",
+              "authorisation": "39736.00.00",
               "legal": "pharmacy-only"
             },
             {
               "product": "Zyrtec",
-              "holder": "kohlpharma GmbH",
-              "authorisation": "39736.00.00",
+              "holder": "Docpharm GmbH",
+              "authorisation": "29709.00.00",
               "legal": "pharmacy-only"
             }
           ]
@@ -361,7 +362,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "25701.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -402,7 +403,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "2203962.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -471,7 +472,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "7018230.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -576,7 +577,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "77976.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -673,7 +674,7 @@
         "id": "78358.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
         "searched": "Pseudoephedrin",
-        "marketedProducts": 27
+        "marketedProducts": 26
       },
       "status": {
         "entry": "PHARMACY",
@@ -682,7 +683,7 @@
         "evidence": {
           "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
           "products": {
-            "pharmacy-only": 8
+            "pharmacy-only": 7
           }
         }
       },
@@ -690,7 +691,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "78358.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -760,7 +761,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "EU/1/07/392/003",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -768,7 +769,7 @@
         ]
       },
       "confidence": {
-        "from": "medium",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -843,7 +844,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "2202747.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -942,7 +943,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "32376.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1040,7 +1041,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "51643.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1126,7 +1127,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "49564.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1147,7 +1148,7 @@
       "brands": [
         {
           "name": "Sultanol",
-          "id": "40393.00.00",
+          "id": "7016139.00.00",
           "url": "https://portal.bfarm.de/amguifree/",
           "confirmed": true,
           "note": null,
@@ -1155,14 +1156,14 @@
           "products": [
             {
               "product": "Sultanol Dosier-Aerosol",
-              "holder": "GlaxoSmithKline GmbH & Co. KG",
-              "authorisation": "40393.00.00",
+              "holder": "European Pharma B.V.",
+              "authorisation": "7016139.00.00",
               "legal": "prescription"
             },
             {
               "product": "Sultanol Dosier-Aerosol",
-              "holder": "European Pharma B.V.",
-              "authorisation": "7016139.00.00",
+              "holder": "GlaxoSmithKline GmbH & Co. KG",
+              "authorisation": "40393.00.00",
               "legal": "prescription"
             },
             {
@@ -1210,9 +1211,9 @@
       },
       "verified": {
         "registry": "AMIce drug information system (BfArM, Germany)",
-        "id": "40393.00.00",
+        "id": "7016139.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1233,7 +1234,7 @@
       "brands": [
         {
           "name": "Sortis",
-          "id": "88574.00.00",
+          "id": "45401.00.00",
           "url": "https://portal.bfarm.de/amguifree/",
           "confirmed": true,
           "note": null,
@@ -1241,14 +1242,14 @@
           "products": [
             {
               "product": "Sortis 10 mg",
-              "holder": "kohlpharma GmbH",
-              "authorisation": "88574.00.00",
+              "holder": "EMRA-MED Arzneimittel GmbH",
+              "authorisation": "45401.00.00",
               "legal": "prescription"
             },
             {
               "product": "Sortis 10 mg",
-              "holder": "EMRA-MED Arzneimittel GmbH",
-              "authorisation": "45401.00.00",
+              "holder": "kohlpharma GmbH",
+              "authorisation": "88574.00.00",
               "legal": "prescription"
             },
             {
@@ -1280,9 +1281,9 @@
       },
       "verified": {
         "registry": "AMIce drug information system (BfArM, Germany)",
-        "id": "88574.00.00",
+        "id": "45401.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1380,7 +1381,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "53487.02.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1421,7 +1422,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "43691.02.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -1473,7 +1474,7 @@
         "id": "61317.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
         "searched": "C08CA01",
-        "marketedProducts": 64
+        "marketedProducts": 62
       },
       "status": {
         "entry": "RX",
@@ -1490,7 +1491,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "16909.01.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1560,7 +1561,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "4895.00.02",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1581,7 +1582,7 @@
       "brands": [
         {
           "name": "Lorzaar",
-          "id": "41546.02.00",
+          "id": "7023180.00.00",
           "url": "https://portal.bfarm.de/amguifree/",
           "confirmed": true,
           "note": null,
@@ -1589,14 +1590,14 @@
           "products": [
             {
               "product": "LORZAAR PROTECT 100 mg Filmtabletten",
-              "holder": "Organon Healthcare GmbH",
-              "authorisation": "41546.02.00",
+              "holder": "BB Farma s.r.l.",
+              "authorisation": "7023180.00.00",
               "legal": "prescription"
             },
             {
               "product": "LORZAAR PROTECT 100 mg Filmtabletten",
-              "holder": "BB Farma s.r.l.",
-              "authorisation": "7023180.00.00",
+              "holder": "Organon Healthcare GmbH",
+              "authorisation": "41546.02.00",
               "legal": "prescription"
             },
             {
@@ -1628,9 +1629,9 @@
       },
       "verified": {
         "registry": "AMIce drug information system (BfArM, Germany)",
-        "id": "41546.02.00",
+        "id": "7023180.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1683,7 +1684,7 @@
         "id": "60127.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
         "searched": "N02BF01",
-        "marketedProducts": 98
+        "marketedProducts": 100
       },
       "status": {
         "entry": "RX",
@@ -1700,7 +1701,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "47275.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1770,7 +1771,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "81348.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1887,7 +1888,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "EU/1/09/517/004",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1922,14 +1923,14 @@
             },
             {
               "product": "Cipralex 10 mg Filmtabletten",
-              "holder": "H. Lundbeck A/S HR-Beiname: Kefalas A/S",
-              "authorisation": "55880.01.00",
+              "holder": "kohlpharma GmbH",
+              "authorisation": "60655.00.00",
               "legal": "prescription"
             },
             {
               "product": "Cipralex 10 mg Filmtabletten",
-              "holder": "kohlpharma GmbH",
-              "authorisation": "60655.00.00",
+              "holder": "H. Lundbeck A/S HR-Beiname: Kefalas A/S",
+              "authorisation": "55880.01.00",
               "legal": "prescription"
             }
           ]
@@ -1957,7 +1958,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "64675.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2028,7 +2029,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "94042.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2098,7 +2099,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "40202.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2168,7 +2169,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "91726.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2209,7 +2210,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "40255.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -2242,43 +2243,43 @@
               "legal": "prescription"
             },
             {
-              "product": "Ozempic 0,25 mg Injektionslösung in einer Fertigspritze",
+              "product": "Ozempic 1 mg Injektionslösung in einer Fertigspritze",
               "holder": "Novo Nordisk A/S",
-              "authorisation": "EU/1/17/1251/016",
+              "authorisation": "EU/1/17/1251/018",
               "legal": "prescription"
             },
             {
-              "product": "Ozempic 1 mg Injektionslösung im Fertigpen",
+              "product": "Ozempic 0,25 mg Injektionslösung in einer Fertigspritze",
               "holder": "Novo Nordisk A/S",
-              "authorisation": "EU/1/17/1251/015",
+              "authorisation": "EU/1/17/1251/016",
               "legal": "prescription"
             }
           ]
         },
         {
           "name": "Wegovy",
-          "id": "EU/1/21/1608/001",
+          "id": "EU/1/21/1608/029",
           "url": "https://portal.bfarm.de/amguifree/",
           "confirmed": true,
           "note": null,
-          "matched": "Wegovy 0,25 mg Injektionslösung im Fertigpen",
+          "matched": "Wegovy 1,7 mg Injektionslösung in einer Fertigspritze",
           "products": [
+            {
+              "product": "Wegovy 1,7 mg Injektionslösung in einer Fertigspritze",
+              "holder": "Novo Nordisk A/S",
+              "authorisation": "EU/1/21/1608/029",
+              "legal": "prescription"
+            },
+            {
+              "product": "Wegovy 2,4 mg Injektionslösung in einer Fertigspritze",
+              "holder": "Novo Nordisk A/S",
+              "authorisation": "EU/1/21/1608/030",
+              "legal": "prescription"
+            },
             {
               "product": "Wegovy 0,25 mg Injektionslösung im Fertigpen",
               "holder": "Novo Nordisk A/S",
               "authorisation": "EU/1/21/1608/001",
-              "legal": "prescription"
-            },
-            {
-              "product": "Wegovy 25 mg Tabletten",
-              "holder": "Novo Nordisk A/S",
-              "authorisation": "EU/1/21/1608/024",
-              "legal": "prescription"
-            },
-            {
-              "product": "Wegovy 1,5 mg Tabletten",
-              "holder": "Novo Nordisk A/S",
-              "authorisation": "EU/1/21/1608/014",
               "legal": "prescription"
             }
           ]
@@ -2289,7 +2290,7 @@
         "id": "EU/1/26/2019/004",
         "url": "https://portal.bfarm.de/amguifree/",
         "searched": "A10BJ06",
-        "marketedProducts": 139
+        "marketedProducts": 140
       },
       "status": {
         "entry": "RX",
@@ -2298,7 +2299,7 @@
         "evidence": {
           "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
           "products": {
-            "prescription": 93
+            "prescription": 94
           }
         }
       },
@@ -2306,7 +2307,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "EU/1/17/1251/013",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2347,8 +2348,8 @@
             },
             {
               "product": "Singulair 10 mg Filmtabletten",
-              "holder": "CC - Pharma GmbH",
-              "authorisation": "73804.00.00",
+              "holder": "BB Farma s.r.l.",
+              "authorisation": "87526.00.00",
               "legal": "prescription"
             }
           ]
@@ -2376,7 +2377,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "44579.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2417,7 +2418,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "2204234.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -2486,7 +2487,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "35406.01.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2560,7 +2561,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "61324.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2709,7 +2710,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "36062.01.01",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2762,7 +2763,7 @@
         "id": "7001779.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
         "searched": "B01AF02",
-        "marketedProducts": 214
+        "marketedProducts": 221
       },
       "status": {
         "entry": "RX",
@@ -2779,7 +2780,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "EU/1/11/691/013",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2849,7 +2850,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "6132084.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2919,7 +2920,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "EU/1/00/134/037",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3017,7 +3018,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "EU/1/96/007/047",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3115,7 +3116,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "EU/1/99/119/015",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3213,7 +3214,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "EU/1/02/230/003",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3311,7 +3312,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "EU/1/02/234/003",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3381,7 +3382,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "EU/1/04/278/011",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3451,7 +3452,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "EU/1/12/807/004",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3504,7 +3505,7 @@
         "id": "EU/1/04/296/001",
         "url": "https://portal.bfarm.de/amguifree/",
         "searched": "N06AX21",
-        "marketedProducts": 355
+        "marketedProducts": 354
       },
       "status": {
         "entry": "RX",
@@ -3521,7 +3522,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "EU/1/04/296/001",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3585,7 +3586,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "5775.01.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3655,7 +3656,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "EU/1/14/930/018",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3696,7 +3697,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "58440.02.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -3765,7 +3766,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "1116.00.02",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3829,7 +3830,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "29946.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3853,7 +3854,7 @@
         "id": "7005083.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
         "searched": "H02AB07",
-        "marketedProducts": 31
+        "marketedProducts": 34
       },
       "status": {
         "entry": "RX",
@@ -3862,7 +3863,7 @@
         "evidence": {
           "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
           "products": {
-            "prescription": 31
+            "prescription": 34
           }
         }
       },
@@ -3870,7 +3871,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "7005083.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -3922,7 +3923,7 @@
         "id": "74516.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
         "searched": "B01AC04",
-        "marketedProducts": 270
+        "marketedProducts": 271
       },
       "status": {
         "entry": "RX",
@@ -3939,7 +3940,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "EU/1/98/069/012",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3960,12 +3961,18 @@
       "brands": [
         {
           "name": "Aspirin",
-          "id": "6245718.00.00",
+          "id": "46478.00.00",
           "url": "https://portal.bfarm.de/amguifree/",
           "confirmed": true,
           "note": null,
           "matched": "Aspirin",
           "products": [
+            {
+              "product": "Aspirin",
+              "holder": "EMRA-MED Arzneimittel GmbH",
+              "authorisation": "46478.00.00",
+              "legal": "pharmacy-only"
+            },
             {
               "product": "Aspirin",
               "holder": "Bayer Vital GmbH",
@@ -3976,12 +3983,6 @@
               "product": "Aspirin",
               "holder": "Bayer Vital GmbH",
               "authorisation": "25144.00.00",
-              "legal": "pharmacy-only"
-            },
-            {
-              "product": "Aspirin",
-              "holder": "Bayer Vital GmbH",
-              "authorisation": "6092686.00.00",
               "legal": "pharmacy-only"
             }
           ]
@@ -4007,9 +4008,9 @@
       },
       "verified": {
         "registry": "AMIce drug information system (BfArM, Germany)",
-        "id": "6245718.00.00",
+        "id": "46478.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4079,7 +4080,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "41153.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4177,7 +4178,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "7005757.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4258,7 +4259,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "35873.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -4329,7 +4330,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "9165.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4399,7 +4400,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "48446.01.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4457,7 +4458,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "5401.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4543,7 +4544,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "56502.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4607,7 +4608,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "6108938.00.01",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4639,10 +4640,18 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "A07BB",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
@@ -4703,7 +4712,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "77312.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4801,7 +4810,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "44189.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4859,7 +4868,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "4877.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4929,7 +4938,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "43523.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5016,7 +5025,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "89891.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -5049,10 +5058,18 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "AMIce drug information system (BfArM, Germany)",
+        "id": "R06AE05",
+        "url": "https://portal.bfarm.de/amguifree/",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
-        "from": "low",
-        "to": "low"
+        "from": "medium",
+        "to": "high"
       },
       "flags": []
     },
@@ -5135,7 +5152,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "54735.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5205,7 +5222,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "6070101.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5269,7 +5286,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "6527902.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5354,18 +5371,12 @@
       "brands": [
         {
           "name": "PiDaNa",
-          "id": "7010412.00.00",
+          "id": "7015477.00.00",
           "url": "https://portal.bfarm.de/amguifree/",
           "confirmed": true,
           "note": null,
           "matched": "PiDaNa 1,5 mg Tablette",
           "products": [
-            {
-              "product": "PiDaNa 1,5 mg Tablette",
-              "holder": "CC - Pharma GmbH",
-              "authorisation": "7010412.00.00",
-              "legal": "pharmacy-only"
-            },
             {
               "product": "PiDaNa 1,5 mg Tablette",
               "holder": "European Pharma B.V.",
@@ -5376,6 +5387,12 @@
               "product": "Pidana 1,5 mg Tablette",
               "holder": "kohlpharma GmbH",
               "authorisation": "2201905.00.00",
+              "legal": "pharmacy-only"
+            },
+            {
+              "product": "PiDaNa 1,5 mg Tablette",
+              "holder": "EurimPharm Arzneimittel GmbH",
+              "authorisation": "2202048.00.00",
               "legal": "pharmacy-only"
             }
           ]
@@ -5401,9 +5418,9 @@
       },
       "verified": {
         "registry": "AMIce drug information system (BfArM, Germany)",
-        "id": "7010412.00.00",
+        "id": "7015477.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5424,18 +5441,12 @@
       "brands": [
         {
           "name": "Malarone",
-          "id": "51590.00.00",
+          "id": "2202459.00.00",
           "url": "https://portal.bfarm.de/amguifree/",
           "confirmed": true,
           "note": null,
           "matched": "Malarone",
           "products": [
-            {
-              "product": "Malarone",
-              "holder": "EMRA-MED Arzneimittel GmbH",
-              "authorisation": "51590.00.00",
-              "legal": "prescription"
-            },
             {
               "product": "Malarone",
               "holder": "2CARE4 ApS HR-Beiname: Aurora Medical ApS",
@@ -5447,6 +5458,12 @@
               "holder": "EurimPharm Arzneimittel GmbH",
               "authorisation": "53642.00.00",
               "legal": "prescription"
+            },
+            {
+              "product": "Malarone",
+              "holder": "EMRA-MED Arzneimittel GmbH",
+              "authorisation": "51590.00.00",
+              "legal": "prescription"
             }
           ]
         }
@@ -5456,7 +5473,7 @@
         "id": "7000054.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
         "searched": "P01BB51",
-        "marketedProducts": 28
+        "marketedProducts": 29
       },
       "status": {
         "entry": "RX",
@@ -5465,15 +5482,15 @@
         "evidence": {
           "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
           "products": {
-            "prescription": 16
+            "prescription": 17
           }
         }
       },
       "verified": {
         "registry": "AMIce drug information system (BfArM, Germany)",
-        "id": "51590.00.00",
+        "id": "2202459.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5514,7 +5531,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "1230.02.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -5583,7 +5600,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "37174.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5636,7 +5653,7 @@
         "id": "53742.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
         "searched": "J01MA02",
-        "marketedProducts": 59
+        "marketedProducts": 60
       },
       "status": {
         "entry": "RX",
@@ -5645,7 +5662,7 @@
         "evidence": {
           "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
           "products": {
-            "prescription": 11
+            "prescription": 12
           }
         }
       },
@@ -5653,7 +5670,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "8242.04.02",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5727,7 +5744,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "6309022.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5785,7 +5802,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "4597.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5855,7 +5872,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "36332.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5904,7 +5921,7 @@
         },
         {
           "name": "Jext",
-          "id": "86795.00.00",
+          "id": "89770.00.00",
           "url": "https://portal.bfarm.de/amguifree/",
           "confirmed": true,
           "note": null,
@@ -5912,20 +5929,20 @@
           "products": [
             {
               "product": "Jext 150 Mikrogramm",
-              "holder": "EurimPharm Arzneimittel GmbH",
-              "authorisation": "86795.00.00",
-              "legal": "prescription"
-            },
-            {
-              "product": "Jext 150 Mikrogramm",
               "holder": "kohlpharma GmbH",
               "authorisation": "89770.00.00",
               "legal": "prescription"
             },
             {
+              "product": "Jext 150 Mikrogramm",
+              "holder": "EurimPharm Arzneimittel GmbH",
+              "authorisation": "86795.00.00",
+              "legal": "prescription"
+            },
+            {
               "product": "Jext 150 Mikrogramm Injektionslösung in einem Fertigpen",
-              "holder": "Orifarm GmbH - Geschäftsanschrift -",
-              "authorisation": "7004425.00.00",
+              "holder": "Abacus Medicine A/S",
+              "authorisation": "7004507.00.00",
               "legal": "prescription"
             }
           ]
@@ -5936,7 +5953,7 @@
         "id": "93835.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
         "searched": "C01CA24",
-        "marketedProducts": 55
+        "marketedProducts": 54
       },
       "status": {
         "entry": "RX",
@@ -5945,7 +5962,7 @@
         "evidence": {
           "source": "AMIce Verkaufsabgrenzung (legal class of sale)",
           "products": {
-            "prescription": 27
+            "prescription": 26
           }
         }
       },
@@ -5953,7 +5970,7 @@
         "registry": "AMIce drug information system (BfArM, Germany)",
         "id": "13579.00.00",
         "url": "https://portal.bfarm.de/amguifree/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",

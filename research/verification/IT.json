@@ -2,18 +2,19 @@
   "country": "IT",
   "registry": "AIFA medicines database (Italy)",
   "registryVersion": null,
-  "checked": "2026-10-20",
+  "checked": "2026-11-20",
   "summary": {
     "entries": 82,
     "brandEntries": 74,
     "brandEntriesConfirmed": 73,
     "brandNames": 116,
     "brandNamesConfirmed": 114,
-    "verified": 75,
+    "verified": 79,
+    "verifiedAbsent": 4,
     "statusAgree": 72,
     "statusDiffer": 3,
     "statusNotComparable": 7,
-    "confidenceRaised": 0,
+    "confidenceRaised": 2,
     "flagged": 6
   },
   "entries": [
@@ -39,7 +40,7 @@
               "classes": "RR"
             },
             {
-              "aic": "012745360",
+              "aic": "012745170",
               "product": "TACHIPIRINA",
               "form": "1000 mg COMPRESSA",
               "ingredients": "PARACETAMOLO",
@@ -133,7 +134,7 @@
         "id": "029811039",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Paracetamolo",
-        "marketedForms": 163
+        "marketedForms": 162
       },
       "status": {
         "entry": "MIXED",
@@ -153,7 +154,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "012745143",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -334,7 +335,7 @@
         "id": "025636034",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Ibuprofene",
-        "marketedForms": 182
+        "marketedForms": 181
       },
       "status": {
         "entry": "MIXED",
@@ -343,7 +344,7 @@
         "evidence": {
           "source": "AIFA supply class (classe di fornitura), per marketed pack",
           "products": {
-            "OTC": 55,
+            "OTC": 54,
             "SOP": 18,
             "RR": 28
           }
@@ -353,7 +354,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "035618038",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -412,7 +413,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "027075011",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -506,7 +507,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "043629029",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -565,7 +566,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "001740063",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -683,7 +684,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "046757035",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -780,7 +781,7 @@
         "id": "037176029",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Omeprazolo",
-        "marketedForms": 63
+        "marketedForms": 64
       },
       "status": {
         "entry": "RX",
@@ -797,7 +798,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "028245114",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -894,7 +895,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "018723080",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -974,7 +975,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "038264014",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1092,7 +1093,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "002955108",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1148,7 +1149,7 @@
         "id": "029487016",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Amoxicillina",
-        "marketedForms": 122
+        "marketedForms": 123
       },
       "status": {
         "entry": "RX",
@@ -1165,7 +1166,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "023097037",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1273,7 +1274,7 @@
         "id": "045018076",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Metformina",
-        "marketedForms": 143
+        "marketedForms": 142
       },
       "status": {
         "entry": "RX",
@@ -1290,7 +1291,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "017758044",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1384,7 +1385,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "027753045",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1482,7 +1483,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "022984052",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1538,16 +1539,16 @@
               "classes": "RR"
             },
             {
-              "aic": "033007067",
+              "aic": "033007434",
               "product": "TORVAST",
-              "form": "40 mg COMPRESSA",
+              "form": "10 mg COMPRESSA RIVESTITA CON FILM",
               "ingredients": "ATORVASTATINA CALCIO TRIIDRATO + ATORVASTATINA",
               "classes": "RR"
             },
             {
-              "aic": "033007030",
+              "aic": "033007067",
               "product": "TORVAST",
-              "form": "20 mg COMPRESSA",
+              "form": "40 mg COMPRESSA",
               "ingredients": "ATORVASTATINA CALCIO TRIIDRATO + ATORVASTATINA",
               "classes": "RR"
             }
@@ -1604,7 +1605,7 @@
         "id": "040678524",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Atorvastatina",
-        "marketedForms": 189
+        "marketedForms": 198
       },
       "status": {
         "entry": "RX",
@@ -1613,7 +1614,7 @@
         "evidence": {
           "source": "AIFA supply class (classe di fornitura), per marketed pack",
           "products": {
-            "RR": 19
+            "RR": 22
           }
         }
       },
@@ -1621,7 +1622,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "033007410",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1706,34 +1707,6 @@
               "form": "100 mcg/ml GOCCE ORALI, SOLUZIONE",
               "ingredients": "LEVOTIROXINA + LEVOTIROXINA SODICA",
               "classes": "RR"
-            },
-            {
-              "aic": "034368074",
-              "product": "TIROSINT",
-              "form": "25 mcg/ml SOLUZIONE ORALE",
-              "ingredients": "LEVOTIROXINA + LEVOTIROXINA SODICA",
-              "classes": "RR"
-            },
-            {
-              "aic": "034368098",
-              "product": "TIROSINT",
-              "form": "75 mcg/ml SOLUZIONE ORALE",
-              "ingredients": "LEVOTIROXINA + LEVOTIROXINA SODICA",
-              "classes": "RR"
-            },
-            {
-              "aic": "034368086",
-              "product": "TIROSINT",
-              "form": "50 mcg/ml SOLUZIONE ORALE",
-              "ingredients": "LEVOTIROXINA + LEVOTIROXINA SODICA",
-              "classes": "RR"
-            },
-            {
-              "aic": "034368100",
-              "product": "TIROSINT",
-              "form": "100 mcg/ml SOLUZIONE ORALE",
-              "ingredients": "LEVOTIROXINA + LEVOTIROXINA SODICA",
-              "classes": "RR"
             }
           ]
         }
@@ -1743,7 +1716,7 @@
         "id": "046021111",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Levotiroxina",
-        "marketedForms": 58
+        "marketedForms": 54
       },
       "status": {
         "entry": "RX",
@@ -1752,7 +1725,7 @@
         "evidence": {
           "source": "AIFA supply class (classe di fornitura), per marketed pack",
           "products": {
-            "RR": 18
+            "RR": 14
           }
         }
       },
@@ -1760,7 +1733,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "024402152",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1864,7 +1837,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "026834022",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1941,7 +1914,7 @@
         "id": "039612041",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Amlodipina",
-        "marketedForms": 348
+        "marketedForms": 347
       },
       "status": {
         "entry": "RX",
@@ -1958,7 +1931,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "027428022",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2035,10 +2008,10 @@
       ],
       "ingredient": {
         "registered": true,
-        "id": "041704038",
+        "id": "032019010",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Metoprololo",
-        "marketedForms": 10
+        "marketedForms": 9
       },
       "status": {
         "entry": "RX",
@@ -2056,7 +2029,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "023616028",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2160,7 +2133,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "029384043",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2247,7 +2220,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "028740037",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2348,7 +2321,7 @@
         "id": "044577017",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Rosuvastatina",
-        "marketedForms": 191
+        "marketedForms": 188
       },
       "status": {
         "entry": "RX",
@@ -2365,7 +2338,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "035885351",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2483,7 +2456,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "041972023",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2591,7 +2564,7 @@
         "id": "042116222",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Escitalopram",
-        "marketedForms": 65
+        "marketedForms": 67
       },
       "status": {
         "entry": "RX",
@@ -2600,7 +2573,7 @@
         "evidence": {
           "source": "AIFA supply class (classe di fornitura), per marketed pack",
           "products": {
-            "RR": 9
+            "RR": 10
           }
         }
       },
@@ -2608,7 +2581,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "035767146",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2640,7 +2613,15 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "AIFA medicines database (Italy)",
+        "id": "Amfetamina",
+        "url": "https://medicinali.aifa.gov.it/",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
         "to": "medium"
@@ -2693,7 +2674,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "015094016",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2804,7 +2785,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "037685056",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2870,7 +2851,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "025959026",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2995,7 +2976,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "046128031",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3103,7 +3084,7 @@
         "id": "039994013",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Montelukast",
-        "marketedForms": 55
+        "marketedForms": 56
       },
       "status": {
         "entry": "RX",
@@ -3120,7 +3101,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "042170011",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3183,7 +3164,7 @@
               "classes": "RR"
             },
             {
-              "aic": "022323113",
+              "aic": "022323075",
               "product": "TRITTICO",
               "form": "150 mg COMPRESSA A RILASCIO PROLUNGATO",
               "ingredients": "TRAZODONE CLORIDRATO + TRAZODONE",
@@ -3214,7 +3195,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "022323012",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3346,7 +3327,7 @@
         "id": "037213434",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Simvastatina",
-        "marketedForms": 139
+        "marketedForms": 138
       },
       "status": {
         "entry": "RX",
@@ -3363,7 +3344,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "027216100",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3419,14 +3400,14 @@
               "classes": "RR"
             },
             {
-              "aic": "052064019",
+              "aic": "052261017",
               "product": "OMNIC",
               "form": "0.4 mg CAPSULA RIGIDA A RILASCIO MODIFICATO",
               "ingredients": "TAMSULOSINA + TAMSULOSINA CLORIDRATO",
               "classes": "RR"
             },
             {
-              "aic": "052261017",
+              "aic": "052064019",
               "product": "OMNIC",
               "form": "0.4 mg CAPSULA RIGIDA A RILASCIO MODIFICATO",
               "ingredients": "TAMSULOSINA + TAMSULOSINA CLORIDRATO",
@@ -3457,7 +3438,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "032647012",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3489,7 +3470,15 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "AIFA medicines database (Italy)",
+        "id": "Idrocodone",
+        "url": "https://medicinali.aifa.gov.it/",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
         "to": "medium"
@@ -3560,7 +3549,7 @@
         "id": "043082027",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Fluticasone",
-        "marketedForms": 123
+        "marketedForms": 124
       },
       "status": {
         "entry": "RX",
@@ -3569,7 +3558,7 @@
         "evidence": {
           "source": "AIFA supply class (classe di fornitura), per marketed pack",
           "products": {
-            "RR": 7
+            "RR": 8
           }
         }
       },
@@ -3577,7 +3566,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "038850020",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3643,7 +3632,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "031985157",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3689,10 +3678,10 @@
       ],
       "ingredient": {
         "registered": true,
-        "id": "041225083",
+        "id": "051600029",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Apixaban",
-        "marketedForms": 2
+        "marketedForms": 12
       },
       "status": {
         "entry": "RX",
@@ -3710,7 +3699,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "041225083",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3797,7 +3786,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "020465011",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3897,7 +3886,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "035724069",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3991,7 +3980,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "033637024",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4067,7 +4056,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "034498030",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4143,7 +4132,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "035932033",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4202,7 +4191,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "035935030",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4261,7 +4250,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "036850055",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4321,7 +4310,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "042658017",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4391,7 +4380,7 @@
         "id": "044699015",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Duloxetina",
-        "marketedForms": 38
+        "marketedForms": 36
       },
       "status": {
         "entry": "RX",
@@ -4408,7 +4397,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "047516012",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4429,7 +4418,7 @@
       "brands": [],
       "ingredient": {
         "registered": true,
-        "id": "034433096",
+        "id": "034433122",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Famotidina",
         "marketedForms": 3
@@ -4441,15 +4430,15 @@
         "evidence": {
           "source": "AIFA supply class (classe di fornitura), per marketed pack",
           "products": {
-            "RR": 6
+            "RR": 5
           }
         }
       },
       "verified": {
         "registry": "AIFA medicines database (Italy)",
-        "id": "034433096",
+        "id": "034433122",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -4515,7 +4504,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "043443136",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4598,7 +4587,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "027604040",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4693,7 +4682,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "049093014",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4742,21 +4731,21 @@
               "classes": "RR"
             },
             {
-              "aic": "039573023",
+              "aic": "039573100",
               "product": "XANAX",
               "form": "0.5 mg COMPRESSA",
               "ingredients": "ALPRAZOLAM",
               "classes": "RR"
             },
             {
-              "aic": "039573035",
+              "aic": "039573074",
               "product": "XANAX",
               "form": "1 mg COMPRESSA",
               "ingredients": "ALPRAZOLAM",
               "classes": "RR"
             },
             {
-              "aic": "039573011",
+              "aic": "039573098",
               "product": "XANAX",
               "form": "0.25 mg COMPRESSA",
               "ingredients": "ALPRAZOLAM",
@@ -4808,7 +4797,7 @@
         "id": "028644084",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Alprazolam",
-        "marketedForms": 96
+        "marketedForms": 94
       },
       "status": {
         "entry": "CONTROLLED",
@@ -4817,7 +4806,7 @@
         "evidence": {
           "source": "AIFA supply class (classe di fornitura), per marketed pack",
           "products": {
-            "RR": 117
+            "RR": 118
           }
         }
       },
@@ -4825,7 +4814,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "038482081",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -4892,7 +4881,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "010089035",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4986,7 +4975,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "043220019",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5080,7 +5069,7 @@
         "id": "030175020",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Acido acetilsalicilico",
-        "marketedForms": 69
+        "marketedForms": 68
       },
       "status": {
         "entry": "MIXED",
@@ -5099,7 +5088,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "041962034",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5186,7 +5175,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "034435139",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -5350,7 +5339,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "035040017",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5441,7 +5430,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "025829223",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5535,7 +5524,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "045625011",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5660,7 +5649,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "033303037",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5719,7 +5708,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "028689026",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5778,7 +5767,7 @@
         "id": "019396023",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Destrometorfano",
-        "marketedForms": 22
+        "marketedForms": 20
       },
       "status": {
         "entry": "PHARMACY",
@@ -5795,7 +5784,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "019771043",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5844,6 +5833,13 @@
               "classes": "OTC"
             },
             {
+              "aic": "049552021",
+              "product": "VICKS SINEX",
+              "form": "50 mg SPRAY NASALE, SOLUZIONE",
+              "ingredients": "OXIMETAZOLINA + OXIMETAZOLINA CLORIDRATO",
+              "classes": "OTC"
+            },
+            {
               "aic": "052949017",
               "product": "VICKS SINEX",
               "form": "50 mg SPRAY NASALE, SOLUZIONE",
@@ -5858,7 +5854,7 @@
         "id": "023198029",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Oximetazolina",
-        "marketedForms": 7
+        "marketedForms": 8
       },
       "status": {
         "entry": "OTC",
@@ -5867,7 +5863,7 @@
         "evidence": {
           "source": "AIFA supply class (classe di fornitura), per marketed pack",
           "products": {
-            "OTC": 4
+            "OTC": 5
           }
         }
       },
@@ -5875,7 +5871,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "023198029",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5907,10 +5903,18 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "AIFA medicines database (Italy)",
+        "id": "Bismuto subsalicilato",
+        "url": "https://medicinali.aifa.gov.it/",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
@@ -5943,7 +5947,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "033871017",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient"
         ]
@@ -6033,7 +6037,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "020708069",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6173,7 +6177,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "008997025",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6236,7 +6240,7 @@
               "classes": "RR"
             },
             {
-              "aic": "029851262",
+              "aic": "029851021",
               "product": "MOVICOL",
               "form": "13.125 g , 0.0466 g , 0.3507 g , 0.1785 g POLVERE PER SOLUZIONE ORALE",
               "ingredients": "POTASSIO CLORURO + SODIO CLORURO + SODIO IDROGENO CARBONATO + MACROGOL 3350",
@@ -6288,7 +6292,7 @@
         "id": "046175081",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Macrogol",
-        "marketedForms": 37
+        "marketedForms": 36
       },
       "status": {
         "entry": "PHARMACY",
@@ -6305,7 +6309,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "041750011",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6337,10 +6341,18 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "AIFA medicines database (Italy)",
+        "id": "Meclozina",
+        "url": "https://medicinali.aifa.gov.it/",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
@@ -6407,7 +6419,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "025869013",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6501,7 +6513,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "022760108",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6560,7 +6572,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "008477061",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6680,8 +6692,8 @@
         "evidence": {
           "source": "AIFA supply class (classe di fornitura), per marketed pack",
           "products": {
-            "RNR": 9,
-            "SOP": 9
+            "RNR": 10,
+            "SOP": 10
           }
         }
       },
@@ -6689,7 +6701,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "034884066",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6783,7 +6795,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "033299037",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6859,7 +6871,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "021635065",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6880,19 +6892,12 @@
       "brands": [
         {
           "name": "Zitromax",
-          "id": "027860143",
+          "id": "027860042",
           "url": "https://medicinali.aifa.gov.it/",
           "confirmed": true,
           "note": null,
           "matched": "ZITROMAX",
           "products": [
-            {
-              "aic": "027860143",
-              "product": "ZITROMAX",
-              "form": "600 mg COMPRESSA RIVESTITA CON FILM",
-              "ingredients": "AZITROMICINA + AZITROMICINA DIIDRATO",
-              "classes": "RR"
-            },
             {
               "aic": "027860042",
               "product": "ZITROMAX",
@@ -6904,6 +6909,13 @@
               "aic": "027860028",
               "product": "ZITROMAX",
               "form": "200 mg / 5 ml POLVERE PER SOSPENSIONE ORALE",
+              "ingredients": "AZITROMICINA + AZITROMICINA DIIDRATO",
+              "classes": "RR"
+            },
+            {
+              "aic": "027860143",
+              "product": "ZITROMAX",
+              "form": "600 mg COMPRESSA RIVESTITA CON FILM",
               "ingredients": "AZITROMICINA + AZITROMICINA DIIDRATO",
               "classes": "RR"
             },
@@ -6938,9 +6950,9 @@
       },
       "verified": {
         "registry": "AIFA medicines database (Italy)",
-        "id": "027860143",
+        "id": "027860042",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -7034,7 +7046,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "026664084",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -7093,7 +7105,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "009277017",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -7205,7 +7217,7 @@
         "id": "037389032",
         "url": "https://medicinali.aifa.gov.it/",
         "searched": "Ondansetron",
-        "marketedForms": 26
+        "marketedForms": 25
       },
       "status": {
         "entry": "RX",
@@ -7222,7 +7234,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "027612098",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -7343,7 +7355,7 @@
         "registry": "AIFA medicines database (Italy)",
         "id": "042416038",
         "url": "https://medicinali.aifa.gov.it/",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",

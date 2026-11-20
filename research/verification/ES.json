@@ -2,19 +2,20 @@
   "country": "ES",
   "registry": "CIMA medicines register (AEMPS, Spain)",
   "registryVersion": null,
-  "checked": "2026-10-20",
+  "checked": "2026-11-20",
   "summary": {
     "entries": 82,
-    "brandEntries": 76,
-    "brandEntriesConfirmed": 74,
-    "brandNames": 113,
+    "brandEntries": 75,
+    "brandEntriesConfirmed": 75,
+    "brandNames": 110,
     "brandNamesConfirmed": 110,
-    "verified": 76,
-    "statusAgree": 76,
-    "statusDiffer": 1,
+    "verified": 81,
+    "verifiedAbsent": 4,
+    "statusAgree": 77,
+    "statusDiffer": 0,
     "statusNotComparable": 5,
-    "confidenceRaised": 0,
-    "flagged": 3
+    "confidenceRaised": 3,
+    "flagged": 1
   },
   "entries": [
     {
@@ -126,7 +127,7 @@
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=83208",
         "searched": "N02BE01",
         "localName": "paracetamol",
-        "marketedProducts": 136
+        "marketedProducts": 134
       },
       "status": {
         "entry": "PHARMACY",
@@ -144,7 +145,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "57131",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=57131",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -290,7 +291,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "60514",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=60514",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -349,7 +350,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "58518",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=58518",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -407,8 +408,8 @@
               "condition": "Medicamento Sujeto A Prescripción Médica"
             },
             {
-              "nregistro": "R1846",
-              "product": "ZYRTEC COMPRIMIDOS RECUBIERTOS",
+              "nregistro": "119030",
+              "product": "ZYRTEC 10 mg COMPRIMIDOS RECUBIERTOS CON PELICULA",
               "legal": "RX",
               "condition": "Medicamento Sujeto A Prescripción Médica"
             }
@@ -449,7 +450,7 @@
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=66044",
         "searched": "R06AE07",
         "localName": "cetirizina",
-        "marketedProducts": 29
+        "marketedProducts": 30
       },
       "status": {
         "entry": "RX",
@@ -458,7 +459,7 @@
         "evidence": {
           "source": "CIMA prescription condition (cpresc)",
           "products": {
-            "RX": 9
+            "RX": 10
           }
         }
       },
@@ -466,7 +467,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "60279",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=60279",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -525,7 +526,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "38322",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=38322",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -614,7 +615,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "65349",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=65349",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -673,7 +674,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "58377",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=58377",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -732,7 +733,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "56682",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=56682",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -803,7 +804,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "07392003",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=07392003",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -886,7 +887,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "47497",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=47497",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -951,7 +952,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "59133",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=59133",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1010,7 +1011,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "55211",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=55211",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1103,7 +1104,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "59718",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=59718",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1168,7 +1169,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "53010",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=53010",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1303,7 +1304,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "61716",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=61716",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1392,7 +1393,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "64014",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=64014",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1473,7 +1474,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "59127",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=59127",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1560,7 +1561,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "59160",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=59160",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1635,7 +1636,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "56989",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=56989",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1706,7 +1707,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "64971",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=64971",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1783,7 +1784,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "60621",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=60621",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1872,7 +1873,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "70243",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=70243",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2007,7 +2008,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "62580",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=62580",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2101,7 +2102,7 @@
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=71430",
         "searched": "N06AB10",
         "localName": "escitalopram",
-        "marketedProducts": 97
+        "marketedProducts": 96
       },
       "status": {
         "entry": "RX",
@@ -2118,7 +2119,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "65230",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=65230",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2207,7 +2208,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "82336",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=82336",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2288,7 +2289,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "82547",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=82547",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2369,7 +2370,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "68615",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=68615",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2411,7 +2412,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "63499",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=63499",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -2456,6 +2457,12 @@
               "condition": "Medicamento Sujeto A Prescripción Médica"
             },
             {
+              "nregistro": "1171251010",
+              "product": "OZEMPIC 2 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA",
+              "legal": "RX",
+              "condition": "Medicamento Sujeto A Prescripción Médica"
+            },
+            {
               "nregistro": "1171251002IP",
               "product": "OZEMPIC 0,25 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA",
               "legal": "RX",
@@ -2464,12 +2471,6 @@
             {
               "nregistro": "1171251003IP",
               "product": "OZEMPIC 0,5 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA",
-              "legal": "RX",
-              "condition": "Medicamento Sujeto A Prescripción Médica"
-            },
-            {
-              "nregistro": "1171251005IP",
-              "product": "OZEMPIC 1 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA",
               "legal": "RX",
               "condition": "Medicamento Sujeto A Prescripción Médica"
             }
@@ -2502,6 +2503,12 @@
               "condition": "Medicamento Sujeto A Prescripción Médica"
             },
             {
+              "nregistro": "1211608014",
+              "product": "WEGOVY 1,5 MG COMPRIMIDOS",
+              "legal": "RX",
+              "condition": "Medicamento Sujeto A Prescripción Médica"
+            },
+            {
               "nregistro": "1211608009",
               "product": "WEGOVY 1,7 MG FLEXTOUCH SOLUCION INYECTABLE EN PLUMA PRECARGADA",
               "legal": "RX",
@@ -2510,12 +2517,6 @@
             {
               "nregistro": "1211608010",
               "product": "WEGOVY 2,4 MG FLEXTOUCH SOLUCION INYECTABLE EN PLUMA PRECARGADA",
-              "legal": "RX",
-              "condition": "Medicamento Sujeto A Prescripción Médica"
-            },
-            {
-              "nregistro": "1211608007IP",
-              "product": "WEGOVY 0,5 MG FLEXTOUCH SOLUCION INYECTABLE EN PLUMA PRECARGADA",
               "legal": "RX",
               "condition": "Medicamento Sujeto A Prescripción Médica"
             }
@@ -2528,7 +2529,7 @@
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=117251002",
         "searched": "A10BJ06",
         "localName": "semaglutida ",
-        "marketedProducts": 16
+        "marketedProducts": 22
       },
       "status": {
         "entry": "RX",
@@ -2537,7 +2538,7 @@
         "evidence": {
           "source": "CIMA prescription condition (cpresc)",
           "products": {
-            "RX": 13
+            "RX": 19
           }
         }
       },
@@ -2545,7 +2546,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "117251002",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=117251002",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2634,7 +2635,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "61980",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=61980",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2693,7 +2694,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "78762",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=78762",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2758,7 +2759,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "58845",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=58845",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2847,7 +2848,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "66678",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=66678",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -2880,7 +2881,15 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "CIMA medicines register (AEMPS, Spain)",
+        "id": "N02AJ22",
+        "url": "https://cima.aemps.es/cima/publico/home.html",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
         "to": "medium"
@@ -2951,7 +2960,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "60483",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=60483",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3016,7 +3025,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "61076",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=61076",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3105,7 +3114,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "11691002",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=11691002",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3176,7 +3185,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "39968",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=39968",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3285,7 +3294,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "00134033",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=00134033",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3356,7 +3365,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "196007044",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=196007044",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3467,7 +3476,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "99119009",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=99119009",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3542,7 +3551,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "02230003",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=02230003",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3629,7 +3638,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "02233014",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=02233014",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3662,10 +3671,18 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "CIMA medicines register (AEMPS, Spain)",
+        "id": "A10AE05",
+        "url": "https://cima.aemps.es/cima/publico/home.html",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
@@ -3727,7 +3744,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "112807004",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=112807004",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3761,12 +3778,6 @@
               "condition": "Medicamento Sujeto A Prescripción Médica"
             },
             {
-              "nregistro": "04296001IP1",
-              "product": "CYMBALTA 30 MG CAPSULAS DURAS GASTRORRESISTENTES",
-              "legal": "RX",
-              "condition": "Medicamento Sujeto A Prescripción Médica"
-            },
-            {
               "nregistro": "04296001IP2",
               "product": "CYMBALTA 30 MG CAPSULAS DURAS GASTRORRESISTENTES",
               "legal": "RX",
@@ -3786,6 +3797,12 @@
             },
             {
               "nregistro": "04296002IP2",
+              "product": "CYMBALTA 60 MG CAPSULAS DURAS GASTRORRESISTENTES",
+              "legal": "RX",
+              "condition": "Medicamento Sujeto A Prescripción Médica"
+            },
+            {
+              "nregistro": "04296002IP3",
               "product": "CYMBALTA 60 MG CAPSULAS DURAS GASTRORRESISTENTES",
               "legal": "RX",
               "condition": "Medicamento Sujeto A Prescripción Médica"
@@ -3833,7 +3850,7 @@
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=88002",
         "searched": "N06AX21",
         "localName": "duloxetina",
-        "marketedProducts": 74
+        "marketedProducts": 73
       },
       "status": {
         "entry": "RX",
@@ -3842,7 +3859,7 @@
         "evidence": {
           "source": "CIMA prescription condition (cpresc)",
           "products": {
-            "RX": 12
+            "RX": 10
           }
         }
       },
@@ -3850,7 +3867,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "04296001IP",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=04296001IP",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3909,7 +3926,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "62090",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=62090",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3974,7 +3991,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "114930014",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=114930014",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4039,7 +4056,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "59695",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=59695",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4168,7 +4185,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "61784",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=61784",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4257,7 +4274,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "61152",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=61152",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4328,7 +4345,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "47863",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=47863",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4433,7 +4450,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "98069009",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=98069009",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4527,7 +4544,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "2011",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=2011",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4650,7 +4667,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "63446",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=63446",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4819,7 +4836,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "65148",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=65148",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4894,7 +4911,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "57152",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=57152",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4910,7 +4927,7 @@
     {
       "id": "diclofenac-gel",
       "generic": "Diclofenac (topical gel)",
-      "brand": "Voltadol / Voltaren Emulgel",
+      "brand": "Voltadol",
       "kind": "brand",
       "brands": [
         {
@@ -4946,14 +4963,6 @@
               "condition": "Sin Receta"
             }
           ]
-        },
-        {
-          "name": "Voltaren Emulgel",
-          "id": null,
-          "url": null,
-          "confirmed": false,
-          "note": "no marketed product of this name in CIMA (for this ingredient it lists VOLTADOL, DICLOKERN, OLFEN, CINFADOL, DICLOFENACO, DOLIFEN)",
-          "products": []
         }
       ],
       "ingredient": {
@@ -4965,9 +4974,9 @@
         "marketedProducts": 17
       },
       "status": {
-        "entry": "MIXED",
+        "entry": "PHARMACY",
         "registry": "PHARMACY",
-        "result": "differ",
+        "result": "agree",
         "evidence": {
           "source": "CIMA prescription condition (cpresc)",
           "products": {
@@ -4975,15 +4984,22 @@
           }
         }
       },
-      "verified": null,
+      "verified": {
+        "registry": "CIMA medicines register (AEMPS, Spain)",
+        "id": "78407",
+        "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=78407",
+        "checked": "2026-11-20",
+        "checks": [
+          "brand",
+          "ingredient",
+          "status"
+        ]
+      },
       "confidence": {
         "from": "high",
         "to": "high"
       },
-      "flags": [
-        "Brand \"Voltaren Emulgel\" not confirmed: no marketed product of this name in CIMA (for this ingredient it lists VOLTADOL, DICLOKERN, OLFEN, CINFADOL, DICLOFENACO, DOLIFEN)",
-        "Status differs: entry MIXED, registry PHARMACY"
-      ]
+      "flags": []
     },
     {
       "id": "fexofenadine",
@@ -5031,7 +5047,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "61910",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=61910",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5112,7 +5128,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "78985",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=78985",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5195,7 +5211,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "85817",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=85817",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5288,7 +5304,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "75517",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=75517",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5321,10 +5337,18 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "CIMA medicines register (AEMPS, Spain)",
+        "id": "A07BB",
+        "url": "https://cima.aemps.es/cima/publico/home.html",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     },
@@ -5380,7 +5404,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "62940",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=62940",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5451,7 +5475,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "36658",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=36658",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5516,7 +5540,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "55838",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=55838",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5575,7 +5599,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "9600267",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=9600267",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5681,7 +5705,7 @@
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=73081",
         "searched": "A06AD15",
         "localName": "macrogol",
-        "marketedProducts": 7
+        "marketedProducts": 8
       },
       "status": {
         "entry": "RX",
@@ -5698,7 +5722,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "66557",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=66557",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5763,7 +5787,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "33924",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=33924",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5828,7 +5852,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "60889",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=60889",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5899,7 +5923,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "52626",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=52626",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5915,26 +5939,9 @@
     {
       "id": "antibiotic-ointment",
       "generic": "Bacitracin / Neomycin / Polymyxin B (antibiotic ointment)",
-      "brand": "Bactroban / Fucidine",
-      "kind": "brand",
-      "brands": [
-        {
-          "name": "Bactroban",
-          "id": null,
-          "url": null,
-          "confirmed": false,
-          "note": "marketed under this name with mupirocina, not this ingredient",
-          "products": []
-        },
-        {
-          "name": "Fucidine",
-          "id": null,
-          "url": null,
-          "confirmed": false,
-          "note": "marketed under this name with hidrocortisona + ácido fusídico, not this ingredient",
-          "products": []
-        }
-      ],
+      "brand": "Not sold here",
+      "kind": "unavailable",
+      "brands": [],
       "ingredient": {
         "registered": false,
         "id": null,
@@ -5944,20 +5951,25 @@
         "marketedProducts": 0
       },
       "status": {
-        "entry": "RX",
+        "entry": "UNAVAILABLE",
         "registry": null,
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "CIMA medicines register (AEMPS, Spain)",
+        "id": "D06AX05",
+        "url": "https://cima.aemps.es/cima/publico/home.html",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
-      "flags": [
-        "Brand \"Bactroban\" not confirmed: marketed under this name with mupirocina, not this ingredient",
-        "Brand \"Fucidine\" not confirmed: marketed under this name with hidrocortisona + ácido fusídico, not this ingredient"
-      ]
+      "flags": []
     },
     {
       "id": "doxylamine",
@@ -6011,7 +6023,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "60154",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=60154",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6134,7 +6146,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "67770",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=67770",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6199,7 +6211,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "65257",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=65257",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6280,7 +6292,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "46554",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=46554",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6369,7 +6381,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "60065",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=60065",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6411,7 +6423,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "62768",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=62768",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -6469,7 +6481,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "24408",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=24408",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6608,7 +6620,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "62944",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=62944",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -6695,7 +6707,7 @@
         "registry": "CIMA medicines register (AEMPS, Spain)",
         "id": "67263",
         "url": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=67263",
-        "checked": "2026-10-20",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",

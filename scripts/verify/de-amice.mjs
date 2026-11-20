@@ -24,6 +24,8 @@ const TIMEOUT_MS = 120_000;
 
 export const registry = { code: 'DE', name: 'AMIce drug information system (BfArM, Germany)' };
 export const cannotDetect = [];
+// The register lists every medicine on sale here, so finding nothing with an ingredient shows it isn't sold.
+export const provesAbsence = true;
 
 // Verkaufsabgrenzung, as numbered in the search form.
 const FREE = '1'; // freiverkäuflich: may be sold outside pharmacies

@@ -2,19 +2,20 @@
   "country": "VN",
   "registry": "Drug Administration of Vietnam register",
   "registryVersion": null,
-  "checked": "2026-10-27",
+  "checked": "2026-11-20",
   "summary": {
     "entries": 82,
     "brandEntries": 56,
-    "brandEntriesConfirmed": 55,
-    "brandNames": 66,
-    "brandNamesConfirmed": 64,
-    "verified": 78,
+    "brandEntriesConfirmed": 56,
+    "brandNames": 65,
+    "brandNamesConfirmed": 65,
+    "verified": 82,
+    "verifiedAbsent": 3,
     "statusAgree": 35,
     "statusDiffer": 0,
     "statusNotComparable": 47,
     "confidenceRaised": 1,
-    "flagged": 1
+    "flagged": 0
   },
   "entries": [
     {
@@ -84,10 +85,10 @@
       ],
       "ingredient": {
         "registered": true,
-        "id": "955100201626",
+        "id": "955100212526",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
         "searched": "PARACETAMOL, ACETAMINOPHEN",
-        "currentRegistrations": 2164
+        "currentRegistrations": 2163
       },
       "status": {
         "entry": "OTC",
@@ -105,7 +106,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "539100184523",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -129,7 +130,7 @@
         "id": "890100191726",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
         "searched": "IBUPROFEN",
-        "currentRegistrations": 392
+        "currentRegistrations": 391
       },
       "status": {
         "entry": "OTC",
@@ -141,14 +142,14 @@
             "NO_RX": 137,
             "RX": 4
           },
-          "withoutClass": 85
+          "withoutClass": 84
         }
       },
       "verified": {
         "registry": "Drug Administration of Vietnam register",
         "id": "890100191726",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -232,7 +233,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "899100766524",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -303,7 +304,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "800110029125",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -344,7 +345,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "893100022426",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -412,7 +413,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "560100184823",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -491,7 +492,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "VN-19558-16",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -595,7 +596,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "VD-14919-11",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -636,7 +637,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "893110466525",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -677,7 +678,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "893100091400",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -700,7 +701,7 @@
         "id": "900110192326",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
         "searched": "AMOXICILLIN, AMOXICILIN",
-        "currentRegistrations": 711
+        "currentRegistrations": 710
       },
       "status": {
         "entry": "RX",
@@ -709,16 +710,16 @@
         "evidence": {
           "source": "DAV medicine class (non-prescription list or prescription)",
           "products": {
-            "RX": 21
+            "RX": 23
           },
-          "withoutClass": 249
+          "withoutClass": 247
         }
       },
       "verified": {
         "registry": "Drug Administration of Vietnam register",
         "id": "900110192326",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -812,7 +813,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "300110789924",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -874,7 +875,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "400110010824",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -968,7 +969,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "400115965324",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -1068,7 +1069,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "893110452925",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1110,7 +1111,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "890110183826",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -1151,7 +1152,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "893110083026",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -1193,7 +1194,7 @@
         "id": "890110197826",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
         "searched": "AMLODIPIN",
-        "currentRegistrations": 279
+        "currentRegistrations": 277
       },
       "status": {
         "entry": "RX",
@@ -1211,7 +1212,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "893110364225",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1267,10 +1268,10 @@
       ],
       "ingredient": {
         "registered": true,
-        "id": "VN-9390-09",
+        "id": "690110212326",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
         "searched": "METOPROLOL",
-        "currentRegistrations": 14
+        "currentRegistrations": 16
       },
       "status": {
         "entry": "RX",
@@ -1282,7 +1283,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "730110022123",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -1376,7 +1377,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "880110035426",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -1426,7 +1427,7 @@
         "id": "893110095126",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
         "searched": "GABAPENTIN",
-        "currentRegistrations": 142
+        "currentRegistrations": 141
       },
       "status": {
         "entry": "RX",
@@ -1438,7 +1439,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "VN-16857-13",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -1504,7 +1505,7 @@
         "id": "893110101226",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
         "searched": "ROSUVASTATIN",
-        "currentRegistrations": 303
+        "currentRegistrations": 297
       },
       "status": {
         "entry": "RX",
@@ -1516,7 +1517,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "VN-19786-16",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -1574,7 +1575,7 @@
         "id": "890110185726",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
         "searched": "PANTOPRAZOL",
-        "currentRegistrations": 219
+        "currentRegistrations": 220
       },
       "status": {
         "entry": "RX",
@@ -1586,7 +1587,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "400110034023",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -1688,7 +1689,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "890110312525",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -1720,7 +1721,15 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "AMPHETAMIN, AMFETAMIN, DEXAMFETAMIN, DEXTROAMPHETAMIN",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
         "to": "medium"
@@ -1738,7 +1747,7 @@
         "id": "890110197126",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
         "searched": "HYDROCHLOROT, HYDROCLOROT",
-        "currentRegistrations": 541
+        "currentRegistrations": 540
       },
       "status": {
         "entry": "RX",
@@ -1750,7 +1759,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "890110197126",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient"
         ]
@@ -1829,7 +1838,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "893110116500",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -1870,7 +1879,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "560110417625",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -1924,7 +1933,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "570410174600",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -2018,7 +2027,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "VN-20319-17",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -2104,7 +2113,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "893110375725",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -2198,7 +2207,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "VN-20813-17",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -2260,7 +2269,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "870110780724",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -2291,7 +2300,15 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "HYDROCODON",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
         "to": "medium"
@@ -2348,7 +2365,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "840110178023",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -2442,7 +2459,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "400110118924",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -2505,10 +2522,10 @@
       ],
       "ingredient": {
         "registered": true,
-        "id": "890110198426",
+        "id": "890110213626",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
         "searched": "APIXABAN",
-        "currentRegistrations": 69
+        "currentRegistrations": 70
       },
       "status": {
         "entry": "RX",
@@ -2520,7 +2537,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "539110436423",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -2561,7 +2578,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "890110185426",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -2633,7 +2650,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "400410304624",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -2727,7 +2744,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "800410110524",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -2805,7 +2822,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "QLSP-1023-17",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -2875,7 +2892,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "QLSP-1030-17",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -2969,7 +2986,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "300410198825",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3047,7 +3064,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "QLSP-1094-18",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3117,7 +3134,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "570410647224",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3179,7 +3196,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "VN2-608-17",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3263,7 +3280,7 @@
         "id": "893110113626",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
         "searched": "FAMOTIDIN",
-        "currentRegistrations": 74
+        "currentRegistrations": 75
       },
       "status": {
         "entry": "RX",
@@ -3281,7 +3298,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "893110016226",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3376,7 +3393,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "520110423023",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3399,7 +3416,7 @@
         "id": "400110068626",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
         "searched": "CARVEDILOL",
-        "currentRegistrations": 93
+        "currentRegistrations": 89
       },
       "status": {
         "entry": "RX",
@@ -3410,14 +3427,14 @@
           "products": {
             "RX": 3
           },
-          "withoutClass": 87
+          "withoutClass": 83
         }
       },
       "verified": {
         "registry": "Drug Administration of Vietnam register",
         "id": "400110068626",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -3503,7 +3520,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "896111026426",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3565,7 +3582,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "VN-11013-10",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3606,14 +3623,14 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "840110060126",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
         ]
       },
       "confidence": {
-        "from": "low",
+        "from": "high",
         "to": "high"
       },
       "flags": []
@@ -3668,7 +3685,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "VN-18879-15",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -3750,7 +3767,7 @@
         "id": "594110133026",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
         "searched": "ACETYLSALICY, ASPIRIN, ACETYLSALICYLIC",
-        "currentRegistrations": 102
+        "currentRegistrations": 101
       },
       "status": {
         "entry": "OTC",
@@ -3761,14 +3778,14 @@
           "products": {
             "NO_RX": 4
           },
-          "withoutClass": 30
+          "withoutClass": 29
         }
       },
       "verified": {
         "registry": "Drug Administration of Vietnam register",
         "id": "893100903724",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -3921,7 +3938,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "VN3-169-19",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -4015,7 +4032,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "001112408923",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -4057,7 +4074,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "893110120826",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -4117,7 +4134,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "760100073723",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4200,7 +4217,7 @@
         "id": "894100194826",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
         "searched": "FEXOFENADIN",
-        "currentRegistrations": 342
+        "currentRegistrations": 341
       },
       "status": {
         "entry": "OTC",
@@ -4218,7 +4235,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "893100404324",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4254,7 +4271,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "893110483625",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient"
         ]
@@ -4294,7 +4311,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "560110049626",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -4335,7 +4352,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "893100282725",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -4445,7 +4462,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "893100099126",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4530,7 +4547,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "500100350525",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4607,7 +4624,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "594100035726",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4708,7 +4725,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "893100269925",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4751,7 +4768,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "890110419525",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -4819,7 +4836,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "300100126124",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -4855,7 +4872,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "300110002625",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient"
         ]
@@ -4877,7 +4894,7 @@
         "id": "859110190126",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
         "searched": "HYDROCORTISO",
-        "currentRegistrations": 76
+        "currentRegistrations": 75
       },
       "status": {
         "entry": "MIXED",
@@ -4896,7 +4913,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "859110190126",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -4996,7 +5013,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "400100768324",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5012,24 +5029,26 @@
     {
       "id": "antibiotic-ointment",
       "generic": "Bacitracin / Neomycin / Polymyxin B (antibiotic ointment)",
-      "brand": "Bactopic / Pirocin (mupirocin)",
+      "brand": "Polybamycin",
       "kind": "brand",
       "brands": [
         {
-          "name": "Bactopic",
-          "id": null,
-          "url": null,
-          "confirmed": false,
-          "note": "registered under this name with Mupirocin, not this ingredient",
-          "products": []
-        },
-        {
-          "name": "Pirocin",
-          "id": null,
-          "url": null,
-          "confirmed": false,
-          "note": "registered under this name with Mupirocin, not this ingredient",
-          "products": []
+          "name": "Polybamycin",
+          "id": "VD-10784-10",
+          "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+          "confirmed": true,
+          "note": null,
+          "matched": "Polybamycin",
+          "products": [
+            {
+              "registration": "VD-10784-10",
+              "product": "Polybamycin",
+              "ingredients": "Bacitracin 400IU, Neomycin 3,5mg, Polymyxin B 5000IU",
+              "form": "",
+              "legal": null,
+              "holder": "Công ty TNHH Dược phẩm Shinpoong Daewoo"
+            }
+          ]
         }
       ],
       "ingredient": {
@@ -5045,15 +5064,21 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "VD-10784-10",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-11-20",
+        "checks": [
+          "brand",
+          "ingredient"
+        ]
+      },
       "confidence": {
         "from": "high",
         "to": "high"
       },
-      "flags": [
-        "Brand \"Bactopic\" not confirmed: registered under this name with Mupirocin, not this ingredient",
-        "Brand \"Pirocin\" not confirmed: registered under this name with Mupirocin, not this ingredient"
-      ]
+      "flags": []
     },
     {
       "id": "doxylamine",
@@ -5078,7 +5103,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "893110299924",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient"
         ]
@@ -5127,7 +5152,7 @@
         "id": "400100204726",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
         "searched": "LEVONORGESTR",
-        "currentRegistrations": 122
+        "currentRegistrations": 121
       },
       "status": {
         "entry": "OTC",
@@ -5145,7 +5170,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "599100408123",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient",
@@ -5208,7 +5233,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "VN-12463-11",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -5249,7 +5274,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "890110071026",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -5327,7 +5352,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "VN-21931-19",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -5413,7 +5438,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "800115179723",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -5448,7 +5473,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "893110086125",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient"
         ]
@@ -5501,7 +5526,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "VN-9766-10",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "brand",
           "ingredient"
@@ -5542,7 +5567,7 @@
         "registry": "Drug Administration of Vietnam register",
         "id": "890110201326",
         "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
-        "checked": "2026-10-27",
+        "checked": "2026-11-20",
         "checks": [
           "ingredient",
           "status"
@@ -5573,10 +5598,18 @@
         "result": "na",
         "evidence": null
       },
-      "verified": null,
+      "verified": {
+        "registry": "Drug Administration of Vietnam register",
+        "id": "EPINEPHRIN, ADRENALIN",
+        "url": "https://dichvucong.dav.gov.vn/congbothuoc/index",
+        "checked": "2026-11-20",
+        "checks": [
+          "absent"
+        ]
+      },
       "confidence": {
         "from": "medium",
-        "to": "medium"
+        "to": "high"
       },
       "flags": []
     }

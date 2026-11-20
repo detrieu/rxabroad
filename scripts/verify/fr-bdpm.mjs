@@ -6,8 +6,10 @@ import { aggregateStatus, brandMatches, hasIngredient, leadingNames, statusPool 
 
 const BASE = 'https://base-donnees-publique.medicaments.gouv.fr';
 
-export const registry = { code: 'FR', name: 'Base de données publique des médicaments (France)' };
+export const registry = { code: 'FR', name: 'Base de données publique des médicaments (France)', url: 'https://base-donnees-publique.medicaments.gouv.fr/' };
 export const cannotDetect = [];
+// The register lists every medicine on sale here, so finding nothing with an ingredient shows it isn't sold.
+export const provesAbsence = true;
 
 let products; // [{ cis, name, marketed }]
 let substances; // cis → { names: Set, codes: Set }   active substances only
