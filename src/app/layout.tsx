@@ -22,6 +22,8 @@ export const metadata: Metadata = {
     'Look up what a medicine is called abroad. Search a brand, generic name, or destination to see the local brand, ' +
     `prescription status, and travel cautions across ${COUNTRIES.length} countries.`,
   openGraph: { siteName: SITE_NAME, type: 'website' },
+  icons: { apple: '/icons/apple-touch-icon.png' },
+  appleWebApp: { title: SITE_NAME, statusBarStyle: 'black-translucent' },
 };
 
 export const viewport: Viewport = {
