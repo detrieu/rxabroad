@@ -8,7 +8,7 @@ import {
 } from '@/data';
 import { STATUS_DESCRIPTION } from '@/data/status';
 import { CAUTION_TEXT, carryRuleFor } from '@/data/carry-rules';
-import { TIPS, whatWasChecked } from '@/lib/evidence';
+import { REVIEWED, TIPS, whatWasChecked } from '@/lib/evidence';
 import { SITE_NAME, SITE_URL } from '@/lib/site';
 import { cn } from '@/lib/utils';
 import { AddMedButton } from '@/components/AddMedButton';
@@ -74,7 +74,7 @@ function jsonLd(drug: Drug, country: Country, entry: CountryEntry) {
         url,
         inLanguage: 'en',
         about: { '@type': 'Drug', name: drug.generic, nonProprietaryName: drug.generic },
-        ...(entry.verified ? { lastReviewed: entry.verified.checked } : {}),
+        ...(entry.verified ? { lastReviewed: entry.verified.checked } : entry.reviewed ? { lastReviewed: entry.reviewed } : {}),
         isPartOf: { '@type': 'WebSite', name: SITE_NAME, url: SITE_URL },
       },
       {
@@ -196,6 +196,11 @@ export default async function DrugInCountryPage({ params }: PageProps<'/drug/[id
               <a href={entry.verified.url} target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-4">
                 {entry.verified.checks.includes('absent') ? 'Search the registry' : 'Registry record'} ↗
               </a>
+            </p>
+          ) : entry.reviewed ? (
+            <p className="text-[0.9rem] leading-relaxed">
+              <span className="text-primary font-semibold">{REVIEWED.title}.</span> {REVIEWED.tip} Reviewed {formatDate(entry.reviewed)}.
+              {entry.source && <> <SourceLink source={entry.source} /></>}
             </p>
           ) : (
             <p className="text-[0.9rem] leading-relaxed">

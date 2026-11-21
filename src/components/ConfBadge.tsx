@@ -1,9 +1,12 @@
 'use client';
 
-import { BadgeCheckIcon } from 'lucide-react';
+import { BadgeCheckIcon, UserRoundCheckIcon } from 'lucide-react';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import type { Confidence, CountryEntry, Verification } from '@/data';
-import { TIPS, whatWasChecked } from '@/lib/evidence';
+import { REVIEWED, TIPS, whatWasChecked } from '@/lib/evidence';
+
+const formatDate = (iso: string) =>
+  new Date(`${iso}T00:00:00`).toLocaleDateString('en', { year: 'numeric', month: 'short', day: 'numeric' });
 
 const TRIGGER =
   'relative ml-1 inline-flex size-5 translate-y-0.5 after:absolute after:-inset-1.5 after:content-[""] items-center justify-center rounded-full hover:bg-muted focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none';
@@ -30,7 +33,7 @@ export function ConfBadge({ confidence }: { confidence: Confidence }) {
 
 /** Check mark for an entry that scripts/verify confirmed against the country's official registry. */
 export function VerifiedBadge({ verified }: { verified: Verification }) {
-  const date = new Date(`${verified.checked}T00:00:00`).toLocaleDateString('en', { year: 'numeric', month: 'short', day: 'numeric' });
+  const date = formatDate(verified.checked);
   return (
     <Popover>
       <PopoverTrigger asChild>
@@ -51,7 +54,26 @@ export function VerifiedBadge({ verified }: { verified: Verification }) {
   );
 }
 
-/** The marker after an entry's "Ask for" name: the registry check mark where there is one, else the confidence hint. */
+/** Mark for an entry a pharmacist reviewed because no registry record confirms it. */
+export function ReviewedBadge({ reviewed }: { reviewed: string }) {
+  return (
+    <Popover>
+      <PopoverTrigger asChild>
+        <button type="button" aria-label={`${REVIEWED.title}: what does this mean?`} className={`${TRIGGER} text-primary`}>
+          <UserRoundCheckIcon className="size-3.5" />
+        </button>
+      </PopoverTrigger>
+      <PopoverContent className="w-72 text-sm" align="start">
+        <p className="font-heading text-primary font-semibold">{REVIEWED.title}</p>
+        <p className="text-muted-foreground mt-1">{REVIEWED.tip} Reviewed {formatDate(reviewed)}.</p>
+      </PopoverContent>
+    </Popover>
+  );
+}
+
+/** The marker after an entry's "Ask for" name: the registry check mark, else the pharmacist review, else the confidence hint. */
 export function EntryBadges({ entry }: { entry: CountryEntry }) {
-  return entry.verified ? <VerifiedBadge verified={entry.verified} /> : <ConfBadge confidence={entry.confidence} />;
+  if (entry.verified) return <VerifiedBadge verified={entry.verified} />;
+  if (entry.reviewed) return <ReviewedBadge reviewed={entry.reviewed} />;
+  return <ConfBadge confidence={entry.confidence} />;
 }

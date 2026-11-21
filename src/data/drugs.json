@@ -150,7 +150,8 @@
         "confidence": "high",
         "note": "Also sold as Calonal A (カロナールA), the same ingredient; plain Calonal is prescription-only. Japanese Tylenol is a lower dose (300 mg per tablet) than the 500 mg standard elsewhere, so one tablet does not equal one of yours.",
         "source": "https://otcguidejapan.com/guides/acetaminophen-in-japan/",
-        "localName": "アセトアミノフェン (asetoaminofen)"
+        "localName": "アセトアミノフェン (asetoaminofen)",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Panadol",
@@ -431,7 +432,8 @@
         "confidence": "high",
         "note": "EVE A has 75 mg ibuprofen per tablet (adult dose 2 tablets), plus caffeine and a sedative (allylisopropylacetylurea). Loxoprofen (brand \"Loxonin S\") is the more common OTC pain reliever in Japan.",
         "source": "https://www.ssp.co.jp/eve/en/",
-        "localName": "イブプロフェン (ibupurofen)"
+        "localName": "イブプロフェン (ibupurofen)",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Sold generic as \"Ibuprofen\"",
@@ -711,7 +713,8 @@
         "confidence": "high",
         "note": "Sold as a Class 2 OTC medicine.",
         "source": "https://www.catalog-taisho.com/content/dam/selfmedication/jp/ja/claritin/images/04839/pdf/04839_ProductPDF_en.pdf",
-        "localName": "ロラタジン (roratajin)"
+        "localName": "ロラタジン (roratajin)",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Clarityne",
@@ -991,7 +994,8 @@
         "confidence": "high",
         "note": "Contac Rhinitis Z is sold over the counter (Class 2). Zyrtec is prescription-only.",
         "source": "https://otcguidejapan.com/products/contac-rhinitis-z/",
-        "localName": "セチリジン (sechirijin)"
+        "localName": "セチリジン (sechirijin)",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Zyrtec",
@@ -1271,7 +1275,8 @@
         "confidence": "high",
         "note": "Sold as a sleep aid, not for allergies. Look in the sleep section of the pharmacy. 25 mg per tablet (adult dose 2 tablets).",
         "source": "https://otcguidejapan.com/guides/sleeping-pills-in-japan/",
-        "localName": "ジフェンヒドラミン (jifenhidoramin)"
+        "localName": "ジフェンヒドラミン (jifenhidoramin)",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Sold generic as \"Diphenhydramine\"",
@@ -1547,7 +1552,8 @@
         "confidence": "high",
         "note": "Lopemin is prescription-only. Over the counter, look for Loperamac Satto (ロペラマックサット) or Tomedine Kowa (トメダインコーワ). Tomedine Kowa tablets also contain other ingredients.",
         "source": "https://otcguidejapan.com/products/loperamac-satto-tablets/",
-        "localName": "ロペラミド (roperamido)"
+        "localName": "ロペラミド (roperamido)",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Imodium",
@@ -1824,7 +1830,8 @@
         "confidence": "high",
         "note": "Omepral S is sold only by a pharmacist (要指導医薬品). Omepral is prescription-only.",
         "source": "https://otcguidejapan.com/products/omepral-s/",
-        "localName": "オメプラゾール (omepurazōru)"
+        "localName": "オメプラゾール (omepurazōru)",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Losec / generic omeprazole",
@@ -2055,7 +2062,8 @@
         "status": "BANNED",
         "confidence": "high",
         "note": "Banned since 2008. Mexico was the first North American country to prohibit pseudoephedrine outright.",
-        "source": "https://pubmed.ncbi.nlm.nih.gov/20707864/"
+        "source": "https://pubmed.ncbi.nlm.nih.gov/20707864/",
+        "reviewed": "2026-11-20"
       },
       "IN": {
         "brand": "Sold generic as \"Pseudoephedrine\"",
@@ -2087,7 +2095,8 @@
         "confidence": "high",
         "note": "Not sold on its own, only in combination cold and nasal medicines such as this one. A stimulant raw material under Japanese law. Products with more than 10% pseudoephedrine need written permission before you travel; products with 10% or less are excluded from that rule.",
         "source": "https://otcguidejapan.com/products/new-contac-600-plus-s/",
-        "localName": "プソイドエフェドリン (pusoidoefedorin)"
+        "localName": "プソイドエフェドリン (pusoidoefedorin)",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Deconal / Rumednic (combinations)",
@@ -2415,7 +2424,8 @@
         "status": "OTC",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "PT": {
         "brand": "Circadin (Rx), or \"melatonina\" supplements",
@@ -2525,7 +2535,8 @@
         "status": "UNAVAILABLE",
         "confidence": "high",
         "note": "Kwells (hyoscine) or Stugeron (cinnarizine) cover this use. Dimenhydrinate is not a standard over-the-counter medicine in UK pharmacies; the only dimenhydrinate products listed are prescription-only. Boots and Superdrug stock hyoscine, cinnarizine or meclozine (Sea-Legs) travel-sickness tablets instead.",
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "CA": {
         "brand": "Gravol",
@@ -2628,7 +2639,8 @@
         "confidence": "high",
         "note": "Dramamine (dimenhydrinate) is prescription-only. Over the counter, Travelmin (トラベルミン) contains diphenhydramine salicylate and diprophylline, the two parts of dimenhydrinate. Other Travelmin products use different ingredients, so check the pack.",
         "source": "https://otcguidejapan.com/products/travelmin/",
-        "localName": "ジメンヒドリナート (jimenhidorināto)"
+        "localName": "ジメンヒドリナート (jimenhidorināto)",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Sold generic as \"Dimenhydrinate\"",
@@ -2855,7 +2867,8 @@
         "status": "RX",
         "confidence": "high",
         "note": "Formally Rx-only nationwide since August 25, 2010, though enforcement varies by pharmacy, especially near the border. Counterfeit and substandard products are a known risk in Mexico. If you can, get this at home before you travel.",
-        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3606934/"
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3606934/",
+        "reviewed": "2026-11-20"
       },
       "IN": {
         "brand": "Novamox / Mox",
@@ -6304,7 +6317,8 @@
         "status": "UNAVAILABLE",
         "confidence": "high",
         "note": "Pantoprazole is not on Japan’s prescription list. Japan uses omeprazole (Omepral), esomeprazole (Nexium), lansoprazole (Takepron), rabeprazole (Pariet) and vonoprazan (Takecab) instead, all prescription-only, so bring your own supply.",
-        "source": "https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AD%E3%83%88%E3%83%B3%E3%83%9D%E3%83%B3%E3%83%97%E9%98%BB%E5%AE%B3%E8%96%AC"
+        "source": "https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AD%E3%83%88%E3%83%B3%E3%83%9D%E3%83%B3%E3%83%97%E9%98%BB%E5%AE%B3%E8%96%AC",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Pantoloc",
@@ -6859,7 +6873,8 @@
         "status": "BANNED",
         "confidence": "high",
         "note": "Banned. Amphetamine is a prohibited stimulant under Japan’s Stimulants Control Act. A foreign prescription carries no legal weight, and importing it is a criminal offence even in original packaging. Methylphenidate (Concerta) and Vyvanse fall under separate, more permissive rules; see those entries.",
-        "source": "https://www.fodors.com/world/asia/japan/experiences/news/my-prescription-for-adderall-for-adhd-is-banned-in-japan-what-to-know"
+        "source": "https://www.fodors.com/world/asia/japan/experiences/news/my-prescription-for-adderall-for-adhd-is-banned-in-japan-what-to-know",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Not sold here",
@@ -6882,7 +6897,8 @@
         "status": "CONTROLLED",
         "confidence": "high",
         "note": "Adderall and other amphetamine products are not marketed in Singapore. To bring your own supply you need approval from the Health Sciences Authority before you travel, and may bring at most 3 months’ supply.",
-        "source": "https://file.go.gov.sg/document-guide-for-bringing-in-personal-medications.pdf"
+        "source": "https://file.go.gov.sg/document-guide-for-bringing-in-personal-medications.pdf",
+        "reviewed": "2026-11-20"
       },
       "MA": {
         "brand": "Not sold here",
@@ -7388,7 +7404,8 @@
         "status": "UNAVAILABLE",
         "confidence": "high",
         "note": "Not approved for any use by Japan’s Ministry of Health, Labour and Welfare. It cannot be prescribed or dispensed in Japan. For smoking cessation, Japan uses varenicline (Champix) and nicotine replacement instead of Zyban.",
-        "source": "https://legalclarity.org/is-bupropion-legal-in-japan-rules-for-personal-use/"
+        "source": "https://legalclarity.org/is-bupropion-legal-in-japan-rules-for-personal-use/",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Nobila / Breakin",
@@ -7656,7 +7673,8 @@
         "status": "UNAVAILABLE",
         "confidence": "high",
         "note": "Not approved for use. The manufacturer withdrew it after disappointing local trials. The SSRIs used in Japan are fluvoxamine, paroxetine, sertraline and escitalopram.",
-        "source": "https://interacnetwork.com/antidepressants-availablity-in-japan-2/"
+        "source": "https://interacnetwork.com/antidepressants-availablity-in-japan-2/",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Sold generic as \"Fluoxetin\" (also Oxedep)",
@@ -9261,7 +9279,8 @@
         "status": "UNAVAILABLE",
         "confidence": "high",
         "note": "Falls under the BtMG (German Narcotics Act, Annex III) as a controlled narcotic; expect substitution with dihydrocodeine or another opioid instead.",
-        "source": "https://flexikon.doccheck.com/de/Hydrocodon"
+        "source": "https://flexikon.doccheck.com/de/Hydrocodon",
+        "reviewed": "2026-11-20"
       },
       "FR": {
         "brand": "Not sold here",
@@ -9284,7 +9303,8 @@
         "status": "CONTROLLED",
         "confidence": "high",
         "note": "The Doloff brand is not sold in Mexico, and no hydrocodone product is in the register file, though some pharmacies stock generics. Controlled: needs a special prescription. Counterfeit and substandard products are a known risk in Mexico. If you can, get this at home before you travel.",
-        "source": "https://www.fahorro.com/catalogsearch/result/?q=DOLOFF%C2%B0+5-325+BITARTRATO+DE+HIDROCODONA+5+mg+ACETAMINOFEN+325+mg+30+TABLETAS+RECUBIERTAS"
+        "source": "https://www.fahorro.com/catalogsearch/result/?q=DOLOFF%C2%B0+5-325+BITARTRATO+DE+HIDROCODONA+5+mg+ACETAMINOFEN+325+mg+30+TABLETAS+RECUBIERTAS",
+        "reviewed": "2026-11-20"
       },
       "IN": {
         "brand": "Not known",
@@ -9314,7 +9334,8 @@
         "status": "UNAVAILABLE",
         "confidence": "high",
         "note": "Not marketed in Japan. It is a narcotic under Japanese law, so bringing your own supply follows the same rule as oxycodone: written permission from a Regional Bureau of Health and Welfare before you travel, for any quantity, applied for at least 14 days ahead with a doctor’s certificate.",
-        "source": "https://www.ncd.mhlw.go.jp/en/application2.html"
+        "source": "https://www.ncd.mhlw.go.jp/en/application2.html",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Not sold here",
@@ -9337,7 +9358,8 @@
         "status": "CONTROLLED",
         "confidence": "high",
         "note": "Hydrocodone is not marketed in Singapore. To bring your own supply you need approval from the Health Sciences Authority before you travel, and may bring at most 3 months’ supply.",
-        "source": "https://file.go.gov.sg/document-guide-for-bringing-in-personal-medications.pdf"
+        "source": "https://file.go.gov.sg/document-guide-for-bringing-in-personal-medications.pdf",
+        "reviewed": "2026-11-20"
       },
       "MA": {
         "brand": "Not sold here",
@@ -9491,7 +9513,8 @@
         "status": "MIXED",
         "confidence": "high",
         "note": "Fluticasone nasal spray was switched to prescription-free, pharmacy-only (apothekenpflichtig) status in Germany in 2016; inhalers for asthma remain prescription-only.",
-        "source": "https://www.deutsche-apotheker-zeitung.de/news/artikel/2016/09/23/nasensprays-mit-mometason-und-fluticason-rezeptfrei"
+        "source": "https://www.deutsche-apotheker-zeitung.de/news/artikel/2016/09/23/nasensprays-mit-mometason-und-fluticason-rezeptfrei",
+        "reviewed": "2026-11-20"
       },
       "FR": {
         "brand": "Flixonase",
@@ -9560,7 +9583,8 @@
         "confidence": "high",
         "note": "Flunase nasal spray is sold over the counter for seasonal allergies (hay fever). Allermist (nasal spray) and Flutide (inhaler) are prescription-only. Other over-the-counter steroid nasal sprays use beclomethasone dipropionate (ベクロメタゾンプロピオン酸エステル) instead, for example Nazal αAR (ナザールαAR) and Contac Hana-en Spray (コンタック鼻炎スプレー).",
         "source": "https://www.flunase.jp/",
-        "localName": "フルチカゾン (furuchikazon)"
+        "localName": "フルチカゾン (furuchikazon)",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Flixonase",
@@ -12714,7 +12738,8 @@
         "status": "RX",
         "confidence": "high",
         "note": "Usually dispensed as a generic, so ask for duloxetine by name.",
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "MA": {
         "brand": "Dulophi / Welin",
@@ -12955,7 +12980,8 @@
         "confidence": "high",
         "note": "Gaster is prescription-only. Gaster 10 is the non-prescription version, sold only after a consultation with the pharmacist.",
         "source": "https://www.pmda.go.jp/PmdaSearch/otcDetail/430549_K1103000023_07_01",
-        "localName": "ファモチジン (famochijin)"
+        "localName": "ファモチジン (famochijin)",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Peptacid / Famodin",
@@ -14352,7 +14378,8 @@
         "status": "UNAVAILABLE",
         "confidence": "high",
         "note": "Japan uses prednisolone instead: Predonine (プレドニン), prescription-only. Prednisone itself is not marketed in Japan. The liver converts prednisone to prednisolone anyway, so Japan prescribes prednisolone directly. Predonine needs a prescription, so bring your own supply.",
-        "source": "https://sugamo-sengoku-hifu.jp/medicines/predonin.html"
+        "source": "https://sugamo-sengoku-hifu.jp/medicines/predonin.html",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Sold generic as \"Prednison\"",
@@ -14796,7 +14823,8 @@
         "status": "MIXED",
         "confidence": "high",
         "note": "Pain-relief aspirin (300 mg) is sold without a prescription, on general sale or at the pharmacy counter. Some other aspirin products are prescription-only.",
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "CA": {
         "brand": "Aspirin",
@@ -14903,7 +14931,8 @@
         "confidence": "high",
         "note": null,
         "source": "https://www.pmda.go.jp/PmdaSearch/otcDetail/840001_J0601001404_06_01",
-        "localName": "アスピリン (asupirin)"
+        "localName": "アスピリン (asupirin)",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Aspirin (spelling unchanged)",
@@ -16043,7 +16072,8 @@
         "confidence": "high",
         "note": null,
         "source": null,
-        "localName": "ジクロフェナク (jikurofenaku)"
+        "localName": "ジクロフェナク (jikurofenaku)",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Voltaren Emulgel",
@@ -16324,7 +16354,8 @@
         "confidence": "high",
         "note": null,
         "source": "https://otcguidejapan.com/products/allegra-fx/",
-        "localName": "フェキソフェナジン (fekisofenajin)"
+        "localName": "フェキソフェナジン (fekisofenajin)",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Telfast",
@@ -16604,7 +16635,8 @@
         "confidence": "high",
         "note": "Usually one ingredient among several in OTC cold remedies rather than sold on its own.",
         "source": "https://otcguidejapan.com/products/new-contac-cough-suppressant-liquid-double-attack/",
-        "localName": "グアイフェネシン (guaifeneshin)"
+        "localName": "グアイフェネシン (guaifeneshin)",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Sold generic as \"Guaifenesin\"",
@@ -17168,7 +17200,8 @@
         "confidence": "high",
         "note": null,
         "source": "https://www.pmda.go.jp/PmdaSearch/otcDetail/300089_J1101000048_03_01",
-        "localName": "オキシメタゾリン (okishimetazorin)"
+        "localName": "オキシメタゾリン (okishimetazorin)",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Sold generic as \"Oxymetazoline\"",
@@ -17210,7 +17243,8 @@
         "status": "UNCONFIRMED",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "PT": {
         "brand": "Nasorhinathiol",
@@ -17434,7 +17468,8 @@
         "status": "UNAVAILABLE",
         "confidence": "high",
         "note": "Bring what you need from home.",
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Amebismo / Bisoenti",
@@ -17459,7 +17494,8 @@
         "status": "UNAVAILABLE",
         "confidence": "high",
         "note": "Bring what you need from home.",
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "MA": {
         "brand": "Not sold here",
@@ -17698,7 +17734,8 @@
         "confidence": "high",
         "note": "A mixed antacid powder that includes calcium carbonate among other ingredients.",
         "source": null,
-        "localName": "炭酸カルシウム (tansan karushiumu)"
+        "localName": "炭酸カルシウム (tansan karushiumu)",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Gaviscon (with alginate)",
@@ -17757,7 +17794,8 @@
         "status": "OTC",
         "confidence": "medium",
         "note": "Rennie Digestif combines calcium and magnesium carbonate.",
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "TR": {
         "brand": "Rennie",
@@ -17962,7 +18000,8 @@
         "confidence": "high",
         "note": null,
         "source": "https://www.pmda.go.jp/PmdaSearch/otcDetail/780014_J0607000504_03_03",
-        "localName": "ジメチコン (jimechikon)"
+        "localName": "ジメチコン (jimechikon)",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Espumisan",
@@ -18106,7 +18145,8 @@
         "status": "OTC",
         "confidence": "medium",
         "note": "No prescription needed. Sold as a drink or powder rather than a medicine; look in the baby or sports-drink aisle.",
-        "source": "https://www.pedialyte.com/"
+        "source": "https://www.pedialyte.com/",
+        "reviewed": "2026-11-20"
       },
       "GB": {
         "brand": "Dioralyte",
@@ -18131,7 +18171,8 @@
         "status": "OTC",
         "confidence": "medium",
         "note": "No prescription needed. Often classed as a supplement or food rather than a medicine, so brands vary and it may be shelved away from the pharmacy counter.",
-        "source": "https://www.pedialyte.ca/en/home"
+        "source": "https://www.pedialyte.ca/en/home",
+        "reviewed": "2026-11-20"
       },
       "DE": {
         "brand": "Elotrans",
@@ -18157,7 +18198,8 @@
         "status": "OTC",
         "confidence": "medium",
         "note": "No prescription needed. Often classed as a supplement or food rather than a medicine, so brands vary and it may be shelved away from the pharmacy counter.",
-        "source": "https://www.vidal.fr/actualites/23815-sacolene-nouveau-solute-de-rehydratation-orale.html"
+        "source": "https://www.vidal.fr/actualites/23815-sacolene-nouveau-solute-de-rehydratation-orale.html",
+        "reviewed": "2026-11-20"
       },
       "MX": {
         "brand": "Electrolit / Pedialyte",
@@ -18209,7 +18251,8 @@
         "confidence": "high",
         "note": null,
         "source": "https://www.os-1.jp/",
-        "localName": "経口補水液 (keikō hosuieki)"
+        "localName": "経口補水液 (keikō hosuieki)",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Oresol",
@@ -18234,14 +18277,16 @@
         "status": "OTC",
         "confidence": "medium",
         "note": "No prescription needed. Often classed as a supplement or food rather than a medicine, so brands vary and it may be shelved away from the pharmacy counter.",
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "MA": {
         "brand": "Sold generic as \"sels de réhydratation orale\"",
         "status": "PHARMACY",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "PT": {
         "brand": "Dioralyte",
@@ -18284,7 +18329,8 @@
         "confidence": "medium",
         "note": "Sold as a dietary product, so it is not in the medicines register.",
         "source": "https://dicofarm.com/en/pediatric-line/products/oral-rehydration-solutions/dicodral/",
-        "localName": "Sali per reidratazione orale"
+        "localName": "Sali per reidratazione orale",
+        "reviewed": "2026-11-20"
       },
       "ES": {
         "brand": "Sueroral",
@@ -18456,7 +18502,8 @@
         "confidence": "high",
         "note": null,
         "source": "https://otcguidejapan.com/products/colac-tablets/",
-        "localName": "ビサコジル (bisakojiru)"
+        "localName": "ビサコジル (bisakojiru)",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Sold generic as \"Bisacodyl\"",
@@ -19018,7 +19065,8 @@
         "confidence": "high",
         "note": "Found in some OTC motion-sickness (酔い止め) tablets alongside other ingredients.",
         "source": null,
-        "localName": "メクリジン (mekurijin)"
+        "localName": "メクリジン (mekurijin)",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Sold generic as \"Meclizine\"",
@@ -19041,7 +19089,8 @@
         "status": "UNAVAILABLE",
         "confidence": "high",
         "note": "Novomin (dimenhydrinate) covers this use.",
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "MA": {
         "brand": "Not sold here",
@@ -19736,7 +19785,8 @@
         "status": "UNAVAILABLE",
         "confidence": "high",
         "note": "Fucidin (fusidic acid) and Bactroban (mupirocin) are different antibiotics for the same use. They need a prescription in the UK. Without one, antiseptic creams such as Savlon or Germolene are sold.",
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "CA": {
         "brand": "Polysporin",
@@ -19780,7 +19830,8 @@
         "confidence": "high",
         "note": "Fucidine (fusidic acid) and Mupiderm (mupirocin) are different antibiotics for the same use. They need a prescription in France. Without one, antiseptics such as Biseptine are sold.",
         "source": null,
-        "localName": "Bacitracine / Néomycine / Polymyxine B"
+        "localName": "Bacitracine / Néomycine / Polymyxine B",
+        "reviewed": "2026-11-20"
       },
       "MX": {
         "brand": "Neosporin Dérmico",
@@ -19813,7 +19864,8 @@
         "status": "UNAVAILABLE",
         "confidence": "medium",
         "note": "Fusibran (fusidic acid) and Dermocin (mupirocin) are different antibiotics for the same use.",
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "JP": {
         "brand": "Dolmycin (ドルマイシン軟膏)",
@@ -19821,7 +19873,8 @@
         "confidence": "high",
         "note": "Dolmycin contains bacitracin with colistin.",
         "source": "https://www.pmda.go.jp/PmdaSearch/otcDetail/380077_J0601006266_02_02",
-        "localName": "バシトラシン (bashitorashin)"
+        "localName": "バシトラシン (bashitorashin)",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Polybamycin",
@@ -19981,21 +20034,24 @@
         "status": "UNAVAILABLE",
         "confidence": "high",
         "note": "Nytol (diphenhydramine) is the usual sleep aid. Only licensed in combinations: with vitamin B6 for pregnancy nausea (Xonvea, prescription-only) and in some codeine painkillers.",
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "CA": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
         "confidence": "high",
         "note": "It is found in nighttime cold remedies such as NyQuil. Unisom in Canada is a different medicine (diphenhydramine). Doxylamine with vitamin B6 is prescription-only, for pregnancy nausea.",
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "DE": {
         "brand": "Hoggar Night / SchlafTabs-ratiopharm",
         "status": "PHARMACY",
         "confidence": "medium",
         "note": null,
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "FR": {
         "brand": "Donormyl",
@@ -20020,7 +20076,8 @@
         "status": "UNAVAILABLE",
         "confidence": "medium",
         "note": "Only registered combined with vitamin B6 as Bonjesta, a prescription medicine for pregnancy nausea. There is no doxylamine sleep aid.",
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "IN": {
         "brand": "Doxinate",
@@ -20051,7 +20108,8 @@
         "status": "UNAVAILABLE",
         "confidence": "high",
         "note": "Drewell (diphenhydramine) is the OTC sleep aid.",
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Sold generic as \"Doxylamine\"",
@@ -20074,7 +20132,8 @@
         "status": "UNAVAILABLE",
         "confidence": "high",
         "note": null,
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "MA": {
         "brand": "Cariban",
@@ -20133,7 +20192,8 @@
         "status": "UNAVAILABLE",
         "confidence": "medium",
         "note": "Only found combined with other medicines: in Vicks MediNait, a night-time cold remedy sold without a prescription, and with vitamin B6 for pregnancy nausea, on prescription.",
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "ES": {
         "brand": "Dormidina",
@@ -20306,7 +20366,8 @@
         "confidence": "high",
         "note": "Sold without a prescription, but only by a pharmacist, who may ask you to take the tablet in front of them.",
         "source": null,
-        "localName": "レボノルゲストレル (rebonorugesutoreru)"
+        "localName": "レボノルゲストレル (rebonorugesutoreru)",
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Postinor",
@@ -20543,7 +20604,8 @@
         "confidence": "high",
         "note": "Stock can be patchy, so bringing your full course from home is safer.",
         "source": null,
-        "localName": "Atovacuona / Proguanil"
+        "localName": "Atovacuona / Proguanil",
+        "reviewed": "2026-11-20"
       },
       "IN": {
         "brand": "Not sold here",
@@ -21910,7 +21972,8 @@
         "status": "UNAVAILABLE",
         "confidence": "high",
         "note": "No scopolamine patch is currently marketed in Canada (Transderm-V is no longer listed). Bring patches from home.",
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "DE": {
         "brand": "Scopoderm TTS",
@@ -21953,7 +22016,8 @@
         "status": "UNAVAILABLE",
         "confidence": "medium",
         "note": "The hyoscine tablets sold here (butilhioscina) are for stomach cramps, not motion sickness.",
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "IN": {
         "brand": "Not sold here",
@@ -21983,7 +22047,8 @@
         "status": "UNAVAILABLE",
         "confidence": "high",
         "note": "Scopolamine patches are not sold in Japan, so bring what you need from home. The nearest prescription product is Buscopan (ブスコパン, butylscopolamine). Over the counter, some products in the Travelmin (トラベルミン) motion-sickness range include scopolamine as one of several ingredients.",
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "VN": {
         "brand": "Kimite (patch)",
@@ -22007,7 +22072,8 @@
         "status": "UNAVAILABLE",
         "confidence": "high",
         "note": "The register lists only hyoscine butylbromide (Buscopan), a different medicine for stomach cramps. Bring patches from home.",
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "MA": {
         "brand": "Not sold here",
@@ -22062,14 +22128,16 @@
         "status": "UNAVAILABLE",
         "confidence": "medium",
         "note": "The scopolamine sold here is butylscopolamine (Buscopan) for stomach cramps, not a motion-sickness patch.",
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "ES": {
         "brand": "Not sold here",
         "status": "UNAVAILABLE",
         "confidence": "medium",
         "note": "The register has scopolamine only as a prescription injection, not a motion-sickness patch.",
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       }
     }
   },
@@ -22467,7 +22535,8 @@
         "status": "UNAVAILABLE",
         "confidence": "medium",
         "note": "Mexico’s register has epinephrine only as hospital ampoules and in dental anaesthetics, with no auto-injector pen. Bring your own.",
-        "source": null
+        "source": null,
+        "reviewed": "2026-11-20"
       },
       "IN": {
         "brand": "Not sold here",

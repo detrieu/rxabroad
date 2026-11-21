@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { CONTAINER } from './Masthead';
 import { StatusPill } from './StatusPill';
 import { STATUS_DESCRIPTION } from '@/data/status';
-import { BadgeCheckIcon, CircleHelpIcon, InfoIcon, TriangleAlertIcon } from 'lucide-react';
+import { BadgeCheckIcon, CircleHelpIcon, TriangleAlertIcon, UserRoundCheckIcon } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -24,10 +24,10 @@ export function Footer() {
               </div>
             ))}
             <div className="contents">
-              <dt className="text-ink-mixed flex items-center gap-1.5 text-sm font-medium">
-                <InfoIcon className="size-4" /> Not verified
+              <dt className="text-primary flex items-center gap-1.5 text-sm font-medium">
+                <UserRoundCheckIcon className="size-4" /> Pharmacist-reviewed
               </dt>
-              <dd className="text-muted-foreground -mt-2.5 text-sm leading-snug sm:mt-0">General market knowledge, not registry-checked.</dd>
+              <dd className="text-muted-foreground -mt-2.5 text-sm leading-snug sm:mt-0">No registry record confirms it, so a pharmacist reviewed it.</dd>
             </div>
             <div className="contents">
               <dt className="text-ink-banned flex items-center gap-1.5 text-sm font-medium">

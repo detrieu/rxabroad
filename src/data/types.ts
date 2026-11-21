@@ -64,6 +64,8 @@ export interface CountryEntry {
   /** The generic name in the country's own language, where it differs from the English one. */
   localName?: string;
   verified?: Verification;
+  /** Date a pharmacist reviewed an entry that no registry record confirms. */
+  reviewed?: string;
 }
 
 export interface Drug {

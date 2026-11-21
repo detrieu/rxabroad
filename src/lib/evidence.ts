@@ -19,6 +19,11 @@ export const TIPS: Partial<Record<Confidence, { icon: typeof InfoIcon; color: st
   },
 };
 
+export const REVIEWED = {
+  title: 'Pharmacist-reviewed',
+  tip: 'No registry record confirms this entry, so a pharmacist reviewed it.',
+};
+
 export function whatWasChecked({ checks }: Verification) {
   if (checks.includes('absent')) return 'It lists no medicine with this ingredient.';
   const subject = checks.includes('brand')

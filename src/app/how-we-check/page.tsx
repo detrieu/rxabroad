@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { BadgeCheckIcon, CircleHelpIcon, InfoIcon } from 'lucide-react';
+import { BadgeCheckIcon, CircleHelpIcon, UserRoundCheckIcon } from 'lucide-react';
 import { COUNTRIES, DRUGS, entryFor, type Country, type CountryEntry, type VerificationCheck } from '@/data';
-import { TIPS } from '@/lib/evidence';
+import { REVIEWED, TIPS } from '@/lib/evidence';
 import { SITE_NAME } from '@/lib/site';
 import { Flag } from '@/components/Flag';
 import { CONTAINER } from '@/components/Masthead';
@@ -21,6 +21,7 @@ const ENTRIES: { country: Country; entry: CountryEntry }[] = DRUGS.flatMap((d) =
   COUNTRIES.map((country) => ({ country, entry: entryFor(d, country.code) })),
 );
 const verified = ENTRIES.filter((e) => e.entry.verified);
+const reviewed = ENTRIES.filter((e) => !e.entry.verified && e.entry.reviewed);
 const count = (check: VerificationCheck) => verified.filter((e) => e.entry.verified!.checks.includes(check)).length;
 const lastChecked = verified.map((e) => e.entry.verified!.checked).sort().at(-1);
 
@@ -95,19 +96,16 @@ export default function HowWeCheckPage() {
         <section aria-labelledby="unchecked" className={SECTION}>
           <h2 id="unchecked" className={H2}>Entries without a registry record</h2>
           <p className={BODY}>
-            When a registry can&apos;t settle an entry, it is reviewed by a pharmacist and marked with one of these:
+            When no registry record confirms an entry, a pharmacist reviews it and marks it{' '}
+            <UserRoundCheckIcon aria-hidden="true" className="text-primary inline size-4 -translate-y-px" />{' '}
+            <strong className="text-primary">{REVIEWED.title}</strong>, with the date. {reviewed.length} entries are marked
+            this way.
           </p>
-          <ul className={`${BODY} mt-3 space-y-2`}>
-            {([['medium', InfoIcon], ['low', CircleHelpIcon]] as const).map(([level, Icon]) => {
-              const tip = TIPS[level]!;
-              return (
-                <li key={level} className="flex gap-2">
-                  <Icon className={`mt-1 size-4 shrink-0 ${tip.color}`} />
-                  <span><strong className={tip.color}>{tip.title}.</strong> {tip.tip}</span>
-                </li>
-              );
-            })}
-          </ul>
+          <p className={`${BODY} mt-3`}>
+            Anything we still can&apos;t confirm is marked{' '}
+            <CircleHelpIcon aria-hidden="true" className={`inline size-4 -translate-y-px ${TIPS.low!.color}`} />{' '}
+            <strong className={TIPS.low!.color}>{TIPS.low!.title}</strong>. {TIPS.low!.tip}
+          </p>
         </section>
 
         <section aria-labelledby="current" className={SECTION}>
