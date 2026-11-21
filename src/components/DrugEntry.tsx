@@ -153,6 +153,12 @@ function CountryRow({
       {entry.note && <p className="text-muted-foreground col-span-full text-[0.82rem] leading-relaxed">{entry.note}</p>}
       <div className="col-span-full flex flex-wrap items-center gap-x-4 gap-y-1">
         <SourceLink source={entry.source ?? entry.verified?.url ?? null} />
+        <Link
+          href={`/drug/${drug.id}/${country.slug}`}
+          className="text-primary font-mono text-[0.68rem] underline decoration-dotted underline-offset-4 hover:decoration-solid"
+        >
+          Details →
+        </Link>
         <ReportProblem drug={drug} country={country} />
       </div>
     </div>

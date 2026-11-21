@@ -1,23 +1,9 @@
 'use client';
 
-import { BadgeCheckIcon, CircleHelpIcon, InfoIcon } from 'lucide-react';
+import { BadgeCheckIcon } from 'lucide-react';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import type { Confidence, CountryEntry, Verification } from '@/data';
-
-const TIPS: Partial<Record<Confidence, { icon: typeof InfoIcon; color: string; title: string; tip: string }>> = {
-  medium: {
-    icon: InfoIcon,
-    color: 'text-ink-mixed',
-    title: 'Not registry-checked',
-    tip: 'Based on general market knowledge. It is likely right, but it hasn’t been confirmed against a local registry.',
-  },
-  low: {
-    icon: CircleHelpIcon,
-    color: 'text-ink-banned',
-    title: 'Unconfirmed',
-    tip: 'We couldn’t confirm this. Verify with a local pharmacist before relying on it.',
-  },
-};
+import { TIPS, whatWasChecked } from '@/lib/evidence';
 
 const TRIGGER =
   'relative ml-1 inline-flex size-5 translate-y-0.5 after:absolute after:-inset-1.5 after:content-[""] items-center justify-center rounded-full hover:bg-muted focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none';
@@ -40,14 +26,6 @@ export function ConfBadge({ confidence }: { confidence: Confidence }) {
       </PopoverContent>
     </Popover>
   );
-}
-
-function whatWasChecked({ checks }: Verification) {
-  if (checks.includes('absent')) return 'It lists no medicine with this ingredient.';
-  const subject = checks.includes('brand')
-    ? 'This name is registered there with this ingredient'
-    : 'Medicines with this ingredient are registered there';
-  return checks.includes('status') ? `${subject}, and the legal status shown matches.` : `${subject}.`;
 }
 
 /** Check mark for an entry that scripts/verify confirmed against the country's official registry. */

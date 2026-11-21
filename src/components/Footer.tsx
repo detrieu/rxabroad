@@ -1,17 +1,7 @@
 import { CONTAINER } from './Masthead';
 import { StatusPill } from './StatusPill';
+import { STATUS_DESCRIPTION } from '@/data/status';
 import { BadgeCheckIcon, CircleHelpIcon, InfoIcon, TriangleAlertIcon } from 'lucide-react';
-
-const LEGEND: { status: string; text: string }[] = [
-  { status: 'OTC', text: 'Over the counter. Take it off the shelf.' },
-  { status: 'RX', text: 'Needs a local doctor’s prescription.' },
-  { status: 'MIXED', text: 'OTC or Rx depending on dose or form (e.g. nasal spray vs. inhaler).' },
-  { status: 'PHARMACY', text: 'No prescription, but a pharmacist has to hand it over.' },
-  { status: 'CONTROLLED', text: 'A prescription works, but expect scrutiny, paperwork, and harder refills.' },
-  { status: 'BANNED', text: 'No legal personal-use pathway. Do not bring it in.' },
-  { status: 'UNAVAILABLE', text: 'Not sold in this country. Bring it from home.' },
-  { status: 'UNCONFIRMED', text: 'We couldn’t find reliable information on how it is sold here.' },
-];
 
 export function Footer() {
   return (
@@ -24,7 +14,7 @@ export function Footer() {
           {/* Stamp column sizes to the widest stamp, so explanations never sit underneath one.
               On phones each stamp stacks above its explanation. */}
           <dl className="grid grid-cols-1 gap-y-4 sm:grid-cols-[max-content_minmax(0,1fr)] sm:items-center sm:gap-x-5 sm:gap-y-3">
-            {LEGEND.map(({ status, text }) => (
+            {STATUS_DESCRIPTION.map(({ status, text }) => (
               <div key={status} className="contents">
                 <dt>
                   <StatusPill status={status} size="sm" />
