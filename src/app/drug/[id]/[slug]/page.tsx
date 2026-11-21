@@ -186,7 +186,10 @@ export default async function DrugInCountryPage({ params }: PageProps<'/drug/[id
         )}
 
         <section aria-labelledby="checked-heading" className={SECTION}>
-          <h2 id="checked-heading" className={SECTION_LABEL}>How this was checked</h2>
+          <div className="mb-3 flex flex-wrap items-baseline justify-between gap-2">
+            <h2 id="checked-heading" className={cn(SECTION_LABEL, 'mb-0')}>How this was checked</h2>
+            <Link href="/how-we-check" className="text-primary text-sm underline underline-offset-4">How we check</Link>
+          </div>
           {entry.verified ? (
             <p className="text-[0.9rem] leading-relaxed">
               Checked against {entry.verified.registry} on {formatDate(entry.verified.checked)}. {whatWasChecked(entry.verified)}{' '}

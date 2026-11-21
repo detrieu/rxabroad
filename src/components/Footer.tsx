@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { CONTAINER } from './Masthead';
 import { StatusPill } from './StatusPill';
 import { STATUS_DESCRIPTION } from '@/data/status';
@@ -47,13 +48,13 @@ export function Footer() {
         <aside className="bg-card self-start rounded-xl border p-5 text-sm">
           <p className="font-heading mb-2 flex items-center gap-2 font-semibold">
             <TriangleAlertIcon className="text-ink-controlled size-4" />
-            Seed data for a prototype
+            Confirm locally before relying on it
           </p>
           <p className="text-muted-foreground leading-relaxed">
-            Compiled from general pharmacology knowledge, not a live regulatory feed. Brand names, availability, and
-            prescription status change and vary by region and even by pharmacy. Confirm with a local pharmacist or
-            physician before relying on this while traveling.
+            Entries are checked against official drug registries and reviewed by a pharmacist. Brand names, stock and
+            prescription rules still change and vary by pharmacy, so confirm with a local pharmacist or doctor.
           </p>
+          <Link href="/how-we-check" className="text-primary mt-2 inline-block underline underline-offset-4">How we check</Link>
           <p className="text-muted-foreground mt-3 text-xs leading-relaxed">
             This product uses publicly available data from the U.S. National Library of Medicine (NLM), National
             Institutes of Health, Department of Health and Human Services; NLM is not responsible for the product and
@@ -62,7 +63,9 @@ export function Footer() {
         </aside>
       </div>
       <div className="guilloche text-navy-foreground/70 py-4 text-center font-mono text-[0.65rem] tracking-[0.25em] uppercase">
-        Rx Abroad · Know what to ask for, wherever you land
+        Rx Abroad · Know what to ask for, wherever you land ·{' '}
+        <Link href="/about" className="hover:text-gold underline-offset-4 hover:underline">About</Link> ·{' '}
+        <Link href="/how-we-check" className="hover:text-gold underline-offset-4 hover:underline">How we check</Link>
       </div>
     </footer>
   );
