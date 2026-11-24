@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import { ClerkProvider } from '@clerk/nextjs';
 import { shadcn } from '@clerk/ui/themes';
 import { Bricolage_Grotesque, Geist, IBM_Plex_Mono } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/next';
 import { Masthead } from '@/components/Masthead';
 import { Footer } from '@/components/Footer';
 import { Toaster } from 'sonner';
@@ -47,6 +48,7 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
           <Footer />
           <Toaster position="top-center" richColors closeButton />
         </ClerkProvider>
+        <Analytics />
       </body>
     </html>
   );
