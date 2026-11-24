@@ -239,7 +239,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Parasetamol"
       },
       "IT": {
         "brand": "Tachipirina / Efferalgan",
@@ -485,7 +486,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Ibuprofène"
       },
       "PT": {
         "brand": "Brufen",
@@ -1082,7 +1084,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Setirizin"
       },
       "IT": {
         "brand": "Zirtec",
@@ -1359,7 +1362,8 @@
           "checks": [
             "ingredient"
           ]
-        }
+        },
+        "localName": "Difenhidramin"
       },
       "IT": {
         "brand": "Allergan",
@@ -2182,7 +2186,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Psödoefedrin"
       },
       "IT": {
         "brand": "Actifed / Actigrip",
@@ -2425,7 +2430,8 @@
         "confidence": "high",
         "note": null,
         "source": null,
-        "reviewed": "2026-11-20"
+        "reviewed": "2026-11-20",
+        "localName": "Mélatonine"
       },
       "PT": {
         "brand": "Circadin (Rx), or \"melatonina\" supplements",
@@ -2723,7 +2729,8 @@
           "checks": [
             "ingredient"
           ]
-        }
+        },
+        "localName": "Dimenhidrinat"
       },
       "IT": {
         "brand": "Xamamina / Travelgum",
@@ -2960,7 +2967,8 @@
           "checks": [
             "ingredient"
           ]
-        }
+        },
+        "localName": "Amoxicilline"
       },
       "PT": {
         "brand": "Sold generic",
@@ -2993,7 +3001,8 @@
           "checks": [
             "ingredient"
           ]
-        }
+        },
+        "localName": "Amoksisilin"
       },
       "IT": {
         "brand": "Velamox",
@@ -3244,7 +3253,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Metformine"
       },
       "PT": {
         "brand": "Glucophage",
@@ -4105,7 +4115,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Atorvastatine"
       },
       "PT": {
         "brand": "Zarator",
@@ -4426,7 +4437,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Levotiroksin"
       },
       "IT": {
         "brand": "Eutirox / Tirosint",
@@ -5810,7 +5822,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Gabapentine"
       },
       "PT": {
         "brand": "Neurontin",
@@ -6097,7 +6110,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Rosuvastatine"
       },
       "PT": {
         "brand": "Crestor",
@@ -6689,7 +6703,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Essitalopram"
       },
       "IT": {
         "brand": "Cipralex / Entact",
@@ -7457,7 +7472,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Bupropione"
       },
       "PT": {
         "brand": "Wellbutrin XR",
@@ -7759,7 +7775,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Fluoksetin"
       },
       "IT": {
         "brand": "Fluoxeren",
@@ -8854,7 +8871,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Simvastatine"
       },
       "PT": {
         "brand": "Zocor",
@@ -9138,7 +9156,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Tamsulosine"
       },
       "PT": {
         "brand": "Omnic",
@@ -9671,7 +9690,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Flutikazon"
       },
       "IT": {
         "brand": "Flixonase",
@@ -9952,7 +9972,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Meloksikam"
       },
       "IT": {
         "brand": "Mobic",
@@ -10236,7 +10257,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Apiksaban"
       },
       "IT": {
         "brand": "Eliquis",
@@ -10769,7 +10791,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Insuline glargine"
       },
       "PT": {
         "brand": "Lantus",
@@ -10804,7 +10827,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "İnsülin glarjin"
       },
       "IT": {
         "brand": "Lantus / Abasaglar / Toujeo",
@@ -11055,7 +11079,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Insuline lispro"
       },
       "PT": {
         "brand": "Humalog",
@@ -11090,7 +11115,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "İnsülin lispro"
       },
       "IT": {
         "brand": "Humalog",
@@ -11342,7 +11368,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Insuline asparte"
       },
       "PT": {
         "brand": "NovoRapid",
@@ -11377,7 +11404,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "İnsülin aspart"
       },
       "IT": {
         "brand": "NovoRapid / Fiasp",
@@ -11629,7 +11657,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Insuline humaine (rapide)"
       },
       "PT": {
         "brand": "Actrapid / Humulin Regular",
@@ -11916,7 +11945,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Insuline humaine isophane (NPH)"
       },
       "PT": {
         "brand": "Insulatard / Humulin NPH",
@@ -12202,7 +12232,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Insuline détémir"
       },
       "PT": {
         "brand": "Levemir",
@@ -12237,7 +12268,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "İnsülin detemir"
       },
       "IT": {
         "brand": "Levemir",
@@ -12485,7 +12517,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Insuline dégludec"
       },
       "PT": {
         "brand": "Tresiba",
@@ -12520,7 +12553,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "İnsülin degludek"
       },
       "IT": {
         "brand": "Tresiba",
@@ -12790,7 +12824,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Duloksetin"
       },
       "IT": {
         "brand": "Cymbalta",
@@ -13319,7 +13354,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Empagliflozine"
       },
       "PT": {
         "brand": "Jardiance",
@@ -13636,7 +13672,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Karvedilol"
       },
       "IT": {
         "brand": "Dilatrend / Carvipress",
@@ -14463,7 +14500,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Prednizon"
       },
       "IT": {
         "brand": "Deltacortene",
@@ -14748,7 +14786,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Klopidogrel"
       },
       "IT": {
         "brand": "Plavix",
@@ -14985,7 +15024,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Acide acétylsalicylique"
       },
       "PT": {
         "brand": "Aspirina",
@@ -15020,7 +15060,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Asetilsalisilik asit"
       },
       "IT": {
         "brand": "Aspirina / Cardioaspirin",
@@ -15304,7 +15345,8 @@
             "ingredient",
             "status"
           ]
-        }
+        },
+        "localName": "Oksikodon"
       },
       "IT": {
         "brand": "OxyContin",
@@ -15587,7 +15629,8 @@
             "ingredient",
             "status"
           ]
-        }
+        },
+        "localName": "Metilfenidat"
       },
       "IT": {
         "brand": "Ritalin / Medikinet / Equasym",
@@ -15843,7 +15886,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Naproxène"
       },
       "PT": {
         "brand": "Momendol (OTC) / Naprosyn (Rx)",
@@ -15878,7 +15922,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Naproksen"
       },
       "IT": {
         "brand": "Momendol / Synflex",
@@ -16126,7 +16171,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Diclofénac (gel)"
       },
       "PT": {
         "brand": "Voltaren Emulgel",
@@ -16161,7 +16207,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Diklofenak"
       },
       "IT": {
         "brand": "Voltaren Emulgel",
@@ -16441,7 +16488,8 @@
           "checks": [
             "ingredient"
           ]
-        }
+        },
+        "localName": "Feksofenadin"
       },
       "IT": {
         "brand": "Telfast / Fexallegra",
@@ -16686,7 +16734,8 @@
           "checks": [
             "ingredient"
           ]
-        }
+        },
+        "localName": "Guaïfénésine"
       },
       "PT": {
         "brand": "Vicks Xarope Expectorante Mel",
@@ -16973,7 +17022,8 @@
           "checks": [
             "ingredient"
           ]
-        }
+        },
+        "localName": "Dextrométhorphane"
       },
       "PT": {
         "brand": "Bisoltussin",
@@ -17007,7 +17057,8 @@
           "checks": [
             "ingredient"
           ]
-        }
+        },
+        "localName": "Dekstrometorfan"
       },
       "IT": {
         "brand": "Bronchenolo Tosse / Vicks Tosse Sedativo",
@@ -17279,7 +17330,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Oksimetazolin"
       },
       "IT": {
         "brand": "Vicks Sinex",
@@ -17544,7 +17596,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Bizmut subsalisilat"
       },
       "IT": {
         "brand": "Not sold here",
@@ -18088,7 +18141,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Simetikon"
       },
       "IT": {
         "brand": "Mylicon / Simecrin",
@@ -18590,7 +18644,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Bisakodil"
       },
       "IT": {
         "brand": "Dulcolax",
@@ -18880,7 +18935,8 @@
           "checks": [
             "ingredient"
           ]
-        }
+        },
+        "localName": "Makrogol"
       },
       "IT": {
         "brand": "Movicol / Paxabel",
@@ -19420,7 +19476,8 @@
           "checks": [
             "ingredient"
           ]
-        }
+        },
+        "localName": "Hidrokortizon"
       },
       "IT": {
         "brand": "Lenirit / Cortidro",
@@ -19710,7 +19767,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Klotrimazol"
       },
       "IT": {
         "brand": "Canesten",
@@ -20185,7 +20243,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Doksilamin"
       },
       "IT": {
         "brand": "Not sold here",
@@ -21015,7 +21074,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Doksisiklin"
       },
       "IT": {
         "brand": "Bassado / Miraclin",
@@ -21270,7 +21330,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Azithromycine"
       },
       "PT": {
         "brand": "Zithromax",
@@ -21305,7 +21366,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Azitromisin"
       },
       "IT": {
         "brand": "Zitromax",
@@ -21562,7 +21624,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Ciprofloxacine"
       },
       "PT": {
         "brand": "Ciproxina",
@@ -21597,7 +21660,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Siprofloksasin"
       },
       "IT": {
         "brand": "Ciproxin",
@@ -21878,7 +21942,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Asetazolamid"
       },
       "IT": {
         "brand": "Diamox",
@@ -22663,7 +22728,8 @@
             "brand",
             "ingredient"
           ]
-        }
+        },
+        "localName": "Epinefrin (adrenalin)"
       },
       "IT": {
         "brand": "Fastjekt / Jext / Chenpen",
