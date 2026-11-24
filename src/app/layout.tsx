@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import { ClerkProvider } from '@clerk/nextjs';
 import { shadcn } from '@clerk/ui/themes';
 import { Bricolage_Grotesque, Geist, IBM_Plex_Mono } from 'next/font/google';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Masthead } from '@/components/Masthead';
 import { Footer } from '@/components/Footer';
 import { Toaster } from 'sonner';
@@ -46,6 +47,7 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
           <div className="flex-1">{children}</div>
           <Footer />
           <Toaster position="top-center" richColors closeButton />
+          <SpeedInsights />
         </ClerkProvider>
       </body>
     </html>
