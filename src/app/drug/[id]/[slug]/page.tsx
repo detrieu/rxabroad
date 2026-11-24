@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -19,6 +20,7 @@ import { Flag } from '@/components/Flag';
 import { InProgressBanner } from '@/components/InProgressBanner';
 import { CONTAINER } from '@/components/Masthead';
 import { PageHero } from '@/components/PageHero';
+import { PharmacistNote } from '@/components/PharmacistNote';
 import { ReportProblem } from '@/components/ReportProblem';
 import { StatusPill } from '@/components/StatusPill';
 
@@ -96,6 +98,15 @@ const CAUTION_STYLE = {
   CONTROLLED: { icon: ShieldAlertIcon, ink: 'text-ink-controlled bg-ink-controlled/8 border-ink-controlled/30' },
 };
 
+function QuickFact({ label, children }: { label: string; children: ReactNode }) {
+  return (
+    <div>
+      <dt className="text-muted-foreground font-mono text-[0.6rem] tracking-[0.16em] uppercase">{label}</dt>
+      <dd className="mt-1 text-[0.9rem] leading-snug font-medium">{children}</dd>
+    </div>
+  );
+}
+
 export default async function DrugInCountryPage({ params }: PageProps<'/drug/[id]/[slug]'>) {
   const page = await load(params);
   if (!page) notFound();
@@ -151,6 +162,7 @@ export default async function DrugInCountryPage({ params }: PageProps<'/drug/[id
             </div>
           </div>
           {entry.note && <p className="border-t px-5 py-4 text-[0.92rem] leading-relaxed">{entry.note}</p>}
+          {entry.pharmacistNote && <PharmacistNote note={entry.pharmacistNote} block />}
           <div className="flex flex-wrap items-center gap-x-4 gap-y-1 border-t px-5 py-3">
             <SourceLink source={entry.source ?? entry.verified?.url ?? null} />
             <ReportProblem drug={drug} country={country} />
@@ -160,6 +172,13 @@ export default async function DrugInCountryPage({ params }: PageProps<'/drug/[id
         {caution && (
           <section aria-labelledby="bringing-heading" className={SECTION}>
             <h2 id="bringing-heading" className={SECTION_LABEL}>Bringing your own</h2>
+            {rule && (rule.permit !== undefined || rule.maxSupply || rule.documents) && (
+              <dl className="mb-4 grid gap-x-6 gap-y-3 sm:grid-cols-3">
+                {rule.permit !== undefined && <QuickFact label="Permit before you travel">{rule.permit ? 'Yes' : 'No'}</QuickFact>}
+                {rule.maxSupply && <QuickFact label="Most you can bring">{rule.maxSupply}</QuickFact>}
+                {rule.documents && <QuickFact label="Carry">{rule.documents}</QuickFact>}
+              </dl>
+            )}
             {(() => {
               const style = CAUTION_STYLE[caution];
               return (

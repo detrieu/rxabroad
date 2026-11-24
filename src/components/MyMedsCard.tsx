@@ -21,6 +21,8 @@ import { StatusPill } from './StatusPill';
 import { PrintButton } from './Toolbar';
 import { TripsPanel } from './TripsPanel';
 import { PassportStamp } from './PassportStamp';
+import { PharmacistNote } from './PharmacistNote';
+import { ShowPharmacist } from './ShowPharmacist';
 import { SaveExportGuide } from './SaveExportGuide';
 
 function matchesFilter(drug: Drug, q: string) {
@@ -193,6 +195,9 @@ function TravelPass({ country, leg, legs, drugs, onRemove }: TravelPassProps) {
             <Field label="Medicines">{drugs.length || '—'}</Field>
             <Field label="Show to" className="hidden sm:block">Pharmacist</Field>
           </dl>
+          {country && drugs.length > 0 && (
+            <div className="no-print border-b px-5 py-3"><ShowPharmacist country={country} drugs={drugs} /></div>
+          )}
           {country && isInProgress(country.code) && (
             <div className="border-b px-5 py-3"><InProgressBanner>{IN_PROGRESS_NOTE}</InProgressBanner></div>
           )}
@@ -228,6 +233,7 @@ function TravelPass({ country, leg, legs, drugs, onRemove }: TravelPassProps) {
                     </p>
                     <LocalName entry={entry} />
                     {entry.note && <p className="text-muted-foreground mt-1 text-[0.82rem] leading-relaxed">{entry.note}</p>}
+                    {entry.pharmacistNote && <PharmacistNote note={entry.pharmacistNote} className="mt-1" />}
                     {caution && (
                       <p className={cn('mt-2 flex gap-2 rounded-lg border px-3 py-2 text-[0.8rem] leading-snug', caution.ink)}>
                         <caution.icon className="mt-0.5 size-4 shrink-0" />
@@ -254,6 +260,8 @@ function TravelPass({ country, leg, legs, drugs, onRemove }: TravelPassProps) {
                     )}
                     {entry.verified?.checks.includes('brand') && entry.confidence !== 'low' ? (
                       <p className="text-ink-otc mt-1.5 text-xs">Registry-verified: {entry.verified.registry}.</p>
+                    ) : entry.reviewed ? (
+                      <p className="text-primary mt-1.5 text-xs">Pharmacist-reviewed.</p>
                     ) : entry.confidence !== 'high' && (
                       <p className="text-ink-mixed mt-1.5 text-xs">
                         {entry.confidence === 'low'
@@ -291,7 +299,7 @@ function TravelPass({ country, leg, legs, drugs, onRemove }: TravelPassProps) {
       </div>
 
       <p className="text-muted-foreground border-t border-dashed px-5 py-3 text-[0.72rem]">
-        Rx Abroad seed data. Not medical or legal advice. Confirm with a local pharmacist or physician.
+        Rx Abroad. Not medical or legal advice. Confirm with a local pharmacist or doctor.
       </p>
     </section>
   );

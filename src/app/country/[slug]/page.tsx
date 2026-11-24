@@ -6,6 +6,7 @@ import { COUNTRIES, DRUGS, IN_PROGRESS_NOTE, entryFor, hasName, getCountryBySlug
 import { Button } from '@/components/ui/button';
 import { StatusPill } from '@/components/StatusPill';
 import { EntryBadges } from '@/components/ConfBadge';
+import { PharmacistNote } from '@/components/PharmacistNote';
 import { LocalName, SourceLink } from '@/components/DrugEntry';
 import { InProgressBanner } from '@/components/InProgressBanner';
 import { ReportProblem } from '@/components/ReportProblem';
@@ -133,6 +134,7 @@ export default async function CountryPage({ params }: PageProps<'/country/[slug]
                 <StatusPill status={entry.status} />
               </span>
               {entry.note && <p className="text-muted-foreground col-span-full text-[0.82rem] leading-relaxed">{entry.note}</p>}
+              {entry.pharmacistNote && <PharmacistNote note={entry.pharmacistNote} className="col-span-full" />}
               <div className="col-span-full flex flex-wrap items-center gap-x-4 gap-y-1">
                 <SourceLink source={entry.source ?? entry.verified?.url ?? null} />
                 <Link

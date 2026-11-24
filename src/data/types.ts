@@ -66,6 +66,14 @@ export interface CountryEntry {
   verified?: Verification;
   /** Date a pharmacist reviewed an entry that no registry record confirms. */
   reviewed?: string;
+  /** A pharmacist's advice for travelers on this entry, shown unsigned with its date. */
+  pharmacistNote?: PharmacistNote;
+}
+
+export interface PharmacistNote {
+  text: string;
+  /** YYYY-MM-DD the note was written or last revised. */
+  date: string;
 }
 
 export interface Drug {
