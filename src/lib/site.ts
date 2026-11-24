@@ -6,3 +6,6 @@ export const SITE_URL = (
 
 export const SITE_NAME = 'Rx Abroad';
 export const SITE_TAGLINE = 'Know what to ask for, wherever you land.';
+
+/** Where privacy and terms questions go. */
+export const CONTACT_EMAIL = 'hello@rxabroad.com';

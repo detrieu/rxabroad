@@ -65,7 +65,10 @@ export function Footer() {
       <div className="guilloche text-navy-foreground/70 py-4 text-center font-mono text-[0.65rem] tracking-[0.25em] uppercase">
         Rx Abroad · Know what to ask for, wherever you land ·{' '}
         <Link href="/about" className="hover:text-gold underline-offset-4 hover:underline">About</Link> ·{' '}
-        <Link href="/how-we-check" className="hover:text-gold underline-offset-4 hover:underline">How we check</Link>
+        <Link href="/how-we-check" className="hover:text-gold underline-offset-4 hover:underline">How we check</Link> ·{' '}
+        <Link href="/privacy" className="hover:text-gold underline-offset-4 hover:underline">Privacy</Link> ·{' '}
+        <Link href="/terms" className="hover:text-gold underline-offset-4 hover:underline">Terms</Link> ·{' '}
+        <Link href="/consumer-health-data" className="hover:text-gold underline-offset-4 hover:underline">Consumer health data</Link>
       </div>
     </footer>
   );

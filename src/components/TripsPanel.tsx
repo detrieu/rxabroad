@@ -3,12 +3,14 @@
 import { useCallback, useEffect, useState } from 'react';
 import { CheckIcon, CloudIcon, LoaderCircleIcon, LogInIcon, PlusIcon, Trash2Icon } from 'lucide-react';
 import { toast } from 'sonner';
+import Link from 'next/link';
 import { SignInButton, useAuth } from '@clerk/nextjs';
 import { Button } from '@/components/ui/button';
+import { Checkbox } from '@/components/ui/checkbox';
 import { Input } from '@/components/ui/input';
 import { useActiveTripId } from '@/lib/my-meds';
 import { defaultTripName, type Trip } from '@/lib/trips';
-import { createTrip, deleteTrip, listTrips, updateTrip } from '@/app/my-meds/actions';
+import { createTrip, deleteTrip, giveHealthDataConsent, listTrips, updateTrip, withdrawHealthDataConsent } from '@/app/my-meds/actions';
 import { cn } from '@/lib/utils';
 import type { CountryCode } from '@/data';
 import { Flag } from './Flag';
@@ -29,8 +31,10 @@ export function TripsPanel({ meds, dests, setMeds, setDests }: TripsPanelProps) 
   const userId = clerkUserId ?? null;
   const isPending = !isLoaded;
   // Trips are stored with the user they belong to, so switching accounts never shows stale trips.
-  const [loaded, setLoaded] = useState<{ userId: string; trips: Trip[] } | null>(null);
+  const [loaded, setLoaded] = useState<{ userId: string; trips: Trip[]; consented: boolean } | null>(null);
   const trips = userId && loaded?.userId === userId ? loaded.trips : null;
+  const consented = !!userId && loaded?.userId === userId && loaded.consented;
+  const [agree, setAgree] = useState(false);
   const setTrips = useCallback(
     (update: (list: Trip[]) => Trip[]) => setLoaded((prev) => (prev ? { ...prev, trips: update(prev.trips) } : prev)),
     [],
@@ -49,13 +53,13 @@ export function TripsPanel({ meds, dests, setMeds, setDests }: TripsPanelProps) 
     if (!userId) return;
     let cancelled = false;
     listTrips()
-      .then((list) => {
+      .then(({ trips: list, consented }) => {
         if (cancelled) return;
-        setLoaded({ userId, trips: list });
+        setLoaded({ userId, trips: list, consented });
         // Forget an "open" trip that isn't this user's (e.g. after switching accounts or deleting elsewhere).
         if (activeId && !list.some((t) => t.id === activeId)) setActiveId(null);
       })
-      .catch(() => !cancelled && setLoaded({ userId, trips: [] }));
+      .catch(() => !cancelled && setLoaded({ userId, trips: [], consented: false }));
     return () => {
       cancelled = true;
     };
@@ -98,6 +102,10 @@ export function TripsPanel({ meds, dests, setMeds, setDests }: TripsPanelProps) 
 
   async function saveAsNew() {
     try {
+      if (!consented) {
+        await giveHealthDataConsent();
+        setLoaded((prev) => (prev ? { ...prev, consented: true } : prev));
+      }
       const trip = await createTrip({ name: defaultTripName(dests), meds, destinations: dests });
       setTrips((list) => [trip, ...list]);
       setActiveId(trip.id);
@@ -118,6 +126,19 @@ export function TripsPanel({ meds, dests, setMeds, setDests }: TripsPanelProps) 
       toast.success('Trip deleted');
     } catch {
       toast.error('Could not delete the trip');
+    }
+  }
+
+  async function withdraw() {
+    if (!window.confirm('Stop saving your medicines? This deletes all your saved trips and can’t be undone.')) return;
+    try {
+      await withdrawHealthDataConsent();
+      setLoaded((prev) => (prev ? { ...prev, trips: [], consented: false } : prev));
+      setActiveId(null);
+      setAgree(false);
+      toast.success('Saved trips deleted');
+    } catch {
+      toast.error('Could not delete your trips');
     }
   }
 
@@ -170,7 +191,16 @@ export function TripsPanel({ meds, dests, setMeds, setDests }: TripsPanelProps) 
           <p className="text-muted-foreground text-sm">
             {meds.length || dests.length ? 'Save your current card to your account.' : 'Build a card below, then save it as a trip.'}
           </p>
-          <Button className="mt-3 w-full" onClick={saveAsNew} disabled={!meds.length && !dests.length}>
+          {!consented && (
+            <label className="mt-3 flex items-start gap-2.5 text-sm leading-snug">
+              <Checkbox checked={agree} onCheckedChange={(v) => setAgree(v === true)} className="mt-0.5" />
+              <span>
+                I agree that Rx Abroad stores the medicines in my trips with my account, to show them to me. I can
+                delete them at any time. <Link href="/privacy#health" className="text-primary underline underline-offset-4">Privacy</Link>
+              </span>
+            </label>
+          )}
+          <Button className="mt-3 w-full" onClick={saveAsNew} disabled={(!meds.length && !dests.length) || (!consented && !agree)}>
             <PlusIcon /> Save as trip
           </Button>
         </div>
@@ -207,6 +237,12 @@ export function TripsPanel({ meds, dests, setMeds, setDests }: TripsPanelProps) 
             ))}
           </ul>
         </div>
+      )}
+
+      {consented && (
+        <button type="button" onClick={withdraw} className="text-muted-foreground hover:text-destructive mt-4 text-xs underline underline-offset-4">
+          Stop saving my medicines and delete all trips
+        </button>
       )}
     </section>
   );
