@@ -16,7 +16,8 @@ export type Rule = {
   text: string;
   source?: string;
   /** Whether you need the country's permission before you travel. */
-  permit?: boolean;
+  /** Yes or No, or a short phrase where the official rule and what travelers usually do differ. */
+  permit?: boolean | string;
   maxSupply?: string;
   documents?: string;
 };
@@ -41,7 +42,7 @@ export const CONTROLLED_RULE: Partial<Record<CountryCode, Rule & { byDrug?: Reco
     source: 'https://www.bfarm.de/EN/Federal-Opium-Agency/Narcotic-drugs/Travelling-with-narcotic-drugs/_node.html',
     permit: false,
     maxSupply: 'Up to 30 days',
-    documents: 'A doctor’s certificate endorsed by your home health authority, and your prescription',
+    documents: 'Your original labeled container and prescription. Officially, also a doctor’s certificate endorsed by your home health authority',
   },
   FR: {
     text: 'Controlled here. Officially, you must carry it yourself and be able to show the original prescription, with no more than the prescription covers (about four weeks if it gives no duration). At the least, carry it in its original labeled container with your prescription.',
@@ -53,16 +54,16 @@ export const CONTROLLED_RULE: Partial<Record<CountryCode, Rule & { byDrug?: Reco
   ES: {
     text: 'Controlled here. Officially, you need a permit from the Spanish medicines agency (AEMPS) before you travel, covering up to three months of treatment. At the least, carry it in its original labeled container with your prescription.',
     source: 'https://www.aemps.gob.es/industria-farmaceutica/comercio-exterior/medicamentos-destinados-al-tratamiento-de-los-viajeros/',
-    permit: true,
+    permit: 'Officially, from the Spanish medicines agency (AEMPS)',
     maxSupply: 'Up to three months',
-    documents: 'A permit from the Spanish medicines agency (AEMPS), and your prescription',
+    documents: 'Your original labeled container and prescription. Officially, also the AEMPS permit',
   },
   IT: {
     text: 'Controlled here. Officially, you need a certificate based on a valid prescription, endorsed by your home health authority and valid for up to 30 days. With only one package, a valid prescription is enough. At the least, carry it in its original labeled container with your prescription.',
     source: 'https://www.salute.gov.it/new/en/tema/medicinali-stupefacenti-e-precursori-di-droghe/travelling-internationally-medicines-containing/',
     permit: false,
     maxSupply: 'Up to 30 days',
-    documents: 'A certificate endorsed by your home health authority, or just a valid prescription for one package',
+    documents: 'Your original labeled container and prescription. Officially, also a certificate endorsed by your home health authority if you bring more than one package',
   },
   US: {
     text: 'Controlled here. Keep it in the original labeled pharmacy container and bring only what you need (generally no more than a 90-day supply). Arriving from abroad, declare it at customs and carry a prescription or doctor’s note in English.',
@@ -80,7 +81,7 @@ export const CONTROLLED_RULE: Partial<Record<CountryCode, Rule & { byDrug?: Reco
   },
   VN: {
     text: 'Controlled here. Without an import licence, bring no more than 7 days’ dose of a narcotic or 10 days’ dose of a psychotropic, as on your prescription, and carry the prescription.',
-    source: 'https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=123255',
+    source: 'https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-163-2025-nd-cp-45343.htm',
     permit: false,
     maxSupply: '7 days of a narcotic or 10 days of a psychotropic, without an import licence',
     documents: 'Your prescription',

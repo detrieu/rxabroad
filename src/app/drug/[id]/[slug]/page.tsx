@@ -174,7 +174,7 @@ export default async function DrugInCountryPage({ params }: PageProps<'/drug/[id
             <h2 id="bringing-heading" className={SECTION_LABEL}>Bringing your own</h2>
             {rule && (rule.permit !== undefined || rule.maxSupply || rule.documents) && (
               <dl className="mb-4 grid gap-x-6 gap-y-3 sm:grid-cols-3">
-                {rule.permit !== undefined && <QuickFact label="Permit before you travel">{rule.permit ? 'Yes' : 'No'}</QuickFact>}
+                {rule.permit !== undefined && <QuickFact label="Permit before you travel">{typeof rule.permit === 'string' ? rule.permit : rule.permit ? 'Yes' : 'No'}</QuickFact>}
                 {rule.maxSupply && <QuickFact label="Most you can bring">{rule.maxSupply}</QuickFact>}
                 {rule.documents && <QuickFact label="Carry">{rule.documents}</QuickFact>}
               </dl>

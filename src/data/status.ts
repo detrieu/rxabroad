@@ -39,12 +39,12 @@ export const STATUS = {
 
 /** What each status means for a traveler, in the order the footer legend lists them. */
 export const STATUS_DESCRIPTION: { status: Status; text: string }[] = [
-  { status: 'OTC', text: 'Over the counter. Take it off the shelf.' },
+  { status: 'OTC', text: 'No prescription needed.' },
   { status: 'RX', text: 'Needs a local doctor’s prescription.' },
   { status: 'MIXED', text: 'OTC or Rx depending on dose or form (e.g. nasal spray vs. inhaler).' },
   { status: 'PHARMACY', text: 'No prescription, but a pharmacist has to hand it over.' },
-  { status: 'CONTROLLED', text: 'A prescription works, but expect scrutiny, paperwork, and harder refills.' },
-  { status: 'BANNED', text: 'No legal personal-use pathway. Do not bring it in.' },
+  { status: 'CONTROLLED', text: 'Prescription only, with extra rules for buying it and bringing it in.' },
+  { status: 'BANNED', text: 'Illegal here, even with a prescription. Do not bring it in.' },
   { status: 'UNAVAILABLE', text: 'Not sold in this country. Bring it from home.' },
   { status: 'UNCONFIRMED', text: 'We couldn’t find reliable information on how it is sold here.' },
 ];
